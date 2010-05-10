@@ -2,8 +2,8 @@
 \paper {
 
 	#(set-paper-size "a5" )
-	between-system-space = 0.5\mm
-	between-system-padding = #.1
+	between-system-space = 0.2\mm
+	between-system-padding = #.4 
 	line-width = 120\mm
 	left-margin = 8\mm
 	ragged-right = ##t
