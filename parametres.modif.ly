@@ -2,13 +2,19 @@
 \paper {
 
 	#(set-paper-size "a5" )
-	between-system-space = 0.2\mm
-	between-system-padding = #.4 
+	between-system-spacing = #'((padding . 1) (space . 1))
+%	page-limit-inter-system-space = ##t
+%	page-limit-inter-system-space-factor = #1
+%	between-system-space = 1\mm
+	between-scores-system-spacing = #'((padding . 1) (space . 1))
+%	between-system-padding = #1
 	line-width = 120\mm
 	left-margin = 8\mm
+	short-indent = 25\mm
 	ragged-right = ##t
 	%ragged-last = ##t
-	%annotate-spacing = ##t
+%	annotate-spacing = ##t
+%	ragged-bottom = ##t
    
 }
 
