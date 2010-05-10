@@ -50,16 +50,16 @@
 		g[ bes]
 		a[\( g\)]
 		a4
-		\cesure
+		\cesure \pespace 
 		a8[ a]
 		\times 2/3 { a\( a\) a }
-		a4
-		\times 2/3 { g8 a f }
+		\slurDashed a4(
+		\times 2/3 { g8) a f }
 		f4
 		\endBar
 	}
 	\addlyrics {
-		 La ro -- yau -- té du mon -- - -- de est à no -- tre Sei -- gneur et à son Christ.
+		 La ro -- yau -- té du mon -- - -- de est à no -- tre Seign -- eur et à son Christ.
 		\markup { \citation #"Ap 11" }
 	}
 }
@@ -90,22 +90,17 @@
 		\times 2/3 { a[ g bes] }
 		\times 2/3 { a\( a\) g }
 		a4
-		\cesure
+		\cesure \slurDashed
 		\times 2/3 { a8 a a }
 		a[ a]
 		a16[\( g\) a f]
-		f4
-		
-\espall
-		\times 2/3 { r
-8_\( f g\) }
-		a[\( bes\)]
-		a4
+		f4 \cesure
+		\espall \times 2/3 {a8[ c bes]} a[\( g] a4\) 
 		\endBar
 	}
 	\addlyrics {
 		 E -- xal -- té par la droi -- te de Dieu, il a re -- çu du Pè -- re l'Es -- prit Saint.
-		 Al -- le -- lu -- - -- "ia !"
+		 Al -- le -- lu -- "ia !" _ _
 		\markup { \citation #"Ac 2" }
 	}
 }

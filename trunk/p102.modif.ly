@@ -12,15 +12,15 @@
 		d[\( f\)]
 		e[ d]
 		e4
-		\cesure
+		\cesure \pespace
 		d8[ e]
 		d4
-		\cesure
+		\cesure \pespace
 		d16[ c c b]
 		a4
 		\endBar
 	}	\addlyrics {
-		Com -- me le Pè -- re m'a ai -- mé, moi aus -- si je vous ai ai -- més.
+		Com -- me le Pè -- re m'a ai -- mé, moi aus -- si, je vous ai ai -- més.
 		\markup { \citation #"Jn 15"}
 	}
 }
@@ -28,15 +28,15 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
-		c8
-		b16[\cesure c d f]
-		e8[ d] e4
-		r16 d[ d d]
-		e16[ d d c]
+		c16
+		b16[\cesure  \pespace c d d]
+		d8[ d] \cesure \pespace 
+		 d16[\cesure \pespace f e d]
+		e4 \pespace \pespace d8[ d c]
 		\stemDown b4\( a8\) r8		
 		\endBar
 	}	\addlyrics {
-		A vous, mi -- sé -- ri -- corde et paix, et cha -- ri -- té en ab -- on -- dan -- ce.
+		A vous, mi -- sé -- ri -- cor -- de, paix, et cha -- ri -- té en ab -- on -- dan -- ce.
 		\markup { \citation #"Jude"}
 	}
 }
@@ -49,7 +49,7 @@
 		d[ f]
 		e[ d]
 		e4
-		\cesure
+		\cesure \pespace
 		d8[ d]
 		d[\( d\)]
 		e16[\( d\) d c]
@@ -68,9 +68,9 @@
 		g8
 		c[ b]
 		c[ d]
-		d8.[ d16]  \times 2/5 {d16[\( d\) f e d]} 
-		e4
-		\cesure
+		d8.[ \pespace  \pespace d16]  \times 2/5 {d16[\( d\) f e d]} 
+		e4 \pespace
+		\cesure \pespace
 		\times 2/3 { e8 d c }
 		\stemDown b4\( a8\) r
 		\endBar
@@ -83,12 +83,10 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
-		r8 c
-		b[ c]
+		 c8[ b c]
 		\times 2/3 { d d f }
-		e4
-		d8[ e]
-		d[\( d\)]
+		e8[\cesure \pespace d16 e]
+		d8[\( c\)]
 		c[ b]
 		a4
 		\endBar

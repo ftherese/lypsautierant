@@ -6,7 +6,7 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
-		c16 d[ c b a] \times 2/3 { c4\( \cesure c8\) } c16[ c c a] c8[ b] a4
+		c16 d[ c b a] \times 2/3 { c4\( \cesure \pespace c8\) } c16[ c c a] c8[ b] a4
 
 
 		
@@ -27,7 +27,7 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
-		\times 2/3 { g8[\( a\) \cesure c] } d[\( c\)] c4 \cesure \times 2/3 { c8 c c } a16[\( c\) c b] a4
+		\times 2/3 { g8[\( a\) \cesure \pespace c] } d[\( c\)] c4 \cesure \pespace \times 2/3 { c8 c c } a16[\( c\) c b] a4
 
 
 		
@@ -49,7 +49,7 @@
 		
 		\set Staff.instrumentName = \markup{ \center-column { Av. } }
 		\times 2/3 { r8_\( g[ a]\) }
-		\times 2/5 {c16[c c d c]} c4 \cesure
+		\times 2/5 {c16[c c d c]} c4  \pespace \cesure \pespace
 		c16[ c c c]
 		c16[ a c c]
 		\stemUp b4\( a8\) r8		
@@ -72,8 +72,8 @@
 		c16
 		c16[\( c\) d c]
 		b8[ a] 
-		c8[\cesure c16 c]
-		a16[ c c b] a4 \cesure
+		c8[\cesure \pespace c16 c]
+		a16[ c c b] a4 \cesure \pespace
 		\times 2/3 {g8[ a c]} d4		
 		\endBar
 	}
@@ -92,7 +92,7 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
-		d8[ c] b[ a] \times 2/3 { c4\( \cesure c8\) }
+		d8[ c] b[ a] \times 2/3 { c4\( \pespace \cesure\pespace  c8\) }
 		c16[ c c c] a[ c c b] a4
 
 

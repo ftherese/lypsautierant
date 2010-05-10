@@ -31,7 +31,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
 		
 		\times 2/3 {f8[ g a]} \times 2/3 { a[ g bes] } a[\( g\)] a8.[
-		\cesure a16] a[ a a a] a8[ a] g[ g] f[ e] d4
+		\cesure  \pespace a16] a[ a a a] a8[ a] g[ g] f[ e] d4
 
 		
 		
@@ -73,7 +73,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
 		
 		\times 2/3 {f8[ g a]} \times 2/3 { a[ g bes] } \times 2/3 { a[\( g\) a] } a4 
-		\cesure \times 2/3 {a8[ a a]} \times 2/3 { a[ g  g] } f[ e] d4
+		\cesure \pespace \times 2/3 {a8[ a a]} \times 2/3 { a[ g  g] } f[ e] d4
 
 		
 		
