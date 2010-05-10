@@ -1,0 +1,114 @@
+{	
+if (( NF > 0 )&&( NR%2 == 1 )&&($1 != "#")){ 
+   if (($(NF-1)=="--")||($(NF-2)=="--") ) {
+	if ($(NF-3)=="--") {
+		for (i=1;i<=NF-5;++i) 
+			printf "%s ", $i; 
+		printf "%s ","\\pl{"$(NF-4)"}"; 
+		printf "%s ", $(NF-3);
+		printf "%s ",  $(NF-2);
+		printf "%s ",  $(NF-1);
+		printf "%s ",  $NF;
+		printf "\n";
+		end;
+		} 
+	else {
+		for (i=1;i<=NF-4;++i) 
+			printf "%s ", $i; 
+		printf "%s ","\\pl{"$(NF-3)"}"; 
+		printf "%s ",$(NF-2); 
+		printf "%s ",$(NF-1); 
+		printf "%s ",$NF; 
+		printf "\n";
+		end;
+		}
+   }
+   else { 
+	for (i=1;i<=NF-3;++i) 
+	printf "%s ", $i; 
+	printf "%s ", "\\pl{"$(NF-2)"}"; 
+	printf "%s ", $(NF-1); 
+	printf "%s ", $NF; 
+	printf "\n"
+   }
+}
+if ((NR%2 == 0)&&($1 != "#")){
+	total = 0;
+	offset = 2;
+	if ($1 ~ /[^0-9.]/){
+		printf "%s ", "\\mi{"$1"}";}
+	else { printf "%s ", $1; printf "%s ", "\\mi{"$2"}";offset=3;}
+	if (NF>=6){
+		for (i=0;i<=6;++i){ if ($(NF-i) == "--"){total++}}
+	}
+	else {
+		for (i=0;i<=NF;++i){ if ($(NF-i) == "--"){total++}}
+	}
+	if ( total == 3){
+		if ( $(NF-6) != "--"){
+			for (i=offset;i<=NF-7;++i) printf "%s ", $i;
+			printf "%s ", "\\pl{"$(NF-6)"}";
+			for (i=5;i>=1;--i) printf "%s ", $(NF-i);
+			printf "%s ", "\\pl{"$NF"}";
+			printf "\n";
+			}
+		else {
+                        for (i=offset;i<=NF-6;++i) printf "%s ", $i;
+                        printf "%s ", "\\pl{"$(NF-5)"}";
+                        for (i=4;i>=1;--i) printf "%s ", $(NF-i);
+			printf "%s ", "\\pl{"$NF"}";
+                        printf "\n";
+                        }
+	}
+	if ( total == 2) {
+		if ( $(NF-5) != "--"){
+                	for (i=offset;i<=NF-6;++i) printf "%s ", $i;
+                	printf "%s ", "\\pl{"$(NF-5)"}";
+                	for (i=4;i>=1;--i) printf "%s ", $(NF-i);
+			printf "%s ", "\\pl{"$NF"}";
+                	printf "\n";
+			}
+		else {
+			for (i=offset;i<=NF-5;++i) printf "%s ", $i;
+                        printf "%s ", "\\pl{"$(NF-4)"}";
+                        for (i=3;i>=1;--i) printf "%s ", $(NF-i);
+			printf "%s ", "\\pl{"$NF"}";
+                        printf "\n";
+                        }
+                }
+	if ( total == 1) {
+                if ( $(NF-4) != "--"){
+                        for (i=offset;i<=NF-5;++i) printf "%s ", $i;
+                        printf "%s ", "\\pl{"$(NF-4)"}";
+                        for (i=3;i>=1;--i) printf "%s ", $(NF-i);
+			printf "%s ", "\\pl{"$NF"}";
+                        printf "\n";
+                        }
+                else {
+                        for (i=offset;i<=NF-4;++i) printf "%s ", $i;
+                        printf "%s ", "\\pl{"$(NF-3)"}";
+                        for (i=2;i>=1;--i) printf "%s ", $(NF-i);
+			printf "%s ", "\\pl{"$NF"}";
+                        printf "\n";
+                        }
+                }
+	if (total == 0 ) {
+                if ( $(NF-3) != "--"){
+                        for (i=offset;i<=NF-4;++i) printf "%s ", $i;
+                        printf "%s ", "\\pl{"$(NF-3)"}";
+                        for (i=2;i>=1;--i) printf "%s ", $(NF-i);
+			printf "%s ", "\\pl{"$NF"}";
+                        printf "\n";
+                        }
+                else {
+                        for (i=offset;i<=NF-3;++i) printf "%s ", $i;
+                        printf "%s ", "\\pl{"$(NF-2)"}";
+                        for (i=1;i>=1;--i) printf "%s ", $(NF-i);
+			printf "%s ", "\\pl{"$NF"}";
+                        printf "\n";
+                        }
+                }
+	}
+if ($1 == "#"){ for (i=2;i<=NF;++i) printf "%s ", $i; printf "\n"; print ""}
+print ""
+}
