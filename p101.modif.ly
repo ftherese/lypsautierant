@@ -18,7 +18,7 @@
 	}
 
 	\addlyrics {
-		Dieu nous con -- so -- le dans tou -- tes nos ép -- reu --  _ ves.
+		Dieu nous con -- so -- le dans tou -- tes nos ép -- reu -- - -- ves.
 		\markup { \citation #"2 Co 1" } 
 	}
 }
@@ -52,13 +52,13 @@
 		g[ f]
 		f4
 		\times 2/3 { f8 f f }
-		\times 2/3 { e[\( c\) d] }
-		d4
+		\times 2/3 { f[\( e\) c] }
+		d4\( d8\) r
 		\endBar
 	}
 
 	\addlyrics {
-		La pri -- è -- re de la foi sau -- ve -- ra l'hom -- me pa -- tient.
+		La pri -- è -- re de la foi sau -- ve -- ra l'hom -- me ma -- la -- de.
 		\markup { \citation #"Jc 5" } 
 	}
 }
@@ -72,11 +72,11 @@
 		c[ f]
 		\times 2/3 { e f g }
 		f[\( f\)]
-		\cesure
+		\cesure \pespace
 		f16[ f f f]
 		\times 2/3 { f8 e c }
 		\times 2/3 { d4\( d8\) }
-		\cesure
+		\cesure \pespace
 		\times 2/3 { c[ d f] }
 		g4
 		\endBar

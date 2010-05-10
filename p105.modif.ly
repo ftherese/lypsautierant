@@ -28,15 +28,15 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
-		a8
-		bes16[ a g a]
-		\times 2/3 { a8[ g g] }
-		f4\( d8\) r8
+		f8
+		g16[ a a a]
+		\times 2/3 { a8[ g bes] }
+		a[\( g8]\) a4
 		\endBar
 	}
 
 	\addlyrics {
-		Ce -- lui qui a pro -- mis est fi -- dè -- le.
+		Ce -- lui qui a pro -- mis est fi -- dè -- - -- le.
  		\markup { \citation #"He 10" } }
 	
 	
@@ -48,7 +48,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { Av. Noël } }
 		
 		a8 \times 2/3 { g[ g bes] } a[ g] \times 2/3 { a4\( 
-		\cesure a8\) } \times 2/3 { a[ g g] } \times 2/3 { f4\(  d8\) }
+		\cesure \pespace a8\) } \times 2/3 { a[ g g] } \times 2/3 { f4\(  d8\) }
 
 		
 		
@@ -89,7 +89,7 @@
 		
 		\times 2/3 { r8_\( f[ g\)] } a[ a] \times 2/3 { a[ a a] } \times 2/3 { a[ g bes] } a[ g] a4 
 		
-\espall \times 2/3 { r
+\espall \pespace \times 2/3 { r
 8_\( a[ g\)] } g[\( f\)] d4
 
 		
@@ -98,7 +98,7 @@
 	}
 
 	\addlyrics {
-		Vous a -- vez é -- té ap -- p -- lés à  la li -- ber -- té. Al -- le -- lu -- - -- "ia !"
+		Vous a -- vez é -- té ap -- pe -- lés à  la li -- ber -- té. Al -- le -- lu -- - -- "ia !"
  		\markup { \citation #"Ga 5" } }
 	
 	

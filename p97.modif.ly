@@ -1,6 +1,6 @@
 ﻿\version "2.12.0"
  \include "definitions.ly"
- \markup {psaume 97 }
+ \markup {psaume 97 - attention: on l'a passé en 5°mode!}
 
 
 

@@ -10,7 +10,7 @@
 		a8
 		\times 2/3 { a8[\( a\) a] }
 		\times 2/3 { g8[\( a\) b] } a8[\( a\)]
-		r8 a
+		\pespace r8 a
 		a16[ a a b]
 		a16[ g g f]
 		e4
@@ -52,8 +52,8 @@
 		a8
 		g16[ a a a]
 		g8[ a]
-		b8[\cesure a]
-		\stemUp \times 2/3 { a4\(\cesure b8\) }
+		b8[\cesure \pespace a]
+		\stemUp \times 2/3 { a4\(\cesure \pespace b8\) }
 		a8[ g]
 		g8[ f]
 		e4
@@ -75,10 +75,10 @@
 		a8[ g]
 		\times 2/3 { a a a }
 		a[\( a\)]
-		\cesure
+		\cesure \pespace
 		\times 2/3 { a g b }
 		a4
-		\cesure
+		\cesure \pespace
 		b8[ a]
 		g[ f]
 		e4

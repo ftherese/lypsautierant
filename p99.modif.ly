@@ -26,7 +26,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
 		r16 f[ a]
-		c16[ c c c]  d8[ c] c4
+		c16[ c c c]  d8[ c] c4 \pespace
 		r16 c[ c c]
 		c16[ c c c]
 		d16[\cesure b b c]
@@ -44,7 +44,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Av. } }
 		f16[ a c c]
-		c8[ d]  c8[\( c\)]
+		c8[ d]  c8[\( c\)] \pespace
 		\times 2/3 { r8\( c[ c]\) }
 		d16[ b b\( c\)]
 		a4\( a8\) r8
@@ -64,7 +64,7 @@
 		c[ d]
 		\times 2/3 { c4\( c8\) }
 		
-\espall
+\espall \pespace
 		\times 2/3 { r
 \( d b\) }
 		c[\( a\)]

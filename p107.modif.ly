@@ -49,18 +49,18 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Av. } }
-		\times 2/5 {f16[\( f\) e f g]}
-		f8[\( f16\)\cesure f]
-		f16[\( f\) f f]
+		c8 d8[\( c\)]
 		\times 2/3 { f8[ f f] }
+		\times 2/3 { f8[\( f\) \cesurebasse \pespace f] }
+		\times 2/3 { g8[ f g] }
+		f8[ \cesurebasse \pespace f16 f]
 		\times 2/3 { f8[\( e\) c] }
 		d4\( d8\) r8
-		
 		\endBar
 	}
 
 	\addlyrics {
-		Cel -- les qui ét -- aient prê -- tes ent -- rèr -- ent av -- ec lui dans la sal -- le des noc -- es.
+		Les vier -- ges qui ét -- aient prê -- tes entr -- èrent av -- ec lui dans la sal -- le des noc -- es.
 		\markup { \citation #"Mt 25" } 
 	}
 }
@@ -70,17 +70,16 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		c16[ d f f] f8[ g]
-		\times 2/3 { f4\( f8\) } \cesure
+		\times 2/3 { f4\( f8\) } \cesure \pespace
 		\times 2/3 { f8[ f f] }
 		f8[\( f\)]
-		\times 2/3 { e8[\( c\) d] } d4 \cesure
-		\times 2/3 {f8[ g a]} g4
+		\times 2/3 { e8[\( c\) d] } d4 
 		
 		\endBar
 	}
 
 	\addlyrics {
-		Il ma -- ni -- fest -- a sa gloi -- re et ses dis -- ci -- ples cru -- rent en lui. Al -- le -- lu -- "ia !" 
+		Il ma -- ni -- fest -- a sa gloi -- re et ses dis -- ci -- ples cru -- rent en lui. 
 		\markup { \citation #"Jn 2" } 
 	}
 }
@@ -90,10 +89,10 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
 		c16[ d f g]
-		\times 2/3 { f4\(\cesure f8\) }
-		\times 2/3 { f8[ f f] } f4\cesure
+		\times 2/3 { f4\(\cesure \pespace f8\) }
+		\times 2/3 { f8[ f f] } f4\cesure \pespace
 		\times 2/3 { f8[ e c] }
-		\times 2/3 { d4\( d8\) } \cesure
+		\times 2/3 { d4\( d8\) } \cesure \pespace
 		\times 2/3 { c8 d f }
 		g4
 		\endBar

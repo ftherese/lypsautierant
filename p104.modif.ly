@@ -11,10 +11,10 @@
 		\times 2/3 { g[ a\( a\)] }
 		\times 2/3 { a\( g\) bes }
 		a4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { a8[ a a] }
 		\times 2/3 { a8[\( a\) g] }
-		a4\cesure	
+		a4\cesure	\pespace 
 		a16[\( a\) g a]
 		f4\( f8\) r
 		\endBar
@@ -28,12 +28,12 @@
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		\times 2/3 { f8[ g a] }
+		\times 2/3 { a8[ g bes] }
+		a4 \cesure \pespace a8[ a a]
 		\times 2/3 { a8[ a a] }
-		a16[\cesure a a bes]
-		\times 2/3 { a8[ g a] }
-		a8[\cesure a]
+		a8[\cesure \pespace a]
 		a16[ a g a]
-		a4\( a8\) r8		
+		f4\( f8\) r8		
 		\endBar
 	}	\addlyrics {
 		Ils sont les fils d'Is -- ra -- ël, ay -- ant pour eux l'a -- dop -- tion, la gloire et les al -- lian -- ces.
@@ -48,7 +48,7 @@
 		f16[ g a a]
 		a16[\( a\) a a]
 		bes16[\( a\) a g]
-		\times 2/3 { a8[\( a\) a] }
+		\times 2/3 { a8[\( a\) \cesure \pespace a] }
 		\times 2/3 { a8[ g a] }
 		f4\( f8\) r8
 		\barre
@@ -63,7 +63,7 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
-		\times 2/5 {f16[g a g bes]} a4 \cesure
+		\times 2/3 {f8[ g a]} g[ bes] a4 \cesure \pespace
 		a16[ a a a]
 		a16[ a a a]
 		\times 2/3 { g8[ a f] }
@@ -81,9 +81,9 @@
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
 		f8
 		\times 2/3 { g[ a a] }
-		\times 2/3 { a4\( a8\) }
-		a16[a g bes]
-		\times 2/3 { a4\( a8\) }
+		\times 2/3 { a4\( \pespace a8\) }
+		g16[bes a g]
+		\times 2/3 { a4\( \pespace a8\) }
 		a[\( a\)]
 		a16[ a g a]
 		f4\( f8\) r
