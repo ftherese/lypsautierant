@@ -27,8 +27,8 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		a16 
 		\times 2/5 {a16[ a a\( g\) bes]}
-		a8[ g] f8.[ g16]
-		\times 2/3 { g8[ g g] }  g8[ g] d4 \cesure
+		a8[ g] f8.[\pespace \pespace g16]
+		\times 2/3 { g8[ g g] }  g8[ g] d4 \cesure \pespace
 		\times 2/3 { f8[ f e] }  d4
 			
 		\endBar
@@ -81,16 +81,16 @@
 
 	\addlyrics {
 		Jé -- sus ne re -- tint pas ja -- lou -- se -- ment le rang qui l'é -- ga -- lait à Dieu. " Al" -- le -- lui -- "a !"
- 		\markup { \citation #"Phi 2" } }
+ 		\markup { \citation #"Ph 2" } }
 }
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
-		a8[ bes] a4 \cesure
-		a16[ a g bes]  a8[\( g\)] f4 \cesure
-		g4 \cesure
+		a8[ bes] a4 \cesure \pespace
+		a16[ a g bes]  a8[\( g\)] f4 \cesure \pespace
+		g4 \cesure \pespace
 		\times 2/3 { g8[ g g] }
 		d8[ f] f8[\( e\)]
 		d4

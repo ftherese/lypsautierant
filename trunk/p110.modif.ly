@@ -32,7 +32,7 @@
 		c16[ b c d]
 		\times 2/5 {d16[d d d f]}
 		\times 2/3 { e8[ e d] }
-		e8[\( e\)] \cesure
+		e8[\( e\)] \cesure \pespace
 		\times 2/5 {d16[d d d e]}
 		d16[ d c c]
 		\stemUp b4\( a8\) r8
@@ -52,7 +52,7 @@
 		r16 d[ f e]
 		d[ d d e]
 		d8[\( c\)]
-		\stemUp \times 2/3 { b4\( a8\) }
+		\stemUp \times 2/3 { b4\( a8\) } r8
 		\endBar
 	}
 
@@ -77,7 +77,7 @@
 	}
 
 	\addlyrics {
-		Il nous faut tra -- vai -- ller aux œu -- vres de Ce -- lui qu'il a en -- vo -- yé.
+		Il nous faut tra -- vai -- ller aux œu -- vres de ce -- lui qui m'a en -- vo -- yé.
 		\markup { \citation #"Jn 9" } }
 	
 	
@@ -91,7 +91,7 @@
 		c4
 		d16[\( f\) e d]
 		e4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { d8\( e\) d }
 		\times 2/3 { d[ c b] }
 		a4
