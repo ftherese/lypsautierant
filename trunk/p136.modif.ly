@@ -92,7 +92,7 @@
 		
 		Chan -- tez et cé -- lé -- brez le Sei -- gneur de tout vot -- re cœur. Al -- le -- lu -- "ia !"
 		
-		\markup { \citation #"Ap 15" } }
+		\markup { \citation #"Ep 5" } }
 	
 	
 }

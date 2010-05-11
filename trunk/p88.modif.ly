@@ -102,7 +102,7 @@
 
 	\addlyrics {
 		Le Sei -- gneur m'a con -- sa -- cré par l'on -- tion. Al -- le -- lu -- "ia !" _
- 		\markup { \citation #"Jn 14" } }
+ 		\markup { \citation #"Lc 4" } }
 	
 	
 }
