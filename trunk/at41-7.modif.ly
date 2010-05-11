@@ -10,8 +10,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
 		c8
-		b8[\cesure c]
-		\times 2/3 { d8[\cesure f e] }
+		b8[\cesure \pespace c]
+		\times 2/3 { d8[\cesure\pespace  f e] }
 		\times 2/3 { e8[ d e] } e4
 		\endBar
 	}	\addlyrics {
@@ -26,7 +26,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		\times 2/3 { r8\( c[ b]\) }
 		\times 2/3 { c8[ d f] }
-		e8[ d] e8[\( e\)] \cesure
+		e8[ d] e8[\( e\)] \cesure\pespace 
 		\times 2/3 {c8[ c d]} d4 
 		\endBar
 	}	\addlyrics {
@@ -58,7 +58,7 @@
 		\times 2/3 { d4\( d8\) }
 		\times 2/5 { d16\( d\) f e d }
 		e4
-		\cesureall
+		\cesureall\pespace 
 		\times 2/3 { e8 d c }
 		\stemDown
 		b4\( a8\) r

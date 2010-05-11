@@ -28,7 +28,7 @@
 		
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël } }
 		\times 2/3 { r8\( c c\) } \times 2/3 { c4\( d8\) } \times 2/3 { c[\( b\) a] }
-		\times 2/3 { c[ \cesure c c] } \times 2/3 { a[ c c] } \stemDown b4\( a8\) r
+		\times 2/3 { c[ \cesure \pespace c c] } \times 2/3 { a[ c c] } \stemDown b4\( a8\) r
 		
 		
 		\endBar
@@ -46,7 +46,7 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
-		\times 2/3 { c d c }  c4 \times 2/3 { c8 c a } c[ c] \stemDown b4\( a8\) r
+		\times 2/3 { c d c }  c4 \cesure\pespace\times 2/3 { c8 c a } c[ c] \stemDown b4\( a8\) r
 		
 		\endBar
 	}
@@ -67,11 +67,11 @@ c[ c]
 \times 2/5 {c16[ c c c d] }
 c[ c b a]
 c4
-\cesure
+\cesure\pespace \indentLine
 c16[ c c a]
 \times 2/3 { c8[ c b] } 
-a4
-\cesureall
+a4\pespace
+\cesureall\pespace
 \times 2/3 { c8[ d e] }
 d4
 		

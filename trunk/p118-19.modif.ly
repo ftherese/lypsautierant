@@ -68,7 +68,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		r16 a[ a a]
-		a16[ bes a g]
+		g16[ bes a g]
 		\times 2/3 { a4\( a8\) }
 		
 		\times 2/3 {r8_\(a[ g]\)} g[\( f\)] d4
@@ -91,7 +91,7 @@
 		\pespace
 		\times 2/3 { r8_\( bes a\) }
 		g[\( a\)] a4
-		\cesure \times 2/3 {g8[ g f]} d4
+		\cesure \pespace \times 2/3 {g8[ g f]} d4
 
 		
 		

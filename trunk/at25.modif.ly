@@ -9,7 +9,7 @@ f8
 \times 2/3 { g[ a a] }
 \times 2/3 { a[ a a] }
 a16[ a g bes]
-a8[\( a\)]
+a8[\( a\)] \pespace 
 \times 2/3 { a[ a a] }
 g[ g]
 f4\( d8\) r
@@ -28,7 +28,7 @@ En Dieu sont ca -- chés les tré -- sors de la sa -- ges -- se et de la con -- 
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Car.  } }
 		f8
 		g16[\( a\) g bes]
-		a16[\cesurebasse a a a]
+		a16[\cesurebasse\pespace   a a a]
 		\times 2/3 { a8[ g g] }
 		f4\( d8\) r8
 		\endBar
@@ -68,10 +68,10 @@ Voi -- ci que je viens sans tar -- der et j'ap -- porte a -- vec moi le sa -- la
 a8
 \times 2/3 { bes[ a g] }
 a[\( a\)]
-\cesure
+\cesure\pespace 
 \times 2/3 { g[ g f] }
 d4
-\cesureall
+\cesureall \pespace 
 \times 2/3 { f8[ g a] }
 bes[\( g] 
 a4\)

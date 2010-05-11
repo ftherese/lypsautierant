@@ -8,12 +8,12 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Av.} }
 		f16[ g a a]
-		\times 2/3 { a4\( a8\) }
+		a8[\( a16\) \cesurebasse \pespace a]
 		a16[ a g a]
 		f4\( f8\) r8
 		\endBar
 	}	\addlyrics {
-		Soy -- ez sages et sobres en vue de la pri -- è -- re.
+		Soy -- ez sages et sob -- res en vue de la pri -- è -- re.
 		\markup { \citation #"1 P 4"}
 	}
 }
@@ -45,7 +45,7 @@
 		a8
 		\times 2/3 { a[ a a] }
 		\times 2/3 { a g bes }
-		\times 2/3 { a4\( a8\) }
+		\times 2/3 { a4\(  \pespace \pespace a8\) }
 		\times 2/3 { a[ a a] }
 		\times 2/3 { g\( a\) f }
 		f4
@@ -60,11 +60,11 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
-		f16[\cesurebasse g a\( a\)]
-		\times 2/3 { a4\(\cesure a8\) }
+		f16[\cesurebasse \pespace g a\( a\)]
+		\times 2/3 { a4\(\pespace \cesure \pespace a8\) }
 		\times 2/3 { a8[ a a] }
 		bes16[ a a g]
-		a8[\( a\)]
+		a8[\( a\)] \pespace
 		\times 2/3 {r8_\(a[ g]\)} a[\( f\)] f4
 		\endBar
 	}	\addlyrics {

@@ -13,7 +13,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		\times 2/3 { r8\( c[ b]\) }
 		c8[ d]
-		f8[\( e\)]
+		f8[\( e\)] \pespace
 		r8 d8
 		d16[ e d c ]
 		c8[ b]
@@ -37,8 +37,8 @@
 		\pespace
 		\times 2/3 { r\( d d\) }
 		\times 2/3 { d[ d e] }
-		\slurDashed d4\( 
-		\times 2/3 { d8\) c c }\stemDown
+		\slurDashed d4( 
+		\times 2/3 { d8) c c }\stemDown
 		b4\( a8\) r
 		\endBar
 	}	\addlyrics {
@@ -55,7 +55,7 @@
 		d[ f]
 		\times 2/3 { e d e }
 		e4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { d8[ d e] }
 		d[ c]\stemDown
 		b4\( a8\) r
@@ -73,7 +73,7 @@
 		c16[ b c d]
 		\times 2/3 { d8 d f }
 		e[ d]
-		e4
+		e4 \pespace \pespace
 		\times 2/3 { d8 d e }
 		d8[ d16 c]
 		c8[ b]
@@ -93,7 +93,7 @@
 		\times 2/3 { d d f }
 		\times 2/3 { e[\( e\) d] }
 		e[\( e\)]
-		\cesureall
+		\cesureall \pespace
 		\times 2/3 { e d c }\stemDown
 		b4\( a8\) r
 		\endBar

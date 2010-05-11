@@ -29,7 +29,7 @@
 		g8 a8[ c]
 		\times 2/5 {c16[c c c c]}
 		\times 2/3 { b8[\( c\) d] }
-		c16[\cesure c b c]
+		c16[\cesure \pespace c b c]
 		a8[ g] g4
 		\endBar
 	}
@@ -45,7 +45,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Av. } }
 		
-		g8 \times 2/3 { a[ g c] } c4 \cesure d8[ c] c4 
+		g8 \times 2/3 { a[ g c] } c4 \cesure \pespace d8[ c] c4 
 
 		
 		
@@ -64,7 +64,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
 		g8
-		\times 2/3 { a8[\( c\) d] } c4 
+		\times 2/3 { a8[\( g\) c] } c4 
 		\times 2/3 { c8[ b c] }
 		a8[ g] g4
 		\endBar
@@ -84,7 +84,7 @@
 		\times 2/3 { g8[ a g] } g4 
 		\pespace
 		\times 2/3 { r8\( c[ b\)] } c[\( d\)] c4
-		\cesure \times 2/3 {b8[ c a]} g4
+		\cesure \pespace \times 2/3 {b8[ c a]} g4
 
 		
 		

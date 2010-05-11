@@ -8,7 +8,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		
-		g16[ c b c] d8[ d] d[ f] e[\( e\)] r d16[ e] d[\( d\) c\( c\)] \stemUp b4\( a8\) r 
+		g16[ c b c] d8[ d] d[ f] e[\( e\)]\pespace  r d16[ e] d[\( d\) c\( c\)] \stemUp b4\( a8\) r 
 		\endBar
 	}
 	\addlyrics {
@@ -23,7 +23,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Av. } }
 		
-		d8[\( d\)] \cesure 
+		d8[\( d\)] \cesure \pespace 
 \times 2/3 { d[ d f] }
  e[ d] e4 d16[ d e d] d[ c c b] a4 
 		\endBar
@@ -44,8 +44,8 @@
 		
 		g16 c[ b c d] 
 \times 2/3 { d8[\( d\) d] }
- f16[\( e\) e d] e4 
-		\barre 
+ f16[\( e\) e d] e4 \pespace 
+		\barre \pespace 
 		\times 2/3 {e8[ d c]} 
 		\stemUp b4\( a8\) r8
 		\endBar
@@ -65,7 +65,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
 		
 		r16 c[ b c] d[\( f\) e d] 
-		\times 2/3 { e4\(  \cesure d8\) }
+		\times 2/3 { e4\( \cesure d8\) }
 		d16[ d e d] d[ c c b] d4
 		
 \espall

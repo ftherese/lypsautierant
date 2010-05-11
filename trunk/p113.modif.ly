@@ -31,7 +31,7 @@
 		\times 2/3 { c8[ d c] }
 		\times 2/3 { c8[ f e] }
 		f8[ g]
-		f8[\cesurebasse f16 f]
+		f8[\cesurebasse \pespace f16 f]
 		f16[ f e c]
 		d4\( d8\) r8
 		\endBar
@@ -87,15 +87,16 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
-		r16 c[ d f]
-		\times 2/3 { f8[\cesurebasse f f] }
+		c8 d[ f] f4 \pespace
+r8 
+		f16[ f] 
 		\times 2/3 { f8[ e c] }
 		d4\( d8\) r8
 		\endBar
 	}
 
 	\addlyrics {
-		Pet -- its enf -- ants, gar -- dez -- -vous des i -- do -- les.
+		Pet -- its enf -- ants, pre -- nez garde aux i -- do -- les.
 		\markup { \citation #"1 Jn 5" } 
 	}
 }

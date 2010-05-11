@@ -13,7 +13,7 @@
 		\times 2/3 { g[\( c\) c] }
 		\times 2/3 { b\( c\) d }
 		c[\( c\)]
-		\cesure
+		\cesure \pespace
 		\times 2/3 { c b c }
 		a[ g]
 		g4
@@ -29,8 +29,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		g8
-		\times 2/3 { a8[\cesure c d] }
-		\times 2/3 { c8[\cesure c c] }
+		\times 2/3 { a8[\cesure \pespace c d] }
+		\times 2/3 { c8[\cesure \pespace c c] }
 		\times 2/3 { b8[ c a] }
 		g4\( g8\) r8
 		\endBar
@@ -59,10 +59,10 @@
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		g16[ a c c]
 		c8[ d]
-		c8.[\cesure a16]
+		c8.[\cesure \pespace a16]
 		c8[ c]
-		d8.[\cesure c16]
-		c16[ c c c]
+		d8.[\pespace \cesure \pespace c16]
+		c16[ \cesure \pespace c c c]
 		\times 2/5 {c16[\( b\) c a g]}
 		g4
 		\endBar
@@ -79,7 +79,7 @@
 		d[ d]
 		c[\( d\)]
 		c4
-		\cesure
+		\cesure \pespace
 		b16[ c a g]
 		g4
 		\endBar
@@ -93,16 +93,16 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
 		\times 2/3 { g8 a g }
-		\times 2/3 { c[\( c\) \cesure c] }
+		\times 2/3 { c[\( c\) \cesure \pespace c] }
 		c4
-		\cesure
+		\pespace
 		\times 2/3 { b8 c a }
 		\times 2/3 { g4\( g8\) }
 		\cesure
 		\times 2/3 {a8[ c d]} c4
 		\endBar
 	}	\addlyrics {
-		Dieu est lu -- miè -- re, en lui, point de té -- nè -- bres. Al -- le -- lu -- "ia !"
+		Dieu est lu -- miè -- re, en lui point de té -- nè -- bres. Al -- le -- lu -- "ia !"
 		\markup { \citation #"1 Jn 1"}
 	}
 }

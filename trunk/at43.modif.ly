@@ -9,7 +9,7 @@
 		\set Staff.instrumentName = \markup{ \center-column {T.O.  } }
 \times 2/3 { c8[ d f] }
 \slurDashed f4(
-f16)[ f f f]
+f16)[\( f\) f f]
 \times 2/3 { e8[ f g] }
 f[\( f\)]
 \times 2/3 { e[ c d] }
@@ -42,7 +42,7 @@ Que le Seign -- eur dai -- gne vous ar -- mer de puis -- san -- ce par son Es --
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column {Av. Car.  } }
 f16[ e f g]
-\times 2/3 { f8[\( f\) \cesurebasse f] }
+\times 2/3 { f8[\( f\) \cesurebasse \pespace  f] }
 f16[\( f\) f f]
 e8[ c]
 d4\( d8\) r
@@ -60,14 +60,14 @@ Re -- le -- vez la tê -- te car vo -- tre ré -- demp -- tion ap -- pro -- che.
 		\set Staff.instrumentName = \markup{ \center-column { Noël T.P. } }
 \times 2/3 { f8[ f f] }
 f[\( f\)]
-\cesure
+\cesure\pespace 
 \times 2/3 { e[ f g] }
 f4
-\pespace
+\pespace\pespace 
 \times 2/3 { r8_\( f[ f]\) }
 \times 2/3 { e[ c d] }
 d4
-\cesureall
+\cesureall\pespace 
 \times 2/3 { f8[ g a] }
 g4
 		\endBar

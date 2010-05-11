@@ -12,7 +12,7 @@
 a[\( a\)]
 \times 2/3 { bes[ a g] }
 a4 
-\cesure
+\cesure \pespace \indentLine
 a16[ a a a]
 a[ a a a]
 g8[\( a\) f]
@@ -49,7 +49,7 @@ A moins de naî -- tre d'eau et d'Es -- prit, nul ne peut en -- trer dans le Roy
 		\set Staff.instrumentName = \markup{ \center-column {Car. } }
 f8
 g4
-\cesure
+\cesure \pespace 
 \times 2/3 { a8[ g bes] }
 a4
 
@@ -78,7 +78,7 @@ a4
 \times 2/3 { r8_\( a[ a\)] }
 a[ a]
 g[ a]
-f4\( f8\) r
+f4\( f8\) \cesure\pespace 
 \times 2/3 {f8[ g a]} g4 
 		\endBar
 	}	\addlyrics {

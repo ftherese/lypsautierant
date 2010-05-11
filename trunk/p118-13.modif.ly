@@ -11,7 +11,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		c16[ b c d]
 		\times 2/3 { f8[ e d] }
-		e8[ e16\cesure e]
+		e8[\( e16\) \cesure \pespace e]
 		d16[ d c c ]
 		\stemUp b4\( a8\) r8
 		\endBar
@@ -62,7 +62,7 @@
 		\times 2/3 { r8\( c[ b]\) }
 		\times 2/3 { c8[ d d] }
 		f16[\( e\) e d]
-		e8[\( e\)]
+		e8[\( e\)] \pespace
 		\times 2/3 { r8\( e[ d]\) }
 		\times 2/3 { d8[\( c\) b] }
 		a4		
@@ -81,8 +81,8 @@
 		\pespace
 		\times 2/3 { r\( f e\) }
 		d[\( e\)]
-		e4
-		\cesure
+		e4 
+		\cesure \pespace
 		\times 2/3 { e8 d c }
 		\override Stem #'neutral-direction = #up
 		b4\( a8\) r

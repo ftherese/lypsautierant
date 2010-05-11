@@ -8,8 +8,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		
-		r8 c \times 2/3 { c b c } d[\( c\)]
-		r c \times 2/3 { c[ b c] } a[\( g\)] g4
+		 c8 \times 2/3 { c b c } d[\( c\)]
+		\pespace r c \times 2/3 { c[ b c] } a[\( g\)] g4
 		
 		
 		
@@ -48,7 +48,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		
-		r8 c b[ c] d[ c] c4
+		 c8 b[ c] d[ c] c4
 		\times 2/3 { b8 c a } g4
 
 		
@@ -67,13 +67,13 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
 		
-		r8 g \times 2/3 { c[\cesure b c] } d16[\( d\)\cesure c b] \times 2/3 { c8 d c } c4
+		 g8 \times 2/3 { c[\cesure \pespace b c] } d16[\( d\)\pespace \cesure \pespace c b] \times 2/3 { c8 d c } c4
 
 		\endBar
 	}
 
 	\addlyrics {
-		Le Christ no -- tre Pâ -- que a é -- té im -- mo -- lé.
+		Le Christ, no -- tre Pâ -- que, a é -- té im -- mo -- lé.
  		\markup { \citation #"1 Co 5" } }
 	
 	
@@ -83,8 +83,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
 		
-		r8 g \times 2/3 { c[ b c] } d[ d] c[ d] c4
-		\cesure \times 2/3 { c8 b c } a[ g] g4
+		 g8 \times 2/3 { c[ b c] } d[ d] c[ d] c4
+		\cesure  \pespace \times 2/3 { c8 b c } a[ g] g4
 		\cesureall \times 2/3 { g8 a c } d[\( e] d4\)
 
 		

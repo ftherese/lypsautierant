@@ -11,13 +11,13 @@
 		\times 2/5 { g[ a a a a] }
 		g8[ bes]
 		a4 
-		\espace
+		\espace\indentLine
 		r8 a8
 		\times 2/3 { a[\( a\) a] }
 		\times 2/3 { a a a }
 		\times 2/3 { g[ a f] }
 		f4
-		\cesure
+		\cesure\pespace 
 		\times 2/3 { g8 a bes }
 		a[\( g]
 		a4\)
@@ -39,7 +39,7 @@
 		\cesure
 		\times 2/3 { a8 a a }
 		a16[ a g a]
-		f4\( f8\) r
+		f4\( f8\) \cesure
 		\times 2/3 { f8 g a }
 		g4
 		\endBar

@@ -29,7 +29,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { Av. Car. } }
 		\times 2/3 { r8_\( g a\) }
 		\time 2/3 { c[ c c] }
-		\slurDashed d4(
+		\slurDashed d4( \pespace 
 		\times 2/3 { c8) b a }
 		c4
 		
@@ -52,7 +52,7 @@
 		\times 2/3 { c\([ c\) d] }
 		\times 2/3 { c b a }
 		c[\( c\)]
-		\cesure c8[ c ]
+		\cesure \pespace  c8[ c ]
 		a16[ c c b]
 		a4
 		
@@ -73,13 +73,13 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
 		r16 g[ a c]
 		c[ c c d]
-		c[\( c\) \cesure b a]
+		c[\( c\) \cesure\pespace   b a]
 		c8[\( c\)]
-		\pespace
+		\pespace\indentLine
 		\times 2/3 { r\( c c\) }
 		c16[\( a\) c c]
-		\stemDown  b4\( a8\) r
-		\cesureall
+		\stemDown  b4\( a8\) 
+		\cesureall \pespace 
 		\times 2/3 { c[ d e] }
 		d[\( c]
 		d4\)

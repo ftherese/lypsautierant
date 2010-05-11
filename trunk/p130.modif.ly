@@ -26,9 +26,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		c8[\( c\)]
-		\cesure
-		\times 2/5 {c16[c c c c]} c8[ c]
-		c16[ b c d]
+		\cesure \pespace
+		\times 2/5 {c16[c c c c]} b8[ c]
+		d16[ d c d]
 		\times 2/3 { c4\( \cesure c8\) }
 		\times 2/3 { c[ c c] }
 		b[ c]
@@ -46,8 +46,8 @@
 		\set Staff.instrumentName = \markup{ \center-column { Av. Car. } }
 		c8[ b]
 		c8[\( d\)]
-		c4 r8 c8 b8[\( c\)]
-		\cesure
+		c4 \pespace r8 c8 b8[\( c\)]
+		\cesure \pespace
 		a8[ g]
 		g4
 		\endBar
@@ -62,7 +62,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		c8
-		d8[ c] c4 \cesure
+		d8[ c] c4 \cesure \pespace
 		\times 2/3 { c8[ c c] }
 		c8[ b]
 		\times 2/3 { c8[\( a\) g] }
@@ -78,12 +78,12 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
 		g8 \slurDashed a4(
-		\times 2/3 { g8[) c d] } c4 \cesure
-		\times 2/3 {c8[ b c]} a4 \cesure
+		\times 2/3 { g8[) c d] } c4 \pespace \cesure \pespace
+		\times 2/3 {c8[ b c]} a4 \cesure \pespace
 		\times 2/3 {g8[ a g]} g4
 		\endBar
 	}	\addlyrics {
-		"La pa" -- ix soit av -- ec vous. Al -- le -- lu -- ia, al -- le -- lui -- _ "a !"
+		"La pa" -- ix soit av -- ec vous. Al -- le -- lu -- ia, al -- le -- lui -- "a !"
 		\markup { \citation #"Jn 20"}
 	}
 }

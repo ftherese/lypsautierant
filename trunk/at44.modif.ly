@@ -12,7 +12,7 @@
 		c16[ c c c]
 		\times 2/3 { c4\( c8\) }		
 		d16[ c b a]
-		c8[\( c]\) \cesure
+		c8[\( c]\) \cesure\pespace 
 		\times 2/3 { a8[ c c] }
 		\stemDown b4\( a8\) r8
 		\endBar
@@ -32,15 +32,15 @@
 		\times 2/3 { c[\( c\) d] }
 		\times 2/3 { c b a }
 		c4
-		\pespace
+		\pespace\pespace 
 		r8 a
 		c[ c]
 		\stemDown
-		b4\( a8\) r \espace
+		b4\( a8\) \cesure\espace
 		\times 2/3 {c8[ d e]} d4 
 		\endBar
 	}	\addlyrics {
-		Qui in -- vo -- que le nom du Seig -- neur se -- ra sau -- vé. _ "Al" -- le -- lu -- "ia !"
+		Qui in -- vo -- que le nom du Seig -- neur se -- ra sauv -- é -- "- !" "Al" -- le -- lu -- "ia !"
 		\markup { \citation #"Rm 10"}
 	}
 }

@@ -11,7 +11,7 @@
 		\times 2/3 { r8_\( g[ a]\) }
 		c16[\( c\) c c]
 		\times 2/3 { c8[\( d\) c] }
-		c16[ c b a] c4 \cesure
+		c16[ c b a] c4 \cesure \pespace
 		\times 2/3 {a8[ c c]} \stemDown b4\( a8\) r8
 		\endBar
 	}

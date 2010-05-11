@@ -13,8 +13,8 @@
 		f8 
 		\times 2/3 { g8[ a a] }
 		a16[ bes a g]
-		\times 2/3 { a8[\cesure g a] } f4
-		\barre
+		\times 2/3 { a8[\cesure\pespace   g a] } f4
+		\barre\pespace 
 		\times 2/3 { f8 g a } g4
 		\endBar
 	}

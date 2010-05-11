@@ -7,7 +7,7 @@
 		\set Staff.instrumentName = \markup{ \center-column {  } }
 		\times 2/3 { r8_\( a a\) }
 		\slurDashed
-		a4(
+		a4( \pespace \pespace
 		a16)[ a g b]
 		a8[\( a\)]
 		\espace
@@ -33,7 +33,7 @@
 		\times 2/3 { a8 g a }
 		b[ a]
 		\slurDashed
-		a4( \pespace
+		a4( \pespace\pespace
 		a16)[ a a a]
 		\times 2/3 { a8\( b\) a }
 		g[ g]
@@ -46,7 +46,7 @@
 	}
 
 	\addlyrics {
-		Il leur ouv -- rit l'espr -- it à l'in -- tel -- li -- gen -- ce des é -- cri -- tu -- res. "(Al" -- le -- lu -- - -- "ia !)"
+		Il leur ouv -- rit l'espr -- it à l'in -- tel -- li -- gen -- ce des É -- cri -- tu -- res. "(Al" -- le -- lu -- - -- "ia !)"
 		\markup { \citation #"Lc 24" } 
 	}
 }

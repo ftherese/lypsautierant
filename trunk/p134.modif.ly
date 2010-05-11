@@ -68,7 +68,7 @@
 		c16[\( b\) c d]
 		\times 2/3 { d8[ f e] }
 		\times 2/3 { e8[ d e] }
-		e8[ d16 d]
+		e8[ \cesure  \pespace d16 d]
 		d16[ d d d]
 		d16[ d e d]
 		d16[\( c\) c b]
@@ -86,7 +86,7 @@
 		\times 2/3 { r8_\( g c\) }
 		b16[ c d\( f\)]
 		\times 2/3 { e8 e d }
-		e[\( e\)]
+		e[\( e\)] \cesure  \pespace
 		\times 2/3 { e d c }
 		\stemUp
 		b4\( a8\) r
@@ -107,7 +107,7 @@
 		\times 2/3 { d4\(\cesure d8\) }
 		\times 2/3 { d8[ f e] }
 		\times 2/3 { e8[ d e] } e4	
-		\cesure
+		\cesure \pespace
 		\times 2/3 { e8 d c }
 		\stemUp b4\( a8\) r
 		\endBar

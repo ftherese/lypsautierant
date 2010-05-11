@@ -12,11 +12,11 @@
 		\times 2/3 { r8_\( g a\) }
 		\times 2/3 { g[ c c] }
 		c4
-		\cesure
-		\times 2/3 { b8 c d }
+		\cesure \pespace
+		\times 2/3 { b8[ c d] }
 		c4
-		\cesure
-		\times 2/3 { b8 c a }
+		\cesure\pespace
+		\times 2/3 { b8[ c a] }
 		g4
 		\endBar
 	}	\addlyrics {
@@ -29,13 +29,13 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
 		\times 2/3 { r8_\( g a\) }
-		\times 2/3 { g[\( c\) \cesure b] }
+		\times 2/3 { g[\( c\) \cesure  \pespace b] }
 		c4
-		\cesure
+		\cesure \pespace
 		c8[ c]
-		\slurDashed
-		b4(
-		\times 2/3 { c8) a g }
+		
+		b4 \pespace
+		\times 2/3 { c8[ a g] }
 		g4
 		\endBar
 	}	\addlyrics {
@@ -66,7 +66,7 @@
 		g8[ c]
 		\slurDashed c4( c8[) b]
 		c8[ d]
-		c8[\( c\)]
+		c8[\( c\)] \pespace
 		\times 2/3 {r8\(b[ c]\)} a[\( g\)] g4
 		\endBar
 	}	\addlyrics {

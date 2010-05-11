@@ -7,10 +7,10 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
-		f8
-		\times 2/3 { g8[ a bes] } a8[ g] a4 \cesure
-		\times 2/3 { a8[ a a] } a4 \cesure
-		\times 2/3 { a8[\( f\) g] } a8[\cesurebasse g] g4
+		a8
+		\times 2/3 { a8[ a a] } g8[ a] f4 \cesure\pespace 
+		\times 2/3 { a8[ a a] } a4 \cesure\pespace 
+		\times 2/3 { a8[\( bes\) a] } a8[\cesurebasse \pespace g] a4
 		\endBar
 	}
 	\addlyrics {
@@ -42,7 +42,7 @@
 		\override Stem #'neutral-direction = #up
 		\times 2/3 { a4\( bes8\) }
 		\times 2/3 { a[ a g] }
-		a[\( a\)]
+		a[\( a\)] \pespace 
 		\times 2/3 { r_\( a g\) }
 		a[\( f\)]
 		f4
@@ -62,7 +62,7 @@
 		\times 2/5 { g[ a a a a] }
 		bes[ a\( g\) a]
 		a4
-		\cesureall
+		\cesureall\pespace 
 		\times 2/3 { f8 g a }
 		bes[\( g]
 		a4\)

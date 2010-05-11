@@ -30,7 +30,7 @@
 		\times 2/3 { c8[ c c] }
 		c8[ d]
 		\times 2/3 { c8[ b a] }
-		c4 \cesure	
+		c4 \cesure	 \pespace
 		a16[ c c b] a4
 
 		\endBar
@@ -50,7 +50,7 @@
 		\times 2/3 { a[ c d] }
 		c16[\( c\) b a]
 		c4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { c8 c c }
 		\times 2/3 { c4\( c8\) }
 		\times 2/3 { a[ c c] }
@@ -72,7 +72,7 @@
 		d[ c]
 		\times 2/3 { c b a }
 		c4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { c8 a c }
 		c[ b]
 		a4
@@ -97,10 +97,10 @@
 		g8
 		a8[ c]  d8[ c]
 		\times 2/3 { c8[\cesure b a] }
-		c4 \cesure
-		c8[\( c\)]
+		c4 \cesure \pespace
+		c8[\( c\)] \pespace
 		\times 2/3 { r8\( a[ c]\) } c8[ b] a4
-		\cesure
+		\cesure \pespace
 		\times 2/3 {g8[ a c]} d[\( e] d4\) 
 		\endBar
 	}

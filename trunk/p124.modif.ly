@@ -10,7 +10,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		
 		\times 2/3 {a8[ bes a]} g[\( f\)]
-		\cesure \times 2/3 { g[ g  g] } \times 2/3 { d[ f  f] } \times 2/3 { e4\(  d8\) } r8
+		\cesure \pespace \times 2/3 { g[ g  g] } \times 2/3 { d[ f  f] } \times 2/3 { e4\(  d8\) } r8
 
 		
 		
@@ -29,8 +29,8 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
 		
-		\times 2/3 {a8[ g bes]} \times 2/3 { a[ g  f] } \times 2/3 { f[
-		\cesurebasse g d] } f[ f] \times 2/3 { e4\(  d8\) } r8
+		\times 2/3 {a8[ g bes]} \times 2/3 { a[ g  f] } \times 2/3 { f[ \pespace
+		\cesurebasse \pespace g d] } f[ f] \times 2/3 { e4\(  d8\) } r8
 
 		
 		
@@ -71,8 +71,8 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
 		
 		r8 a16[ g] bes[ a g f] \times 2/3 { f8[
-	\cesure g g] } g16[ d f f] \times 2/3 { e4\(  d8\) }
-	\cesureall \times 2/3 { f[ g  a] } bes[\( g] a4\)
+	\cesurebasse \pespace g g] } g16[ d f f] \times 2/3 { e4\(  d8\) }
+	\cesureall \pespace \times 2/3 { f[ g  a] } bes[\( g] a4\)
 
 		
 		

@@ -2,28 +2,23 @@
  \include "definitions.ly"
  \markup {psaume  120}
 
+
 \relative a' { 
 	\new Staff {
-		\cadenzaOn
-		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
-		
-		\times 2/3 {f8[ g a]} a[ bes] a[ g] a4 r8 a
-		\slurDashed
-		a4( a8)[ a] 
-		\times 2/3 { g[ a f] }
-		f4
-
-		
+		\cadenzaOn 		\key f \major
+		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël } }
+		r8 a16[ a]
+		g[ bes a g]
+		a4
+		\pespace
+		\times 2/3 {r8_\(a[ g]\)} a[ f] f4
 		
 		\endBar
 	}
-
 	\addlyrics {
-		Il s'hu -- mi -- lia jus -- qu'à  la mort, auss -- i Dieu l'a- -- t-il e -- xal -- té.
- 		\markup { \citation #"Ph 2" } }
-	
-	
+		 Le Sei -- gneur est mon se -- cours, je ne crai -- ndrai pas. 
+		\markup { \citation #"He 13" }
+	}
 }
 
 
@@ -33,7 +28,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
 		a8[ g]
 		a4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { a8 a a }
 		a[ g]
 		a[ f]
@@ -66,21 +61,27 @@
 		\markup { \citation #"Ap 22" }
 	}
 }
-
-\relative a' { 
+\relative a' { 
 	\new Staff {
-		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Noël T.P. } }
-		r8 a16[ a]
-		g[ bes a g]
-		a4
-		\cesure
-		\times 2/3 {r8_\(a[ g]\)} a[\( f\)] f4
+		\cadenzaOn
+		\key f \major
+		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		
+		\times 2/3 {f8[ g a]} a[ bes] a[ g] a4 r8 a
+		\slurDashed
+		a4( a8)[ a] 
+		\times 2/3 { g[ a f] }
+		f4 \cesure \pespace
+		\times 2/3 {a8[ c bes]} a[\( g] a4\) 
+		
 		
 		\endBar
 	}
+
 	\addlyrics {
-		 Le Sei -- gneur est mon se -- cours. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"He 13" }
-	}
+		Il s'hu -- mi -- lia jus -- qu'à  la mort, auss -- i Dieu l'a- -- t-il e -- xal -- té. Al -- le -- lu -- "ia !" _ _
+
+ 		\markup { \citation #"Ph 2" } }
+	
+	
 }

@@ -10,7 +10,7 @@
 		g8
 		g8[ g]
 		\times 2/3 { d'8[ e c] }
-		f8[ e] d8[\cesure c] d4
+		f8[ e] d8[\cesure \pespace c] d4
 		\endBar
 	}
 	\addlyrics {
@@ -25,7 +25,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		c8 
-		d8[ e] e4
+		d8[ e] e4 \pespace
 		r8 f8
 		\times 2/3 { d8[ c d] } d4
 	
@@ -46,7 +46,7 @@
 		\times 2/3 { b8[ c d] }
 		d16[\cesure \pespace d f e]
 		d8[ d]
-		d16[ d b c]
+		d16[ d d c]
 		d16[ c a b]
 		g4\( g8\) r8
 		\endBar
@@ -67,10 +67,10 @@
 		\times 2/3 { r8\( d[ c]\) }
 		d8[ e]
 		\times 2/3 { d8[ c d] }
-		b8[ b] c8[\cesure a]
-		\times 2/3 { g8[\( g\)\cesure a] } 
-		\times 2/3 { f8[ f a] }
-		g4\( g8\) \cesure
+		b8[ b] c8[\cesure \pespace a]
+		\times 2/3 { g8[\( g\)\cesure \pespace a] } 
+		\times 2/3 { a8[ c b] }
+		g4\( g8\) \pespace \cesure \pespace
 		\times 2/3 {c8[ b c]} d[\( e] d4\)
 		\endBar
 	}
@@ -88,7 +88,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
 		\times 2/3 { d8[ d d] }
-		f16[ e d c]
+		f16[ f f e]
 		\times 2/3 { d8[ b c] }
 		 a4\( g8\) r8
 		\endBar
@@ -109,11 +109,11 @@
 		\times 2/3 { r8\( g[ d']\) }
 		d8[ c]
 		f16[\( f\) e f]
-		d8[\( d16\)\cesure c]
+		d8[\( d16\)\cesure \pespace c]
 		\times 2/3 { c8[ b c] }
 		d4 \cesure \pespace \indentLine
 		\times 2/3 { d8[ b c] }
-		\times 2/3 { a4\( g8\) } \cesure \pespace
+		\times 2/3 { a4\( g8\) } \pespace \cesure \pespace
 		\times 2/3 {c8[ b c]} d[\( e] d4\)
 		\endBar
 	}

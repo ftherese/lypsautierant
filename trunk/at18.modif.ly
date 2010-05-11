@@ -13,7 +13,7 @@
 		\times 2/3 { a4\( a8\) }
 		\times 2/3 { g[ g f] }
 		e4\( d8\) r
-		\barre
+		\barre \pespace 
 		\times 2/3 {f8[ g a]} g4
 		\endBar
 	}
@@ -30,12 +30,12 @@
 		\set Staff.instrumentName = \markup{ \center-column {  } }
 		a8
 		a16[ a a a]
-		g8[ bes] a4\cesure
+		g8[ bes] a4\cesure\pespace 
 		a16[ a a a]
 		a8.[ a16]
 		g16[ g f e]
 		d4
-		\barre
+		\barre\pespace 
 		\times 2/3 {f8[ g a]} g4
 		\endBar
 	}

@@ -7,11 +7,11 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		c8
-		\times 2/3 { b8[\cesure c\( d]\) }
+		\times 2/3 { b8[\cesure \pespace c\( d]\) }
 		d8[ d]
 		\times 2/3 { f8[\( e\) d] }
-		e4\pespace \cesure 
-		\times 2/3 { c8[ a b] } c4 \pespace \cesure 
+		e4\pespace \cesure \pespace
+		\times 2/3 { c8[ a b] } c4 \pespace \cesure \pespace 
 		\times 2/3 { d8[\( e\) e] } d4 d4
 		
 		
@@ -33,9 +33,9 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		d16
 		d16[\( c\) d e]
-		d8[\cesure d16 d]
-		f8.[\cesure e16]
-		d8[ c] d4
+		d8[\cesure \pespace d16 d]
+		f8.[\cesure \pespace \pespace e16]
+		d8[ c] d4 \pespace
 		c16[ a c b]
 		g4\( g8\) r8
 		\endBar
@@ -75,11 +75,11 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		g8
-		\times 2/3 { c8[ b c] } d4\cesure
-		\times 2/3 { d4\(\cesure c8\) }
+		\times 2/3 { c8[ b c] } d4\cesure\pespace
+		\times 2/3 { d4\(\cesure \pespace c8\) }
 		\times 2/3 { f8[ f f] }
-		e8[ f] d4 
-		\times 2/3 {r8\(c[ a]\)} b[\( g\)] g4
+		e8[ f] d4  \pespace
+		\times 2/3 {r8\(c[ d]\)} e[\( d\)] d4
 		\endBar
 	}
 	\addlyrics {
@@ -98,9 +98,10 @@
 		d8
 		d16[ c f e]
 		d8[ d16 d]
-		b8[ c]
-		a16[\( g\) b c] d4
-		\times 2/3 {r8\(c[ d]\)} e[\( d\)] d4
+		d8[ e]
+		c16[\( a\) b c] d4 \pespace
+\times 2/3 {r8\(c[ a]\)} b[\( g\)] g4
+		
 		\endBar
 	}
 	\addlyrics {

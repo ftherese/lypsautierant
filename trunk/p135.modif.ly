@@ -2,7 +2,26 @@
  \include "definitions.ly"
  \markup {psaume  135}
 
+\relative a' { 
+	\new Staff {
+		\cadenzaOn
+		\key f \major
+		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		r8  a16[ a]
+		a16[ \cesurebasse \pespace a g bes]
+		\times 2/3 { a8[\( g\) f] } f4 \cesure  \pespace
+		\times 2/3 { g8[ g\( d]\) }
+		f8[\( f\)]
+		e4\( d8\) r8
+		\endBar
+	}
 
+	\addlyrics {
+		Par la foi, il tra -- ver -- sèr -- ent la mer comme un -- e ter -- re sè -- che.
+ 		\markup { \citation #"He 11" } }
+	
+	
+}
 
 \relative a' { 
 	\new Staff {
@@ -11,7 +30,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		
 		\times 2/3 { r8_\( a[  a\)] } a[ a16 g] bes[ a g f] f4
-		\cesure \times 2/3 {g8[ d f]} f[ e] d4
+		\cesure  \pespace \times 2/3 {g8[ d f]} f[ e] d4
 		\endBar
 	}
 
@@ -25,7 +44,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
+		\set Staff.instrumentName = \markup{ \center-column { Av. Car. } }
 		
 		\times 2/3 {a8[ bes a]} 
 		\times 2/3 {a4\(  g8\) } 
@@ -48,7 +67,7 @@
 		a16[ a a a]
 		\times 2/3 { a8[ g bes] }
 		a8[ g]
-		f4 \cesure
+		f4 \cesure  \pespace
 		\times 2/3 {g8[ d f]}
 		e4\( d8\) r8
 		
@@ -61,24 +80,7 @@
 	
 	
 }
-\relative a' { 
-	\new Staff {
-		\cadenzaOn
-		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
-		
-		\times 2/3 { r8_\( a[ a\)] } \times 2/3 { a[ g bes] } a[ g] \times 2/3 { f4\( 
-		\cesure g8\) } g16[ d f f] \times 2/3 { e4\(   d8\) } r8
 
-		\endBar
-	}
-
-	\addlyrics {
-		Tout pou -- voir m'a é -- té don -- né au ciel et sur la ter -- re. 
- 		\markup { \citation #"Mt 28" } }
-	
-	
-}
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
@@ -86,7 +88,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
 		\times 2/3 { r8_\( a[ g]\) }
 		bes16[ a g f] f4
-		\cesure
+		\pespace \cesure  \pespace
 		\times 2/3 {g8[ d f]}
 		e4\( d8\) r8
 		\endBar

@@ -27,7 +27,7 @@
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { Av. } }
 		f8
-		g16[ a a a] a4
+		g16[ a a a] a4 \pespace
 		a16[\( g\) a f] f4
 		\endBar
 	}
@@ -41,8 +41,8 @@
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		f16[ g a a]
-		a8.[ bes16]
-		a16[\( a\) g a] a4 \cesure
+		a8.[ \pespace\pespace bes16]
+		a16[\( a\) g a] a4 \pespace \cesure\pespace
 		\times 2/3 {g8[ a f]} f4 
 		\endBar
 	}
@@ -80,7 +80,7 @@
 		g[ bes a g]
 		a4
 		
-\espall
+\espall\pespace
 		\times 2/3 { r8_\(  a g\) }
 		a[\( f\)]
 		f4

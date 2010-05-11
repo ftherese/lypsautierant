@@ -13,11 +13,11 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		r8 g
 		a4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { c8[ d c] }
 		\times 2/3 { c b a }
 		c4
-		\cesure
+		\cesure \pespace
 		c16[ c a c]
 		c8[ b]
 		a4
@@ -34,9 +34,9 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		g8
 		a16[ c c c]
-		c8[\( c\)] \cesure
+		c8[\( c\)] \cesure \pespace
 		c16[ c c c] c8[ d]
-		c8[\( c\)] \cesure
+		c8[\( c\)] \cesure \pespace
 		\times 2/3 { c8[ a c] }
 		c8[ b]
 		a4		
@@ -80,9 +80,9 @@
 		\stemDown
 		\times 2/3 { c4\( a8\) }
 		\stemNeutral
-		\times 2/3 { c[ c b] }
+		\times 2/3 { c[ c\( b]\) }
 		a4
-		\cesureall
+		\cesureall \pespace
 		\times 2/3 { c8 d e }
 		d4
 		\endBar
@@ -106,7 +106,7 @@
 		c16
 		c16[\( c\) c c]
 		a4
-		\espace
+		\espace \pespace
 		
 		\times 2/3 { c8 c b }
 		a4

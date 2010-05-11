@@ -8,7 +8,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		
-		\times 2/3 { r8_\( f[ a\)] } \times 2/3 { c[ c  d] } c[\( c\)] \times 2/3 { r\( c[ d\)] } \times 2/3 { b[ b  c] } \times 2/3 { a4\(   a8\) } r8
+		\times 2/3 { r8_\( f[ a\)] } \times 2/3 { c[ c  d] } c[\( c\)] \pespace \times 2/3 { r\(\pespace c[ d\)] } \times 2/3 { b[ b  c] } \times 2/3 { a4\(   a8\) } r8
 		
 		
 		
@@ -46,7 +46,7 @@
 		
 		\times 2/3 { r8_\( f[ a\)] } c[ c]
 		\slurDashed
-		d4( \pespace b16)[ b c a] a4
+		d4( \pespace \pespace b16)[ b c a] a4
 		
 		
 		
@@ -67,8 +67,8 @@
 		\set Staff.instrumentName = \markup{ \center-column { Noël Car. } }
 		\times 2/3 { f8[ a c] }
 		c8[ d]
-		\stemUp \times 2/3 { a4\(\cesure c8\) }
-		\stemDown \times 2/3 { c8[ c c] }
+		 \times 2/3 { c4\(\pespace\cesure \pespace c8\) }
+		 \times 2/3 { c8[ c c] }
 		\times 2/5 {d16[b b c a]} a4
 		\endBar
 	}
@@ -87,9 +87,9 @@
 		
 		\times 2/3 {f8[ a c]} c16[ c c c] c8[\( c\)] d[ d] c4 
 		
-\espall
+\espall \pespace
 		\times 2/3 { r
-8\( d[ b\)] } c[\( a\)] a4 r8
+8\( \pespace d[ b\)] } c[\( a\)] a4 r8
 		
 		
 		

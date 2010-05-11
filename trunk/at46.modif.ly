@@ -7,12 +7,12 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column {  } }
-		r16 f16[ a c]
+		f8[ a c]
 		c16[\( c\) c d]
-		c16[\( c\) \cesure c c] 
+		c8[\( c\)] \cesure \pespace c[ c] 
 		\times 2/3 { d8[ b b] }
 		c8[ a] a4
-		\barre
+		\barre\pespace 
 		\times 2/3 {f8[ a c]} c4 		
 		\endBar
 	}
@@ -31,19 +31,16 @@ Je suis la vi -- gne vé -- ri -- ta -- ble et mon Père est le vi -- gne -- ron
 f16
 a[ c c c]
 c8[\( c\)]
-\cesure
+\cesure\pespace 
 c16[ c c d]
 b[ b c a]
-a4 
-\barre
-
-\times 2/3 { r8_\( g[ a]\) }
-c[\( d\)]
-d4
+a4 \pespace 
+\barre\pespace  
+\times 2/3 { c8[ a g] } a 4
 		\endBar
 	}
 	\addlyrics {
-La gloi -- re de mon Pè -- re, c'est que vous por -- tiez beau -- coup de fruit. "(Al" -- le -- lu -- - -- "ia !)"		 
+La gloi -- re de mon Pè -- re, c'est que vous por -- tiez beau -- coup de fruit. "(Al" -- le -- lu -- "ia !)"		 
 		\markup { \citation #"Jn 15" } 
 	}
 }

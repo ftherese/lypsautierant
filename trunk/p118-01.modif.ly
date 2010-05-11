@@ -9,7 +9,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		
-		r8 f g[ a] 
+		f8 g[ a] 
 		\times 2/3 { g[ g f] } d4 
 
 		
@@ -32,7 +32,7 @@
 		
 		\times 2/3 { f8[\( g\) a] }
 		a[\( a\)] g[ bes] a4
-		\cesure \times 2/3 {g8[ g f]} d4
+		\cesure \pespace \times 2/3 {g8[ g f]} d4
 
 		
 		
@@ -51,9 +51,9 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		\times 2/3 { r8_\( f[ g]\) }
-		\times 2/3 { a8[ bes a] } g8[ a] a4
-		\cesure
-		a8[ a] g8[ g] f8[ e] d4
+		\times 2/3 { a8[ bes a] } g8[ a] a4 \pespace
+		\cesure \pespace
+		a8[ a] a8[ g] g8[ f] d4
 		\endBar
 	}
 
@@ -68,11 +68,11 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
-		a4 \cesure
-		\times 2/3 { a8[ g\( bes]\) } a4 \cesure
+		a4 \cesure \pespace
+		\times 2/3 { a8[ g\( bes]\) } a4 \cesure \pespace
 		a16[ a a a] a8[\( a\)]
-		a16[ a a g]
-		g8[ f] e4\( d8\) r8
+		a16[ a a a]
+		g8[ g] f4\( d8\) r8
 		\endBar
 	}
 
@@ -91,7 +91,7 @@
 		\times 2/3 {f8[ g a]} a4
 		\pespace
 		\times 2/3 { r8_\( bes[ a\)] } g[\( a\)] a4
-		\cesure \times 2/3 {g8[ g f]} d4
+		\cesure \pespace \times 2/3 {g8[ g f]} d4
 
 		
 		

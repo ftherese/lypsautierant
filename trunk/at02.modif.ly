@@ -29,13 +29,13 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. T.P. } }
 		\times 2/3 { c8[\( d\) f] } f4  \cesure
-		f16[ e c d] d4 
-		\barre		
+		f16[ e c d] d4 \pespace
+		\barre	\pespace	
 		\times 2/3 {r8_\(f[ g]\)} a[\( g\)] g4	
 		\endBar
 	}
 	\addlyrics {
-		L'œu -- vre de Dieu, c'est que vous croy -- iez. (Al -- le -- lu -- - -- "ia !)"
+		L'œu -- vre de Dieu, c'est que vous croy -- iez. "(Al" -- le -- lu -- - -- "ia !)"
 		\markup { \citation #"Jn 6" } 
 	}
 }
@@ -67,12 +67,12 @@ f8[\( f\)]
 \pespace
 \times 2/3 { r8_\( f[ f\)]}
 \times 2/3 {e[ c d]}
-d4 \cesure
-\times 2/3 {c8[ d f]} g4 		
+d4 
+		
 		\endBar
 	}
 	\addlyrics {
-El -- le re -- çut les deux ai -- les du grand ai -- gle pour vo -- ler au dé -- sert. Al -- le -- lui -- "a !"	
+El -- le re -- çut les deux ai -- les du grand ai -- gle pour vo -- ler au dé -- sert. 	
 		\markup { \citation #"Ap 12" } 
 	}
 }

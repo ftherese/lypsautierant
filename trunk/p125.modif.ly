@@ -12,7 +12,7 @@
 		c8
 		\times 2/3 { d8[ c f] }
 		f16[ e f g]
-		f8[\( f\)] \cesure
+		f8[\( f\)] \cesure \pespace
 		\times 2/5 {f16[f\( f\) f f]}
 		f16[\( f\) f f]
 		f16[\( e\) c d]
