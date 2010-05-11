@@ -9,7 +9,7 @@
 		\times 2/3 { r8\( c[ b]\) }
 		\times 2/3 { c8[ d d] }  d8[ d]
 		\times 2/3 { d4\( d8\) }
-		\times 2/3 { f8[ e d] } e4 \cesure
+		\times 2/3 { f8[ e d] } e4 \cesure \pespace
 		\times 2/5 {e16[d c c b]} a4
 		\endBar
 	}	\addlyrics {
@@ -38,13 +38,12 @@
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		\times 2/3 { d8 e d }
 		\times 2/3 { d[ c b] }
-		d4 \cesureall
-		\times 2/3 { e8 d c }
-		\stemDown
-		b4\( a8\) r
+		d4 \cesureall \pespace
+		\times 2/3 { c8 d e }
+		d4
 		\endBar
 	}	\addlyrics {
-		Il est ve -- nu chez les siens. Al -- le -- lu -- "ia !"  _
+		Il est ve -- nu chez les siens. Al -- le -- lu -- "ia !"  
 		\markup { \citation #"Jn 1"}
 	}
 }
@@ -70,9 +69,9 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
 		\times 2/5 { c16 b c d d }
 		d8[ f]
-		e[ \cesure d]
+		e[ \cesure \pespace d]
 		e4
-		\cesureall
+		\cesureall \pespace
 		\times 2/3 { e8 d c }
 		\stemDown
 		b4\( a8\) r

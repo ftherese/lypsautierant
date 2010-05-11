@@ -73,8 +73,8 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		f8
-		f8[\cesurebasse g]
-		g8[\cesurebasse a]
+		f8[\cesurebasse \pespace g]
+		g8[\cesurebasse \pespace a]
 		a8[ a16 g]
 		f8[ g] g4
 		\endBar

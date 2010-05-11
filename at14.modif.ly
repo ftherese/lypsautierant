@@ -12,7 +12,7 @@
 \times 2/3 { f[ f f] }
  
 \times 2/3 { e[ c d] }
- d4  \barre \times 2/3 { r8_\( f[ g\)] } a[\( g\)] g4 
+ d4  \pespace \barre \times 2/3 { r8_\( f[ g\)] } a[\( g\)] g4 
 		
 		\endBar
 	}

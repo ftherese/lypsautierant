@@ -11,7 +11,7 @@
 		
 a16[ a g bes] 
 \times 2/3 { a8[ g f] }
- f4 \cesure \times 2/3 {g8[ d f]} e4\( d8\) r
+ f4 \cesure \pespace \times 2/3 {g8[ d f]} e4\( d8\) r
 
 		
 		
@@ -33,7 +33,7 @@ a16[ a g bes]
 a8 
 \times 2/3 { a[ g bes] }
  a4
-\cesure g16[ d f e] d4 
+\pespace \cesure \pespace g16[ d f e] d4 
 
 		
 		
@@ -57,7 +57,7 @@ a8 a[ a]
  
 \times 2/3 { a[ bes a] }
  g[\( f\)] 
- \cesure
+\cesure\pespace 
 \times 2/3 { g[ g g] }
  g8.[ g16] d[ f\( f\) e] d4
 
@@ -82,9 +82,9 @@ a8 a[ a]
 \times 2/3 { a[ a a] }
  g[ bes] 
 \times 2/3 { a[ g f] }
- f4
-		\ifIndent g16[ g d f] f8[ e] d4 
-		\cesureall 
+ f4 \cesure\pespace 
+		\indentLine g16[ g d f] f8[ e] d4 
+		\cesureall \pespace 
 		\times 2/3 { f8[ a bes] }
 		g4
 

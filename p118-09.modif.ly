@@ -10,7 +10,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël } }
 		c8
 		d[ c]
-		\times 2/3 { c4\( \cesure c8\) }
+		\times 2/3 { c4\( \pespace \cesure \pespace c8\) }
 		\times 2/3 { c[ d b] }
 		\times 2/3 { b\( c\) a }
 		a4
@@ -27,10 +27,10 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
 		f16[ a c c]
 		c16[ c c c]
-		\times 2/3 { c8[\( c\)\cesure c] }
+		\times 2/3 { c8[\( c\)\cesure \pespace c] }
 		\times 2/3 { c8[\( c\) c] }
 		\times 2/3 { c8[ d d] }
-		c8[\( c\)] \cesure
+		c8[\( c\)] \cesure \pespace
 		c16[ c c d]
 		b16[ b c a] a4
 		\endBar
@@ -66,7 +66,7 @@
 		\times 2/3 { r8\( c d\) }
 		d[\( c\)]
 		c4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { d8 b c }
 		a4
 		\endBar

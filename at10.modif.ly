@@ -10,8 +10,8 @@
 		
 		f8 g[ a] 
 \times 2/3 { a[ a a] }
- g[ bes] a[\( a\)] \cesure a4 \cesure g16[ g f e] d4
-\barre \times 2/3 {f8[ g a]} bes[\( g] a4\)
+ g[ bes] a[\( a\)] \pespace\cesure \pespace a4 \cesure\pespace g16[ g f e] d4
+\barre \pespace\times 2/3 {f8[ g a]} bes[\( g] a4\)
 		
 		
 		\endBar
@@ -32,7 +32,7 @@
 		
 		r8 a16[ a] a[ a\( a\) a] 
 \times 2/3 { a8[\( g\) bes] }
- a4 r8 a16[ a] a[ a g g] f8[ e] d4 
+ a4 \pespace r8 a16[ a] a[ a g g] f8[ e] d4 
 
 		
 		
@@ -56,7 +56,8 @@
 		\slurDashed
 		a4(
 		
-		bes16)[\( a\) a g] a8[\( a\)] r16 a[ g g] f8[ e] d4
+		bes16)[\( a\) a g] a8[\( a\)]
+\pespace r16 a[ g g] f8[ e] d4
 
 		
 		
@@ -85,7 +86,7 @@ f8
  
 \times 2/3 { a[\( g\) bes] }
  a4 
-\cesureall \times 2/3 {g8[ g f]} e4\( d8\) r
+\cesureall \pespace\times 2/3 {g8[ g f]} e4\( d8\) r
 
 		
 		

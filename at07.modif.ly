@@ -8,9 +8,9 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël } }
 		\times 2/3 { a8[ g bes] }
-		\times 2/3 { a8[\cesure a a] }
-		\times 2/3 { g8[ g f] }
-		d4\( d8\) r8
+		\times 2/3 { a8[\cesure \pespace a a] }
+		\times 2/3 { a8[ g g] }
+		f4\( d8\) r8
 		\endBar
 	}
 
@@ -26,8 +26,8 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
 		 
 		\times 2/3 { r8_\(a[ g]\) }
-		a8[ bes] a4 
-		\cesure
+		a8[ \cesure\pespace bes] a4 
+		\cesure\pespace
 		g16[ g f e] d4\( d8 \) r
 		
 		\endBar
@@ -65,10 +65,10 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
 		\times 2/3 { r8_\( a[ a]\) }
 		a8[ a]
-		\times 2/3 { a8[ g bes] } a4
+		\times 2/3 { a8[ g bes] } a4 \pespace
 		\times 2/3 { r8_\( a[ a]\) }
 		\times 2/3 { g8[ g f] }	d4	
-		\cesure
+		\cesure\pespace
 		\times 2/3 {a'8[ g bes] }
 		a4
 		\endBar

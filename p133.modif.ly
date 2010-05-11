@@ -28,9 +28,29 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
+		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
+		
+		\times 2/3 {f8[ g a]} \times 2/3 { a[\( a\) \cesure \pespace a] } bes16[ a a g] a4 \times 2/3 {g8[ a f]} f4 
+
+		
+		\endBar
+	}
+
+	\addlyrics {
+		Dans la mon -- ta -- gne, Jé -- sus pas -- sait la nuit à  pri -- er Dieu.
+		\markup { \citation #"Lc 6" }
+ 	}
+	
+	
+}
+
+\relative a' { 
+	\new Staff {
+		\cadenzaOn
+		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { Av. } }
 		
-		a16 g[ bes a g] a4 r8 a g[ a] f4\( f8\) r
+		a16 g[ bes a g] a4 \pespace r8 a g[ a] f4\( f8\) r
 
 		
 		
@@ -67,25 +87,7 @@
 	
 }
 
-\relative a' { 
-	\new Staff {
-		\cadenzaOn
-		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
-		
-		\times 2/3 {f8[ g a]} \times 2/3 { a[\( a\) \cesure a] } bes16[ a a g] a4 \times 2/3 {g8[ a f]} f4 
 
-		
-		\endBar
-	}
-
-	\addlyrics {
-		Dans la mon -- ta -- gne Jé -- sus pas -- sait la nuit à  pri -- er Dieu.
-		\markup { \citation #"Lc 6" }
- 	}
-	
-	
-}
 
 \relative c' { 
 	\new Staff {

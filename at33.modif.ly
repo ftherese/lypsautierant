@@ -11,8 +11,8 @@
 		g8
 		\times 2/3 { a8[\( g\) c] }
 		\times 2/3 { b8[ c d] } 
-		\times 2/3 { c8[\cesure c b] }
-		\times 2/3 { c8[\( a\) g] } g4 \barre
+		\times 2/3 { c8[\cesure\pespace  c b] }
+		\times 2/3 { c8[\( a\) g] } g4 \barre\pespace 
 		\times 2/3 {c8[ d e]} d[\( c] d4\) 
 		\endBar
 	}	\addlyrics {

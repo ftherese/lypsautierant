@@ -10,8 +10,8 @@
 		\times 2/3 { a8[ a a] }
 		a16[ g a b]
 		a8[\( a\)]
-		b16[ a g f] e4
-		\barre
+		b16[ a g f] e4 \pespace 
+		\barre\pespace 
 		\times 2/3 { r8_\( g a\) }
 		b[\( a\)]
 		a4
@@ -34,11 +34,11 @@
 		\times 2/3 { a4\( a8\) }
 		\times 2/3 { a[ g b] }
 		a[\( a\)]
-		\cesure \espace
+		\cesure \pespace \indentLine
 		\times 2/3 { a b a }
 		\times 2/3 { g[ g f] }
-		e4
-		\barre
+		e4\pespace 
+		\barre\pespace 
 		\times 2/3 { r8_\( g a\) }
 		b[\( a\)]
 		a4

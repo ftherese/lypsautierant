@@ -22,11 +22,11 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. T.P. } }
 g8
-\times 2/3 { a[ c c] }
+\times 2/3 { a[ g c] }
 c[ c16\( c\)]
-\times 2/3 { c8[\( c\) d] }
+\times 2/3 { b8[\( c\) d] }
 \times 2/3 { c4\( c8\) }
-\cesure
+\pespace  
 \times 2/3 { r8\( b[ c]\) }
 a[\( g\)]
 g4
@@ -43,11 +43,11 @@ Voi -- ci que je fais tou -- tes cho -- ses nou -- vel -- les. Al -- le -- lu --
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		g16[ a c c]
-		\times 2/3 { c8[ d c] } c4 \cesure
+		\times 2/3 { c8[ d c] } c4  \cesure \pespace 
 		\times 2/3 { c8[ c c] }
 		\times 2/3 { c8[ c b] }
 		c8[ a]
-		g4\( g8\) r8
+		g4\( g8\)\pespace  \cesure\pespace 
 		\times 2/3 {g8[ a c]} d4 
 		\endBar
 	}	\addlyrics {
@@ -63,7 +63,7 @@ Voi -- ci que je fais tou -- tes cho -- ses nou -- vel -- les. Al -- le -- lu --
 		g16
 		a16[ c c c]
 		c16[ c c c] d8[ c]
-		c16[\( c\)\cesure c c]
+		c16[\( c\)\cesure \pespace c c]
 		\times 2/3 { c8[ b c] }
 		a8[ g]	g4
 		\endBar

@@ -48,7 +48,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { Av. } }
 		\times 2/3 { a8 a a }
 		a4
-		\cesure
+		\cesure \pespace
 		g8[\( g\)]
 		\pespace
 		\times 2/3 { r_\( a a\) }
@@ -68,10 +68,10 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
-		e8[ g] a4
-		\times 2/3 { r8_\( a[ a]\) }
+		e8[ g] a4 \pespace
+		a8[ a]
 		\times 2/3 { a8[ g a] }
-		b8[ a] a4 \cesure
+		b8[ a] a4 \pespace \cesure\pespace
 		\times 2/3 { b8 d c }
 		b[\( g]
 		a4\)
@@ -94,12 +94,12 @@
 		\times 2/3 { a[\( a\) b] }
 		g[ e]
 		e4
-		\cesure
+		\cesure\pespace
 		a8[ a]
 		g[ a]
 		b[ a]
 		a4
-		\cesure
+		\cesure\pespace
 		\times 2/3 { b8 d c }
 		b[\( g]
 		a4\)

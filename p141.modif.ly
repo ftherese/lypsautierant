@@ -15,7 +15,7 @@
 		c4
 		\pespace
 		\times 2/3 { r8\( c c\) }
-		c4 \cesure a16[ \cesure c c b]
+		c4 \cesure \pespace a16[ \cesure \pespace c c b]
 		a4
 		
 		
@@ -39,10 +39,10 @@
 		
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
 		c8
-		\times 2/3 { d4\( \cesure c8\) }
+		\times 2/3 { d4\(\pespace\cesure \pespace c8\) }
 		\times 2/3 { c[ b a] }
 		c[\( c\)]
-		\cesure
+		\cesure \pespace
 		\times 2/3 { c[ a c] }
 		c[ b]
 		a4
@@ -69,10 +69,10 @@
 		
 		\set Staff.instrumentName = \markup{ \center-column { Noël T.P. } }
 		c16
-		d[ \cesure c c c]
-		\times 2/3 { c8 \cesure b a }
-		c[\( c\)]
-		\cesure
+		d[ \cesure \pespace c c c]
+		\times 2/3 { c8[ \cesure b a] }
+		c[\( c\)]\pespace
+		\cesure\pespace
 		\times 2/3 { a c c }
 		\stemUp b4\( a8\) r8
 		
@@ -83,7 +83,7 @@
 
 	\addlyrics {
 		
-		Ma part c'est le Sei -- "gneur !" dit mon â -- me. Al -- le -- lu -- "ia !" _
+		Ma part, c'est le Sei -- "gneur !" dit mon â -- me. Al -- le -- lu -- "ia !" _
 		
 		\markup { \citation #"Lm 3" } }
 }
@@ -97,14 +97,14 @@
 		g8
 		a16[ c\( d\) c]
 		c8[\( c\)]
-		
+		\pespace
 		\times 2/3 { r_\( b a\) }
-		c4
-		\cesure
+		c4\pespace
+		\cesure \pespace
 		c8[\( c\)]
 		\pespace
 		\times 2/3 { r\( c c\) }
-		c8[ \cesure c16 a]
+		c8[ \cesure \pespace c16 a]
 		\times 2/3 { c8 c b }
 		a4
 		\endBar

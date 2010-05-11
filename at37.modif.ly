@@ -10,7 +10,7 @@
 		r16 e16[ g a]
 		\times 2/5 {a16[a a a a]}
 		\times 2/3 { a8[ a a] }
-		a16[\cesurebasse a g a]
+		a16[\cesurebasse \pespace a g a]
 		b8[ g] e4
 		\endBar
 	}
@@ -30,7 +30,7 @@ a16
 a[\( a\) a a]
 g8[ b]
 a4
-\cesure
+\cesure\pespace 
 a8[ a]
 a[ g]
 g4

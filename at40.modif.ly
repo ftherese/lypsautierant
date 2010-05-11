@@ -7,9 +7,9 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		r16 g16[ a c]
 		c 16[ c c d]
-		c16[\( c\)\cesure c c]
+		c16[\( c\)\cesure\pespace  c c]
 		\times 2/3 { c8[\( c\) b] }
-		\times 2/3 { c8[\( a\)\cesure g] } g4
+		\times 2/3 { c8[\( a\)\cesure\pespace  g] } g4
 		\endBar
 	}	\addlyrics {
 		A lui la gloire et la pui -- ssan -- ce pour les siè -- cles des siè -- cles. Am -- "en !"
@@ -22,11 +22,12 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		r16 g16[ a c]
 		c16[ c c c]
-		c16[  \cesure c d c]
-		\times 2/3 { c4\(\cesure c8\) }
-		\times 2/3 { c8[\cesure c c] }
+		c16[  \cesure \pespace c d c]
+		c4 \pespace \indentLine
+		r8 c8
+		\times 2/3 { c8[ \cesure\pespace  c c] }
 		\times 2/3 { c8[ c c] }
-		\times 2/3 { c4\( \espace \cesure b8\) }
+		\times 2/3 { c4\( \espace \cesure\pespace  b8\) }
 		\times 2/3 { c8[\( a\) g] } g4
 		\endBar
 	}	\addlyrics {
@@ -41,7 +42,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { Av. } }
 		\times 2/3 { g8 a g }
 		c4
-		\cesure
+		\cesure\pespace 
 		\times 2/3 { c8 c c } 
 		\times 2/3 { c[ a c] }
 		d[ c]
@@ -62,7 +63,7 @@
 		\times 2/3 { g8 a g }
 		\times 2/3 { c[ c\( c\)] }
 		\times 2/3 { b c d }
-		\times 2/3 { c4\( c8\) }
+		\times 2/3 { c4\( c8\) }\pespace 
 		\times 2/3 {r8\(b[ c]\)} a[\( g\)] g4
 		\endBar
 	}	\addlyrics {
@@ -78,7 +79,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
 		c8
 		\times 2/3 { b8[ c d] }
-		c8[\( c\)]
+		c8[\( c\)]\pespace 
 		r8 c16[ c]
 		c16[\( c\) c c]
 		c16[ b c a]
@@ -101,7 +102,7 @@
 		c[ c]
 		\times 2/3 { c4\( c8\) }
 		\times 2/3 { a[ c d] }
-		\times 2/3 { c4\( c8\) }
+		\times 2/3 { c4\( c8\) }\pespace 
 		\times 2/3 { r\( a c\) }
 		d[\( c\)] c4
 		\endBar

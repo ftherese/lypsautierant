@@ -7,7 +7,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
 		\times 2/3 { c8[ d f] }
-		f8[\( f\)] \cesure
+		f8[\( f\)] \cesure \pespace
 		\times 2/3 { f8[ g f] }
 		\times 2/3 { f8[ e c] }
 		d4\( d8\) r8
@@ -25,14 +25,14 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
-		r8 f
+		f8
 		g[ f]
 		f[\( f\)]
 		\pespace
 		r8. f16
 		\times 2/5 { f[ f f f f] }
-		\slurDashed
-		f4(
+		\slurDashed 
+		f4( \pespace \pespace
 		\times 2/3 { f8) e c }
 		\times 2/3 { d4\( d8\) } r8
 		\endBar
@@ -66,12 +66,12 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
 		\times 2/3 { c8 d c }
-		c4
+		c4 \pespace
 		
 		\times 2/3 { r8_\( f e\) }
 		f[\( g\)]
 		f4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { f8 e c }
 		d4
 		\endBar

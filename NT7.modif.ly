@@ -16,7 +16,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Le Christ par -- "mi vo" -- us est l'es -- pé -- ran -- ce de la gloi -- re. "(Al" -- le -- lu --  _ "ia !)"
+		Le Christ par -- "mi vo" -- us est l'es -- pé -- ran -- ce de la gloi -- re. "(Al" -- le -- lu -- - -- "ia !)"
 		\markup { \citation #"Col 1"}
  }
 }

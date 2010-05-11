@@ -7,7 +7,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		f8
-		\times 2/3 { g4\(\cesure f8\) }
+		\times 2/3 { g4\(\cesure \pespace f8\) }
 		\times 2/3 { f[ f f] }
 		e[ c]
 		d4
@@ -26,7 +26,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Av. } }
 		c8
-		\times 2/3 { d8[ f g] } f4
+		\times 2/3 { d8[ f g] } f4\cesure\pespace 
 		\times 2/3 { f8[ f f] }
 		\times 2/3 { e8[ c d] } d4
 		\endBar
@@ -44,7 +44,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		\times 2/3 { r8_\( c[ d]\) }
 		\times 2/5 {f16[f f g f]}
-		\times 2/3 { f8[\cesurebasse f f] }
+		\times 2/3 { f8[\cesurebasse \pespace f f] }
 		e8[ c]
 		d4\( d8\) r8		
 
@@ -59,7 +59,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
-		c4
+		c4\cesure
 		d16[ f f f]
 		f16[ f f f]
 		e8[ c]
@@ -77,7 +77,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
 		\times 2/3 { r8_\( f[ f]\) }
 		\times 2/3 { f8[ e f] }
-		g8[ f] f4
+		g8[ f] f4\pespace 
 		\times 2/3 {r8_\(f[ e]\)} c[\( d\)] d4
 		\endBar
 	}

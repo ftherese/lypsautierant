@@ -8,11 +8,11 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
-		\times 2/5 {r16 a[ a a a]}
+		\times 2/3 { r8_\( a[ a]\) } a[ a]
 		a16[\( a\) a a]
 		g16[ a b a] a4
 		r16 a[ a a]
-		a8[\cesure a]
+		a8[\cesure \pespace a]
 		b8[ g]
 		e4\( e8\) r8
 		\endBar
@@ -31,7 +31,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { Av. } }
 		\times 2/3 { a8 a a }
 		\slurDashed
-		a4(
+		a4( \pespace \pespace
 		\times 2/3 { a8)[ g a] }
 		\times 2/3 { b[ g e] } 
 		e4
@@ -50,9 +50,9 @@
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		a16
 		a[\( a\) g a]
-		b8[ a]
-		a4
-		\times 2/3 {r8_\(a[ b]\)} g[\( e\)] e4
+		b8[ g]
+		e4 \pespace
+		\times 2/3 {r8_\(g[ a]\)} b[\( a\)] a4
 		\endBar
 	}
 
@@ -90,7 +90,7 @@
 		g8[ b]
 		\times 2/3 { a8[\( a\) a] }
 		\times 2/3 { a8[\( a\) a] }
-		\times 2/3 { b8[ g e] } e4
+		\times 2/3 { b8[ g e] } e4 \pespace
 		\times 2/3 { r8_\( g a\) }
 		b[\( a\)]
 		a4

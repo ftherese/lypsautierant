@@ -16,23 +16,23 @@
 		\endBar
 	}
 	\addlyrics {
-		 Main -- te -- nant, je vais bri -- ser le joug qui pè -- se sur toi.
+		 Main -- te -- nant je vais bri -- ser le joug qui pè -- se sur toi.
 		\markup { \citation #"Na 1" }
 	}
 }
 \relative a' { 
 	\new Staff {
 		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
 		\times 2/3 { r8_\( f g\) }
 		\slurDashed
 		a4(
 		\times 2/3 { g8) g bes }
 		a[ g]
 		a[\( a\)]
-		\pespace
+		\pespace \pespace
 		\times 2/3 { r8_\( a[ a]\) }
-		\times 2/3 { a8[\cesure a g] }
+		\times 2/3 { a8[\cesure \pespace a g] }
 		a8[ f] f4
 		\endBar
 	}
@@ -67,7 +67,7 @@
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		\times 2/3 { f8[ g a] }
-		\times 2/3 { a8[ g bes] } a4
+		\times 2/3 { a8[ g bes] } a4 \pespace
 		\times 2/3 { r8_\( a[ a]\) }
 		\times 2/3 { a8[ a a] }
 		\times 2/3 { g8[ a f] } f4
@@ -84,15 +84,14 @@
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { T.P.} }
 		\times 2/3 { r8_\( g bes\) }
-		a[ a]
-		\times 2/3 { a4\( a8\) }
+		\times 2/3 { a4\( \pespace \cesure \pespace a8\) }  a[ a]
 		\times 2/3 { g[ a f] }
-		f4 \cesure
+		f4 \cesure \pespace
 		\times 2/3 {a8[ g bes]} a4
 		\endBar
 	}
 	\addlyrics {
 		Dans mon corps, le Christ se -- ra glo -- ri -- fié. Al -- le -- lu -- "ia !"
-		\markup { \citation #"Phi 1" }
+		\markup { \citation #"Ph 1" }
 	}
 }

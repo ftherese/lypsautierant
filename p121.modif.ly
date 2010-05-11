@@ -7,7 +7,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		
-		\times 2/3 { f8[ a c] }  \times 2/3 { c[\( c\) c] } c16[ c d c] \times 2/3 { c4\( \cesure c8\) } d16[ b b c] \times 2/3 { a4\(  a8\) } r8
+		\times 2/3 { f8[ a c] }  \times 2/3 { c[\( c\) c] } c16[ c d c] \times 2/3 { c4\( \pespace \cesure \pespace c8\) } d16[ b b c] \times 2/3 { a4\(  a8\) } r8
 		
 		
 		
@@ -25,7 +25,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
 		
-		f8 \times 2/3 { a[ c c] } \slurDashed c4(  c8)[ c] \times 2/3 { d[ b b] } c[ a] a4
+		f8 \times 2/3 { a[ c c] } \slurDashed c4( \pespace c8)[ c] \times 2/3 { d[ b b] } c[ a] a4
 
 		
 		
@@ -46,7 +46,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 			
-		\times 2/3 { f8[ a c] } c16[\( c\) c c] d8[ c] c4 c16[ c d b] \times 2/3 { b8[ c a] } a4
+		\times 2/3 { f8[ a c] } c16[\( c\) c c] d8[ d] c4 c16[ c d b] \times 2/3 { b8[ c a] } a4
 
 		
 
@@ -55,7 +55,7 @@
 	}
 
 	\addlyrics {
-		Ils l'em -- me -- nè -- rent à  Jé -- ru -- sa -- lem pour le pré -- sen -- ter au Sei -- gneur.
+		Ils l'em -- me -- nè -- rent " à"  Jé -- ru -- sa -- lem pour le pré -- sen -- ter au Sei -- gneur.
 		\markup { \citation #"Lc 2" } }
 	
 	
@@ -66,8 +66,8 @@
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
 		
 		\times 2/3 { f8 a c] } 
-		\times 2/5 { c16[ \cesure c c d c] } 
-		\times 2/3 { c4\( \cesure  c8\) } \times 2/3 { c4\(  d8\) } \times 2/3 { b8[ b c] } a4
+		\times 2/5 { c16[ \cesure \pespace c c d c] } 
+		\times 2/3 { c4\(\pespace \cesure \pespace c8\) } \times 2/3 { c4\(  d8\) } \times 2/3 { b8[ b c] } a4
 		
 		
 		
@@ -87,7 +87,7 @@
 		
 		\times 2/3 { f8[\( a c\)] } c16[\( c\) c c] c8[ c] c16[ c d\( c\)] c4 
 		
-\espall
+\espall \pespace
 		\times 2/3 { r
 8\( d[  b\)] } c[\( a\)] a4
 		

@@ -30,8 +30,8 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		\times 2/3 { r8\( c[ c]\) }
 		\times 2/3 { c8[\( b\) c] }
-		\times 2/3 { d8[\( c\) d] } c4
-		\times 2/3 { r8_\( g[ a]\) }
+		\times 2/3 { d8[\( c\) d] } c4 \pespace
+		\times 2/3 { r8_\(\pespace g[ a]\) }
 		c8[ b16 c]
 		a8[ g] g4
 		\endBar
@@ -64,13 +64,13 @@
 		c4
 		\espace
 		r8. \espall	c16
-		c8[ \cesure c]
+		c8[ \cesure \pespace c]
 		c[ c]
 		b16[ c a\( g\)]
 		g4
 		\endBar
 	}	\addlyrics {
-		Al -- le -- lu -- "ia !" Sa -- lut puis -- sance et gloire à no -- tre "Dieu !"
+		Al -- le -- lu -- "ia !" Sa -- lut, puis -- sance et gloire à no -- tre "Dieu !"
 		\markup { \citation #"Ap 19"}
 	}
 }
@@ -83,13 +83,13 @@
 		\times 2/3 { a8[ g c] }
 		\times 2/3 { c8[ c c] }
 		\slurDashed c4( \times 2/3 { b8[) c d] }
-		c8[\( c\)]
+		c8[\( c\)] \pespace
 		\times 2/3 {r8\(b[ c]\)} a[\( g\)] g4
 		
 		
 		\endBar
 	}	\addlyrics {
-		La mort a ét -- é en -- glou -- tie dans la vic -- toi -- "re !" Al -- le -- lu -- - -- "ia !"
+		La mort a ét -- é en -- glout -- ie dans la vic -- toi -- "re !" Al -- le -- lu -- - -- "ia !"
 		\markup { \citation #"1 Co 15"}
 	}
 }

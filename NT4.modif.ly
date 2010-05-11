@@ -21,6 +21,23 @@
  }
 }
 
+\relative c' { 
+	\new Staff {
+		\cadenzaOn
+		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
+		a'4 \cesure
+		\times 2/3 { f8[ a c] }
+		c8[ d]
+		\times 2/3 { c4\( c8\) } \cesure \pespace
+		c16[ c c d]
+		b16[ b c a] a4
+		\endBar
+	}
+	\addlyrics {
+		Dieu, riche en mi -- sé -- ri -- cor -- de, nous a fait re -- vivre av -- ec le Christ.
+		\markup { \citation #"Ep 2"}
+ }
+}
 
 \relative c' { 
 	\new Staff {
@@ -56,7 +73,7 @@
 		e8[ d]
 		\times 2/3 { c4\( c8\) } \cesure \pespace
 		c8[ bes]
-		\times 2/3 { g8[ a g] }
+		\times 2/3 { g8[ a bes] }
 		a8[ f] f4
 		\endBar
 	}
@@ -67,23 +84,6 @@
 }
 
 
-\relative c' { 
-	\new Staff {
-		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
-		a'4 \cesure
-		\times 2/3 { f8[ a c] }
-		c8[ d]
-		\times 2/3 { c4\( c8\) } \cesure \pespace
-		c16[ c c d]
-		b16[ b c a] a4
-		\endBar
-	}
-	\addlyrics {
-		Dieu, riche en mi -- sé -- ri -- cor -- de, nous a fait re -- vivre av -- ec le Christ.
-		\markup { \citation #"Ep 2"}
- }
-}
 
 
 
@@ -95,17 +95,17 @@
 		c'8[\( c\)] \cesure \pespace
 		\times 2/3 { c8[ c c] }
 		a8[ g] 
-		 \times 2/3 { a4\(\cesure a8\) }
+		 \times 2/3 { a4\(\pespace \cesure \pespace a8\) }
 		g8[ a] \indentLine
 		\times 2/3 { f8[ f  g] }
-		a8[\cesure  c16 c]
-		c16[ c bes c] a4  \pespace
-		\times 2/3 {r8_\(f[ a]\)} g[\( f\)] f4
+		a8[\cesure \pespace c16 c]
+		d16[ b b c] a4  \cesure \pespace
+		\times 2/3 { c8[ a g] } a4
 		
 		\endBar
 	}
 	\addlyrics {
-		Pè -- re, ceux que tu m'as don -- nés, je veux que là où je suis, eux aus -- si soient av -- ec moi. Al -- le -- lu -- - -- "ia !"
+		Pè -- re, ceux que tu m'as don -- nés, je veux que là où je suis, eux aus -- si soient av -- ec moi. Al -- le -- lu -- "ia !"
 		\markup { \citation #"Jn 17"}
  }
 }

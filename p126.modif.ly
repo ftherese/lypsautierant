@@ -18,7 +18,7 @@
 		e4\fermata
 		\endBar
 	}	\addlyrics {
-		Ce -- lui qui a cons -- truit tou -- tes cho -- ses, c'est Dieu 
+		Ce -- lui qui a cons -- truit tou -- tes cho -- ses, c'est Dieu.
 		\markup { \citation #"He 3"}
 	}
 }
@@ -28,7 +28,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
 		\times 2/3 { c8 d f }
 		e[ d]
-		\times 2/3 { e4\( \cesure d8\) }
+		\times 2/3 { e4\( \pespace \cesure \pespace d8\) }
 		\times 2/3 { e[ d c] }
 		\override Stem #'neutral-direction = #up
 		\times 2/3 { b4\( a8\) }
@@ -46,7 +46,7 @@
 		b[ c]
 		\times 2/3 { d8[ d\( d]\) }
 		\times 2/3 { f8[\( e\) d] }
-		e8[\( e\)]
+		e8[\( e\)] \pespace
 		\times 2/3 { r8\( d d\) }
 		d[ e]
 		d16[ d c c]
@@ -71,13 +71,13 @@
 		r8 d
 		c[ b]
 		a4
-		\cesureall
+		\cesureall \pespace
 		\times 2/3 { c8 d e }
 		f[\( d]
 		e4\)
 		\endBar
 	}	\addlyrics {
-		Le tem -- ple dont il par -- lait c'é -- tait son  corps. Al -- le -- lu -- "ia !" _ _
+		Le tem -- ple dont il par -- lait, c'é -- tait son  corps. Al -- le -- lu -- "ia !" _ _
 		\markup { \citation #"Jn 2"}
 	}
 }

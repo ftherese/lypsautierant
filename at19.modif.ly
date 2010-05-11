@@ -7,7 +7,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		f16[\( f\) f f]
 		\slurDashed f4( \times 2/3 { e8[) f g] }
-		f8.[ f16]
+		f8.[ \pespace \cesurebasse \pespace f16]
 		\times 2/5 {f16[\( f\) f f f]}
 		\slurDashed f4( f16[)\( e\) c d]
 		d4				
@@ -24,9 +24,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
 		c16[ d f f]
-		g8[\cesurebasse f] f4
+		g8[\cesurebasse f] f4 \pespace 
 		\times 2/3 { r8_\( f[ f]\) }
-		\times 2/5 { f16[\cesurebasse f f e c]}
+		\times 2/5 { f16[\cesuretresbasse \pespace f f e c]}
 		d4\( d8\) r8
 		\endBar
 	}
@@ -44,7 +44,7 @@
 		g8[ g]
 		f[ g]
 		f4
-		\espace
+		\espace\pespace 
 		r8 f16[ f]
 		f8[ f] 
 		f[ \cesurebasse f16 f]
@@ -64,7 +64,7 @@
 		f8
 		\times 2/3 { f[ \cesurebasse f\( f\)] }
 		\times 2/3 { e[ f g] }
-		f4
+		f4 \pespace  \pespace 
 		\times 2/3 { r8_\( f e\) }
 		c[ d]
 		d4
@@ -85,7 +85,7 @@
 		\times 2/3 { f4\( e8\) }
 		\times 2/3 { f[\( g\) g] }
 		f[\( g\)]
-		f4
+		f4 \pespace 
 		\times 2/3 { r8_\( f e\) }
 		c[\( d\)]
 		d4

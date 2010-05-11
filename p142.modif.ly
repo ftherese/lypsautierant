@@ -8,11 +8,11 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
-		r8 a
+		a8
 		a[ a]
 		g[ b]
 		a4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { b8 g e }
 		e4
 		\endBar
@@ -27,9 +27,9 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
-		e8[ g] a4
+		e8[ g] a4 \pespace
 		\times 2/3 { r8_\( a[ g]\) }
-		\times 2/3 { a8[\( a\)\cesure g] }
+		\times 2/3 { a8[\( a\)\cesurebasse \pespace g] }
 		\times 2/3 { a8[ b g] }
 		e4
 		\endBar
@@ -50,7 +50,7 @@
 		\times 2/3 { a8[ a a] }
 		a8.[ g16]
 		\times 2/3 { a8[ b a] }
-		\times 2/3 { a4\(\cesure a8\) }
+		\times 2/3 { a4\(\pespace\cesure\pespace a8\) }
 		b8[ g] e4
 		\endBar
 	}
@@ -67,10 +67,10 @@
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
 		e8
 		g[ a]
-		\times 2/3 { a4\( \cesure a8\) }
+		\times 2/3 { a4\(\pespace \cesure \pespace a8\) }
 		\times 2/3 { a[ a a] }
 		g[ b]
-		a[\( a\)]
+		a[\( a\)] \pespace
 		r a
 		a[ a]
 		\times 2/3 { b[ g e] } 
@@ -80,7 +80,7 @@
 
 	\addlyrics {
 		A -- yant souf -- fert, le Fils peut ve -- nir en ai -- de à ceux qui sont é -- prou -- vés. 
-		\markup { \citation #"He 2" } 
+		\pespace\markup { \citation #"He 2" } 
 	}
 }
 
@@ -89,7 +89,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
 		\times 2/3 { a8 a a }
-		a16[ \cesure a a g]
+		a16[ \cesurebasse \pespace a a g]
 		g4
 		
 		r8 a16[ a]
@@ -99,7 +99,7 @@
 		g[ e]
 		e4
 		
-		\espall
+		\espall 
 		\times 2/3 { r
 		8_\( g a\) }
 		b[\( a]\)

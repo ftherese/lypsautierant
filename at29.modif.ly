@@ -8,7 +8,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column {  } }
 		e16[ g a a]
-		a[\cesure a g a]
+		a[\cesure\pespace  a g a]
 		a4
 		\espace
 		\times 2/3 { r8_\( a b\) }

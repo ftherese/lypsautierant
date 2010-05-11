@@ -50,7 +50,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		a8 
 		g16[ bes a g]
-		f8[\( f\)]
+		f8[\( f\)] \cesure \pespace 
 		g16[ g g g] g8[\( g\)]
 		\times 2/3 { d[ f f] }
 		e4\( d8\) r8
@@ -90,8 +90,8 @@
 		\times 2/3 { r8_\( a[ a]\) }
 		\times 2/3 { a4\( a8\) }
 		\times 2/3 { a8[ g bes] }
-		\slurDashed  a4( g16[)\( d\) f e]
-		d4 \cesure		
+		\slurDashed  a4( \pespace  \pespace  g16[)\( d\) f e]
+		d4 \pespace  \cesure	\pespace 	
 		\times 2/3 { a'8 g a }
 		a4
 		\endBar

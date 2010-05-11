@@ -35,7 +35,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { Av. Noël } }
 		f16[ g a a]		
 		a8[ a16 bes]
-		a16[ a g a] a4
+		a16[ a g a] a4 \pespace
 		a16[ g a f] f4
 		\endBar
 	}
@@ -50,18 +50,16 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
-		\times 2/3 { r8_\( f[ g]\) }		
-		a16[\cesure a a bes]
-		\times 2/3 { a8[\( a\) g] }
-		a8.[ a16]
-		a16[\( a\) g\( a\)]
-		f4\( f8\) r8
+		\times 2/3 { f8[ g a] }
+		\times 2/3 { a8[ a bes] } a8[ g]  a4\cesure\pespace
+		\times 2/3 { g8[ a f] } f4
+
 		\endBar
 	}
 
 	\addlyrics {
-		Par la foi, ils tra -- ver -- sèr -- ent la mer comme un -- e ter -- re sè -- che.
-		\markup { \citation #"He 11" } 
+		Dieu les me -- na à tra -- vers les eaux, comme au dés -- ert.
+		\markup { \citation #"Ps 105" } 
 	}
 }
 
@@ -74,7 +72,7 @@
 
 \times 2/3 { a4\(   a8\) }
  g16[\( bes\) a g] a8[\( a\)] a16[ a\( a\) a] \times 2/3 {g8[ a f]} f4
-\cesure \times 2/3 {a8[ c bes]} a[\( g] a4\)
+\cesure \pespace \times 2/3 {a8[ c bes]} a[\( g] a4\)
 		
 		
 		\endBar

@@ -8,7 +8,7 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
-		\times 2/3 { r8\( c c\) } d[ c] b[ a] c[\( c\)] 
+		\times 2/3 { r8\( c c\) } d[ c] b[ a] c[\( c\)]  \pespace
 		\times 2/3 { r8\( c[ a]\) }
 		\times 2/3 { c[ c b] } a4		
 		\endBar
@@ -44,7 +44,7 @@
 		\times 2/3 { c c c }
 		\times 2/3 { c[ d c] } 
 		\times 2/3 { c b a }
-		c4 \cesure 
+		c4 \cesure  \pespace
 		\times 2/3 {a8 c b } a4
 		\endBar
 	}
@@ -95,8 +95,8 @@
 		\times 2/3 { c b a } 
 		\times 2/3 { c4\( c8\) }
 		\times 2/3 { c[\( a\) c] }\stemDown
-		b4\( a8\) r8
-		
+		b4\( a8\) \cesure
+		\pespace
 		\times 2/3 { g a c } c4
 		
 		

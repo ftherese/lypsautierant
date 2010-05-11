@@ -31,9 +31,9 @@
 		\times 2/3 { r8_\( f[ g]\) }
 		a16[\( a\) a a]
 		\times 2/3 { a4\( a8\) }
-		a16[ a a a]
+		a16[ a a g]
 		\times 2/3 { bes8[ a g] }
-		\times 2/3 { a8[\cesure a a] }
+		\times 2/3 { a8[\cesure \pespace a16 a] }
 		\times 2/3 { a8[ g a] }
 		f4\( f8\) r8
 		
@@ -54,10 +54,9 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { Av. } }
 		\times 2/3 { f8[ g a] }
-		a8[ a]
-		a16[ a a a]
+		\times 2/5 {a16[a a a a a]}
 		a8.[ a16]
-		\times 2/5 {a16[\( a\) bes a g]}
+		\times 2/5 {a16[\( g\) bes a g]}
 		a8[\( a\)]
 		\times 2/3 { r8_\( a[ a]\) }
 		\times 2/3 { f8[ g a] } 
@@ -78,9 +77,9 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
 		
 		\times 2/3 {f8[ g a]} a4 
-		
+		\pespace
 		\times 2/3 { r8_\( bes[ a\)] } g[\( a\)] a4
-		\cesure \times 2/3 {g8[ a f]} f4
+		\cesure \pespace \times 2/3 {g8[ a f]} f4
 
 		
 		

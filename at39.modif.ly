@@ -10,7 +10,7 @@
 \times 2/3 { c[ c c] }
  
 \times 2/3 { c[ d c] }
- c4 \times 2/3 { r8\( c[ c\)] } 
+ c4\pespace  \times 2/3 { r8\( c[ c\)] } 
 \times 2/3 { c[ c d] }
  
 \times 2/3 { b[\( b\) c] }
@@ -33,12 +33,11 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Av. } }
 		
-		r16 c[ c c] c[ c c c] c[\( c\) \cesure c d c] 
-\times 2/3 { c4\(\cesure c8\) }
+		r16 c[ c c] c[ c c c] c[\( c\) \cesure \pespace c d c] 
+\times 2/3 { c4\(\pespace \cesure\pespace  c8\) }
 c[ d] 
-\times 2/3 { b4\( 
-\cesure b8\) }
-c[\cesure a] a4 
+\times 2/3 { b4\( \pespace \cesure \pespace b8\) }
+c[\cesure \pespace a] a4 
 
 		\endBar
 	}
@@ -58,8 +57,8 @@ c[\cesure a] a4
 		
 		\times 2/3 { r8\( c[ c\)] } 
 \times 2/3 { c[ c c] }
- d[ d] c[\( c\)] \cesure 
-		c16[\( c\) \cesure c d] b8[ c] a4
+ d[ d] c[\( c\)] \cesure \pespace 
+		c16[\( c\) \cesure \pespace c d] b8[ c] a4
 		
 
 		
@@ -87,7 +86,7 @@ c[\cesure a] a4
  c[\( c\)] 
 		
 		\ifIndent r16 c[ d b] \times 2/3 {b8[ c a]} a4
-		\cesureall \times 2/3 {g8[ a c]} d4
+		\cesureall \pespace \times 2/3 {g8[ a c]} d4
 
 		
 		

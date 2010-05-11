@@ -10,9 +10,9 @@
 		
 		r8 g16[ a]
 		\slurDashed
-		c4( \espace
- c16)[\( c\) d c] c4 \cesure \times 2/3 {c8[ b c]} a[ g] g4 
-		\barre
+		c4( \espace \pespace 
+ c16)[\( c\) d c] c4 \cesure\pespace  \times 2/3 {c8[ b c]} a[ g] g4 
+		\barre \pespace 
 		\times 2/3 { r8\( a[ c\)] }
 		d[\( c\)] c4
 

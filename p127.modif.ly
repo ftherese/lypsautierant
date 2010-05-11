@@ -64,10 +64,10 @@
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		\times 2/3 { r8\( c[ c]\) }
 		\times 2/3 { c8[\( b\) c] }
-		\times 2/3 { d8[ c d] } c4\cesure
+		\times 2/3 { d8[ c d] } c4\cesure \pespace
 		c16[ c c c]
 		c8.[ c16]
-		c16[ b c a]
+		c16[ b c\( a]\)
 		g4\( g8\) r8
 		
 		\endBar
@@ -83,7 +83,7 @@
 		g8
 		\times 2/3 { a8[\( g\) c] }
 		\times 2/3 { b8[ c d] }
-		c8[\( c\)]\cesure
+		c8[\( c\)]\cesure \pespace
 		c8[ c]
 		\times 2/3 { c4\( c8\) }
 		\times 2/3 { c8[ b c] }

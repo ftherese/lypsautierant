@@ -28,18 +28,18 @@
 		f16[ g a a]
 		\times 2/3 { a8 g bes }
 		a[\( a\)]
-		\cesure
+		\cesure \pespace
 		\times 2/3 { a8 a a }
 		\times 2/3 { g[ g f] }
 		d4
-		\barre
+		\barre \pespace
 		\times 2/3 { f8 g a }
 		bes[\( g]
 		a4\)
 		\endBar
 	}
 	\addlyrics {
-		Il a rem -- por -- té la vic -- toi -- re, le re -- je -- ton de Da -- vid. "(Al" -- le -- lu -- ia -- "!)" _ _
+		Il a rem -- por -- té la vic -- toi -- re, le re -- je -- ton de Da -- vid. "(Al" -- le -- lu -- ia -- " !)" _ 
 		\markup { \citation #"Ap 5" }
 	}
 }
@@ -76,7 +76,7 @@
 		\times 2/3 { a[\( g\) bes] }
 		a[ g]
 		a4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { a8 a a }
 		g[ g]
 		\times 2/3 { f4\( d8\) } r8

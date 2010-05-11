@@ -13,7 +13,7 @@
 		g16[ a a a] 
 		a[ a a g]
 		\times 2/3 { bes8 a g }
-		\times 2/3 { a4\( \cesure a8\) }
+		\times 2/3 { a4\( \pespace \cesure\pespace  a8\) }
 		\times 2/3 { a[ a a] }
 		a16[ g g f]
 		d4
@@ -31,16 +31,16 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
 		f8
-		g8[ a] a4 \cesure
+		g8[ a] a4 \cesure\pespace 
 		\times 2/3 { a8[\( a\) bes] }
 		a16[ a g a]
-		\times 2/3 { a4\( \cesure a8\) }
-		\times 2/3 { g8[ \cesure g\(  f\)] }
+		\times 2/3 { a4\( \pespace \cesure\pespace  a8\) }
+		\times 2/3 { g8[ \cesurebasse \pespace g\(  f\)] }
 		d4
 		\endBar
 	}
 	\addlyrics {
-		Voy -- ant la vent, Pie -- rre prit peur et s'é -- cri -- "a :" Seig -- neur, sau -- ve- -- "moi !"
+		Voy -- ant le vent, Pie -- rre prit peur et s'é -- cri -- "a :" Seig -- neur, sau -- ve- -- "moi !"
 		\markup { \citation #"Mt 14" }
 	}
 }
@@ -69,7 +69,7 @@
 		f16[ g a a]
 		g8[ bes] a4
 		\times 2/3 { g8[ g f] }
-		d4 \cesure
+		d4 \cesure\pespace 
 		\times 2/3 {f8[ g a]} bes[\( g] a4\) 
 		\endBar
 	}
@@ -84,7 +84,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
 		r16 f[ g a]
-		a[ a a a]
+		a[\( a\) a a]
 		\times 2/3 { a4\( a8\) }
 		\times 2/3 { a8[ g bes] }
 		a[\( a\)]

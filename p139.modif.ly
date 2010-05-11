@@ -10,7 +10,7 @@
 		a16[ a a a]
 		\times 2/3 { a8 g b }
 		a4
-		\espace
+		\espace \pespace
 		\times 2/3 { r8_\( a a\) }
 		\times 2/3 { a[ a\( b\)] }
 		\times 2/3 { a g g }
@@ -33,7 +33,7 @@
 		\times 2/3 { a\( a\) g }
 		b[ a]
 		\override Stem #'neutral-direction = #up
-		\times 2/3  { a4\( \cesure b8\) }
+		\times 2/3  { a4\( \pespace \cesure \pespace b8\) }
 		\times 2/3 { a[ g f] }
 		e4
 		\endBar
@@ -55,7 +55,7 @@
 		a4(
 		\times 2/3 { a8)\( a\) a }
 		g[ b]
-		a[\( a\)]
+		a[\( a\)] \pespace
 		
 		r a
 		\times 2/3 { a[ a b] }
@@ -74,8 +74,8 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
-		a8[\( a\)] \cesure
-		g16[ a b a] a4 \cesure
+		a8[\( a\)] \cesure \pespace
+		g16[ a b a] a4\pespace \cesure \pespace
 		\times 2/3 { b8[ a g] }
 		f4\( e8\) r8
 		\endBar

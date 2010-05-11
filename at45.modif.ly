@@ -10,7 +10,7 @@
 		a8[ a]
 		a16[ g a b]
 		a4\( a8\) r8
-		\barre
+		\barre\pespace 
 		\times 2/3 {b8[ g e]} e4
 		\endBar
 	}
@@ -29,14 +29,14 @@
 e8[\( g\)]
 \times 2/3 { a[ a a] }
 a4
-\cesure 
+\cesure \pespace 
 \times 2/3 { a8[ a a] }
 g[ b]
-a[\( a\)] \cesure
-\ifIndent
+a[\( a\)] \cesure\pespace 
+\indentLine
 a16[ a a a]
 \times 2/3 { b8[ g e] }
-e4
+e4\pespace \barre\pespace 
 \times 2/3 { r8_\( g[ a]\) }
 b[\( a\)]
 a4
@@ -44,7 +44,7 @@ a4
 	}
 
 	\addlyrics {
-Lors -- que Dieu pa -- raî -- tra, nous lui se -- rons sem -- bla -- bles car nous le ver -- rons tel qu'il est. "Al" -- le -- lu -- - -- "ia !"
+Lors -- que Dieu pa -- raî -- tra, nous lui se -- rons sem -- bla -- bles car nous le ver -- rons tel qu'il est. "(Al" -- le -- lu -- - -- "ia !)"
 		\markup { \citation #"1 Jn 3" } 
 	}
 }

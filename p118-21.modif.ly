@@ -29,11 +29,11 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël } }
 		\times 2/3 { e8[ g a] }
 		\times 2/3 { a8[\( a\) a] }
 		g16[ a b a]
-		a8.[\cesure a16]
+		a8.[\cesure \pespace a16]
 		b16[\( a\) g g]
 		f4\( e8\) r8
 		\endBar
@@ -52,7 +52,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { Av. } }
 		a8
 		a4
-		\cesure
+		\cesure \pespace
 		a16[ a a a]
 		a[\( a\) a b]
 		\times 2/3 { a8 g g }
@@ -63,25 +63,6 @@
 	\addlyrics {
 		Sei -- gneur, tu as les pa -- ro -- les de la vie é -- ter -- nel -- le.
 		\markup { \citation #"Jn 6" } 
-	}
-}
-
-\relative a' { 
-	\new Staff {
-		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
-		r8 e16[ g]
-		\times 2/3 { a8[ a a] }
-		\times 2/3 { g8[\( a\) b] }
-		a4 \cesure
-		\times 2/3 {b8[ a g]}
-		f4\( e8\) r8
-		\endBar
-	}
-
-	\addlyrics {
-		Ils chan -- taient les lou -- an -- ges de Dieu. Al -- le -- lu -- "ia !" _
-		\markup { \citation #"Ac 16" } 
 	}
 }
 
@@ -115,7 +96,7 @@
 		\times 2/3 { r8_\( a g\) }
 		b[\( a\)]
 		a4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { b8 a g }
 		f4\( e8\) r8
 		\endBar

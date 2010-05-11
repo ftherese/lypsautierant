@@ -30,16 +30,16 @@
 		\set Staff.instrumentName = \markup{ \center-column { T.O. T.P. } }
 		
 		a16 
-		bes[ \cesure a\( a\) a g]
-		\times 2/3 { bes8[ a g] }
-		f4 \cesureall 
+		bes[ \cesure \pespace a\( a\) a g]
+		\times 2/3 { bes8[\( a\) g] }
+		f4 \cesureall  \pespace
 		\times 2/3 {g8[ d f]} 
 		e4\( d8\) r
 		\endBar
 	}
 
 	\addlyrics {
-		Au ciel u -- ne foule im -- men -- se cla -- "mait :" Al -- le -- lu -- "ia !" _
+		Au ciel, u -- ne foule im -- men -- se cla -- "mait :" Al -- le -- lu -- "ia !" _
  		\markup { \citation #"Ap 19" } }
 	
 	
@@ -72,7 +72,7 @@
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
 		\times 2/3 { a8[ a g] }
 		\times 2/3 { bes8[\( a\) g] }
-		\times 2/3 { f8[\( f\)\cesurebasse d] }
+		\times 2/3 { f8[\( f\)\cesurebasse \pespace d] }
 		\times 2/3 { f8[\( f\) e] } d4		
 		\endBar
 	}

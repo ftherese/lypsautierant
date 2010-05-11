@@ -16,7 +16,7 @@
 		c4
 		\pespace
 		r16 c[ c c]
-		d[ b b c]
+		d[ b b\( c]\)
 		a4\( a8\) r
 		\endBar
 	}
@@ -29,19 +29,19 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-column { T.O. T.P. } }
 		f8
 		\times 2/3 { a[ c c] }
 		c[ d]
 		\times 2/3 { c4\( c8\) }
 		\times 2/3 { c[ d b] }
 		b[ c]
-		a4
-		
+		a4 \cesure \pespace
+		\times 2/3 {c8[ d c]} c4
 		\endBar
 	}
 	\addlyrics {
-		Le Christ a dé -- truit la mort et fait res -- plen -- dir la vie. 
+		Le Christ a dé -- truit la mort et fait res -- plen -- dir la vie. " Al" -- le -- lu -- "ia !"
 		\markup { \citation #"2 Tm 1" } 
 	}
 }
@@ -53,7 +53,7 @@
 		\times 2/3 { f8 a c }
 		c[ d]
 		c4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { c8\( c\) c }
 		\times 2/3 { d[\( b\) b] }
 		c[ a]
@@ -70,13 +70,13 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Noël T.P.} }
+		\set Staff.instrumentName = \markup{ \center-column { Noël } }
 		\times 2/3 { r8_\( f a\) }
 		\times 2/3 { c[ c c] }
 		d[ c]
 		\times 2/3 { c4\( c8\) }
 		\times 2/3 { d[ b c] }
-		a4 \cesure
+		a4 \cesure \pespace
 		\times 2/3 {f8[ a c]} c4
 		\endBar
 	}

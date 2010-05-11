@@ -26,9 +26,9 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël } }
-		c16[ d c f]
+		c16[\( d\) c f]
 		f4
-		\cesure
+		\cesure \pespace
 		f16[ f f f]
 		\times 2/3 { e8[ c d] }
 		d4
@@ -64,7 +64,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
 		\times 2/3 { e8[ f g] }
-		f[\( f\)]
+		f[\( f\)] \pespace
 		r f16[ f]
 		f[ e c d]
 		d4
@@ -84,11 +84,11 @@
 		c8[\( d\)]
 		c[ f]
 		f4
-		\cesure
+		\cesure \pespace
 		f16[ f f e]
 		c8[\( d\)]
 		d4
-		\cesureall
+		\cesureall \pespace
 		\times 2/3 { f8[ g a] }
 		g4
 		\endBar

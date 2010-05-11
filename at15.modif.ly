@@ -10,7 +10,7 @@
 		\set Staff.instrumentName = \markup{ \center-column {  } }
 		\times 2/3 { r8_\( a a\) }
 		g[ bes]
-		\times 2/3 { a[\( a\) \cesure a] }
+		\times 2/3 { a[\( a\) \cesure \pespace  a] }
 		a[\( a\)]
 		\times 2/3 { a g a }
 		f4\( f8\) r \barre
@@ -28,10 +28,10 @@
 		\set Staff.instrumentName = \markup{ \center-column {  } }
 		\times 2/3 { r8_\( a a\) }
 		g[ bes]
-		\times 2/3 { a[\( a\) \cesure a] }
+		\times 2/3 { a[\( a\) \cesure\pespace  a] }
 		\times 2/3 { a a g }
 		a[ f]
-		f4 \barre
+		f4 \barre\pespace 
 		\times 2/3 {a8[ g a]} a4
 		\endBar
 	}

@@ -6,7 +6,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël} }
-		\times 2/3 { c8[\cesure b c] }  d8[\( d\)] \cesure
+		\times 2/3 { c8[\cesure \pespace b c] }  d8[\( d\)] \cesure\pespace 
 		\times 2/3 { d8[ d f] }
 		\times 2/3 { e8[ d c ] }
 		\stemUp b4\( a8\) r8
@@ -26,7 +26,7 @@
 		c[ d]
 		\times 2/3 { f e d }
 		e4
-		\cesure
+		\cesure\pespace  
 		d16[ e d d]
 		\times 2/3 { c8 c b }
 		a4
@@ -61,12 +61,12 @@
 		g8[ c]
 		\times 2/3 { b c d }
 		\times 2/3 { f[ e d] }
-		e[\( e\)]
-		\ifIndent
+		e[\( e\)] \pespace 
+		
 		d16[ d e d]
 		\times 2/3 { d8\( c\) c }
 		\stemDown
-		b4\( a8\) 
+		b4\( a8\) \pespace 
 		\times 2/3 { r\( c d\) }
 		e[\( d\)]
 		d4

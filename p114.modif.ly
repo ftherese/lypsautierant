@@ -9,7 +9,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
 		a16[ a a a] a8[ a] g8[ b] 
-		a8[\( a\)] \cesure
+		a8[\( a\)] \cesure \pespace
 		\times 2/5 {a16[a a a a]}
 		\times 2/3 { b8[ g e] }
 		e4
@@ -69,7 +69,7 @@
 		a8[ \cesure a16 a]
 		g16[ a b a]
 		a4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { b8 a g }
 		f4\( e8\) r8
 		\endBar

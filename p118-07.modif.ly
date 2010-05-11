@@ -6,11 +6,11 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
-		r8 a
+		a8
 		a[ a]
 		a16[ a g a]
 		b8[ a]
-		\times 2/3 { a4\( \cesure a8\) }
+		\times 2/3 { a4\( \pespace \cesure \pespace  a8\) }
 		\times 2/3 { a[ a b] }
 		g[ e]
 		e4
@@ -31,7 +31,7 @@
 		a16[\( a\) a a]
 		g[ a b a]
 		a4
-		\cesure
+		\cesure \pespace
 		a8[\( b\)]
 		g [e]
 		e4
@@ -51,8 +51,8 @@
 		\times 2/3 { a8[ a a] }
 		\times 2/3 { g8[ a b] }
 		a8[\( a\)]
-		\times 2/3 { a8[ a b] }
-		g8[ e]
+		\times 2/3 { a8[ a a] }
+		b8[ g]
 		e4
 		\endBar
 	}
@@ -69,7 +69,7 @@
 		a16[ g a a]
 		a16[ a a a]
 		\times 2/3 { a8[ g b] }
-		a8[\( a\)]  \cesure
+		a8[\( a\)]  \cesure \pespace
 		a8[ a]
 		\times 2/3 { a8[ b g] }
 		e4\( e8\) r8
@@ -93,7 +93,7 @@
 		\times 2/3 { r8_\( a g\) }
 		b[\( a\)]
 		a4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { b8 g e }
 		e4
 		\endBar

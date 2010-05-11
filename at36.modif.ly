@@ -49,10 +49,10 @@ a16[ a a g] bes8[ a] a4
 		\set Staff.instrumentName = \markup{ \center-column { Noël T.P. } }
 		f8 \times 2/5 {g16[\( a\) a a a]} 
 		\times 2/3 {a8[ a a]} a16[ a a a] 
-		\times 2/3 { a8[\( g\) bes] } a4 \cesure
+		\times 2/3 { a8[\( g\) bes] } a4 \cesure\pespace \indentLine
 		\times 2/3 {a8[ g g]} 
 		\times 2/3 { f4\(  d8\) }
-		\barre
+		\barre\pespace 
 		\times 2/3 { r_\( f[ g\)] }
  		bes[\( g\)] a4
 		\endBar
@@ -72,7 +72,7 @@ a16[ a a g] bes8[ a] a4
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
 		
-f8 g[ a] a16[ a g bes] a4 \times 2/3 { r8_\( a[ a\)] } a[ a] 
+f8 g[ a] a16[ a g bes] a4\pespace  \times 2/3 { r8_\( a[ a\)] } a[ a] 
 \times 2/3 { g[ g f] }
  d4
 

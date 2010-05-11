@@ -82,7 +82,7 @@
 		a[ b]
 		g[ e]
 		e4
-		\barre
+		\barre \pespace
 		\times 2/3 { e8 g b }
 		a[\( g]
 		a4\)
