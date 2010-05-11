@@ -16,7 +16,7 @@
 		\endBar
 	}	\addlyrics {
 		Cel -- ui qui a soif, je lui don -- ne -- rai de la sou -- rce de vie, gra -- tui -- tem -- ent. "(Al" -- le -- lui -- "a !)"
-		\markup { \citation #"Lc 13"}
+		\markup { \citation #"Ap 21"}
 	}
 }
 

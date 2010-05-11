@@ -19,7 +19,7 @@
 
 	\addlyrics {
 		Quand le blé est mon -- té en é -- pi, l'iv -- raie est ap -- pa -- rue aus -- si.
- 		\markup { \citation #"Mt 26" } }
+ 		\markup { \citation #"Mt 13" } }
 	
 	
 }

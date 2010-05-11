@@ -21,7 +21,7 @@
 
 	\addlyrics {
 		Voi -- ci mon com -- man -- de -- "ment :" ai -- mez- -- vous les uns les au -- tres.
-		\markup { \citation #"Jn 13" } 
+		\markup { \citation #"Jn 15" } 
 	}
 }
 

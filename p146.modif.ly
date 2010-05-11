@@ -63,7 +63,7 @@
 
 	\addlyrics {
 		Vo -- tre Pè -- re cé -- les -- te sait de quoi vous a -- vez be -- soin.
- 		\markup { \citation #"Mt 10" } }
+ 		\markup { \citation #"Mt 6" } }
 	
 	
 }

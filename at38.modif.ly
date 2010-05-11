@@ -37,7 +37,7 @@ A moins de naî -- tre d'eau et d'Es -- prit, nul ne peut en -- trer dans le Roy
 		\endBar
 	}	\addlyrics {
 		Ouv -- rez tout grand vo -- tre "cœur !"
-		\markup { \citation #"Jn 3"}
+		\markup { \citation #"2 Co 6"}
 	}
 }
 

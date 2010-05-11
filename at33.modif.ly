@@ -17,6 +17,6 @@
 		\endBar
 	}	\addlyrics {
 		Le tem -- ple de Dieu est sa -- cré, et ce tem -- ple c'est vous. "(Al" -- le -- lui -- "a !)" _ _		
-		\markup { \citation #"Mt 5"}
+		\markup { \citation #"1 Co 3"}
 	}
 }

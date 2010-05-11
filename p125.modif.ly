@@ -104,7 +104,7 @@
 
 	\addlyrics {
 		Les a -- pôtres al -- laient tout jo -- yeux d'av -- oir souff -- ert pour le Christ. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Ac 5" } 
+		\markup { \citation #"Cf. Ac 5" } 
 	}
 }
 
