@@ -1,0 +1,5 @@
+\ProvidesPackage{psalter}
+\def\pl#1{\leavevmode\setbox0\hbox{#1}\setbox1\hbox to \wd0{\hss\raise1.5ex\hbox{\tiny{+}}\hss}{\vtop{\box0\box1}}}
+
+\def\mi#1{\leavevmode\setbox0\hbox{#1}\setbox1\hbox to \wd0{\hss\raise1.5ex\hbox{\tiny{--}}\hss}{\vtop{\box0\box1}}}
+
