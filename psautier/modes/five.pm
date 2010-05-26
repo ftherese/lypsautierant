@@ -1,4 +1,4 @@
-package modes::one;
+package modes::five;
 
 sub first {
  my $c = 1;
@@ -7,11 +7,8 @@ sub first {
  while (@l){
   my $syl = pop @l;
   if ($syl ne '--'){
-   if (($c == 2)||($c == 6)){
+   if ($c == 3)){
     push(@a,'\\pl{'.$syl.'}');
-   }
-   elsif(($c == 3)||($c == 5)){
-    push(@a,'\\mi{'.$syl.'}');
    }
    else{
     push(@a,$syl);
@@ -59,11 +56,8 @@ sub a {
  while (@l){
   my $syl = pop @l;
   if ($syl ne '--'){
-   if (($c == 2)||($c == 3)){
+   if ($c == 1){
     push(@a,'\\pl{'.$syl.'}');
-   }
-   elsif(($c == 4)||($c == 5)){
-    push(@a,'\\mi{'.$syl.'}');
    }
    else{
     push(@a,$syl);
@@ -86,7 +80,10 @@ sub b {
  while (@l){
   my $syl = pop @l;
   if ($syl ne '--'){
-   if (($c == 1)||($c == 2)||($c == 4)){
+   if (($c == 3)||($c == 6)){
+    push(@a,'\\pl{'.$syl.'}');
+   }
+   elsif (($c == 2)||($c == 4)){
     push(@a,'\\mi{'.$syl.'}');
    }
    else{
@@ -110,11 +107,8 @@ sub a_prime {
  while (@l){
   my $syl = pop @l;
   if ($syl ne '--'){
-   if ($c == 2){
+   if (($c == 1)||($c == 4)){
     push(@a,'\\pl{'.$syl.'}');
-   }
-   elsif(($c == 4)||($c == 1)){
-    push(@a,'\\mi{'.$syl.'}');
    }
    else{
     push(@a,$syl);
@@ -125,6 +119,7 @@ sub a_prime {
    push(@a,$syl);
   }
  }
+ $a[$#a] = '\\mi{'.$a[$#a].'}';
  my $r = join(" ",reverse @a);
  $r =~ s/ -- //g;
  return $r;

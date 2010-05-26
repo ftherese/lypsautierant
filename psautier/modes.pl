@@ -103,6 +103,7 @@ foreach my $line (@lines){
    while ($lines[$counter+$plines+1] !~ /^$/){
     $plines++;
    }
+   #print "$plines\n";
   }
   elsif ( $line !~ /^$/ ) {
    if ($line =~ /^\d/) {
@@ -111,9 +112,9 @@ foreach my $line (@lines){
     print "\\flagverse\{\\scriptsize \{ $verse \}\} ";
     $line = join(" ",@l);
    }
-   if (($lines[$counter+2] =~ /^\./) && ($plines % 2 == 1)){
-    $temp = eval qq~modes::~.$ARGV[1].qq~flex(\$line);~;
-    print $temp.'\\\\';$plines=2;}
+   if (($lines[$counter+2] =~ /[.?"!]$/) && ($plines % 2 == 1)){
+    $temp = eval qq~modes::~.$ARGV[1].qq~::flex(\$line);~;
+    print $temp.'\\\\*';$plines=2;}
    elsif (($reallines % 2 == 1)||($counter==1)){
     $temp = eval qq~modes::~ . $ARGV[1]. qq~::first(\$line);~;
     print $temp .'\\\\*';$reallines++;}
