@@ -1,11 +1,11 @@
-\version "2.12.0"
+\version "2.10.0"
  \include "definitions.ly"
-\markup {AT 45 }
+%\markup {AT 45 }
 
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {  } }
+		\set Staff.instrumentName = \markup{ \center-align {  } }
 		e16[ g a a]
 		a8[ a]
 		a16[ g a b]
@@ -25,7 +25,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {  } }
+		\set Staff.instrumentName = \markup{ \center-align {  } }
 e8[\( g\)]
 \times 2/3 { a[ a a] }
 a4

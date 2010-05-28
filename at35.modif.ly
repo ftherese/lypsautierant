@@ -1,10 +1,10 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
 \include "definitions.ly"
-\markup {AT 35  }
+%\markup {AT 35  }
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {  } }
+		\set Staff.instrumentName = \markup{ \center-align {  } }
 		c8 
 		d8[ f]
 		f8[\( f\)]
@@ -22,7 +22,7 @@ Heur -- eux est l'hom -- me qui met sa foi dans le Sei -- gneur. "(Al" -- le -- 
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {  } }
+		\set Staff.instrumentName = \markup{ \center-align {  } }
 		\times 2/3 { r8_\( f[ f]\) }
 		e8[ f] g8[ f]
 		\times 2/3 { f4\(\pespace \cesure\pespace  f8\) }

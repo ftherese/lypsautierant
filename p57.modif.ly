@@ -1,13 +1,13 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
 \include "definitions.ly"
 
-\markup { psaume 57}
+%\markup { psaume 57}
 
 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		a8
 		\times 2/3 { a[ a a] }
 		a[ a]
@@ -30,7 +30,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		\times 2/3 { a8 g a }
 		a16[ a g b]
 		a4
@@ -51,7 +51,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Noël T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { Noël T.P. } }
 		\times 2/3 { e8 g a }
 		\times 2/3 { a a a }
 		\slurDashed a4(
@@ -72,7 +72,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		a8
 		g[ a]
 		a16[ a g b]

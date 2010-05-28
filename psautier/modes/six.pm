@@ -59,7 +59,7 @@ sub a {
  while (@l){
   my $syl = pop @l;
   if ($syl ne '--'){
-   if ($c == 1)){
+   if ($c == 1){
     push(@a,'\\pl{'.$syl.'}');
    }
    elsif($c == 2){

@@ -1,13 +1,13 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
-\markup {AT 1 }
+%\markup {AT 1 }
 
 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		
 \times 2/3 {f8[ g a]} 
 \times 2/3 { a[ g bes] }
@@ -32,7 +32,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Av. Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. Noël } }
 		f16[ g a a]		
 		a8[ a16 bes]
 		a16[ a g a] a4 \pespace
@@ -49,7 +49,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		\times 2/3 { f8[ g a] }
 		\times 2/3 { a8[ a bes] } a8[ g]  a4\cesure\pespace
 		\times 2/3 { g8[ a f] } f4
@@ -67,7 +67,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		
 
 \times 2/3 { a4\(   a8\) }

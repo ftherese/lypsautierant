@@ -1,12 +1,12 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
-\markup {AT  23}
+%\markup {AT  23}
 
 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		a8
 		\times 2/3 { a8[ a a] } g8[ a] f4 \cesure\pespace 
 		\times 2/3 { a8[ a a] } a4 \cesure\pespace 
@@ -21,7 +21,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Av. Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. Car. } }
 		a8
 		\times 2/3 { a[\( a\) a] }
 		\times 2/3 { a a a }
@@ -37,7 +37,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		f16[ g a a]
 		\override Stem #'neutral-direction = #up
 		\times 2/3 { a4\( bes8\) }
@@ -57,7 +57,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		f16
 		\times 2/5 { g[ a a a a] }
 		bes[ a\( g\) a]

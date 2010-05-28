@@ -1,13 +1,13 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
-\markup {AT  14}
+%\markup {AT  14}
 
 
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { } }
+		\set Staff.instrumentName = \markup{ \center-align { } }
 		\times 2/3 {f8[ f f]} 
 \times 2/3 { f[ f f] }
  

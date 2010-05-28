@@ -1,10 +1,10 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
-\markup {AT 25 }
+%\markup {AT 25 }
 \relative a' { 
 	\new Staff {
 		\cadenzaOn          \key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël  } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Noël  } }
 f8
 \times 2/3 { g[ a a] }
 \times 2/3 { a[ a a] }
@@ -25,7 +25,7 @@ En Dieu sont ca -- chés les tré -- sors de la sa -- ges -- se et de la con -- 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn          \key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Car.  } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Car.  } }
 		f8
 		g16[\( a\) g bes]
 		a16[\cesurebasse\pespace   a a a]
@@ -43,7 +43,7 @@ En Dieu sont ca -- chés les tré -- sors de la sa -- ges -- se et de la con -- 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn          \key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 f8
 \times 2/3 { g[ a a] }
 \times 2/3 { bes[ a g] }
@@ -64,7 +64,7 @@ Voi -- ci que je viens sans tar -- der et j'ap -- porte a -- vec moi le sa -- la
 \relative a' { 
 	\new Staff {
 		\cadenzaOn          \key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 a8
 \times 2/3 { bes[ a g] }
 a[\( a\)]

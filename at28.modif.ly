@@ -1,10 +1,10 @@
-\version "2.12.0"
+\version "2.10.0"
  \include "definitions.ly"
-\markup {AT 28 }
+%\markup {AT 28 }
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {  } }
+		\set Staff.instrumentName = \markup{ \center-align {  } }
 		g8
 		\times 2/3 { a8[ c c]  } c4 \cesure\pespace
 		c16[ c c c]
@@ -23,7 +23,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {  } }
+		\set Staff.instrumentName = \markup{ \center-align {  } }
 		g16[ a c c]
 		c8[ \cesure \pespace c16 d]
 		c[ c b a]

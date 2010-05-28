@@ -1,4 +1,4 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
  \markup {psaume 87 }
 
@@ -7,7 +7,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		
 		\times 2/3 { r8_\( f[  g\)] } a[ a] g[ bes] \times 2/3 { bes[ a g] } a4 \times 2/3 {g8[ a f]} f4 
 		
@@ -26,7 +26,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. T.P. } }
 		
 		\times 2/3 { r8_\( f[  g\)] } a16[ a a g] \times 2/3 { bes8[ a  g] } a4
 		\cesure \pespace a16[ a a a] \times 2/3 {g8[ a f]} f4
@@ -48,7 +48,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		
 		\times 2/3 {f8[ g a]} \times 2/3 { a[ g bes] } a4 
 		\pespace
@@ -69,7 +69,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		\times 2/3 { r8_\( f[ g]\) }
 		\times 2/3 { a8[\( a\) bes] }
 		a8[\cesure a16 a]
@@ -90,7 +90,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		f8 g8[ a]
 		 \times 2/3 { a4\(\cesure \pespace a8\) }
 		\times 2/3 { a8[ a bes] } \times 2/3 { a8[\( a\) g] }

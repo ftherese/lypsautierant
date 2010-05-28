@@ -1,12 +1,12 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
-\markup {AT  16}
+%\markup {AT  16}
 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column {  } }
+		\set Staff.instrumentName = \markup{ \center-align {  } }
 		
 		r8 g16[ a]
 		\slurDashed

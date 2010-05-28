@@ -1,12 +1,12 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
-\markup {AT 24 }
+%\markup {AT 24 }
 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { } }
+		\set Staff.instrumentName = \markup{ \center-align { } }
 		a8 
 		\times 2/3 { bes[ a g] }
 		a4 \pespace r8 a a8.[ a16] a[\( a\) a a] a16[ a g g] f4\( d8\) r
@@ -28,7 +28,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { } }
+		\set Staff.instrumentName = \markup{ \center-align { } }
 		f8
 		g16[\( a\) g bes] a4
 		a16[ a a a]

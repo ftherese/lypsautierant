@@ -1,7 +1,7 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
 \include "definitions.ly"
 
-\markup { Psaume 20}
+%\markup { Psaume 20}
 
 
 
@@ -9,7 +9,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		e8 \times 2/3 { g[ a a] } a16[ g a b]
 		a4 \cesure \pespace
 		a8[ a]
@@ -33,7 +33,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { T.O. T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. T.P. } }
 		\times 2/3  { a8 g a }
 		a4 \pespace
 		\times 2/3  { r8_\( a a\) }
@@ -61,7 +61,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { Av. Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. Noël } }
 		 r8 a16[ g]  a16[ a a a] a8.[ a16] a16[\( a\) a g] b8[ b] a[\( a\)] \cesure \indentLine
 		a[ a] a16[\( a\) a b] g8[ e] e4
 		
@@ -78,7 +78,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		\times 2/3  { a8 g a }
 		\times 2/3  { g[ a b] }
 		a4

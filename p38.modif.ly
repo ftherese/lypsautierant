@@ -1,12 +1,12 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
 \include "definitions.ly"
 
-\markup { psaume 38 }
+%\markup { psaume 38 }
 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {T.O. Av.} }
+		\set Staff.instrumentName = \markup{ \center-align {T.O. Av.} }
 		
 		
 		\times 2/3 { r8_\( g[ c\)] } \times 2/3 { b[ c  d] } \times 2/3 { f[ e  d] } \times 2/3 { d4\(  e8\) } 
@@ -27,7 +27,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Car. } }
 		
 		\times 2/3 { r8_\( g[ c\)] } \times 2/3 { b[ c  d] } \times 2/3 { f[ e  d] } \times 2/3 { d4\(   e8\) } 
 		\pespace
@@ -48,7 +48,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {Noël T.P.} }
+		\set Staff.instrumentName = \markup{ \center-align {Noël T.P.} }
 		
 		\times 2/3 {g8[ c\( b\)]} c16[ d d f] \times 2/3 {e8[ e d]} \times 2/3 { d4\(   e8\) } 
 		\indentLine r8. \espall d16 d[\( e\) d d c] c8[ b] a4

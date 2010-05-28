@@ -1,11 +1,11 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
-\markup {AT 41-8 }
+%\markup {AT 41-8 }
 
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Av. } }
 		\times 2/3 { g8[ a c] }
 		\times 2/3 { c8[ c c] }
 		c16[\( b\) c a] g4
@@ -20,7 +20,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. T.P. } }
 g8
 \times 2/3 { a[ g c] }
 c[ c16\( c\)]
@@ -41,7 +41,7 @@ Voi -- ci que je fais tou -- tes cho -- ses nou -- vel -- les. Al -- le -- lu --
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		g16[ a c c]
 		\times 2/3 { c8[ d c] } c4  \cesure \pespace 
 		\times 2/3 { c8[ c c] }
@@ -59,7 +59,7 @@ Voi -- ci que je fais tou -- tes cho -- ses nou -- vel -- les. Al -- le -- lu --
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		g16
 		a16[ c c c]
 		c16[ c c c] d8[ c]

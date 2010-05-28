@@ -1,6 +1,6 @@
-\version "2.12.0"
+\version "2.10.0"
  \include "definitions.ly"
-\markup {AT 47 }
+%\markup {AT 47 }
 
 
 
@@ -8,7 +8,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		f8
 		g16[ a a a] 
 		a[ a a g]
@@ -29,7 +29,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		f8
 		g8[ a] a4 \cesure\pespace 
 		\times 2/3 { a8[\( a\) bes] }
@@ -49,7 +49,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		f16
 		\times 2/5 {g16[a a a a]}
 		a16[ a g bes] a4
@@ -65,7 +65,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Noël T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { Noël T.P. } }
 		f16[ g a a]
 		g8[ bes] a4
 		\times 2/3 { g8[ g f] }
@@ -82,7 +82,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		r16 f[ g a]
 		a[\( a\) a a]
 		\times 2/3 { a4\( a8\) }

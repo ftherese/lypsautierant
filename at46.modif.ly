@@ -1,12 +1,12 @@
-\version "2.12.0"
+\version "2.10.0"
  \include "definitions.ly"
-\markup {AT  46}
+%\markup {AT  46}
 
 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {  } }
+		\set Staff.instrumentName = \markup{ \center-align {  } }
 		f8[ a c]
 		c16[\( c\) c d]
 		c8[\( c\)] \cesure \pespace c[ c] 
@@ -27,7 +27,7 @@ Je suis la vi -- gne vé -- ri -- ta -- ble et mon Père est le vi -- gne -- ron
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {  } }
+		\set Staff.instrumentName = \markup{ \center-align {  } }
 f16
 a[ c c c]
 c8[\( c\)]

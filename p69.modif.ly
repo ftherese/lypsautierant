@@ -1,12 +1,12 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
 \include "definitions.ly"
 
-\markup { psaume 69}
+%\markup { psaume 69}
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Noël } }
 		
 		bes8 a[ g] \times 2/3 { a4\(  \cesure a8\) } \times 2/3 {g[ g f] } d4
 		\endBar
@@ -22,7 +22,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Car. } }
 		
 		f16[\( g\) a a] a4 \cesure \times 2/3 { bes8[ a g] } a4
 		
@@ -42,7 +42,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		
 		f16 g[ a a a] 
 		\stemUp
@@ -69,7 +69,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		\times 2/3 { f8[ g a] } a4 \pespace
 		\times 2/3 {r8_\(bes[ a]\)} g[\( a\)] 
 		\times 2/3 { a4\(\cesure \pespace  a8\) }

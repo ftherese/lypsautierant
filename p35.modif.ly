@@ -1,14 +1,14 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
 \include "definitions.ly"
 
-\markup { psaume 35}
+%\markup { psaume 35}
 
 
 \relative f' { 
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		\times 2/3 { f8 g a }
 		\times 2/3 { g8 bes a }
 		\times 2/3 { g4\( a8\) }
@@ -29,7 +29,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Av. } }
 		r8 f16[ g]
 		a[\( a\) g bes]
 		a8[\( g\)]
@@ -50,7 +50,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Noël T.P.} }
+		\set Staff.instrumentName = \markup{ \center-align { Noël T.P.} }
 		f16[ g a a]
 		a8[ g]
 		\times 2/3 { bes8 a g }
@@ -74,7 +74,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		r8 f16[ g]
 		\times 2/5 { a[ a a a a] }
 		g[ bes a g]

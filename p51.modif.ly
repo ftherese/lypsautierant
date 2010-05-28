@@ -1,12 +1,12 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
 \include "definitions.ly"
 
-\markup { psaume 51}
+%\markup { psaume 51}
 
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		g8 a[ g] g[ c] \times 2/3 { c[ b c] } 
 		d[ c]  	\times 2/3 { c4\(\cesure c8\) } 	
 		c16[ c c c]  b16[ c a g]  g4
@@ -20,7 +20,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. T.P. } }
 		c8
 		\times 2/3 { c[ b c]}
 		d[ c]
@@ -40,7 +40,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		r8 g16[ a]
 		g[ g c b]
 		c8[ d]
@@ -60,7 +60,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		c16[ c c c]
 		\times 2/3 { c4\( b8\)}
 		\times 2/3 { c[ d d]}
@@ -79,7 +79,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		\times 2/3 { g8 c c}
 		c[\( b\)]
 		c[ d]

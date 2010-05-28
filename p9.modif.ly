@@ -1,12 +1,12 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
-\markup { psaume 9a }
+%\markup { psaume 9a }
 
 
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Noël } }
 		
 		r8. \espall	 c16 b8.[ c16] d[\( f\) e d] 
 		\times 2/3 { e4\( \cesure d8\) }
@@ -29,7 +29,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. T.P. } }
 		
 		g8 c[ \cesure b] c[ d] d16[ f e\( d\)] e4 
 		\ifIndent 
@@ -51,7 +51,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		
 		\times 2/3 { r8\( c[ b\)] }
 		c[ d] f[\( e\)]
@@ -73,7 +73,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		
 		\times 2/3 { r8_\( g[ c\)] }
 		b[ c] \times 2/3 { d4\(  f8\) } \times 2/3 {e[\( e\) d] } e[\( e\)] 
@@ -94,13 +94,13 @@
 
 
 
-\markup { psaume 9b}
+%\markup { psaume 9b}
 
 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {T.O. Noël} }
+		\set Staff.instrumentName = \markup{ \center-align {T.O. Noël} }
 		\times 2/3 { r8\( d[ d]\) }
 		f16[\( e\) e d]
 		e8[\cesure d16 e]
@@ -122,7 +122,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {T.O. Car.} }
+		\set Staff.instrumentName = \markup{ \center-align {T.O. Car.} }
 		
 		\times 2/3 {g8[ c b]} c4 
 		\times 2/5 { d16[ d d d f] }
@@ -146,7 +146,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {Av.} }
+		\set Staff.instrumentName = \markup{ \center-align {Av.} }
 		
 		\times 2/3 {g8[ c b]} 
 		\times 2/3 { c[ d d] }
@@ -170,7 +170,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		
 		r16 g16[ c] b8.[ c16] d16[\( d\) d f] e8[\cesure d16 d] e16[\( d\) d c] \stemDown b4\( a8\) r8 \times 2/3 {c8[ d e]} d4 \endBar
 

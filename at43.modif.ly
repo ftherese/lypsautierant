@@ -1,12 +1,12 @@
-\version "2.12.0"
+\version "2.10.0"
  \include "definitions.ly"
-\markup {AT 43 }
+%\markup {AT 43 }
 
 
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {T.O.  } }
+		\set Staff.instrumentName = \markup{ \center-align {T.O.  } }
 \times 2/3 { c8[ d f] }
 \slurDashed f4(
 f16)[\( f\) f f]
@@ -24,7 +24,7 @@ Que le Seign -- eur dai -- gne vous ar -- mer de puis -- san -- ce par son Es --
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		\times 2/3 { r8_\( c[ d]\) }
 		\times 2/3 { f8[ f f] }
 		\times 2/3 { f8[ f f] }
@@ -40,7 +40,7 @@ Que le Seign -- eur dai -- gne vous ar -- mer de puis -- san -- ce par son Es --
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {Av. Car.  } }
+		\set Staff.instrumentName = \markup{ \center-align {Av. Car.  } }
 f16[ e f g]
 \times 2/3 { f8[\( f\) \cesurebasse \pespace  f] }
 f16[\( f\) f f]
@@ -57,7 +57,7 @@ Re -- le -- vez la tê -- te car vo -- tre ré -- demp -- tion ap -- pro -- che.
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Noël T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { Noël T.P. } }
 \times 2/3 { f8[ f f] }
 f[\( f\)]
 \cesure\pespace 

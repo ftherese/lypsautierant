@@ -1,4 +1,4 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
 \include "definitions.ly"
 \markup { Psaume 1}
 
@@ -7,7 +7,7 @@
 	 \new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Av. } }
 		g8 \times 2/3 { a[ c d] } c16[\( c\) c c] 
 		\times 2/3 { c8[\( b\) a]} 
 		c8[ \pespace \cesure \pespace c16 c]
@@ -25,7 +25,7 @@
  	\relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Noël } }
 		
 		g8 \times 2/3 { a[ c d] } c[ c] c16[ \cesure c b a] c4  \pespace
 		\times 2/3 { c8[\( a\) c] }
@@ -44,7 +44,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		
 		r8 g16[ a] c[ c c d] c[ c b\( a\)] c4 
 		\ifIndent \times 2/3 { r8\( c[ c\)] }
@@ -64,7 +64,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		
 		g8 a[ c]
 		d16[ \cesure c b a] c4 
@@ -84,4 +84,4 @@
 }	
 
 
-\version "2.12.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.10.0"  % necessary for upgrading to future LilyPond versions.

@@ -1,4 +1,4 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
  \markup {psaume 119 }
 
@@ -6,7 +6,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		a8
 		g[ a]
 		\slurDashed
@@ -29,7 +29,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Noël } }
 		a16
 		a[ a g a]
 		b8[ a]
@@ -51,7 +51,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		a8
 		\times 2/3 { g8[ a a] }
 		\times 2/3 { a4\( g8\) }
@@ -72,7 +72,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. T.P. } }
 		\times 2/3 { r8_\( a g\) }
 		\times 2/3 { a[ b a] }
 		a4

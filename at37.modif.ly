@@ -1,12 +1,12 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
-\markup {AT  37}
+%\markup {AT  37}
 
 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {  } }
+		\set Staff.instrumentName = \markup{ \center-align {  } }
 		r16 e16[ g a]
 		\times 2/5 {a16[a a a a]}
 		\times 2/3 { a8[ a a] }
@@ -25,7 +25,7 @@ Le Fils de l'homme est ve -- nu cher -- cher et sau -- ver ce qui ét -- ait per
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {  } }
+		\set Staff.instrumentName = \markup{ \center-align {  } }
 a16
 a[\( a\) a a]
 g8[ b]

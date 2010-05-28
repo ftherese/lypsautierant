@@ -1,14 +1,14 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
 \include "definitions.ly"
 
-\markup { psaume 50 - 7° mode}
+%\markup { psaume 50 - 7° mode}
 
 
 
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		d8
 		f[ \cesure \pespace e]
 		e[ d]
@@ -27,7 +27,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. Noël } }
 		g16[ c b c]
 		d[ f e d]
 		e4
@@ -45,7 +45,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		d8 f4 \cesure \pespace
 		\times 2/3 { e8[ d e] }
 		e4 \cesure \pespace
@@ -60,7 +60,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		r8 g16[ c]
 		b[ c d d]
 		d[ f e e]
