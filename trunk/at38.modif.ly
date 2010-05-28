@@ -1,13 +1,13 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
-\markup {AT 38 }
+%\markup {AT 38 }
 
 
 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël  } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Noël  } }
 \times 2/3 { f8[ g a] }
 a[\( a\)]
 \times 2/3 { bes[ a g] }
@@ -20,7 +20,7 @@ f4
 		\endBar
 	}	\addlyrics {
 A moins de naî -- tre d'eau et d'Es -- prit, nul ne peut en -- trer dans le Roy -- au -- me de Dieu.		
-\markup { \citation #"Jn 3"}
+%\markup { \citation #"Jn 3"}
 	}
 }
 
@@ -29,7 +29,7 @@ A moins de naî -- tre d'eau et d'Es -- prit, nul ne peut en -- trer dans le Roy
 \relative a' { 
 	\new Staff {
 		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Av.  } }
+		\set Staff.instrumentName = \markup{ \center-align { Av.  } }
 		f8
 		g8[ a]
 		\times 2/3 { bes8[ a\( g]\) }
@@ -46,7 +46,7 @@ A moins de naî -- tre d'eau et d'Es -- prit, nul ne peut en -- trer dans le Roy
 \relative a' {
 	\new Staff {
 		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column {Car. } }
+		\set Staff.instrumentName = \markup{ \center-align {Car. } }
 f8
 g4
 \cesure \pespace 
@@ -68,7 +68,7 @@ L'Es -- prit, l'eau et le sang ren -- dent té -- moi -- gna -- ge.
 \relative a' { 
 	\new Staff {
 		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.P.  } }
+		\set Staff.instrumentName = \markup{ \center-align { T.P.  } }
 \times 2/3 { r8_\( f[ g\)] }
 a[ a]
 g[ bes]

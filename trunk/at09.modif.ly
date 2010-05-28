@@ -1,6 +1,6 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
-\markup {AT 9 }
+%\markup {AT 9 }
  
  
  
@@ -9,7 +9,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { } }
+		\set Staff.instrumentName = \markup{ \center-align { } }
 		f8
 		a16[ c c c]
 		c8[ c] c8[\( c\)]
@@ -35,7 +35,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { } }
+		\set Staff.instrumentName = \markup{ \center-align { } }
 		f8 
 \times 2/3 { a[ c c] }
  c[ d] 

@@ -1,12 +1,12 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
-\markup {AT 20 }
+%\markup {AT 20 }
 
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		
 	
 	c16
@@ -26,7 +26,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { Av. Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. Car. } }
 		\times 2/3 { r8_\( g a\) }
 		\time 2/3 { c[ c c] }
 		\slurDashed d4( \pespace 
@@ -47,7 +47,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		c8
 		\times 2/3 { c\([ c\) d] }
 		\times 2/3 { c b a }
@@ -70,7 +70,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		r16 g[ a c]
 		c[ c c d]
 		c[\( c\) \cesure\pespace   b a]

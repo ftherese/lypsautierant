@@ -1,10 +1,10 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
-\markup {AT 39 }
+%\markup {AT 39 }
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Noël } }
 		
 		 \times 2/3 { r8_\( f[ a\)] } 
 \times 2/3 { c[ c c] }
@@ -31,7 +31,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		
 		r16 c[ c c] c[ c c c] c[\( c\) \cesure \pespace c d c] 
 \times 2/3 { c4\(\pespace \cesure\pespace  c8\) }
@@ -53,7 +53,7 @@ c[\cesure \pespace a] a4
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		
 		\times 2/3 { r8\( c[ c\)] } 
 \times 2/3 { c[ c c] }
@@ -77,7 +77,7 @@ c[\cesure \pespace a] a4
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		
 		f16 a[ c c c] \times 2/3 {c8[ c c]} 
 \times 2/3 { c[ c c] }

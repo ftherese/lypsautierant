@@ -1,12 +1,12 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
-\markup {AT  32}
+%\markup {AT  32}
 
 
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		
 		g16[ c b c] d8[ d] d[ f] e[\( e\)]\pespace  r d16[ e] d[\( d\) c\( c\)] \stemUp b4\( a8\) r 
 		\endBar
@@ -21,7 +21,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		
 		d8[\( d\)] \cesure \pespace 
 \times 2/3 { d[ d f] }
@@ -40,7 +40,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Noël  Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Noël  Car. } }
 		
 		g16 c[ b c d] 
 \times 2/3 { d8[\( d\) d] }
@@ -62,7 +62,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		
 		r16 c[ b c] d[\( f\) e d] 
 		\times 2/3 { e4\( \cesure d8\) }

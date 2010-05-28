@@ -1,14 +1,14 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
 \include "definitions.ly"
 
-\markup { psaume 78}
+%\markup { psaume 78}
 
 
 \relative f' { 
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		
 		c8 d[ f] f[\( f\)] 
 		\pespace
@@ -30,7 +30,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Av. } }
 		
 		\times 2/3 {c8[ d c]} f[ e] \times 2/3 {f[ g f] } f4 \times 2/3 { r8_\( f[ f\)] } \times 2/3 {e[\( c\) d] } d4
 
@@ -49,7 +49,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Noël T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { Noël T.P. } }
 		
 		c8 d[ f] f[\( f\)] e16[ f g f] f4
 		\cesure \pespace f16[ f f f] \times 2/3 { f8[ e  c] } d4
@@ -71,7 +71,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		
 		f8[ e] f[ g] \times 2/3 {f4\(  f8\) } f[ f] f[ f] 
 		\slurDashed

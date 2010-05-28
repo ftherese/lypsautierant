@@ -1,11 +1,11 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
 \include "definitions.ly"
-\markup {NT 7 }
+%\markup {NT 7 }
 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {  } }
+		\set Staff.instrumentName = \markup{ \center-align {  } }
 		a8
 		\times 2/3 { a8[ b c] }
 		\slurDashed a4( \times 2/3 {g8[) g g] }

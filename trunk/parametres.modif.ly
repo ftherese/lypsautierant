@@ -1,20 +1,20 @@
-\version "2.12.0"
+\version "2.10.0"
 \paper {
 
 	#(set-paper-size "a5" )
-	between-system-spacing = #'((padding . 1) (space . 1))
-%	page-limit-inter-system-space = ##t
-%	page-limit-inter-system-space-factor = #1
-%	between-system-space = 1\mm
+	between-system-spacing = #'((padding . 2) (space . 1))
+	page-limit-inter-system-space = ##t
+	page-limit-inter-system-space-factor = #1
+	between-system-space = 1\mm
 	between-scores-system-spacing = #'((padding . 1) (space . 1))
-%	between-system-padding = #1
+	between-system-padding = #2
 	line-width = 120\mm
-	left-margin = 8\mm
-	short-indent = 25\mm
+	left-margin = 5\mm
+	short-indent = 20\mm
 	ragged-right = ##t
-	%ragged-last = ##t
+	ragged-last = ##t
 %	annotate-spacing = ##t
-%	ragged-bottom = ##t
+	ragged-bottom = ##t
    
 }
 

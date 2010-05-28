@@ -1,11 +1,11 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
 \include "definitions.ly"
-\markup {NT 6 }
+%\markup {NT 6 }
 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		e8
 		a8.[ b16]
 		c16[\( b\) a g]
@@ -24,7 +24,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Noël } }
 		\times 2/3 { a8[ a c] } b4 \cesure \pespace
 		\times 2/3 { g8[ a b] } a4 \cesure\pespace
 		\times 2/3 { e8[ g f] } e4 \cesure \pespace \indentLine
@@ -46,7 +46,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		\times 2/3 { e8[ g a] }
 		a16[ a a g]
 		\times 2/3 { b8[ c b] } a4 \pespace
@@ -68,7 +68,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		e8
 		\times 2/3 { e8[\( e\) g] }
 		\times 2/3 { a8[ a g] }
@@ -88,7 +88,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		e8[ g]
 		a8[\cesure \pespace a16 a]
 		g16[ a\( c\) b] a4 \pespace

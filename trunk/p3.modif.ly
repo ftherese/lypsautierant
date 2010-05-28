@@ -1,13 +1,13 @@
-\version "2.12.0"
+\version "2.10.0"
  \include "definitions.ly"
 
-\markup { Psaume 3}
+%\markup { Psaume 3}
 
 \relative f' { 
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		r16 f[ g a]
 		a[ a a g]
 		\times 2/3 { bes8 a g }
@@ -38,7 +38,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. T.P. } }
 		f8
 		g[ a]
 		\override Stem #'neutral-direction = #up
@@ -66,7 +66,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Av. Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. Car. } }
 		f8
 		g16[ a a a]
 		a8[\( a\)] \pespace
@@ -91,7 +91,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		\times 2/3 { f8[ g a] }
 		\times 2/3 { a[ g bes ] }
 		a[\( g\)]

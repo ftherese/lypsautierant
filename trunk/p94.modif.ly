@@ -1,4 +1,4 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
  \markup {psaume 94 }
 
@@ -6,7 +6,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Av. } }
 
 		 d8 \times 2/3 { d[ d  e] } d[ c] c[ b] a4
 
@@ -24,7 +24,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {Noël Car. T.P.} }
+		\set Staff.instrumentName = \markup{ \center-align {Noël Car. T.P.} }
 		
 		\times 2/3 { r8\( c[ b\)] } c[ d] \times 2/3 { f4\(  e8\) } r d e[ d] \times 2/3 { d[ c  c] }
 		\stemUp

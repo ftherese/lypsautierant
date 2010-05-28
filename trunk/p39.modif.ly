@@ -1,14 +1,14 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
 \include "definitions.ly"
 
-\markup { psaume 39 }
+%\markup { psaume 39 }
 
 
 
 \relative f' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		r8 a16[ g]
 		a[ a a g]
 		b[ b a b]
@@ -28,7 +28,7 @@
 \relative f' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Car. } }
 		\times 2/3 { r8_\( a g\) }
 		a[ \cesure b]
 		\times 2/3 { a4\( \cesure a8\) }
@@ -47,7 +47,7 @@
 \relative f' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		\times 2/5 {e16[g a a a]} 
 		a16[\( a\) a a]
 		\times 2/3 { a8[\( a\) a] }
@@ -63,7 +63,7 @@
 \relative f' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		\times 2/3 { a8[ a a] }
 		\times 2/3 { g8[ a b] }
 		\times 2/3 { a8[\( a\) a] }
@@ -82,7 +82,7 @@
 \relative f' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		\times 2/3 { e8[ g a] } \times 2/3 { a[ a a] }
 		a16[ a g b] \times 2/3 { a4\( a8\) }  r8 a8 
 		\times 2/3 { a[ a a] } \times 2/3 { a[ a a] }

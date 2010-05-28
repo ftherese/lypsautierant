@@ -1,4 +1,4 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
  \markup {psaume 150-7 }
 
@@ -6,7 +6,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		\times 2/3 { c8[ b c] }
 		d16[\( d\) d d]
 		\times 2/3 { d8[\( d\) f] }
@@ -24,7 +24,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. T.P. } }
 		\times 2/3 { g8 c b }
 		c[\( d\)]
 		\pespace
@@ -47,7 +47,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {  Av. Car.} }
+		\set Staff.instrumentName = \markup{ \center-align {  Av. Car.} }
 		\times 2/3 { c8[ b c] }
 		d16[ d d f]
 		\times 2/3 { e8[\( e\) d] }
@@ -63,7 +63,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Noël T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { Noël T.P. } }
 
 		\times 2/3 { r8\( c[ b]\) }
 		\times 2/3 { c8[ d f] }

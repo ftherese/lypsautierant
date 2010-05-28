@@ -7,7 +7,7 @@ sub first {
  while (@l){
   my $syl = pop @l;
   if ($syl ne '--'){
-   if ($c == 3)){
+   if ($c == 3){
     push(@a,'\\pl{'.$syl.'}');
    }
    else{

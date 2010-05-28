@@ -1,11 +1,11 @@
-﻿\version "2.12.0"
+﻿\version "2.10.0"
  \include "definitions.ly"
  \markup {psaume  121}
 
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		
 		\times 2/3 { f8[ a c] }  \times 2/3 { c[\( c\) c] } c16[ c d c] \times 2/3 { c4\( \pespace \cesure \pespace c8\) } d16[ b b c] \times 2/3 { a4\(  a8\) } r8
 		
@@ -23,7 +23,7 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Av. } }
 		
 		f8 \times 2/3 { a[ c c] } \slurDashed c4( \pespace c8)[ c] \times 2/3 { d[ b b] } c[ a] a4
 
@@ -44,7 +44,7 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 			
 		\times 2/3 { f8[ a c] } c16[\( c\) c c] d8[ d] c4 c16[ c d b] \times 2/3 { b8[ c a] } a4
 
@@ -63,7 +63,7 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		
 		\times 2/3 { f8 a c] } 
 		\times 2/5 { c16[ \cesure \pespace c c d c] } 
@@ -83,7 +83,7 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		
 		\times 2/3 { f8[\( a c\)] } c16[\( c\) c c] c8[ c] c16[ c d\( c\)] c4 
 		
