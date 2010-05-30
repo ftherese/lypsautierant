@@ -61,7 +61,7 @@
 		\markup { \citation #"Ap 22" }
 	}
 }
-\relative a' { 
+\relative a' { 
 	\new Staff {
 		\cadenzaOn
 		\key f \major
@@ -80,7 +80,6 @@
 
 	\addlyrics {
 		Il s'hu -- mi -- lia jus -- qu'à  la mort, auss -- i Dieu l'a- -- t-il e -- xal -- té. Al -- le -- lu -- "ia !" _ _
-
  		\markup { \citation #"Ph 2" } }
 	
 	

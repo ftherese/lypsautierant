@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { psaume 43}
+%\markup { psaume 43 }
 
 
 \relative a' { 
@@ -125,8 +125,7 @@
 	}
 
 	\addlyrics {
-		Heu -- reux ê -- tes- -- vous si l'on vous in -- sul -- te pour le nom du Christ, car l'Es -- prit de gloi -- re re -- po -- se sur vous.  
-		Al -- le -- lu -- - -- "ia !"
+		Heu -- reux ê -- tes- -- vous si l'on vous in -- sul -- te pour le nom du Christ, car l'Es -- prit de gloi -- re re -- po -- se sur vous.  Al -- le -- lu -- - -- "ia !"
  		\markup { \citation #"1 P 4" } }
 	
 	

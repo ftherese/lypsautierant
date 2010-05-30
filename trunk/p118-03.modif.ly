@@ -23,7 +23,6 @@
 	\addlyrics {
 		
 		C'est l'Es -- prit qui rend té -- moi -- gna -- ge.
-		
 		\markup { \citation #"1 Jn 5" } }
 	
 	
@@ -46,7 +45,6 @@
 	\addlyrics {
 		
 		Sei -- gneur, dis seu -- lem -- ent un -- e pa -- ro -- le et mon ser -- vi -- teur se -- ra gué -- ri.
-		
 		\markup { \citation #"Mt 8" } }
 	
 	
@@ -70,7 +68,6 @@
 	\addlyrics {
 		
 		Pè -- re, ils ont gar -- dé ta pa -- ro -- le.
-		
 		\markup { \citation #"Jn 17" } }
 	
 	
@@ -101,8 +98,7 @@
 	\addlyrics {
 		
 		Al -- le -- lu -- ia, al -- le -- lu -- - -- ia, al -- le -- lu -- ia !
-		
-		\markup { \citation #"" } }
+		\markup { \citation #"--" } }
 	
 	
 }

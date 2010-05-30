@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {Psaume 79}
+%\markup { Psaume 79}
 
 \relative c'' { 
 	\new Staff {
@@ -64,7 +64,6 @@
 	\addlyrics {
 		
 		De toi sor -- ti -- ra le chef qui fe -- ra paî -- tre mon peuple Is -- ra -- ël.
-
 		\markup { \citation #"Mt 2" } }
 	
 	
@@ -85,7 +84,6 @@
 	\addlyrics {
 		
 		Son vi -- sa -- ge res -- plen -- dit com -- me le so -- leil. Al -- le -- lu -- "ia !" _
-
 		\markup { \citation #"Mt 17" } }
 	
 	

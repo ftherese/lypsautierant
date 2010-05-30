@@ -37,7 +37,7 @@
 		\endBar
 	}	\addlyrics {
 		Al -- le -- lu -- i -- "a,  " al -- le -- lu -- - -- ia, al -- le --  lu -- ia -- " !" 
-		\markup { \citation #""}
+		\markup { \citation #" "}
 	}
 }
 

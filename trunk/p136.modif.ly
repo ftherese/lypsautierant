@@ -91,7 +91,6 @@
 	\addlyrics {
 		
 		Chan -- tez et cé -- lé -- brez le Sei -- gneur de tout vot -- re cœur. Al -- le -- lu -- "ia !"
-		
 		\markup { \citation #"Ep 5" } }
 	
 	
@@ -116,7 +115,6 @@
 	\addlyrics {
 		
 		Nous som -- mes en e -- xil loin du Sei -- gneur.
-		
 		\markup { \citation #"2 Co 5" } }
 	
 	

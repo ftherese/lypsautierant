@@ -1,7 +1,7 @@
 \version "2.10.0"
  \include "definitions.ly"
 
-%\markup { Psaume 3}
+%\markup { Psaume 3 }
 
 \relative f' { 
 	\new Staff {
@@ -27,8 +27,7 @@
 	}
 	\addlyrics {
 		En -- se -- ve -- lis a -- vec le Christ dans la mort, nous vi -- vons a -- vec lui d'un -- e vie nou -- vel -- le. 
-	%{"(Al" -- le -- lu -- ia "!)" %}
-		\markup { \citation #"Rm 6" }
+		\markup { \citation #"Rm 6" } %{"(Al" -- le -- lu -- ia "!)" %}
 	}
 }
 
@@ -60,7 +59,7 @@
 		\markup { \citation #"Ep 5" }
 	}
 }
-
+
 
 \relative f' { 
 	\new Staff {

@@ -21,7 +21,6 @@
 
 	\addlyrics {
 		Du grain est tom -- bé dans la bon -- ne ter -- re et a pro -- duit du fruit.
-				
 		\markup { \citation #"Lc 8" } }
 	
 	
@@ -48,7 +47,6 @@
 	\addlyrics {
 		
 		De sa plé -- ni -- tu -- de nous a -- vons tous re -- çu, et grâ -- ce sur grâ -- ce.
-		
 		\markup { \citation #"Jn 1" } }
 	
 	
@@ -76,7 +74,6 @@
 	\addlyrics {
 		
 		Le voi -- "ci !" Il vient, bon -- dis -- sant sur les mon -- ta -- gnes, sau -- tant sur les col -- li -- "nes !"
-		
 		\markup { \citation #"Ct 2" } }
 	
 	
@@ -100,7 +97,6 @@
 	\addlyrics {
 		
 		Maî -- - -- tre, où de -- meu -- res- -- "tu ?"
-		
 		\markup { \citation #"Jn 1" } }
 	
 	

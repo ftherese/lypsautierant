@@ -79,7 +79,7 @@
 
 	\addlyrics {
 		Al -- le -- lu -- ia, al -- le -- lu -- - -- ia, al -- le -- lu -- "ia !"
-		\markup { \citation #"" } 
+		\markup { \citation #"--" } 
 	}
 }
 

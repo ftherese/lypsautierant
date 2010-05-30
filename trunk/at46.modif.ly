@@ -20,7 +20,7 @@
 Je suis la vi -- gne vé -- ri -- ta -- ble et mon Père est le vi -- gne -- ron. "(Al" -- le -- lui -- "a !)"		 
 		\markup { \citation #"Jn 15" } 
 	}
-}
+}
 
 
 

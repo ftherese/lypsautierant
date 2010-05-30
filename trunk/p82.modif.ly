@@ -17,7 +17,6 @@
 	\addlyrics {
 		
 		Que tou -- te lan -- gue pro -- cla -- "me :" Jé -- sus- -- Christ est Sei -- gneur.
-
 		\markup { \citation #"Ph 2" } }
 	
 	
@@ -38,7 +37,6 @@
 	\addlyrics {
 		
 		Jé -- sus- -- Christ est au des -- sus de tout, Dieu bé -- ni é -- ter -- nel -- le -- "ment !"
-
 		\markup { \citation #"Rm 9" } }
 	
 	
@@ -55,7 +53,6 @@
 	\addlyrics {
 		
 		Pè -- re, que ton rè -- gne vien -- "ne !"
-
 		\markup { \citation #"Lc 11" } }
 	
 	
@@ -84,7 +81,6 @@
 
 	\addlyrics {
 		Tu as pris ton im -- men -- se puis -- san -- ce pour é -- ta -- blir ton rè -- gne. Al -- le -- lu -- ia ! _ 
-
 		\markup { \citation #"Ap 11" } }
 	
 	

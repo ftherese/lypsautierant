@@ -25,8 +25,6 @@
 	\addlyrics {
 		
 		Moi, je vous "dis :" ai -- mez vos en -- ne -- mis, et pri -- ez pour ceux qui vous per -- sé -- cu -- tent.
-
-		
 		\markup { \citation #"Lc 6" } }
 	
 	
@@ -49,8 +47,6 @@
 	\addlyrics {
 		
 		Il rô -- de, votre ad -- ver -- sai -- re le dia -- ble, cher -- chant qui dé -- vo -- rer.
-
-		
 		\markup { \citation #"1 P 5" } }
 	
 	
@@ -71,8 +67,6 @@
 	\addlyrics {
 		
 		Ses yeux, un -- e fla -- mme de feu, et sur lui est éc -- rit un nom qu'il est seul à con -- naî -- tre.
-
-		
 		\markup { \citation #"Ap 19" } }
 	
 	
@@ -96,7 +90,6 @@
 	\addlyrics {
 		
 		Jé -- sus vint, les portes ét -- ant clo -- ses, et il ét -- ait là au mil -- ieu d'eux. Al -- le -- lu -- "ia !"
-		
 		\markup { \citation #"Jn 20" } }
 	
 	

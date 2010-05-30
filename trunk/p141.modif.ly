@@ -26,7 +26,6 @@
 	\addlyrics {
 		
 		Tous m'ont a -- ban -- don -- né, le Sei -- gneur, lui, m'a as -- sis -- té.
-		
 		\markup { \citation #"2 Tm 4" } }
 	
 	
@@ -55,7 +54,6 @@
 	\addlyrics {
 		
 		De pleur, de cri et de pei -- ne, il n'y en au -- ra plus.
-		
 		\markup { \citation #"Ap 21" } }
 	
 	
@@ -84,7 +82,6 @@
 	\addlyrics {
 		
 		Ma part, c'est le Sei -- "gneur !" dit mon â -- me. Al -- le -- lu -- "ia !" _
-		
 		\markup { \citation #"Lm 3" } }
 }
 	

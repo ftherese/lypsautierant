@@ -22,7 +22,6 @@
 	}
 	\addlyrics {
 		Les dis -- cip -- les se rap -- pe -- lè -- rent qu'il est éc -- "rit :" Le zè -- le pour ta mai -- son me dé -- vo -- re -- ra.
-
 		\markup { \citation #"Jn 2" }
 	}
 }

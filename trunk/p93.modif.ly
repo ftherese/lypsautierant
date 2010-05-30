@@ -25,7 +25,6 @@
 	\addlyrics {
 		
 		Que le Sei -- gneur con -- so -- le vos cœurs et les af -- fer -- mis -- se. 
-		
 		\markup { \citation #"2 Th 2" } }
 	
 	
@@ -132,7 +131,6 @@
 	\addlyrics {
 		
 		Nous a -- vons un a -- vo -- cat au -- près du Pè -- "re :" Jé -- sus- -- Christ le jus -- te. "Al" -- le -- lu -- "ia !" _ _
-		
 		\markup { \citation #"1 Jn 2" } }
 	
 	

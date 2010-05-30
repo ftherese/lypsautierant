@@ -89,6 +89,6 @@
 		\endBar
 	}	\addlyrics {
 		Al -- le -- lu -- ia, _ al -- le -- lu -- - -- ia, al -- le -- lu -- "ia !" _
-		\markup { \citation #""}
+		\markup { \citation #" "}
 	}
 }

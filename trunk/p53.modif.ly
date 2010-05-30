@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { psaume 53}
+%\markup { psaume 53 }
 
 \relative f' { 
 	\new Staff {
@@ -21,7 +21,6 @@
 	\addlyrics {
 		
 		La sup -- pli -- ca -- tion du jus -- te a -- git a -- vec beau -- coup de puis -- san -- ce.
-		
 		\markup { \citation #"Jc 5" } 
 	}
 }

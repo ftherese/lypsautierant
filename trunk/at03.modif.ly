@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT  3}
+\markup {AT  3}
 
 
 
@@ -79,8 +79,7 @@ d4
 	}
 
 	\addlyrics {
-C'est pour vous que Dieu a res -- su -- sci -- té son ser -- vi -- teur 
-et l'a en -- voy -- é vous bé -- nir. Al -- le -- lui -- "a !"
+C'est pour vous que Dieu a res -- su -- sci -- té son ser -- vi -- teur et l'a en -- voy -- é vous bé -- nir. Al -- le -- lui -- "a !"
 		\markup { \citation #"Ac 3" } }
 	
 	
