@@ -20,7 +20,6 @@
 
 	\addlyrics {
 		Que le Dieu de l'es -- pé -- ran -- - -- ce vous com -- ble de sa joie.
-		
 		\markup { \citation #"Rm 15" } }
 	
 	

@@ -45,8 +45,7 @@
 
 	\addlyrics {
 		La Jé -- ru -- sa -- lem d'en haut est lib -- re, c'est el -- le not -- re mè -- re. 
-	%{?Al -- le -- lu -- ia "!" -- ?%}
-		\markup { \citation #"Ga 4" } 
+		\markup { \citation #"Ga 4" } %{?Al -- le -- lu -- ia "!" -- ?%}
 	}
 }
 \relative d' { 

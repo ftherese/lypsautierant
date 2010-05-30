@@ -83,8 +83,7 @@
 	}
 
 	\addlyrics {
-		Pour que fût ac -- com -- plie l'Éc -- ri -- tu -- re,
-		Jé -- sus "dit :" J'ai "soif !"
+		Pour que fût ac -- com -- plie l'Éc -- ri -- tu -- re, Jé -- sus "dit :" J'ai "soif !"
  		\markup { \citation #"Jn 19" } }
 	
 	

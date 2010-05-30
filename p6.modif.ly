@@ -81,8 +81,7 @@
 
 	\addlyrics {
 		
-		Pè -- re, je te rends grâ -- ce d'ac -- cueil -- lir ma pri -- è -- re,
-		je sais que tu m'e -- xau -- ces tou -- jours. " Al" -- le -- lu -- - -- "ia !"
+		Pè -- re, je te rends grâ -- ce d'ac -- cueil -- lir ma pri -- è -- re, je sais que tu m'e -- xau -- ces tou -- jours. " Al" -- le -- lu -- - -- "ia !"
 		\markup { \citation #"Jn 11" } }
 }
 

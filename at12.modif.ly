@@ -18,7 +18,6 @@
 
 	\addlyrics {
 		C'est mon Pè -- re qui vous don -- ne le pain qui vient du ciel. "Al" -- le -- lu -- "ia !"_ 
-
 		\markup { \citation #"Jn 6" } }
 	
 	

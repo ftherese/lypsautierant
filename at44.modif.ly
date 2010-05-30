@@ -20,7 +20,7 @@
 		Les nat -- ions glo -- rif -- ient Dieu pour sa mi -- sé -- ri -- cor -- de. "Al" -- le -- lu -- "ia !" _
 		\markup { \citation #"Rm 15"}
 	}
-}
+}
 
 
 

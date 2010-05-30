@@ -17,8 +17,6 @@
 	\addlyrics {
 		
 		Ai -- mons nous les uns les au -- tres, car l'a -- mour vient de Dieu.
-
-
 		\markup { \citation #"1 Jn 4" } }
 	
 	
@@ -52,7 +50,6 @@
 	\addlyrics {
 		
 		L'a -- mour de Dieu a é -- té ré -- pan -- du dans nos cœurs par l'Es -- prit Saint.
-
 		\markup { \citation #"Rm 5" } }
 	
 	
@@ -80,7 +77,6 @@
 	\addlyrics {
 		
 		Ce -- lui qui ai -- me son frè -- re de -- meu -- re dans la lu -- miè -- re. 
-
 		\markup { \citation #"1 Jn 2" } }
 	
 }
@@ -106,7 +102,6 @@
 	\addlyrics {
 		
 		La mul -- ti -- tu -- de des cro -- yants a -- vait un seul cœur et u -- ne seule â -- me. Al -- le -- lu -- "ia !"
-
 		\markup { \citation #"Ac 4" } }
 	
 	

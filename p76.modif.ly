@@ -28,7 +28,6 @@
 	\addlyrics {
 		
 		Hom -- me de peu de foi, pour -- quoi as- tu dou -- "té ?"
-		
 		\markup { \citation #"Mt 14" } }
 	
 	
@@ -51,7 +50,6 @@
 	\addlyrics {
 		
 		Bé -- ni soit Dieu, le Pè -- re des mi -- sé -- ri -- cor -- des.
-		
 		\markup { \citation #"2 Co 1" } }
 	
 	
@@ -71,7 +69,6 @@
 	\addlyrics {
 		
 		Sans ret -- ard, le Sei -- gneur ac -- com -- pli -- ra sa pa -- ro -- le sur la te -- rre.
-		
 		\markup { \citation #"Rm 9" } }
 	
 	
@@ -92,7 +89,6 @@
 	\addlyrics {
 		
 		Jé -- sus vint vers eux en mar -- chant sur la mer.
-		
 		\markup { \citation #"Mc 6" } }
 	
 	
@@ -120,7 +116,6 @@
 
 	\addlyrics {
 		Jé -- sus- -- Christ est le mê -- me, hi -- er, au -- jour -- d'hui et à ja -- mais. Al -- le -- lu -- "ia !" _ _
-		
 		\markup { \citation #"He 13" } }
 }
 

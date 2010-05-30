@@ -17,7 +17,6 @@
 	\addlyrics {
 		
 		Ai -- mez vos en -- ne -- mis, pri -- ez pour vos per -- sé -- cu -- teurs.
-
 		\markup { \citation #"Mt 5" } }
 	
 	
@@ -38,7 +37,6 @@
 	\addlyrics {
 		
 		Pè -- re, par -- don -- ne- -- leur, car ils ne sa -- vent ce qu'ils font.
-
 		\markup { \citation #"Lc 23" } }
 	
 	
@@ -59,7 +57,6 @@
 	\addlyrics {
 		
 		Le Sei -- gneur me dé -- li -- vre -- ra, et me sau -- ve -- ra pour son Ro -- yau -- me.
-
 		\markup { \citation #"2 Tm 4" } }
 	
 	
@@ -81,7 +78,6 @@
 	\addlyrics {
 		
 		De tou -- tes les per -- sé -- cut -- ions, le Sei -- gneur m'a dé -- li -- vré. " Al" -- le -- lui -- "a !"
-
 		\markup { \citation #"2 Tm 3" } }
 	
 	
@@ -104,7 +100,6 @@
 	\addlyrics {
 		
 		Pour nous ra -- che -- ter, le Christ est de -- ve -- nu ma -- lé -- dic -- tion.
-
 		\markup { \citation #"Ga 3" } }
 	
 	

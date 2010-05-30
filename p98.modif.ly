@@ -99,8 +99,7 @@
 		\endBar
 	}
 	\addlyrics {
-		 E -- xal -- té par la droi -- te de Dieu, il a re -- çu du Pè -- re l'Es -- prit Saint.
-		 Al -- le -- lu -- "ia !" _ _
+		 E -- xal -- té par la droi -- te de Dieu, il a re -- çu du Pè -- re l'Es -- prit Saint. Al -- le -- lu -- "ia !" _ _
 		\markup { \citation #"Ac 2" }
 	}
 }

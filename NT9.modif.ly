@@ -81,7 +81,7 @@
 	}
 	\addlyrics {
 		Puiss -- ance, hon -- neur et gloire à l'Ag -- neau de "Dieu !"
-		\markup { \citation #""}
+		\markup { \citation #"--"}
  }
 }
 

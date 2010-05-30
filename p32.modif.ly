@@ -72,7 +72,7 @@ c16[ c c c] c8[ c16 c] d16[\( b\) b c] a4
 	}
 }
 
-\relative a' { 
+\relative a' { 
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.P.} }

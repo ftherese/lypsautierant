@@ -17,9 +17,7 @@
 		\endBar
 	 }
 	 \addlyrics {
-		 Heu -- reux qui é -- cou -- te la pa -- ro -- le de Dieu
-		 et la gar -- de jour et nuit.
-		 
+		 Heu -- reux qui é -- cou -- te la pa -- ro -- le de Dieu et la gar -- de jour et nuit.
 		 \markup { \citation #"Cf. Lc 11" } }
 	 }
  	\relative c'' { 
@@ -57,7 +55,6 @@
 
 	\addlyrics {
 		Si le grain ne tombe en terre, il res -- te seul, mais s'il meurt, il por -- te beau -- coup de fruit.
-
 		\markup { \citation #"Jn 12" } }
 }	
 
@@ -79,7 +76,6 @@
 
 	\addlyrics {
 		Je suis la Voie, dit le Sei -- gneur. " Al" -- le -- lu -- "ia !" _ 
-
 		\markup { \citation #"Jn 14" } }
 }	
 
