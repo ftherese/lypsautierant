@@ -33,7 +33,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		d16
 		d16[\( c\) d e]
-		d8[\cesure \pespace d16 d]
+		d8[\cesure \pespace \set stemLeftBeamCount = #1 \set stemRightBeamCount = #2 d16 \set stemLeftBeamCount = #2 d]
 		f8.[\cesure \pespace \pespace e16]
 		d8[ c] d4 \pespace
 		c16[ a c b]
