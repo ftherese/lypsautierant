@@ -185,7 +185,7 @@ endBar = {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	fonctions à exploiter
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
-%{
+
 
 space = {
 	\once \override Score.SeparationItem #'padding = #3
@@ -199,7 +199,6 @@ spaceseize = {
 	
 	\once \override Score.SeparationItem #'padding = #1.5
 }
-%}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 #(define-markup-command 
 	(citation layout props str) (string?)
