@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { Psaume 12}
+\markup { Psaume 12}
 
 
 \relative c'' { 
@@ -20,6 +20,7 @@
 
 	\addlyrics {
 		Que le Dieu de l'es -- pé -- ran -- - -- ce vous com -- ble de sa joie.
+		
 		\markup { \citation #"Rm 15" } }
 	
 	
@@ -28,7 +29,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
-		\times 2/3 { g8[ c b] } c16[ d\( d\) f] \times 2/3 { e8[ e d] } e[\( e\)] \cesure
+		\times 2/3 { g8[ c b] } c16[ d\( d\) f] \times 2/3 { e8[ e d] } e[\( e\)] \cesure \pespace
 \times 2/3 { d[ e d] } \times 2/3 { c[\( c\) b] } a4
 
 
@@ -43,7 +44,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { Av. Noël } }
-		\times 2/3 { g8[\( c\) b] } \slurDashed c4( d16[) f e d] e4 \cesure 
+		\times 2/3 { g8[\( c\) b] } \slurDashed c4( d16[) f e d] e4 \cesure \pespace
 \times 2/3 { d8[ d d] } d16[ d d e] d16[\( d\) c c] b4\( \stemDown a8\) r8 
  \endBar
 	}	\addlyrics {
@@ -78,7 +79,7 @@
 		\slurDashed
 		c4(
 		\times 2/3 { d8)\( d\) f }
-		\times 2/3 { e4\( \cesure d8\) }
+		\times 2/3 { e4\( \pespace\cesure \pespace d8\) }
 		d[ d]
 		
 		\times 2/3 { e d d }

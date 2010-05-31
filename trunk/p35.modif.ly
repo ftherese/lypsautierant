@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 35}
+\markup { psaume 35}
 
 
 \relative f' { 

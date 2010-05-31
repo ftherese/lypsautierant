@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { Psaume 28}
+\markup { Psaume 28}
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
@@ -27,7 +27,7 @@
 		\set Staff.instrumentName = \markup{ \center-align {T.O. Noël} }
 		
 		\times 2/3 { r8_\( g[ c\)] }
-		c16[ c b c] d8[ c] c4
+		c16[ c b c] d8[ c] c4 \pespace
 		\times 2/3 { r8\( c[ c\)] }
 		\times 2/3 { c[ c b] }
 		\times 2/3 { c[ a g] }
@@ -39,7 +39,7 @@
 	}
 
 	\addlyrics {
-		U -- ne voix ve -- nue des cieux di -- "sait :" Ce -- lui- -- ci est mon Fils bien- -- ai -- mé.
+		U -- ne voix ve -- nue des cieux di -- "sait : " Ce -- lui- -- ci est mon Fils bien- -- ai -- mé.
  		\markup { \citation #"Mt 3" } }
 	
 	
@@ -96,9 +96,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align {T.P.} }
 		
-		c16 b[ c d\( c\)] c4 \cesure 
+		c16 b[ c d\( c\)] c4 \cesure \pespace
 		b16[ c a g] g4
-		\cesure \times 2/3 {c8[ d c]} c4		
+		\cesure \pespace\times 2/3 {c8[ d c]} c4		
 		
 		\endBar
 	}

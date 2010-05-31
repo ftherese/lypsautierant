@@ -1,6 +1,6 @@
 \version "2.10.0"
  \include "definitions.ly"
-%\markup { Psaume 8}
+\markup { Psaume 8}
 
 
 \relative c'' { 
@@ -32,7 +32,7 @@
 		\stemDown
 		b4\( a8\) r
 		\stemNeutral
-		\barre
+		\barre \pespace
 		\times 2/3 { c8 d e }
 		f[\( d]
 		e4\)
@@ -66,7 +66,7 @@
 		d16[ d d d]
 		d16[ d d f] 
 		e8[ d] e[\( e]\)
-		\cesure \pespace d8[ e] d16[ d c c] 
+		\cesure \pespace d8[ e] d16[ d c\( c]\) 
 		\stemDown b4\( a8\) r
 		
 		\endBar

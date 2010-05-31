@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {NT 9 }
+\markup {NT 9 }
 
 
 
@@ -34,7 +34,7 @@
 		\times 2/3 { r8\( a[ c]\) }
 		\times 2/3 { bes8[ a g] }
 		\times 2/3 { a8[ f g] }
-		g8[\cesure a] g4 \cesure
+		g8[\cesurebasse\pespace a] g4 \cesure\pespace
 		\times 2/3 { f8[ g a] }
 		\stemUp \times 2/3 { bes4\( g8\) }
 		\times 2/3 { g8[\( g\) f] } g4
@@ -56,7 +56,7 @@
 		\times 2/3 { r8_\( a[ a]\) }
 		\times 2/3 { a8[\( a\) a] }
 		\times 2/3 { a8[\( g\) a] }
-		f8[\( f\)] \cesure
+		f8[\( f\)] \cesure\pespace
 		\times 2/3 { f8[ g a] }
 		bes8[ g] a4
 		\endBar
@@ -81,7 +81,7 @@
 	}
 	\addlyrics {
 		Puiss -- ance, hon -- neur et gloire à l'Ag -- neau de "Dieu !"
-		\markup { \citation #"--"}
+		\markup { \citation #""}
  }
 }
 
@@ -92,7 +92,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		\times 2/3 { r8_\( f[ g]\) }
 		a8[ a]
-		\times 2/3 { a8[\( a\)\cesure a] }
+		\times 2/3 { a8[\( a\)\cesure\pespace a] }
 		\times 2/3 { a8[ a a] }
 		a16[ bes a g] g4 \indentLine
 		r8 f8

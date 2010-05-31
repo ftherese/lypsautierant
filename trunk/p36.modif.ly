@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { psaume 36 }
+\markup { psaume 36 }
 
 
 
@@ -9,7 +9,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		
-		c8 d[ c] c16[ f e f] g8[ f] \times 2/3 { f4\(  \cesure \pespace f8\) } f16[ f e c d] d4
+		c8 d[ c] c16[ f e f] g8[ f] \times 2/3 { f4\( \pespace \cesure \pespace f8\) } f16[ f e c d] d4
 		
 		
 		
@@ -37,7 +37,7 @@
 	}
 
 	\addlyrics {
-		Ve -- nez les bé -- nis de mon Pè -- re, re -- ce -- vez en hé -- ri -- ta -- ge le Ro -- yau -- me.
+		Ven -- ez, les bé -- nis de mon Pè -- re, re -- ce -- vez en hé -- ri -- ta -- ge le Ro -- yau -- me.
 		\markup { \citation #"Mt 25" } }
 	
 	

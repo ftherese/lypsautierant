@@ -1,12 +1,12 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { Psaume 18}
+\markup { Psaume 18}
 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
-		\times 2/3 { r8 g[ a] }  \times 2/3 { g[ c c] } c[ b] c[ d] c8[\cesure c16 c] c8[ b] c[ a] g4\( g8\) r8
+		\times 2/3 { r8 g[ a] }  \times 2/3 { g[ c c] } c[ b] c[ d] c8[\cesure\pespace c16 c] c8[ b] c[ a] g4\( g8\) r8
 		
 		\endBar
 	}
@@ -47,7 +47,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align {Av.} }
-		g8 a[\cesurebasse g] g[ c] \times 2/3 { c[\cesure c b] } c[ a] g4
+		g8 a[\cesurebasse\pespace g] g[ c] \times 2/3 { c[\cesure\pespace c b] } c[ a] g4
 		
 		
 		
@@ -81,7 +81,7 @@
 	}
 
 	\addlyrics {
-		S'ils a -- vaient con -- nu la Sa -- ges -- se de Dieu, ils n'au -- raient pas cru -- ci -- fié le Sei -- gneur de la gloi -- re.
+		S'ils a -- vaient con -- nu la sa -- ges -- se de Dieu, ils n'au -- raient pas cru -- ci -- fié le Sei -- gneur de la gloi -- re.
  		\markup { \citation #"1 Co 2" } }
 	
 	
@@ -94,10 +94,10 @@
 		\times 2/3 { r8_\( g[ a\)] }
 		\times 2/3 { g[ g c] }
 		b[ c] d4 
-		\cesure
+		\cesure\pespace
 		\times 2/3 { d8[ c d] }
 		c4 \cesure \pespace \indentLine
-		\times 2/3 {c8[ c c]} c4 \cesure 
+		\times 2/3 {c8[ c c]} c4 \cesure \pespace
 		c8[ c]
 		c[ c]
 		\times 2/3 { b[\( c\) a] } 

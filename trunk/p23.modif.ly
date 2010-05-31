@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { Psaume 23}
+\markup { Psaume 23}
 
 \relative a' { 
 	\new Staff {
@@ -33,8 +33,8 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		
 		a8[ bes] a4
-		\cesure 
-		\times 2/3 { a8[ a g] } \times 2/3 { bes8[ a g] } \times 2/3 { f[\( f\)\cesure  g] } 
+		\cesure \pespace
+		\times 2/3 { a8[ a g] } \times 2/3 { bes8[ a g] } \times 2/3 { f[\( f\)\cesurebasse  g] } 
 		g16[\( g\) g g] \times 2/3 { g8[ d f] } f[ e] d4
 
 		
@@ -55,7 +55,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Av. Noël } }
 		
 		a8 bes[ a] g16[ bes a g] f8[\( f\)]
-		\cesure 
+		\cesure \pespace
 		\times 2/3 { g[ g d] }
 		f[ f] \times 2/3 { e4\(   d8\) }
 		
@@ -77,7 +77,7 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
-		a8 \times 2/3 { a[\cesure \pespace a16 a] } \times 2/3 { a8[ a g] } \times 2/3 { bes[ a\( g]\) } \times 2/3 { f[\( f\)\cesure \pespace g] } d16[ f f e] d4
+		a8 \times 2/3 { a[\cesure \pespace a16 a] } \times 2/3 { a8[ a g] } \times 2/3 { bes[ a\( g]\) } \times 2/3 { f[\( f\)\cesurebasse \pespace g] } d16[ f f e] d4
 		
 		
 		
@@ -94,8 +94,8 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
-		a8[\cesure bes] a[ g] f[\( f\)]\cesure \pespace
-\times 2/3 { g8[ g g] } \times 2/3 { g[\( g\) g] } \times 2/3 { g[\cesure d f] } f[ e] d4
+		a8[\cesure\pespace bes] a[ g] f[\( f\)]\cesure \pespace
+\times 2/3 { g8[ g g] } \times 2/3 { g[\( g\) g] } \times 2/3 { g[\pespace\cesurebasse\pespace d f] } f[ e] d4
 		\cesureall  \pespace
 		\times 2/3 { a'8[ g a] }
 		a4

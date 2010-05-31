@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 47}
+\markup { psaume 47}
 
 
 \relative d' { 
@@ -11,7 +11,7 @@
 		\times 2/3 { r8_\( f f\) }
 		\times 2/3 { e[\( f\) g] }
 		f[\( f\)]
-		\cesure
+		\cesure \pespace
 		f16[\( f\) f f]
 		f[ f e c]
 		d4\( d8\) r
@@ -29,9 +29,9 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Car. } }
 		r8 c
 		d[ f]
-		f[ \cesure g]
+		f[ \cesurebasse \pespace g]
 		f4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { f8 f f }
 		f16[\( e\) c d]
 		d4
@@ -65,8 +65,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		\times 2/3 { c8[ d c] }  f[ e] 
-		\times 2/3 { f8[ g f] }   f4 \cesure
-		\times 2/3 { f8[ f f] }  f[ f]  f[\( f\)] \cesure \pespace
+		\times 2/3 { f8[ g f] }   f4 \cesure \pespace
+		\times 2/3 { f8[ f f] }  f[ f]  f[\( f\)] \cesure \pespace\indentLine
 		\times 2/3 { f[ f f] } f16[ f e\( c\)]
 		d4\( d8\) r8  
 		\endBar
@@ -86,7 +86,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		\times 2/3 { c8 d c }
 		c16[ f f f]
-		f8[\( f\)] \pespace
+		f8[\( f\)] 
 		\cesure \pespace
 		\times 2/3 { e f g }
 		f4

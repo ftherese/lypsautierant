@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 50 - 7° mode}
+\markup { psaume 50 - 7° mode}
 
 
 
@@ -64,14 +64,14 @@
 		r8 g16[ c]
 		b[ c d d]
 		d[ f e e]
-		\times 2/3 { e8[ \cesure d e] }
+		\times 2/3 { e8[ \cesure \pespace d e] }
 		e4
 		\cesureall
 		\pespace \times 2/3 { e8 d c }
 		\stemUp b4\( a8\) r
 		\endBar
 	}	\addlyrics {
-		Jé -- sus- -- Christ nous a la -- vés de nos pé -- chés par son sang. Al -- le -- lu -- "ia !" _
+		Jé -- sus -- Christ nous a la -- vés de nos pé -- chés par son sang. Al -- le -- lu -- "ia !" _
 		\markup { \citation #"Ap 1"}
 	}
 }

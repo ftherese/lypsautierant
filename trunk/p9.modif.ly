@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup { psaume 9a }
+\markup { psaume 9a }
 
 
 \relative c'' { 
@@ -9,7 +9,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Noël } }
 		
 		r8. \espall	 c16 b8.[ c16] d[\( f\) e d] 
-		\times 2/3 { e4\( \cesure d8\) }
+		\times 2/3 { e4\( \pespace\cesure\pespace d8\) }
 		d16[\( d\) d e]
 		d8[ d]
 		\times 2/3 { c[ c b] }
@@ -21,7 +21,7 @@
 	}
 
 	\addlyrics {
-		Mon âme e -- xal -- te le Sei -- gneur e -- xul -- te mon esp -- rit en Dieu mon sau -- veur.
+		Mon âme e -- xal -- te le Sei -- gneur e -- xul -- te mon esp -- rit en Dieu mon Sau -- veur.
 		\markup { \citation #"Lc 1"}
  }
 }
@@ -31,12 +31,12 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.O. T.P. } }
 		
-		g8 c[ \cesure b] c[ d] d16[ f e\( d\)] e4 
-		\ifIndent 
+		g8 c[ \cesure\pespace b] c[ d] d16[ f e\( d\)] e4 
+		\indentLine 
 		\times 2/3 { r8\( d[ d\)] }
 		\times 2/3 { d[\( e\) d] }
 		d16[ c c b] a4
-		\barre 
+		\barre \pespace
 		\times 2/3 { r8\( c[ d\)] }
 		e[\( d\)] d4
 	
@@ -44,7 +44,7 @@
 	}
 
 	\addlyrics {
-		Sa -- lut, puis -- sance et gloire à  no -- tre Dieu, ils sont jus -- tes et vrais ses ju -- ge -- ments. "(Al" -- le -- lu -- - -- "ia !)"
+		Sa -- lut, puis -- sance et gloire à  no -- tre Dieu, ils sont jus -- tes et vrais, ses ju -- ge -- ments. "(Al" -- le -- lu -- - -- "ia !)"
 		\markup { \citation #"Ap 19" } }
 }
 
@@ -54,7 +54,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		
 		\times 2/3 { r8\( c[ b\)] }
-		c[ d] f[\( e\)]
+		c[ d] f[\( e\)] \pespace
 		\times 2/3 { r\( d[ d\)] }
 		\times 2/3 { d[\( e\) d] }
 		d16[ c c b]
@@ -78,7 +78,7 @@
 		\times 2/3 { r8_\( g[ c\)] }
 		b[ c] \times 2/3 { d4\(  f8\) } \times 2/3 {e[\( e\) d] } e[\( e\)] 
 		
-		r \espace d16[ e] d[ d c c] 
+		\espace r  d16[ e] d[ d c c] 
 		\stemUp
 		b4\( a8\) r
 		\stemNeutral
@@ -94,7 +94,7 @@
 
 
 
-%\markup { psaume 9b}
+\markup { psaume 9b}
 
 
 \relative a' { 
@@ -103,7 +103,7 @@
 		\set Staff.instrumentName = \markup{ \center-align {T.O. Noël} }
 		\times 2/3 { r8\( d[ d]\) }
 		f16[\( e\) e d]
-		e8[\cesure d16 e]
+		e8[\cesure \pespace d16 e]
 		\times 2/3 { d8[\( c\) c] }
 		\stemUp
 		b4\( a8\) r8
@@ -171,11 +171,14 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
-		
-		r16 g16[ c] b8.[ c16] d16[\( d\) d f] e8[\cesure d16 d] e16[\( d\) d c] \stemDown b4\( a8\) r8 \times 2/3 {c8[ d e]} d4 \endBar
-
-		
-		
+		r16 g16[ c] 
+		b8.[ c16] 
+		d16[\( d\) d f]
+		e4
+		\pespace r8 d16[ d16]
+		e16[\( d\) d c] 
+		\stemDown b4\( a8\)\pespace r8 \pespace
+		\times 2/3 {c8[ d e]} d4 \endBar
 	}
 
 	\addlyrics {
@@ -184,11 +187,5 @@
 	
 	
 }
-
-
-
-
-
-
 
 

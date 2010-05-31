@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 49}
+\markup { psaume 49}
 
 
 
@@ -12,7 +12,7 @@
 		\times 2/3 { a8[ g a] } a[ a] \times 2/3 { a4\(\cesure a8\) }
 		\times 2/3 { g8[ a b] } \times 2/3 { a4\(\cesure a8\) }
 		\times 2/5 {a16[\( a\) a a\( a]\)} a8[\( a\)] \cesure
-		\indentLine a[\( a\)] \cesure
+		\indentLine a[\( a\)] \cesure \pespace
 		\times 2/3 { b[ g e] }  e4
 		\endBar
 	}
@@ -53,7 +53,7 @@
 		g[ a]
 		a16[ a a a]
 		a[\( a\) b g]
-		e4\( e8\) \cesure
+		e4\( e8\) \cesure \pespace
 		\times 2/3 { a8 g a }
 		b4
 		\endBar
@@ -72,7 +72,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		r8. a16
 		g[ a b a]
-		a4
+		a4 \pespace
 		s4
 		r16 a[ a a]
 		a8[ a]

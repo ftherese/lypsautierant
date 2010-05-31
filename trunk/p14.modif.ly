@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { Psaume 14}
+\markup { Psaume 14}
 
 
 
@@ -22,7 +22,7 @@
 	}
 
 	\addlyrics {
-		Ce -- lui qui fait la vo -- lon -- té de mon Pè -- re en -- tre -- ra dans le Ro -- yau -- me des Cieux.
+		Ce -- lui qui fait la vo -- lon -- té de mon Pè -- re en -- tre -- ra dans le Ro -- yau -- me des cieux.
  		\markup { \citation #"Mt 7" } }
 }
 \relative a' { 

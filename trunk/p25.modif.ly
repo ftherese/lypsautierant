@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { Psaume 25}
+\markup { Psaume 25}
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
@@ -87,8 +87,8 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
-		f8 \times 2/3 { a[\cesure c d] }
-		c8[\cesure c16 d] \times 2/3 { b8[ b c] }
+		f8 \times 2/3 { a[\cesure\pespace c d] }
+		c8[\cesure\pespace c16 d] \times 2/3 { b8[ b c] }
 		\times 2/3 { a4\( a8\) }
 		\cesure \pespace
 		\times 2/3 { c[ d e] } d4

@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { Psaume 29}
+\markup { Psaume 29}
 
 \relative a' { 
 	\new Staff {
@@ -34,7 +34,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Car. } }
 		
 		r8 a16[ a] a[ a a\( a\)] g8[\( g\)]
-		\cesure \times 2/3 {f8[ g a]} 
+		\cesure \pespace\times 2/3 {f8[ g a]} 
 		\times 2/3 { g4\(  g8\) }
 		\times 2/3 { bes[\( a\) g] }
 		a4
@@ -90,7 +90,7 @@
 	}
 
 	\addlyrics {
-		Pour -- quoi cher -- cher par -- mi les morts ce -- lui qui est vi -- "vant ?" Al -- le -- lu -- "ia !"
+		Pour -- quoi cher -- cher par -- mi les morts " ce" -- lui qui est vi -- "vant ?" Al -- le -- lu -- "ia !"
  		\markup { \citation #"Lc 24" } }
 	
 	

@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { Psaume 24}
+\markup { Psaume 24}
 
 
 \relative a' { 
@@ -30,10 +30,10 @@
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Car. } }
 		a8
-		\times 2/3 { a[ \cesure g bes] }
+		\times 2/3 { a[ \cesure\pespace g bes] }
 		a[ g]
 		a4
-		\cesure
+		\cesure\pespace
 		\times 2/3 { a8 a a }
 		a16[ a g a]
 		f4\( f8\) r

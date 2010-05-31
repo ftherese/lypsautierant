@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup {NT 4 }
+\markup {NT 4 }
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
@@ -95,8 +95,8 @@
 		c'8[\( c\)] \cesure \pespace
 		\times 2/3 { c8[ c c] }
 		a8[ g] 
-		 \times 2/3 { a4\(\pespace \cesure \pespace a8\) }
-		g8[ a] \indentLine
+		 \times 2/3 { a4\(\pespace \cesure \pespace\indentLine  \pespace a8\) }
+		g8[ a] 
 		\times 2/3 { f8[ f  g] }
 		a8[\cesure \pespace c16 c]
 		d16[ b b c] a4  \cesure \pespace

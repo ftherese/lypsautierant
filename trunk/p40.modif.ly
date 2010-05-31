@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { psaume 40 }
+\markup { psaume 40 }
 
 
 \relative f' { 
@@ -30,14 +30,14 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		\times 2/3 { r8_\( f[ g]\) } 
-		a16[\cesure \pespace a\( a\) a] \times 2/3 { bes8[\cesure \pespace a g] }
+		a16[\cesurebasse \pespace a\( a\) a] \times 2/3 { bes8[\cesure \pespace a g] }
 		a[\( a\)] \cesure \pespace
 		a16[ a a a] \times 2/3 { a8[ a g] }
 		a[ f] f4
 		\endBar
 	}
 	\addlyrics {
-		Jé -- sus- -- Christ, no -- tre Sei -- gneur, s'est fait pau -- vre, pour nous en -- ri -- chir par sa pau -- vre -- té.
+		Jé -- sus -- Christ, no -- tre Sei -- gneur, s'est fait pau -- vre, pour nous en -- ri -- chir par sa pau -- vre -- té.
 		\markup { \citation #"2 Co 8" }
 	}
 }
@@ -49,7 +49,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Av. Car. } }
 		\times 2/3 { r8_\( f[ g]\) } a[ a]
 		\times 2/3 { a[\( a\) a] } \times 2/3 { bes[ a g] }
-		\times 2/5 {a16[\cesure \pespace a a  a]} a8[ a] a16[ a g a]
+		\times 2/5 {a16[\cesurebasse \pespace a a  a]} a8[ a] a16[ a g a]
 		f4\( f8\) r8 
 		\endBar
 	}
@@ -64,14 +64,14 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { Noël  } }
-		\times 2/3 { f8\( g\) a }
+		\times 2/3 { f8 g a }
 		a16[ a a bes]  a8[ g]
-		a4 \cesure
+		a4 \cesure\pespace
 		\times 2/3 {g8[ a f]} f4
 		\endBar
 	}
 	\addlyrics {
-		Ton ré -- dem -- pteur a eu pi -- tié de toi. Al -- le -- lu -- "ia !"
+		Ton Ré -- dem -- pteur a eu pi -- tié de toi. Al -- le -- lu -- "ia !"
 		\markup { \citation #"Is 54" }
 	}
 }
@@ -85,11 +85,11 @@
 		\times 2/3 { a[ a a] }
 		g[ bes]
 		a4
-		\cesure
+		\cesure\pespace
 		\times 2/3 { a8 a g }
 		a[ f]
 		f4
-		\cesureall
+		\cesureall\pespace
 		\times 2/3 { a8 c bes }
 		a[\( g]
 		a4\)

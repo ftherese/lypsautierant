@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 45}
+\markup { psaume 45}
 
 
 \relative a' { 
@@ -33,7 +33,7 @@
 		\times 2/3 { a4\( \pespace \cesure \pespace a8\) }
 		\times 2/3 { b[\( g\) e] }
 		e4
-		\barre
+		\barre \pespace
 		\times 2/3 { g8 a b }
 		a4
 		\endBar

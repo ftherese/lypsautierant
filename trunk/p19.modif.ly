@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { Psaume 19 }
+\markup { Psaume 19 }
 
 
 \relative c'' { 
@@ -85,12 +85,12 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
-		\times 2/3 { r8_\( g[ a]\) } \times 2/3 { c[ d c] } c4 \times 2/3 { r8\( c[ c]\) } c4 c16[\( c\) c a] 		 
+		\times 2/3 { r8_\( g[ a]\) } \times 2/3 { c[ d c] } c4 \pespace\times 2/3 { r8\( c[ c]\) } \slurDashed  c4( c16[)\( c\) c a] 		 
 \times 2/3 { c8[ c b] } a4  \cesure
 \times 2/3 {c8[ d c]} c4
 		\endBar
 	}	\addlyrics {
-		Mai -- nte -- nant je le "sais :" le Sei -- gneur don -- ne la vic -- toi -- "re à" son "Christ !" " Al" -- le -- lu -- "ia !"
+		Mai -- nte -- nant je le "sais :" le Seign -- eur don -- ne la vic -- toi -- "re à" son "Christ !" " Al" -- le -- lu -- "ia !"
 		\markup { \citation #"Ps 19"}
 	}
 }

@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 41 }
+\markup { psaume 41 }
 
 \relative a' { 
 	\new Staff {
@@ -17,7 +17,7 @@
 	}
 
 	\addlyrics {
-		Ne t'ai- -- je pas dit que si tu crois, tu ver -- ras la gloi -- re de "Dieu !"
+		Ne t'ai- -- je pas dit que si tu crois, tu ver -- ras la gloi -- re de "Dieu ?"
  		\markup { \citation #"Jn 11" } }
 	
 	
@@ -39,7 +39,7 @@
 	}
 
 	\addlyrics {
-		Si quel -- qu'un a soif, qu'il vienne à  moi, et qu'il boi -- ve ce -- lui qui croit en moi.
+		Si quel -- qu'un a soif, qu'il vienne à  moi, et qu'il boi -- ve, ce -- lui qui croit en moi.
  		\markup { \citation #"Jn 7"} }
 	
 	
@@ -83,7 +83,8 @@
 	}
 
 	\addlyrics {
-		Pour que fût ac -- com -- plie l'Éc -- ri -- tu -- re, Jé -- sus "dit :" J'ai "soif !"
+		Pour que fût ac -- com -- plie l'Éc -- ri -- tu -- re,
+		Jé -- sus "dit :" J'ai "soif !"
  		\markup { \citation #"Jn 19" } }
 	
 	
@@ -96,9 +97,9 @@
 		
 		\times 2/3 { r8_\( f[  g\)] }
 		a[ a] g16[ bes a g] \times 2/3 {a4\(  a8\) }
-		\cesure  \pespace \times 2/3 { a[ a  a] } a16[ a a a] \times 2/3 {g8[ g f]} d4 
+		\cesure  \pespace \indentLine \times 2/3 { a[ a  a] } a16[ a a a] \times 2/3 {g8[ g f]} d4 
 		
-\espall
+\espall \pespace
 		\times 2/3 { r
 8_\( f[  g\)] } a[\( g\)] g4
 		
@@ -108,7 +109,7 @@
 	}
 
 	\addlyrics {
-		J'ai trou -- vé ce -- lui que mon cœur ai -- me, je "l'ai" sai -- si et ne le lâ -- che -- rai pas. Al -- le -- lu -- - -- "ia !"
+		J'ai trou -- vé ce -- lui que mon cœur ai -- me, je "l'ai" sai -- si et ne le lâ -- che -- rai "pas. " Al -- le -- lu -- - -- "ia !"
  		\markup { \citation #"Ct 3"} }
 	
 	

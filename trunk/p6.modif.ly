@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
 
-%\markup { Psaume 6}
+\markup { Psaume 6}
 
 
 
@@ -15,7 +15,7 @@
 		\times 2/3 { g[ a b] } 
 		a4 \pespace
 		\cesure \pespace
-		a16[\( a\) \cesure   a\( b\)]
+		a16[\( a\) \cesurebasse  \pespace a\( b\)]
 		\times 2/3 { a8 g g }
 		f4\( e8\) r8
 		
@@ -38,7 +38,7 @@
 		\times 2/3 { a8 a g }
 		a4
 		\cesure \pespace
-		a8[ a]
+		a8[ \cesure\pespace a]
 		b[ g]
 		e4
 		
@@ -59,7 +59,7 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-align { Noël T.P. } }
-		a8[\( a\)] \pespace
+		a8[\( a\)] 
 		\cesure \pespace
 		\times 2/3 { a a g }
 		a16[\( a\) a a]
@@ -81,7 +81,8 @@
 
 	\addlyrics {
 		
-		Pè -- re, je te rends grâ -- ce d'ac -- cueil -- lir ma pri -- è -- re, je sais que tu m'e -- xau -- ces tou -- jours. " Al" -- le -- lu -- - -- "ia !"
+		Pè -- re, je te rends grâ -- ce d'ac -- cueil -- lir ma pri -- è -- re,
+		je sais que tu m'e -- xau -- ces tou -- jours. " Al" -- le -- lu -- - -- "ia !"
 		\markup { \citation #"Jn 11" } }
 }
 
