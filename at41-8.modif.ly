@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT 41-8 }
+\markup {AT 41-8 }
 
 \relative c'' { 
 	\new Staff {
@@ -11,7 +11,7 @@
 		c16[\( b\) c a] g4
 		\endBar
 	}	\addlyrics {
-		Je chan -- te -- rai à la gloi -- re de ton Nom.	
+		Je chan -- te -- rai à la gloi -- re de ton nom.	
 		\markup { \citation #"Rm 15"}
 	}
 }

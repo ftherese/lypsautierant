@@ -32,7 +32,7 @@
 		a[\( a\)]
 		\pespace \pespace
 		\times 2/3 { r8_\( a[ a]\) }
-		\times 2/3 { a8[\cesure \pespace a g] }
+		\times 2/3 { a8[\cesurebasse \pespace a g] }
 		a8[ f] f4
 		\endBar
 	}

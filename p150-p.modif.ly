@@ -55,7 +55,7 @@
 		\times 2/3 { a[ g bes] }
 		\times 2/3 { a[ g f] }
 		f4
-		\cesure d8[ f] f[\( e\)] d4 
+		\cesure \pespace d8[ f] f[\( e\)] d4 
 		\endBar
 	}
 
@@ -72,7 +72,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		\times 2/3 { a8[ a g] }
 		\times 2/3 { bes8[\( a\) g] }
-		\times 2/3 { f8[\( f\)\cesurebasse \pespace d] }
+		\times 2/3 { f8[\( f\)\cesuretresbasse \pespace d] }
 		\times 2/3 { f8[\( f\) e] } d4		
 		\endBar
 	}

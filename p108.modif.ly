@@ -6,7 +6,7 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
-		c16 d[ c b a] \times 2/3 { c4\( \cesure \pespace c8\) } c16[ c c a] c8[ b] a4
+		c16 d[ c b a] \times 2/3 { c4\( \pespace \cesure \pespace c8\) } c16[ c c a] c8[ b] a4
 
 
 		
@@ -69,7 +69,7 @@
 		c16
 		c16[\( c\) d c]
 		b8[ a] 
-		c8[\cesure \pespace c16 c]
+		c8[\cesure \pespace\set stemLeftBeamCount = #1 \set stemRightBeamCount = #2 c16 \set stemLeftBeamCount = #2   c]
 		a16[ c c b] a4 \cesure \pespace
 		\times 2/3 {g8[ a c]} d4		
 		\endBar

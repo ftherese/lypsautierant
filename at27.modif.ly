@@ -1,13 +1,13 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT 27 }
+\markup {AT 27 }
 
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		f8
-		\times 2/3 { g4\(\cesure \pespace f8\) }
+		\times 2/3 { g4\(\pespace\cesure \pespace f8\) }
 		\times 2/3 { f[ f f] }
 		e[ c]
 		d4
@@ -59,7 +59,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
-		c4\cesure
+		c4\cesure\pespace
 		d16[ f f f]
 		f16[ f f f]
 		e8[ c]

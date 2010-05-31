@@ -55,7 +55,7 @@
 		g[ bes a g]
 		g8[\( a\)]
 		\espace
-		r8. a16
+		r8.  a16
 		a[ a a\( a\)]
 		\times 2/3 { g8[\( g\) f] }
 		d4
@@ -83,7 +83,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Le Fils de l'hom -- me n'a pas de lieu où re -- po -- ser sa tê -- te.
+		Le Fils de l'hom -- me n'a pas de lieu où re -- po -- ser la tê -- te.
 		\markup { \citation #"Mt 8" }
 	}
 }

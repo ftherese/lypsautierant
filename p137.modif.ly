@@ -9,7 +9,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		\times 2/3 { r8_\( c[ d]\) }
 		f16[ e f g]
-		\times 2/3 { f8[\( f\)\cesurebasse f] }
+		\times 2/3 { f8[\( f\)\cesurebasse \pespace f] }
 		f16[ f f f]
 		f16[\( f\) e c]
 		d4\( d8\) r8
@@ -95,7 +95,7 @@
 	}
 
 	\addlyrics {
-		Grâ -- ce soit à Dieu pour son in -- nef -- fab -- le "don !" Al -- le -- lu -- "ia !"
+		Grâ -- ce soit à Dieu pour son in -- ef -- fab -- le "don !" Al -- le -- lu -- "ia !"
 		\markup { \citation #"2 Co 9" } 
 	}
 }

@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT 19 }
+\markup {AT 19 }
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
@@ -24,9 +24,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Av. } }
 		c16[ d f f]
-		g8[\cesurebasse f] f4 \pespace 
+		g8[\cesurebasse\pespace f] f4 \pespace 
 		\times 2/3 { r8_\( f[ f]\) }
-		\times 2/5 { f16[\cesuretresbasse \pespace f f e c]}
+		\times 2/5 { f16[\cesuretresbasse \pespace\pespace f f e c]}
 		d4\( d8\) r8
 		\endBar
 	}
@@ -47,7 +47,7 @@
 		\espace\pespace 
 		r8 f16[ f]
 		f8[ f] 
-		f[ \cesurebasse f16 f]
+		f[ \cesurebasse\pespace f16 f]
 		e8[ c]
 		d4\( d8\) r
 		\endBar

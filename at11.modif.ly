@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT  11}
+\markup {AT  11}
 
 
 \relative c' { 
@@ -17,14 +17,14 @@
  
 \times 2/3 { e[ c d] }
  d4  
-%{  \barre \times 2/3 {f8[ g a]} g4 %}
+ \barre \times 2/3 {f8[ g a]} g4 
 		
 		
 		\endBar
 	}
 
 	\addlyrics {
-		La Sa -- gesse a é -- té jus -- ti -- fiée par tous ses en -- fants. %{ "(Al" -- le -- lu -- "ia !)"%}
+		La Sa -- gesse a é -- té jus -- ti -- fiée par tous ses en -- fants. "(Al" -- le -- lu -- "ia !)"
 		\markup { \citation #"Lc 7" } }
 	
 	

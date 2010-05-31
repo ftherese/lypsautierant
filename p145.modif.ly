@@ -80,7 +80,7 @@
 		a4
 		\endBar
 	}	\addlyrics {
-		Il a pris sur lui nos in  -- fir -- mi -- tés et s'est char -- gé de nos ma -- la -- dies.
+		Il a pris sur lui nos in -- fir -- mi -- tés et s'est char -- gé de nos ma -- la -- dies.
 		\markup { \citation #"Mt 8"}
 	}
 }

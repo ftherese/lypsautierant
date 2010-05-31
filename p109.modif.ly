@@ -23,7 +23,7 @@
 	}
 	\addlyrics {
 		 Pour nous le Christ est de -- ve -- nu un grand prê -- tre mi -- sé -- ri -- cor -- dieux et fi -- dè -- le.
-		\markup { \citation #"He 2" } 
+		\markup { \citation #"Cf. He 2" } 
 	}
 }
 
@@ -54,7 +54,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Je se -- rai son Dieu, il se -- ra mon Fils.
+		Je se -- rai son Dieu, il se -- ra mon fils.
 		\markup { \citation #"Ap 21" } 
 	}
 }
@@ -64,7 +64,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { Noël } }
-		r8 f
+		f8
 		a[ c]
 		c4
 		\cesure \pespace

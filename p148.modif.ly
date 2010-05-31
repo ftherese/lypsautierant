@@ -62,7 +62,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		c16[\( c\) c c]
 		\times 2/3 { c4\(\pespace\cesure\pespace c8\) }
-		\times 2/3 { c8[ d c] } c4 \cesure
+		\times 2/3 { c8[ d c] } c4 \cesure\pespace
 		c16[ c c c]
 		d16[\( b\) b c]
 		a4\( a8\) r8
@@ -90,6 +90,6 @@
 	}
 	\addlyrics {
 		Al -- le -- lu -- ia, al -- le -- lu -- - -- ia, al -- le -- lu -- "ia !"
-		\markup { \citation #"--" } 
+		\markup { \citation #"" } 
 	}
 }

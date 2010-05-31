@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT 39 }
+\markup {AT 39 }
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
@@ -68,7 +68,7 @@ c[\cesure \pespace a] a4
 
 	\addlyrics {
 		
-		Off -- rez- -- vous en hos -- tie vi -- van -- te, sain -- te, ag -- ré -- able à  Dieu.
+		Off -- rez- -- vous en hos -- tie vi -- van -- te, sain -- te, ag -- ré -- able à Dieu.
 		\markup { \citation #"Rm 12" } }
 	
 	

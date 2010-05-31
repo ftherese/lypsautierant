@@ -15,7 +15,7 @@
 		\stemUp b4\( a8\) r8
 		\endBar
 	}	\addlyrics {
-		La mul -- ti -- tu -- de des dis -- cip -- les se mit à lou -- "er Di" -- eu d'u -- ne voix for -- te.
+		La mul -- ti -- tu -- de des dis -- cip -- les se mit "à l" -- ou -- "er D" -- "ieu " d'u -- ne voix for -- te.
 		\markup { \citation #"Lc 19"}
 	}
 }
@@ -57,7 +57,7 @@
 		\endBar
 	}	\addlyrics {
 		S'ac -- com -- pag -- nant sur les ci -- tha -- res de Dieu, ils chan -- tent le can -- ti -- que de l'Ag -- neau.
-		\markup { \citation #"Ap 15"}
+		\markup { \citation #"Cf. Ap 15"}
 	}
 }
 \relative c'' { 

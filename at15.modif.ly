@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT  15}
+\markup {AT  15}
 
 
 
@@ -13,7 +13,7 @@
 		\times 2/3 { a[\( a\) \cesure \pespace  a] }
 		a[\( a\)]
 		\times 2/3 { a g a }
-		f4\( f8\) r \barre
+		f4\( f8\) \pespace \barre\pespace
 		\times 2/3 {r8_\(f[ g]\)} a[\( g\)] g4
 		\endBar
 	}
@@ -31,7 +31,7 @@
 		\times 2/3 { a[\( a\) \cesure\pespace  a] }
 		\times 2/3 { a a g }
 		a[ f]
-		f4 \barre\pespace 
+		f4 \pespace\barre\pespace 
 		\times 2/3 {a8[ g a]} a4
 		\endBar
 	}

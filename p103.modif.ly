@@ -9,8 +9,8 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		
-		a8 g[ \cesure bes] \times 2/3 { a[
-		\cesure g a] } a4 \times 2/3 {a8[ a a]} \times 2/3 { a[\( a\) a] } a16[\( a\) g g] f8[\( e\)] d4 
+		a8 g[ \cesure\pespace  bes] \times 2/3 { a[
+		\cesure\pespace  g a] } a4 \times 2/3 {a8[ a a]} \times 2/3 { a[\( a\) a] } a16[\( a\) g g] f8[\( e\)] d4 
 
 		
 		
@@ -51,8 +51,8 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { Noël T.P. } }
 		
-		f8[ g] a[ a] \times 2/3 { a[\( g\) bes] } \times 2/3 { a[\( g\) \cesure a] } a4
-		\cesure \times 2/3 { g8[ g  f] } e4\( d8\) r
+		f8[ g] a[ a] \times 2/3 { a[\( g\) bes] } \times 2/3 { a[\( g\) \cesure \pespace a] } a4
+		\cesure\pespace  \times 2/3 { g8[ g  f] } e4\( d8\) r
 
 		
 		
@@ -81,7 +81,7 @@
 	}
 
 	\addlyrics {
-		La cré -- a -- tion toute en -- tiè -- re gé -- mit dans les dou -- leurs de l'en -- fan -- te -- ment.
+		La cré -- a -- tion tout en -- tiè -- re gé -- mit dans les dou -- leurs de l'en -- fan -- te -- ment.
  		\markup { \citation #"Rm 8" } }
 	
 	

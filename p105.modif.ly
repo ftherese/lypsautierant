@@ -17,7 +17,7 @@
 	}
 
 	\addlyrics {
-		Dieu a ti -- ré d'en -- tre les pa -- ïens un peu -- ple qui por -- te son Nom.
+		Dieu a ti -- ré d'en -- tre les pa -- ïens un peu -- ple qui por -- te son nom.
  		\markup { \citation #"Ac 15" } }
 	
 	
@@ -48,7 +48,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Av. Noël } }
 		
 		a8 \times 2/3 { g[ g bes] } a[ g] \times 2/3 { a4\( 
-		\cesure \pespace a8\) } \times 2/3 { a[ g g] } \times 2/3 { f4\(  d8\) }
+		\pespace \cesure \pespace a8\) } \times 2/3 { a[ g g] } \times 2/3 { f4\(  d8\) }
 
 		
 		

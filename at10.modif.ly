@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT 10 }
+\markup {AT 10 }
 
 \relative a' { 
 	\new Staff {
@@ -10,7 +10,7 @@
 		
 		f8 g[ a] 
 \times 2/3 { a[ a a] }
- g[ bes] a[\( a\)] \pespace\cesure \pespace a4 \cesure\pespace g16[ g f e] d4
+ g[ bes] a[\( a\)] \pespace\cesure \pespace a4\pespace \cesure\pespace g16[ g f e] d4
 \barre \pespace\times 2/3 {f8[ g a]} bes[\( g] a4\)
 		
 		
@@ -32,7 +32,7 @@
 		
 		r8 a16[ a] a[ a\( a\) a] 
 \times 2/3 { a8[\( g\) bes] }
- a4 \pespace r8 a16[ a] a[ a g g] f8[ e] d4 
+ a4 \pespace\pespace r8 a16[ a] a[ a g g] f8[ e] d4 
 
 		
 		

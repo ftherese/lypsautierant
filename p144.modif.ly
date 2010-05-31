@@ -20,7 +20,7 @@
 		g4
 		\endBar
 	}	\addlyrics {
-		Nous l'a -- vons re -- con -- nu, nous l'a -- vons "cru :" Dieu est a -- mour.
+		Nous l'a -- vons re -- con -- nu, nous l'a -- vons "cru :" Dieu est A -- mour.
 		\markup { \citation #"1 Jn 4"}
 	}
 }

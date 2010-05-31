@@ -55,7 +55,7 @@
 
 	\addlyrics {
 		
-		De Si -- on viendr -- a le li -- bé -- ra -- teur.
+		De Si -- on viendr -- a le Li -- bé -- ra -- teur.
 		\markup { \citation #"Rm 11" } }
 	
 	

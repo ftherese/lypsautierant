@@ -70,7 +70,7 @@
 		f4
 		\endBar
 	}	\addlyrics {
-		Comme il l'a -- vait pro -- mis, Dieu a sus -- ci -- té pour Is -- ra -- ël un sau -- veur.
+		Comme il l'a -- vait pro -- mis, Dieu a sus -- ci -- té pour Is -- ra -- ël un Sau -- veur.
 		\markup { \citation #"Ac 13"}
 	}
 }

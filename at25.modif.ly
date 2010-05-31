@@ -1,21 +1,21 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT 25 }
+\markup {AT 25 }
 \relative a' { 
 	\new Staff {
 		\cadenzaOn          \key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Noël  } }
 f8
-\times 2/3 { g[ a a] }
-\times 2/3 { a[ a a] }
+\times 2/3 { g[  a a] }
+\times 2/3 { a16[ a a a] }
 a16[ a g bes]
-a8[\( a\)] \pespace 
+a8[\( a\)] \cesure\pespace 
 \times 2/3 { a[ a a] }
 g[ g]
 f4\( d8\) r
 		\endBar
 	}	\addlyrics {
-En Dieu sont ca -- chés les tré -- sors de la sa -- ges -- se et de la con -- nais -- san -- ce.		
+En Dieu sont ca -- chés tous les tré -- sors de la sa -- ges -- se et de la con -- nais -- san -- ce.		
 		\markup { \citation #"Col 2"}
 	}
 }

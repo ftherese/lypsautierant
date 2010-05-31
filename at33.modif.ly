@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT  33}
+\markup {AT  33}
 
 
 
@@ -12,7 +12,7 @@
 		\times 2/3 { a8[\( g\) c] }
 		\times 2/3 { b8[ c d] } 
 		\times 2/3 { c8[\cesure\pespace  c b] }
-		\times 2/3 { c8[\( a\) g] } g4 \barre\pespace 
+		\times 2/3 { c8[\( a\) g] } g4 \pespace\barre\pespace 
 		\times 2/3 {c8[ d e]} d[\( c] d4\) 
 		\endBar
 	}	\addlyrics {

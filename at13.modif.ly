@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT  13}
+\markup {AT  13}
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
@@ -37,8 +37,8 @@
 		a16)[ a a a]
 		\times 2/3 { a8\( b\) a }
 		g[ g]
-		f4\( e8\) r
-		\barre
+		f4\( e8\) \pespace
+		\barre\pespace
 		\times 2/3 { r_\( g a\) }
 		b[\( a\)]
 		a4

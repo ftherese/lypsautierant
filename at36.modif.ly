@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT 36 }
+\markup {AT 36 }
 
 
 \relative a' { 
@@ -51,14 +51,14 @@ a16[ a a g] bes8[ a] a4
 		\times 2/3 {a8[ a a]} a16[ a a a] 
 		\times 2/3 { a8[\( g\) bes] } a4 \cesure\pespace \indentLine
 		\times 2/3 {a8[ g g]} 
-		\times 2/3 { f4\(  d8\) }
-		\barre\pespace 
+		\times 2/3 { f4\(  d8\) }\pespace
+		
 		\times 2/3 { r_\( f[ g\)] }
  		bes[\( g\)] a4
 		\endBar
 	}
 	\addlyrics {
-		Le Pè -- re nous a don -- né d'a -- voir part à  l'hé -- ri -- ta -- ge des saints, dans la lu -- miè -- re. "(Al" -- le -- lu -- - -- "ia !)"
+		Le Pè -- re nous a don -- né d'a -- voir part à  l'hé -- ri -- ta -- ge des saints, dans la lu -- miè -- re. "Al" -- le -- lu -- - -- "ia !"
  		\markup { \citation #"Col 1" } }
 	
 	

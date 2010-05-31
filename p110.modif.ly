@@ -13,7 +13,7 @@
 		d[\( e\)]
 		\pespace
 		\times 2/3 { r\( d e\) }
-		d[ \cesure c]
+		d[ \cesure\pespace c]
 		c[ b]
 		a4
 		\endBar
