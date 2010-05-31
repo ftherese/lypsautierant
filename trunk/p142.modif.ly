@@ -108,7 +108,7 @@
 	}
 
 	\addlyrics {
-		En vé -- ri -- té, je te le "dis :" au -- jour -- d'hui, tu se -- ras a -- vec moi dans le pa -- ra -- dis. Al -- le -- lu -- - -- "ia !"
+		En vé -- ri -- té, je te le "dis :" au -- jour -- d'hui, tu se -- ras a -- vec moi dans le Pa -- ra -- dis. Al -- le -- lu -- - -- "ia !"
 		\markup { \citation #"Lc 23" } 
 	}
 }

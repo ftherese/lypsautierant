@@ -98,7 +98,7 @@
 		\pespace
 		\times 2/3 { b8 c a }
 		\times 2/3 { g4\( g8\) }
-		\cesure
+		\cesure\pespace
 		\times 2/3 {a8[ c d]} c4
 		\endBar
 	}	\addlyrics {

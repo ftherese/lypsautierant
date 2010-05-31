@@ -58,7 +58,7 @@
 	}
 
 	\addlyrics {
-		A l'Is -- ra -- ël de Dieu, paix et mi -- sé -- ri -- cor -- de.
+		À l'Is -- ra -- ël de Dieu, paix et mi -- sé -- ri -- cor -- de.
  		\markup { \citation #" Ga 6 " } }
 	
 	

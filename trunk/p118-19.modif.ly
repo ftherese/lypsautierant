@@ -70,7 +70,7 @@
 		r16 a[ a a]
 		g16[ bes a g]
 		\times 2/3 { a4\( a8\) }
-		
+		\pespace
 		\times 2/3 {r8_\(a[ g]\)} g[\( f\)] d4
 		\endBar
 	}

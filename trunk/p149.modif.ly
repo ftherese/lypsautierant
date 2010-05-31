@@ -30,8 +30,8 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		\times 2/3 { r8\( c[ c]\) }
 		\times 2/3 { c8[\( b\) c] }
-		\times 2/3 { d8[\( c\) d] } c4 \pespace
-		\times 2/3 { r8_\(\pespace g[ a]\) }
+		\times 2/3 { d8[\( c\) d] } c4 \pespace\pespace
+		\times 2/3 { r8_\( g[ a]\) }
 		c8[ b16 c]
 		a8[ g] g4
 		\endBar

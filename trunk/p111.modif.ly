@@ -99,6 +99,6 @@
 	}
 
 	\addlyrics {
-		Vous ê -- tes lu -- miè -- re dans le Seig -- neur, vi -- vez en en -- fant de lu -- miè -- re. Al -- le -- lu -- - -- "ia !"
+		Vous ê -- tes lu -- miè -- re dans le Seig -- neur, vi -- vez en en -- fants de lu -- miè -- re. Al -- le -- lu -- - -- "ia !"
  		\markup { \citation #"Ep 5" } }
 }

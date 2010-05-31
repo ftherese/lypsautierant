@@ -12,9 +12,9 @@
 		f16[ g a a]
 		a16[ a a a]
 		a8[\( a\)]
-		\times 2/3 { a8[ a bes] }
-		\times 2/3 { a8[ g a] }
-		f4\( f8\) r8		
+		\times 2/3 { a8[ a a] }
+		\times 2/3 { bes8[ a g] }
+		a4\( a8\) r8		
 		\endBar
 	}
 
@@ -109,7 +109,7 @@
 	}
 
 	\addlyrics {
-		Quand deux ou trois sont ré -- u -- nis en mon Nom, je suis au mi -- lieu d'eux. Al -- le -- lu -- "ia !" _ _
+		Quand deux ou trois sont ré -- u -- nis en mon nom, je suis au mi -- lieu d'eux. Al -- le -- lu -- "ia !" _ _
 		\markup { \citation #"Mt 18" }
  	}
 	

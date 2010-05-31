@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT  31}
+\markup {AT  31}
 
 
 
@@ -13,7 +13,7 @@
 		f8 
 		\times 2/3 { g8[ a a] }
 		a16[ bes a g]
-		\times 2/3 { a8[\cesure\pespace   g a] } f4
+		a4 \pespace g8[ a]  f4\pespace
 		\barre\pespace 
 		\times 2/3 { f8 g a } g4
 		\endBar

@@ -34,7 +34,7 @@
 		a4
 		\endBar
 	}	\addlyrics {
-		Ils le trou -- vè -- rent dans le tem -- ple, as -- sis au mi -- lieu des doc -- teurs.
+		Ils le trou -- vè -- rent dans le Tem -- ple, as -- sis au mi -- lieu des doc -- teurs.
 		\markup { \citation #"Lc 2"}
 	}
 }

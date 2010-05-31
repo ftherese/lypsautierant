@@ -46,16 +46,14 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 			
-		\times 2/3 { f8[ a c] } c16[\( c\) c c] d8[ d] c4 c16[ c d b] \times 2/3 { b8[ c a] } a4
-
-		
+		\times 2/3 { f8[ a c] } c16[\( c\) c c] d8[ d] c4 \pespace c16[ c d b] \times 2/3 { b8[ c a] } a4
 
 		
 		\endBar
 	}
 
 	\addlyrics {
-		Ils l'em -- me -- nè -- rent " à"  Jé -- ru -- sa -- lem pour le pré -- sen -- ter au Sei -- gneur.
+		Ils l'em -- me -- nè -- rent " à" Jé -- ru -- sa -- lem pour le pré -- sen -- ter au Sei -- gneur.
 		\markup { \citation #"Lc 2" } }
 	
 	
@@ -66,7 +64,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		
 		\times 2/3 { f8 a c] } 
-		\times 2/5 { c16[ \cesure \pespace c c d c] } 
+		\times 2/5 { c16[ \cesure \pespace c c d d] } 
 		\times 2/3 { c4\(\pespace \cesure \pespace c8\) } \times 2/3 { c4\(  d8\) } \times 2/3 { b8[ b c] } a4
 		
 		

@@ -1,6 +1,6 @@
 \version "2.10.0"
  \include "definitions.ly"
-%\markup {AT  44}
+\markup {AT  44}
 
 
 
@@ -40,7 +40,7 @@
 		\times 2/3 {c8[ d e]} d4 
 		\endBar
 	}	\addlyrics {
-		Qui in -- vo -- que le nom du Seig -- neur se -- ra sauv -- é -- "- !" "Al" -- le -- lu -- "ia !"
+		Qui in -- vo -- que le nom du Seig -- neur se -- ra sau -- "vé !" _ "Al" -- le -- lu -- "ia !"
 		\markup { \citation #"Rm 10"}
 	}
 }

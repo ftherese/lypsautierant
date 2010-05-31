@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT  14}
+\markup {AT  14}
 
 
 \relative c' { 
@@ -12,7 +12,7 @@
 \times 2/3 { f[ f f] }
  
 \times 2/3 { e[ c d] }
- d4  \pespace \barre \times 2/3 { r8_\( f[ g\)] } a[\( g\)] g4 
+ d4  \pespace \barre\pespace \times 2/3 { r8_\( f[ g\)] } a[\( g\)] g4 
 		
 		\endBar
 	}

@@ -50,7 +50,7 @@
 		f[ e]
 		f[ g]
 		\times 2/3 { f4\( f8\) }
-		\times 2/3 { f[ f f] }
+		\times 2/3 { f[\( f\) f] }
 		\times 2/3 { e c d }
 		d4
 		\endBar
@@ -66,7 +66,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align {  Noël} }
-		r8 c
+		 c8
 		d[ c]
 		c[ f]
 		f4
@@ -123,6 +123,6 @@ r8
 	}
 
 	\addlyrics {
-		Bap -- ti -- sés en Jé -- sus- -- Christ, c'est dans sa mort que nous a -- vons é -- té bap -- ti -- sés. " Al" -- le -- lu -- "ia !" 		\markup { \citation #"Rm 6" } 
+		Bap -- ti -- sés en Jé -- sus Christ, c'est dans sa mort que nous a -- vons é -- té bap -- ti -- sés. " Al" -- le -- lu -- "ia !" 		\markup { \citation #"Rm 6" } 
 	}
 }

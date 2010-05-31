@@ -16,7 +16,7 @@
 	}
 
 	\addlyrics {
-		Dès l'au -- ro -- - -- re, Jé -- sus fut dans le tem -- ple. 
+		Dès l'au -- ro -- - -- re, Jé -- sus fut dans le Tem -- ple. 
 		\markup { \citation #"Jn 8" } 
 	}
 }
@@ -37,7 +37,7 @@
 	}
 
 	\addlyrics {
-		Lui, fi -- dèle et jus -- te, par -- don -- ne -- ra nos pé -- chés.
+		Lui, fi -- dèle et jus -- te, par -- don -- ner -- "a " nos pé -- chés.
 		\markup { \citation #"1 Jn 1" } 
 	}
 }
@@ -80,7 +80,7 @@
 	}
 
 	\addlyrics {
-		La grâce et la vé -- ri -- té sont ven -- ues par Jé -- sus- -- Christ. Al -- le -- lu -- "ia !" _
+		La grâce et la vé -- ri -- té sont ven -- ues par Jé -- sus Christ. Al -- le -- lu -- "ia !" _
 		\markup { \citation #"Jn 1" } 
 	}
 }

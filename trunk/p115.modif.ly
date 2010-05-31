@@ -85,7 +85,7 @@
 		
 		 g8 \times 2/3 { c[ b c] } d[ d] c[ d] c4
 		\cesure  \pespace \times 2/3 { c8 b c } a[ g] g4
-		\cesureall \times 2/3 { g8 a c } d[\( e] d4\)
+		\cesureall\pespace \times 2/3 { g8 a c } d[\( e] d4\)
 
 		
 		

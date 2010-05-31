@@ -51,7 +51,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		c8 d8[\( c\)]
 		\times 2/3 { f8[ f f] }
-		\times 2/3 { f8[\( f\) \cesurebasse \pespace f] }
+		\times 2/3 { f8[\( e\) \cesuretresbasse \pespace f] }
 		\times 2/3 { g8[ f g] }
 		f8[ \cesurebasse \pespace f16 f]
 		\times 2/3 { f8[\( e\) c] }
@@ -89,7 +89,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		c16[ d f g]
-		\times 2/3 { f4\(\cesure \pespace f8\) }
+		\times 2/3 { f4\(\pespace \cesure \pespace f8\) }
 		\times 2/3 { f8[ f f] } f4\cesure \pespace
 		\times 2/3 { f8[ e c] }
 		\times 2/3 { d4\( d8\) } \cesure \pespace

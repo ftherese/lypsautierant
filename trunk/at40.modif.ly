@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT 40 }
+\markup {AT 40 }
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn

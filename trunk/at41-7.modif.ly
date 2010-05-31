@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT 41-7 }
+\markup {AT 41-7 }
 
 
 

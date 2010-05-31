@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT  32}
+\markup {AT  32}
 
 
 \relative c'' { 
@@ -52,7 +52,7 @@
 	}
 
 	\addlyrics {
-		Sa grâce in -- é -- pui -- sa -- ble dé -- bor -- de jus -- qu'à  nous. "(Al" -- le -- lu -- "ia !)" _
+		Sa grâce in -- é -- pui -- sa -- ble dé -- bor -- de jus -- qu'à nous. "(Al" -- le -- lu -- "ia !)" _
  		\markup { \citation #"Ep 1" } }
 	
 	

@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT  29}
+\markup {AT  29}
 
 
 \relative a' { 
@@ -8,13 +8,13 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align {  } }
 		e16[ g a a]
-		a[\cesure\pespace  a g a]
+		a[\cesurebasse\pespace  a g a]
 		a4
 		\espace
 		\times 2/3 { r8_\( a b\) }
 		\times 2/3 { a[\( g\) g] }
-		f4\( e8\) r
-		\barre
+		f4\( e8\) \pespace
+		\barre\pespace
 		\times 2/3 { r8_\( g a\) } 
 		b[\( a\)]
 		a4

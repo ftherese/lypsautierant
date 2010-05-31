@@ -10,7 +10,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		a8
 		g16[ bes a g]
-		\times 2/3 { f8[\( f\)\cesure \pespace g] }
+		\times 2/3 { f8[\( f\)\cesurebasse \pespace g] }
 		g16[ g g g]
 		\times 2/3 { g4\( g8\) }
 		\times 2/3 { d8[ f f] }

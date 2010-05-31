@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT 38 }
+\markup {AT 38 }
 
 
 
@@ -12,7 +12,7 @@
 a[\( a\)]
 \times 2/3 { bes[ a g] }
 a4 
-\cesure \pespace \indentLine
+\cesure \pespace
 a16[ a a a]
 a[ a a a]
 g8[\( a\) f]

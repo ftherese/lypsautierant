@@ -10,7 +10,7 @@
 		a16[ a a a]
 		g8[ bes]
 		\times 2/3 { a8[ g f] } f4
-		\cesure
+		\cesure\pespace
 		\times 2/3 { d8[ f e] }
 		d4	
 		\endBar

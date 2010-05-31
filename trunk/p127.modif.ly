@@ -50,7 +50,7 @@
 		c8[ c]
 		\times 2/3 { c8[\( c\) d] }
 		c8[ c]
-		\times 2/3 { b8[\cesure c a] }
+		\times 2/3 { b8[\cesure\pespace c a] }
 		g4\( g8\) r8
 		\endBar
 	}	\addlyrics {

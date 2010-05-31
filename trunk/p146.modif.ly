@@ -20,7 +20,7 @@
 	}
 
 	\addlyrics {
-		Par -- cou -- rant les vil -- les, Jé -- sus gué -- riss -- ait tou -- tes ma -- la -- dies.
+		Par -- cou -- rant les vil -- les, Jé -- sus gué -- riss -- ait tou -- te ma -- la -- die.
  		\markup { \citation #"Mt 9" } }
 	
 	
@@ -31,7 +31,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Car. } }
 		
-		\times 2/3 {g8[ bes a]} \times 2/3 {g[\( a\) \cesurebasse \pespace a] } \times 2/3 {g8[\( a\) f] } f4
+		\times 2/3 {g8[ bes a]} \times 2/3 {g[\( a\) \cesurebasse \pespace \pespace a] } \times 2/3 {g8[\( a\) f] } f4
 
 		
 		

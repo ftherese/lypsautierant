@@ -11,7 +11,7 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
-		r8 g
+		g8
 		a4
 		\cesure \pespace
 		\times 2/3 { c8[ d c] }

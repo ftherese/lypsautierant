@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT 30 }
+\markup {AT 30 }
 
 \relative a' { 
 	\new Staff {
@@ -39,7 +39,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Un signe ap -- pa -- rut dans le ciel, un -- e femme en -- vel -- op -- pée du sol -- eil.
+		Un signe ap -- pa -- rut dans le ciel, un -- e Femme en -- vel -- op -- pée du sol -- eil.
 		\markup { \citation #"Ap 12" } 
 	}
 }

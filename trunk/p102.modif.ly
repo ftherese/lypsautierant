@@ -30,13 +30,13 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		c16
 		b16[\cesure  \pespace c d d]
-		d8[ d] \cesure \pespace 
+		d8[\( d]\) \cesure \pespace 
 		 d16[\cesure \pespace f e d]
 		e4 \pespace \pespace d8[ d c]
 		\stemDown b4\( a8\) r8		
 		\endBar
 	}	\addlyrics {
-		A vous, mi -- sé -- ri -- cor -- de, paix, et cha -- ri -- té en ab -- on -- dan -- ce.
+		À vous, mi -- sé -- ri -- cor -- de, paix et cha -- ri -- té en ab -- on -- dan -- ce.
 		\markup { \citation #"Jude"}
 	}
 }

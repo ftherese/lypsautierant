@@ -40,7 +40,7 @@
 	}
 
 	\addlyrics {
-		Le fleu -- ve de vie jail -- li -- sait du trô -- ne de Dieu. "(Al" -- le -- lu -- "ia !)"
+		Le fleu -- ve de vie jail -- lis -- sait du trô -- ne de Dieu. "(Al" -- le -- lu -- "ia !)"
 		\markup { \citation #"Ap 22" } 
 	}
 }
@@ -76,7 +76,7 @@
 		\times 2/3 { a[\( a\) g] }
 		\times 2/3 { b4\( \pespace \cesure \pespace b8\) }
 		\times 2/3 { a[ b g] }
-		e4\( e8\)
+		e4\( e8\) r8
 		\endBar
 	}
 

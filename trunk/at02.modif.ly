@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT 2 }
+\markup {AT 2 }
 
 
 
@@ -28,7 +28,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.O. T.P. } }
-		\times 2/3 { c8[\( d\) f] } f4  \cesure
+		\times 2/3 { c8[\( d\) f] } f4  \cesure\pespace
 		f16[ e c d] d4 \pespace
 		\barre	\pespace	
 		\times 2/3 {r8_\(f[ g]\)} a[\( g\)] g4	
@@ -64,7 +64,7 @@
 \times 2/3 {c[ f f]}
 f16[\( e\) f g]
 f8[\( f\)]
-\pespace
+\pespace\pespace
 \times 2/3 { r8_\( f[ f\)]}
 \times 2/3 {e[ c d]}
 d4 

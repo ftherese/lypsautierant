@@ -13,7 +13,7 @@
 		r8 g16[ c]
 		b8.[ c16]
 		d[\( f\) e d]
-		e8[\( e\)]
+		e8[\( e\)] \pespace
 		r8 d
 		d16[ d d d]
 		d8[ d16 e]
@@ -22,7 +22,7 @@
 		b4\( a8\) r
 		\endBar
 	}	\addlyrics {
-		Pre -- mier- -- né de tou -- tes cré -- a -- tu -- res, en lui tout fut cré -- é dans le ciel et sur la ter -- re.
+		Pre -- mier- -- né de tou -- te cré -- a -- tu -- re, en lui tout fut cré -- é dans le ciel et sur la ter -- re.
 		\markup { \citation #"Col 1"}
 	}
 }

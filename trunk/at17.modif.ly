@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT 17 }
+\markup {AT 17 }
 
 \relative f' { 
 	\new Staff {
@@ -71,7 +71,7 @@
 		\times 2/3 { a8[ a a] }
 		\times 2/3 { a4\( g8\) }
 		\times 2/3 { bes8[ a g] }
-		\times 2/3 { f8[\( f\)\cesure g] }
+		\times 2/3 { f8[\( f\)\cesurebasse\pespace g] }
 		d16[\( f\) f e] d4
 		\barre
 		\times 2/3 {a'8[ g a]} a4 

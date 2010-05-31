@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT  4}
+\markup {AT  4}
 
 
 
@@ -98,7 +98,7 @@
 	}
 
 	\addlyrics {
-		Bé -- ni soit le Dieu et Pè -- re de no -- tre Sei -- gneur Jé -- sus- -- Christ. Al -- le -- lu -- - -- "ia !"
+		Bé -- ni soit le Dieu et Pè -- re de no -- tre Sei -- gneur Jé -- sus Christ. Al -- le -- lu -- - -- "ia !"
 		\markup { \citation #"Ep 1" } 
 	}
 }

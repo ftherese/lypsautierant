@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {AT 1 }
+\markup {AT 1 }
 
 
 \relative a' { 
@@ -79,7 +79,7 @@
 	}
 
 	\addlyrics {
-		Dieu nous don -- ne la vic -- toi -- re par no -- tre Sei -- gneur Jé -- sus- -- Christ. Al -- le -- lu -- "ia!" _ _
+		Dieu nous don -- ne la vic -- toi -- re par no -- tre Sei -- gneur Jé -- sus Christ. Al -- le -- lu -- "ia!" _ _
 		\markup { \citation #"1 Co 15" }
 	}
 	

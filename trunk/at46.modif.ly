@@ -1,6 +1,6 @@
 \version "2.10.0"
  \include "definitions.ly"
-%\markup {AT  46}
+\markup {AT  46}
 
 
 \relative a' { 

@@ -33,7 +33,7 @@
 		
 		\endBar
 	}	\addlyrics {
-		Ce que vous de -- man -- de -- rez en mon Nom, je le fe -- rai.
+		Ce que vous de -- man -- de -- rez en mon nom, je le fe -- rai.
 		\markup { \citation #"Jn 14"}
 	}
 }
@@ -48,7 +48,7 @@
 		b8[ a]
 		c4 \pespace
 		\cesure \pespace
-		\times 2/5 { c16[ c c c\( c\)] }
+		\times 2/5 { c16[ c c c c] }
 		\stemDown
 		\times 2/3 { c4\( a8\) }
 		\stemNeutral
@@ -70,12 +70,12 @@
 		\times 2/3 { c8[ c c] } c4 \cesure \pespace
 		\times 2/3 { c8[ c d] }
 		\times 2/3 { c8[ b a] }
-		\times 2/3 { c8[ a16 c] }
+		\times 2/3 { c8[\set stemLeftBeamCount = #1 \set stemRightBeamCount = #2  a16\set stemLeftBeamCount = #2  c] }
 		c8[ b]
 		a4		
 		\endBar
 	}	\addlyrics {
-		Quand j'é -- tais av -- ec eux, je les gar -- dais dans ton Nom que tu m'as don -- né.
+		Quand j'é -- tais av -- ec eux, je les gar -- dais dans ton nom que tu m'as don -- né.
 		\markup { \citation #"Jn 17"}
 	}
 }

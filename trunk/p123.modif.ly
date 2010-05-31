@@ -74,7 +74,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Heu -- reux ê -- tes vous si l'on vous in -- sul -- te pour le nom du Christ.
+		Heu -- reux ê -- tes- -- vous si l'on vous in -- sul -- te pour le nom du Christ.
 		\markup { \citation #"1 P 4" }
 	}
 }

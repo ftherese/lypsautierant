@@ -1,6 +1,6 @@
 \version "2.10.0"
  \include "definitions.ly"
-%\markup {AT 45 }
+\markup {AT 45 }
 
 \relative d' { 
 	\new Staff {
@@ -16,7 +16,7 @@
 	}
 
 	\addlyrics {
-		Tu me rem -- pli -- ras de joie en ta pré -- sen -- ce. "(Al" -- le -- l -- "uia !)"
+		Tu me rem -- pli -- ras de joie en ta pré -- sen -- ce. "(Al" -- le -- lu -- "ia !)"
 		\markup { \citation #"Ac 2" } 
 	}
 }
