@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { Psaume 21}
+\markup { Psaume 21}
 
 
 \relative a' { 
@@ -31,7 +31,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Car. } }
 		
 		f8 g[ a] a16[ a\( a\) g] a8[\( a\)] \cesure \pespace
-		r a g[ \cesure a] a4 r8 a a[ a] g16[ g f e] d4
+		r a g[ \cesurebasse a] a4 r8 a a[ a] g16[ g f e] d4
 		
 		
 		

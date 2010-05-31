@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 34}
+\markup { psaume 34}
 
 \relative a' { 
 	\new Staff {
@@ -9,7 +9,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align {T.O.} }
 		
-		f8 g4 \cesure \times 2/3 {a8[ a a]}
+		f8 g4 \cesure\pespace \times 2/3 {a8[ a a]}
 		\slurDashed
 		a4( g16[)\( bes\) a g] 
 		\times 2/3 {a8[ a g]} g[ f] d4
@@ -110,7 +110,7 @@
 		\set Staff.instrumentName = \markup{ \center-align {T.P.} }
 		f8 \times 2/3 { g[ a a] } \times 2/3 { a[ g bes] }
 		a8[\cesure \pespace a16 a]  \times 2/5 {a16[a a a a]}
-		a16[ g g\( f\)]  d4  \cesure \times 2/3 {f8[ g a]} g4
+		a16[ g g\( f\)]  d4  \cesure \pespace\times 2/3 {f8[ g a]} g4
 		\endBar
 	}
 

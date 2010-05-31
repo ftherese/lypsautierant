@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {NT 5  }
+\markup {NT 5  }
 
 
 \relative f' { 
@@ -95,7 +95,7 @@
 		\times 2/3 { r8_\( f[ g]\) }
 		a16[ g a f]
 		\times 2/3 { d8[ e c] } d4
-		\cesure \pespace d16[\( g\) f\( e]\) d4 d4
+		\cesure \pespace d16[\( g\) f\( e]\) d4 d8 r
 		\endBar
 	}
 	\addlyrics {

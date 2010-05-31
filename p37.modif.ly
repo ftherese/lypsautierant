@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 37 }
+\markup { psaume 37 }
 
 \relative c' { 
 	\new Staff {

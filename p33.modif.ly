@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { psaume 33}
+\markup { psaume 33}
 
 
 
@@ -62,11 +62,11 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		f8
-		a[ \cesure c16 d]
+		a[ \cesure\pespace c16 d]
 		c4 \pespace
 		\times 2/3 { r8\( c d\) }
 		\times 2/3 { b[ b c] }
-		a4\( a8\) r
+		a4\( a8\) \cesure\pespace
 		\times 2/3 { c a g }
 		a4
 		\endBar
@@ -81,7 +81,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		f8 a16[\( c\) c c]  c8[ d]
-		c8[\( c16\)\cesure \pespace c]
+		c8[\( c16\) \cesure\pespace c]
 		c16[ c c c]  c16[\( c\) c d]  
 		\times 2/3 { b8[ b c] }  a4
 		\endBar

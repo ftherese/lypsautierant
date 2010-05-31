@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 48}
+\markup { psaume 48}
 
 
 \relative a' { 
@@ -17,7 +17,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Que sert à l'hom -- me de ga -- gner l'u -- ni -- "vers !"
+		Que sert à l'hom -- me de ga -- gner l'u -- ni -- "vers ?"
 		\markup { \citation #"Lc 9" } 
 	}
 }

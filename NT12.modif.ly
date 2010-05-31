@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {NT  12}
+\markup {NT  12}
 
 \relative c'' { 
 	\new Staff {
@@ -12,14 +12,14 @@
 		\times 2/3 { f8[\( e\) d] }
 		e4\pespace \cesure \pespace
 		\times 2/3 { c8[ a b] } c4 \pespace \cesure \pespace 
-		\times 2/3 { d8[\( e\) e] } d4 d4
+		\times 2/3 { d8[\( e\) e] } d4 d8 r
 		
 		
 		
 		\endBar
 	}
 	\addlyrics {
-		Au ciel, un -- e foule im -- men -- se clam -- "ait :" Al -- le -- lu -- ia, a -- _ lle -- lu -- "ia !"
+		Au ciel, un -- e foule im -- men -- se clam -- "ait :" Al -- le -- lu -- ia, al -- - -- lel -- ui -- "a !"
 		\markup { \citation #"Ap 19"}
  }
 }
@@ -33,7 +33,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		d16
 		d16[\( c\) d e]
-		d8[ \cesure \set stemLeftBeamCount = #1 \set stemRightBeamCount = #2 d16 \set stemLeftBeamCount = #2 d]
+		d8[\cesure \pespace d16 d]
 		f8.[\cesure \pespace \pespace e16]
 		d8[ c] d4 \pespace
 		c16[ a c b]
@@ -41,7 +41,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Il rè -- gne not -- re "Dieu ;" ex -- ult -- ons, cri -- ons de joie et ren -- dons- -- lui glo -- ire.
+		Il rè -- gne, not -- re "Dieu ;" ex -- ult -- ons, cri -- ons de joie et ren -- dons- -- lui glo -- ire.
 		\markup { \citation #"Ap 19"}
  }
 }
@@ -76,7 +76,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		g8
 		\times 2/3 { c8[ b c] } d4\cesure\pespace
-		\times 2/3 { d4\(\cesure \pespace c8\) }
+		\times 2/3 { d4\(\pespace \cesure \pespace c8\) }
 		\times 2/3 { f8[ f f] }
 		e8[ f] d4  \pespace
 		\times 2/3 {r8\(c[ d]\)} e[\( d\)] d4

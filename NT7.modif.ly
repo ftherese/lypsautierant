@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup {NT 7 }
+\markup {NT 7 }
 
 \relative a' { 
 	\new Staff {

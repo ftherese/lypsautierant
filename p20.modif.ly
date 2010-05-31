@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { Psaume 20}
+\markup { Psaume 20}
 
 
 
@@ -39,9 +39,9 @@
 		\times 2/3  { r8_\( a a\) }
 		\times 2/3  { a[ a g] }
 		\times 2/3  { b[ a b] }
-		a[\( a\)] \cesure
+		a[\( a\)] \cesure\pespace
 		\times 2/3  { a a a}
-		a4 \cesure
+		a4 \cesure\pespace
 		\times 2/3  { b8[\( g\) e] }
 		e4
 		
@@ -62,15 +62,26 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-align { Av. Noël } }
-		 r8 a16[ g]  a16[ a a a] a8.[ a16] a16[\( a\) a g] b8[ b] a[\( a\)] \cesure \indentLine
-		a[ a] a16[\( a\) a b] g8[ e] e4
+		\times 2/3  { a8 g a }
+		\times 2/3  { a4\(\pespace \cesure\pespace g8\) }
+		a[ b] 
+		a[\( b\)]
+		a4
+		\cesure\pespace
+		a8[ g]
+		\slurDashed
+		a4(
+		\times 2/3  { a8) b g }
+		e4
+		
+		
 		
 		\endBar
 	}
 
 	\addlyrics {
 		
-		Le Sei -- gneur lui don -- ne -- ra le trô -- ne de Da -- vid son pè -- re, et son rè -- gne "n'au" -- ra pas de fin.
+		Ré -- jou -- is- -- toi, com -- blée de grâ -- - -- ce, le Seign -- eur est a -- vec toi.
 		\markup { \citation #"Lc 1" } }
 }
 

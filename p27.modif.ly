@@ -1,15 +1,15 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { Psaume 27}
+\markup { Psaume 27}
 
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Noël } }
 		
-		c8 d[\( c\)] \cesure
+		c8 d[\( c\)] \cesure\pespace
 		\times 2/3 { c8[ f f] }
-		f16[ f e f] \times 2/3 { g8[\( f\)\cesure g] }  f4 
+		f16[ f e f] \times 2/3 { g8[\( f\)\cesurebasse\pespace g] }  f4 
 		\ifIndent r8 f8 f[ \cesurebasse f] f[ f]  f16[ e c\( d\)] d4
 		
 		
@@ -29,7 +29,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.O. T.P. } }
 		
-		c8[\( c\)] \cesure
+		c8[\( c\)] \cesure\pespace
 		\times 2/3 { d[ c f] }
 		f16[\( f\) e f] 
 		\times 2/3 { g8[ f g] }
@@ -39,7 +39,7 @@
 		f16[ f f f] 
 		\times 2/3 { e8[\( c\) d] }
 		d4 \pespace
-		 \barre 
+		 \barre \pespace
 		\times 2/3 { r8_\( f[ g\)] }
 		a[\( g\)] g4 
 		

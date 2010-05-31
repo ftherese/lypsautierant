@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { Psaume 16}
+\markup { Psaume 16}
 
 
 \relative c' { 
@@ -31,8 +31,8 @@
 		\times 2/3 { c8[\( c\) c] } 
 		d[ d] 
 		c4 
-		\cesure
-		c8[ \cesure c16 c] 
+		\cesure \pespace
+		c8[ \cesure \pespace c16 c] 
 		c[ c d b] 
 		\times 2/3 { b8[ c a] }
 		a4
@@ -88,7 +88,7 @@
 		\times 2/3 { r8_\( f[ a\)] }
 		\slurDashed
 		c4( c16)[\( c\) d d] c8[\( c\)]
-		\cesure 
+		\cesure \pespace
 		\times 2/3 { c[ c d] }
 		b[ b] c[ a] a4
 		

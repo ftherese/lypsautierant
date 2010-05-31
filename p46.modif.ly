@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 46}
+\markup { psaume 46}
 
 \relative a' { 
 	\new Staff {
@@ -19,7 +19,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Jé -- sus- -- Christ est mon -- té au ciel, il siège à la droi -- te de Dieu.
+		Jé -- sus -- Christ est mon -- té au ciel, il siège à la droi -- te de Dieu.
 		\markup { \citation #"1 P 3" } 
 	}
 }
@@ -41,7 +41,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Il a pris pos -- se -- sion de son rè -- gne, le Sei -- gneur not -- re Dieu. "(Al" -- le -- lu -- "ia !)" _
+		Il a pris pos -- ses -- sion de son rè -- gne, le Sei -- gneur not -- re Dieu. "(Al" -- le -- lu -- "ia !)" _
 		\markup { \citation #"Ap 11" } 
 	}
 }
@@ -90,7 +90,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		\times 2/3 { r8_\( f a\) }
 		\times 2/3 { c4\( c8\) }
-		\times 2/3 { c[\( d\) \cesure c] }
+		\times 2/3 { c[\( d\) \cesure  \pespace c] }
 		c4
 		\espace
 		\times 2/3 { r8\( c c\) }

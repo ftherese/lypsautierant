@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { psaume 43 }
+\markup { psaume 43}
 
 
 \relative a' { 
@@ -28,7 +28,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		a8 \times 2/3 { a[\( g\) bes] }
-		a[ g] \times 2/3 { f[\cesurebasse g g] } 
+		a[ g] \times 2/3 { f[\cesurebasse \pespace g g] } 
 		\times 2/3 { g[ d f] }  f[ e] d4
 		\endBar
 	}
@@ -46,7 +46,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		
 		a8 \times 2/3 { a[ a  a] } a16[ a a g] bes[ a g f] f4
-		\cesure \times 2/3 {g8[ d f]} f[ e] d4
+		\cesure  \pespace\times 2/3 {g8[ d f]} f[ e] d4
 
 		
 		
@@ -67,7 +67,7 @@
 		r8 a16[ bes]
 		\times 2/3 { a8 g f }
 		f4
-		\pespace
+		\pespace \pespace
 		 r8 g16[ g] g8[ g] 
 		
 		g8[\( g\)]
@@ -91,13 +91,13 @@
 		\times 2/3 { r8_\( a[ a]\) }
 		\times 2/3 { a[ a a] }  g[ bes]
 		\times 2/3 { a[\( g\) f] }
-		\times 2/3 { f4\(\cesure \pespace g8\) } g4 \cesure
+		\times 2/3 { f4\( \pespace\cesure \pespace g8\) } g4 \cesure
 		d16[ f f e] d4
 		\endBar
 	}
 
 	\addlyrics {
-		Pro -- ste -- rnée de -- vant lui la fem -- me di -- "sait :" Sei -- gneur, viens à mon sec -- ours.
+		Pro -- ste -- rnée de -- vant lui, la fem -- me di -- "sait :" Sei -- gneur, viens à mon sec -- ours.
  		\markup { \citation #"Mt 15" } }
 	
 	
@@ -125,7 +125,8 @@
 	}
 
 	\addlyrics {
-		Heu -- reux ê -- tes- -- vous si l'on vous in -- sul -- te pour le nom du Christ, car l'Es -- prit de gloi -- re re -- po -- se sur vous.  Al -- le -- lu -- - -- "ia !"
+		Heu -- reux ê -- tes-v -- ous si l'on vous in -- sul -- te pour le nom du Christ, car l'Es -- prit de gloi -- re re -- po -- se sur vous.  
+		Al -- le -- lu -- - -- "ia !"
  		\markup { \citation #"1 P 4" } }
 	
 	

@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup { Psaume 4 }
+\markup {Psaume 4}
 
 \relative a' { 
 	\new Staff {
@@ -17,6 +17,7 @@
 
 	\addlyrics {
 		Fais lui -- re ta face et nous ser -- ons sau -- "vés !"
+
  		\markup { \citation #"Ps 79" } }
 	
 	
@@ -60,6 +61,7 @@
 
 	\addlyrics {
 		Ré -- jou -- is --  -toi, com -- blée de grâ -- ce, le Sei -- gneur est a -- vec toi. 
+
  		\markup { \citation #"Lc 1" } }
 	
 	

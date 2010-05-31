@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { Psaume 22}
+\markup { Psaume 22}
 
 
 \relative a' { 
@@ -30,7 +30,7 @@
 		g[ a]
 		\times 2/3 { g b a }
 		a4
-		\cesure
+		\cesure \pespace
 		\times 2/3 { a8 a a }
 		\stemUp
 		\times 2/3 { a4\( b8\) }
@@ -81,7 +81,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		r16 a[ g a]
 		b8[ a]
-		\times 2/3 { a4\( \cesure  \pespace a8\) }
+		\times 2/3 { a4\(\pespace \cesure  \pespace a8\) }
 		\times 2/3 { a[\( a\) b] } 
 		a4
 		\times 2/3 { g8 g f }
@@ -112,7 +112,7 @@
 		r16 a[ a b]
 		a[\( g\) g f]
 		e4
-		\cesureall
+		\cesureall\pespace 
 		\times 2/3 { a8 g a }
 		a4
 		

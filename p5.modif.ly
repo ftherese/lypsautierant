@@ -1,6 +1,6 @@
 \version "2.10.0"
  \include "definitions.ly"
-%\markup { Psaume 5}
+\markup { Psaume 5}
 
 \relative f' { 
 	\new Staff {
@@ -22,6 +22,7 @@
 	}
 	\addlyrics {
 		Les dis -- cip -- les se rap -- pe -- lè -- rent qu'il est éc -- "rit :" Le zè -- le pour ta mai -- son me dé -- vo -- re -- ra.
+
 		\markup { \citation #"Jn 2" }
 	}
 }
@@ -31,7 +32,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Car. } }
 		f8[ g]
-		a4  \cesure
+		a4  \cesure \pespace
 		a16[ bes a g]  a16[ g g f]
 		e4\( d8\) r8
 		\endBar
@@ -68,7 +69,7 @@
 		\times 2/3 { r8_\( f[ g]\) }
 		\times 2/3 { a4\( g8\) }
 		\times 2/3 { bes8[\( a\) g] } a4 
-		\pespace r8 a8
+		\pespace\pespace r8 a8
 		\times 2/3 { a8[ g g] }
 		f[ e]
 		d4
@@ -103,7 +104,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Ay -- ant ap -- prê -- té les a -- rô -- ma -- tes, el -- les al -- lè -- rent de grand ma -- tin au tom -- beau. Al -- le -- lu -- "ia !"
+		Ay -- ant ap -- prê -- té les a -- ro -- ma -- tes, el -- les al -- lè -- rent de grand ma -- tin au tom -- beau. Al -- le -- lu -- "ia !"
 		\markup { \citation #"Lc 24" }
 	}
 }

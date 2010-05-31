@@ -1,7 +1,7 @@
 \version "2.10.0"
  \include "definitions.ly"
 
-%\markup { Psaume 3 }
+\markup { Psaume 3}
 
 \relative f' { 
 	\new Staff {
@@ -11,23 +11,20 @@
 		r16 f[ g a]
 		a[ a a g]
 		\times 2/3 { bes8 a g }
-		a4
+		a4 \pespace
 		\ifIndent
 		\times 2/3 { r8_\( a[ a]\) }
 		\times 2/3 { a[ a a] }
 		\times 2/3 { a[ a\( a\)] }
 		g[ g]
 		f4\( d8\) r
-		%{
-			\barre
-			\times 2/3 { g f g }
-			a4
-		%}
+
 		\endBar
 	}
 	\addlyrics {
 		En -- se -- ve -- lis a -- vec le Christ dans la mort, nous vi -- vons a -- vec lui d'un -- e vie nou -- vel -- le. 
-		\markup { \citation #"Rm 6" } %{"(Al" -- le -- lu -- ia "!)" %}
+	%{"(Al" -- le -- lu -- ia "!)" %}
+		\markup { \citation #"Rm 6" }
 	}
 }
 
@@ -59,7 +56,7 @@
 		\markup { \citation #"Ep 5" }
 	}
 }
-
+
 
 \relative f' { 
 	\new Staff {
@@ -71,7 +68,7 @@
 		a8[\( a\)] \pespace
 		\times 2/3 { a a bes }
 		a[ g]
-		a4
+		a4 \pespace
 		
 		r16 a[ a a]
 		\times 2/3 { a4\( \cesure a8\) }
@@ -92,7 +89,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		\times 2/3 { f8[ g a] }
-		\times 2/3 { a[ g bes ] }
+		\times 2/3 { a[ g\( bes ]\) }
 		a[\( g\)]
 		a4 \pespace
 		\times 2/3 { r8_\( a[ a]\) }

@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { Psaume 15}
+\markup { Psaume 15}
 
 
 \relative a' { 
@@ -54,7 +54,7 @@
 	}
 
 	\addlyrics {
-		Pré -- pa -- rez les che -- mins du Sei -- gneur, ren -- dez droits ses sen -- tiers.
+		Pré -- pa -- rez le che -- min du Sei -- gneur, ren -- dez droits ses sen -- tiers.
 		\markup { \citation #"Lc 3" } 
 	}
 }

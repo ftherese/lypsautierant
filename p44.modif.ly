@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { psaume 44}
+\markup { psaume 44}
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
@@ -83,7 +83,7 @@
 		\times 2/3 { c[\( c\) c] }
 		d[ c]
 		c4
-		\pespace \pespace	
+		\pespace 	
 		r8. \espall c16
 		c[ c c c]
 		c[ b c a]
@@ -105,11 +105,11 @@
 		
 		\times 2/3 {g8[ a c]} c[\( c\)] c[ d] \times 2/3 { c[
 		\cesure c16 c] }
-		\ifIndent
-		\times 2/3 { c[ c  c] }
+		
+		\times 2/3 { c8[ c  c] }
 		c16[ c c c] \times 2/3 {b8[ c a]} g[\( g\)] 
 		
-\espall
+
 		\times 2/3 { r
 _\( g a\) }
 		c[\( d\)]

@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { psaume 32}
+\markup { psaume 32}
 
 \relative a' { 
 	\new Staff {
@@ -72,7 +72,7 @@ c16[ c c c] c8[ c16 c] d16[\( b\) b c] a4
 	}
 }
 
-\relative a' { 
+\relative a' { 
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.P.} }

@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup {NT  10}
+\markup {NT  10}
 
 
 
@@ -9,8 +9,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		g16[ a c c]
-		c4 \pespace
-		\times 2/3 { r8\( c[ d]\) }
+		
+		\times 2/3 { c8[ \cesure\pespace c16 d]\) }
 		\times 2/3 { e8[ d e] }
 		c8[\( c\)] \cesure  \pespace
 		a16[\( a\) c a]
@@ -33,7 +33,7 @@
 		\times 2/3 { r8_\( g[ a]\) }
 		\times 2/3 { c8[ c c] }
 		d8[\( e\)]
-		\times 2/3 { d8[\cesure c c] }
+		\times 2/3 { d8[\cesure\pespace c c] }
 		c16[\( c\) b c]
 		\times 2/3 { a8[\( a\)\cesure \pespace b] }
 		\times 2/3 { c8[ a  g] } g4
@@ -90,14 +90,14 @@
 		\times 2/3 { r8_\( a[ b]\) }
 		\times 2/3 { c8[ c d] }
 		\times 2/3 { c8[ b a] }
-		c8[\( c\)] \cesure
-		\times 2/3 { b8[ c b] } a4 \cesure
+		c8[\( c\)] \cesure\pespace
+		\times 2/3 { b8[ c b] } a4 \cesure\pespace
 		\times 2/3 { g8[\( a\) b] } a4 \cesure   \pespace
 		\times 2/3 { c8[ d e] } d4
 		\endBar
 	}
 	\addlyrics {
-		Il a pris po -- sse -- ssion de son rè -- gne, le Seig -- neur Dieu, Maî -- tre de tout.  Al -- le -- lu --  "ia !"
+		Il a pris po -- sse -- ssion de son rè -- gne, le Seig -- neur Dieu, " Maî" -- tre de tout.  Al -- le -- lu --  "ia !"
 		\markup { \citation #"Ap 11"}
  }
 }

@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 38 }
+\markup { psaume 38 }
 
 \relative a' { 
 	\new Staff {
@@ -52,7 +52,7 @@
 		
 		\times 2/3 {g8[ c\( b\)]} c16[ d d f] \times 2/3 {e8[ e d]} \times 2/3 { d4\(   e8\) } 
 		\indentLine r8. \espall d16 d[\( e\) d d c] c8[ b] a4
-		\cesure \times 2/3 { c8[ d e] } d[\( c\)] d4
+		\cesure \times 2/3 { c8[ d e] } d[\( c] d4\)
 		
 		
 		

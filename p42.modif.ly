@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { psaume 42 }
+\markup { psaume 42}
 
 \relative c'' { 
 	\new Staff {
@@ -19,6 +19,7 @@
 
 	\addlyrics {
 		Que vo -- tre cœur ne se trou -- ble "pas !" Vous cro -- yez en Dieu, cro -- yez aus -- si en moi.
+		
 		\markup { \citation #"Jn 14" } }
 	
 	
@@ -41,6 +42,7 @@
 
 	\addlyrics {
 		Que Dieu vous comb -- le de joie et de paix dans la foi.
+		
 		\markup { \citation #"Rm 15" } }
 	
 	
@@ -95,7 +97,8 @@
 
 	\addlyrics {
 		
-		A cau -- se de la peine é -- prou -- vée par son â -- me, mon ser -- vi -- teur ver -- ra la lu -- miè -- re. "Al" -- le -- lu -- - -- "ia !"
+		À cau -- se de la peine é -- prou -- vée par son â -- me, mon ser -- vi -- teur ver -- ra la lu -- miè -- re. "Al" -- le -- lu -- - -- "ia !"
+		
 		\markup { \citation #"Is 53" } }
 	
 	

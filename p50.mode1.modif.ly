@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 50 - 1° mode}
+\markup { psaume 50 - 1° mode}
 
 
 
@@ -12,7 +12,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		a8 a4
 		\times 2/3 { bes8[ a g] }
-		\times 2/3 { a4\( a8\) }
+		\times 2/3 { a4\( \pespace\cesure\pespace a8\) }
 		g16[ g f e]
 		d4
 		\endBar
@@ -29,7 +29,7 @@
 		f16[ g a a]
 		a[ a g bes]
 		a4
-		\pespace
+		\pespace \pespace
 		\times 2/3 { r8_\( a a\) }
 		a[ g]
 		\times 2/3 { g f e  }
@@ -63,9 +63,9 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		f8
 		\times 2/3 { g8[ a bes] }
-		a16[\cesure a a a]
+		a16[\cesurebasse \pespace a a a]
 		g16[ g f e]
-		d4 \barre 
+		d4  \pespace\barre  \pespace
 		\times 2/3 {f8[ g a]} g4 
 		
 		

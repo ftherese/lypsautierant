@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { Psaume 26}
+\markup { Psaume 26}
 
 \relative a' { 
 	\new Staff {
@@ -30,7 +30,7 @@
 		g8 
 		\times 2/3 { a[ g c] }
 		c4
-		\cesure c8[ b] 
+		\cesure\pespace c8[ b] 
 		\times 2/3 { c[ a\( g\)] }
 		g4
 		
@@ -101,7 +101,7 @@
 		\times 2/3 { r8_\( g[ a\)] }
 		\times 2/3 { g[ g c] }
 		\times 2/3 { b[ c d] }
-		c4
+		c4\pespace \indentLine
 		\pespace
 		\times 2/3 { r8\( c[ c\)] }
 		c[ c] c[\( c16\) c] b8[ c] a[ g] g4

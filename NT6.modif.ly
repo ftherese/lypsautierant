@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup {NT 6 }
+\markup {NT 6 }
 
 \relative a' { 
 	\new Staff {
@@ -15,7 +15,7 @@
 		\endBar
 	}
 	\addlyrics {
-		A Dieu la glo -- ire dans l'Egl -- ise et le Christ Jés -- us.
+		À Dieu la glo -- ire dans l'Égl -- ise et le Christ Jés -- us.
 		\markup { \citation #"(Rendons)"} 
 		\markup { \citation #"Ep 3"}
  }
@@ -30,13 +30,13 @@
 		\times 2/3 { e8[ g f] } e4 \cesure \pespace \indentLine
 		\times 2/3 { a4\( a8\) }
 		\times 2/3 { g8[ a c] } 
-		\stemUp \times 2/3 { b4\( a8\) } r \barre \pespace
+		\stemUp \times 2/3 { b4\( a8\) } \barre \pespace
 		\times 2/3 {r8_\(g[ a]\)} b[\( a\)] a4
 		\barre \pespace a\breve
 		\endBar
 	}
 	\addlyrics {
-		Tout vient de lui, tout est par lui, tout est en "lui :" gloire à Dieu dans les siè -- cles. "(Al" -- le -- lu -- _  "ia !)"
+		Tout vient de lui, tout est par lui, tout est en "lui :" gloire à Dieu dans les siè -- cles. "(Al" -- le -- lu -- - -- "ia !)"
 		\markup { \citation #"(Rendons)"}
 		\markup { \citation #"Col 1"}
 

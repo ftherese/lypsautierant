@@ -1,6 +1,6 @@
 \version "2.10.0"
 \include "definitions.ly"
-%\markup { Psaume 2}
+\markup { Psaume 2}
 
 
 
@@ -10,14 +10,14 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Noël } }
 		\times 2/3 { r8_\( c d\) }
 		\times 2/3 { c[ c f] }
-		f16[ \cesurebasse e f g]
+		f16[ \cesuretresbasse \pespace e f g]
 		f4
 		\pespace
 		\ifIndent
 		r8 f
 		f[ f]
 		f16[ f\( f\) f]
-		e[ c]
+		e8[ c]
 		d4\( d8\) r
 		
 		\endBar
@@ -34,7 +34,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. T.P. } }
 		\times 2/3 { r8_\( c d\) }
 		c4
-		\cesure
+		\cesure \pespace
 		c16[ f f f]
 		f8[ f]
 		f16[ e f g]
@@ -43,7 +43,7 @@
 		\indentLine
 		r16 f[ f f]
 		\times 2/3 { f8\( f\) f }
-		f4 \pespace
+		f4
 		\cesure \pespace
 		f16[ e c d]
 		d4  \pespace
@@ -83,7 +83,7 @@
 		c16[ d c f]
 		\times 2/3 { f8 e f }
 		g[ f]
-		f4
+		f4 \pespace
 		\times 2/3 { r8_\( f f\) }
 		\times 2/3 { f[ e c] }
 		d4\( d8\) r

@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 7 - 2° mode }
+\markup { psaume 7 - 2° mode }
 
 
 \relative d' { 
@@ -12,7 +12,7 @@
 		c16[ c f f]
 		f8[ f]
 		f16[ e f g]
-		f8[\( f\)]
+		f8[\( f\)] \pespace
 		\times 2/3 { r8_\( f[ f]\) }
 		\times 2/3 { e8[ c d] } d4
 		
@@ -50,8 +50,8 @@
 		c8[ d] c4
 		f16[ e f g] f4 \pespace
 		\times 2/3 { r8_\( f[ f]\) }
-		f16[\( f\) f e]
-		c8[ d] d4
+		f16[\( f\) f f]
+		e8[ c] d4
 		
 		
 		
@@ -92,7 +92,7 @@
 		f16[ f e f]
 		g8[ f] f4
 		f16[ f f f]
-		\times 2/3 { e8[ c d] } d4 \cesure
+		\times 2/3 { e8[ c d] } d4 \cesure\pespace
 		\times 2/3 {f8[ g a]} g4 
 		
 		
@@ -102,7 +102,7 @@
 	}
 
 	\addlyrics {
-		Il est é -- ta -- bli par Dieu ju -- ge des vi -- vants et des morts. " Al" -- le -- lu -- - -- "ia !"
+		Il est é -- ta -- bli par Dieu ju -- ge des vi -- vants et des morts. " Al" -- le -- lu -- "ia !"
 		\markup { \citation #"Ac 10" } }
 	
 	

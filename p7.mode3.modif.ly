@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup { Psaume 7 - 3° mode}
+\markup { Psaume 7 - 3° mode}
 
 
 \relative c'' { 

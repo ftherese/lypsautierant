@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 39 }
+\markup { psaume 39 }
 
 
 
@@ -12,7 +12,7 @@
 		r8 a16[ g]
 		a[ a a g]
 		b[ b a b]
-		\times 2/3 { a4\( \cesure \pespace a8\) }
+		\times 2/3 { a4\( \pespace\cesure \pespace a8\) }
 		\times 2/3 { a[\( a\) b] }
 		g[\( e\)]
 		e4
@@ -30,7 +30,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Car. } }
 		\times 2/3 { r8_\( a g\) }
-		a[ \cesure b]
+		a[ \cesure\pespace b]
 		\times 2/3 { a4\( \cesure a8\) }
 		\times 2/3 { a[\( a\) b] }
 		g[ e]
@@ -84,7 +84,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		\times 2/3 { e8[ g a] } \times 2/3 { a[ a a] }
-		a16[ a g b] \times 2/3 { a4\( a8\) }  r8 a8 
+		a16[\( a\) g b] \times 2/3 { a4\( a8\) }  r8 a8 
 		\times 2/3 { a[ a a] } \times 2/3 { a[ a a] }
 		\times 2/3 { b[\( g\) e] } e4
 		\times 2/3 {r8_\(g[ a]\)} b[\( a\)] a4

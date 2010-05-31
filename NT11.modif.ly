@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {NT 11 }
+\markup {NT 11 }
 
 
 \relative c'' { 
@@ -14,7 +14,7 @@
 		\endBar
 	}
 	\addlyrics {
-		A lui la gloire ét -- er -- nel -- lem -- "ent !" Am -- "en !"
+		À lui la gloire ét -- er -- nel -- lem -- "ent !" Am -- "en !"
 		\markup { \citation #" Rm 11"}
  }
 }
@@ -52,7 +52,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Seig -- neur tout -- -puis -- sant, tes ju -- gem -- ents sont plein de vé -- ri -- té et de jus -- ti -- ce.
+		Seig -- neur tout -- -puis -- sant, tes ju -- gem -- ents sont pleins de vé -- ri -- té et de jus -- ti -- ce.
 		\markup { \citation #"Ap 16"}
  }
 }
@@ -68,7 +68,7 @@
 		d8[ e]
 		\times 2/3 { d8[ c d] }
 		b8[ b] c8[\cesure \pespace a]
-		\times 2/3 { g8[\( g\)\cesure \pespace a] } 
+		\times 2/3 { g8[\( g\)\cesurebasse \pespace a] } 
 		\times 2/3 { a8[ c b] }
 		g4\( g8\) \pespace \cesure \pespace
 		\times 2/3 {c8[ b c]} d[\( e] d4\)
@@ -118,7 +118,7 @@
 		\endBar
 	}
 	\addlyrics {
-		A ce -- lui qui siè -- ge sur le trô -- ne, ain -- si qu'à l'Agn -- eau,  gloire et puis -- san -- ce. Al -- le -- lu -- "ia !" _ _
+		À ce -- lui qui siè -- ge sur le trô -- ne, ain -- si qu'à l'Agn -- eau,  gloire et puis -- san -- ce. Al -- le -- lu -- "ia !" _ _
 		\markup { \citation #"Ap 5"}
  }
 }

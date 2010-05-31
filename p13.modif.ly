@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { Psaume 13}
+\markup { Psaume 13}
 
 
 \relative d' { 
@@ -13,7 +13,7 @@
 		f4
 		\times 2/3 { e8 f g }
 		f[\( f\)]
-		\cesure
+		\cesure\pespace
 		\times 2/3 { f e c }
 		d4
 		\endBar
@@ -33,7 +33,7 @@
 		\times 2/3 { f e f }
 		g[ f]
 		f4
-		\cesure
+		\cesure\pespace
 		\times 2/3 { f8 f f }
 		f16[ f f f]
 		\times 2/3 { e8 c d }
@@ -43,7 +43,7 @@
 
 	\addlyrics {
 		La grâ -- ce de Dieu s'est ma -- ni -- fes -- tée, nous en -- sei -- gnant à re -- non -- cer au pé -- ché.
-		\markup { \citation #"Ti 2" } 
+		\markup { \citation #"Tt 2" } 
 	}
 }
 \relative d' { 
@@ -73,7 +73,7 @@
 		f16[\( f\) f f] 
 		\times 2/3 { f8 e c }
 		\times 2/3 { d4\( d8\) }
-		\cesureall
+		\cesureall\pespace
 		\times 2/3 {c8[ d f]}
 		g4
 		\endBar

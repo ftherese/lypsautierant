@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {NT 8 }
+\markup {NT 8 }
 
 
 \relative c'' { 
@@ -9,7 +9,7 @@
 		\set Staff.instrumentName = \markup{ \center-align {  } }
 		a16[ a a a]
 		\times 2/3 { g8[ a c] }
-		b8[\( a\)] \cesure
+		b8[\( a\)] \cesure \pespace
 		\times 2/3 { e8[ e\( e]\) }
 		e16[ e g b] a4
 		\endBar
@@ -28,8 +28,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align {  } }
 		\times 2/3 { a8[ a a] }
-		\times 2/3 { g8[\( a\) \cesure b] }
-		\times 2/3 { a4\( \cesure a8\) }
+		\times 2/3 { g8[\( a\) \cesure\pespace b] }
+		\times 2/3 { a4\(\pespace \cesure\pespace a8\) }
 		\times 2/3 { g8[\( a\) g] }
 		e4
 		\endBar
