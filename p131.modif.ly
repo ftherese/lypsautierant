@@ -5,7 +5,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-align { T.O. Noël } }
 		f8
 		\times 2/3 { g8[ a bes] } \times 2/3 { a8[\( a\) g] }
 		\times 2/3 { a4\( a8\) }
@@ -50,7 +50,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-align { Av. Noël } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		a16
 		g[ bes a g]
 		g8[\( a\)]

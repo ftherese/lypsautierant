@@ -67,12 +67,13 @@ f8[\( f\)]
 \pespace\pespace
 \times 2/3 { r8_\( f[ f\)]}
 \times 2/3 {e[ c d]}
-d4 
+d4 \cesure\pespace
+\times 2/3 {c8[ d f]} g4
 		
 		\endBar
 	}
 	\addlyrics {
-El -- le re -- çut les deux ai -- les du grand ai -- gle pour vo -- ler au dé -- sert. 	
+El -- le re -- çut les deux ai -- les du grand ai -- gle pour vo -- ler au dé -- sert. "Al" -- le -- lu -- "ia !"	
 		\markup { \citation #"Ap 12" } 
 	}
 }

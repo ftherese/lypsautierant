@@ -28,10 +28,12 @@
 		\times 2/3 { r8_\( f[ f]\) }
 		\times 2/5 { f16[\cesuretresbasse \pespace\pespace f f e c]}
 		d4\( d8\) r8
+		\barre \pespace
+		\times 2/3 { f[ g a] } g4
 		\endBar
 	}
 	\addlyrics {
-		Qui ne te crain -- drait, Seig -- "neur ?" A ton nom, qui ne rend -- rait gloi -- "re ?"
+		Qui ne te crain -- drait, Seig -- "neur ?" A ton nom, qui ne rend -- rait gloi -- "re ?" "(Al" -- le -- lu -- "ia !)"
 		\markup { \citation #"Ap 15" } 
 	}
 }
