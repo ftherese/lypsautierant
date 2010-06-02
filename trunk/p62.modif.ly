@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 62}
+\markup { psaume 62}
 
 \relative f' { 
 	\new Staff {
@@ -14,11 +14,13 @@
 		\pespace
 		\times 2/3 { r8_\( a a\) }
 		\times 2/3 { g[ g f] }
-		d4
+		d4 
+		\barre \pespace
+		\times 2/3 { f8[ g a] } bes[\( g] a4\)
 		\endBar
 	}
 	\addlyrics {
-		Mon -- tre nous le Pè -- re, et ce -- la nous suf -- fit.
+		Mon -- tre nous le Pè -- re, et ce -- la nous suf -- fit. "(Al" -- le -- lu -- "ia !)" _ _
 		\markup { \citation #"Jn 14" }
 	}
 }

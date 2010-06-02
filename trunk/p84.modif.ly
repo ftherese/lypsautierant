@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {Psaume 84}
+\markup {Psaume 84}
 
 
 \relative c' { 
@@ -46,7 +46,7 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-align { Av. } }
+		\set Staff.instrumentName = \markup{ \center-align { Av. Noël } }
 		
 		r8 f a[ c] c4 
 		\pespace
@@ -67,7 +67,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-align { Noël Car. } }
+		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		
 		a8 \times 2/3 { c[ c d] } \times 2/3 { c[ c d] } \times 2/3 { b[ b c] } a4
 

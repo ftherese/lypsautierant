@@ -42,9 +42,10 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-align {Av.} }
+		\set Staff.instrumentName = \markup{ \center-align {Av. Noël} }
 		
-		c8 b[ c] d[ c] c8.[ \cesure c16] c[ b c a] g4\( g8\) r 
+		c8 b[ c] d[ c] c8.[ \cesure c16] c[ b c a] g4\( g8\) r \barre \pespace 
+\times 2/3 { g8[ a  c] } d[\( e] d4\)
 		
 		
 		
@@ -52,28 +53,12 @@
 	}
 
 	\addlyrics {
-		Voi -- ci l'É -- poux qui vient, sor -- tez à  sa ren -- con -- tre.
+		Voi -- ci l'É -- poux qui vient, sor -- tez à  sa ren -- con -- tre. "(Al" -- le -- lu -- "ia !)" _ _
  		\markup { \citation #"Mt 25" } }
 	
 	
-}
 
 
-\relative a' { 
-	\new Staff {
-		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-align { Noël } }
-		\times 2/3 { r8_\( g[ a]\) } 
-		g16[ c c c] c8[ b] c[ d] c4
-		\times 2/3 { b8[ c a] }  g4\( g8\) r8
-		\endBar
-	}
-
-	\addlyrics {
-		Son en -- fant fut en -- le -- vé aup -- rès de Dieu et de son trô -- ne.
- 		\markup { \citation #"Ap 12" } }
-	
-	
 }
 \relative a' { 
 	\new Staff {
@@ -107,7 +92,7 @@
 		\cesure c16 c] }
 		
 		\times 2/3 { c8[ c  c] }
-		c16[ c c c] \times 2/3 {b8[ c a]} g[\( g\)] 
+		c16[ c c c] \times 2/3 {b8[ c a]} g4\( g8\) 
 		
 
 		\times 2/3 { r

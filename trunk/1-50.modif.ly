@@ -22,9 +22,7 @@
 \include "p5.modif.ly"
 %\markup { psaume 6 }
 \include "p6.modif.ly"
-%\markup { psaume 7 2° mode à trancher}
-\include "p7.mode2.modif.ly"
-%\markup { psaume 7 3° mode à trancher}
+%\markup { psaume 7 }
 \include "p7.mode3.modif.ly"
 %\markup { psaume 8 }
 \include "p8.modif.ly"
@@ -110,8 +108,7 @@
 \include "p48.modif.ly"
 %\markup { psaume 49 }
 \include "p49.modif.ly"
-%\markup { psaume 50 1° mode à trancher}
+%\markup { psaume 50 }
 \include "p50.mode1.modif.ly"
-%\markup { psaume 50 7° mode à trancher}
-\include "p50.mode7.modif.ly"
+
 

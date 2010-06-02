@@ -36,11 +36,13 @@
 		\cesure
 		\times 2/3 { f8 e c }
 		\times 2/3 { d4\( d8\) }
+		\barre \pespace
+		\times 2/3 { r8_\( f[ g]\) } a[\( g]\) g4
 		\endBar
 	}
 
 	\addlyrics {
-		Le Fils "de Di" -- eu sort en vain -- queur, pour vaincre en -- co -- re.
+		Le Fils "de Di" -- eu sort en vain -- queur, pour vaincre en -- co -- re. "(Al" -- le -- lu -- - -- "ia !)"
 		\markup { \citation #"Ap 6" } 
 	}
 }
