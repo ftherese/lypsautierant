@@ -44,7 +44,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align {Av. Noël} }
 		
-		c8 b[ c] d[ c] c8.[ \cesure c16] c[ b c a] g4\( g8\) r \barre \pespace 
+		c8 b[ c] d[ c] c8.[ \cesure c16] c[ b c a] g4\( g8\)
+		
+\barre 
 \times 2/3 { g8[ a  c] } d[\( e] d4\)
 		
 		
@@ -53,7 +55,7 @@
 	}
 
 	\addlyrics {
-		Voi -- ci l'É -- poux qui vient, sor -- tez à  sa ren -- con -- tre. "(Al" -- le -- lu -- "ia !)" _ _
+		Voi -- ci l'É -- poux qui vient, sor -- tez à  sa ren -- con -- "tre. " "(Al" -- le -- lu -- "ia !)" _ _
  		\markup { \citation #"Mt 25" } }
 	
 	
@@ -94,10 +96,8 @@
 		\times 2/3 { c8[ c  c] }
 		c16[ c c c] \times 2/3 {b8[ c a]} g4\( g8\) 
 		
-
-		\times 2/3 { r
-_\( g a\) }
-		c[\( d\)]
+\barre 
+		\times 2/3 {g8[ a c]} 
 		c4
 		
 		
@@ -105,7 +105,7 @@ _\( g a\) }
 	}
 
 	\addlyrics {
-		Voi -- ci les no -- ces de l'Ag -- neau, et pour lui son é -- pouse a re -- vê -- tu sa pa -- ru -- re. Al -- le -- lu -- - -- "ia !"
+		Voi -- ci les no -- ces de l'Ag -- neau, et pour lui son é -- pouse a re -- vê -- tu sa pa -- ru -- "re. " "(Al" -- le -- lu -- "ia !)"
  		\markup { \citation #"Ap 19" } }
 	
 	

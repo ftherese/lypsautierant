@@ -71,7 +71,7 @@
 		
 		\endBar
 	}	\addlyrics {
-		Le sang de Jé -- sus nous pu -- ri -- fie de tout pé -- ché. Al -- le -- lu -- "ia !" 
+		Le sang de Jé -- sus nous pu -- ri -- fie de tout pé -- ché. "(Al" -- le -- lu -- "ia !)" 
 		\markup { \citation #"1 Jn 1"}
 	}
 }
