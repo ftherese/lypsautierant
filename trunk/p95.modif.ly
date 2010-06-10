@@ -55,8 +55,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		f8[ \cesurebasse e16 f]  g8[ g]
-		\times 2/3 { f4\( f8\) }
-		r8 f f4 \cesure
+		\times 2/3 { f4\( f8\) }\pespace
+		r8 f f4 \pespace\cesure\pespace
 		\times 2/3 { f4\(\cesure e8\) }
 		c8[ d]  d4
 		\endBar

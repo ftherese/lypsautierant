@@ -29,7 +29,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. T.P.} }
 		r8. c16 d[ c f g] f4 
 		\pespace\indentLine
-		r8 f \times 2/3 { f[ e  e] } \times 2/3 { g[\( g\)\cesurebasse\pespace f] } 
+		r8 f \times 2/3 { f[ e  f] } \times 2/3 { g[\( g\)\cesurebasse\pespace f] } 
 		\times 2/3 { f[\( f\) f] }
 		f16[ f e c] \times 2/3 { d4\( d8\) }
 		\barre \pespace\times 2/3 {f8[ g f]} f4

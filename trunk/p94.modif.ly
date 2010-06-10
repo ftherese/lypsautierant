@@ -26,7 +26,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align {Noël Car. T.P.} }
 		
-		\times 2/3 { r8\( c[ b\)] } c[ d] \times 2/3 { f4\(  e8\) } r d e[ d] \times 2/3 { d[ c  c] }
+		\times 2/3 { r8\( c[ b\)] } c[ d] \times 2/3 { f4\(  e8\) } \pespace r d e[ d] \times 2/3 { d[ c  c] }
 		\stemUp
 		\times 2/3 { b4\(   a8\) }
 		\stemNeutral
