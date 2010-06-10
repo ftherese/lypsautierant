@@ -99,7 +99,7 @@
 		\times 2/3 { a[ a g] }
 		\times 2/3 { bes a g }
 		\times 2/3 { g4\( a8\) }
-		
+		\pespace
 		\times 2/3 { r_\( a g\) }
 		g4 \pespace
 		r8 f

@@ -24,7 +24,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Car. } }
 		
-		f16[\( g\) a a] a4 \cesure \times 2/3 { bes8[ a g] } a4
+		f16[\( g\) a a] a4 \cesure \pespace \times 2/3 { bes8[ a g] } a4
 		
 		
 		

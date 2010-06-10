@@ -70,7 +70,7 @@ r8  a16[ a]  a16[\( a\) a a]
 		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		f16[\( g\) a a]
 		\times 2/3 { bes8 a g }
-		\times 2/3 { a4\(\cesure\pespace  a8\) }
+		\times 2/3 { a4\( \cesure\pespace  a8\) }
 		a16[\( a\) a a]
 		\times 2/5 {a16[a a a a]}
 		a16[ g a f]
@@ -93,7 +93,7 @@ r8  a16[ a]  a16[\( a\) a a]
 		f8
 		g[ a]
 		\override Stem #'neutral-direction = #up
-		\times 2/3 { a4\( \cesure  bes8\) }
+		\times 2/3 { a4\( \pespace\cesure\pespace  bes8\) }
 		a[\( g\)]
 		a4
 		\espace

@@ -100,7 +100,7 @@
 		a4 \cesure \pespace
 		a16[ a a a]
 		\times 2/3 { a8 a a }
-		a16[ \cesure\pespace a g g]
+		a16[ \cesurebasse\pespace a g g]
 		f4\( d8\)
 		\cesureall \pespace
 		\times 2/3 { f g a }
