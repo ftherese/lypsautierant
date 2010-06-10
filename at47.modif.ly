@@ -69,12 +69,12 @@
 		f16[ g a a]
 		g8[ bes] a4
 		\times 2/3 { g8[ g f] }
-		d4 \cesure\pespace 
+		d4 \pespace\barre\pespace  
 		\times 2/3 {f8[ g a]} bes[\( g] a4\) 
 		\endBar
 	}
 	\addlyrics {
-		Il n'est pas le Dieu des morts, mais des viv -- ants. Al -- le -- lu -- "ia !" _ _
+		Il n'est pas le Dieu des morts, mais des viv -- ants. "(Al" -- le -- lu -- "ia !)" _ _
 		\markup { \citation #"Lc 20" }
 	}
 }

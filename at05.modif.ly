@@ -79,15 +79,14 @@
 		a8[ a16 a]
 		g[ bes a g]
 		a4
-		
-\espall\pespace
+		\pespace\pespace\barre\pespace
 		\times 2/3 { r8_\(  a g\) }
 		a[\( f\)]
 		f4
 		\endBar
 	}
 	\addlyrics {
-		 Pour -- quoi cher -- cher le Vi -- vant par -- mi les "morts ?" Al -- le -- lu -- - -- "ia !"
+		 Pour -- quoi cher -- cher le Vi -- vant par -- mi les "morts ?" "(Al" -- le -- lu -- - -- "ia !)"
 		\markup { \citation #"Lc 24" }
 	}
 }

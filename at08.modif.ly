@@ -36,7 +36,7 @@
 	}
 
 	\addlyrics {
-		Cet -- te coupe est la nou -- velle all -- iance en mon sang. Al -- le -- lu -- - -- "ia !"
+		Cet -- te coupe est la nou -- velle All -- iance en mon sang. Al -- le -- lu -- - -- "ia !"
  		\markup { \citation #"1 Co 11" } }
 	
 	

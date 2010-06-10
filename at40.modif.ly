@@ -12,7 +12,7 @@
 		\times 2/3 { c8[\( a\)\cesure\pespace  g] } g4
 		\endBar
 	}	\addlyrics {
-		A lui la gloire et la pui -- ssan -- ce pour les siè -- cles des siè -- cles. Am -- "en !"
+		À lui la gloire et la pui -- ssan -- ce pour les siè -- cles des siè -- cles. Am -- "en !"
 		\markup { \citation #"Ap 1"}
 	}
 }
