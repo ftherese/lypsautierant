@@ -2,7 +2,7 @@
 \include "definitions.ly"
 
 
-%\markup { psaume 64}
+\markup { psaume 64}
 
 
 
@@ -57,8 +57,8 @@
 		
 		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		r8_\( g a\)
-		c4\( \cesure \pespace c8\)
-		c8[ \cesure c16 d]
+		c4\(\pespace \cesure \pespace c8\)
+		c8[ \cesure \pespace c16 d]
 		c[ c b a]
 		c8[\( c\)]
 		\espall r8. c16

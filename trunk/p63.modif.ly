@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 63}
+\markup { psaume 63}
 
 
 \relative f' { 
@@ -76,7 +76,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		a8[ bes]
 		a[ g]
-		\times 2/3 { a4\( \cesure \pespace a8\) }
+		\times 2/3 { a4\( \pespace\cesure \pespace a8\) }
 		a[ a]
 		\times 2/3 { g g f }
 		d4
@@ -100,7 +100,7 @@
 		a4 \cesure \pespace
 		a16[ a a a]
 		\times 2/3 { a8 a a }
-		a16[ \cesure a g g]
+		a16[ \cesure\pespace a g g]
 		f4\( d8\)
 		\cesureall \pespace
 		\times 2/3 { f g a }

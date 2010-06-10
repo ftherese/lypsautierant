@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {Psaume 54 - attention: on l'a passé en 6°mode! }
+\markup {Psaume 54 - attention: on l'a passé en 6°mode! }
 
 
 

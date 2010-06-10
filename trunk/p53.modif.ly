@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { psaume 53 }
+\markup { psaume 53 }
 
 \relative f' { 
 	\new Staff {
@@ -32,7 +32,7 @@
 		\times 2/5 { c16 d c c f }
 		f8[ f]
 		f[ e] f[ g]
-		\times 2/3 { f4\( \cesure f8\) }
+		\times 2/3 { f4\( \pespace\cesure\pespace f8\) }
 		f[ f]
 		\times 2/3 { e c d }
 		d4

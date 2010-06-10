@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {Psaume 82}
+\markup {Psaume 82}
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
@@ -16,7 +16,7 @@
 
 	\addlyrics {
 		
-		Que tou -- te lan -- gue pro -- cla -- "me :" Jé -- sus- -- Christ est Sei -- gneur.
+		Que tou -- te lan -- gue pro -- cla -- "me :" Jé -- sus Christ est Sei -- gneur.
 		\markup { \citation #"Ph 2" } }
 	
 	
@@ -26,7 +26,7 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Car. } }
-		r8 g16[ a] c[ c d c] b8[ a] c4 \cesure c8[ c] \times 2/3 { c a c } c[ b] a4
+		r8 g16[ a] c[ c d c] b8[ a] c4 \cesure \pespace c8[ c] \times 2/3 { c a c } c[ b] a4
 
 
 		
@@ -36,7 +36,7 @@
 
 	\addlyrics {
 		
-		Jé -- sus- -- Christ est au des -- sus de tout, Dieu bé -- ni é -- ter -- nel -- le -- "ment !"
+		Jé -- sus Christ est au des -- sus de tout, Dieu bé -- ni é -- ter -- nel -- le -- "ment !"
 		\markup { \citation #"Rm 9" } }
 	
 	
@@ -46,7 +46,7 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-align { Av. } }
-		c8[\( c\)] \cesure c8[ a] c[\( c\)] \stemDown  b4\( a8\) r8
+		c8[\( c\)] \cesure \pespace c8[ a] c[\( c\)] \stemDown  b4\( a8\) r8
 		\endBar
 	}
 

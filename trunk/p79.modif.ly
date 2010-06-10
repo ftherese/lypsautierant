@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup { Psaume 79}
+\markup { Psaume 79}
 
 \relative c'' { 
 	\new Staff {

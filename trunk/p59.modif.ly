@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 59}
+\markup { psaume 59}
 
 
 
@@ -32,7 +32,7 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Av. } }
-		f8  g16[ a g bes] a4 \cesure
+		f8  g16[ a g bes] a4 \cesure\pespace
 		\times 2/5 {a16[ a a a]}
 		a16[ a a a]
 		g8[ g]
@@ -55,7 +55,7 @@
 		\times 2/3 { a4\( g8\)}
 		\times 2/3 { bes[ a g]}
 		a4
-		\cesure
+		\cesure\pespace
 		a16[ a a a]
 		\times 2/3 { g8 g f}
 		d4
@@ -101,7 +101,7 @@
 		r8. a16
 		a[ a a a]
 		\times 2/3 { a8 g g}
-		f4\( d8\) \cesure
+		f4\( d8\) \cesure\pespace
 		\times 2/3 { f8 g a}
 		g4
 		\endBar

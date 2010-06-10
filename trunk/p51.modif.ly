@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 51}
+\markup { psaume 51}
 
 \relative c'' { 
 	\new Staff {
@@ -25,11 +25,11 @@
 		\times 2/3 { c[ b c]}
 		d[ c]
 		c4
-		\cesure
+		\cesure\pespace
 		c16[ c c c]
 		b[ c a g]
-		g4
-		\barre
+		g4 \pespace
+		\barre\pespace
 		\times 2/3 {r8_\(g[ a]\)} c[\( d\)] c4
 		\endBar
 	}	\addlyrics {
@@ -84,7 +84,7 @@
 		c[\( b\)]
 		c[ d]
 		c4
-		\pespace
+		\pespace\pespace
 		\times 2/3 { r8\( c c\) }
 		c[ c]
 		\slurDashed

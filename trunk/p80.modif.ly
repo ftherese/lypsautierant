@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {Psaume 80 }
+\markup {Psaume 80 }
 
 
 \relative a' { 
@@ -45,7 +45,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align {Av.} }
 		
-		g8[ c] b[ c] d[\( d\) f] e4 \times 2/3 { r8\( d[ e\)] } e4 \cesure \pespace  d8[ d] \times 2/3 {e[ d d] } \times 2/3 { c[ c  b] } a4
+		g8[ c] b[ c] d[\( d\) f] e4 \pespace \times 2/3 { r8\( d[ e\)] } e4 \cesure \pespace  d8[ d] \times 2/3 {e[ d d] } \times 2/3 { c[ c  b] } a4
 
 		
 		
@@ -63,7 +63,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align {Car. } }
 		
-		r8 g \times 2/3 { c[ b  c] } d[\( d\)] d[ f] 
+		 g8 \times 2/3 { c[ b  c] } d[\( d\)] d[ f] 
 \times 2/3 {e[\( d\) e] } e4 \cesure \pespace
 \times 2/3 {e8[ d c]} \stemUp b4\( a8\) r8
 
@@ -83,7 +83,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		
-		r8 g \times 2/3 { c[ b  c] } d4 \times 2/3 {d8[ d f]} e[ d] e4 \cesureall \times 2/3 {e8[ d c]} 
+		 g8 \times 2/3 { c[ b  c] } d4 \times 2/3 {d8[ d f]} e[ d] e4 \cesureall \pespace\times 2/3 {e8[ d c]} 
 		\stemUp
 		b4\( a8\) r
 		\stemNeutral

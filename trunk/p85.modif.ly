@@ -37,7 +37,7 @@
 	}
 
 	\addlyrics {
-		Grâce à la ré -- sur -- rec -- tion de Jé -- sus- -- Christ, Dieu nous a fait re -- naî -- tre. " Al" -- le -- lu -- "ia !"
+		Grâce à la ré -- sur -- rec -- tion de Jé -- sus Christ, Dieu nous a fait re -- naî -- tre. " (Al" -- le -- lu -- "ia !)"
 		\markup { \citation #"1 P 1" } 
 	}
 }
@@ -65,7 +65,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { Noël } }
-		a8  \times 2/3 { g8[ a b] }  a8.[\cesure a16]
+		a8  \times 2/3 { g8[ a b] }  a8.[\pespace\cesure\pespace a16]
 		\times 2/5 {a16[\( a\) a b g]}
 		\times 2/3 { e4\( e8\) } \cesure \pespace \times 2/3 {g8[ a b]} a4
 		\endBar

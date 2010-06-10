@@ -2,7 +2,7 @@
 \include "definitions.ly"
 
 
-%\markup { psaume 71}
+\markup { psaume 71}
 
 
 \relative c'' { 

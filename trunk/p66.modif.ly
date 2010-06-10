@@ -2,7 +2,7 @@
 \include "definitions.ly"
 
 
-%\markup { psaume 66}
+\markup { psaume 66}
 
 \relative a' { 
 	\new Staff {
@@ -51,7 +51,7 @@
 		 f8[ a c] \slurDashed c4(
 		\times 2/5 {c16)[\( c\) c c]}
 		c8[ c]  \times 2/3 { c[ d d] }
-		c[\( c\)]\cesure  \times 2/3 { c[ c d] }
+		c[\( c\)]\cesure \pespace \times 2/3 { c[ c d] }
 		\times 2/3 { b[\( b\) c] }
 		a4\( a8\) r8
 		
@@ -67,7 +67,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
-		f16[ a c d]  c8[\( c16\)\cesure c]
+		f16[ a c d]  c8[\( c16\)\cesure\pespace c]
 		c16[ c c c] c4
 		\times 2/3 { c8[ c c] } c[ d]
 		\times 2/3 { b[ b c] }

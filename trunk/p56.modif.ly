@@ -2,7 +2,7 @@
 \include "definitions.ly"
 
 
-%\markup { psaume 56}
+\markup { psaume 56}
 \relative a' { 
 	\new Staff {
 		\cadenzaOn	\key f \major
@@ -57,7 +57,7 @@ r8  a16[ a]  a16[\( a\) a a]
 		\endBar
 	}
 	\addlyrics {
-		 L'Es -- prit- -- Saint vien -- dra sur toi, la puis -- san -- ce du Très- -- Haut te pren -- dra sous son om -- bre.
+		 L'Es -- prit Saint vien -- dra sur toi, la puis -- san -- ce du Très- -- Haut te pren -- dra sous son om -- bre.
 		\markup { \citation #"Lc 1" }
 	}
 }
@@ -70,7 +70,7 @@ r8  a16[ a]  a16[\( a\) a a]
 		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		f16[\( g\) a a]
 		\times 2/3 { bes8 a g }
-		\times 2/3 { a4\( \cesure  a8\) }
+		\times 2/3 { a4\(\cesure\pespace  a8\) }
 		a16[\( a\) a a]
 		\times 2/5 {a16[a a a a]}
 		a16[ g a f]

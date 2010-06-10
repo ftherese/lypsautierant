@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { psaume 52}
+\markup { psaume 52}
 
 
 
@@ -80,14 +80,14 @@
 		\times 2/3 { r_\( a g\) }
 		\times 2/3 { g[\( f\) e] }
 		d4
-		\barre
+		\cesure \pespace
 		\times 2/3 { f8 g a }
 		g[\( f]
 		g4\)
 		\endBar
 	}
 	\addlyrics {
-		C'est bien par grâ -- ce que vous ê -- tes sau -- vés. "(Al" -- le -- lu -- "ia !)" _ _
+		C'est bien par grâ -- ce que vous ê -- tes sau -- vés. "Al" -- le -- lu -- "ia !" _ _
 		\markup { \citation #"Ep 2" }
 	}
 }
@@ -97,9 +97,9 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
-		\times 2/3 { r8_\( f g\) }
+		\times 2/3 { r8_\( f[ g]\) }
 		\times 2/3 { a4\( g8\) }
-		\times 2/3 { bes a g }
+		\times 2/3 { bes[ a g] }
 		a4
 		\cesure \pespace
 		a16[ a a a]

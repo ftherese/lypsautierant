@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {Psaume 81}
+\markup {Psaume 81}
 
 
 \relative a' { 
@@ -57,7 +57,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Av. Noël } }
 		
 		\times 2/3 { g8[ a g] }
-		c4 \cesure
+		c4 \cesure\pespace
 		c8[ b] c8[ d]
 		c4
 		\times 2/3 { b8 c a }
@@ -67,7 +67,7 @@
 	}
 
 	\addlyrics {
-		Il se -- ra grand, on l'ap -- pe -- le -- ra Fils du Très- -- Haut.
+		Il se -- ra grand, on l'ap -- pe -- lle -- ra Fils du Très- -- Haut.
  		\markup { \citation #"Lc 1" } }
 	
 	      
@@ -98,7 +98,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		r8 g
-		a[ \cesurebasse g]
+		a[ \cesurebasse\pespace g]
 		g4
 		\pespace
 		\times 2/3 { r8\( c c\) }

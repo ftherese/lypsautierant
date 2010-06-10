@@ -58,9 +58,7 @@
 		
 		\set Staff.instrumentName = \markup{ \center-align { Av. } }
 		\times 2/3 { g8\( a\) c }
-		c4
-		\cesure
-		\times 2/3 { c4\( d8\) }
+		c8[\cesure\pespace c16\( d]\)
 		c16[ c b a]
 		c8[\( c\)]
 		\cesure \pespace 
@@ -130,7 +128,7 @@
 
 	\addlyrics {
 		
-		Nous a -- vons un a -- vo -- cat au -- près du Pè -- "re :" Jé -- sus- -- Christ le jus -- te. "Al" -- le -- lu -- "ia !" _ _
+		Nous a -- vons un a -- vo -- cat au -- près du Pè -- "re :" Jé -- sus Christ le jus -- te. "Al" -- le -- lu -- "ia !" _ _
 		\markup { \citation #"1 Jn 2" } }
 	
 	

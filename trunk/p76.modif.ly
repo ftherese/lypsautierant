@@ -2,7 +2,7 @@
 \include "definitions.ly"
 
 
-%\markup { psaume 76}
+\markup { psaume 76}
 
 
 
@@ -27,7 +27,7 @@
 
 	\addlyrics {
 		
-		Hom -- me de peu de foi, pour -- quoi as- tu dou -- "té ?"
+		Hom -- me de peu de foi, pour -- quoi as- -- tu dou -- "té ?"
 		\markup { \citation #"Mt 14" } }
 	
 	
@@ -38,7 +38,7 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Av.  } }
-		g8 a[ c]  d8.[\cesure  \pespace c16]
+		g8 a[ c]  d8.[\pespace\cesure  \pespace c16]
 		c16[\( c\) c c]
 		a8[ c]
 		\stemUp b4\( a8\) r8
@@ -115,7 +115,7 @@
 	}
 
 	\addlyrics {
-		Jé -- sus- -- Christ est le mê -- me, hi -- er, au -- jour -- d'hui et à ja -- mais. Al -- le -- lu -- "ia !" _ _
+		Jé -- sus Christ est le mê -- me, hi -- er, au -- jour -- d'hui et à ja -- mais. Al -- le -- lu -- "ia !" _ _
 		\markup { \citation #"He 13" } }
 }
 

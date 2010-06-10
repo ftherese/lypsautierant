@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
  \include "definitions.ly"
-%\markup {Psaume 83}
+\markup {Psaume 83}
 
 \relative a' { 
 	\new Staff {
@@ -68,7 +68,7 @@
 	}
 
 	\addlyrics {
-		El -- le ne s'é -- loig -- nait pas du tem -- ple, ser -- vant Dieu jour et nuit dans la pri -- èr -- e.
+		El -- le ne s'é -- loig -- nait pas du Tem -- ple, ser -- vant Dieu jour et nuit dans la pri -- èr -- e.
  		\markup { \citation #"Lc 2" } }
 	
 }
