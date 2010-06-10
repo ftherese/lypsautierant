@@ -32,7 +32,7 @@
 		f8
 		g16[\( a\) g bes] a4
 		a16[ a a a]
-		a16[\cesurebasse \pespace  g g f] d4 \pespace\barre\pespace 
+		a16[ g g f] d4 \pespace\barre\pespace 
 		\times 2/3 {f8[ g a]} bes[\( g] a4\) 
 		\endBar
 	}

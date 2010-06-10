@@ -33,7 +33,7 @@ En Dieu sont ca -- chés tous les tré -- sors de la sa -- ges -- se et de la co
 		f4\( d8\) r8
 		\endBar
 	}	\addlyrics {
-		Vous êt -- es re -- tour -- nés vers le Pas -- teur de vos âm -- es.		
+		Vous êt -- es re -- tour -- nés vers le pas -- teur de vos âm -- es.		
 		\markup { \citation #"1 P 2"}
 	}
 }

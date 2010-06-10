@@ -69,7 +69,7 @@
 		c[ b]
 		a4
 		
-\espall
+\pespace \barre \pespace
 		\times 2/3 { r
 8\( c d\) }
 		e[\( d\)]

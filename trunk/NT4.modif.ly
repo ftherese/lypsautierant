@@ -99,13 +99,13 @@
 		g8[ a] 
 		\times 2/3 { f8[ f  g] }
 		a8[\cesure \pespace c16 c]
-		d16[ b b c] a4  \cesure \pespace
+		d16[ b b c] a4 \pespace \barre \pespace
 		\times 2/3 { c8[ a g] } a4
 		
 		\endBar
 	}
 	\addlyrics {
-		Pè -- re, ceux que tu m'as don -- nés, je veux que là où je suis, eux aus -- si soient av -- ec moi. Al -- le -- lu -- "ia !"
+		Pè -- re, ceux que tu m'as don -- nés, je veux que là où je suis, eux aus -- si soient av -- ec moi. "(Al" -- le -- lu -- "ia !)"
 		\markup { \citation #"Jn 17"}
  }
 }

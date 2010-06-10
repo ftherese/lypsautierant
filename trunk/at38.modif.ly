@@ -12,15 +12,15 @@
 a[\( a\)]
 \times 2/3 { bes[ a g] }
 a4 
-\cesure \pespace
+\cesure 
 a16[ a a a]
 a[ a a a]
 g8[\( a\) f]
 f4
 		\endBar
 	}	\addlyrics {
-A moins de naî -- tre d'eau et d'Es -- prit, nul ne peut en -- trer dans le Roy -- au -- me de Dieu.		
-%\markup { \citation #"Jn 3"}
+À moins de naî -- tre d'eau et d'Es -- prit, nul ne peut en -- trer dans le Roy -- au -- me de Dieu.		
+\markup { \citation #"Jn 3"}
 	}
 }
 

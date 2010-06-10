@@ -36,11 +36,11 @@
 		r8 a
 		c[ c]
 		\stemDown
-		b4\( a8\) \cesure\espace
+		b4\( a8\) \pespace \cesure\espace
 		\times 2/3 {c8[ d e]} d4 
 		\endBar
 	}	\addlyrics {
-		Qui in -- vo -- que le nom du Seig -- neur se -- ra sau -- "vé !" _ "Al" -- le -- lu -- "ia !"
+		Qui in -- vo -- que le nom du Seig -- neur se -- ra sau -- vé -- " !" "Al" -- le -- lu -- "ia !"
 		\markup { \citation #"Rm 10"}
 	}
 }
