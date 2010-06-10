@@ -90,7 +90,7 @@
 		\times 2/3 { b c a }
 		\times 2/3 { g4\( g8\) }
 		
-\espall
+\espall\barre
 		\times 2/3 { r
 8\( a c\) }
 		d[\( c\)]
@@ -99,6 +99,6 @@
 	}
 
 	\addlyrics {
-		Vous ê -- tes lu -- miè -- re dans le Seig -- neur, vi -- vez en en -- fants de lu -- miè -- re. Al -- le -- lu -- - -- "ia !"
+		Vous ê -- tes lu -- miè -- re dans le Seig -- neur, vi -- vez en en -- fants de lu -- miè -- re. "(Al" -- le -- lu -- - -- "ia !)"
  		\markup { \citation #"Ep 5" } }
 }

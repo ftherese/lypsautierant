@@ -8,6 +8,24 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
+		e8[ g] a4 \pespace
+		\times 2/3 { r8_\( a[ g]\) }
+		\times 2/3 { a8[\( a\)\cesurebasse \pespace g] }
+		\times 2/3 { a8[ b g] }
+		e4
+		\endBar
+	}
+
+	\addlyrics {
+		Jé -- sus "dit :" Aie con -- fian -- ce, ta foi t'a sau -- "vée !"
+		\markup { \citation #"Mt 9" } 
+	}
+}
+
+\relative a' { 
+	\new Staff {
+		\cadenzaOn
+		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		a8
 		a[ a]
 		g[ b]
@@ -23,24 +41,6 @@
 		\markup { \citation #"Jn 3" } 
 	}
 }
-\relative a' { 
-	\new Staff {
-		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
-		e8[ g] a4 \pespace
-		\times 2/3 { r8_\( a[ g]\) }
-		\times 2/3 { a8[\( a\)\cesurebasse \pespace g] }
-		\times 2/3 { a8[ b g] }
-		e4
-		\endBar
-	}
-
-	\addlyrics {
-		Jé -- sus "dit :" Aie con -- fian -- ce, ta foi t'a sau -- "vée !"
-		\markup { \citation #"Mt 9" } 
-	}
-}
-
 
 \relative a' { 
 	\new Staff {
@@ -89,7 +89,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		\times 2/3 { a8 a a }
-		a16[ \cesurebasse \pespace a a g]
+		a16[ \cesurebasse\pespace  a a g]
 		g4
 		
 		r8 a16[ a]
@@ -97,9 +97,9 @@
 		\times 2/3 { g8 a b }
 		\times 2/3 { a[ a b] }
 		g[ e]
-		e4
+		e4\espall
+		\barre
 		
-		\espall 
 		\times 2/3 { r
 		8_\( g a\) }
 		b[\( a]\)
@@ -108,7 +108,7 @@
 	}
 
 	\addlyrics {
-		En vé -- ri -- té, je te le "dis :" au -- jour -- d'hui, tu se -- ras a -- vec moi dans le Pa -- ra -- dis. Al -- le -- lu -- - -- "ia !"
+		En vé -- ri -- té, je te le "dis :" au -- jour -- d'hui, tu se -- ras a -- vec moi dans le Pa -- ra -- dis. "(Al" -- le -- lu -- - -- "ia !)"
 		\markup { \citation #"Lc 23" } 
 	}
 }
