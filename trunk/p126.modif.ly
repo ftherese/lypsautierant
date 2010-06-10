@@ -70,14 +70,14 @@
 		\espace
 		r8 d
 		c[ b]
-		a4
-		\cesureall \pespace
+		a4 \pespace
+		\barre \pespace
 		\times 2/3 { c8 d e }
 		f[\( d]
 		e4\)
 		\endBar
 	}	\addlyrics {
-		Le tem -- ple dont il par -- lait, c'é -- tait son  corps. Al -- le -- lu -- "ia !" _ _
+		Le tem -- ple dont il par -- lait, c'é -- tait son  corps. "(Al" -- le -- lu -- "ia !)" _ _
 		\markup { \citation #"Jn 2"}
 	}
 }
