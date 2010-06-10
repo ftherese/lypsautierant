@@ -2,7 +2,7 @@
 \include "definitions.ly"
 
 
-%\markup { psaume 58}
+\markup { psaume 58}
 
 
 
@@ -36,7 +36,7 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Car. } }
-		g8 a[\( c\)] \cesure  \times 2/3 { c d c } \times 2/3 { c[\( b\) a] } c[\( c\)] r c a[ c] c[ b] a4
+		g8 a[\( c\)] \cesure\pespace  \times 2/3 { c d c } \times 2/3 { c[\( b\) a] } c[\( c\)] r c a[ c] c[ b] a4
 
 		
 		
@@ -80,7 +80,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		\times 2/3 { r8_\( g[ a]\) }
 		\times 2/3 { c4\(\cesure d8\) }  
-		\times 2/3 { c[ b a] }  c[\( c\)] \cesure
+		\times 2/3 { c[ b a] }  c[\( c\)] \cesure\pespace
 		c16[ c c c]
 		a16[ c c b] a4 \cesure
 		\times 2/3 {g8[ a c]} d4

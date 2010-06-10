@@ -73,7 +73,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		\times 2/3 { c8[\( d\) c] }
-		f4 \cesure \pespace 
+		f4 \pespace\cesure \pespace 
 		f8[ e]
 		c8[ d]
 		d4
@@ -81,7 +81,7 @@
 	}
 
 	\addlyrics {
-		Gloi -- - -- "re à" Dieu au plus haut des cieux.
+		Gloi -- - -- "re à D" -- ieu au plus haut des cieux.
 		\markup { \citation #"Lc 2" } 
 	}
 }

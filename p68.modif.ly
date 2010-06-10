@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 68}
+\markup { psaume 68}
 
 \relative a' { 
 	\new Staff {
@@ -9,8 +9,8 @@
 		\set Staff.instrumentName = \markup{ \center-align {T.O.} }
 
 		\times 2/3 { r8_\( g[ c\)] } \times 2/3 { b[ c  d] } 
-		\ifIndent
-		\times 2/3 { f[ e  d] } \times 2/3 { e4\(  \cesure d8\) } d16[ e d d] c8[ c]
+		
+		\times 2/3 { f[ e  d] } \times 2/3 { e4\(\pespace  \cesure \pespace d8\) } d16[ e d d] c8[ c]
 		\stemDown
 		\times 2/3 { b4\( a8\) } r
 

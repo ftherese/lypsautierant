@@ -10,7 +10,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		\times 2/3 { f8[ a c] }
 		c8[ d]  c8[\( c\)]
-		\cesure \times 2/3 { c8[ c c] }
+		\cesure\pespace \times 2/3 { c8[ c c] }
 		d16[\( b\) b c]
 		a4\( a8\) r8
 		\endBar
@@ -25,9 +25,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Av. } }
 		f8
-		\times 2/3 { a8[ c c] } c8[\( c\)] \cesure
-		c16[ c c d] c8[\( c\)] \cesure
-		d8.[ b16]
+		\times 2/3 { a8[ c c] } c8[\( c\)] \cesure\pespace
+		c16[ c c d] c8[\( c\)] \cesure\pespace
+		d8.[\pespace b16]
 		c8[ a] a4
 		\endBar
 	}	
@@ -43,7 +43,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		r8 f16[ a]
 		c16[ c d c]
-		c4 
+		c4 \pespace
 		\times 2/3 {r8\(d[ b]\)} c[\( a\)] a4
 		
 		
@@ -78,7 +78,7 @@
 		f16[ a c c]
 		c16[ c c c]
 		\times 2/3 { c8[ d d] }
-		c8[\( c\)]
+		c8[\( c\)]\pespace
 		\times 2/3 {r8\(d[ b]\)} c[\( a\)] a4
 		\endBar
 	}	

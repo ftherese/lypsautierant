@@ -10,7 +10,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		\times 2/3 { r8_\( a g\) }
 		\times 2/3 { a g b }
-		\times 2/3 { a[\( a\) \cesure a] }
+		\times 2/3 { a[\( a\) \cesure \pespace a] }
 		a[ a]
 		\times 2/3 { a b g }
 		e4

@@ -101,7 +101,7 @@
 	}
 
 	\addlyrics {
-		Le Sei -- gneur m'a con -- sa -- cré par l'on -- tion. Al -- le -- lu -- "ia !" _
+		Le Sei -- gneur m'a con -- sa -- cré par l'onc -- tion. Al -- le -- lu -- "ia !" _
  		\markup { \citation #"Lc 4" } }
 	
 	
@@ -115,7 +115,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.O.} }
 		
-		r8 g a[ g] c[ d] \times 2/3 { c4\( \cesure  c8\) } c16[ c c b] \times 2/3 { c8[ a  g] } g4
+		g8 a[ g] c[ d] \times 2/3 { c4\( \cesure  c8\) } c16[ c c b] \times 2/3 { c8[ a  g] } g4
 
 		
 		
@@ -152,7 +152,7 @@
 		\set Staff.instrumentName = \markup{ \center-align {Noël} }
 		\times 2/3 { g8[ a g] } \times 2/3 { g8[\( c\) c] }
 		\times 2/3 { b8[ c d] }  c8[\( c\)]
-		\times 2/3 { r8\( c[ c]\) }
+		\pespace\times 2/3 { r8\( c[ c]\) }
 		c8[ c]
 		c16[\( b\) c a]
 		g4\( g8\) r8
@@ -190,7 +190,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align {T.P.} }
 		r16 g[ a g]  c16[ c c c]
-		\times 2/3 { b8[ c d] } c4
+		\times 2/3 { b8[ c d] } c4\pespace
 		\times 2/3 {r8\(b[ c]\)} a[\( g\)] g4
 		
 		\endBar

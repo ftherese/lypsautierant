@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 55}
+\markup { psaume 55}
 
 \relative c'' { 
 	\new Staff {
@@ -28,7 +28,7 @@
 		
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Car.} }
 		c16[ c b a] c4 
-		\pespace
+		\pespace\pespace
 		\times 2/3 { r8\( c[  c\)] } a16[ c c b] a4 
 
 		
@@ -69,7 +69,7 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-align { Noël T.P. } }
-		\times 2/3 {g8[ a c]} c[ c16\( c\)] d[\( c\) b a] c4 \cesure \times 2/3 { a8[c c] } 
+		\times 2/3 {g8[ a c]} c[ c16\( c\)] d[\( c\) b a] c4 \cesure \pespace\times 2/3 { a8[c c] } 
 		\stemUp
 		b4\( a8\) r8
 		\stemNeutral

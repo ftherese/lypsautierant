@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 57}
+\markup { psaume 57}
 
 
 \relative a' { 
@@ -76,7 +76,7 @@
 		a8
 		g[ a]
 		a16[ a g b]
-		a8[ \cesure a16 a]
+		a8[ \cesure \pespace a16 a]
 		a8[ a]
 		b16[ a g g]
 		f4\( e8\)

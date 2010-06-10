@@ -2,7 +2,7 @@
 \include "definitions.ly"
 
 
-%\markup { psaume 72}
+\markup { psaume 72}
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
@@ -27,7 +27,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		
-		r16 f[ g a] a8[ a] g[ bes] a[\( a\)] \cesure a16[ a a a] g[\( g\) f e] d4
+		r16 f[ g a] a8[ a] g[ bes] a[\( a\)] \cesure \pespace a16[ a a a] g[\( g\) f e] d4
 
 		
 		
@@ -67,7 +67,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		
-		a8[ a] g[ bes] \times 2/3 { a4\(  \cesure \pespace a8\) } \times 2/3 { a[ a  a] } \times 2/3 { a[ g  g] } f[\( e\)] d4 
+		a8[ a] g[ bes] \times 2/3 { a4\(\pespace  \cesure \pespace a8\) } \times 2/3 { a[ a  a] } \times 2/3 { a[ g  g] } f[\( e\)] d4 
 
 		
 		
@@ -86,7 +86,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		
-		f8[\( g\)] \cesure a16[ a a a] g8[ bes] a[\( g\)] a4 \times 2/3 { r8_\( g[ g\)] } f[ e] d4 
+		f8[\( g\)] \cesure \pespace a16[ a a a] g8[ bes] a[\( g\)] a4 \pespace\times 2/3 { r8_\( g[ g\)] } f[ e] d4 
 		
 \espall
 		\times 2/3 { r

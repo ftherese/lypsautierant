@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 78}
+\markup { psaume 78}
 
 
 \relative f' { 
@@ -32,7 +32,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Av. } }
 		
-		\times 2/3 {c8[ d c]} f[ e] \times 2/3 {f[ g f] } f4 \times 2/3 { r8_\( f[ f\)] } \times 2/3 {e[\( c\) d] } d4
+		\times 2/3 {c8[ d c]} f[ e] \times 2/3 {f[ g f] } f4\pespace \times 2/3 { r8_\( f[ f\)] } \times 2/3 {e[\( c\) d] } d4
 
 		
 		

@@ -66,10 +66,10 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 
-		r8 g
+		g8
 		\times 2/3 { a[ g c] }
 		c4
-		\pespace 
+		\pespace \pespace
 		r8 c
 		c[ c]
 		c[\( c\)] \pespace 
@@ -81,7 +81,7 @@
 	}
 
 	\addlyrics {
-		Dieu dit à A -- "dam :" tu es pous -- siè -- re et tu re -- tour -- ne -- ras à la pous -- siè -- - -- re.
+		Dieu dit à A -- "dam :" Tu es pous -- siè -- re et tu re -- tour -- ne -- ras à la pous -- siè -- - -- re.
  		\markup { \citation #"Gn 3" } }
 	
 	

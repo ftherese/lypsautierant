@@ -9,7 +9,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		
-		\times 2/3 { r8_\( f[  g\)] } \times 2/3 { a[ a  g] } \times 2/3 { bes[ a  g] } a8.[
+		\times 2/3 { r8_\( f[  g\)] } \times 2/3 { a[ a  g] } \times 2/3 { bes[ a  g] } a8.[\pespace
 		\cesure \pespace  a16] a[ a g g] f8[ e] d4 
 
 		
@@ -30,7 +30,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. Car. } }
 		
 		r8 a16[ a] g[\( bes\) a g] \times 2/3 { a8[
-		\cesure a a] } \times 2/3 { a4\(  a8\) } \times 2/3 { g[ g  f] } e4\( d8\) r
+		\cesure\pespace a a] } \times 2/3 { a4\(  a8\) } \times 2/3 { g[ g  f] } e4\( d8\) r
 
 		
 		
@@ -77,7 +77,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		
 		a16 a[\( a\) g bes] a8[\( a\)] a16[ a a a] g[ g f e] d4 
-		\cesureall \pespace  \times 2/3 {f8[ g a]} g4 
+		\barre \pespace  \times 2/3 {f8[ g a]} g4 
 
 		
 		
@@ -85,7 +85,7 @@
 	}
 
 	\addlyrics {
-		La gloi -- re de mon Pè -- re, c'est que vous don -- niez beau -- coup de fruit. Al -- le -- lu -- "ia !"
+		La gloi -- re de mon Pè -- re, c'est que vous don -- niez beau -- coup de fruit. "(Al" -- le -- lu -- "ia !)"
  		\markup { \citation #"Jn 15" } }
 	
 	

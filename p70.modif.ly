@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 70}
+\markup { psaume 70}
 
 
 
@@ -51,7 +51,7 @@
 		a[ \cesure \pespace a]
 		bes4 \cesure \pespace		
 		\times 2/3 { a8 g a }
-		\times 2/3 { a[ \cesure a g] }
+		\times 2/3 { a[ \cesure\pespace a g] }
 		a[ f]
 		f4
 		\endBar

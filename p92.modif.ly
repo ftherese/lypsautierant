@@ -6,8 +6,8 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
-		f8 a8[ c] c8[ d] c4\( c8\) r8
-		c4 c8[ c] c8[\( c\)]
+		f8 a8[ c] c8[ d] c4\( c8\)\pespace r8
+		c8 c8[ c] c8[\( c\)]
 		\times 2/3 { d8[\( b\) b] }  c8[\( a\)] a4
 		\endBar
 	}
@@ -57,7 +57,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
-		c8[\( c\)] \cesure
+		c8[\( c\)] \cesure\pespace
 		c16[ c c c]
 		c8[ d]  c8[\( c\)] \pespace 
 		r8 c16[ d]
@@ -74,8 +74,8 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
-		f16  a16[\( c\) c c]
-		\times 2/3 { c8[\cesure c\( c]\) }
+		f16  a16[\( c\)\cesure c c]
+		\times 2/3 { c8[\cesure\pespace c\( c]\) }
 		\times 2/3 { c8[ d d] } c4 \pespace 
 		\times 2/3 {r8\(d[ b]\)} c[\( a\)] a4
 		

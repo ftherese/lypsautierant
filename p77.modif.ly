@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-%\markup { Psaume 77a}
+\markup { Psaume 77a}
 
 
 
@@ -70,7 +70,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		
-		\times 2/3 { r8_\( f[ g\)] } \times 2/3 { a[\( a\) \cesure a] } g16[\( g\) bes a] \times 2/3 { a8[ g  a] } a4 
+		\times 2/3 { r8_\( f[ g\)] } \times 2/3 { a[\( a\) \cesure a] } g8[ bes a] \times 2/3 { a8[ g  a] } a4 
 		\cesure \times 2/3 {a8[ a a]} a[ g] g[ f] d4 
 		
 \espall
@@ -83,7 +83,7 @@
 	}
 
 	\addlyrics {
-		En Mo -- ï -- se, nos pè -- res ont é -- té bap -- ti -- sés, dans la nu -- ée et dans la mer. Al -- le -- lu -- - -- "ia !"
+		En Mo -- ï -- se, nos pères ont é -- té bap -- ti -- sés, dans la nu -- ée et dans la mer. Al -- le -- lu -- - -- "ia !"
  		\markup { \citation #"1 Co 10" } }
 	
 	
@@ -139,7 +139,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		
-		r8 a g[ bes] a4
+		a8 g[ bes] a4
 		\cesure  \pespace a8[ a] \times 2/3 {a[ a a] } \times 2/3 { a[ a  g] } a[ f] f4 
 
 		

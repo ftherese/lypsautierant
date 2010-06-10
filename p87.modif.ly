@@ -72,8 +72,8 @@
 		\set Staff.instrumentName = \markup{ \center-align { Noël } }
 		\times 2/3 { r8_\( f[ g]\) }
 		\times 2/3 { a8[\( a\) bes] }
-		a8[\cesure a16 a]
-		\slurDashed a4(  \times 2/3 { a8[) a a] }
+		a8[\cesure\pespace a16 a]
+		\slurDashed a4(  \times 2/3 { a8[)\( a\) a] }
 		g8[ a] f4\( f8\) r8
 
 		
@@ -81,7 +81,7 @@
 	}
 
 	\addlyrics {
-		Les té -- nè -- bres s'en vont et dé -- "jà br" -- i -- lle la vraie lu -- miè -- re.
+		Les té -- nè -- bres s'en vont et déj -- "à b" -- ri -- lle la vraie lu -- miè -- re.
  		\markup { \citation #"1 Jn 2" } }
 	
 	
@@ -92,7 +92,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { Car. } }
 		f8 g8[ a]
-		 \times 2/3 { a4\(\cesure \pespace a8\) }
+		 \times 2/3 { a4\(\pespace\cesure \pespace a8\) }
 		\times 2/3 { a8[ a bes] } \times 2/3 { a8[\( a\) g] }
 		a8[\( a\)]   \times 2/3 { a8[ a a] }
 		g8[ a]  f4\( f8\) r8

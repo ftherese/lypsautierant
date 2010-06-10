@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 73}
+\markup { psaume 73}
 
 \relative a' { 
 	\new Staff {
@@ -47,7 +47,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align {Car.} }
 		
-		\times 2/3 {g8[ a c]} \times 2/3 { c[ d c] }  \times 2/3 { c4\( \cesure b8\) } c[ a] \times 2/3 { g4\( g8\) } r
+		\times 2/3 {g8[ a c]} \times 2/3 { c[ d c] }  \times 2/3 { c4\( \pespace\cesure\pespace b8\) } c[ a] \times 2/3 { g4\( g8\) } r
 		
 		
 		

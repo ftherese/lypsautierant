@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 75}
+\markup { psaume 75}
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
@@ -33,7 +33,7 @@
 		r8 c16[ c]
 		d16[\( b\) b c]
 		\times 2/3 { a4\( a8\) }
-		\barre
+		\barre\pespace
 		\times 2/3 { a8[ g a] }
 		c[\( d]
 		c4\)

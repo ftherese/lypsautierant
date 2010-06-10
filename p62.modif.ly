@@ -33,7 +33,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		\times 2/3 { r8_\( f[ g]\) }
 		a16[\( a\) a a]  g8[ bes]
-		\times 2/3 { a[\cesure a a] }  a[ a]
+		\times 2/3 { a[\cesure\pespace a a] }  a[ a]
 		\times 2/3 { a[\( a16\) a] }  \times 2/3 { g8[\( g\) f] } d4
 		\endBar
 	}
@@ -117,7 +117,7 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
-		\times 2/3 { f8[\( g\) \cesure a] }
+		\times 2/3 { f8[\( g\) \cesure\pespace a] }
 		\times 2/3 { a[ g\( bes\)] }
 		a4
 		\cesure \pespace

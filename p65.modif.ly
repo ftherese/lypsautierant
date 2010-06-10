@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 65}
+\markup { psaume 65}
 \relative d' { 
 	\new Staff {
 		\cadenzaOn

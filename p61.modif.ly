@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 61}
+\markup { psaume 61}
 
 
 
@@ -13,7 +13,7 @@
 		\times 2/3 { a[ g g] }
 		\times 2/3 { g c c }
 		\slurDashed
-		c4(
+		c4(\pespace
 		b8)[\( c\)]
 		\times 2/3 { d[\( c\) d] }
 		c4
@@ -26,7 +26,7 @@
 		g4
 		\endBar
 	}	\addlyrics {
-		Voi -- ci que je place en Si -- on u -- ne pier -- re choi -- "sie ;" qui se fie en el -- le ne se -- ra pas con -- fon -- du.
+		Voi -- ci que je place en Sio -- n u -- ne pier -- re choi -- "sie ;" qui se fie en el -- le ne se -- ra pas con -- fon -- du.
 		\markup { \citation #"1 P 2"}
 	}
 }
@@ -95,7 +95,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		\times 2/3 { r8_\( g a\) }
-		g[ \cesure c]
+		g[ \cesure \pespace c]
 		d[ c]
 		c4
 		\espall

@@ -47,7 +47,7 @@
 		f8
 		a[ c]
 		\times 2/3 { c d c }
-		\times 2/3 { c4\( \cesure  \pespace c8\) }
+		\times 2/3 { c4\( \pespace\cesure  \pespace c8\) }
 		c[\( c\)]
 		\times 2/3 { c d b }
 		\times 2/3 { b[ c a] }
@@ -83,9 +83,9 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		 f8
 		a[ c]
-		c[ \cesure c]
+		c[ \cesure \pespace c]
 		c4
-		\cesure
+		\cesure\pespace
 		c8[ c]
 		d[ d]
 		c4
@@ -94,7 +94,7 @@
 		c[ c c c]
 		d4
 		\times 2/3 { b8 b c }
-		a4\( a8\) \cesure
+		a4\( a8\) \cesure\pespace
 		\times 2/3 { c8 a g}
 		 a4
 		\endBar

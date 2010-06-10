@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 69}
+\markup { psaume 69}
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
@@ -72,7 +72,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.P. } }
 		\times 2/3 { f8[ g a] } a4 \pespace
 		\times 2/3 {r8_\(bes[ a]\)} g[\( a\)] 
-		\times 2/3 { a4\(\cesure \pespace  a8\) }
+		\times 2/3 { a4\(\pespace\cesure \pespace  a8\) }
 		\times 2/3 { a[ a a] } 
 		a[\( g\)]  g[\( f\)]  \cesure \pespace d4
 		\endBar

@@ -30,7 +30,7 @@
 		\set Staff.instrumentName = \markup{ \center-align { T.O. } }
 		\times 2/3 { r8_\( f,[ a]\) }
 		\times 2/3 { c8[ c c] } d8[ c]
-		\times 2/3 { c4\( \cesure \pespace c8\) }
+		\times 2/3 { c4\(\pespace \cesure \pespace c8\) }
 		d16[ b b c]  a4
 		
 		\endBar
@@ -48,7 +48,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-align { Av. Noël } }
 		
-		r8 f a[ c] c4 
+		f8 a[ c] c4 
 		\pespace
 		\times 2/3 { r8\( c[ c\)] } \times 2/3 { c4\(  d8\) } \times 2/3 { b[ b c] } a4
 

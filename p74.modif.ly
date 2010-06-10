@@ -1,7 +1,7 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
 
-%\markup { psaume 74}
+\markup { psaume 74}
 
 
 \relative a' { 
@@ -11,7 +11,7 @@
 		\times 2/3 { r8_\( g[ g\)] }
 		\times 2/3 { a\( a\) g }
 		\times 2/3 { b[ a b] }
-		a4
+		a4\pespace
 		
 		\times 2/3 { r8_\( a a\) }
 		\times 2/3 { a[\( b\) a] }
