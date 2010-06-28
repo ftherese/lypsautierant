@@ -25,9 +25,9 @@
 	\new Staff {
 		\cadenzaOn
 		\times 2/3 { r8_\( a[ a]\) }
-		\times 2/5 {a16[\( g\) a b a]} a4\cesure\pespace
-		\times 2/3 { r8_\( a[ a]\) }
-		a16[ a a a]
+		\times 2/5 {a16[\( g\) a b a]} a4\cesure
+		\pespace\times 2/3 { r8_\( a[ a]\) }
+		a16[ a a a]\indentLine\pespace
 		a16[ a a g]
 		\times 2/3 { a8[ b g] }
 		e4\( e8\) r8

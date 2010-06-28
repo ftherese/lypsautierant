@@ -73,7 +73,7 @@
 		\times 2/5 {a16[g c c c]}
 		\times 2/3 { c8[\cesure\pespace c c] }
 		\times 2/3 { b8[ c d] }
-		\times 2/3 { c8[\( c\)\cesure c] } 
+		\times 2/3 { c8[\( c\)\cesure\pespace\indentLine\pespace c] } 
 		\times 2/3 { c8[\( b\) c] } 
 		a8[ g] g4
 		\pespace\barre\pespace\times 2/3 {r8\(a[ c]\)} d[\( c\)] c4
@@ -92,7 +92,7 @@
 		\cadenzaOn
 		\times 2/3 { r8_\( f[ f]\) }
 		\times 2/3 { e8[ f g] }
-		f8[\( f\)] \cesure\pespace
+		f8[\( f\)] \cesure\pespace\indentLine\pespace
 		\times 2/3 { f8[ f f] }
 		f16[ f  f f]
 		\times 2/3 { f8[\( f\) f] }
@@ -114,7 +114,7 @@
 		\cadenzaOn
 		c16[ c c c]
 		\times 2/3 { c8[ c c] }
-		\times 2/3 { c8[\( c\) d] } c4\cesure\pespace
+		\times 2/3 { c8[\( c\) d] } c4\cesure\pespace\indentLine\pespace
 		\times 2/3 { c8[ c c] }
 		d8[ b] b8[ c]
 		a4\( a8\) r8
@@ -173,7 +173,7 @@
 		g16[ a c c]
 		c8.[\pespace c16]
 		c16[ c c c]
-		d8[ c] c4\pespace
+		d8[ c] c4\pespace\indentLine\pespace
 		r8 c
 		\times 2/3 { b8[ c a] }
 		g4\( g8\) r8

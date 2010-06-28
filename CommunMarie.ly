@@ -7,7 +7,7 @@
 		\cadenzaOn
 		c16[ b c d]
 		\times 2/5 {d16[\( d\) d f e]}
-		e8[ d] e8[\( e\)] \cesure\pespace
+		e8[ d] e8[\( e\)] \cesure\pespace\indentLine\pespace
 		\times 2/3 { d8[ d e] }
 		d16[\( d\) c b] d4
 		\barre\pespace\times 2/3 {d8[ f e]} d4 
@@ -42,7 +42,7 @@
 	\new Staff {
 		\cadenzaOn
 		\times 2/3 { f8[\( a\) c] }
-		\times 2/3 { c4\(\pespace\cesure\pespace c8\) }
+		\times 2/3 { c4\(\pespace\cesure\pespace\indentLine\pespace c8\) }
 		\times 2/3 { c8[ c c] }
 		c16[ c c c]
 		\times 2/3 { c8[ d c] }
@@ -123,7 +123,7 @@
 		\cadenzaOn
 		\key f \major
 		a8 a8.[ bes16]
-		g16[\( f\) g a] a4\pespace
+		g16[\( f\) g a] a4\pespace\indentLine\pespace
 		\times 2/3 { r8_\( a[ a]\) }
 		\times 2/3 { a8[ a a] }
 		\times 2/3 { a8[ g g] }
@@ -221,7 +221,7 @@
 	\new Staff {
 		\cadenzaOn
 		\times 2/3 { f8[\( a\) c] }
-		\times 2/3 { c4\(\pespace\cesure\pespace c8\) }
+		c4\pespace\cesure\pespace\indentLine\pespace r8 c8\) }
 		\times 2/3 { c8[ c c] }
 		c16[ c c c]
 		\times 2/3 { c8[ d c] }

@@ -7,7 +7,7 @@
 		\cadenzaOn
 		c16[ d c c f]
 		f8[ f]
-		f16[ e f g] f4\pespace
+		f16[ e f g] f4\pespace\indentLine\pespace
 		f16[ f f f]
 		f16[ e c d] d4\pespace
 		\barre\times 2/3 {f8[ g a]} g4 
