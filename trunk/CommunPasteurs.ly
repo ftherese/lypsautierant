@@ -8,7 +8,7 @@
 		g8
 		\times 2/3 { a8[ g c] }
 		c8[ c]
-		c8[\cesure\pespace c16 c]
+		c8[\cesure\pespace\indentLine\pespace c16 c]
 		\times 2/3 { b8[ c d] }
 		\times 2/3 { c8[\( c\)\cesure\pespace c] }
 		\times 2/3 { c8[\( b\) c] }
@@ -74,7 +74,7 @@
 		\key f \major
 		\times 2/3 { r8_\( f[ g]\) }
 		\times 2/3 { a8[\( a\) a] }
-		g8[ bes] a4\pespace
+		g8[ bes] a4\pespace\indentLine\pespace
 		a16[ a a a]
 		\slurDashed a4( \times 2/3 { a8)[\( a\) g] }
 		g8[ f] d4\pespace

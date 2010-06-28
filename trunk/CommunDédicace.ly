@@ -30,7 +30,7 @@
 	\new Staff {
 		\cadenzaOn
 		\times 2/3 {a8[ a a]} a4 \cesure\pespace
-		\times 2/3 {g8[ a b]} a4 \cesure\pespace
+		\times 2/3 {g8[ a b]} a4 \cesure\pespace\indentLine\pespace
 		\times 2/3 {e8[ g a]} 
 		a16[ a a a]
 		\times 2/3 { a8[ a g] }

@@ -25,7 +25,7 @@
 		f8 
 		\times 2/5 {a16[c c c c]}
 		c16[ c d d]
-		\times 2/3 { c4\( c8\) }\pespace
+		\times 2/3 { c4\( c8\) }\pespace\indentLine\pespace
 		\times 2/3 { r8\( c[ c]\) }
 		\times 2/3 { c8[\( d\) b] }
 		\times 2/3 { b8[ c a] } a4
