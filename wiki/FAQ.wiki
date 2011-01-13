@@ -1,0 +1,9 @@
+#summary Foire aux questions sur lilypond pour la préparation des antiennes du psautier.
+
+= Introduction =
+
+Réponse aux questions commun
+
+= Quel version de lilypond faut-il utiliser ? =
+
+La version 2.
