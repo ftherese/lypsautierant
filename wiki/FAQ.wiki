@@ -2,8 +2,10 @@
 
 = Introduction =
 
-Réponse aux questions commun
+Réponse aux questions communes.
 
 = Quel version de lilypond faut-il utiliser ? =
 
-La version 2.
+La version 2.10.33-1 
+* *Windows téléchargement*( http://download.linuxaudio.org/lilypond/binaries/mingw/lilypond-2.10.33-1.mingw.exe ) 
+* pour les autres systems d'exploitation, regardez dans http://download.linuxaudio.org/lilypond/binaries/
