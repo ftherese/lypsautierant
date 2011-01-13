@@ -1,4 +1,5 @@
 #summary Foire aux questions sur lilypond pour la préparation des antiennes du psautier.
+#labels Featured
 
 = Introduction =
 
