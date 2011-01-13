@@ -1,4 +1,5 @@
 #summary Pour ceux qui comprends un peu comment marche lilypond et qui veullent savoir comment on s'en sert pour les antiennes du psautier.
+#labels Phase-Implementation
 
 = Introduction =
 
