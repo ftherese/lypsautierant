@@ -39,16 +39,16 @@ cesure = {
 	\once \override Staff.BarLine #'thin-kern = #6
 	
 	\bar "|"
-	\overrideProperty 
-     		 	#"Score.NonMusicalPaperColumn"
-     			#'line-break-system-details
-     		 	#'((X-offset . 9.0))
+%	\overrideProperty 
+%     		 	#"Score.NonMusicalPaperColumn"
+%     			#'line-break-system-details
+%     		 	#'((X-offset . 9.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
-        \once \override Staff.Clef#'break-visibility = #all-invisible
-        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
+%        \once \override Staff.Clef#'break-visibility = #all-invisible
+%        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
 	
 }
-cesurebasse = {
+cesureBasse = {
 	s8
 	\once \override Staff.BarLine #'extra-offset = #'(0 . -0.5)
 	\once \override Staff.BarLine #'bar-size = #2
@@ -56,16 +56,16 @@ cesurebasse = {
 	\once \override Staff.BarLine #'thin-kern = #6
 	
 	\bar "|"
-	\overrideProperty 
-     		 	#"Score.NonMusicalPaperColumn"
-     			#'line-break-system-details
-     		 	#'((X-offset . 9.0))
+%	\overrideProperty 
+%     		 	#"Score.NonMusicalPaperColumn"
+%     			#'line-break-system-details
+%     		 	#'((X-offset . 9.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
-        \once \override Staff.Clef#'break-visibility = #all-invisible
-        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
+%        \once \override Staff.Clef#'break-visibility = #all-invisible
+%        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
 	
 }
-cesuretresbasse = {
+cesureTresBasse = {
 	s8
 	\once \override Staff.BarLine #'extra-offset = #'(0 . -1.5)
 	\once \override Staff.BarLine #'bar-size = #2
@@ -73,16 +73,16 @@ cesuretresbasse = {
 	\once \override Staff.BarLine #'thin-kern = #6
 	
 	\bar "|"
-	\overrideProperty 
-     		 	#"Score.NonMusicalPaperColumn"
-     			#'line-break-system-details
-     		 	#'((X-offset . 9.0))
+%	\overrideProperty 
+%     		 	#"Score.NonMusicalPaperColumn"
+%     			#'line-break-system-details
+%     		 	#'((X-offset . 9.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
-        \once \override Staff.Clef#'break-visibility = #all-invisible
-        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
+%        \once \override Staff.Clef#'break-visibility = #all-invisible
+%        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
 	
 }
-cesureall = {
+cesureAll = {
 	s8
 	\once \override Staff.BarLine #'extra-offset = #'(0 . 0.5)
 	\once \override Staff.BarLine #'bar-size = #2
@@ -90,13 +90,13 @@ cesureall = {
 	\once \override Staff.BarLine #'thin-kern = #6
 	\noBreak
 	\bar "|"
-	\overrideProperty 
-     		 	#"Score.NonMusicalPaperColumn"
-     			#'line-break-system-details
-     		 	#'((X-offset . 9.0))
-%	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
-        \once \override Staff.Clef#'break-visibility = #all-invisible
-        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
+%	\overrideProperty 
+%     		 	#"Score.NonMusicalPaperColumn"
+%     			#'line-break-system-details
+%     		 	#'((X-offset . 9.0))
+%%	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
+%        \once \override Staff.Clef#'break-visibility = #all-invisible
+%        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
 	
 }
 espall = {
