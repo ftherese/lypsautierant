@@ -1,6 +1,6 @@
 \version "2.10.0"
 \paper {
-	annotate-spacing = ##t
+%	annotate-spacing = ##t
 	#(set-paper-size "a5" 'landscape)
 	between-system-spacing = #'((padding . 2) (space . 1))
 	page-limit-inter-system-space = ##t
@@ -82,7 +82,7 @@
 %%%%%%%%%%%%%%%%
 %		\override TupletNumber #'avoid-slur = #'outside %qu'est-ce que ça fait ?
 
-		\override TupletNumber #'transparent = ##t
+%		\override TupletNumber #'transparent = ##t
 		\override TupletBracket #'bracket-visibility = ##f
 		%\override TupletBracket #'control-points = #'((0 . 0) (2 . 2) (4 . 0) )
 	   
