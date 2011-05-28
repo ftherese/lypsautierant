@@ -1,0 +1,1 @@
+cat psalm1.html |grep -A3 \"psalmText | sed 's/<p class=.np.>/\n\n/g;s/<span class=.verseNumbers.>//g;s/&nbsp;/\n/g;s/<[^>]*>//g;s/\t*//g;s/\(Psalm.*\)/\1\n/';
