@@ -1,4 +1,7 @@
 #!/usr/bin/perl
+
+# Usage: modes.pl [rawpsalm] [mode](one, two, etc.) [1st variation](a, a_prime, b, etc.) [2nd variation]
+
 use strict;
 
 package modes;
