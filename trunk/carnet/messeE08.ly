@@ -55,8 +55,8 @@
 
 	\relative f' { 
 		\key f \major
-	  	r8 f'8 e4 f8[ e] \times 2/3 { d8[\( e\) f] } c4 \bar " "
-		r8 f8 e4 f8[ e] \times 2/3 { d8[\( e\) f] } c4 \bar " "
+	  	r8 f'8 e4 f8[ e] \times 2/3 { d8[\( e\) f] } c4 \ifIndent
+		r8 f8 e4 f8[ e] \times 2/3 { d8[\( e\) f] } c4 \ifIndent
 		r8 c8 a4 g8[ f] bes8[ a] g4\( f8\)
 		\endBar 
 	}

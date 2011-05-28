@@ -24,6 +24,12 @@
                         	\huge { \bold { \fromproperty #'header:composer } }
                		 }
       		  }       
+	scoreTitleMarkup =
+		\markup {
+			\center-align {
+				\fromproperty #'header:piece
+			}
+		}
 }
 
 \header {
