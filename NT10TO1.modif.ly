@@ -1,4 +1,4 @@
-\version "2.10.0"
+ï»¿\version "2.10.0"
 \include "definitions.ly"
 \markup {NT  10}
 
@@ -19,7 +19,8 @@
 		\endBar
 	}
 	\addlyrics {
-		Ré -- jou -- is -- sez -- -vous, tre -- ssai -- llez d'al -- lég -- res -- "se !" Vo -- tre réc -- omp -- en -- se se -- ra gra -- nde dans le ciel.
+		RÃ© -- jou -- is -- sez -- -vous, tre -- ssai -- llez d'al -- lÃ©g -- res -- "se !" Vo -- tre rÃ©c -- omp -- en -- se se -- ra gra -- nde dans le ciel.
 		\markup { \citation #"Lc 6"}
  }
 }
+

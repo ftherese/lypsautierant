@@ -1,4 +1,4 @@
-\version "2.10.0"
+ï»¿\version "2.10.0"
  \include "definitions.ly"
  \markup {psaume 92 }
 
@@ -15,7 +15,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Pè -- re, que ta vo -- lon -- té soit fai -- te sur la ter -- re comme au ciel.
+		PÃ¨ -- re, que ta vo -- lon -- tÃ© soit fai -- te sur la ter -- re comme au ciel.
 		\markup { \citation #"Mt 6" } 
 	}
 }
