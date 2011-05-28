@@ -1,4 +1,4 @@
-\version "2.10.0"
+ï»¿\version "2.10.0"
  \include "definitions.ly"
 \markup {AT 2 }
 
@@ -8,7 +8,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
+		\set Staff.instrumentName = \markup{ \column { T.O. Car. } }
 		c8
 		\times 2/3 { d8[\( f\) f] }
 		\times 2/3 { f8[ f f] }
@@ -20,7 +20,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Le pè -- re cou -- rut se je -- ter à son cou et le cou -- vrit de bai -- sers.	
+		Le pÃ¨ -- re cou -- rut se je -- ter Ã  son cou et le cou -- vrit de bai -- sers.	
 		\markup { \citation #"Lc 15" } 
 	}
 }
