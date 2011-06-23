@@ -77,7 +77,7 @@
 %		Gloi -- re a Dieu au plus haut _ des cieux, 
 		r8 f8\times 2/3 { g8[ a c] }\times 2/3 { d8[\( c\) d] }\times 2/3 { e8[\( f\) e] } d4\( c8\)
 %		et paix sur la ter -- re aux hom -- mes qu'il ai -- me! 
-		\times 2/3 { f8[ e d] } c4\cesure\ifIndent
+		\times 2/3 { f8[ e d] } c4 \cesure \ifIndent
 %		Nous te lou -- ons, 
 %		nous te bé -- nis -- sons, 
 		\times 2/3 { c8[ a g] } f4
