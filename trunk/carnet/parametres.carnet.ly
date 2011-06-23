@@ -9,7 +9,7 @@
 	page-top-space = 1\mm
 	between-scores-system-spacing = #'((padding . 1) (space . 1))
 	between-system-padding = #2
-	line-width = 180\mm
+	line-width = 170\mm
 	indent = 0\mm
 	top-margin = 5\mm
 	left-margin = 30\mm
