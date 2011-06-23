@@ -3,7 +3,7 @@
   #(define dump-extents #t)
   
   indent = 0\mm
-  ragged-right = #2t
+  ragged-right = ##t
   force-assignment = #""
   line-width = #(- line-width (* mm  4.000000))
 }

@@ -1,4 +1,3 @@
-
 #(set-default-paper-size "a5" 'landscape)
 \paper{
  indent = 0\mm
@@ -14,11 +13,8 @@
    timing = ##f
 
    % des césures au lieu de virgules :
-   \override BreathingSign #'text =
-     
 
    % des paroles plus espacées :
-   \override LyricSpace #'minimum-distance = #1.0
  }
  \context {
 
@@ -27,7 +23,7 @@
 }
   \header {
 
-       title = \markup \center-column { "MESSE E11" }
+       title = \markup \center-align { "MESSE E11" }
     
      }
 
@@ -36,7 +32,6 @@
 \sourcefileline 25
 \set Staff.autoBeaming = ##f
 \override Staff.Clef #'break-visibility = #all-invisible
-\version "2.13.51"
 \relative c'' { 
 	 
 	r8 b8 c4 b8[ a] b8[ b] e4
@@ -53,7 +48,6 @@
 \sourcefileline 25
 \set Staff.autoBeaming = ##f
 \override Staff.Clef #'break-visibility = #all-invisible
-\version "2.13.51"
 \relative c'' { 
 	 
 	r8 b8 c4 b8[ a] b8[ b] e4
@@ -64,11 +58,4 @@
 
   \addlyrics{ Sei -- gneur, prends pi -- tié de nous. 
   O Christ, prends pi -- tié de nous. 
-  }
-  	
-
-
-
-
-
- 
+}
