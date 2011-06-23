@@ -10,9 +10,10 @@
 	between-scores-system-spacing = #'((padding . 1) (space . 1))
 	between-system-padding = #2
 	line-width = 180\mm
+	indent = 0\mm
 	top-margin = 5\mm
-	left-margin = 15\mm
-	short-indent = 20\mm
+	left-margin = 30\mm
+	short-indent = 0\mm
 	ragged-right = ##t
 	ragged-last = ##t
 	ragged-bottom = ##t
@@ -27,6 +28,7 @@
 	scoreTitleMarkup =
 		\markup {
 			\left-align {
+%				\hspace #8.0 
 				\fromproperty #'header:piece
 			}
 		}

@@ -9,26 +9,29 @@ ifIndent = {
 %	pour faire un break et un indentLine si necessaire
 	s8
 	\bar " "
-	\overrideProperty 
-     		 	#"Score.NonMusicalPaperColumn"
-     			#'line-break-system-details
-     		 	#'((X-offset . 9.0)) 
+
+%	ces lignes font une tabulation
+%	\overrideProperty 
+%     		 	#"Score.NonMusicalPaperColumn"
+%     			#'line-break-system-details
+%     		 	#'((X-offset . 9.0)) 
+
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
-        \once \override Staff.Clef#'break-visibility = #all-invisible
-        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
+%        \once \override Staff.Clef#'break-visibility = #all-invisible
+%        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
 }
 
 barre = {
 	s8
 	\noBreak
 	\bar "|"
-	\overrideProperty 
-     		 	#"Score.NonMusicalPaperColumn"
-     			#'line-break-system-details
-     		 	#'((X-offset . 9.0))
+%	\overrideProperty 
+%    		 	#"Score.NonMusicalPaperColumn"
+%    			#'line-break-system-details
+%    		 	#'((X-offset . 9.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
-        \once \override Staff.Clef#'break-visibility = #all-invisible
-        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
+%        \once \override Staff.Clef#'break-visibility = #all-invisible
+%        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
 }
 
 cesure = {
@@ -104,13 +107,13 @@ espall = {
 	\once \override Staff.BarLine #'thin-kern = #6
 	\noBreak
 	\bar ""
-	\overrideProperty 
-     		 	#"Score.NonMusicalPaperColumn"
-     			#'line-break-system-details
-     		 	#'((X-offset . 9.0))
+%	\overrideProperty 
+%     		 	#"Score.NonMusicalPaperColumn"
+%     			#'line-break-system-details
+%     		 	#'((X-offset . 9.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
-        \once \override Staff.Clef#'break-visibility = #all-invisible
-        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
+%        \once \override Staff.Clef#'break-visibility = #all-invisible
+%        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
 	
 }
 cesurelongue = {
@@ -123,13 +126,13 @@ cesurelongue = {
 	\bar "|"
 	
 	s8
-	\overrideProperty 
-     		 	#"Score.NonMusicalPaperColumn"
-     			#'line-break-system-details
-     		 	#'((X-offset . 9.0))
+%	\overrideProperty 
+%     		 	#"Score.NonMusicalPaperColumn"
+%     			#'line-break-system-details
+%     		 	#'((X-offset . 9.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
-        \once \override Staff.Clef#'break-visibility = #all-invisible
-        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
+%        \once \override Staff.Clef#'break-visibility = #all-invisible
+%        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
 	
 }
 espace = {
@@ -137,13 +140,13 @@ espace = {
 %	\once \override Staff.BarLine #'thin-kern = #6
 	
 	\bar ""
-	\overrideProperty 
-    		 	#"Score.NonMusicalPaperColumn"
-     			#'line-break-system-details
-     		 	#'((X-offset . 9.0))
+%	\overrideProperty 
+%    		 	#"Score.NonMusicalPaperColumn"
+%     			#'line-break-system-details
+%     		 	#'((X-offset . 9.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
-        \once \override Staff.Clef#'break-visibility = #all-invisible
-        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
+%	\once \override Staff.Clef#'break-visibility = #all-invisible
+%	\once \override Staff.KeySignature#'break-visibility = #all-invisible 
 	
 }
 
@@ -152,13 +155,13 @@ pespace = {
 	\once \override Staff.BarLine #'thin-kern = #6
 	
 	\bar ""
-	\overrideProperty 
-     		 	#"Score.NonMusicalPaperColumn"
-     			#'line-break-system-details
-     		 	#'((X-offset . 9.0))
+%	\overrideProperty 
+%     		 	#"Score.NonMusicalPaperColumn"
+%     			#'line-break-system-details
+%     		 	#'((X-offset . 9.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
-        \once \override Staff.Clef#'break-visibility = #all-invisible
-        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
+%       \once \override Staff.Clef#'break-visibility = #all-invisible
+%       \once \override Staff.KeySignature#'break-visibility = #all-invisible 
 	
 }
 
@@ -170,8 +173,8 @@ indentLine = {
      			#'line-break-system-details
      		 	#'((X-offset . 9.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
-        \once \override Staff.Clef#'break-visibility = #all-invisible
-        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
+%       \once \override Staff.Clef#'break-visibility = #all-invisible
+%       \once \override Staff.KeySignature#'break-visibility = #all-invisible 
 }
 
 endBar = {
