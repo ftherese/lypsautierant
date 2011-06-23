@@ -1,8 +1,6 @@
-
-\version "2.13.61"
+\version "2.10.33"
 \paper {
   indent = 0\mm
-  line-width = #(- paper-width left-margin-default right-margin-default)
   ragged-right = ##t
   force-assignment = #""
   line-width = #(- line-width (* mm  3.000000))
@@ -42,9 +40,7 @@
 	 d4\( c8\) 
 	  
 	\times 2/3 { r8_\( c[ c]\) }  
-	}	
-}
-}
+}	
 \addlyrics 
   {Gloire a Dieu au plus haut des cieux, et paix sur 
   la ter -- re aux hom -- mes qu'il ai -- me! Nous te lou -- ons, nous te

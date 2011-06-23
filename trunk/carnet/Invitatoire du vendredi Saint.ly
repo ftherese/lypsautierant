@@ -3,7 +3,7 @@
 #(set-default-paper-size "a5" 'landscape)
 \paper {
  indent = 0\mm
- two-sided = #2#t
+ two-sided = ##t
  binding-offset = 1\cm
 }
 
