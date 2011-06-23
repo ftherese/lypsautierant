@@ -26,7 +26,7 @@
       		  }       
 	scoreTitleMarkup =
 		\markup {
-			\center-align {
+			\left-align {
 				\fromproperty #'header:piece
 			}
 		}
