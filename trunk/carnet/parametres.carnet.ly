@@ -1,4 +1,4 @@
-﻿\version "2.10.33"
+\version "2.10.33"
 \paper {
 %	annotate-spacing = ##t
 	#(set-paper-size "a5" 'landscape)

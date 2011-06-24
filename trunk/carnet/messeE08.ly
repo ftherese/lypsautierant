@@ -1,4 +1,4 @@
-﻿\version "2.10.00"
+\version "2.10.00"
 \include "definitions.ly"
 
 \header {
