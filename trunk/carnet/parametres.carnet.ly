@@ -1,4 +1,4 @@
-\version "2.10.0"
+﻿\version "2.10.33"
 \paper {
 %	annotate-spacing = ##t
 	#(set-paper-size "a5" 'landscape)
@@ -48,11 +48,11 @@
     		\Score
     		timing = ##f
 %		\override SpacingSpanner #'uniform-stretching = ##t
-%		derniÃ¨res valeurs 0.5 et 0.0
+%		derniÃƒÂ¨res valeurs 0.5 et 0.0
 
 %{
 		\override SpacingSpanner #'common-shortest-duration = #(ly:make-moment 1 8)   
-%	yé !! c'est common-shortest-duration qui fixe le shortestduration space quelquesoit le contenu de  l'antienne		
+%	yÃ© !! c'est common-shortest-duration qui fixe le shortestduration space quelquesoit le contenu de  l'antienne		
 %		
 %		\override SpacingSpanner #'base-shortest-duration = #(ly:make-moment 1 64)
 %		   %cette fonction ne change rien car elle donne le max, mais si elle trouve moins ds l'antienne en question 
@@ -89,7 +89,7 @@
 		\override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
 		
 %%%%%%%%%%%%%%%%
-%		\override TupletNumber #'avoid-slur = #'outside %qu'est-ce que ça fait ?
+%		\override TupletNumber #'avoid-slur = #'outside %qu'est-ce que Ã§a fait ?
 
 %		\override TupletNumber #'transparent = ##t
 		\override TupletBracket #'bracket-visibility = ##f
@@ -100,7 +100,7 @@
 		\override Beam #'thickness = #.48 		%on diminue
 		
 		\override NoteHead #'font-size = #-3
-% pour reserrer les temps liturgiques contre la portée		
+% pour reserrer les temps liturgiques contre la portÃ©e		
 		\override InstrumentName #'X-offset = #-2.5
 	}
 	
