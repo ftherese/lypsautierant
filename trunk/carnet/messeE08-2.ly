@@ -12,13 +12,13 @@
 	\relative f' { 
 		\key f \major
 
-%		c'8[ c]\times 2/3 { a8[ g f16] }\times 2/3 { g8[\( a\) g] } f4
+		c'8[ c]\times 2/3 { a8[ g f16] }\times 2/3 { g8[\( a\) g] } f4
 %		Gloi -- re a Dieu au plus haut _ des cieux, 
 
-%		r8 f8\times 2/3 { g8[ a c] }\times 2/3 { d8[\( c\) d] }\times 2/3 { e8[\( f\) e] } d4\( c8\)
+		r8 f8\times 2/3 { g8[ a c] }\times 2/3 { d8[\( c\) d] }\times 2/3 { e8[\( f\) e] } d4\( c8\)
 %		et paix sur la ter -- re aux hom -- mes qu'il ai -- me! 
 
-%		\times 2/3 { f8[ e d] } c4\ifIndent
+		\times 2/3 { f8[ e d] } c4\ifIndent
 %		Nous te lou -- ons, 
 
 		d'16[ e d c] c4\cesure
