@@ -30,15 +30,15 @@
 %		Qu’il soit bé -- ni, 
 		g8[ f] \times 2/3 { e8[\( e\) d] } \times 2/3 { d8[\( d\) d] } d8[ \cesure d]
 %		le Dieu et Pè -- re de no -- tre Sei -- gneur, 
-		d8[ \cesure c] a4 
+		d8[ \cesure c] a4 \cesure
 %		Jé -- sus le Christ !
 		b16[ g a c ] 
 %		Il nous a bé -- nis 
-		\times 2/3 { c8[ c c] } \times 2/5 {c16[c c c c]}\ifIndent
+		\times 2/3 { c8[ c c] } \times 2/5 {c16[c c c c]}
 %		et com -- blés des bé -- né -- di -- ctions 
-		\times 2/3 { c8[ d e] } \times 2/3 { d4\( c8\) } 
+		\times 2/3 { c8[ d e] } \times 2/3 { d4\( \cesure c8\) } 
 %		de l’Es -- prit au ciel, 
-		\times 2/3 { a8[ b g] } a4\barre 
+		\times 2/3 { a8[ \cesure b g] } a4\barre 
 %		dans le Christ.
 		
 		a16[ c c c] \times 2/3 { c8[ d e] } \times 2/3 { d4\( c8\) }
