@@ -40,7 +40,7 @@
 }
 
 %{ this is where you can change the staff size %}
-#(set-global-staff-size 20)
+#(set-global-staff-size 22)
 #(ly:set-option 'point-and-click #f)
 \layout {
   
