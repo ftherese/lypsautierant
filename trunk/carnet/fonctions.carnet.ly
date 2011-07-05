@@ -42,6 +42,7 @@ cesure = {
 	\once \override Staff.BarLine #'thin-kern = #6
 	
 	\bar "|"
+	\noBreak
 %	\overrideProperty 
 %     		 	#"Score.NonMusicalPaperColumn"
 %     			#'line-break-system-details
@@ -59,6 +60,7 @@ cesureBasse = {
 	\once \override Staff.BarLine #'thin-kern = #6
 	
 	\bar "|"
+	\noBreak
 %	\overrideProperty 
 %     		 	#"Score.NonMusicalPaperColumn"
 %     			#'line-break-system-details
@@ -76,6 +78,7 @@ cesureTresBasse = {
 	\once \override Staff.BarLine #'thin-kern = #6
 	
 	\bar "|"
+	\noBreak
 %	\overrideProperty 
 %     		 	#"Score.NonMusicalPaperColumn"
 %     			#'line-break-system-details
@@ -93,6 +96,7 @@ cesureAll = {
 	\once \override Staff.BarLine #'thin-kern = #6
 	\noBreak
 	\bar "|"
+	\noBreak
 %	\overrideProperty 
 %     		 	#"Score.NonMusicalPaperColumn"
 %     			#'line-break-system-details
@@ -123,7 +127,9 @@ cesurelongue = {
 	\once \override Staff.BarLine #'hair-thickness = #.8
 	\once \override Staff.BarLine #'thin-kern = #6
 	
+	\noBreak
 	\bar "|"
+	\noBreak
 	
 	s8
 %	\overrideProperty 
@@ -139,7 +145,9 @@ espace = {
 	s4
 %	\once \override Staff.BarLine #'thin-kern = #6
 	
+	\noBreak
 	\bar ""
+	\noBreak
 %	\overrideProperty 
 %    		 	#"Score.NonMusicalPaperColumn"
 %     			#'line-break-system-details
@@ -154,7 +162,9 @@ pespace = {
 	s8
 	\once \override Staff.BarLine #'thin-kern = #6
 	
+	\noBreak
 	\bar ""
+	\noBreak
 %	\overrideProperty 
 %     		 	#"Score.NonMusicalPaperColumn"
 %     			#'line-break-system-details
