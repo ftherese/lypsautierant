@@ -34,8 +34,8 @@
 
 	\relative f' { 
 		\key f \major
-		r8 f8 \times 2/3 { a8[ bes c] } c4
-		r8 d8 \times 2/3 { c8[ bes c] } c4
+		r8 f8 \times 2/3 { a8[ bes c] } c4 \espace
+		r8 d8 \times 2/3 { c8[ bes c] } c4 \espace
 		r8 c8 \times 2/3 { a8[ g f] } bes8[ a] g4\( f8\)
 		\endBar 
 	}
@@ -55,8 +55,8 @@
 
 	\relative f' { 
 		\key f \major
-	  	r8 f'8 e4 f8[ e] \times 2/3 { d8[\( e\) f] } c4 \ifIndent
-		r8 f8 e4 f8[ e] \times 2/3 { d8[\( e\) f] } c4 \ifIndent
+	  	r8 f'8 e4 f8[ e] \times 2/3 { d8[\( e\) \espace f] } c4 \espace
+		r8 f8 e4 f8[ e] \times 2/3 { d8[\( e\) \espace f] } c4 \ifIndent
 		r8 c8 a4 g8[ f] bes8[ a] g4\( f8\)
 		\endBar 
 	}
@@ -100,16 +100,17 @@
 		f8[ f] g8[\( a\)] g8[ f] f4\cesureAll
 %		Dieu le Pè -- re tout -- -puis --sant.
 
-		r8 f8 g4 a8[ c] d8[\( e\)] f8[ e] d4\( c8\) 
+		r8 f8 g4 a8[ c] d8[\( e\)] f8[ e] d4\( c8\) \ifIndent
+
 %		Sei -- gneur, Fils u -- ni -- que Jé -- sus Christ, 
 
-		\times 2/3 { r8_\( f[ e]\) }\ifIndent d8[ \cesure e] d8[ c] d8[ e] d8[ c] c4\( c8\)\barre
+		\times 2/3 { r8_\( f[ e]\) } d8[ \cesure e] d8[ c] d8[ e] d8[ c] c4\( c8\)\barre
 %		Sei -- gneur                          Dieu, A -- gneau de Dieu, le Fils du Pè -- re.
 
-		\times 2/3 { c8[ c a16] } g16[\( f\) g a] g8[ f] f8[\( f\)]
+		\times 2/3 { c8[ c a16] } g16[\( f\) g a] g8[ f] f8[\( f\)]\ifIndent
 %		Toi qui en -- lè -- ves le pé -- ché du mon -- de,
 
-		f8[ g] a8[ c] c4\( c8\)\ifIndent
+		f8[ g] a8[ c] c4\( c8\)
 %		prends pi -- tié de nous.
 
 		\times 2/3 { f8[ e d16] } c16[\( c\) d e] d8[ c] c8[\( c\)]
@@ -118,25 +119,25 @@
 		r8 c8 c8 \times 2/3 { a8[\( g\) f] } g4\( f8\)
 %		re -- çois no -- tre pri -- è -- re.
 
-		\times 2/5 {f16[g a c]} \times 2/3 { d8[ c d16] } \times 2/3 { e8[\( f\) e] } d8[\( c\)]\ifIndent 
+		\times 2/5 {f16[g a c]} \times 2/3 { d8[ c d16] } \ifIndent \times 2/3 { e8[\( f\) e] } d8[\( c\)]
 %		Toi qui es as -- sis à la droi -- te du Pè -- re, 
 
-		c8[ a] g8[ f] g4\( f8\)\ifIndent
+		c8[ a] g8[ f] g4\( f8\)\cesure
 %		prends pi -- tié de nous.
 
 		f'8[ e] d8[ c] d4\( c8\)
 %		Car Toi seul es saint, 
 
-		r8 f8 \times 2/3 { e8[ d c] } d4\( c8\)\cesure
+		r8 f8 \times 2/3 { e8[ d c] } d4\( c8\)\cesure \ifIndent
 %		toi seul es Sei -- gneur, 
 
 		r8 c8 c8[ a] g8[ f] g4\cesureBasse a8[ g] f4 
 %		Toi seul es le Très-Haut Jé -- sus Christ, 
 
-		r8 f8 g8[ a] c8[ d] c4 \ifIndent
+		r8 f8 g8[ a] c8[ d] c4 
 %		avec le Saint Es -- prit, 
 
-		\times 2/3 { r8_\( d[ e]\) } \times 2/3 { f8[\( f\) f] } e8[ d] c4\( c8\)\barre
+		\times 2/3 { r8_\( d[ e]\) } \times 2/3 { f8[\( f\) f] } e8[ d] c4\( c8\)\barre\ifIndent
 %		dans la gloi -- re de Dieu le Pè -- re.
 
 		c4 \times 2/3 { a8[ g f] } \times 2/3 { bes8[ a g] } g4\( f8\)\endBar 
@@ -172,5 +173,66 @@
 	}
 	\header {
 		piece = "Gloria"
+	}
+}
+
+\score {
+
+	\relative f' { 
+%		Saint! Saint! Saint le Sei -- gneur, 
+%		Dieu de l'u -- ni -- vers!
+%		Le ciel et la ter -- re
+%		sont rem -- plis de ta gloi -- re!
+%		Ho -- san -- na au plus haut des cieux!
+%		Bé -- ni soit ce -- lui qui vient
+%		au nom du Sei -- gneur!
+		\endBar 
+%		Ho -- san -- na au plus haut des cieux!		
+	}
+
+	\addlyrics { 
+		Saint! Saint! Saint le Sei -- gneur, 
+		Dieu de l'u -- ni -- vers!
+		Le ciel et la ter -- re
+		sont rem -- plis de ta gloi -- re!
+		Ho -- san -- na au plus haut des cieux!
+		Bé -- ni soit ce -- lui qui vient
+		au nom du Sei -- gneur!
+		Ho -- san -- na au plus haut des cieux!
+	}
+	\header {
+		piece = "Sanctus"
+	}
+}
+
+\score {
+
+	\relative f' { 
+		a
+%		A -- gneau de Dieu qui en -- lè -- ves
+%		le pé -- ché du mon -- de, 
+%		prends pi -- tié de nous!
+%		A -- gneau de Dieu qui en -- lè -- ves
+%		le pé -- ché du mon -- de, 
+%		prends pi -- tié de nous!
+%		A -- gneau de Dieu qui en -- lè -- ves
+%		le pé -- ché du mon -- de, 
+%		don -- ne -- -nous la paix!
+	
+	}
+
+	\addlyrics { 
+		A -- gneau de Dieu qui en -- lè -- ves
+		le pé -- ché du mon -- de, 
+		prends pi -- tié de nous!
+		A -- gneau de Dieu qui en -- lè -- ves
+		le pé -- ché du mon -- de, 
+		prends pi -- tié de nous!
+		A -- gneau de Dieu qui en -- lè -- ves
+		le pé -- ché du mon -- de, 
+		don -- ne -- -nous la paix!
+	}
+	\header {
+		piece = "Agnus"
 	}
 }

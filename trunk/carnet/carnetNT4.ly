@@ -2,7 +2,7 @@
 \include "definitions.ly"
 
 \header {
-	title = "CANTIQUE DU NOUVEAU TESTAMENT  (Ep. 1)  (lundi)"
+	title = "CANTIQUE DU N.T.  (Ep. 1)  (lundi)"
 	composer =  "B 223 ad exp." 
 }
 
@@ -38,7 +38,7 @@
 %		et com -- blés des bé -- né -- di -- ctions 
 		\times 2/3 { c8[ d e] } \times 2/3 { d4\( \cesure c8\) } 
 %		de l’Es -- prit au ciel, 
-		\times 2/3 { a8[ \cesure b g] } a4\barre 
+		\times 2/3 { a8[ \cesure b g] } a4\barre \ifIndent
 %		dans le Christ.
 		
 		a16[ c c c] \times 2/3 { c8[ d e] } \times 2/3 { d4\( c8\) }
