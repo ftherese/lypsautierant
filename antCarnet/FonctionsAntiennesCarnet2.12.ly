@@ -5,6 +5,8 @@
 
 %fonctions propres au psautier
 %(alinéas en cas de rupture de ligne)
+stemOn = { \revert Staff.Stem #'transparent } 
+stemOff = { \override Staff.Stem #'transparent = ##t }
 ifIndent = {
 %	pour faire un break et un indentLine si necessaire
 	s8
