@@ -7,6 +7,7 @@ stemOff = { \override Staff.Stem #'transparent = ##t }
 %	annotate-spacing = ##t
 	#(set-paper-size "a5" 'landscape)
 	two-sided = ##t
+	print-page-number = ##f
 	system-system-spacing = #'((padding . 2) (basic-distance . 1))
 	page-limit-inter-system-space = ##t
 	page-limit-inter-system-space-factor = #1
@@ -22,8 +23,6 @@ stemOff = { \override Staff.Stem #'transparent = ##t }
 	ragged-right = ##t
 	ragged-last = ##t
 	ragged-bottom = ##t
-       stemOn = { \revert Staff.Stem #'transparent } 
-       stemOff = { \override Staff.Stem #'transparent = ##t }
 	bookTitleMarkup = 
 		\markup {
                 	\fill-line {
@@ -50,7 +49,7 @@ stemOff = { \override Staff.Stem #'transparent = ##t }
 				\large { \bold { \fromproperty #'header:opus } }	
 			}
 		}}
-
+}
 
 \header {
                tagline=""
