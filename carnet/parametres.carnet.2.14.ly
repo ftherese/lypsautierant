@@ -2,6 +2,7 @@
 \paper {
 %	annotate-spacing = ##t
 	#(set-paper-size "a5" 'landscape)
+	print-page-number = ##f
 	two-sided = ##t
 	system-system-spacing = #'((padding . 2) (basic-distance . 1))
 	page-limit-inter-system-space = ##t
