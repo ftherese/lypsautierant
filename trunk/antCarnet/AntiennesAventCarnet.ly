@@ -34,7 +34,7 @@
 	}
 
 	\addlyrics {
-		Voi -- ci ve -- nir des loin -- tains le Nom du Seig -- neur, et sa cla -- rté il -- lu -- mi -- ne la ter -- re. Al -- le -- - -- lu -- - -- "ia !"
+		Voi -- ci ve -- nir des loin -- tains le Nom du Seig -- neur, et sa cla -- rté il -- lu -- mi -- ne la ter -- re. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
 	 _ _ "[Ton 1]"
 
 	}
@@ -65,7 +65,7 @@
 	}
 
 	\addlyrics {
-		Il vient vers nous, le Dieu vé -- ri -- ta -- -  -- ble. Il re -- vêt en Ma -- rie la chair du pre -- mier Ad -- am.
+		Il vient vers nous, le Dieu vé -- ri -- ta -- \skip 1 ble. Il re -- vêt en Ma -- rie la chair du pre -- mier Ad -- am.
 		_ _ "[Ton 2]"
 	}
 	\header {
@@ -103,7 +103,7 @@
 	}
 
 	\addlyrics {
-		Un -- e voix pro -- cla -- "me :" pré -- pa -- rez dans le dés -- ert le che -- min du Seig -- neur, et ren -- dez droits les sent -- iers de not -- re Dieu. Al -- le -- - -- lu -- - -- "ia !"
+		Un -- e voix pro -- cla -- "me :" pré -- pa -- rez dans le dés -- ert le che -- min du Seig -- neur, et ren -- dez droits les sent -- iers de not -- re Dieu. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
 		_ _ "[Ton 1]"
 	}
 
@@ -170,7 +170,7 @@
 	}
 
 	\addlyrics {
-		Il siè -- ge -- ra sur le trô -- ne de Da -- vid et rè -- gne -- ra à jam -- ais sur son ro -- yau -- - -- me. Al -- le -- - -- lu -- - -- "ia !"
+		Il siè -- ge -- ra sur le trô -- ne de Da -- vid et rè -- gne -- ra à jam -- ais sur son ro -- yau -- - -- me. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
 		_ _ "[Ton 1]"
 	}
 
@@ -242,7 +242,7 @@
 	}
 
 	\addlyrics {
-		Ô -- - Mar -- ie, tu es le Pa -- ra -- dis nou -- veau et la ter -- re pro -- mi -- "se :" en toi le Sol -- eil a é -- ta -- bli sa de -- meu -- re. Al -- le -- - -- lu -- - -- "ia !"
+		Ô -- - Mar -- ie, tu es le Pa -- ra -- dis nou -- veau et la ter -- re pro -- mi -- "se :" en toi le Sol -- eil a é -- ta -- bli sa de -- meu -- re. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
 		_ _ "[Ton 1]"
 	}
 
