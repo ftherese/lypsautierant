@@ -1,0 +1,161 @@
+﻿NOTES SEULES
+a4	la noire
+a8	la croche
+a16	la double-croche
+bes  	si bémol
+b!	si bécard
+a'   	la aigu
+a,  	la grave
+a\breve   teneur sur la (cf. psalmodie)
+
+a	la
+b	si
+c	do
+d	ré
+e	mi
+f	fa
+g	sol
+
+SILENCES
+r8	1/2
+r8.	3/4
+r16	1/4
+
+2 CROCHES
+a8[ a]
+a8[\( a\)]
+
+
+croche pointée bouble
+a8.[ a16]
+croche 2 doubles
+a8[ a16 a]
+
+TRIOLETS
+\times 2/3 { a8[ a a] }
+\times 2/3 { a8[\( a\) a] }
+\times 2/3 { a8[ a\( a]\) }
+
+triolet avec silence lièu en bas :
+\times 2/3 { r8_\( a[ a]\) }
+triolet avec silence lièu en haut:
+\times 2/3 { r8\( a[ a]\) }
+triolet avec une noire et une croche
+\times 2/3 { a4\( a8\) }
+triolet avec une noire, une césure et une croche
+\times 2/3 { a4\(\cesure a8\) }
+
+
+4 DOUBLES CROCHES
+a16[ a a a]
+a16[\( a\) a a]
+a16[ a\( a\) a]
+a16[ a a\( a\)]
+a16[\( a\) a\( a\)]
+avec demi silence
+r8 a16[ a]
+r8 a16[\( a\)]
+
+QUINTOLETS
+\times 2/5 {a16[a a a a]}
+\times 2/5 {a16[\( a\) a a a]}
+\times 2/5 {a16[a\( a\) a a]}
+\times 2/5 {a16[ a a\( a\) a]}
+\times 2/5 {a16[ a a a\( a\)]}
+
+\times 2/6 { a a a a a a }
+
+noire croche liées pour finale:
+a4\( a8\) r8
+
+ALLELUIA TYPE
+\barre\times 2/3 {a8[ a a]} a4 
+\barre\times 2/3 {r8_\(a[ a]\)} a[\( a\)] a4
+\barre\times 2/3 {a8[ a a]} a[\( a] a4\) 
+Al -- le -- lu -- "ia !"
+Al -- le -- lu -- - -- "ia !"
+Al -- le -- lu -- "ia !" _ _
+"(Al" -- le -- lu -- "ia !)"
+"(Al" -- le -- lu -- - -- "ia !)"
+"(Al" -- le -- lu -- "ia !)" _ _
+
+AUTRES
+\cesure
+\cesurebasse
+\cesuretresbasse
+\cesureall
+\barre		barre séparatrice
+\endBar		barre finale
+\ifIndent	si la ligne est trop longue, ça coupera là en priorité
+\indentLine	ça fait passer à la ligne
+\slurDashed a4( a)	c'est le lié en pointillés
+\espace
+\pespace
+\espall		ça espace les éléments qui suivent
+\override Stem #'neutral-direction = #up  pour mettre  les barres suivantes vers le haut
+\override Stem #'neutral-direction = #down  pour mettre  les barres suivantes vers le bas	
+\stemUp		pour mettre toutes les barres vers le haut
+\stemDown     pour mettre toutes les barres vers le bas
+\stemNeutral
+\fermata	point d'orgue
+%{  %}	ça laisse des éléments cachés
+\header { title = \markup { texte }}	titre en haut de la page et en grand
+\markup { psaume }		ça met un texte indépendaemment d'une partition; ex: psaume
+\header { tagline ="texte"}	titre en bas de la feuille
+\paper {print-page-number = ##t }  ça met un n° de page en haut à droite
+\set stemLeftBeamCount = #1 \set stemRightBeamCount = #2 d16 \set stemLeftBeamCount = #2    ça c'est quand l'ordi bug et ne veut plus mettre une corche 2 doubles ave la barre en commun (cf. NT 12 TO2)
+œ
+À
+É
+Ô
+
+CANTIQUE MODELE VIERGE
+
+\version "2.12.0"
+\include "definitions.ly"
+\markup { Psaume }	
+
+ANTIENNE MODELE VIERGE 
+
+modes 1 et 6 + pérég. :
+	\relative f' { 
+
+mode 2 :
+	\relative d' { 
+
+mode 3, 7 et 8 :
+	\relative c'' { 
+
+mode 4  et 5 :
+	\relative a' { 
+
+pour tous :
+	\new Staff {
+	\cadenzaOn
+en plus pour les modes 1, 6 etpépég.
+	\key f \major
+
+pour tous (version lilypond 2.10), le Temps liturgique :
+	\set Staff.instrumentName = \markup{ \center-align {  } }
+
+pour tous (version lilypond 2.13), le Temps liturgique :
+	\set Staff.instrumentName = \markup{ \center-column {  } }
+		
+suivent les notes: 
+		
+		
+		
+		
+		
+		
+	
+	
+et à la fin :		
+	\endBar }
+
+pour les paroles :
+	\addlyrics {
+
+pour la référence : 	
+	\markup { \citation #""} } }	
+	

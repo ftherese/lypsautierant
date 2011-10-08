@@ -1,13 +1,11 @@
-﻿%{
-Antiennes du Temps Ordinaire pour le carnet de chant
-%}
+﻿
+%{Antiennes du Temps Ordinaire pour le carnet de chant%}
 
 \version "2.14.0"
+\include "DefinitionsAntiennesCarnet.ly"
 
 
-\paper {
-	#(set-paper-size "a4")
-}
+
 
 \markup {
       		\fill-line{
@@ -24,6 +22,7 @@ Antiennes du Temps Ordinaire pour le carnet de chant
 		e8[\( e\)]
 		\times 2/3 { e8[ e e] }
 		e8[ c] d4
+		\indentLine
 		r8 c
 		b8[ a]
 		a8[ a]
@@ -31,13 +30,13 @@ Antiennes du Temps Ordinaire pour le carnet de chant
 		c16[\( c\) b c]
 		a8[ g]
 		a4\( a8\) r8
+		\endBar
 	}
 
 	\addlyrics {
 		J'ai vu l'Es -- prit des -- cen -- dre du ciel comme u -- ne co -- lom -- be et de -- meur -- er sur lui. Voi -- ci l'A -- gneau de Dieu qui en -- lè -- ve le pé -- ché du mon -- de.
 	}
-
-	%{Jn 1, 29.32" %}
+	%{\markup { \citation #"Jn 1, 29.32" }%}
 
 }
 
@@ -51,10 +50,11 @@ Antiennes du Temps Ordinaire pour le carnet de chant
 		\times 2/3 { a8[ c c] }
 		c16[ c c d]
 		\times 2/3 { c8[ a g] } g4
+		\endBar
 	}
 	
 	\addlyrics {
-		«_Maî -- tre où de -- meu -- res -- tu ?_» «_Ve -- nez et vo -- yez._» Ils vin -- rent donc et de -- meu -- rèrent au -- près de lui ce jour -- là.
+		«_Maî -- tre où de -- meu -- res -- tu ?_» «_Ve -- nez et vo -- yez._» Ils vin -- rent donc et de -- meu -- rèrent au -- près de lui ce jour -- -là.
 	}
 	
 	%{"Jn 1, 38-39"%}
@@ -65,19 +65,21 @@ Antiennes du Temps Ordinaire pour le carnet de chant
 	\relative f'  {
 		\key f \major
 		\times 2/3 { r8_\( f[ g]\) } a8[\( g\)] a4
-		\times 2/3 { r8_\( c[ c]\) } b8[ c]
+		\times 2/3 { r8\( c[ c]\) } b8[ c]
 		a8[ bes16 bes]
 		bes16[ g a g] f4
-		%{\cesure%}
+		\cesure
 		a8[ a] a16[\( a\) a f]
 		\times 2/3 { g8[ g a] } g4
+		\indentLine
 		r8 bes8 bes8[ g]
 		\times 2/3 { bes8[\( bes\) c] }
 		\times 2/3 { bes8[ a f] } g4
-		%{\cesure%}
+		\cesure
 		\times 2/3 { a8[\( g\) c] } d4
-		%{\cesure%}
+		\cesure
 		e8[ d] c8[ a] a4
+		\endBar
 	}
 	
 	\addlyrics {
@@ -100,16 +102,17 @@ Antiennes du Temps Ordinaire pour le carnet de chant
 		g8[ c] c8[ d]
 		\times 2/3 { c8[ c e] }
 		\times 2/3 { d8[ e c] } c4
-		%{\cesure%}
+		\cesure
 		\times 2/3 { b8[\( c\) d] } d8[\( d\)] f8[ f] c4
-		\times 2/3 { r8_\( c[ a]\) } b8[ c] g4
-		%{\cesure%}
+		\times 2/3 { r8\( c[ a]\) } b8[ c] g4
+		\cesure
 		\times 2/3 { c8[ d c] }
 		\times 2/3 { c8[\( b\) a] }
 		\times 2/3 { c8[ d g,] } g4\( g8\) r8
+		\endBar
 	}
 	\addlyrics {
-		Sur les ha -- bi -- tants du pa -- ys de la mort, u -- ne lu -- miè -- re s'est le- vée : «_Con -- ver -- tis -- sez -- vous car le Roy -- au -- me des Cieux est tout pro -- che. »
+		Sur les ha -- bi -- tants du pa -- ys de la mort, u -- ne lu -- miè -- re s'est le -- vée : «_Con -- ver -- tis -- sez -- vous car le Roy -- au -- me des Cieux est tout pro -- che. »
 	}
 	%{"Mt 4, 16...17"%}
 	
@@ -122,11 +125,12 @@ Antiennes du Temps Ordinaire pour le carnet de chant
 		r8. f16 f16[ f e f] d4
 		r8 f8 g8[ a]
 		\times 2/3 { bes8[\( bes\) g] } a4
-		%{\cesure%}
+		\cesure
 		c16[ c c c]
-		\times 2/3 { c4\(%{\cesure%} c8\) }
+		\times 2/3 { c4\(\cesure c8\) }
 		\times 2/3 { c8[ bes a] }
 		\times 2/3 { g8[\( f\) g] } a4\( g8\) r8
+		\endBar
 	}
 
 	\addlyrics {
@@ -144,7 +148,7 @@ Antiennes du Temps Ordinaire pour le carnet de chant
 		f8[ f]
 		\times 2/3 { f8[ g a] }
 		\times 2/3 { c8[ a g] } g4
-		%{\cesure%}
+		\cesure
 		c16[ c c b] c8[ a] g8[ g]
 		\times 2/3 { g8[\( g\) g] }
 		\times 2/3 { g8[\( g\) a] }
@@ -153,6 +157,7 @@ Antiennes du Temps Ordinaire pour le carnet de chant
 		\times 2/3 { g8[ g a] }
 		f16[ f e f] g8[\( g\)]
 		r8 a16[ c] c16[\( c\) c c] c16[ c b! c] a4\( a8\) r8
+		\endBar
 	}
 
 	\addlyrics {
@@ -172,13 +177,14 @@ Antiennes du Temps Ordinaire pour le carnet de chant
 		\key f \major
 		r8 d16[ f]
 		\times 2/6 { g g g g a g } f4
-		%{\cesure%}
+		\cesure
 		f16[ a bes bes] bes16[ bes g a]
 		\times 2/3 { f4\( f8\) }
 		\times 2/3 { r8_\( f[ f]\) }
-		%{\cesure%}
+		\cesure
 		\times 2/3 { f8[ f d] } f4
 		\times 2/3 { g8[ a bes] } g4
+		\endBar
 	}
 	
 	\addlyrics {
