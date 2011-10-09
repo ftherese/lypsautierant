@@ -36,9 +36,9 @@ TRIOLETS
 \times 2/3 { a8[\( a\) a] }
 \times 2/3 { a8[ a\( a]\) }
 
-triolet avec silence lièu en bas :
+triolet avec silence lien en bas :
 \times 2/3 { r8_\( a[ a]\) }
-triolet avec silence lièu en haut:
+triolet avec silence lien en haut:
 \times 2/3 { r8\( a[ a]\) }
 triolet avec une noire et une croche
 \times 2/3 { a4\( a8\) }
@@ -111,8 +111,8 @@ AUTRES
 
 CANTIQUE MODELE VIERGE
 
-\version "2.12.0"
-\include "definitions.ly"
+\version "2.14.0"
+\include "DefinitionsAntiennesCarnet.ly"
 \markup { Psaume }	
 
 ANTIENNE MODELE VIERGE 
