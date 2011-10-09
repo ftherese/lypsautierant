@@ -32,12 +32,10 @@
 		a4\( a8\) r8
 		\endBar
 	}
-
 	\addlyrics {
 		J'ai vu l'Es -- prit des -- cen -- dre du ciel comme u -- ne co -- lom -- be et de -- meur -- er sur lui. Voi -- ci l'A -- gneau de Dieu qui en -- lè -- ve le pé -- ché du mon -- de.
+	\markup { \citation #"(Jn 1, 29.32)"}
 	}
-	%{\markup { \citation #"Jn 1, 29.32" }%}
-
 }
 
 \markup {"K 21 (B)"}
@@ -52,12 +50,10 @@
 		\times 2/3 { c8[ a g] } g4
 		\endBar
 	}
-	
 	\addlyrics {
-		«_Maî -- tre où de -- meu -- res -- tu ?_» «_Ve -- nez et vo -- yez._» Ils vin -- rent donc et de -- meu -- rèrent au -- près de lui ce jour -- -là.
+		«_Maî -- tre où de -- meu -- res -- -tu ?_» «_Ve -- nez et vo -- yez._» Ils vin -- rent donc et de -- meu -- rèrent au -- près de lui ce jour -- -là.
+	\markup { \citation #"(Jn 1, 38-39)"}
 	}
-	
-	%{"Jn 1, 38-39"%}
 }
 
 \markup {"K 22 (C)"}
@@ -84,9 +80,8 @@
 	
 	\addlyrics {
 		Le troi -- siè -- me jour, il y eut des noces à Ca -- na de Ga -- li -- lée, et la mè -- re de Jé -- sus é -- tait là. Le vin des no -- ces ve -- nant à man -- quer, el -- le lui dit : «_Ils n'ont plus de vin._»
+	\markup { \citation #"(Jn 2, 1-3)"}
 	}
-	
-	%{"Jn 2, 1-3"%}
 }
 
 
@@ -113,9 +108,8 @@
 	}
 	\addlyrics {
 		Sur les ha -- bi -- tants du pa -- ys de la mort, u -- ne lu -- miè -- re s'est le -- vée : «_Con -- ver -- tis -- sez -- vous car le Roy -- au -- me des Cieux est tout pro -- che. »
-	}
-	%{"Mt 4, 16...17"%}
-	
+	\markup { \citation #"(Mt 4, 16...17)"}
+	}	
 }
 	
 \markup {"K 31 (B)"}	
@@ -135,8 +129,8 @@
 
 	\addlyrics {
 		Les temps sont ac -- com -- plis, voi -- ci le Rè -- gne de Dieu : con -- ver -- tis -- sez -- vous, cro -- yez à la Bon -- ne Nou -- vel -- le.
+	\markup { \citation #"(Mc 1, 15)"}
 	}
-	%{"Mc 1, 15"%}
 }
 
 
@@ -162,8 +156,8 @@
 
 	\addlyrics {
 		L'Es -- prit du Sei -- gneur est sur moi car il m'a con -- sa -- cré par l'onc -- tion. Il m'a en -- vo -- yé por -- ter aux pau -- vres la Bon -- ne Nou -- vel -- le, an -- non -- cer aux ca -- ptifs la dé -- li -- vran -- ce, aux a -- veu -- gles le re -- tour à la lum -- ière.
+	\markup { \citation #"(Lc 4, 18)"}
 	}
-	%{"Lc 4, 18"%}
 }
 
 \markup {
@@ -181,16 +175,16 @@
 		f16[ a bes bes] bes16[ bes g a]
 		\times 2/3 { f4\( f8\) }
 		\times 2/3 { r8_\( f[ f]\) }
-		\cesure
 		\times 2/3 { f8[ f d] } f4
+		\cesure
 		\times 2/3 { g8[ a bes] } g4
 		\endBar
 	}
 	
 	\addlyrics {
 		Bien -- heu -- reux les mi -- sé -- ri -- cor -- dieux : il leur se -- ra fait mi -- sé -- ri -- cor -- de. Bien -- heu -- reux les coeurs purs, ils ver -- ront Dieu.
+	\markup { \citation #"(Mt 5, 7-8)"}
 	}
-	%{"Mt 5, 7-8"%}
 }
 
 %{
