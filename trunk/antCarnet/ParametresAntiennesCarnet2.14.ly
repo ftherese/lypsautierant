@@ -4,18 +4,17 @@
 %	annotate-spacing = ##t
 	#(set-paper-size "a5" 'landscape)
 	two-sided = ##t
+		inner-margin = 25\mm
+		outer-margin = 10\mm
+	top-margin = 5\mm
+	bottom-margin = 5\mm
 	print-page-number = ##f
+	page-breaking = #ly:minimal-breaking
 	system-system-spacing = #'((padding . 2) (basic-distance . 1))
 	page-limit-inter-system-space = ##t
 	page-limit-inter-system-space-factor = #1
-	obsolete-between-system-space = 1\mm  system-system-spacing #'basic-distance = #(/ obsolete-between-system-space staff-space)  score-system-spacing #'basic-distance = #(/ obsolete-between-system-space staff-space)
-	obsolete-page-top-space = 1\mm  top-system-spacing #'basic-distance = #(/ obsolete-page-top-space staff-space)
 	score-system-spacing = #'((padding . 1) (basic-distance . 1))
-	obsolete-between-system-padding = #2  system-system-spacing #'padding = #(/ obsolete-between-system-padding staff-space)  score-system-spacing #'padding = #(/ obsolete-between-system-padding staff-space)
-	line-width = 170\mm
 	indent = 0\mm
-	top-margin = 5\mm
-	left-margin = 30\mm
 	short-indent = 0\mm
 	ragged-right = ##t
 	ragged-last = ##t
@@ -120,7 +119,7 @@
 	
 	\context {
 		\Lyrics
-		\override LyricText #'font-name = #"TimesNewRoman"
+		\override LyricText #'font-name = #"Aharoni"
 		\override LyricText #'font-size = #-1
 		\override LyricText #'word-space = #0.9
 		\override LyricSpace #'minimum-distance = #0.5
