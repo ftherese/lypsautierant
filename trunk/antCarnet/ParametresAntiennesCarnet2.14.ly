@@ -104,7 +104,7 @@
 %%%%%%%%%%%%%%%%
 %		\override TupletNumber #'avoid-slur = #'outside %qu'est-ce que ‚àö√â¬¨√üa fait ?
 
-%		\override TupletNumber #'transparent = ##t
+		\override TupletNumber #'transparent = ##t
 		\override TupletBracket #'bracket-visibility = ##f
 		%\override TupletBracket #'control-points = #'((0 . 0) (2 . 2) (4 . 0) )
 	   
