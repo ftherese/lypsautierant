@@ -1,17 +1,14 @@
-﻿
-%{Antiennes du Temps Ordinaire pour le carnet de chant%}
+﻿%{Antiennes actuelles du TO dans le carnet des frères%}
 
 \version "2.14.0"
 \include "DefinitionsAntiennesCarnet.ly"
-
-
 
 
 \markup {
       		\fill-line{
                        	\line{"2ème SEMAINE DU T.O."}}
 	}
-\markup {"K 20 (A)"}
+
 \score {
 	\relative c''  {
 		r8 c
@@ -36,14 +33,16 @@
 		J'ai vu l'Es -- prit des -- cen -- dre du ciel comme u -- ne co -- lom -- be et de -- meur -- er sur lui. Voi -- ci l'A -- gneau de Dieu qui en -- lè -- ve le pé -- ché du mon -- de.
 	\markup { \citation #"(Jn 1, 29.32)"}
 	}
+	\header { opus = "K 20 (A)" }
 }
 
-\markup {"K 21 (B)"}
+
 \score {
 	\relative a'  {
 		a8[\( a\)] f16[ g g\( b\)] g4
 		r8 a
 		\times 2/3 { b8[ c a] } g4
+		\indentLine
 		r8 f g8[\( g\)] f4
 		\times 2/3 { a8[ c c] }
 		c16[ c c d]
@@ -54,9 +53,10 @@
 		«_Maî -- tre où de -- meu -- res -- -tu ?_» «_Ve -- nez et vo -- yez._» Ils vin -- rent donc et de -- meu -- rèrent au -- près de lui ce jour -- -là.
 	\markup { \citation #"(Jn 1, 38-39)"}
 	}
+	\header { opus = "K 21 (B)" }
 }
 
-\markup {"K 22 (C)"}
+
 \score {
 	\relative f'  {
 		\key f \major
@@ -77,11 +77,11 @@
 		e8[ d] c8[ a] a4
 		\endBar
 	}
-	
 	\addlyrics {
 		Le troi -- siè -- me jour, il y eut des noces à Ca -- na de Ga -- li -- lée, et la mè -- re de Jé -- sus é -- tait là. Le vin des no -- ces ve -- nant à man -- quer, el -- le lui dit : «_Ils n'ont plus de vin._»
 	\markup { \citation #"(Jn 2, 1-3)"}
 	}
+	\header { opus = "K 22 (C)" }
 }
 
 
@@ -91,7 +91,7 @@
                        	\line{"3ème SEMAINE DU T.O."}}
 }
 
-\markup {"K 30 (A)"}
+
 \score {
 	\relative c''  {
 		g8[ c] c8[ d]
@@ -99,6 +99,7 @@
 		\times 2/3 { d8[ e c] } c4
 		\cesure
 		\times 2/3 { b8[\( c\) d] } d8[\( d\)] f8[ f] c4
+		\indentLine
 		\times 2/3 { r8\( c[ a]\) } b8[ c] g4
 		\cesure
 		\times 2/3 { c8[ d c] }
@@ -109,10 +110,11 @@
 	\addlyrics {
 		Sur les ha -- bi -- tants du pa -- ys de la mort, u -- ne lu -- miè -- re s'est le -- vée : «_Con -- ver -- tis -- sez -- vous car le Roy -- au -- me des Cieux est tout pro -- che. »
 	\markup { \citation #"(Mt 4, 16...17)"}
-	}	
+	}
+	\header { opus = "K 30 (A)" }
 }
 	
-\markup {"K 31 (B)"}	
+	
 \score {
 	\relative f'  {
 		\key f \major
@@ -120,21 +122,22 @@
 		r8 f8 g8[ a]
 		\times 2/3 { bes8[\( bes\) g] } a4
 		\cesure
+		\indentLine
 		c16[ c c c]
 		\times 2/3 { c4\(\cesure c8\) }
 		\times 2/3 { c8[ bes a] }
 		\times 2/3 { g8[\( f\) g] } a4\( g8\) r8
 		\endBar
 	}
-
 	\addlyrics {
 		Les temps sont ac -- com -- plis, voi -- ci le Rè -- gne de Dieu : con -- ver -- tis -- sez -- vous, cro -- yez à la Bon -- ne Nou -- vel -- le.
 	\markup { \citation #"(Mc 1, 15)"}
 	}
+	\header { opus = "K 31 (B)" }
 }
 
 
-\markup {"K 32 (C)"}
+
 \score {
 	\relative a'  {
 		r8 a
@@ -145,6 +148,7 @@
 		\cesure
 		c16[ c c b] c8[ a] g8[ g]
 		\times 2/3 { g8[\( g\) g] }
+		\indentLine
 		\times 2/3 { g8[\( g\) a] }
 		\times 2/3 { g4\( g8\) }
 		\times 2/3 { r8_\( g[ g]\) }
@@ -153,11 +157,11 @@
 		r8 a16[ c] c16[\( c\) c c] c16[ c b! c] a4\( a8\) r8
 		\endBar
 	}
-
 	\addlyrics {
-		L'Es -- prit du Sei -- gneur est sur moi car il m'a con -- sa -- cré par l'onc -- tion. Il m'a en -- vo -- yé por -- ter aux pau -- vres la Bon -- ne Nou -- vel -- le, an -- non -- cer aux ca -- ptifs la dé -- li -- vran -- ce, aux a -- veu -- gles le re -- tour à la lum -- ière.
+		L'Es -- prit du Sei -- gneur est sur moi car il m'a con -- sa -- cré par l'onc -- tion. Il m'a en -- vo -- yé por -- ter aux pau -- vres la Bon -- ne Nou -- vel -- le, an -- non -- cer aux ca -- ptifs la dé -- li -- vran -- ce, aux a -- veu -- gles le re -- tour à la lu -- m -- ière.
 	\markup { \citation #"(Lc 4, 18)"}
 	}
+	\header { opus = "K 32 (C)" }
 }
 
 \markup {
@@ -165,7 +169,7 @@
                        	\line{"4ème SEMAINE DU T.O."}}
 }
 
-\markup {"K 40 (A)"}
+
 \score {
 	\relative f'  {
 		\key f \major
@@ -174,57 +178,71 @@
 		\cesure
 		f16[ a bes bes] bes16[ bes g a]
 		\times 2/3 { f4\( f8\) }
+		\indentLine
 		\times 2/3 { r8_\( f[ f]\) }
 		\times 2/3 { f8[ f d] } f4
 		\cesure
 		\times 2/3 { g8[ a bes] } g4
 		\endBar
 	}
-	
 	\addlyrics {
 		Bien -- heu -- reux les mi -- sé -- ri -- cor -- dieux : il leur se -- ra fait mi -- sé -- ri -- cor -- de. Bien -- heu -- reux les coeurs purs, ils ver -- ront Dieu.
 	\markup { \citation #"(Mt 5, 7-8)"}
 	}
+	\header { opus = "K 40 (A)" }
+}
+
+
+\score {
+	\relative f'  {
+		\key f \major
+		r8. a16 \times 2/5 {a16[a a a bes]}
+		\times 2/3 { a8[ f g] }
+		\times 2/6 { a a a bes g f } f4
+		\cesure
+		\indentLine
+		e8[ f] g8[\( g\)]
+		\times 2/3 { g8[ g a] } g8[ f] f4
+		\times 2/3 { f8[ f f] } e8[ g] a4\( a8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Voi -- là un en -- sei -- gne -- ment pro -- cla -- mé a -- vec au -- to -- ri -- té ! Il com -- man -- de même aux es -- prits mau -- vais et ils lui o -- bé -- is -- sent.
+	\markup { \citation #"(Mc 1, 27)" }
+	}
+	\header { opus = "K 41 (B)" }
+}
+	
+	
+\score {
+	\relative f'  {
+		\key f \major
+		r8 d f8[ f]
+		\times 2/3 { e8[ f d] } \slurDashed d4( f16[)\( g\) f\( d\)] f8[\( f\)]
+		\cesure
+		\times 2/3 { d8[\( d\) d] }
+		\times 2/3 { d8[\( f\) e] } d4
+		\cesure
+		d8[ f] f8[ g]
+		\times 2/3 { a4\( a8\) }
+		\cesure
+		\indentLine
+		\times 2/3 { f8[ a a] }
+		\times 2/3 { g8[ c a] } a8[ bes] g4
+		\cesure
+		g8[ g]
+		\times 2/3 { e8[ g a] }
+		\times 2/3 { \slurDashed f8([ f) g] } f8[ d] d4
+		\endBar
+	}
+	\addlyrics {
+		Je fais de toi en ce jour u -- ne vil -- le for -- te, u -- ne co -- lon -- ne de fer, un rem -- part de bron -- ze. Ils ne l'em -- por -- te -- ront pas sur toi, car je suis a -- vec toi pour te dé -- li -- vrer.
+	\markup { \citation #"(Jr 1, 18-19)" }
+	}
+	\header { opus = "K 42 (C)" }
 }
 
 %{
-
-K 41 (B)
-
-\key f \major
-r8. a16 \times 2/5 {a16[a a a bes]}
-\times 2/3 { a8[ f g] }
-\times 2/6 { a a a bes g f } f4
-\cesure
-e8[ f] g8[\( g\)]
-\times 2/3 { g8[ g a] } g8[ f] f4
-\times 2/3 { f8[ f f] } e8[ g] a4\( a8\) r8
-
-Voilà un enseignement proclamé avec autorité ! Il commande même aux esprits mauvais et ils lui obéissent.	(Mc 1, 27)
-
-
-K 42 (C)
-
-\key f \major
-r8 d f8[ f]
-\times 2/3 { e8[ f d] } \slurDashed d4( f16[)\( g\) f\( d\)] f8[\( f\)]
-\cesure
-\times 2/3 { d8[\( d\) d] }
-\times 2/3 { d8[\( f\) e] } d4
-\cesure
-d8[ f] f8[ g]
-\times 2/3 { a4\( a8\) }
-\cesure
-\times 2/3 { f8[ a a] }
-\times 2/3 { g8[ c a] } a8[ bes] g4
-\cesure
-g8[ g]
-\times 2/3 { e8[ g a] }
-\times 2/3 { \slurDashed f8([ f) g] } f8[ d] d4
-
-Je fais de toi en ce jour une ville forte, une colonne de fer, un rempart de bronze. Ils ne l'emporteront pas sur toi, car je suis avec toi pour te délivrer. 	(Jr 1, 18-19)
-
-
 
 5ème SEMAINE DU T.O.
 
