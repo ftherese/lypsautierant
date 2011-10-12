@@ -242,58 +242,81 @@
 	\header { opus = "K 42 (C)" }
 }
 
+\markup {
+      		\fill-line{
+                       	\line{"5ème SEMAINE DU T.O."}}
+}
+
+\score {
+	\relative a'  {
+		r8 c
+		d16[\( d\) g, a]
+		\times 2/3 { f8[\( g\) a] }
+		\times 2/3 { c4\( c8\) }
+		r8 c c8[ c]
+		\times 2/3 { e8[\( d\) c] }
+		\times 2/3 { c8[\( c\) c] } c8[ c]
+		\times 2/3 { a4\( a8\) }
+		\indentLine
+		r8 a f8[ g] a4
+		\times 2/3 { c8[ c\( c]\) } c8[\( c\)]
+		\indentLine
+		\times 2/3 { a8[ c d] }
+		\times 2/3 { d8[ d\( e]\) }
+		\times 2/3 { d8[\( c\) c] }
+		\times 2/3 { \slurDashed c8([ b) c] } a4
+		\endBar
+	}
+	\addlyrics {
+		Vous ê -- tes la lu -- miè -- re de mon -- de. Que bri -- lle vo -- tre lu -- miè -- re de -- vant les hom -- mes, a -- fin qu'ils voient vos bon -- nes oeu -- vres et glo -- ri -- fient vo -- tre Pè -- re qui est dans les cieux.	
+	\markup { \citation #"(Mt 5, 14.16)" }
+	}
+	\header { opus = "K 50 (A)" }
+}
+
+
+\score {
+	\relative c''  {
+		\times 2/3 { a8[ a a] }
+		\times 2/3 { c8[\( c\) \cesure c] }
+		\times 2/3 { c8[ d e] } d4
+		\cesure
+		\indentLine
+		r8 d16[ d] d16[ e a, b] c16[ c c c] c8[ c] b4
+		\times 2/3 { c8[ a g] } a4
+		\endBar
+	}
+	\addlyrics {
+		Bien a -- vant l'au -- be, Jé -- sus se le -- va, il sor -- tit et s'en al -- la dans un en -- droit dé -- sert pour y pri -- er.	
+	\markup { \citation #"(Lc 4, 42)" }
+	}
+	\header { opus = "K 51 (B)" }
+}
+
+
+\score {
+	\relative a'  {
+		\key f \major
+		a8[ g] a8[\( a\)]
+		\times 2/3 { r8\( c[ bes]\) } c16[ c c c]
+		\times 2/3 { c8[\( c\) c] } bes8[ g] a4
+		\indentLine
+		r8. f16 f16[ f f d]
+		\times 2/3 { f8[\( f\) f] }
+		\times 2/3 { f8[ g a] } a8[\( a\)]
+		\times 2/3 { a8[\cesure a c] } a4
+		\cesure
+		\times 2/3 { bes8[ g f] } g4\( g8\) r8
+		\endBar
+	}
+	\addlyrics {«_Sois sans crain -- te, dé -- sor -- mais ce sont des hom -- mes que tu pren -- dras._» A -- lors ils ra -- me -- nè -- rent les barques au ri -- va -- ge et, lais -- sant tout, ils le sui -- vi -- rent.
+	
+	\markup { \citation #"(Lc 5, 10-11)" }
+	}
+	\header { opus = "K 52 (C)" }
+}
+
 %{
-
-5ème SEMAINE DU T.O.
-
-
-K 50 (A)
-
-r8 c
-d16[\( d\) g a]
-\times 2/3 { f8[\( g\) a] }
-\times 2/3 { c4\( c8\) }
-r8 c c8[ c]
-\times 2/3 { e8[\( d\) c] }
-\times 2/3 { c8[\( c\) c] } c8[ c]
-\times 2/3 { a4\( a8\) }
-r8 a f8[ g] a4
-\times 2/3 { c8[ c\( c]\) } c8[ c]
-\times 2/3 { a8[ c d] }
-\times 2/3 { d8[ d\( e]\) }
-\times 2/3 { d8[\( c\) c] }
-\times 2/3 { \slurDashed c8([ b) c] } a4
-
-Vous êtes la lumière de monde. Que brille votre lumière devant les hommes, afin qu'ils voient vos bonnes oeuvres et glorifient votre Père qui est dans les cieux.	(Mt 5, 14.16)
-
-
-K 51 (B)
-
-\times 2/3 { a8[ a a] }
-\times 2/3 { c8[\( c\) \cesure c] }
-\times 2/3 { c8[ d e] } d4
-\cesure
-r8 d16[ d] d16[ e a b] c16[ c c c] c8[ c] b4
-\times 2/3 { c8[ a g] } a4
-
-Bien avant l'aube, Jésus se leva ; il sortit et s'en alla dans un endroit désert pour y prier.	(Lc 4, 42)
-
-
-K 52 (C)
-
-a8[ g] a8[\( a\)]
-\times 2/3 { r8_\( c[ bes]\) } c16[ c c c]
-\times 2/3 { c8[\( c\) c] } bes8[ g] a4
-r8. f16 f16[ f f d]
-\times 2/3 { f8[\( f\) f] }
-\times 2/3 { f8[ g a] } a8[\( a\)]
-\times 2/3 { a8[\cesure c a] } a4
-\cesure
-\times 2/3 { bes8[ g f] } g4\( g8\) r8
-
-« Sois sans crainte, désormais ce sont des hommes que tu prendras. » Alors ils ramenèrent les barques au rivage et, laissant tout, ils le suivirent.	(Lc 5, 10-11)
-
-
 
 6ème SEMAINE DU T.O.
 
