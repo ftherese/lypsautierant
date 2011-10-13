@@ -4,6 +4,8 @@
 \include "DefinitionsAntiennesCarnet.ly"
 
 
+
+
 \markup {
       		\fill-line{
                        	\line{"2ème SEMAINE DU T.O."}}
@@ -164,6 +166,8 @@
 	\header { opus = "K 32 (C)" }
 }
 
+
+
 \markup {
       		\fill-line{
                        	\line{"4ème SEMAINE DU T.O."}}
@@ -174,7 +178,7 @@
 	\relative f'  {
 		\key f \major
 		r8 d16[ f]
-		\times 2/6 { g g g g a g } f4
+		\times 2/6 { g16[ g g g a g] } f4
 		\cesure
 		f16[ a bes bes] bes16[ bes g a]
 		\times 2/3 { f4\( f8\) }
@@ -198,7 +202,7 @@
 		\key f \major
 		r8. a16 \times 2/5 {a16[a a a bes]}
 		\times 2/3 { a8[ f g] }
-		\times 2/6 { a a a bes g f } f4
+		\times 2/6 { a16[ a a bes g f] } f4
 		\cesure
 		\indentLine
 		e8[ f] g8[\( g\)]
@@ -212,7 +216,8 @@
 	}
 	\header { opus = "K 41 (B)" }
 }
-	
+
+
 	
 \score {
 	\relative f'  {
@@ -287,7 +292,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Bien a -- vant l'au -- be, Jé -- sus se le -- va, il sor -- tit et s'en al -- la dans un en -- droit dé -- sert pour y pri -- er.	
+		Bien a -- vant l'au -- be, Jé -- sus se le -- va. Il sor -- tit et s'en al -- la dans un en -- droit dé -- sert pour y pri -- er.	
 	\markup { \citation #"(Lc 4, 42)" }
 	}
 	\header { opus = "K 51 (B)" }
@@ -310,162 +315,228 @@
 		\endBar
 	}
 	\addlyrics {«_Sois sans crain -- te, dé -- sor -- mais ce sont des hom -- mes que tu pren -- dras._» A -- lors ils ra -- me -- nè -- rent les barques au ri -- va -- ge et, lais -- sant tout, ils le sui -- vi -- rent.
-	
 	\markup { \citation #"(Lc 5, 10-11)" }
 	}
 	\header { opus = "K 52 (C)" }
 }
 
+
+
+\markup {
+      		\fill-line{
+                       	\line{"6ème SEMAINE DU T.O."}}
+}
+
+\score {
+	\relative a'  {
+		\times 2/3 { g8[ c b] } a8[ b]
+		\times 2/3 { c8[ a g] } g4
+		\cesure
+		\times 2/3 { f8[ g a] } g4
+		r8 f a4
+		\cesure
+		\times 2/3 { c8[ b c] }
+		\times 2/3 { a4\(\cesure g8\) }
+		\times 2/3 { g8[ g a] }
+		\times 2/3 { g8[ g g] }
+		\indentLine
+		g16[\( g\) f g] a8[\( a\)]
+		\cesure
+		\times 2/3 { g8[ g\( g]\) }
+		\times 2/6 { b\( b\) c a a a }
+		\times 2/3 { g8[ f g] } a4
+		\indentLine
+		a16[ a a a] c16[ b c b] g4\( g8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Je ne suis pas ve -- nu a -- bo -- lir, mais ac -- com -- plir. A -- men, je vous le dis : a -- vant que le ciel et la ter -- re dis -- pa -- rais -- sent, pas u -- ne let -- tre ne dis -- pa -- raî -- tra de la loi jus -- qu'à ce que tout se ré -- a -- li -- se.
+	\markup { \citation #"(Mt 5, 17)" }
+	}
+	\header { opus = "K 60 (A)" }
+}
+
+
+\score {
+	\relative c''  {
+		r8 g16[ g] b16[ c d c] a4
+		a16[ a b a] g16[ g g g] a4
+		\cesure
+		\times 2/3 { a8[ b c] } d8.[\cesure d16]
+		\indentLine
+		d16[ d c d] b4
+		\cesure
+		\times 2/3 { b8[ b b] }
+		\times 2/3 { b4\(\cesure b8\) }
+		\times 2/3 { b8[ c b] } a8[ g] a4
+		\cesure
+		g8[ a] \times 2/3 { c8[ c c] } b4
+		\cesure
+		\indentLine
+		d8[ c] d4
+		\cesure
+		\times 2/3 { c8[ c d] } b4
+		\cesure
+		a8[ a] a8.[ a16] a16[\( a\) b g] g4
+		\endBar
+	}
+	\addlyrics {
+		Un lé -- preux vient à Jé -- sus, tombe à ses ge -- noux et le sup -- plie : «_Si tu le veux, tu peux me pu -- ri -- fier._» Pris de pi -- tié, Jé -- sus é -- ten -- dit la main, le tou -- cha et lui dit : «_Je le veux, sois pu -- ri -- fié._» A l'ins -- tant sa lè -- pre le quit -- ta.
+	\markup { \citation #"(Mc 1, 40...42)" }
+	}
+	\header { opus = "K 61 (B)" }
+}
+
+
+
+\score {
+	\relative c''  {
+		r8 a 
+		\times 2/3 { a8[ a\( a]\) }
+		g8[ a16 c]
+		c16[\( c\) c d] e8[\( e\)]
+		\times 2/3 { e8[ d e] }
+		\times 2/3 { c8[\( c\) c] }
+		\times 2/3 { c8[\( c\) c] } c8[ a]
+		\indentLine		
+		\times 2/3 { g4\( g8\) }
+		\cesure
+		c8[ e] d16[ f f d]
+		\times 2/3 { d8[ c c] } d8[ c] c4
+		\cesure
+		\times 2/3 { g8[ g\( g]\) }
+		g8[ a] b8.[ b16]
+		\indentLine
+		b16[\( b\) b c] b4
+		\times 2/3 { r8_\( g[ g]\) }
+		\times 2/3 { g8[ g a] }
+		\times 2/3 { c8[\( c\) c] }
+		\times 2/3 { c8[ c e] } d4\( d8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Heu -- reux ê -- tes- -- vous quand les hom -- mes vous ha -- ïs -- sent et vous re -- pous -- sent à cau -- se du Fils de l'hom -- me. Ce jour- -- là soy -- ez heu -- reux et sau -- tez de joie, car vo -- tre ré -- com -- pense est gran -- de dans le ciel_: c'est ain -- si que leurs pè -- res trai -- taient les pro -- phè -- tes. 
+	\markup { \citation #"(Lc 6, 22-23)" }
+	}
+	\header { opus = "K 62 (C)" }
+}
+
+
+\markup {
+      		\fill-line{
+                       	\line{"7ème SEMAINE DU T.O."}}
+}
+
+
+
+\score {
+	\relative f'	{
+		\key f \major
+		\times 2/3 { d8[\cesure e f] }
+		d8.[\cesure e16] d16[ d f f] f4
+		\cesure
+		f16[ d d f]
+		\times 2/5 {f16[f f f a]}
+		\times 2/3 { g8[\( g\)\cesure g] }
+		f16[ g\( a\) b]
+		\indentLine
+		b!8.[ b16]
+		a16[ a f\( g\)]
+		\times 2/3 { a8[\( a\) a] }
+		\times 2/3 { g8[ f g] } d4
+		\barre
+		r8 d
+		d8[\cesure a'] bes8[ a] a4
+		\indentLine
+		c16[\( c\) a\( bes\)]
+		\times 2/3 { c8[\( c\) c] }
+		\times 2/3 { c8[ a g] } f4
+		\endBar
+	}
+	\addlyrics {
+		Moi, je vous dis_: ai -- mez vos en -- ne -- mis, et pri -- ez pour ceux qui vous per -- sé -- cu -- tent, a -- fin d'ê -- tre vrai -- ment les fils de vo -- tre Pè -- re qui est dans les cieux. Vous donc, so -- yez par -- faits com -- me vo -- tre Pè -- re cé -- leste est par -- fait.
+	\markup { \citation #"(Mt 5, 44-45.48)" }
+	}
+	\header { opus = "K 70 (A)" }
+}
+
+
+
+
+\score {
+	\relative c''	{
+		g16[ c a g]
+		\times 2/3 { g8[ g f] } g8[ a]
+		g16[ a g f] g16[ a a a]
+		\times 2/3 { a8[ a b] }
+		\times 2/3 { a8[ a g] }
+		\indentLine
+		g8[ g]
+		\cesure
+		\times 2/3 { g8[ g b] } c8[\( c\)]
+		\cesure
+		d8[ e]
+		\times 2/3 { d8[ d d] }
+		c8[ d] b4
+		\cesure
+		c8[\( c\)] c4
+		\cesure
+		\times 2/3 { a8[ c d] }
+		\times 2/3 { c4\( c8\) }
+		\indentLine
+		\times 2/3 { c8[\( c\) b] } b4
+		\cesure
+		\times 2/3 { b8[\( c\) d] } c8[\( c\)]
+		\cesure
+		\times 2/3 { b8[ c a] }
+		\times 2/3 { g8[ g a] }
+		\slurDashed g4( f8[) g]
+		\times 2/3 { a8[ a a] }
+		\indentLine
+		c8[ b] g4\( g8\) r8
+		\endBar
+	}
+	\addlyrics {
+	«_Pour que vous sa -- chiez que le Fils de l'homme a le pou -- voir de par -- don -- ner les pé -- chés sur la ter -- re, je te l'or -- don  -- ne, dit Jé -- sus au pa -- ra -- ly -- sé, lè -- ve- -- toi, prends ton bran -- card et ren -- tre chez toi._» L'hom -- me se le -- va, prit aus -- si -- tôt son bran -- card et sor -- tit de -- vant tout le mon -- de.
+	\markup { \citation #"(Mc 2, 10-12)" }
+	}
+	\header { opus = "K 71 (B)" }
+}
+
+
+
+\score {
+	\relative c''	{
+		r8. b16
+		\times 2/5 {c16[d e d d]}
+		\slurDashed d4 ( e8[) f]
+		e8[\( d\)]
+		\times 2/6 { c16[ c c c d c] } c4
+		\times 2/3 { r8\( d[ d]\) }
+		\times 2/3 { d4\( b8\) } d8[ e]
+		\indentLine
+		\times 2/3 { d8[ c c] }
+		c4
+		r8. b16
+		\times 2/5 {b16[b c a g]} g4
+		r8 g8[ a]
+		\times 2/6 { a16[ a a a a a] }
+		\indentLine
+		\times 2/3 { a8[ c b] }
+		c16[\( c\) d d]
+		d8[ d] d8[ c] b4
+		\endBar
+	}
+	\addlyrics {
+		So -- yez mi -- sé -- ri -- cor -- dieux com -- me vo -- tre Père est mi -- sé -- ri -- cor -- dieux. Par -- don -- nez et vous se -- rez par -- don -- nés. Don -- nez et vous re -- ce -- vrez. La me -- su -- re dont vous vous ser -- vez pour les au -- tres ser -- vi -- ra aus -- si pour vous.
+	\markup { \citation #"(Lc 6, 36...38)" }
+	}
+	\header { opus = "K 72 (C)" }
+}
+
+
+
 %{
-
-6ème SEMAINE DU T.O.
-
-
-K 60 (A)
-
-\times 2/3 { g8[ c b] } a8[ b]
-\times 2/3 { c8[ a g] } g4
-\cesure
-\times 2/3 { f8[ g a] } g4
-r8 f a4
-\cesure
-\times 2/3 { c8[ b c] }
-\times 2/3 { a4\(\cesure g8\) }
-\times 2/3 { g8[ g a] }
-\times 2/3 { g8[ g g] } g16[\( g\) f g] a8[\( a\)]
-\cesure
-\times 2/3 { g8[ g\( g]\) }
-\times 2/6 { b\( b\) c a a a }
-\times 2/3 { g8[ f g] } a4
-a16[ a a a] c16[ b c b] g4\( g8\) r8
-
-Je ne suis pas venu abolir, mais accomplir. Amen, je vous le dis : avant que le ciel et la terre disparaissent, pas une lettre ne disparaîtra de la loi jusqu'à ce que tout se réalise.	(Mt 5, 17)
-
-
-K 61 (B)
-
-r8 g16[ g] b16[ c d c] a4
-a16[ a b a] g16[ g g g] a4
-\cesure
-\times 2/3 { a8[ b c] } d8.[\cesure d16] d16[ d c d] b4
-\cesure
-\times 2/3 { b8[ b b] }
-\times 2/3 { b4\(\cesure b8\) }
-\times 2/3 { b8[ c b] } a8[ g] a4
-\cesure
-g8[ a] \times 2/3 { c8[ c c] } b4
-\cesure d8[ c] d4
-\cesure \times 2/3 { c8[ c d] } b4
-\cesure
-a8[ a] a8.[ a16] a16[\( a\) b g] g4
-
-Un lépreux vient à Jésus, tombe à ses genoux et le supplie : « Si tu le veux, tu peux me purifier. » Pris de pitié, Jésus étendit la main, le toucha et lui dit : « Je le veux, sois purifié. » A l'instant sa lèpre le quitta. (Mc 1, 40...42)
-
-
-K 62 (C)
-
-r8 a 
-\times 2/3 { a8[ a\( a]\) }
-g8[ a16 c]
-c16[\( c\) c d] e8[\( e\)]
-\times 2/3 { e8[ d e] }
-\times 2/3 { c8[\( c\) c] }
-\times 2/3 { c8[\( c\) c] } c8[ a]
-\times 2/3 { g4\( g8\) }
-\cesure
-c8[ e] d16[ f f d]
-\times 2/3 { d8[ c c] } d8[ c] c4
-\cesure
-\times 2/3 { g8[ g\( g]\) }
-g8[ a] b8.[ b16] b16[\( b\) b c] b4
-\times 2/3 { r8_\( g[ g]\) }
-\times 2/3 { g8[ g a] }
-\times 2/3 { c8[\( c\) c] }
-\times 2/3 { c8[ c e] } d4\( d8\) r8
-
-Heureux êtes-vous quand les hommes vous haïssent et vous repoussent à cause du Fils de l'homme. Ce jour-là soyez heureux et sautez de joie, car votre récompense est grande dans le ciel ; c'est ainsi que leurs pères traitaient les prophètes. 	(Lc 6, 22-23)
-
-
-
-7ème SEMAINE DU T.O.
-
-
-K 70 (A)
-
-\key f \major
-\times 2/3 { d8[\cesure e f] }
-d8.[\cesure e16] d16[ d f f] f4
-\cesure
-f16[ d d f]
-\times 2/5 {f16[f f f a]}
-\times 2/3 { g8[\( g\)\cesure g] }
-f16[ g\( a\) b]
-b8.[ b16]
-a16[ a f\( g\)]
-\times 2/3 { a8[\( a\) a] }
-\times 2/3 { g8[ f g] } d4
-\barre
-r8 d
-d8[\cesure a] bes8[ a] a4
-c16[\( c\) a\( bes\)]
-\times 2/3 { c8[\( c\) c] }
-\times 2/3 { c8[ a g] } f4
-
-Moi, je vous dis : aimez vos ennemis, et priez pour ceux qui vous persécutent, afin d'être vraiment les fils de votre Père qui est dans les cieux. Vous donc, soyez parfaits comme votre Père céleste est parfait.		(Mt 5, 44-45.48)
-
-
-K 71 (B)
-
-g16[ c a g]
-\times 2/3 { g8[ g f] } g8[ a]
-g16[ a g f] g16[ a a a]
-\times 2/3 { a8[ a b] }
-\times 2/3 { a8[ a g] } g8[ g]
-\cesure
-\times 2/3 { g8[ g b] } c8[\( c\)]
-\cesure
-d8[ e]
-\times 2/3 { d8[ d d] }
-c8[ d] b4
-\cesure
-c8[\( c\)] c4
-\cesure
-\times 2/3 { a8[ c d] }
-\times 2/3 { c4\( c8\) }
-\times 2/3 { c8[\( c\) b] } b4
-\cesure
-\times 2/3 { b8[\( c\) d] } c8[\( c\)]
-\cesure
-\times 2/3 { b8[ c a] }
-\times 2/3 { g8[ g a] }
-\slurDashed g4( f8[) g]
-\times 2/3 { a8[ a a] }
-c8[ b] g4\( g8\) r8
-
-« Pour que vous sachiez que le Fils de l'homme a le pouvoir de pardonner les péchés sur la terre, je te l'ordonne, dit Jésus au paralysé, lève-toi, prends ton brancard et rentre chez toi. » L'homme se leva, prit aussitôt son brancard et sortit devant tout le monde.	(Mc 2, 10-12)
-
-
-K 72 (C)
-
-r8. b16
-\times 2/5 {c16[d e d d]}
-\slurDashed d4 ( e8[) f]
-e8[\( d\)]
-\times 2/6 { c c c c d c } c4
-\times 2/3 { r8_\( d[ d]\) }
-\times 2/3 { d4\( b8\) } d8[ e]
-\times 2/3 { d8[ c c] } c4
-r8. b16
-\times 2/5 {b16[b c a g]} g4
-r8 g8[ a]
-\times 2/6 { a a a a a a }
-\times 2/3 { a8[ c b] }
-c16[\( c\) d d]
-d8[ d] d8[ c] b4
-
-Soyez miséricordieux comme votre Père est miséricordieux. Pardonnez et vous serez pardonnés. Donnez et vous recevrez. La mesure dont vous vous servez pour les autres servira aussi pour vous.	(Lc 6, 36...38)
-
-
 
 8ème SEMAINE DU T.O.
 
