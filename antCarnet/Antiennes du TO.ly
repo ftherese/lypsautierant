@@ -4,7 +4,7 @@
 \include "DefinitionsAntiennesCarnet.ly"
 
 
-
+%{
 
 \markup {
       		\fill-line{
@@ -21,7 +21,7 @@
 		e8[\( e\)]
 		\times 2/3 { e8[ e e] }
 		e8[ c] d4
-		\indentLine
+		\ifIndent
 		r8 c
 		b8[ a]
 		a8[ a]
@@ -44,7 +44,7 @@
 		a8[\( a\)] f16[ g g\( b\)] g4
 		r8 a
 		\times 2/3 { b8[ c a] } g4
-		\indentLine
+		\ifIndent
 		r8 f g8[\( g\)] f4
 		\times 2/3 { a8[ c c] }
 		c16[ c c d]
@@ -69,7 +69,7 @@
 		\cesure
 		a8[ a] a16[\( a\) a f]
 		\times 2/3 { g8[ g a] } g4
-		\indentLine
+		\ifIndent
 		r8 bes8 bes8[ g]
 		\times 2/3 { bes8[\( bes\) c] }
 		\times 2/3 { bes8[ a f] } g4
@@ -101,7 +101,7 @@
 		\times 2/3 { d8[ e c] } c4
 		\cesure
 		\times 2/3 { b8[\( c\) d] } d8[\( d\)] f8[ f] c4
-		\indentLine
+		\ifIndent
 		\times 2/3 { r8\( c[ a]\) } b8[ c] g4
 		\cesure
 		\times 2/3 { c8[ d c] }
@@ -124,7 +124,7 @@
 		r8 f8 g8[ a]
 		\times 2/3 { bes8[\( bes\) g] } a4
 		\cesure
-		\indentLine
+		\ifIndent
 		c16[ c c c]
 		\times 2/3 { c4\(\cesure c8\) }
 		\times 2/3 { c8[ bes a] }
@@ -149,13 +149,14 @@
 		\times 2/3 { c8[ a g] } g4
 		\cesure
 		c16[ c c b] c8[ a] g8[ g]
+		\ifIndent
 		\times 2/3 { g8[\( g\) g] }
-		\indentLine
 		\times 2/3 { g8[\( g\) a] }
 		\times 2/3 { g4\( g8\) }
 		\times 2/3 { r8_\( g[ g]\) }
 		\times 2/3 { g8[ g a] }
 		f16[ f e f] g8[\( g\)]
+		\ifIndent
 		r8 a16[ c] c16[\( c\) c c] c16[ c b! c] a4\( a8\) r8
 		\endBar
 	}
@@ -182,7 +183,7 @@
 		\cesure
 		f16[ a bes bes] bes16[ bes g a]
 		\times 2/3 { f4\( f8\) }
-		\indentLine
+		\ifIndent
 		\times 2/3 { r8_\( f[ f]\) }
 		\times 2/3 { f8[ f d] } f4
 		\cesure
@@ -204,7 +205,7 @@
 		\times 2/3 { a8[ f g] }
 		\times 2/6 { a16[ a a bes g f] } f4
 		\cesure
-		\indentLine
+		\ifIndent
 		e8[ f] g8[\( g\)]
 		\times 2/3 { g8[ g a] } g8[ f] f4
 		\times 2/3 { f8[ f f] } e8[ g] a4\( a8\) r8
@@ -231,7 +232,7 @@
 		d8[ f] f8[ g]
 		\times 2/3 { a4\( a8\) }
 		\cesure
-		\indentLine
+		\ifIndent
 		\times 2/3 { f8[ a a] }
 		\times 2/3 { g8[ c a] } a8[ bes] g4
 		\cesure
@@ -262,10 +263,9 @@
 		\times 2/3 { e8[\( d\) c] }
 		\times 2/3 { c8[\( c\) c] } c8[ c]
 		\times 2/3 { a4\( a8\) }
-		\indentLine
 		r8 a f8[ g] a4
+		\ifIndent
 		\times 2/3 { c8[ c\( c]\) } c8[\( c\)]
-		\indentLine
 		\times 2/3 { a8[ c d] }
 		\times 2/3 { d8[ d\( e]\) }
 		\times 2/3 { d8[\( c\) c] }
@@ -286,8 +286,8 @@
 		\times 2/3 { c8[\( c\) \cesure c] }
 		\times 2/3 { c8[ d e] } d4
 		\cesure
-		\indentLine
 		r8 d16[ d] d16[ e a, b] c16[ c c c] c8[ c] b4
+		\ifIndent
 		\times 2/3 { c8[ a g] } a4
 		\endBar
 	}
@@ -305,7 +305,7 @@
 		a8[ g] a8[\( a\)]
 		\times 2/3 { r8\( c[ bes]\) } c16[ c c c]
 		\times 2/3 { c8[\( c\) c] } bes8[ g] a4
-		\indentLine
+		\ifIndent
 		r8. f16 f16[ f f d]
 		\times 2/3 { f8[\( f\) f] }
 		\times 2/3 { f8[ g a] } a8[\( a\)]
@@ -339,13 +339,13 @@
 		\times 2/3 { a4\(\cesure g8\) }
 		\times 2/3 { g8[ g a] }
 		\times 2/3 { g8[ g g] }
-		\indentLine
-		g16[\( g\) f g] a8[\( a\)]
+		g16[\( g\) f g]
+		\ifIndent
+		a8[\( a\)]
 		\cesure
 		\times 2/3 { g8[ g\( g]\) }
 		\times 2/6 { b\( b\) c a a a }
 		\times 2/3 { g8[ f g] } a4
-		\indentLine
 		a16[ a a a] c16[ b c b] g4\( g8\) r8
 		\endBar
 	}
@@ -363,16 +363,16 @@
 		a16[ a b a] g16[ g g g] a4
 		\cesure
 		\times 2/3 { a8[ b c] } d8.[\cesure d16]
-		\indentLine
+		\ifIndent
 		d16[ d c d] b4
 		\cesure
 		\times 2/3 { b8[ b b] }
-		\times 2/3 { b4\(\cesure b8\) }
+		\times 2/3 { b4\(\cesureBasse b8\) }
 		\times 2/3 { b8[ c b] } a8[ g] a4
 		\cesure
 		g8[ a] \times 2/3 { c8[ c c] } b4
 		\cesure
-		\indentLine
+		\ifIndent
 		d8[ c] d4
 		\cesure
 		\times 2/3 { c8[ c d] } b4
@@ -398,7 +398,7 @@
 		\times 2/3 { e8[ d e] }
 		\times 2/3 { c8[\( c\) c] }
 		\times 2/3 { c8[\( c\) c] } c8[ a]
-		\indentLine		
+		\ifIndent		
 		\times 2/3 { g4\( g8\) }
 		\cesure
 		c8[ e] d16[ f f d]
@@ -406,7 +406,7 @@
 		\cesure
 		\times 2/3 { g8[ g\( g]\) }
 		g8[ a] b8.[ b16]
-		\indentLine
+		\ifIndent
 		b16[\( b\) b c] b4
 		\times 2/3 { r8_\( g[ g]\) }
 		\times 2/3 { g8[ g a] }
@@ -432,23 +432,23 @@
 \score {
 	\relative f'	{
 		\key f \major
-		\times 2/3 { d8[\cesure e f] }
-		d8.[\cesure e16] d16[ d f f] f4
+		\times 2/3 { d8[\cesureBasse e f] }
+		d8.[\cesureTresBasse e16] d16[ d f f] f4
 		\cesure
 		f16[ d d f]
 		\times 2/5 {f16[f f f a]}
-		\times 2/3 { g8[\( g\)\cesure g] }
+		\times 2/3 { g8[\( g\)\cesureBasse g] }
 		f16[ g\( a\) b]
-		\indentLine
+		\ifIndent
 		b!8.[ b16]
 		a16[ a f\( g\)]
 		\times 2/3 { a8[\( a\) a] }
 		\times 2/3 { g8[ f g] } d4
 		\barre
 		r8 d
-		d8[\cesure a'] bes8[ a] a4
-		\indentLine
+		d8[\cesureBasse a'] bes8[ a] a4
 		c16[\( c\) a\( bes\)]
+		\ifIndent
 		\times 2/3 { c8[\( c\) c] }
 		\times 2/3 { c8[ a g] } f4
 		\endBar
@@ -470,7 +470,7 @@
 		g16[ a g f] g16[ a a a]
 		\times 2/3 { a8[ a b] }
 		\times 2/3 { a8[ a g] }
-		\indentLine
+		\ifIndent
 		g8[ g]
 		\cesure
 		\times 2/3 { g8[ g b] } c8[\( c\)]
@@ -483,7 +483,7 @@
 		\cesure
 		\times 2/3 { a8[ c d] }
 		\times 2/3 { c4\( c8\) }
-		\indentLine
+		\ifIndent
 		\times 2/3 { c8[\( c\) b] } b4
 		\cesure
 		\times 2/3 { b8[\( c\) d] } c8[\( c\)]
@@ -492,7 +492,7 @@
 		\times 2/3 { g8[ g a] }
 		\slurDashed g4( f8[) g]
 		\times 2/3 { a8[ a a] }
-		\indentLine
+		\ifIndent
 		c8[ b] g4\( g8\) r8
 		\endBar
 	}
@@ -503,7 +503,7 @@
 	\header { opus = "K 71 (B)" }
 }
 
-
+%}
 
 \score {
 	\relative c''	{
@@ -514,15 +514,15 @@
 		\times 2/6 { c16[ c c c d c] } c4
 		\times 2/3 { r8\( d[ d]\) }
 		\times 2/3 { d4\( b8\) } d8[ e]
-		\indentLine
+		\ifIndent
 		\times 2/3 { d8[ c c] }
 		c4
 		r8. b16
 		\times 2/5 {b16[b c a g]} g4
 		r8 g8[ a]
 		\times 2/6 { a16[ a a a a a] }
-		\indentLine
 		\times 2/3 { a8[ c b] }
+		\ifIndent
 		c16[\( c\) d d]
 		d8[ d] d8[ c] b4
 		\endBar
@@ -535,8 +535,8 @@
 }
 
 
-
 %{
+
 
 8ème SEMAINE DU T.O.
 
