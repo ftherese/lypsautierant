@@ -1,4 +1,4 @@
-﻿NOTES SEULES
+﻿sNOTES SEULES
 a4	la noire
 a8	la croche
 a16	la double-croche
@@ -63,7 +63,7 @@ QUINTOLETS
 \times 2/5 {a16[ a a\( a\) a]}
 \times 2/5 {a16[ a a a\( a\)]}
 
-\times 2/6 { a a a a a a }
+\times 2/6 { a16[ a a a a a] }
 
 noire croche liées pour finale:
 a4\( a8\) r8
@@ -81,8 +81,8 @@ Al -- le -- lu -- "ia !" _ _
 
 AUTRES
 \cesure
-\cesurebasse
-\cesuretresbasse
+\cesureBasse
+\cesureTresBasse
 \cesureall
 \barre		barre séparatrice
 \endBar		barre finale
