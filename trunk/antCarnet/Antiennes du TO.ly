@@ -4,12 +4,12 @@
 \include "DefinitionsAntiennesCarnet.ly"
 
 
-%{
+
 
 \markup {
       		\fill-line{
                        	\line{"2ème SEMAINE DU T.O."}}
-	}
+}
 
 \score {
 	\relative c''  {
@@ -253,6 +253,8 @@
                        	\line{"5ème SEMAINE DU T.O."}}
 }
 
+
+
 \score {
 	\relative a'  {
 		r8 c
@@ -263,8 +265,9 @@
 		\times 2/3 { e8[\( d\) c] }
 		\times 2/3 { c8[\( c\) c] } c8[ c]
 		\times 2/3 { a4\( a8\) }
-		r8 a f8[ g] a4
+		r8 a f8[ g]
 		\ifIndent
+		a4
 		\times 2/3 { c8[ c\( c]\) } c8[\( c\)]
 		\times 2/3 { a8[ c d] }
 		\times 2/3 { d8[ d\( e]\) }
@@ -278,6 +281,7 @@
 	}
 	\header { opus = "K 50 (A)" }
 }
+
 
 
 \score {
@@ -327,6 +331,9 @@
                        	\line{"6ème SEMAINE DU T.O."}}
 }
 
+
+
+
 \score {
 	\relative a'  {
 		\times 2/3 { g8[ c b] } a8[ b]
@@ -339,14 +346,16 @@
 		\times 2/3 { a4\(\cesure g8\) }
 		\times 2/3 { g8[ g a] }
 		\times 2/3 { g8[ g g] }
-		g16[\( g\) f g]
 		\ifIndent
+		g16[\( g\) f g]
 		a8[\( a\)]
 		\cesure
 		\times 2/3 { g8[ g\( g]\) }
-		\times 2/6 { b\( b\) c a a a }
+		\times 2/6 { b16[\( b\) c a a a] }
 		\times 2/3 { g8[ f g] } a4
-		a16[ a a a] c16[ b c b] g4\( g8\) r8
+		a16[ a a a]
+		\ifIndent
+		c16[ b c b] g4\( g8\) r8
 		\endBar
 	}
 	\addlyrics {
@@ -355,6 +364,7 @@
 	}
 	\header { opus = "K 60 (A)" }
 }
+
 
 
 \score {
@@ -503,7 +513,7 @@
 	\header { opus = "K 71 (B)" }
 }
 
-%}
+
 
 \score {
 	\relative c''	{
@@ -535,66 +545,96 @@
 }
 
 
+
+\markup {
+      		\fill-line{
+                       	\line{"8ème SEMAINE DU T.O."}}
+}
+
+\score {
+	\relative f'	{
+		\key f \major
+		f8[\( f\)]
+		\times 2/3 { f8[\( a\) g] } f8[\( f\)] d8[ f]
+		\times 2/3 { f8[ f f] } a8[ bes] a4
+		r8 c c8[ c]
+		\times 2/3 { c8[ a g] } f8[\( f\)]
+		\times 2/3 { f8[ g a] }
+		\ifIndent
+		g8[\( g\)]
+		\cesure
+		\times 2/3 { d8[ f f] }
+		\times 2/3 { f8[ f f] } g8[ f] f4
+		\endBar
+	}
+	\addlyrics {
+		Vot -- re Pè -- re cé -- les -- te sait de quoi vous a -- vez be -- soin. Cher -- chez d'a -- bord le Roy -- au -- me et sa ju -- sti -- ce, et le sur -- croît vous se -- ra don -- né.
+	\markup { \citation #"(Mt 6, 32-33)" }
+	}
+	\header { opus = "K 80 (A)" }
+}
+
+
+
+
+
+\score {
+	\relative f'	{
+		\key f \major
+		\times 2/3 { d8[ a' bes] } a8[ a]
+		a8.[\cesure a16]
+		a16[ g f g] a16[ g bes a] a4
+		r8 a c8[ c] c4 a8[ b]
+		\ifIndent
+		\times 2/3 { a8[ a g] }
+		\times 2/3 { f8[ g a] } g4
+		r8 e f4
+		\cesure
+		\times 2/3 { f8[ d e] } d4
+		\endBar
+	}
+	\addlyrics {
+		Tant que l'E -- poux est là, com -- ment ses com -- pa -- gnons jeû -- ne -- raient -- -ils_? Un jour vien -- dra où l'E -- poux leur se -- ra en -- le -- vé_: a -- lors, ils jeû -- ne -- ront.
+	\markup { \citation #"(Mc 2, 19-20)" }
+	}
+	\header { opus = "K 81 (B)" }
+}
+
+
+
+\score {
+	\relative f'	{
+		\key f \major
+		f8[\( g\)] bes4
+		\times 2/3 { bes8[\( bes\) g] }
+		\times 2/3 { bes8[ bes bes] }
+		\times 2/3 { c8[ bes a] }
+		\times 2/3 { g8[ f a] } g4
+		\cesure
+		\times 2/3 { g8[\( a\) c] } c4
+		\cesure
+		\times 2/3 { c8[\( d\) c] }
+		\ifIndent
+		\times 2/3 { a8[ a d] }
+		c16[ bes g a] g4
+		\cesure
+		\times 2/3 { c8[ d f] } f8[ d]
+		\times 2/3 { f8[\( f\) e] }
+		\times 2/3 { c4\( bes8\) }
+		\ifIndent
+		\times 2/3 { bes8[\( g\) a] }
+		g4\( g8\) r8
+		\endBar
+	}
+	\addlyrics {
+		L'hom -- me bon ti -- re le bien du tré -- sor de son coeur qui est bon. L'hom -- me mau -- vais ti -- re le mal de son coeur qui est mau -- vais_: car c'est de l'a -- bon -- dan -- ce du coeur que par -- le la bou -- che.
+	\markup { \citation #"(Lc 6, 45)" }
+	}
+	\header { opus = "K 82 (C)" }
+}
+
+
 %{
-
-
-8ème SEMAINE DU T.O.
-
-
-K 80 (A)
-
-\key f \major
-f8[\( f\)]
-\times 2/3 { f8[\( a\) g] } f8[\( f\)] d8[ f]
-\times 2/3 { f8[ f f] } a8[ bes] a4
-r8 c c8[ c]
-\times 2/3 { c8[ a g] } f8[\( f\)]
-\times 2/3 { f8[ g a] } g8[\( g\)]
-\cesure
-\times 2/3 { d8[ f f] }
-\times 2/3 { f8[ f f] } g8[ f] f4
-
-Votre Père céleste sait de quoi vous avez besoin. Cherchez d'abord le Royaume et sa justice, et le surcroît vous sera donné.	(Mt 6, 32-33)
-
-
-K 81 (B)
-
-\key f \major
-\times 2/3 { d,8[ a bes] } a8[ a]
-a8.[\cesure a16]
-a16[ g f g] a16[ g bes a] a4
-r8 a c8[ c] c4 a8[ b]
-\times 2/3 { a8[ a g] }
-\times 2/3 { f8[ g a] } g4
-r8 e f4
-\cesure
-\times 2/3 { f8[ d e] } d4
-
-Tant que l'Epoux est là, comment ses compagnons jeûneraient-ils ? Un jour viendra où l'Epoux leur sera enlevé : alors, ils jeûneront.	(Mc 2, 19-20)
-
-
-K 82 (C)
-
-f8[\( g\)] bes4
-\times 2/3 { b8[\( b\) g] }
-\times 2/3 { bes8[ b b] }
-\times 2/3 { c8[ bes a] }
-\times 2/3 { g8[ f a] } g4
-\cesure
-\times 2/3 { g8[\( a\) c] } c4
-\cesure
-\times 2/3 { c8[\( d\) c] }
-\times 2/3 { a8[ a d] }
-c16[ bes g a] g4
-\cesure
-\times 2/3 { c8[ d f] } f8[ d]
-\times 2/3 { f8[\( f\) e] }
-\times 2/3 { c4\( bes8\) }
-\times 2/3 { b8[\( g\) a] }
-g4\( g8\) r8
-
-L'homme bon tire le bien du trésor de son coeur qui est bon. L'homme mauvais tire le mal de son coeur qui est mauvais : car c'est de l'abondance du coeur que parle la bouche.	(Lc 6, 45)
-
 
 
 9ème SEMAINE DU T.O.
