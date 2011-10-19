@@ -634,261 +634,376 @@
 }
 
 
+
+\markup {
+      		\fill-line{
+                       	\line{"9ème SEMAINE DU T.O."}}
+}
+
+\score {
+	\relative a'	{
+		\key f \major
+		\times 2/3 { r8_\( f[ g]\) } a8[ a]
+		\times 2/3 { a8[ bes g] }
+		\times 2/3 { a4_\(\cesure c8\) }
+		c8[\cesure a] a4
+		\cesure
+		\times 2/3 { c8[ c c] }
+		c16[ c d e]
+		\times 2/3 { e8[\( d\) c] }
+		\ifIndent
+		c4
+		\cesure
+		a8[ a] a8[ a]
+		bes16[ a g a]
+		\times 2/3 { bes8[ bes bes] }
+		\times 2/3 { a8[\( a\) f] }
+		\times 2/3 { g8[ a g] } g4
+		\endBar
+	}
+	\addlyrics {
+		Ce n'est pas ce -- lui qui me dit_: «_Sei -- gneur, Sei -- gneur !_» qui en -- tre -- ra dans le Roy -- au -- me des cieux, mais ce -- lui qui fait la vo -- lon -- té de mon Pè -- re qui est dans les cieux.
+	\markup { \citation #"(Mt 7, 21)" }
+	}
+	\header { opus = "K 90 (A)" }
+}
+
+
+\score {
+	\relative f'	{
+		\key f \major
+		\times 2/3 { r8_\( a[ a]\) }
+		a8[ g] f8[ d] f8[\( f\)]
+		\times 2/3 { r8_\( f[ g]\) } a8[\( a\)]
+		\times 2/3 { c8[ c bes] } a4
+		\times 2/3 { r8_\( d,[ e]\) }
+		f8[ a] g8[ e]
+		\ifIndent
+		\times 2/3 { f8[\( f\) g] }
+		a16[\( a\) bes g] a4
+		\endBar
+	}
+	\addlyrics {
+		Le sab -- bat est fait pour l'hom -- me, et non l'hom -- me pour le sab -- bat. C'est pour -- quoi le Fils de l'hom -- me est maî -- tre du sab -- bat.
+	\markup { \citation #"(Mc 2, 27-28)" }
+	}
+	\header { opus = "K 91 (B)" }
+}
+
+
+\score {
+	\relative c''	{
+		r8 c a4
+		\cesure
+		c16[ c d e] d8[\( d\)] d8[ d]
+		f16[\( f\) f d] c4
+		r8 c
+		\times 2/3 { c8[ c c] }
+		f16[ f\( f\) d] c8[\( c\)]
+		\cesure
+		\ifIndent
+		a16[ a a a] a8[ c] d8[ c] c4
+		\endBar
+	}
+	\addlyrics {
+		Sei -- gneur, je ne suis pas di -- gne que tu en -- tres sous mon toit, mais dis seu -- le -- ment u -- ne pa -- ro -- le, et mon ser -- vi -- teur se -- ra gué -- ri.
+	\markup { \citation #"(Lc 7, 6-7)" }
+	}
+	\header { opus = "K 92 (C)" }
+}
+
+
+
+\markup {
+      		\fill-line{
+                       	\line{"10ème SEMAINE DU T.O."}}
+}
+
+\score {
+	\relative c''	{
+		r8 d d8[ b] d8[\( d\)]
+		\times 2/3 { e8[ d c] } c8[\( c\)]
+		\times 2/3 { a8[\( c\) b] } c8[\( a\)] g4
+		\cesure
+		\times 2/5 {f16[a c d e]} d8[\( d\)]
+		\times 2/3 { d8[ b c] }
+		\times 2/3 { d8[\( d\)\cesure c] }
+		\ifIndent
+		b16[ a b c]
+		\times 2/3 { b4_\( g8\) }
+		\cesure
+		b16[ b c b] a8[ c]
+		\times 2/3 { d8[ d d] } d8[ e]
+		\times 2/3 { d4\( d8\) }
+		\cesure
+		\times 2/3 { c8[ a g] } g4
+		\endBar
+	}
+	\addlyrics {
+		Al -- lez ap -- pren -- dre ce que veut di -- re cet -- te pa -- ro -- - -- le_: «_C'est la mi -- sé -- ri -- cor -- de que je dé -- si -- re et non le sa -- cri -- fi -- ce_»_; car je ne suis pas ve -- nu ap -- pe -- ler les jus -- tes, mais les pé -- cheurs.
+	\markup { \citation #"(Mt 9, 13)" }
+	}
+	\header { opus = "K 100 (A)" }
+}
+
+
+
+\score {
+	\relative f'	{
+		\key f \major
+		\times 2/3 { d8[ a' bes] } a8[\( a\)]
+		\cesure
+		\times 2/3 { a8[ g f] }
+		\times 2/3 { g4\( g8\) }
+		\cesure
+		\times 2/3 { f8[ e d] } e4
+		r8. f16 f8.[ f16]
+		f16[ f f f] e8[ f]
+		\ifIndent
+		d4
+		\times 2/3 { r8_\( f[ g]\) }
+		\slurDashed a4( a8[) bes]
+		\times 2/3 { a8[\( a\)\cesureBasse g] }
+		\times 2/3 { c8[ c a] }
+		g4\( g8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Qui est ma mè -- re_? Qui sont mes frè -- res_? dit le Sei -- gneur. Ce -- lui qui fait la vo -- lon -- té de Dieu, ce -- lui- -- là est mon frè -- re, ma soeur et ma mè -- re.
+	\markup { \citation #"(Mc 3, 33.35)" }
+	}
+	\header { opus = "K 101 (B)" }
+}
+
+
+
+\score {
+	\relative a'	{
+		r8 f a8[ a]
+		a16[\( a\) g a]
+		c8[ c] d8[ c] a8[\( a\)]
+		r8 a
+		\times 2/3 { c8[ c d] }
+		\times 2/3 { e8[ e c] } a4
+		\cesure
+		c16[ c c d]
+		\times 2/3 { c8[ b c] }
+		\ifIndent
+		a8[\( a\)]
+		\cesure
+		\times 2/3 { a8[ a a] }
+		\times 2/3 { a8[ g a] }
+		\times 2/3 { f4\( f8\) }
+		\cesure
+		\times 2/3 { f8[ f g] } a8[\( a\)] a8[ a]
+		\times 2/3 { a8[ c a] } g4
+		\cesure
+		\ifIndent
+		c16[ c c c] c8[ d] c4\( c8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Voy -- ant la veu -- ve qui pleu -- rait son fils u -- ni -- que, Jé -- sus fut sai -- si de pi -- tié. Il res -- sus -- ci -- ta le jeune hom -- me, et le ren -- dit à sa mè -- re. Un grand pro -- phè -- te s'est le -- vé par -- mi nous, Dieu a vi -- si -- té son peu -- ple_!
+	\markup { \citation #"(Lc 7, 13-16)" }
+	}
+	\header { opus = "K 102 (C)" }
+}
+
+
+
+
+\markup {
+      		\fill-line{
+                       	\line{"11ème SEMAINE DU T.O."}}
+}
+
+\score {
+	\relative d'	{
+		r8 a d8[\cesureTresBasse d16 d]
+		d16[ d e d]
+		\times 2/3 { c8[\( c\) d] }
+		\times 2/3 { c8[ f f] }
+		\times 2/3 { f4\( e8\) }
+		\times 2/3 { r8_\( c[ d]\) }
+		\times 2/3 { d8[ d g] } f8[\( f\)]
+		\cesure
+		\ifIndent
+		\times 2/3 { f8[ e f] }
+		d8[ c] c4
+		\times 2/3 { r8_\( f[ f]\) }
+		\times 2/3 { e8[ f d] }
+		\times 2/3 { d4\(\cesure c8\) }
+		\times 2/3 { d8[ f f] } f4
+		\cesure
+		f16[ e c d] e16[ f d c] c4
+		\ifIndent
+		r8 d d8[ f] d8[ e] d4
+		\endBar
+	}
+	\addlyrics {
+		Al -- lez, pro -- cla -- mez que le Roy -- au -- me des cieux est tout pro -- che. Gué -- ris -- sez les ma -- la -- des, res -- sus -- ci -- tez les morts, pu -- ri -- fiez les lé -- preux, chas -- sez les dé -- mons. Vous a -- vez re -- çu gra -- tui -- te -- ment, don -- nez gra -- tui -- te -- ment.
+	\markup { \citation #"(Mt 10, 7-8)" }
+	}
+	\header { opus = "K 110 (A)" }
+}
+
+
+
+\score {
+	\relative c''	{
+		\times 2/3 { r8_\( d,[ e]\) }
+		\times 2/3 { g8[\( a\) g] }
+		\times 2/3 { g8[ a bes] }
+		a8[\( a\)] a8[ g]
+		\times 2/3 { g8[\( g\) g] }
+		\times 2/3 { a8[\( c\) c] }
+		g4 g8[ a] g4
+		\cesure
+		\ifIndent
+		f8[ e]
+		\times 2/3 { f8[\cesure g g] }
+		a8[ f] f4
+		\cesure
+		e8[\( f\)]
+		\times 2/3 { g8[\( g\) a] }
+		\times 2/3 { c8[\( c\) c] }
+		a8[ g] g4
+		\times 2/3 { r8_\( f[ g]\) } a8[\( a\)]
+		\cesure
+		\ifIndent
+		a8[ g]
+		\times 2/3 { e4\(\cesure d8\) } f8[ g]
+		\times 2/3 { a8[ a g] } g4
+		\endBar
+	}
+	\addlyrics {
+		Le Roy -- au -- me des cieux est sem -- bla -- ble à un hom -- me qui jet -- te du grain dans son champ. Nuit et jour, il ne sait com -- ment, d'el -- le- -- mê -- me la ter -- re pro -- duit du fruit, d'a -- bord l'her -- be, puis l'é -- pi, en -- fin du blé plein l'é -- pi.
+	\markup { \citation #"(Mc 4, 26-28)" }
+	}
+	\header { opus = "K 111 (B)" }
+}
+
+
+
+\score {
+	\relative c''	{
+		\times 2/3 { d8[ d d] }
+		b8[ d] e8[ d] c4
+		r8 a16[ c]
+		c16[ \cesure b c a] g4
+		\cesure
+		a8[ c] c4
+		\cesure
+		\ifIndent
+		a16[ c c g] f8[ g] a8[ a] g4
+		\endBar
+	}
+	\addlyrics {
+		Elle a mon -- tré beau -- coup d'a -- mour, c'est pour -- quoi dit le Sei -- gneur, ses pé -- chés, ses nom -- breux pé -- chés sont par -- don -- nés.
+	\markup { \citation #"(Lc 7, 47)" }
+	}
+	\header { opus = "K 112 (C)" }
+}
+
+
+
+\markup {
+      		\fill-line{
+                       	\line{"12ème SEMAINE DU T.O."}}
+}
+
+\score {
+	\relative d'	{
+		\times 2/3 { f8[ f f] } d4
+		\cesure
+		d16[ d c d] f8[ a] g8[ g]
+		\times 2/3 { r8_\( a[ f]\) }
+		\times 2/3 { f8[ f d] } c4
+		\barre
+		r8. f16
+		g16[ a g a]
+		\ifIndent
+		c8[ b] c8[ a]
+		f16[ a g f] g8[\( f\)]
+		\times 2/3 { d8[ f f] }
+		f8[ f] d8[ c]
+		f16[ f f a] g4\( f8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Ne crai -- gnez pas_; ce que je vous dis dans l'om -- bre, di -- tes- -- le au grand jour. Ce -- lui qui se pro -- non -- ce -- ra pour moi de -- vant les hom -- mes, je me pro -- non -- ce -- rai pour lui de -- vant mon Pè -- re.
+	\markup { \citation #"(Mt 10, 26.27.32)" }
+	}
+	\header { opus = "K 120 (A)" }
+}
+
+
+
+\score {
+	\relative f'	{
+		\key f \major
+		r8 f
+		\times 2/3 { d4\(\cesure e8\) } f8[ g]
+		\times 2/3 { a8[\( a\) a] }
+		\times 2/3 { bes8[ a c] } a4
+		\cesure
+		\times 2/3 { a4\( a8\) }
+		\times 2/3 { a8[ g f] } g8[\( g\)]
+		r8 f
+		\times 2/3 { f8[ f e] }
+		\ifIndent
+		d4
+		r8 f
+		\times 2/3 { g8[ a a] }
+		\times 2/5 {a16[\cesureBasse a a g a]} c8[ bes] a4
+		\endBar
+	}
+	\addlyrics {
+		D'un mot, Jé -- sus maî -- tri -- se le vent et la mer. Puis il dit aux dis -- ci -- ples_: «_Pour -- quoi a -- voir peur_? Com -- ment se fait- -- il que vous n'ay -- ez pas la foi_?_»
+	\markup { \citation #"(Mc 4, 39-40)" }
+	}
+	\header { opus = "K 121 (B)" }
+}
+
+
+
+\score {
+	\relative a'	{
+		\key f \major
+		r8 f 
+		a16[ a a a]
+		\times 2/3 { a8[ g a] }
+		\times 2/3 { c4\( c8\) }
+		\times 2/3 { r8\( c[ d]\) }
+		\times 2/3 { e8[ c bes] }
+		\times 2/3 { c4\( c8\) }
+		r8 c
+		\times 2/3 { c8[\( c\) c] }
+		\times 2/3 { c8[ d c] }
+		\ifIndent
+		\slurDashed a4( \times 2/3 { f8[) g a] } g8[\( g\)]
+		\cesure
+		f8[ a]
+		a16[ a bes c] bes8[ a]
+		\times 2/3 { a8[ f g] } a4
+		\cesure
+		\times 2/3 { c8[ d e] }
+		d8[ c] c8[ c]
+		\ifIndent
+		\times 2/3 { c8[\( a\) c] } d4
+		\cesure
+		\times 2/3 { c8[ bes c] } a4
+		\endBar
+	}
+	\addlyrics {
+		Ce -- lui qui veut ve -- nir à ma sui -- te, qu'il re -- nonce à lui- -- mê -- me, qu'il por -- te sa croix cha -- que jour et qu'il me sui -- ve. Car ce -- lui qui veut sau -- ver sa vie la per -- dra, mais qui per -- dra sa vie à cau -- se de moi, la sau -- ve -- ra.
+	\markup { \citation #"(Lc 9, 23-24)" }
+	}
+	\header { opus = "K 122 (C)" }
+}
+
+
 %{
-
-
-9ème SEMAINE DU T.O.
-
-
-K 90 (A)
-
-\times 2/3 { r8_\( f[ g]\) } a8[ a]
-\times 2/3 { a8[ bes g] }
-\times 2/3 { a4\(\cesure c8\) }
-c8[\cesure a] a4
-\cesure
-\times 2/3 { c8[ c c] }
-c16[ c d e]
-\times 2/3 { e8[\( d\) c] } c4
-\cesure
-a8[ a] a8[ a]
-bes16[ a g a]
-\times 2/3 { bes8[ b b] }
-\times 2/3 { a8[\( a\) g] }
-\times 2/3 { g8[ a g] } g4
-
-Ce n'est pas celui qui me dit : « Seigneur, Seigneur ! » qui entrera dans le Royaume des cieux, mais celui qui fait la volonté de mon Père qui est dans les cieux.	(Mt 7, 21)
-
-
-K 91 (B)
-
-\key f \major
-\times 2/3 { r8_\( a[ a]\) }
-a8[ g] f8[ d] f8[\( f\)]
-\times 2/3 { r8_\( f[ g]\) } a8[\( a\)]
-\times 2/3 { c8[ c bes] } a4
-\times 2/3 { r8_\( d[ e]\) }
-f8[ a] g8[ e]
-\times 2/3 { f8[\( f\) g] }
-a16[\( a\) bes g] a4
-
-Le sabbat est fait pour l'homme, et non l'homme pour le sabbat. C'est pourquoi le Fils de l'homme est maître du sabbat.	(Mc 2, 27-28)
-
-
-K 92 (C)
-
-r8 c a4
-\cesure
-c16[ c d e] d8[\( d\)] d8[ d]
-f16[\( f\) f d] c4
-r8 c
-\times 2/3 { c8[ c c] }
-f16[ f f d] c8[\( c\)]
-\cesure
-a16[ a a a] a8[ c] d8[ a] c4
-
-Seigneur, je ne suis pas digne que tu entres sous mon toit, mais dis seulement une parole, et mon serviteur sera guéri.	(Lc 7, 6-7)
-
-
-
-10ème SEMAINE DU T.O.
-
-
-K 100 (A)
-
-r8 d d8[ b] d8[\( d\)]
-\times 2/3 { e8[ d c] } c8[\( c\)]
-\times 2/3 { a8[\( c\) b] } c8[\( a\)] g4
-\cesure
-\times 2/5 {f16[a c d e]} d8[\( d\)]
-\times 2/3 { d8[ b c] }
-\times 2/3 { d8[\( d\)\cesure c] }
-b16[ a b c]
-\times 2/3 { b4\( g8\) }
-\cesure
-b16[ b c b] a8[ c]
-\times 2/3 { d8[ d d] } d8[ e]
-\times 2/3 { d4\( d8\) }
-\cesure
-\times 2/3 { c8[ a g] } g4
-
-Allez apprendre ce que veut dire cette parole : « C'est la miséricorde que je désire et non le sacrifice » ; car je ne suis pas venu appeler les justes, mais les pécheurs.	(Mt 9, 13)
-
-
-K 101 (B)
-
-\times 2/3 { d,8[ a bes] } a8[\( a\)]
-\cesure
-\times 2/3 { f8[ e d] } e4
-r8. f16 f8.[ f16]
-f16[ f f f] e8[ f] d4
-\times 2/3 { r8_\( f[ g]\) }
-\slurDashed a4( a8[) bes]
-\times 2/3 { a8[\( a\)\cesure g] }
-\times 2/3 { c8[ c a] }
-g4\( g8\) r8
-
-Qui est ma mère ? Qui sont mes frères ? dit le Seigneur. Celui qui fait la volonté de Dieu, celui-là est mon frère, ma soeur et ma mère.	(Mc 3, 33.35)
-
-
-K 102 (C)
-
-r8 f a8[ a]
-a16[\( a\) g a]
-c8[ c] d8[ c] a8[\( a\)]
-r8 a
-\times 2/3 { c8[ c d] }
-\times 2/3 { e8[ e c] } a4
-\cesure
-c16[ c c d]
-\times 2/3 { c8[ b c] } a8[\( a\)]
-\cesure
-\times 2/3 { a8[ a a] }
-\times 2/3 { a8[ g a] }
-\times 2/3 { f4\( f8\) }
-\cesure
-\times 2/3 { f8[ f g] } a8[\( a\)] a8[ a]
-\times 2/3 { a8[ c a] } g4
-\cesure
-c16[ c c c] c8[ d] c4\( c8\) r8
-
-Voyant la veuve qui pleurait son fils unique, Jésus fut saisi de pitié. Il ressuscita le jeune homme, et le rendit à sa mère. Un grand prophète s'est levé parmi nous, Dieu a visité son peuple ! (Lc 7, 13-16)
-
-
-
-11ème SEMAINE DU T.O.
-
-
-K 110 (A)
-
-r8 a, d8[\cesure d16 d]
-d16[ d e d]
-\times 2/3 { c8[\( c\) d] }
-\times 2/3 { c8[ f f] }
-\times 2/3 { f4\( e8\) }
-\times 2/3 { r8_\( c[ d]\) }
-\times 2/3 { d8[ d g] } f8[\( f\)]
-\cesure
-\times 2/3 { f8[ e f] } d8[ c]
-\times 2/3 { r8_\( f[ f]\) }
-\times 2/3 { e8[ f d] }
-\times 2/3 { d4\(\cesure c8\) }
-\times 2/3 { d8[ f f] } f4
-\cesure
-f16[ e c d] e16[ f d c]
-r8 d d8[ f] d8[ e] d4
-
-Allez, proclamez que le Royaume des cieux est tout proche. Guérissez les malades, ressuscitez les morts, purifiez les lépreux, chassez les démons. Vous avez reçu gratuitement, donnez gratuitement.	(Mt 10, 7-8)
-
-
-K 111 (B)
-
-\times 2/3 { r8_\( d[ e]\) }
-\times 2/3 { e8[\( a\) e] }
-\times 2/3 { g8[ a bes] }
-a8[\( a\)] a8[ g]
-\times 2/3 { g8[\( g\) g] }
-\times 2/3 { a8[\( c\) c] }
-g4 g8[ a] g4
-\cesure
-f8[ e]
-\times 2/3 { f8[\cesure g g] }
-a8[ f] f4
-\cesure
-e8[\( f\)]
-\times 2/3 { g8[\( g\) a] }
-\times 2/3 { c8[\( c\) c] }
-a8[ g] g4
-\times 2/3 { r8_\( f[ g]\) } a8[\( a\)]
-\cesure
-a8[ g]
-\times 2/3 { e4\(\cesure d8\) } f8[ g]
-\times 2/3 { a8[ a g] } g4
-
-Le Royaume des cieux est semblable à un homme qui jette du grain dans son champ. Nuit et jour, il ne sait comment, d'elle-même la terre produit du fruit, d'abord l'herbe, puis l'épi, enfin du blé plein l'épi.	(Mc 4, 26-28)
-
-
-K 112 (C)
-
-\times 2/3 { d8[ d d] }
-b8[ d] e8[ d] c4
-r8 a16[ c]
-c16[ b\cesure c a] g4
-\cesure
-a8[ c] c4
-\cesure
-a16[ c c g] f8[ g] a8[ a] g4
-
-Elle a montré beaucoup d'amour, c'est pourquoi dit le Seigneur, ses péchés, ses nombreux péchés sont pardonnés.	(Lc 7, 47)
-
-
-
-12ème SEMAINE DU T.O.
-
-
-K 120 (A)
-
-\times 2/3 { f8[ f f] } d4
-\cesure
-d16[ d c d] f8[ a] g8[ g]
-\times 2/3 { r8_\( a[ f]\) }
-\times 2/3 { f8[ f d] } c4
-\cesure
-r8. f16
-g16[ a g a] c8[ b] c8[ a]
-f16[ a g f] g8[\( f\)]
-\times 2/3 { d8[ f f] }
-f8[ f] d8[ c]
-f16[ f f a] g4\( f8\) r8
-
-Ne craignez pas ; ce que je vous dis dans l'ombre, dites-le au grand jour. Celui qui se prononcera pour moi devant les hommes, je me prononcerai pour lui devant mon Père.	(Mt 10, 26.27.32)
-
-
-K 121 (B)
-
-r8 f
-\times 2/3 { d4\(\cesure e8\) } f8[ g]
-\times 2/3 { a8[\( a\) a] }
-\times 2/3 { bes8[ a c] }
-\cesure
-\times 2/3 { a4\( a8\) }
-\times 2/3 { a8[ g f] } g8[\( g\)]
-r8 f
-\times 2/3 { f8[ f e] } d4
-r8 f
-\times 2/3 { g8[ a a] }
-\times 2/5 {a16[\cesure a a g a]} c8[ bes] a4
-
-D'un mot, Jésus maîtrise le vent et la mer. Puis il dit aux disciples : « Pourquoi avoir peur ? Comment se fait-il que vous n'ayez pas la foi ? »	(Mc 4, 39-40)
-
-
-K 122 (C)
-
-r8 f 
-a16[ a a a]
-\times 2/3 { a8[ g a] }
-\times 2/3 { c4\( c8\) }
-\times 2/3 { r8_\( c[ d]\) }
-\times 2/3 { e8[ c bes] }
-\times 2/3 { c4\( c8\) }
-r8 c
-\times 2/3 { c8[\( c\) c] }
-\times 2/3 { c8[ d c] }
-\slurDashed a4( \times 2/3 { f8[) g a] } g8[\( g\)]
-\cesure
-f8[ a]
-a16[ a bes c] b8[ a]
-\times 2/3 { a8[ f g] } a4
-\cesure
-\times 2/3 { c8[ d e] }
-d8[ c] c8[ c]
-\times 2/3 { c8[\( a\) c] } d4
-\cesure
-\times 2/3 { c8[ bes c] } a4
-
-Celui qui veut venir à ma suite, qu'il renonce à lui-même, qu'il porte sa croix chaque jour et qu'il me suive. Car celui qui veut sauver sa vie la perdra, mais qui perdra sa vie à cause de moi, la sauvera.	(Lc 9, 23-24)
-
-
 
 13ème SEMAINE DU T.O.
 
