@@ -359,7 +359,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Je ne suis pas ve -- nu a -- bo -- lir, mais ac -- com -- plir. A -- men, je vous le dis : a -- vant que le ciel et la ter -- re dis -- pa -- rais -- sent, pas u -- ne let -- tre ne dis -- pa -- raî -- tra de la loi jus -- qu'à ce que tout se ré -- a -- li -- se.
+		Je ne suis pas ve -- nu a -- bo -- lir, mais ac -- com -- plir. A -- men, je vous le dis_: a -- vant que le ciel et la ter -- re dis -- pa -- rais -- sent, pas u -- ne let -- tre ne dis -- pa -- raî -- tra de la loi jus -- qu'à ce que tout se ré -- a -- li -- se.
 	\markup { \citation #"(Mt 5, 17)" }
 	}
 	\header { opus = "K 60 (A)" }
@@ -391,7 +391,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Un lé -- preux vient à Jé -- sus, tombe à ses ge -- noux et le sup -- plie : «_Si tu le veux, tu peux me pu -- ri -- fier._» Pris de pi -- tié, Jé -- sus é -- ten -- dit la main, le tou -- cha et lui dit : «_Je le veux, sois pu -- ri -- fié._» A l'ins -- tant sa lè -- pre le quit -- ta.
+		Un lé -- preux vient à Jé -- sus, tombe à ses ge -- noux et le sup -- plie_: «_Si tu le veux, tu peux me pu -- ri -- fier._» Pris de pi -- tié, Jé -- sus é -- ten -- dit la main, le tou -- cha et lui dit : «_Je le veux, sois pu -- ri -- fié._» A l'ins -- tant sa lè -- pre le quit -- ta.
 	\markup { \citation #"(Mc 1, 40...42)" }
 	}
 	\header { opus = "K 61 (B)" }
@@ -1003,411 +1003,566 @@
 }
 
 
+
+
+\markup {
+      		\fill-line{
+                       	\line{"13ème SEMAINE DU T.O."}}
+}
+
+\score {
+	\relative f'	{
+		\key f \major
+		\times 2/3 { f8[ d c] }
+		\times 2/3 { d8[\( f\) a] }
+		\times 2/3 { g4\( a8\) }
+		\cesure
+		\times 2/3 { f8[ a g] }
+		\times 2/3 { a8[\( a\) g] }
+		\times 2/3 { f8[\( f\) g] }
+		\times 2/3 { f8[ d f] } 
+		f8[ g] f4
+		\ifIndent
+		r8. d16
+		d16[\( d\) f d] d8[ d]
+		\times 2/3 { f8[\( f\)\cesureBasse g] }
+		\times 2/3 { a8[ a g] }
+		\times 2/3 { a8[\( a\) bes] }
+		\times 2/3 { a8[\( a\) f] }
+		g8[ f] e8[ f] d4
+		\cesure
+		\ifIndent
+		d16[ d d d]
+		\times 2/3 { d8[ f e] } c8[\( d\)]
+		r8 f a4
+		\cesure
+		\times 2/3 { g8[ f g] } d4
+		\cesure
+		d16[ d e f]
+		f16[ e d e] e4\( d8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Qui vous ac -- cueil -- le m'ac -- cueil -- le et qui m'ac -- cueil -- le ac -- cueil -- le Ce -- lui qui m'a en -- vo -- yé. Qui -- con -- que don -- ne -- ra à boi -- re, ne fût- -- ce qu'un ver -- re d'eau fraî -- che à l'un de ces pe -- tits, en sa qua -- li -- té de di -- sci -- ple, a -- men, je vous le dis_: il ne per -- dra pas sa ré -- com -- pen -- se.
+	\markup { \citation #"(Mt 10, 40.42)" }
+	}
+	\header { opus = "K 130 (A)" }
+}
+
+
+\score {
+	\relative f'	{
+		\key f \major
+		\times 2/3 { r8_\( f[ g]\) }
+		\times 2/3 { a8[\( a\)\cesure a] }
+		a8[ bes] g4
+		\times 2/3 { g8[ g g] }
+		\times 2/3 { g8[ bes g] } a4
+		\cesure
+		\times 2/3 { g8[ f e] }
+		f8[\( f\)] f8[ f]
+		f16[ e d c]
+		\ifIndent
+		d4
+		r8. f16
+		g16[\( a\) a g] a4
+		r8 bes16[ g]
+		f16[\( f\) f f]
+		f16[ f e f] d4
+		\cesure
+		c8[ d] f8[ e] d4
+		\ifIndent
+		\times 2/3 { r8_\( d[ d]\) }
+		\times 2/3 { d4\(\cesure d8\) }
+		\times 2/3 { e8[ f d] } d4
+		\endBar
+	}
+	\addlyrics {
+		U -- ne fem -- me ay -- ant ap -- pris ce qu'on di -- sait de Jé -- sus, vint par der -- riè -- re et tou -- cha son vê -- te -- ment. Car el -- le se di -- sait_: «_Si je tou -- che seu -- le -- ment son vê -- te -- ment, je se -- rai sau -- vée._» A l'ins -- tant, son mal fut gué -- ri.
+	\markup { \citation #"(Mc 5, 27-29)" }
+	}
+	\header { opus = "K 131 (B)" }
+}
+
+
+
+\score {
+	\relative c''	{
+		r8 a g8[ a]
+		f16[ f f g] a4
+		c8[ c]
+		\times 2/3 { c8[ d c] } a8[\( a\)]
+		\cesure
+		\times 2/3 { c8[ d e] } d4
+		\cesure
+		\ifIndent
+		c8[ a]
+		g16[\( g\) f g]
+		\times 2/3 { a8[\( a\) a] } g4
+		\endBar
+	}
+	\addlyrics {
+		Qui met la main à la char -- rue et re -- garde en ar -- riè -- re, dit le Sei -- gneur, n'est pas di -- gne du Roy -- au -- me de Dieu.
+	\markup { \citation #"(Lc 9, 62)" }
+	}
+	\header { opus = "K 132 (C)" }
+}
+
+
+\markup {
+      		\fill-line{
+                       	\line{"14ème SEMAINE DU T.O."}}
+}
+
+
+\score {
+	\relative f'	{
+		\key f \major
+		\times 2/3 { c8[ d d] }
+		a'8[\( bes\)] a4
+		\cesure
+		\times 2/3 { a8[\( a\)\cesure f] }
+		g8[ a]
+		a16[ a g bes]
+		a8[\( a\)]
+		\cesure
+		a16[ f f f]
+		\times 2/3 { f8[ d f] }
+		f16[\( f\) g f]
+		\ifIndent
+		\times 2/3 { f8[\( f\) a] }
+		g16[ g f g] d4
+		\cesure
+		\times 2/3 { d8[ c d] }
+		\times 2/3 { f8[ g g] }
+		g8[ f] e8[ c] d4
+		\endBar
+	}
+	\addlyrics {
+		Je te rends grâ -- - -- ce, Pè -- re, Sei -- gneur du ciel et de la ter -- re, car tu as ca -- ché les mys -- tè -- res du Roy -- au -- me aux sages et aux sa -- vants, et tu les a ré -- vé -- lés aux tout- -- pe -- tits.
+	\markup { \citation #"(Mt 11, 25)" }
+	}
+	\header { opus = "K 140 (A)" }
+}
+
+
+
+\score {
+	\relative f'	{
+		\key f \major
+		\times 2/3 { a8[ a a] }
+		a8[\cesureBasse d,] e8[ f] f4
+		\cesure
+		a8[ a] a8[\( a\)]
+		\times 2/3 { a8[ bes c] }
+		\times 2/3 { a8[ f f] }
+		e8[ f] d4
+		\cesure
+		\ifIndent
+		\times 2/3 { f8[ f f] }
+		\times 2/3 { f8[ f f] }
+		\times 2/3 { f8[ g bes] } a4
+		r8 c
+		c16[\cesure c c c]
+		\times 2/3 { c8[ bes g] }
+		a16[ f e f] d4\( d8\) r8
+		\endBar
+	}
+	\addlyrics {
+		A Na -- za -- reth, Jé -- sus di -- sait_: «_Un pro -- phè -- te n'est mé -- pri -- sé que dans son pa -- ys, sa pa -- ren -- té et sa pro -- pre mai -- son._» Et là, il ne pou -- vait ac -- com -- plir au -- cun mi -- ra -- cle.
+	\markup { \citation #"(Mc 6, 4-5)" }
+	}
+	\header { opus = "K 141 (B)" }
+}
+
+
+
+\score {
+	\relative f'	{
+		\key f \major
+		d8[ d]
+		\times 2/5 {a'16[\( a\) a a bes]}
+		\times 2/3 { a8[ a c] } a4
+		r8 a
+		a8[ g] a4
+		\cesure
+		\times 2/6 { f16[ f g a a a] } c4
+		\times 2/3 { c8[ c c] }
+		\ifIndent
+		c8[ c]
+		c16[ c c b!] a4
+		\cesure
+		\times 2/5 {a16[g a f g]} a4
+		a16[ a a a]
+		\times 2/3 { c4\( c8\) }
+		\times 2/3 { c8[\( c\) a] }
+		\ifIndent
+		\times 2/3 { g8[ a f] } f4
+		\endBar
+	}
+	\addlyrics {
+		Aux dis -- ci -- ples qu'il en -- voy -- ait de -- vant lui, Jé -- sus di -- sait_: «_Ne vous ré -- jou -- is -- sez pas de ce que les es -- prits vous sont sou -- mis_; mais ré -- jou -- i -- ssez- -- vous de ce que vos noms se trou -- vent ins -- crits dans les cieux. »
+	\markup { \citation #"(Lc 10, 20)" }
+	}
+	\header { opus = "K 142 (C)" }
+}
+
+
+
+\markup {
+      		\fill-line{
+                       	\line{"15ème SEMAINE DU T.O."}}
+}
+
+\score {
+	\relative f'	{
+		\key f \major
+		r8. d16
+		f16[ f f g]
+		\times 2/3 { a8[ a bes] }
+		\times 2/3 { c8[ bes a] } a4
+		r8 a
+		\times 2/3 { a8[ g a] }
+		\times 2/3 { d,8[ e f] }
+		g8[\( a\)]
+		\times 2/3 { g4\( g8\) }
+		\cesure
+		\ifIndent
+		c16[ c c d] c8[ a] g4
+		r8 f g4
+		\cesure
+		\times 2/3 { a8[\( bes\) a] }
+		g8[\( g\)]
+		r8 g a8[\( f\)] e4\( d8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Voi -- ci que le se -- meur est sor -- ti pour se -- mer. Des grains sont tom -- bés dans la bon -- ne ter -- re et ils ont don -- né du fruit, l'un cent, l'au -- tre soi -- xan -- te, et l'au -- tre tren -- te.
+	\markup { \citation #"(Mt 13, 3.8)" }
+	}
+	\header { opus = "K 150 (A)" }
+}
+
+
+\score {
+	\relative a'	{
+		\times 2/3 { f8[ f a] }
+		\times 2/3 { c8[\( c\)\cesure c] }
+		c16[ c e d] c4
+		\cesure
+		\times 2/3 { a8[ a a] }
+		\slurDashed a4( a16[) a g a] f4
+		r8 g g8[ a]
+		\ifIndent
+		\slurDashed c4( c8[) c]
+		\times 2/3 { c8[ d e] } c4
+		\cesure
+		\times 2/3 { a8[ a a] }
+		a8[\( a\)]
+		g16[ a c b]
+		a8.[\cesure f16]
+		f16[ f f f]
+		\times 2/3 { f8[ g bes] }
+		\ifIndent
+		a16[\( a\) g a] f4
+		\times 2/3 { r8_\( a[ a]\) }
+		c8[ c]
+		c16[ c a g]
+		a4\( a8\) r8
+		\endBar
+	}
+	\addlyrics {
+		A ses a -- pô -- tres, Jé -- sus re -- com -- man -- dait_: «_Quand vous en -- trez dans u -- ne mai -- son, de -- meu -- rez- -- y jus -- qu'à vo -- tre dé -- part. Si l'on re -- fu -- se de vous ac -- cueil -- lir, par -- tez en se -- cou -- ant la pous -- siè -- re de vos pieds_: ce se -- ra pour eux un té -- moi -- gna -- ge. »
+	\markup { \citation #"(Mc 6, 10-11)" }
+	}
+	\header { opus = "K 151 (B)" }
+}
+
+
+
+\markup { "K 152 (C)  Cf. K 300" }
+
+
+
+
+\markup {
+      		\fill-line{
+                       	\line{"16ème SEMAINE DU T.O."}}
+}
+
+\score {
+	\relative a'	{
+		\times 2/3 { r8_\( f[ a]\) }
+		b8[ c] c8[\( c\)]
+		r8 c d8[ e]
+		\times 2/3 { d8[ c d] } b8[ a]
+		\times 2/3 { b4\( b8\) }
+		\cesure
+		g16[ g f g]
+		e16[ g a b]
+		\ifIndent
+		\times 2/3 { a8[\( a\)\cesure c] }
+		\times 2/3 { c8[ c c] }
+		\times 2/3 { b8[\( g\) a] } a4
+		r8 a e8[ a]
+		\times 2/3 { b8[\( b\) c] }
+		d8[ e] d4
+		c16[\( c\) b c] a4
+		\ifIndent
+		\times 2/3 { g8[ a b] }
+		c16[\( a\) g f]
+		e4\( e8\) r8
+		\endBar
+	}
+	\addlyrics {
+		A la fin du mon -- de, le Fils de l'homme en -- ver -- ra ses an -- ges_: ils en -- lè -- ve -- ront de son Roy -- au -- me tous ceux qui com -- met -- tent le mal. A -- lors les ju -- stes res -- plen -- di -- ront com -- me le so -- leil dans le Roy -- au -- me de leur Pè -- re.
+	\markup { \citation #"(Mt 13, 40...43)" }
+	}
+	\header { opus = "K 160 (A)" }
+}
+
+
+
+\score {
+	\relative f'	{
+		\key f \major
+		r8 d
+		a'8[ bes] a8[\( a\)]
+		r8 c
+		\times 2/3 { c8[ bes c] }
+		\times 2/3 { a8[ a a] } f4
+		\cesure
+		\times 2/3 { f8[ f f] } \slurDashed f4( f16[)\( f\) g bes]
+		\times 2/3 { a8[ g a] } f4
+		\ifIndent
+		r8 d f4
+		\cesure
+		g8[ g]
+		a16[ a c a]
+		g8[\( g\)] f8[ d] d4
+		\endBar
+	}
+	\addlyrics {
+		Voy -- ant la fou -- le, Jé -- sus fut sai -- si de pi -- tié, car ils é -- taient com -- me des bre -- bis sans ber -- ger. A -- lors, il se mit à les ins -- trui -- re lon -- gue -- ment.
+	\markup { \citation #"(Mc 6, 34)" }
+	}
+	\header { opus = "K 161 (B)" }
+}
+
+
+
+\score {
+	\relative f'	{
+		\key f \major
+		\times 2/3 { f4\( f8\) }
+		\cesure
+		f8[ g]
+		\times 2/3 { a8[\( a\) a] }
+		bes8[ g]
+		\times 2/3 { g4\( f8\) }
+		\cesure
+		a8[\( a\)]
+		b!16[ c g g]
+		\times 2/3 { g4\( f8\) }
+		\ifIndent
+		r8 f
+		\times 2/3 { f8[ g a] }
+		\times 2/3 { c8[ a c] }
+		d8[\( c\)] g4
+		\cesure
+		\times 2/6 { a16[\( a\) a a c a] }
+		\times 2/3 { g8[ bes a] } f4
+		\endBar
+	}
+	\addlyrics {
+		Mar -- the, tu t'a -- gi -- tes pour bien des cho -- ses_; u -- ne seule est né -- ces -- sai -- re. Ma -- rie a choi -- si la meil -- leu -- re part_: el -- le ne lui se -- ra pas en -- le -- vée.
+	\markup { \citation #"(Lc 10, 41-42)" }
+	}
+	\header { opus = "K 162 (C)" }
+}
+
+
+
+\markup {
+      		\fill-line{
+                       	\line{"17ème SEMAINE DU T.O."}}
+}
+
+\score {
+	\relative a'	{
+		\times 2/3 { r8_\( f[ g]\) }
+		\times 2/3 { a8[\( f\) a] }
+		\times 2/3 { b8[ c d] }
+		c16[ a g a] a8[ b]
+		\times 2/3 { a8[ c d] } f4
+		\cesure
+		d8[ d] c8[\( a\)]
+		\ifIndent
+		\times 2/3 { g8[ a c] } c4
+		\cesure
+		f,8[ g] a4
+		\cesure
+		c8[ d] c8[\( c\)]
+		c16[ c a g] a8[\( a\)]
+		\cesure
+		a8[ b]
+		\times 2/3 { c8[\( b\) c] } a4
+		\endBar
+	}
+	\addlyrics {
+		Le Roy -- au -- me des cieux est sem -- blable à un tré -- sor ca -- ché dans un champ et qu'un hom -- me vient à trou -- ver_: dans sa joie, il va ven -- dre tout ce qu'il pos -- sè -- de et a -- chè -- te ce champ.
+	\markup { \citation #"(Mt 13, 44)" }
+	}
+	\header { opus = "K 170 (A)" }
+}
+
+
+
+\score {
+	\relative a'	{
+		\times 2/3 { r8\( c[ d]\) }
+		c8[ c]
+		c16[\( c\) a g] a8[ b]
+		\times 2/3 { c8[ g g] }
+		f8[\cesure a] f8[ a] a4
+		\cesure
+		\times 2/3 { a8[ a c] }
+		\ifIndent
+		a16[ b c g]
+		\times 2/3 { g4\( f8\) }
+		r8. a16
+		a16[ bes a g]
+		\times 2/3 { a8[ bes a] }
+		g4\( f8\) r8
+		\endBar
+	}
+	\addlyrics {
+		A la vue du si -- gne que Jé -- sus a -- vait ac -- com -- pli, les gens di -- saient_: «_C'est vrai -- ment lui le grand pro -- phè -- te, ce -- lui qui doit ve -- nir dans le mon -- de._»
+	\markup { \citation #"(Jn 6, 14)" }
+	}
+	\header { opus = "K 171 (B)" }
+}
+
+
+
+\score {
+	\relative f'	{
+		\key f \major
+		r8 a
+		\times 2/3 { a8[ a bes] }
+		\times 2/3 { g8[\( f\) g] } a4
+		r8 g
+		f8[ f] e8[\( f\)] d8[\( d\)]
+		\cesure
+		\times 2/3 { d8[ f a] }
+		g8[ bes] a8[ a]
+		\ifIndent
+		r8 a
+		f8[ f] e8[ f] d4
+		\endBar
+	}
+	\addlyrics {
+		Ce -- lui qui de -- man -- de re -- çoit, ce -- lui qui cher -- che trou -- ve, et pour ce -- lui qui frap -- pe la por -- te s'ou -- vri -- ra.
+	\markup { \citation #"(Lc 11, 10)" }
+	}
+	\header { opus = "K 172 (C)" }
+}
+
+
+
+	
+\markup {
+      		\fill-line{
+                       	\line{"18ème SEMAINE DU T.O."}}
+}
+
+\score {
+	\relative f'	{
+		\key f \major
+		r8. a16
+		a16[ g f g] bes8[ g] a4
+		\cesure
+		\times 2/3 { c8[ c c] }
+		c8[ bes] a4
+		\cesure
+		d,8[\cesure f] g8[ g] a4
+		\cesure
+		\times 2/3 { g8[ a f] }
+		\ifIndent
+		\times 2/3 { d8[ d e] }
+		f8[\( f\)]
+		\times 2/3 { g8[ g a] }
+		\times 2/3 { a8[\( a\) g] }
+		\times 2/3 { a4\( a8\) }
+		\cesure
+		c8[ c] bes8[\( c\)] bes8[ a] a4
+		\endBar
+	}
+	\addlyrics {
+		Jé -- sus le -- va les yeux au ciel, dit la bé -- né -- dic -- tion, puis, rom -- pant les pains, il les don -- na aux dis -- ci -- ples qui les don -- nè -- rent aux fou -- les. Tous man -- gè -- rent à leur faim.
+	\markup { \citation #"(Mt 14, 19-20)" }
+	}
+	\header { opus = "K 180 (A)" }
+}
+
+
+\score {
+	\relative f'	{
+		\key f \major
+		c8[\cesureTresBasse d] f8[ d] f8[ g] g4
+		r8 a
+		bes8[ a] g8[ a]
+		\slurDashed f4( f8[) f]
+		\times 2/3 { f8[ d e] } c4
+		\ifIndent
+		r8 d f8[ g] a8[ g]
+		\slurDashed g4( f8[) g]
+		\times 2/3 { f8[ d c] } d4
+		\endBar
+	}
+	\addlyrics {
+		Moi, je suis le pain de vie. Ce -- lui qui vient à moi n'au -- ra plus ja -- mais faim_; ce -- lui qui croit en moi n'au -- ra plus ja -- mais soif.
+	\markup { \citation #"(Jn 6, 35)" }
+	}
+	\header { opus = "K 181 (B)" }
+}
+
+
+
+
+\score {
+	\relative c''	{
+		\times 2/3 { r8\( g[ d']\) }
+		\times 2/3 { d4\( d8\) }
+		\times 2/3 { f8[ e e] }
+		f8[ d] d4
+		\cesure
+		d16[ d e d]
+		\times 2/3 { c8[\( b\)\cesure b] }
+		c16[ e f d]
+		\times 2/3 { c4_\( a8\) }
+		\cesure
+		\ifIndent
+		\times 2/3 { a8[ a b] }
+		c16[ g b a]
+		\times 2/3 { a4\( a8\) }
+		\endBar
+	}
+	\addlyrics {
+		Gar -- dez- -- vous de toute â -- pre -- té au gain_; car la vie d'un hom -- me, fût- -- il dans l'a -- bon -- dan -- ce, ne dé -- pend pas de ses ri -- ches -- ses.
+	\markup { \citation #"(Lc 12, 15)" }
+	}
+	\header { opus = "K 182 (C)" }
+}
+
+
+
+\markup {
+      		\fill-line{
+                       	\line{"19ème SEMAINE DU T.O."}}
+}
+
 %{
-
-13ème SEMAINE DU T.O.
-
-
-K 130 (A)
-
-\key f \major
-\times 2/3 { f8[ d c] }
-\times 2/3 { d8[\( f\) a] }
-\times 2/3 { g4\( a8\) }
-\cesure
-\times 2/3 { f8[ a g] }
-\times 2/3 { a8[\( a\) g] }
-\times 2/3 { f8[\( f\) g] }
-\times 2/3 { f8[ d f] } 
-f8[ g] f4
-r8. d16
-d16[\( d\) f d] d8[ d]
-\times 2/3 { f8[\( f\)\cesure g] }
-\times 2/3 { a8[ a g] }
-\times 2/3 { a8[\( a\) bes] }
-\times 2/3 { a8[\( a\) f] }
-g8[ f] e8[ f] d4
-\cesure
-d16[ d d d]
-\times 2/3 { d8[ f e] } c8[\( d\)]
-r8 f a4
-\cesure
-\times 2/3 { g8[ f g] } d4
-\cesure
-d16[ d e f]
-f16[ e d e] e4\( d8\) r8
-
-Qui vous accueille m'accueille et qui m'accueille accueille Celui qui m'a envoyé. Quiconque donnera à boire, ne fût-ce qu'un verre d'eau fraîche à l'un de ces petits, en sa qualité de disciple, amen, je vous le dis : il ne perdra pas sa récompense. 	(Mt 10, 40.42)
-
-
-K 131 (B)
-
-\times 2/3 { r8_\( f[ g]\) }
-\times 2/3 { a8[\( a\)\cesure a] }
-a8[ bes] g4
-\times 2/3 { g8[ g g] }
-\times 2/3 { g8[ bes g] } a4
-\cesure
-\times 2/3 { g8[ f e] }
-f8[\( f\)] f8[ f]
-f16[ e d c] d4
-r8. f16
-g16[\( a\) a g] a4
-r8 bes16[ g]
-f16[\( f\) f f]
-f16[ f e f] d4
-\cesure
-c8[ d] f8[ e] d4
-\times 2/3 { r8_\( d[ d]\) }
-\times 2/3 { d4\(\cesure d8\) }
-\times 2/3 { e8[ f d] } d4
-
-Une femme ayant appris ce qu'on disait de Jésus, vint par derrière et toucha son vêtement. Car elle se disait : « Si je touche seulement son vêtement, je serai sauvée. » A l'instant, son mal fut guéri.	(Mc 5, 27-29)
-
-
-K 132 (C)
-
-r8 a g8[ a]
-f16[ f f g] a4
-c8[ c]
-\times 2/3 { c8[ d c] }
-\cesure
-\times 2/3 { c8[ d e] } d4
-\cesure
-c8[ a]
-g16[\( g\) f g]
-\times 2/3 { a8[\( a\) a] } g4
-
-Qui met la main à la charrue et regarde en arrière, dit le Seigneur, n'est pas digne du Royaume de Dieu.	(Lc 9, 62)
-
-
-
-14ème SEMAINE DU T.O.
-
-
-K 140 (A)
-
-\key f \major
-\times 2/3 { c8[ d d] }
-a8[\( bes\)] a4
-\cesure
-\times 2/3 { a8[\( a\)\cesure f] }
-g8[ a]
-a16[ a g bes]
-a8[\( a\)]
-\cesure
-a16[ f f f]
-\times 2/3 { f8[ d f] }
-f16[\( f\) g f]
-\times 2/3 { f8[\( f\) a] }
-g16[ g f g] d4
-\cesure
-\times 2/3 { d8[ c d] }
-\times 2/3 { f8[ g g] }
-g8[ f] e8[ c] d4
-
-Je te rends grâce, Père, Seigneur du ciel et de la terre, car tu as caché les mystères du Royaume aux sages et aux savants, et tu les a révélés aux tout-petits.	(Mt 11, 25)
-
-
-K 141 (B)
-
-\key f \major
-\times 2/3 { a8[ a a] }
-a8[\cesure d] e8[ f] f4
-\cesure
-a8[ a] a8[\( a\)]
-\times 2/3 { a8[ bes c] }
-\times 2/3 { a8[ f f] }
-e8[ f] d4
-\cesure
-\times 2/3 { f8[ f f] }
-\times 2/3 { f8[ f f] }
-\times 2/3 { f8[ g bes] } a4
-r8 c
-c16[\cesure c c c]
-\times 2/3 { c8[ bes g] }
-a16[ f e f] d4\( d8\) r8
-
-A Nazareth, Jésus disait : « Un prophète n'est méprisé que dans son pays, sa parenté et sa propre maison. » Et là, il ne pouvait accomplir aucun miracle.	(Mc 6, 4-5)
-
-
-K 142 (C)
-
-\key f \major
-d8[ d]
-\times 2/5 {a16[\( a\) a a bes]}
-\times 2/3 { a8[ a c] } a4
-r8 a
-a8[ g] a4
-\cesure
-\times 2/6 { f f g a a a } c4
-\times 2/3 { c8[ c c] }
-c8[ c]
-c16[ c c b!] a4
-\cesure
-\times 2/5 {a16[g a f g]} a4
-a16[ a a a]
-\times 2/3 { c4\( c8\) }
-\times 2/3 { c8[\( c\) a] }
-\times 2/3 { g8[ a f] } f4
-
-Aux disciples qu'il envoyait devant lui, Jésus disait : « Ne vous réjouissez pas de ce que les esprits vous sont soumis ; mais réjouissez-vous de ce que vos noms se trouvent inscrits dans les cieux. » 	(Lc 10, 20)
-
-
-
-15ème SEMAINE DU T.O.
-
-
-K 150 (A)
-
-\key f \major
-r8. d16
-f16[ f f g]
-\times 2/3 { a8[ a bes] }
-\times 2/3 { c8[ b a] } a4
-r8 a
-\times 2/3 { a8[ g a] }
-\times 2/3 { d8[ e f] }
-g8[\( a\)]
-\times 2/3 { g4\( g8\) }
-\cesure
-c16[ c c d] c8[ a] g4
-r8 f g4
-\cesure
-\times 2/3 { a8[\( bes\) a] }
-g8[\( g\)]
-r8 g a8[\( f\)] e4\( d8\) r8
-
-Voici que le semeur est sorti pour semer. Des grains sont tombés dans la bonne terre et ils ont donné du fruit, l'un cent, l'autre soixante, et l'autre trente. 	(Mt 13, 3.8)
-
-
-K 151 (B)
-
-\times 2/3 { f8[ f a] }
-\times 2/3 { c8[\( c\)\cesure c] }
-c16[ c e d] c4
-\cesure
-\times 2/3 { a8[ a a] }
-\slurDashed a4( a16[) a g a] f4
-r8 g g8[ a]
-\slurDashed c4( c8[) c]
-\times 2/3 { c8[ d e] } c4
-\cesure
-\times 2/3 { a8[ a a] }
-a8[\( a\)]
-g16[ a c b]
-a8.[\cesure f16]
-f16[ f f f]
-\times 2/3 { f8[ g bes] }
-a16[\( a\) g a]
-\times 2/3 { r8_\( a[ a]\) }
-c8[ c]
-c16[ c a g]
-a4\( a8\) r8
-
-A ses apôtres, Jésus recommandait : « Quand vous entrez dans une maison, demeurez-y jusqu'à votre départ. Si l'on refuse de vous accueillir, partez en secouant la poussière de vos pieds : ce sera pour eux un témoignage. »	(Mc 6, 10-11)
-
-
-K 152 (C)
-Cf. K 300
-
-
-
-16ème SEMAINE DU T.O.
-
-
-K 160 (A)
-
-\times 2/3 { r8_\( f[ a]\) }
-b8[ c] c8[\( c\)]
-r8 c d8[ e]
-\times 2/3 { d8[ c d] } b8[ a]
-\times 2/3 { b4\( b8\) }
-\cesure
-g16[ g f g]
-e16[ g a b]
-\times 2/3 { a8[\( a\)\cesure c] }
-\times 2/3 { c8[ c c] }
-\times 2/3 { b8[\( g\) a] } a4
-r8a e8[ a]
-\times 2/3 { b8[\( b\) c] }
-d8[ e] d4
-c16[\( c\) b c] a4
-\times 2/3 { g8[ a b] }
-c16[\( a\) g f]
-e4\( e8\) r8
-
-A la fin du monde, le Fils de l'homme enverra ses anges : ils enlèveront de son Royaume tous ceux qui commettent le mal. Alors les justes resplendiront comme le soleil dans le Royaume de leur Père.	(Mt 13, 40...43)
-
-
-K 161 (B)
-
-\key f \major
-r8 d
-a8[ bes] a8[\( a\)]
-r8 c
-\times 2/3 { c8[ bes c] }
-\times 2/3 { a8[ a a] } f4
-\cesure
-\times 2/3 { f8[ f f] } \slurDashed f4( f16[)\( f\) g bes]
-\times 2/3 { a8[ g a] } f4
-r8 d f4
-\cesure
-g8[ g]
-a16[ a c a]
-g8[\( g\)] f8[ d] d4
-
-Voyant la foule, Jésus fut saisi de pitié, car ils étaient comme des brebis sans berger. Alors, il se mit à les instruire longuement.	(Mc 6, 34)
-
-
-K 162 (C)
-
-\times 2/3 { f4\( f8\) }
-\cesure
-f8[ g]
-\times 2/3 { a8[\( a\) a] }
-bes8[ g]
-\times 2/3 { g4\( f8\) }
-\cesure
-a8[\( a\)]
-b!16[ c g g]
-\times 2/3 { g4\( f8\) }
-r8 f
-\times 2/3 { f8[ g a] }
-\times 2/3 { c8[ a c] }
-d8[\( c\)] g4
-\cesure
-\times 2/6 { a\( a\) a a c a }
-\times 2/3 { g8[ bes a] } f4
-
-Marthe, tu t'agites pour bien des choses ; une seule est nécessaire. Marie a choisi la meilleure part : elle ne lui sera pas enlevée.	(Lc 10, 41-42)
-
-
-
-17ème SEMAINE DU T.O.
-
-
-K 170 (A)
-
-\times 2/3 { r8_\( f[ g]\) }
-\times 2/3 { a8[\( f\) a] }
-\times 2/3 { b8[ c d] }
-c16[ a g a] a8[ b]
-\times 2/3 { a8[ c d] } f'4
-\cesure
-d8[ d] c8[\( a\)]
-\times 2/3 { g8[ a c] } c4
-\cesure
-f8[ g] a4
-\cesure
-c8[ d] c8[\( c\)]
-c16[ c a g] a8[\( a\)]
-\cesure
-a8[ b]
-\times 2/3 { c8[\( b\) c] } a4
-
-Le Royaume des cieux est semblable à un trésor caché dans un champ et qu'un homme vient à trouver : dans sa joie, il va vendre tout ce qu'il possède et achète ce champ.	(Mt 13, 44)
-
-
-K 171 (B)
-
-\times 2/3 { r8_\( c[ d]\) }
-c8[ c]
-c16[\( c\) a g] a8[ b]
-\times 2/3 { c8[ g g] }
-f8[\cesure a] f8[ a] a4
-\cesure
-\times 2/3 { a8[ a c] }
-a16[ b c g]
-\times 2/3 { g4\( f8\) }
-r8. a16
-a16[ bes a g]
-\times 2/3 { a8[ bes a] }
-g4\( f8\) r8
-
-A la vue du signe que Jésus avait accompli, les gens disaient : « C'est vraiment lui le grand prophète, celui qui doit venir dans le monde. »	(Jn 6, 14)
-
-
-K 172 (C)
-
-\key f \major
-r8 a
-\times 2/3 { a8[ a bes] }
-\times 2/3 { g8[\( f\) g] } a4
-r8 g
-f8[ f] e8[\( f\)] d8[\( d\)]
-\cesure
-\times 2/3 { d8[ f a] }
-g8[ bes] a8[ a]
-r8 a
-f8[ f] e8[ f] d4
-
-Celui qui demande reçoit, celui qui cherche trouve, et pour celui qui frappe la porte s'ouvrira.	(Lc 11, 10)
-
-
-
-18ème SEMAINE DU T.O.
-
-
-K 180 (A)
-
-\key f \major
-r8. a16
-a16[ g f g] bes8[ g] a4
-\cesure
-\times 2/3 { c8[ c c] }
-c8[ bes] a4
-\cesure
-d8[\cesure f] g8[ g] a4
-\cesure
-\times 2/3 { g8[ a f] }
-\times 2/3 { d8[ d e] } f8[\( f\)]
-\times 2/3 { g8[ g a] }
-\times 2/3 { a8[\( a\) g] }
-\times 2/3 { a4\( a8\) }
-\cesure
-c8[ c] bes8[\( a\)] b8[ a] a4
-
-Jésus leva les yeux au ciel, dit la bénédiction, puis, rompant les pains, il les donna aux disciples qui les donnèrent aux foules. Tous mangèrent à leur faim.	(Mt 14, 19-20)
-
-
-K 181 (B)
-
-\key f \major
-c,8[\cesure d] f8[ d] f8[ g] g4
-r8 a
-bes8[ a] g8[ a]
-\slurDashed f4( f8[) f]
-\times 2/3 { f8[ d e] } c4
-r8 d f8[ g] a8[ g]
-\slurDashed g4( f8[) g]
-\times 2/3 { f8[ d c] } d4
-
-Moi, je suis le pain de vie. Celui qui vient à moi n'aura plus jamais faim ; celui qui croit en moi n'aura plus jamais soif.	(Jn 6, 35)
-
-
-K 182 (C)
-
-\times 2/3 { r8_\( g[ d]\) }
-\times 2/3 { d4\( d8\) }
-\times 2/3 { f8[ e e] }
-f8[ d] d4
-\cesure
-d16[ d e d]
-\times 2/3 { c8[\( b\)\cesure b] }
-c16[ e f d]
-\times 2/3 { c4\( a8\) }
-\cesure
-\times 2/3 { a8[ a b] }
-c16[ g b a]
-\times 2/3 { a4\( a8\) }
-
-Gardez-vous de toute âpreté au gain ; car la vie d'un homme, fût-il dans l'abondance, ne dépend pas de ses richesses.	(Lc 12, 15)
-
-
-
-19ème SEMAINE DU T.O.
-
 
 K 190 (A)
 
@@ -1477,7 +1632,11 @@ g8[ f] g8[\( a\)] g4
 Heureux les serviteurs que le maître, à sa venue, trouvera en train de veiller ! Il se ceindra, les fera mettre à table, et passera les servir.	(Lc 12, 37)
 
 
-20ème SEMAINE DU T.O.
+\markup {
+      		\fill-line{
+                       	\line{"20ème SEMAINE DU T.O."}}
+}
+
 
 
 K 200 (A)
@@ -1535,9 +1694,11 @@ r8 c
 
 Je suis venu jeter un feu sur la terre, comme je voudrais qu'il fût allumé ! Je dois recevoir un baptême, comme il m'en coûte d'attendre qu'il soit consommé !	(Lc 12, 49-50)
 
+\markup {
+      		\fill-line{
+                       	\line{"21ème SEMAINE DU T.O."}}
+}
 
-
-21ème SEMAINE DU T.O.
 
 
 K 210 (A)
@@ -1599,9 +1760,11 @@ a8[\( a\)]
 
 Ils viendront nombreux du levant et du couchant, du nord et du midi, prendre place au festin dans le Royaume de Dieu.	(Lc 13, 29)
 
+\markup {
+      		\fill-line{
+                       	\line{"22ème SEMAINE DU T.O."}}
+}
 
-
-22ème SEMAINE DU T.O.
 
 
 K 220 (A)
@@ -1671,8 +1834,11 @@ a8[ c]
 Quand tu donnes un festin, invite des pauvres, des infirmes, des boiteux, des aveugles ; et tu seras heureux parce qu'ils n'ont rien à te rendre.	(Lc 14, 13-14)
 
 
+\markup {
+      		\fill-line{
+                       	\line{"23ème SEMAINE DU T.O."}}
+}
 
-23ème SEMAINE DU T.O.
 
 
 K 230 (A)
@@ -1735,8 +1901,10 @@ a8[\( a\)] g8[ b!] a4\( a8\) r8
 Si quelqu'un vient à moi sans me préférer aux siens, et même à sa propre vie, dit le Seigneur, il ne peut être mon disciple.	(Lc 14, 26)
 
 
-
-24ème SEMAINE DU T.O.
+\markup {
+      		\fill-line{
+                       	\line{"24ème SEMAINE DU T.O."}}
+}
 
 
 K 240 (A)
@@ -1786,8 +1954,10 @@ a8[ g] a4
 Toi, mon enfant, tu es toujours avec moi. Mais il fallait bien se réjouir et festoyer, car ton frère était mort, et il a repris vie ; il était perdu, et il est retrouvé.	(Lc 15, 31-32)
 
 
-
-25ème SEMAINE DU T.O.
+\markup {
+      		\fill-line{
+                       	\line{"25ème SEMAINE DU T.O."}}
+}
 
 
 K 250 (A)
@@ -1850,8 +2020,10 @@ g8[ a] g4
 Si vous n'avez pas été fidèles pour de l'argent, qui vous confiera le bien véritable ? Si vous n'avez pas été fidèles pour le bien étranger, le vôtre, qui vous le donnera ?	(Lc 16, 11-12)
 
 
-
-26ème SEMAINE DU T.O.
+\markup {
+      		\fill-line{
+                       	\line{"26ème SEMAINE DU T.O."}}
+}
 
 
 K 260 (A)
@@ -1907,8 +2079,10 @@ g16[ a g f]
 S'ils n'écoutent pas Moïse ni les prophètes, quelqu'un pourrait ressusciter d'entre les morts, ils ne seraient pas convaincus.	(Lc 16, 31)
 
 
-
-27ème SEMAINE DU T.O.
+\markup {
+      		\fill-line{
+                       	\line{"27ème SEMAINE DU T.O."}}
+}
 
 
 K 270 (A)
@@ -1966,9 +2140,11 @@ e8[ f] d4\( d8\) r8
 
 Quand vous aurez fait tout ce que Dieu vous a commandé, dites-vous : nous sommes des serviteurs inutiles, nous avons fait ce que nous devions faire.	(Lc 17, 10)
 
+\markup {
+      		\fill-line{
+                       	\line{"28ème SEMAINE DU T.O."}}
+}
 
-
-28ème SEMAINE DU T.O.
 
 
 K 280 (A)
@@ -2030,9 +2206,11 @@ a4\( a8\) r8
 
 Souviens-toi de Jésus-Christ, le descendant de David : il est ressuscité d'entre les morts, voilà mon Evangile.	(2Tm 2, 8)
 
+\markup {
+      		\fill-line{
+                       	\line{"29ème SEMAINE DU T.O."}}
+}
 
-
-29ème SEMAINE DU T.O.
 
 
 K 290 (A)
@@ -2098,9 +2276,11 @@ d4\( d8\) r8
 
 Dieu ne fera-t-il pas justice à ses élus qui crient vers lui jour et nuit ? Mais le Fils de l'homme, quand il viendra, trouvera-t-il la foi sur la terre ? 	(Lc 18, 7-8)
 
+\markup {
+      		\fill-line{
+                       	\line{"30ème SEMAINE DU T.O."}}
+}
 
-
-30ème SEMAINE DU T.O.
 
 
 K 300 (A)
@@ -2170,9 +2350,11 @@ e8[\cesure f16 d]
 
 Le publicain, se tenant au loin, se frappait la poitrine en disant : « Mon Dieu, prends pitié du pécheur que je suis ! » Je vous le dis : il descendit chez lui justifié.	(Lc 18, 13-14)
 
+\markup {
+      		\fill-line{
+                       	\line{"31ème SEMAINE DU T.O."}}
+}
 
-
-31ème SEMAINE DU T.O.
 
 
 K 310 (A)
@@ -2240,9 +2422,10 @@ d8[ e] d4
 
 Aujourd'hui le salut est arrivé pour cette maison, car lui aussi est un fils d'Abraham. Le Fils de l'homme est venu chercher et sauver ce qui était perdu.	(Lc 19, 9-10)
 
-
-
-32ème SEMAINE DU T.O.
+\markup {
+      		\fill-line{
+                       	\line{"32ème SEMAINE DU T.O."}}
+}
 
 
 K 320 (A)
@@ -2306,8 +2489,10 @@ a8[ g] a4
 Ceux qui ont été jugés dignes d'avoir part au monde à venir sont fils de Dieu, étant fils de la résurrection. Il n'est pas le Dieu des morts, mais des vivants.	(Lc 20, 35-36.38)
 
 
-
-33ème SEMAINE DU T.O.
+\markup {
+      		\fill-line{
+                       	\line{"33ème SEMAINE DU T.O."}}
+}
 
 
 K 330 (A)
@@ -2374,8 +2559,10 @@ a8[ g] a4
 Je vous donnerai un langage et une sagesse, que nul de vos adversaires ne pourra contredire. C'est par votre persévérance que vous obtiendrez la vie.	(Lc 21, 15.19)
 
 
-
-34ème semaine du T.O.
+\markup {
+      		\fill-line{
+                       	\line{"34ème SEMAINE DU T.O."}}
+}
 
 
 K 340 (A)
