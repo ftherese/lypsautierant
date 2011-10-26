@@ -1557,79 +1557,101 @@
 
 
 
+
 \markup {
       		\fill-line{
                        	\line{"19ème SEMAINE DU T.O."}}
 }
 
-%{
-
-K 190 (A)
-
-\times 2/3 { r8_\( g[ d']\) }
-\times 2/3 { f8[ e f] } d4
-r8 d
-\times 2/3 { d8[ e c] }
-\times 2/3 { b8[ b c] }
-\times 2/3 { e8[ f d] } c4
-r8 a b8[\( c\)]
-r8 c g4
-\cesure
-\times 2/3 { g8[ a c] } c4
-\cesure
-\times 2/3 { c8[ c c] }
-b8[ c]
-\times 2/3 { a8[ b c] } c8[\( c\)]
-r8 c c8[ a] g4
-
-Vers la fin de la nuit, Jésus vint vers eux en marchant sur la mer : « Confiance, c'est moi, ne craignez pas ! » Et quand il fut monté dans la barque, le vent tomba.	(Mt 14, 25.27.32)
-
-
-K 191 (B)
-
-e8[ e] e8[ d] f8[ e] e4
-\cesure
-g8[ a]
-\times 2/3 { c8[\( c\) a] }
-\times 2/3 { g8[ e f] }
-\slurDashed e4( d8[) f]
-\times 2/3 { e4\( e8\) }
-r8 g g4
-\cesure
-g16[ g g g] e8[ f]
-\slurDashed d4( \times 2/3 { f8[) g a] }
-r8 a c4
-\cesure
-\times 2/3 { a8[ g f] } g4
-r8 e e8[ e]
-\times 2/3 { e8[ e e] }
-\times 2/3 { e8[ g a] }
-g4\( g8\) r8
-
-Nul ne peut venir à moi, si le Père qui m'a envoyé ne l'attire ; et moi, je le ressusciterai au dernier jour. Amen, je vous le dis : celui qui croit a la vie éternelle.	(Jn 6, 44.47)
+\score {
+	\relative c''  {
+		\times 2/3 { r8\( g[ d']\) }
+		\times 2/3 { f8[ e f] } d4
+		r8 d
+		\times 2/3 { d8[ e c] }
+		\times 2/3 { b8[ b c] }
+		\times 2/3 { e8[ f d] } c4
+		r8 a b8[\( c\)]
+		r8 c g4
+		\cesure
+		\ifIndent
+		\times 2/3 { g8[ a c] } c4
+		\cesure
+		\times 2/3 { c8[ c c] }
+		b8[ c]
+		\times 2/3 { a8[ b c] } c8[\( c\)]
+		r8 c c8[ a] g4
+		\endBar
+	}
+	\addlyrics {
+		Vers la fin de la nuit, Jé -- sus vint vers eux en mar -- chant sur la mer_: «_Con -- fian -- ce, c'est moi, ne crai -- gnez pas !_» Et quand il fut mon -- té dans la bar -- que, le vent tom -- ba.	
+	\markup { \citation #"(Mt 14, 25.27.32)" }
+	}
+	\header { opus = "K 190 (A)" }
+}
 
 
-K 192 (C)
 
-r8 f a8[ c] d8[ c] c4
-\cesure
-c8[ c] a8[\( a\)]
-\cesure
-\times 2/3 { b8[ a b] } a4
-\cesure
-g16[ a c e]
-\times 2/3 { d8[ c a] } a4
-\cesure
-\times 2/3 { a8[ d c] }
-\cesure
-\times 2/3 { c8[ b a] }
-g8[ f] g8[\( a\)] g4
-\cesure
-\times 2/3 { a8[ a c] }
-\times 2/3 { c8[ a g] } g4
+\score {
+	\relative a'  {
+		e8[ e] e8[ d] f8[ e] e4
+		\cesure
+		g8[ a]
+		\times 2/3 { c8[\( c\) a] }
+		\times 2/3 { g8[ e f] }
+		\slurDashed e4( d8[) f]
+		\times 2/3 { e4\( e8\) }
+		r8 g g4
+		\cesure
+		g16[ g g g] e8[ f]
+		\ifIndent
+		\slurDashed d4( \times 2/3 { f8[) g a] } g4
+		r8 a c4
+		\cesure
+		\times 2/3 { a8[ g f] } g4
+		r8 e e8[ e]
+		\times 2/3 { e8[ e e] }
+		\times 2/3 { e8[ g a] }
+		g4\( g8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Nul ne peut ve -- nir à moi, si le Pè -- re qui m'a en -- voy -- é ne l'at -- ti -- re_; et moi, je le res -- sus -- ci -- te -- rai au der -- nier jour. A -- men, je vous le dis_: ce -- lui qui croit a la vie é -- ter -- nel -- le.
+	\markup { \citation #"(Jn 6, 44.47)" }
+	}
+	\header { opus = "K 191 (B)" }
+}
 
 
-Heureux les serviteurs que le maître, à sa venue, trouvera en train de veiller ! Il se ceindra, les fera mettre à table, et passera les servir.	(Lc 12, 37)
+\score {
+	\relative a'  {
+		r8 f a8[ c] d8[ c] c4
+		\cesure
+		c8[ c] a8[\( a\)]
+		\cesure
+		\times 2/3 { b8[ a b] } a4
+		\cesure
+		g16[ a c e]
+		\times 2/3 { d8[ c a] } a4
+		\cesure
+		\times 2/3 { a8[ d c] } d4
+		\cesure
+		\ifIndent
+		\times 2/3 { c8[ b a] }
+		g8[ f] g8[\( a\)] g4
+		\cesure
+		\times 2/3 { a8[ a c] }
+		\times 2/3 { c8[ a g] } g4
+		\endBar
+	}
+	\addlyrics {
+		Heu -- reux les ser -- vi -- teurs que le maî -- tre, à sa ve -- nue, trou -- ve -- ra en train de veil -- ler_! Il se cein -- dra, les fe -- ra mettre à ta -- - -- ble, et pas -- se -- ra les ser -- vir.
+	\markup { \citation #"(Lc 12, 37)" }
+	}
+	\header { opus = "K 192 (C)" }
+}
+
+
 
 
 \markup {
@@ -1637,201 +1659,265 @@ Heureux les serviteurs que le maître, à sa venue, trouvera en train de veiller
                        	\line{"20ème SEMAINE DU T.O."}}
 }
 
+\score {
+	\relative a'  {
+		r8 f f8[\( f\)]
+		\cesure
+		f16[ f d e] f4
+		\cesure
+		\times 2/3 { g8[ a g] } g4
+		\times 2/3 { r8_\( g[ c]\) }
+		\times 2/3 { c8[\( a\) g] }
+		\times 2/3 { a8[ f g] } g4
+		\cesure
+		e8[ f]
+		\ifIndent
+		g8[\( a\)] g4
+		r8 g f8[\( g\)] a8[ g] e4
+		\endBar
+	}
+	\addlyrics {
+		«_O fem -- me, ré -- pon -- dit Jé -- sus, grande est ta foi_! Qu'il t'ad -- vien -- ne se -- lon ton dé -- sir_!_» Dès cette heu -- re -- -là sa fil -- le fut gué -- rie.
+	\markup { \citation #"(Mt 15, 28)" }
+	}
+	\header { opus = "K 200 (A)" }
+}
 
 
-K 200 (A)
-
-r8 f f8[\( f\)]
-\cesure
-a16[ a d e] f4
-\cesure
-\times 2/3 { g8[ a g] } g4
-\times 2/3 { r8_\( g[ c]\) }
-\times 2/3 { c8[\( a\) g] }
-\times 2/3 { a8[ f g] } g4
-\cesure
-e8[ f] g8[\( a\)] g4
-r8 g f8[\( g\)] a8[ g] e4
-
-« O femme, répondit Jésus, grande est ta foi ! Qu'il t'advienne selon ton désir ! » Dès cette heure-là sa fille fut guérie.	(Mt 15, 28)
-
-
-K 201 (B)
-
-r8 d d8[ d]
-\times 2/3 { b8[ d e] }
-d8[ d] e8[ g] g4
-\cesure
-g8[ g]
-\times 2/3 { a8[ b g] }
-\cesure
-g8[ a] g8[ e]
-\times 2/3 { d4\(\cesure d8\) } d4
-\cesure
-e8[ g] e8[ d] d4
-
-Celui qui mange ma chair et boit mon sang a la vie éternelle ; il demeure en moi, et moi, je demeure en lui.	(Jn 6, 54.56)
+\score {
+	\relative d'  {
+		r8 d d8[ d]
+		\times 2/3 { b8[\( d\) e] }
+		d8[ d] e8[ g] g4
+		\cesure
+		g8[ g]
+		\times 2/3 { a8[ b g] }
+		\times 2/3 { a4\( a8\) }
+		\cesure
+		g8[ a] g8[ e]
+		\times 2/3 { d4\(\cesure d8\) } d4
+		\cesure
+		\ifIndent
+		e8[ g] e8[ d] d4
+		\endBar
+	}
+	\addlyrics {
+		Ce -- lui qui man -- ge ma chair et boit mon sang a la vie é -- ter -- nel -- le_; il de -- meure en moi, et moi, je de -- meure en lui.
+	\markup { \citation #"(Jn 6, 54.56)" }
+	}
+	\header { opus = "K 201 (B)" }
+}
 
 
-K 202 (C)
+\score {
+	\relative c''  {
+		r8 g g8[ a]
+		g16[ g g e]
+		\times 2/3 { f8[ g f] } d8[\( d\)]
+		\cesure
+		f16[\( e\) f g]
+		\times 2/3 { g4\( g8\) }
+		\times 2/3 { b8[ a g] } g4
+		r8 c
+		\times 2/3 { c8[ b c] }
+		\ifIndent
+		\times 2/3 { a8[ g g] }
+		\times 2/3 { a4\( g8\) }
+		\cesure
+		\times 2/3 { a8[ b c] }
+		\times 2/3 { a8[\( a\) a] }
+		\times 2/3 { g8[\( g\) g] }
+		\times 2/3 { f8[ d f] } g4
+		\endBar
+	}
+	\addlyrics {
+		Je suis ve -- nu je -- ter un feu sur la ter -- re, com -- me je vou -- drais qu'il fût al -- lu -- mé_! Je dois re -- ce -- voir un ba -- ptê -- me, comme il m'en coû -- te d'at -- ten -- dre qu'il soit con -- som -- mé_!
+	\markup { \citation #"(Lc 12, 49-50)" }
+	}
+	\header { opus = "K 202 (C)" }
+}
 
-r8 g g8[ a]
-g16[ g g e]
-\times 2/3 { f8[ g f] } d8[\( d\)]
-\cesure
-f16[\( e\) f g]
-\times 2/3 { g4\( g8\) }
-\times 2/3 { b8[ a g] } g4
-r8 c
-\times 2/3 { c8[ b c] }
-\times 2/3 { a8[ g g] }
-\times 2/3 { a4\( g8\) }
-\cesure
-\times 2/3 { a8[ b c] }
-\times 2/3 { a8[\( a\) a] }
-\times 2/3 { g8[\( g\) g] }
-\times 2/3 { f8[ d f] } g4
-
-Je suis venu jeter un feu sur la terre, comme je voudrais qu'il fût allumé ! Je dois recevoir un baptême, comme il m'en coûte d'attendre qu'il soit consommé !	(Lc 12, 49-50)
 
 \markup {
       		\fill-line{
                        	\line{"21ème SEMAINE DU T.O."}}
 }
 
+\score {
+	\relative f'  {
+		\key f \major
+		r8 c d8[\cesureBasse a']
+		\times 2/3 { bes4_\( a8\) }
+		r8 a16[ c]
+		a16[\( a\) a g] g4
+		r8 f g8[ a] a4
+		r8 a g8[ bes] a8[ g] g4
+		\ifIndent
+		r8. d16
+		d16[ e f d] d4
+		\cesure
+		d8[ f] g8[\( g\)]
+		\cesure
+		\times 2/3 { a8[ g g] }
+		f16[ f e f]
+		\times 2/3 { g8[ f g] }
+		f4\( d8\) r8
+		\endBar
+	}
+	\addlyrics {
+		«_Pour vous, qui suis -- -je_?_» Si -- mon -- -Pier -- re ré -- pon -- dit_: «_Tu es le Christ, le Fils du Dieu vi -- vant_!_» Jé -- sus lui dé -- cla -- ra_: «_Tu es Pier -- re et sur ce roc je bâ -- ti -- rai mon E -- gli -- se. »
+	\markup { \citation #"(Mt 16, 15-16.18)" }
+	}
+	\header { opus = "K 210 (A)" }
+}
 
 
-K 210 (A)
-
-\key f \major
-r8 c d8[\cesure a]
-\times 2/3 { bes4\( a8\) }
-r8 a16[ c]
-a16[\( a\) a g] g4
-r8 f g8[ a] a4
-r8 a g8[ bes] a8[ g] g4
-r8. d16
-d16[ e f d] d4
-\cesure
-d8[ f] g8[\( g\)]
-\cesure
-\times 2/3 { a8[ g g] }
-f16[ f e f]
-\times 2/3 { g8[ f g] }
-f4\( d8\) r8
-
-« Pour vous, qui suis-je ? » Simon-Pierre répondit : «Tu es le Christ, le Fils du Dieu vivant ! » Jésus lui déclara : « Tu es Pierre et sur ce roc je bâtirai mon Eglise. »	(Mt 16, 15-16.18)
-
-
-K 211 (B)
-
-r8 g
-\times 2/3 { g4\(\cesure e8\) }
-\times 2/3 { g8[ a g] } g4
-r8 g
-\times 2/3 { g8[ g g] }
-b16[\( b\) b b]
-\times 2/3 { b8[ a b] }
-\times 2/3 { g4\( g8\) }
-\times 2/3 { f8[ g a] } g4
-\cesure
-\times 2/3 { a8[ c c] }
-\times 2/3 { c8[ c d] }
-\times 2/3 { c8[\cesure a g] }
-f8[ g] g4
-r8 e f8[ g] g4
-
-Seigneur, vers qui irions-nous ? Tu as les paroles de la vie éternelle. Nous avons cru et nous avons reconnu que tu es le Saint, le Saint de Dieu.		(Jn 6, 68-69)
+\score {
+	\relative c''  {
+		r8 g
+		\times 2/3 { g4\(\cesure e8\) }
+		\times 2/3 { g8[ a g] } g4
+		r8 g
+		\times 2/3 { g8[ g g] }
+		b16[\( b\) b b]
+		\times 2/3 { b8[ a b] }
+		\times 2/3 { g4\( g8\) }
+		\times 2/3 { f8[ g a] } g4
+		\cesure
+		\ifIndent
+		\times 2/3 { a8[ c c] }
+		\times 2/3 { c8[ c d] }
+		\times 2/3 { c8[\cesure a g] }
+		f8[ g] g4
+		r8 e f8[ g] g4
+		\endBar
+	}
+	\addlyrics {
+		Sei -- gneur, vers qui i -- rions -- -nous_? Tu as les pa -- ro -- les de la vie é -- ter -- nel -- le. Nous a -- vons cru et nous a -- vons re -- con -- nu que tu es le Saint, le Saint de Dieu.
+	\markup { \citation #"(Jn 6, 68-69)" }
+	}
+	\header { opus = "K 211 (B)" }
+}
 
 
-K 212 (C)
+\score {
+	\relative f'  {
+		\key f \major
+		c16[ d a' bes]
+		\times 2/3 { a8[ a c] }
+		\slurDashed c4( \times 2/3 { a8[) a g] } g4
+		r8 g
+		a8[ a] g8[ bes] a4
+		\cesure
+		a8[\( a\)]
+		\times 2/3 { f8[ g a] }
+		\ifIndent
+		\slurDashed f4( \times 2/3 { d8[) d e] }
+		\times 2/3 { f8[\( e\) d] } d4
+		\endBar
+	}
+	\addlyrics {
+		Ils vien -- dront nom -- breux du le -- vant et du cou -- chant, du nord et du mi -- di, pren -- dre place au fes -- tin dans le Roy -- au -- me de Dieu.
+	\markup { \citation #"(Lc 13, 29)" }
+	}
+	\header { opus = "K 212 (C)" }
+}
 
-\key f \major
-c16[ d a bes]
-\times 2/3 { a8[ a c] }
-\slurDashed c4( \times 2/3 { a8[) a g] }
-r8 g
-a8[ a] g8[ bes] a4
-\cesure
-a8[\( a\)]
-\times 2/3 { f8[ g a] }
-\slurDashed f4( \times 2/3 { d8[) d e] }
-\times 2/3 { f8[\( e\) d] } d4
 
-Ils viendront nombreux du levant et du couchant, du nord et du midi, prendre place au festin dans le Royaume de Dieu.	(Lc 13, 29)
+
 
 \markup {
       		\fill-line{
                        	\line{"22ème SEMAINE DU T.O."}}
 }
 
+\score {
+	\relative c''  {
+		r8 a
+		c16[ b c c]
+		a8[ c]
+		\times 2/3 { d8[ c e] } e4
+		\cesure
+		\times 2/3 { e8[ f g] }
+		g8[ f]
+		\times 2/3 { e4\( d8\) }
+		\times 2/3 { d8[\( d\) e] }
+		c16[ a b c] b4
+		\ifIndent
+		r8 a c8[ e]
+		e16[\( e\) e e]
+		e16[ f g f]
+		e8[ c] a8[ b]
+		\times 2/3 { c8[ a g] }
+		b4\( a8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Ce -- lui qui veut sau -- ver sa vie la per -- dra, mais qui per -- dra sa vie à cau -- se de moi la trou -- ve -- ra. Que sert à l'hom -- me de ga -- gner le monde en -- tier s'il vient à per -- dre son â -- me.
+	\markup { \citation #"(Mt 16, 25-26)" }
+	}
+	\header { opus = "K 220 (A)" }
+}
 
 
-K 220 (A)
-
-r8 a
-c16[ b c c]
-a8[ c]
-\times 2/3 { d8[ c e] } e4
-\cesure
-\times 2/3 { e8[ f g] }
-g8[ f]
-\times 2/3 { e4\( d8\) }
-\times 2/3 { d8[\( d\) e] }
-c16[ a b c] b4
-r8 a c8[ e]
-e16[\( e\) e e]
-e16[ f g f]
-e8[ c] a8[ b]
-\times 2/3 { c8[ a g] }
-b4\( a8\) r8
-
-Celui qui veut sauver sa vie la perdra, mais qui perdra sa vie à cause de moi la trouvera. Que sert à l'homme de gagner le monde entier s'il vient à perdre son âme.	(Mt 16, 25-26)
-
-
-K 221 (B)
-
-\key f \major
-r8 f16[ e]
-f16[ g bes g]
-\times 2/3 { a8[ g f] }
-\times 2/3 { e8[\( e\) d] }
-e8[ f] e4
-\cesure
-\times 2/3 { f8[ g a] }
-\times 2/3 { a8[\( a\) a] }
-c8[ bes] a4
-r8 f
-\times 2/3 { f8[ f f] }
-\times 2/3 { f8[ e f] } d8[\( d\)]
-\cesure
-\times 2/3 { f8[ f f] }
-f8[ g] e8[ e] g8[ bes] a4
-
-« Recevez avec douceur la parole semée en vous, elle est capable de vous sauver. Mettez la Parole en pratique, ne vous contentez pas de l'écouter. »	(Jc 1, 21-22)
+\score {
+	\relative f'  {
+		\key f \major
+		r8 f16[ e]
+		f16[ g bes g]
+		\times 2/3 { a8[ g f] }
+		\times 2/3 { e8[\( e\) d] }
+		e8[ f] e4
+		\cesure
+		\times 2/3 { f8[ g a] }
+		\times 2/3 { a8[\( a\) a] }
+		c8[ bes] a4
+		\ifIndent
+		r8 f
+		\times 2/3 { f8[ f f] }
+		\times 2/3 { f8[ e f] } d8[\( d\)]
+		\cesure
+		\times 2/3 { f8[ f f] }
+		f8[ g] e8[ e] g8[ bes] a4
+		\endBar
+	}
+	\addlyrics {
+		Re -- ce -- vez a -- vec dou -- ceur la pa -- ro -- le se -- mée en vous, elle est ca -- pa -- ble de vous sau -- ver. Met -- tez la Pa -- role en pra -- ti -- que, ne vous con -- ten -- tez pas de l'é -- cou -- ter.
+	\markup { \citation #"(Jc 1, 21-22)" }
+	}
+	\header { opus = "K 221 (B)" }
+}
 
 
-K 222 (C)
+\score {
+	\relative c''  {
+		\times 2/3 { r8_\( a[ b]\) }
+		\times 2/3 { c8[ b c] } a4
+		r8 c
+		\times 2/3 { c8[\( c\) d] } e8[\( e\)]
+		\cesure
+		d8[ c] d8[\( d\)]
+		\cesure
+		c8[ a] a4
+		\cesure
+		g8[ b]
+		\times 2/3 { c4_\( a8\) }
+		\cesure
+		\ifIndent
+		\times 2/3 { g8[ g g] }
+		a8[ c]
+		\slurDashed c4( a16[) a a f]
+		\times 2/3 { g8[ g a] }
+		\times 2/3 { g4\( g8\) }
+		\endBar
+	}
+	\addlyrics {
+		Quand tu donnes un fes -- tin, in -- vi -- te des pau -- vres, des in -- fir -- mes, des boi -- teux, des a -- veu -- gles_; et tu se -- ras heu -- reux par -- ce qu'ils n'ont rien à te ren -- dre.
+	\markup { \citation #"(Lc 14, 13-14)" }
+	}
+	\header { opus = "K 222 (C)" }
+}
 
-\times 2/3 { r8_\( a[ b]\) }
-\times 2/3 { c8[ b c] } a4
-r8 c
-\times 2/3 { c8[\( c\) d] } e8[\( e\)]
-\cesure
-d8[ c] d8[\( d\)]
-\cesure
-c8[ a] a4
-\cesure
-g8[ b]
-\times 2/3 { c4\( a8\) }
-\cesure
-\times 2/3 { g8[ g g] }
-a8[ c]
-\slurDashed c4( a16[) a a f]
-\times 2/3 { g8[ g a] }
-\times 2/3 { g4\( g8\) }
-
-Quand tu donnes un festin, invite des pauvres, des infirmes, des boiteux, des aveugles ; et tu seras heureux parce qu'ils n'ont rien à te rendre.	(Lc 14, 13-14)
 
 
 \markup {
@@ -1839,66 +1925,87 @@ Quand tu donnes un festin, invite des pauvres, des infirmes, des boiteux, des av
                        	\line{"23ème SEMAINE DU T.O."}}
 }
 
+\score {
+	\relative f'  {
+		\key f \major
+		r8 f
+		\times 2/3 { a8[ a bes] }
+		a8[ g] a8[\( a\)]
+		\times 2/3 { g8[ f e] }
+		\times 2/3 { d8[ d f] }
+		g8[\( g\)]
+		\cesure
+		\times 2/3 { a8[ c c] }
+		\times 2/3 { c8[ a g] }
+		\ifIndent
+		\times 2/3 { bes8[\( bes\) bes] }
+		\times 2/3 { g8[ f g] } e4
+		r8 d f8[ a]
+		\times 2/3 { g8[ g g] }
+		g16[\( g\) a f] f4
+		\cesure
+		g8[ a]
+		\ifIndent
+		c16[\cesure c a g] g4
+		\endBar
+	}
+	\addlyrics {
+		Si deux d'en -- tre vous s'ac -- cor -- dent pour de -- man -- der u -- ne cho -- se, ils l'ob -- tien -- dront de mon Pè -- re qui est dans les cieux. Quand deux ou trois se ras -- sem -- blent en mon nom, je suis là, au mi -- lieu d'eux.
+	\markup { \citation #"(Mt 18, 19-20)" }
+	}
+	\header { opus = "K 230 (A)" }
+}
 
 
-K 230 (A)
-
-\key f \major
-r8 f
-\times 2/3 { a8[ a bes] }
-a8[ g] a8[\( a\)]
-\times 2/3 { g8[ f e] }
-\times 2/3 { d8[ d f] }
-g8[\( g\)]
-\cesure
-\times 2/3 { a8[ c c] }
-\times 2/3 { c8[ a g] }
-\times 2/3 { bes8[\( b\) b] }
-\times 2/3 { g8[ f g] } e4
-r8 d f8[ a]
-\times 2/3 { g8[ g g] }
-g16[\( g\) a f] f4
-\cesure
-g8[ a]
-c16[ c a g] g4
-
-Si deux d'entre vous s'accordent pour demander une chose, ils l'obtiendront de mon Père qui est dans les cieux. Quand deux ou trois se rassemblent en mon nom, je suis là, au milieu d'eux.	(Mt 18, 19-20)
-
-
-K 231 (B)
-
-\times 2/3 { g8[ a c] }
-b8[ a] c8[ a]
-\times 2/3 { g8[\( g\) f] }
-g8[ a] a8[ a]
-\cesure
-g16[ a c c]
-\times 2/3 { c8[ d e] }
-c8[\cesure c]
-c16[\( c\) c c]
-\times 2/3 { c8[ c a] } g8[\( g\)]
-\cesure
-\times 2/3 { f8[ a g] }
-g8[ a] c8[ a] g4\( g8\) r8
-
-Dieu n'a-t-il pas choisi les pauvres selon le monde pour les enrichir dans la foi, les faire héritier du Royaume qu'il a promis à ceux qui l'aiment ?	(Jc 2, 5)
+\score {
+	\relative c''  {
+		\times 2/3 { g8[ a c] }
+		b8[ a] c8[ a]
+		\times 2/3 { g8[\( g\) f] }
+		g8[ a] a8[ a]
+		\cesure
+		g16[ a c c]
+		\times 2/3 { c8[ d e] }
+		c8[\cesure c]
+		c16[\( c\) c c]
+		\ifIndent
+		\times 2/3 { c8[ c a] } g8[\( g\)]
+		\cesure
+		\times 2/3 { f8[ a g] }
+		g8[ a] c8[ a] g4\( g8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Dieu n'a -- -t-il pas choi -- si les pau -- vres se -- lon le mon -- de pour les en -- ri -- chir dans la foi, les fai -- re hé -- ri -- ter du Roy -- au -- me qu'il a pro -- mis à ceux qui l'ai -- ment_?
+	\markup { \citation #"(Jc 2, 5)" }
+	}
+	\header { opus = "K 231 (B)" }
+}
 
 
-K 232 (C)
+\score {
+	\relative a'  {
+		\times 2/3 { r8_\( a[ a]\) }
+		\times 2/3 { bes8[ a g] }
+		\slurDashed f4( f16[) g a c] c8[ g]
+		\times 2/3 { f4\(\cesure a8\) }
+		\times 2/3 { c8[ d e] }
+		d8[\( d\)] c4
+		\cesure
+		\times 2/3 { c8[ a c] } b!
+		\cesure
+		\ifIndent
+		\times 2/3 { a8[ a a] }
+		a8[\( a\)] g8[ b!] a4\( a8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Si quel -- qu'un vient à moi sans me pré -- fé -- rer aux siens, et même à sa pro -- pre vie, dit le Sei -- gneur, il ne peut ê -- tre mon di -- sci -- ple.
+	\markup { \citation #"(Lc 14, 26)" }
+	}
+	\header { opus = "K 232 (C)" }
+}
 
-\times 2/3 { r8_\( a[ a]\) }
-\times 2/3 { bes8[ a g] }
-\slurDashed f4( f16[) g a c] c8[ g]
-\times 2/3 { f4\(\cesure a8\) }
-\times 2/3 { c8[ d e] }
-d8[\( d\)] c4
-\cesure
-\times 2/3 { c8[ a c] } b!
-\cesure
-\times 2/3 { a8[ a a] }
-a8[\( a\)] g8[ b!] a4\( a8\) r8
-
-Si quelqu'un vient à moi sans me préférer aux siens, et même à sa propre vie, dit le Seigneur, il ne peut être mon disciple.	(Lc 14, 26)
 
 
 \markup {
@@ -1906,52 +2013,66 @@ Si quelqu'un vient à moi sans me préférer aux siens, et même à sa propre vi
                        	\line{"24ème SEMAINE DU T.O."}}
 }
 
+\score {
+	\relative c''  {
+		c16[ c b c]
+		a16[ a a a] a8[ a]
+		\times 2/3 { c8[ b c] } a8[\( a\)]
+		\times 2/3 { a8[ c d] } b4
+		\cesure
+		c8[ b] a8[ g]
+		\ifIndent
+		\times 2/3 { r8\( c[ c]\) }
+		c8[ c] c8[ d]
+		\times 2/3 { c8[ b a] }
+		\times 2/3 { a8[\( a\)\cesure b] }
+		g8[ b] a4
+		\endBar
+	}
+	\addlyrics {
+		Je ne te dis pas de par -- don -- ner les torts de ton frè -- re jus -- qu'à sept fois, mais sans ces -- se. Que cha -- cun de vous par -- donne à son frè -- re, de tout son coeur.
+	\markup { \citation #"(Mt 18, 22.35)" }
+	}
+	\header { opus = "K 240 (A)" }
+}
 
-K 240 (A)
-
-c16[ c b c]
-a16[ a a a] a8[ a]
-\times 2/3 { c8[ b c] } a8[\( a\)]
-\times 2/3 { a8[ c d] } b4
-\cesure
-c8[ b] a8[ g]
-\times 2/3 { r8_\( c[ c]\) }
-c8[ c] c8[ d]
-\times 2/3 { c8[ b a] }
-\times 2/3 { a8[\( a\)\cesure b] }
-g8[ b] a4
-
-Je ne te dis pas de pardonner les torts de ton frère jusqu'à sept fois, mais sans cesse. Que chacun de vous pardonne à son frère, de tout son coeur.	(Mt 18, 22.35)
 
 
-K 241 (B)
-Cf. K 122
+\markup { "K 241 (B)  Cf. K 122" }
 
 
-K 242 (C)
+\score {
+	\relative a'  {
+		a8[\cesure a16 g] a4
+		\cesure
+		\times 2/3 { f8[ a c] }
+		\times 2/3 { c8[ d e] } c4
+		\cesure
+		a16[ a a a]
+		c16[ c c a] g4
+		\cesure
+		\times 2/3 { f8[ g a] } a4
+		\cesure
+		c8[ d]
+		\ifIndent
+		\times 2/3 { c8[ a g] } a4
+		\cesure
+		\times 2/3 { a8[ a a] }
+		c8[ d] c4
+		\cesure
+		c16[ c c c] c4
+		\cesure
+		\times 2/3 { c8[ c c] }
+		a8[ g] a4
+		\endBar
+	}
+	\addlyrics {
+		Toi, mon en -- fant, tu es tou -- jours a -- vec moi. Mais il fal -- lait bien se ré -- jou -- ir et fes -- toy -- er, car ton frère é -- tait mort, et il a re -- pris vie_; il é -- tait per -- du, et il est re -- trou -- vé.
+	\markup { \citation #"(Lc 15, 31-32)" }
+	}
+	\header { opus = "K 242 (C)" }
+}
 
-a8[\cesure a16 g] a4
-\cesure
-\times 2/3 { f8[ a c] }
-\times 2/3 { c8[ d e] } c4
-\cesure
-a16[ a a a]
-c16[ c c a] g4
-\cesure
-\times 2/3 { f8[ g a] } a4
-\cesure
-c8[ d]
-\times 2/3 { c8[ a g] } a4
-\cesure
-\times 2/3 { a8[ a a] }
-c8[ d] c4
-\cesure
-c16[ c c c] c4
-\cesure
-\times 2/3 { c8[ c c] }
-a8[ g] a4
-
-Toi, mon enfant, tu es toujours avec moi. Mais il fallait bien se réjouir et festoyer, car ton frère était mort, et il a repris vie ; il était perdu, et il est retrouvé.	(Lc 15, 31-32)
 
 
 \markup {
@@ -1960,64 +2081,87 @@ Toi, mon enfant, tu es toujours avec moi. Mais il fallait bien se réjouir et fe
 }
 
 
-K 250 (A)
-
-ac6[ c b a]
-\times 2/3 { c8[\( c\)\cesure c] }
-\times 2/3 { c8[\( c\) c] }
-d8[ e] d8[\( d\)]
-\times 2/3 { c8[ b a] }
-c8[\( c\)] b16[ c b a]
-\times 2/3 { a8[\cesure b c] }
-r8 c
-\times 2/3 { c8[\cesure c d] }
-\times 2/3 { e8[\cesure c b] }
-a4\( a8\) r8
-
-Vers la onzième heure, le maître sortit encore, en trouva d'autres qui se tenaient là et leur dit : « Allez, vous aussi, à ma vigne. »	(Mt 20, 6-7)
-
-
-K 251 (B)
-
-r8 g
-\times 2/3 { b8[ c b] } a4
-\cesure
-\times 2/3 { d8[ d e] }
-d16[ b a g] a4
-\times 2/3 { r8_\( c[ b]\) }
-\times 2/3 { r8_\( a[ b]\) } g4
-\cesure
-g8[ b]
-\times 2/3 { d8[ e d] }
-\slurDashed b4( a16[) g a b]
-\times 2/3 { a4\(\cesure d8\) }
-\times 2/3 { d8[ e d] }
-b4\( b8\) r8
-
-Prenant un enfant, il le plaça au milieu d'eux, l'embrassa et leur dit : « Qui accueille en mon nom un de ces enfants, c'est moi qu'il accueille. »	(Mc 9, 36-37)
+\score {
+	\relative c''  {
+		c16[ c b a]
+		\times 2/3 { c8[\( c\)\cesure c] }
+		\times 2/3 { c8[\( c\) c] }
+		d8[ e] d8[\( d\)]
+		\times 2/3 { c8[ b a] }
+		c8[\( c\)] b16[ c b a]
+		\times 2/3 { a8[\cesure b c] }
+		\ifIndent
+		a4
+		r8 c
+		\times 2/3 { c8[\cesure c d] }
+		\times 2/3 { e8[\cesure c b] }
+		a4\( a8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Vers la on -- zième heu -- re, le maî -- tre sor -- tit en -- co -- re, en trou -- va d'au -- tres qui se te -- naient là et leur dit_: «_Al -- lez, vous aus -- si, à ma vi -- gne._»
+	\markup { \citation #"(Mt 20, 6-7)" }
+	}
+	\header { opus = "K 250 (A)" }
+}
 
 
-K 252 (C)
+\score {
+	\relative c''  {
+		r8 g
+		\times 2/3 { b8[ c b] } a4
+		\cesure
+		\times 2/3 { d8[ d e] }
+		d16[ b a g] a4
+		\times 2/3 { r8\( c[ b]\) }
+		\times 2/3 { a8[ a b] } g4
+		\cesure
+		g8[ b]
+		\times 2/3 { d8[ e d] }
+		\ifIndent
+		\slurDashed b4( a16[) g a b]
+		\times 2/3 { a4_\(\cesure d8\) }
+		\times 2/3 { d8[ e d] }
+		b4\( b8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Pre -- nant un en -- fant, il le pla -- ça au mi -- lieu d'eux, l'em -- bras -- sa et leur dit_: «_Qui ac -- cueille en mon nom un de ces en -- fants, c'est moi qu'il ac -- cueil -- le. »
+	\markup { \citation #"(Mc 9, 36-37)" }
+	}
+	\header { opus = "K 251 (B)" }
+}
 
-\key f \major
-d16[ f g a]
-g8[ g] f8[ g] bes8[\( b\)]
-\times 2/3 { a8[ g f] } g4
-\cesure
-c16[ c c c] a8[ a]
-\times 2/3 { a8[ g f] }
-\times 2/3 { g4\( g8\) }
-\cesure
-f16[ f e f]
-d8[ f] g8[ bes]
-a8[\( a\)] g8[ g]
-\times 2/3 { f8[ g a] }
-\times 2/3 { d4\(\cesure d8\) } f8[\( f\)]
-\cesure
-\times 2/3 { f8[ f f] }
-g8[ a] g4
 
-Si vous n'avez pas été fidèles pour de l'argent, qui vous confiera le bien véritable ? Si vous n'avez pas été fidèles pour le bien étranger, le vôtre, qui vous le donnera ?	(Lc 16, 11-12)
+\score {
+	\relative f'  {
+		\key f \major
+		d16[ f g a]
+		g8[ g] f8[ g] bes8[\( bes\)]
+		\times 2/3 { a8[ g f] } g4
+		\cesure
+		c16[ c c c] a8[ a]
+		\times 2/3 { a8[ g f] }
+		\times 2/3 { g4\( g8\) }
+		\cesure
+		\ifIndent
+		f16[ f e f]
+		d8[ f] g8[ bes]
+		a8[\( a\)] g8[ g]
+		\times 2/3 { f8[ g a] }
+		\times 2/3 { d,4\(\cesure d8\) } f8[\( f\)]
+		\cesure
+		\times 2/3 { f8[ f f] }
+		\ifIndent
+		g8[ a] g4
+		\endBar
+	}
+	\addlyrics {
+		Si vous n'a -- vez pas é -- té fi -- dè -- les pour de l'ar -- gent, qui vous con -- fie -- ra le bien vé -- ri -- ta -- ble_? Si vous n'a -- vez pas é -- té fi -- dè -- les pour le bien é -- tran -- ger, le vô -- tre, qui vous le don -- ne -- ra_?
+	\markup { \citation #"(Lc 16, 11-12)" }
+	}
+	\header { opus = "K 252 (C)" }
+}
 
 
 \markup {
@@ -2025,59 +2169,86 @@ Si vous n'avez pas été fidèles pour de l'argent, qui vous confiera le bien v�
                        	\line{"26ème SEMAINE DU T.O."}}
 }
 
-
-K 260 (A)
-
-r8 g c4
-\cesure
-\times 2/3 { c8[ a c] } g4
-\cesure
-\times 2/3 { c8[ c c] }
-a16[ a c ba]
-\times 2/3 { ac[ c d] } c8[\( c\)]
-\times 2/3 { c8[ b a] }
-\times 2/3 { c8[\( c\) c] } g4
-\cesure
-\times 2/3 { a8[ g f] }
-\times 2/3 { a8[ a a] } g4
-\cesure
-\times 2/3 { g8[ a c] } c4
-\cesure
-c16[ c c c] c8[\( c\)]
-\times 2/3 { c8[ a g] }
-a8[ f] g8[ a] g4
-
-Amen, je vous le dis, les publicains et les pécheurs vous précèdent dans le Royaume de Dieu. Car Jean-Baptiste est venu, et ils ont cru. Mais vous ne vous êtes pas repentis pour croire en lui.	(Mt 21, 31...32)
-
-
-K 261 (B)
-
-f16[ f g a] a8[ g]
-\times 2/3 { a8[\( a\)\cesure f] } f8[\( g\)]
-\times 2/3 { g8[\cesure g d] } f8[ f]
-\times 2/3 { f8[\( f\) e] } f4
-r8 d f4
-\times 2/3 { a8[ g a] } g4
-\cesure
-g16[ g a b] b16[ g f g]
-e4\( e8\) r8
-
-Qui vous donnera à boire un verre d'eau en raison de votre appartenance au Christ, amen je vous le dis : il ne perdra pas sa récompense.	(Mc 9, 41)
+\score {
+	\relative a'  {
+		r8 g c4
+		\cesure
+		\times 2/3 { c8[ a c] } g4
+		\cesure
+		\times 2/3 { c8[ c c] }
+		a16[ d c b]
+		\times 2/3 { c8[ c d] } c8[\( c\)]
+		\times 2/3 { c8[ b a] }
+		\times 2/3 { c8[\( c\) c] }
+		\ifIndent
+		g4
+		\cesure
+		\times 2/3 { a8[ g f] }
+		\times 2/3 { a8[ a a] } g4
+		\cesure
+		\times 2/3 { g8[ a c] } c4
+		\cesure
+		c16[ c c c] c8[\( c\)]
+		\times 2/3 { c8[ a g] }
+		a8[ f]
+		\ifIndent
+		g8[ a] g4
+		\endBar
+	}
+	\addlyrics {
+		A -- men, je vous le dis, les pu -- bli -- cains et les pé -- cheurs vous pré -- cè -- dent dans le Roy -- au -- me de Dieu. Car Jean -- -Ba -- ptiste est ve -- nu, et ils ont cru. Mais vous ne vous ê -- tes pas re -- pen -- tis pour croire en lui.
+	\markup { \citation #"(Mt 21, 31...32)" }
+	}
+	\header { opus = "K 260 (A)" }
+}
 
 
-K 262 (C)
+\score {
+	\relative a'  {
+		f16[ f g a] a8[ g]
+		\times 2/3 { a8[\( a\)\cesure f] } f8[\( g\)]
+		\times 2/3 { g8[\cesureBasse g d] } f8[ f]
+		f16[ f e g]
+		\times 2/3 { f8[\( f\) e] } f4
+		r8 d f4
+		\ifIndent
+		\times 2/3 { a8[ g a] } g4
+		\cesure
+		g16[ g a b] b16[ g f g]
+		e4\( e8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Qui vous don -- ne -- ra à boi -- re un ver -- re d'eau en rai -- son de votre ap -- par -- te -- nan -- ce au Christ, a -- men je vous le dis_: il ne per -- dra pas sa ré -- com -- pen -- se.
+	\markup { \citation #"(Mc 9, 41)" }
+	}
+	\header { opus = "K 261 (B)" }
+}
 
-g16[ c c c] c8[ d] c8[\( c\)]
-\times 2/3 { c8[ b c] } a8[\( g\)]
-r8 f f8[\( g\)]
-a16[ c d e]
-\slurDashed c4( \times 2/3 { c8[)\( a\) b] } a4
-\cesure
-g16[ a g f]
-\times 2/3 { g8[ g f] } e4
 
-S'ils n'écoutent pas Moïse ni les prophètes, quelqu'un pourrait ressusciter d'entre les morts, ils ne seraient pas convaincus.	(Lc 16, 31)
 
+\score {
+	\relative a'  {
+		g16[ c c c] c8[ d] c8[\( c\)]
+		\times 2/3 { c8[ b c] } a8[\( g\)]
+		r8 f f8[\( g\)]
+		a16[ c d e]
+		\slurDashed c4( \times 2/3 { c8[)\( a\) b] }
+		\ifIndent
+		a4
+		\cesure
+		g16[ a g f]
+		\times 2/3 { g8[ g f] } e4
+		\endBar
+	}
+	\addlyrics {
+		S'ils n'é -- cou -- tent pas Mo -- ï -- se ni les pro -- phè -- tes, quel -- qu'un pour -- rait res -- sus -- ci -- ter d'en -- tre les morts, ils ne se -- raient pas con -- vain -- cus.
+	\markup { \citation #"(Lc 16, 31)" }
+	}
+	\header { opus = "K 262 (C)" }
+}
+
+%{
 
 \markup {
       		\fill-line{
