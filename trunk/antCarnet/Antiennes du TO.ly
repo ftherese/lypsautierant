@@ -110,7 +110,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Sur les ha -- bi -- tants du pa -- ys de la mort, u -- ne lu -- miè -- re s'est le -- vée : «_Con -- ver -- tis -- sez -- vous car le Roy -- au -- me des Cieux est tout pro -- che. »
+		Sur les ha -- bi -- tants du pa -- ys de la mort, u -- ne lu -- miè -- re s'est le -- vée : «_Con -- ver -- tis -- sez -- -vous car le Roy -- au -- me des Cieux est tout pro -- che. »
 	\markup { \citation #"(Mt 4, 16...17)"}
 	}
 	\header { opus = "K 30 (A)" }
