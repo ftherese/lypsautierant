@@ -2,7 +2,7 @@
 
 \paper {
 %	annotate-spacing = ##t
-	#(set-paper-size "a5" 'landscape)
+#(set-paper-size "a5" 'landscape )
 	two-sided = ##t
 		inner-margin = 25\mm
 		outer-margin = 10\mm
