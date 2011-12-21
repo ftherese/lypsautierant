@@ -132,7 +132,7 @@
 		Comme il l'a dit par la bou -- che des saints, des pro -- phè -- tes, de -- puis les temps an -- ciens_:
 		Sa -- lut qui nous ar -- rache à l'en -- ne -- mi, des mains de ceux qui nous ha -- ïs -- sent_;
 		a -- mour qu'il montre en -- vers nos pè -- res, et sou -- ve -- nir de son al -- lian -- ce sain -- te_;
-		ser -- ment ju -- ré à no -- tre père A -- bra -- "ham, +" de nous don -- ner qu'af -- fran -- chis de la crain -- te, et dé -- li -- vrés des mains de l'en -- ne -- mis,
+		ser -- ment ju -- ré à no -- tre père A -- bra -- "ham, +" de nous don -- ner qu'af -- fran -- chis de la crain -- te, et dé -- li -- vrés des mains de l'en -- ne -- mi,
 		nous le ser -- vions en ju -- stice et sain -- te -- té, en sa pré -- sen -- ce, tout au long de nos jours.
 		Et toi, pe -- tit en -- "fant, +" tu se -- ras ap -- pe -- lé pro -- phè -- te du Très- -- Haut_: tu mar -- che -- ras de -- vant la fa -- ce du Sei -- gneur pour pré -- pa -- rer ses voies_;
 		pour don -- ner à son peu -- ple de con -- naî -- tre le sa -- lut en ré -- mis -- sion de ses pé -- chés,
@@ -261,7 +261,7 @@
 		Comme il l'a dit par la bou -- che des saints, des pro -- phè -- tes, de -- puis les temps an -- ciens_:
 		Sa -- lut qui nous ar -- rache à l'en -- ne -- mi, des mains de ceux qui nous ha -- ïs -- sent_;
 		a -- mour qu'il montre en -- vers nos pè -- res, et sou -- ve -- nir de son al -- lian -- ce sain -- te_;
-		ser -- ment ju -- ré à no -- tre père A -- bra -- "ham, +" de nous don -- ner qu'af -- fran -- chis de la crain -- te, et dé -- li -- vrés des mains de l'en -- ne -- mis,
+		ser -- ment ju -- ré à no -- tre père A -- bra -- "ham, +" de nous don -- ner qu'af -- fran -- chis de la crain -- te, et dé -- li -- vrés des mains de l'en -- ne -- mi,
 		nous le ser -- vions en ju -- stice et sain -- te -- té, en sa pré -- sen -- ce, tout au long de nos jours.
 		Et toi, pe -- tit en -- "fant, +" tu se -- ras ap -- pe -- lé pro -- phè -- te du Très- -- Haut_: tu mar -- che -- ras de -- vant la fa -- ce du Sei -- gneur pour pré -- pa -- rer ses voies_;
 		pour don -- ner à son peu -- ple de con -- naî -- tre le sa -- lut en ré -- mis -- sion de ses pé -- chés,
@@ -390,7 +390,7 @@
 		Comme il l'a dit par la bou -- che des saints, des pro -- phè -- tes, de -- puis les temps an -- ciens_:
 		Sa -- lut qui nous ar -- rache à l'en -- ne -- mi, des mains de ceux qui nous ha -- ïs -- sent_;
 		a -- mour qu'il montre en -- vers nos pè -- res, et sou -- ve -- nir de son al -- lian -- ce sain -- te_;
-		ser -- ment ju -- ré à no -- tre père A -- bra -- "ham, +" de nous don -- ner qu'af -- fran -- chis de la crain -- te, et dé -- li -- vrés des mains de l'en -- ne -- mis,
+		ser -- ment ju -- ré à no -- tre père A -- bra -- "ham, +" de nous don -- ner qu'af -- fran -- chis de la crain -- te, et dé -- li -- vrés des mains de l'en -- ne -- mi,
 		nous le ser -- vions en ju -- stice et sain -- te -- té, en sa pré -- sen -- ce, tout au long de nos jours.
 		Et toi, pe -- tit en -- "fant, +" tu se -- ras ap -- pe -- lé pro -- phè -- te du Très- -- Haut_: tu mar -- che -- ras de -- vant la fa -- ce du Sei -- gneur pour pré -- pa -- rer ses voies_;
 		pour don -- ner à son peu -- ple de con -- naî -- tre le sa -- lut en ré -- mis -- sion de ses pé -- chés,
@@ -518,7 +518,7 @@
 		Comme il l'a dit par la bou -- che des saints, des pro -- phè -- tes, de -- puis les temps an -- ciens_:
 		Sa -- lut qui nous ar -- rache à l'en -- ne -- mi, des mains de ceux qui nous ha -- ïs -- sent_;
 		a -- mour qu'il montre en -- vers nos pè -- res, et sou -- ve -- nir de son al -- lian -- ce sain -- te_;
-		ser -- ment ju -- ré à no -- tre père A -- bra -- "ham, +" de nous don -- ner qu'af -- fran -- chis de la crain -- te, et dé -- li -- vrés des mains de l'en -- ne -- mis,
+		ser -- ment ju -- ré à no -- tre père A -- bra -- "ham, +" de nous don -- ner qu'af -- fran -- chis de la crain -- te, et dé -- li -- vrés des mains de l'en -- ne -- mi,
 		nous le ser -- vions en ju -- stice et sain -- te -- té, en sa pré -- sen -- ce, tout au long de nos jours.
 		Et toi, pe -- tit en -- "fant, +" tu se -- ras ap -- pe -- lé pro -- phè -- te du Très- -- Haut_: tu mar -- che -- ras de -- vant la fa -- ce du Sei -- gneur pour pré -- pa -- rer ses voies_;
 		pour don -- ner à son peu -- ple de con -- naî -- tre le sa -- lut en ré -- mis -- sion de ses pé -- chés,
@@ -647,7 +647,7 @@
 		Comme il l'a dit par la bou -- che des saints, des pro -- phè -- tes, de -- puis les temps an -- ciens_:
 		Sa -- lut qui nous ar -- rache à l'en -- ne -- mi, des mains de ceux qui nous ha -- ïs -- sent_;
 		a -- mour qu'il montre en -- vers nos pè -- res, et sou -- ve -- nir de son al -- lian -- ce sain -- te_;
-		ser -- ment ju -- ré à no -- tre père A -- bra -- "ham, +" de nous don -- ner qu'af -- fran -- chis de la crain -- te, et dé -- li -- vrés des mains de l'en -- ne -- mis,
+		ser -- ment ju -- ré à no -- tre père A -- bra -- "ham, +" de nous don -- ner qu'af -- fran -- chis de la crain -- te, et dé -- li -- vrés des mains de l'en -- ne -- mi,
 		nous le ser -- vions en ju -- stice et sain -- te -- té, en sa pré -- sen -- ce, tout au long de nos jours.
 		Et toi, pe -- tit en -- "fant, +" tu se -- ras ap -- pe -- lé pro -- phè -- te du Très- -- Haut_: tu mar -- che -- ras de -- vant la fa -- ce du Sei -- gneur pour pré -- pa -- rer ses voies_;
 		pour don -- ner à son peu -- ple de con -- naî -- tre le sa -- lut en ré -- mis -- sion de ses pé -- chés,
@@ -778,7 +778,7 @@
 		Comme il l'a dit par la bou -- che des saints, des pro -- phè -- tes, de -- puis les temps an -- ciens_:
 		Sa -- lut qui nous ar -- rache à l'en -- ne -- mi, des mains de ceux qui nous ha -- ïs -- sent_;
 		a -- mour qu'il montre en -- vers nos pè -- res, et sou -- ve -- nir de son al -- lian -- ce sain -- te_;
-		ser -- ment ju -- ré à no -- tre père A -- bra -- "ham, +" de nous don -- ner qu'af -- fran -- chis de la crain -- te, et dé -- li -- vrés des mains de l'en -- ne -- mis,
+		ser -- ment ju -- ré à no -- tre père A -- bra -- "ham, +" de nous don -- ner qu'af -- fran -- chis de la crain -- te, et dé -- li -- vrés des mains de l'en -- ne -- mi,
 		nous le ser -- vions en ju -- stice et sain -- te -- té, en sa pré -- sen -- ce, tout au long de nos jours.
 		Et toi, pe -- tit en -- "fant, +" tu se -- ras ap -- pe -- lé pro -- phè -- te du Très- -- Haut_: tu mar -- che -- ras de -- vant la fa -- ce du Sei -- gneur pour pré -- pa -- rer ses voies_;
 		pour don -- ner à son peu -- ple de con -- naî -- tre le sa -- lut en ré -- mis -- sion de ses pé -- chés,
