@@ -786,6 +786,6 @@
 		pour é -- clai -- rer ceux qui ha -- bi -- tent les té -- nè -- bres et l'om -- bre de la mort, pour con -- dui -- re nos pas vers un che -- min de paix.
 		Gloire au Père, au Fils, au Saint -- -Es -- "prit, +" au Dieu qui est, qui é -- tait et qui vient dans les siè -- cles des siè -- cles. A -- men.		
 	}
-	\header { opus = " B 51? " }
+	\header { opus = " B 519 " }
 }
 
