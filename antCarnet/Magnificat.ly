@@ -483,16 +483,17 @@
 		\pespace
 		\times 2/3 { a8[ c d] } c4
 		\barre
-		\ifIndent
+		%\ifIndent
 		% son amour...
 		\times 2/3 { r8_\( g[ a]\) }
 		\times 2/3 { c4\( c8\) }
 		\times 2/3 { c8[ c d] }
+		\ifIndent
 		\times 2/3 { c8[\( c\) b] }
 		\times 2/3 { c8[ a g] }
 		\times 2/3 { g4\( a8\) }
 		\barre
-		\ifIndent
+		%\ifIndent
 		% déployant...
 		r8 g16[ a] c8.[ c16] c16[\( c\) d c]
 		c8[\pespace \cesure \pespace c16 c] c16[\( a\) c d]
@@ -599,7 +600,7 @@
 		\times 2/3 { a4\( g8\) }
 		\times 2/3 { bes8[ a g] }
 		\times 2/3 { f8[\( f\) g] }
-		\times 2/3 { e8[ f f] }
+		\times 2/3 { d8[ f f] }
 		\times 2/3 { e4\( d8\) }
 		\barre
 		\ifIndent
@@ -614,7 +615,7 @@
 		\pespace
 		\pespace
 		\times 2/3 { r8_\( g[\espace g]\) }
-		\times 2/3 { e8[\( f\) f] }
+		\times 2/3 { d8[\( f\) f] }
 		\times 2/3 { e4\( d8\) }
 		\barre
 		\ifIndent
@@ -630,7 +631,7 @@
 		r8 a16[ a] a8[ a16 g] bes16[ a g f] f4
 		\pespace
 		\pespace
-		r16 g16[ g g] e16[ f f e] d4
+		r16 g16[ g g] d16[ f f e] d4
 		\barre
 		\ifIndent
 		% de la promesse...
@@ -665,5 +666,5 @@
 		de la pro -- mes -- se faite à nos pè -- res, en fa -- veur d'A -- bra -- ham et de sa race à ja -- mais.
 		Gloire au Père, au Fils, au Saint -- -Es -- "prit, +" au Dieu qui est, qui é -- tait et qui vient dans les siè -- cles des siè -- cles. A -- men.
 	}
-	\header { opus = " B 53? " }
+	\header { opus = " B 539 " }
 }
