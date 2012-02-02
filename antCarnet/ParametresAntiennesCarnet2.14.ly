@@ -120,8 +120,8 @@
 	\context {
 		\Lyrics
 		\override LyricText #'font-name = #"Aharoni"
-		\override LyricText #'font-size = #-1
-		\override LyricText #'word-space = #0.9
+		\override LyricText #'font-size = #-1.8
+		\override LyricText #'word-space = #1.8
 		\override LyricSpace #'minimum-distance = #0.5
 		%\override LyricSpace #'Y-extent = #(-0.1 . 0.1)
 %%%%%%%%%%%%%%%		
