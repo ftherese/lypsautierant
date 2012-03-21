@@ -8,16 +8,16 @@
      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+
 \markup {
       		\fill-line{
                        	\line{"CONVERSION DE SAINT PAUL (25 janvier)"}}
 }
 
-
 \score {
 	\relative f'  {
 		\key f \major
-		\espace
+		\set Staff.instrumentName = \markup{ \center-align { "Invit. 1      " }  }
 		r8 f16[ g] a16[ a g\( bes\)] a4
 		\cesure
 		\espace
@@ -25,15 +25,21 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"Invit. 1 :" Ren -- dons gloire à no -- tre Dieu_: il a con -- ver -- ti _l'a -- pô -- tre des na -- tions.
+		Ren -- dons gloire à no -- tre Dieu_: il _a con -- ver -- ti _l'a -- pô -- tre des na -- tions.
 	}
 }
+
+
+
+
+
+
 
 
 \score {
 	\relative f'  {
 		\key f \major
-		\espace
+		\set Staff.instrumentName = \markup{ \center-align { "Invit. 2      " }  }
 		r8 f16[ f] g16[ f f\( d\)] d4
 		\cesure
 		\espace
@@ -41,16 +47,15 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"Invit. 2 :" Ren -- dons gloire à no -- tre Dieu_: il a con -- ver -- ti _l'a -- pô -- tre des na -- tions.
+		Ren -- dons gloire à no -- tre Dieu_: il _a con -- ver -- ti _l'a -- pô -- tre des na -- tions.
 	}
 }
 
-
 \score {
 	\relative c''  {
-		\espace
+		\set Staff.instrumentName = \markup{ \center-align { "Ant. 1     " }  }
 		r8 e,16[ g] a16[ c c c] a8[ a]
-		\times 2/3 { g8[\( g\)\cesure a] }
+		\times 2/3 { g8[\( g\)\cesureBasse a] }
 		\times 2/3 { c8[ c c] } c8[\( c\)]
 		\cesure
 		c16[ c b c] a4
@@ -66,13 +71,13 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"Ant. 1 :" Je t'en -- voie vers les na -- tions pa -- ïen -- nes _a -- fin qu'elles ob -- tien -- nent, par la foi en moi, la ré -- mis -- sion de leurs pé -- chés et u -- ne part d'hé -- ri -- ta -- ge a -- vec les saints.
+		Je t'en -- voie vers les na -- tions pa -- ïen -- nes _a -- fin qu'elles ob -- tien -- nent, par la foi en moi, la ré -- mis -- sion de leurs pé -- chés et u -- ne part d'hé -- ri -- ta -- ge a -- vec les saints.
 	}
 }
 
 \score {
 	\relative c''  {
-		\espace
+		\set Staff.instrumentName = \markup{ \center-align { "Ant. 2     " }  }
 		r8 d,16[ d] c16[ f g f] g8[ a]
 		\times 2/3 { a8[\( a\)\cesure a] }
 		\times 2/3 { c8[ c a] } b8[\( a\)]
@@ -90,11 +95,9 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"Ant. 2 :" Je t'en -- voie vers les na -- tions pa -- ïen -- nes _a -- fin qu'elles ob -- tien -- nent, par la foi en moi, la ré -- mis -- sion de leurs pé -- chés et u -- ne part d'hé -- ri -- ta -- ge a -- vec les saints.
+		Je t'en -- voie vers les na -- tions pa -- ïen -- nes _a -- fin qu'elles ob -- tien -- nent, par la foi en moi, la ré -- mis -- sion de leurs pé -- chés et u -- ne part d'hé -- ri -- ta -- ge a -- vec les saints.
 	}
 }
-
-
 
 
 \markup {
@@ -104,8 +107,9 @@
 
 \score {
 	\relative c''  {
-		\espace
+		\set Staff.instrumentName = \markup{ \center-align { "Ant.  " }  }
 		\times 2/3 { r8_\( g[ g]\) } g4
+		\espace
 		g16[ b c d] d16[\( d\) d d] d8[ e] b4		
 		\times 2/3 { c8[ d d] } c4		
 		e8[ d]
@@ -120,12 +124,10 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"Ant. :" J'ai pri -- é et l'in -- tel -- li -- gen -- ce m'a é -- té don -- née. J'ai sup -- pli -- é et l'es -- prit de Sa -- ges -- se est ve -- nu en moi. Je l'ai pré -- fé -- rée à la lu -- miè -- re car son é -- clat ne con -- naît point de re -- pos.
+		J'ai pri -- é et l'in -- tel -- li -- gen -- ce m'a é -- té don -- née. J'ai sup -- pli -- é et l'es -- prit de Sa -- ges -- se est ve -- nu en moi. Je l'ai pré -- fé -- rée à la lu -- miè -- re car son é -- clat ne con -- naît point de re -- pos.
 	\markup { \citation #"(Sg 7, 7-10)"}
 	}
 }
-
-
 
 
 \markup {
@@ -135,7 +137,7 @@
 
 \score {
 	\relative c''  {
-		\espace
+		\set Staff.instrumentName = \markup{ \center-align { "Invit.   " }  }
 		r8  g b8[ c]
 		\times 2/3 { d8[ d d] } c8[ e] d8[\( d\)]
 		\cesure
@@ -145,7 +147,7 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"Invit. :" Voi -- ci qu'il vient dans son san -- ctu -- ai -- re, le Sei -- gneur sou -- ve -- rain_; ve -- nez, a -- do -- rons -- -le.
+		Voi -- ci qu'il vient dans son san -- ctu -- ai -- re, le Sei -- gneur sou -- ve -- rain_; ve -- nez, a -- do -- rons -- -le.
 	}
 }
 
@@ -153,7 +155,7 @@
 \score {
 	\relative f'  {
 		\key f \major
-		\espace
+		\set Staff.instrumentName = \markup{ \center-align { "Ant.  " }  }
 		\times 2/3 { r8_\( f[ e]\) }
 		f8.[\cesureBasse f16] f16[\( f\) f e] d4
 		\cesure
@@ -177,7 +179,11 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"Ant. :" Main -- te -- nant, ô Maî -- tre sou -- ve -- rain, tu peux lais -- ser s'en al -- ler ton ser -- vi -- teur en paix, se -- lon ta pa -- ro -- le. Car mes yeux ont vu ton sa -- lut que tu pré -- pa -- res à la fa -- ce des peu -- ples, lu -- miè -- re pour é -- clai -- rer les na -- tions et gloi -- re d'Is -- ra -- ël, ton peu -- ple.
+		Main -- te -- nant, ô Maî -- tre sou -- ve -- rain, tu peux lais -- ser s'en al -- ler ton ser -- vi -- teur en paix, se -- lon ta pa -- ro -- le. Car mes yeux ont vu ton sa -- lut que tu pré -- pa -- res à la fa -- ce des peu -- ples, lu -- miè -- re pour é -- clai -- rer les na -- tions et gloi -- re d'Is -- ra -- ël, ton peu -- ple.
 	\markup { \citation #"(Lc 2, 29-32)"}
 	}
 }
+
+
+
+
