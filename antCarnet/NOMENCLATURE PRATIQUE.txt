@@ -1,4 +1,4 @@
-﻿sNOTES SEULES
+sNOTES SEULES
 a4	la noire
 a8	la croche
 a16	la double-croche
@@ -104,6 +104,7 @@ AUTRES
 \header { tagline ="texte"}	titre en bas de la feuille
 \paper {print-page-number = ##t }  ça met un n° de page en haut à droite
 \set stemLeftBeamCount = #1 \set stemRightBeamCount = #2 d16 \set stemLeftBeamCount = #2    ça c'est quand l'ordi bug et ne veut plus mettre une corche 2 doubles ave la barre en commun (cf. NT 12 TO2)
+\override Staff.Stem #'transparent = ##t	ça fait des notes sans barres
 œ
 À
 É
