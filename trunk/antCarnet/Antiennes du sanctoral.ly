@@ -319,6 +319,7 @@
 }
 
 
+
 \markup {
       		\fill-line{
                        	\line{"SOLENNITE DE L'ANNONCIATION (25 mars)"}}
@@ -359,4 +360,305 @@
 }
 
 
+\markup {
+      		\fill-line{
+                       	\line{"SAINT LOUIS MARIE GRIGNION DE MONTFORT (28 avril)"}}
+}
 
+\score {
+	\relative c''  {
+		a8[ c]
+		\times 2/3 { b8[ a g] }
+		\times 2/3 { f8[\( f\) g] } a8[ g] g4
+		\cesure
+		\times 2/3 { e8[ g f] } e16[ f e d]
+		\times 2/3 { g8[\( a\) g] }
+		\times 2/3 { g4_\(\cesure c8\) }
+		\times 2/3 { b8[ a b] }
+		\times 2/3 { a4\( g8\) }
+		\cesure
+		\ifIndent
+		f8[ g]
+		\times 2/3 { f8[\( e\) d] }
+		\times 2/3 { g8[ a c] } c4
+		\times 2/3 { c8[ a c] }
+		\times 2/3 { b8[ a g] }
+		\times 2/3 { a4\( a8\) }
+		\cesure
+		\times 2/3 { d,8[ e f] }
+		\times 2/3 { g4\( f8\) }
+		a8[ g] g4
+		\barre
+		\ifIndent
+		e8[ g]
+		\times 2/3 { a8[ f e] } g4		
+		\endBar
+	}
+	\addlyrics {
+		O Sa -- gesse é -- ter -- nel -- le et in -- car -- née_! O très ai -- mable et a -- do -- ra -- ble Jé -- sus, vrai Dieu et vrai hom -- me, Fils u -- ni -- que du Père é -- ter -- nel et de Ma -- rie tou -- jours Vier -- ge_! Nous t'a -- do -- rons pro -- fon -- dé -- ment. "(Al" -- lé -- lu - - " ia !)"
+	}
+	\header {
+		piece = "Antienne" }
+}
+
+
+\markup {
+      		\fill-line{
+                       	\line{"SAINTE CATHERINE DE SIENNE (29 avril)"}}
+}
+
+\score {
+	\relative c''  {
+		\times 2/3 { e,8[ f e] }
+		d8[\( g\)] a8[ a] c4		
+		\cesure
+		\espace
+		\times 2/3 { c8[ c c] }
+		\times 2/3 { a8[ b c] } d8[\( c\)]
+		\times 2/3 { c8[\( c\) a] } g4
+		\times 2/3 { g8[ a a] }
+		a16[\( g\) a g] e16[ e d a']
+		\times 2/3 { c4\( b8\) }
+		\cesure
+		\ifIndent
+		\times 2/3 { b8[\( c\) a] }
+		d16[\( d\) c d] c16[\( c\) g a] c8[ b]
+		\ifIndent
+		\times 2/3 { c8[\( c\) a] }
+		b8[ a] g4
+		\barre
+		\pespace
+		\times 2/3 { r8_\( g[ e]\) }
+		\times 2/3 { f8[ g f] } e4		
+		\endBar
+	}
+	\addlyrics {
+		O é -- ter -- nel -- le Tri -- ni -- té, tu es le feu qui dis -- si -- pe tou -- te froi -- deur et tu é -- clai -- res les es -- prits de ta lu -- miè -- re, cet -- te lu -- miè -- re par la -- quel -- le tu m'as fait con -- naî -- tre ta vé -- ri -- té. "(Al" -- lé -- lu - - " ia !)"
+	}
+	\header {
+		piece = "Antienne" }
+}
+
+\markup {
+      		\fill-line{
+                       	\line{"VISITATION DE LA VIERGE MARIE (31 mai)"}}
+}
+
+\score {
+	\relative d'  {
+		\times 2/3 { r8_\( f[ f]\) }
+		\times 2/3 { f8[ d c] } d8[ f]
+		\times 2/3 { e8[ f d] }
+		\times 2/3 { e8[\( f\) g] } e4
+		\cesure
+		\times 2/3 { r8_\( g[ a]\) }
+		bes8[ a] f8[\cesureTresBasse e]
+		\times 2/3 { g8[ e d] }
+		c4\( d8\) r8		
+		\endBar
+	}
+	\addlyrics {
+		Cé -- léb -- rons la Vi -- si -- ta -- tion de la Vier -- ge Ma -- rie, a -- do -- rons le Christ, son Fils, le Sei -- gneur -- _-.
+	}
+	\header {
+		piece = "Invitatoire" }
+}
+
+\score {
+	\relative c''  {
+		g16[ f g a]
+		\times 2/3 { g8[ g g] } a8[ g]
+		f16[ f g a] a4
+		\cesure
+		c16[\( b\) a g] g16[ g\( b\) c] d8[\( d\)]
+		\cesure
+		e8[ c]
+		\times 2/3 { d8[ c a] }
+		\ifIndent
+		\times 2/3 { c8[ d b] }
+		\times 2/3 { b8[\( b\) c] } a8[ g]
+		\times 2/3 { g4_\( b8\) }
+		\times 2/3 { c8[\( c\) a] } g4\( g8\) r8		
+		\barre
+		\pespace
+		f8[ g16 a] g4\( g8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Dès qu'E -- li -- sa -- beth en -- ten -- dit Ma -- rie la sa -- lu -- er, el -- le s'é -- cri -- a d'u -- ne voix for -- te_: «_D'où me vient cet hon -- neur que la mè -- re de mon Sei -- gneur me ren -- de vi -- si -- te_?_» "(Al" -- lé - lu -- " ia !)"
+	}
+	\header {
+		piece = "Antienne" }
+}
+
+\markup {
+      		\fill-line{
+                       	\line{"NATIVITÉ DE SAINT JEAN BAPTISTE (24 juin)"}}
+}
+
+\score {
+	\relative c''  {
+		\times 2/3 { r8_\( g[ a]\) } c8[ c]
+		b16[\cesure a c b] a16[ g a g]
+		e8[\cesure c'] c8[ a] b8[ a] g4		
+		\endBar
+	}
+	\addlyrics {
+		Le Sei -- gneur Jé -- sus que Jean Bap -- tiste a dé -- si -- gné, ve -- nez, a -- do -- rons -- -le.
+	}
+	\header {
+		piece = "Invitatoire" }
+}
+
+\score {
+	\relative c''  {
+		b8[ g]
+		\times 2/3 { a8[ c c] }
+		\times 2/3 { c4\( c8\) }
+		\times 2/3 { c8[ d e] }
+		d8[ c16 d] f16[ e d b]
+		\times 2/3 { d8[ e d] } c4
+		\ifIndent
+		r8 d c8[ c] c8[ b] a8[ b]
+		\times 2/3 { c4\( b8\) }
+		\times 2/3 { g8[\( g\) a] } g4		
+		\endBar
+	}
+	\addlyrics {
+		Cet en -- fant mar -- che -- ra de -- vant le Sei -- gneur dans l'Es -- prit et la puis -- san -- ce d'E -- lie a -- fin de pré -- pa -- rer à Dieu un peu -- ple par -- fait.
+	\markup { \citation #"(Lc 1, 17)" }
+	}
+	\header {
+		piece = "Antienne" }
+}
+
+\markup {
+      		\fill-line{
+                       	\line{"SAINT PIERRE ET SAINT PAUL (29 juin)"}}
+}
+
+\score {
+	\relative c''  {
+		r8 g a4
+		\times 2/3 { c8[ b c] }
+		d4\( \times 2/3 { c4\)\(\cesure \espace e8\) }
+		d8[ c] b8[ g] a4		
+		\endBar
+	}
+	\addlyrics {
+		Le Christ, Roi des a -- pô -- tres, ve -- nez, a -- do -- rons -- -le.
+	}
+	\header {
+		piece = "Invitatoire" }
+}
+
+\score {
+	\relative d'  {
+		\times 2/3 { d8[ d d] } e8[ f] g4		
+		\cesure
+		\times 2/3 { a8[ bes g] } f8[ e] f8[\( g\)] f8[\( e\)] d4
+		\cesure
+		\ifIndent
+		\times 2/3 { c8[\( d\) f] } f8[ d]		
+		\times 2/3 { d8[\( e\) f] }
+		\times 2/3 { g8[ f e] } c4\( d8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Vous qui m'a -- vez sui -- vi, vous siè -- ge -- rez sur dou -- ze trô - _nes, pour - _ju -- ger les dou -- ze tri -- bus d'Is -- ra -- ël_ -.
+	\markup { \citation #"(Mt 19, 28)" }
+	}
+	\header {
+		piece = "Antienne" }
+}
+
+\markup {
+      		\fill-line{
+                       	\line{"SAINTE MARIE MADELEINE (22 juillet)"}}
+}
+
+\score {
+	\relative c''  {
+		r8 g g8[ c]
+		\times 2/3 { b8[ c d] }
+		\times 2/3 { e8[ d c] }
+		\times 2/3 { b8[ a b] } g4
+		\cesure
+		\times 2/3 { a8[ c a] } b16[ c d c] c4
+		\cesure
+		\ifIndent
+		\times 2/3 { a8[ g a] }
+		\times 2/3 { c8[ c c] }
+		\times 2/3 { b8[ a b] }
+		\times 2/3 { g8[ a g] } g4		
+		\endBar
+	}
+	\addlyrics {
+		Ma -- rie ver -- sa du par -- fum sur les pieds de Jé -- sus, qu'elle e -- ssu -- ya de ses che -- veux, et la mai -- son fut rem -- plie par l'o -- deur du par -- fum.
+	}
+	\header {
+		piece = "Antienne du Benedictus" }
+}
+
+\score {
+	\relative c''  {
+		f,8[\( g\)] a8[\( g\)] f8[ a]
+		\times 2/3 { g8[ f a] }
+		b8[\( c\)] a4 g8[ f]
+		\times 2/3 { a8[ b a] } g8[\( g\)]
+		\cesure
+		\espace
+		b8[ c]
+		\times 2/3 { d8[ e d] } c8[ b]
+		\ifIndent
+		\times 2/3 { a8[\( a\) d] }
+		\times 2/3 { c8[ b g] } g4
+		\times 2/3 { g8[\cesureBasse g a] } a8[ g]
+		\times 2/3 { a8[\( g\) f] } f4
+		\cesure
+		\espace
+		\times 2/3 { a8[ g f] } g4
+		\cesure
+		\espace
+		\times 2/3 { a8[\( c\) d] }
+		\times 2/3 { c8[ b c] }
+		\ifIndent
+		d8[ b]		
+		\times 2/3 { c8[ a g] }
+		a8[\( g\)] e4
+		\cesure
+		\espace
+		\times 2/3 { f8[ g a] }
+		g8[ f] g8[ f] e8[ f] g4		
+		\endBar
+	}
+	\addlyrics {
+		U -- ne fem -- me bien con -- nue dans la vil - _le pour sa vie de dé -- bau -- che, ap -- por -- ta un fla -- con d'al -- bât -- re rem -- pli de par -- fum et, se te -- nant der -- riè -- re Jé -- sus, près de ses pieds, el -- le se mit à les ar -- ro -- ser de ses lar - mes, et à les es -- su -- yer de ses che -- veux.
+	}
+	\header {
+		piece = "Antienne du Magnificat" }
+}
+
+\markup {
+      		\fill-line{
+                       	\line{"LA TRANSFIGURATION DU SEIGNEUR (6 août)"}}
+}
+
+\score {
+	\relative c''  {
+		\times 2/3 { g8[\( c\) b] }
+		\times 2/3 { c8[\( c\)\cesure \espace d] }
+		\times 2/3 { e8[ e d] }
+		\times 2/3 { c8[\( c\) b] }
+		\times 2/3 { a4\( g8\) }
+		\espace
+		r8 f a8[ c]
+		\times 2/3 { d8[\cesure \espace c b] } g4
+		\endBar
+	}
+	\addlyrics {
+		Sain -- te lu -- miè -- re, splen -- deur de la gloi -- re du Pè -- re, lou -- ange à toi, Jé -- sus- -- Christ.
+	}
+	\header {
+		piece = "Invitatoire" }
+}
