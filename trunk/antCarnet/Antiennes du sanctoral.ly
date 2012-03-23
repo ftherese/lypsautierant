@@ -834,7 +834,7 @@
 		Un grand si -- gne ap -- pa -- rut dans le ciel_: u -- ne fem -- me, en -- ve -- lop -- pée du so -- leil,
 		la lu -- ne sous les pieds, et sur sa tê - te, u -- ne cou -- ron -- ne de douze é -- toi - les.
 	\markup { \citation #"(Ap 12, 1)" }
-		}
+	}
 	\header {
 		piece = "Antienne" }
 }
@@ -870,7 +870,7 @@
 		tou -- te bel -- le et sans tâche au -- cu -- ne,
 		comme un jar -- din bien clos, u -- ne sour -- ce scel -- lée.
 	\markup { \citation #"(Pr 8, 22 / Ct 4, 7.12)" }
-		}
+	}
 	\header {
 		piece = "Antienne" }
 }
@@ -898,7 +898,7 @@
 		Quand vous au -- rez é -- le -- vez le Fils de l'hom -- me, a -- lors vous sau -- rez que Je Suis_:
 		j'at -- ti -- re -- rai à moi tous les hom -- mes.
 	\markup { \citation #"(Jn 8, 26 / 12, 32)" }
-		}
+	}
 	\header {
 		piece = "Antienne" }
 }
@@ -930,7 +930,328 @@
 		_Voy -- ant sa mè -- re et près d'el -- le le dis -- ci -- ple qu'il ai -- mait,
 		Jé -- sus lui dit_: «_Fem -- me, voi -- ci ton fils._»
 	\markup { \citation #"(Jn 19, 25)" }
-		}
+	}
 	\header {
 		piece = "Antienne" }
 }
+
+
+\markup {
+      		\fill-line{
+                       	\line{"SAINTS MICHEL, GABRIEL ET RAPHAËL (29 septembre)"}}
+}
+
+\score {
+	\relative c''  {
+		\times 2/3 { r8_\( g[ d]\) } f8[ g] a8[ g] g4
+		\cesure a8[ c]
+		\times 2/3 { c8[\( b\) a] }
+		\times 2/3 { g4\( g8\) }
+		\times 2/3 { e8[ g f] }
+		\times 2/3 { e8[ d f] } g8[ a]
+		\ifIndent g8[ f] g4\( g8\) r8		
+		\endBar
+	}
+	\addlyrics {
+		Vous ver -- rez les cieux ou -- verts, et les an -- ges de Dieu
+		mon -- ter et des -- cendre au des -- sus du Fils de l'hom -- me.
+	\markup { \citation #"(Jn 1, 51)" }
+	}
+	\header {
+		piece = "Antienne du Benedictus" }
+}
+
+
+\score {
+	\relative c''  {
+		d8[\( c\)] b8[ d] e8[\( d\)] g,4
+		\cesure
+		a8[\( a\)] a8[ d] c8[ b] g4
+		\cesure \espace
+		\times 2/3 { c8[ b c] }
+		\times 2/3 { d8[ c d] } e8[\( d\)]
+		\pespace
+		r8 e f8[ g] d8[\( e\)] d4
+		\ifIndent
+		r8 d
+		\times 2/3 { e8[ c a] }
+		\times 2/3 { b8[\( c\) \espace a] } g8[ f] f4
+		\cesure
+		\pespace
+		\times 2/3 { g8[\( a\) a] } g4\( g8\) r8
+		\endBar
+	}
+	\addlyrics {
+		An -- ges et Ar -- chan - ges, Trô -- nes et Do -- mi -- na -- tions,
+		Prin -- ci -- pau -- tés et Puis -- san -- ces, Ver -- tus cé -- les - tes,
+		lou -- ez le Sei -- gneur - du haut des cieux, Al - lé -- lu -- ia.
+	}
+	\header {
+		piece = "Antienne du Magnificat" }
+}
+
+
+\markup {
+      		\fill-line{
+                       	\line{"SAINTE THÉRÈSE DE L'ENFANT JÉSUS (1er octobre)"}}
+}
+
+\score {
+	\relative c''  {
+		g8[\cesureBasse \espace g16 a] g8[ f] g16[\( g\) a b] a8[\( a\)]
+		\cesure \pespace
+		\times 2/3 { c8[ c\( c]\) } c16[\( c\) d c]
+		\times 2/3 { b4\(\cesureBasse \espace c8\) }
+		\ifIndent
+		d16[ d d d] f8[ e] d4
+		\cesure \espace
+		g8[ g]
+		\times 2/3 { e8[ g f] }
+		\times 2/3 { e8[\( e\) d] } c8[\( c\)]
+		\cesure
+		a8[ c] e8[ f] d4		
+		\endBar
+	}
+	\addlyrics {
+		Oui, j'ai trou -- vé ma pla -- ce dans l'É -- gli -- se,
+		et cet -- te pla -- ce ô mon Dieu, c'est Vous qui me l'a -- vez don -- née.
+		Dans le coeur de l'É -- gli -- se, ma Mè -- re, je se -- rai l'A -- mour...
+	}
+	\header {
+		piece = "Antienne" }
+}
+
+
+\markup {
+      		\fill-line{
+                       	\line{"SAINTS ANGES GARDIENS (2 octobre)"}}
+}
+
+\score {
+	\relative c''  {
+		\times 2/5 { g16[\( a\) c a g]} f8.[ g16] a16[ a a g] g4
+		c8[ a] c8[\( c\)] g8[ b]
+		\times 2/3 { c8[\( d\) c] }
+		a8[ f] g4
+		\endBar
+	}
+	\addlyrics {
+		L'an -- ge qui me par -- lait re -- vint et m'é -- veil -- la
+		comme un hom -- me qu'on é -- veil -- le de son som -- meil.
+	}
+	\header {
+		piece = "Antienne du Benedictus" }
+}
+
+
+\score {
+	\relative c''  {
+		r8 g c8[\( c\)]
+		\cesure \espace b8[ a] g4
+		\cesure \espace
+		\times 2/3 { a8[ g f] } g16[ a g a] f8[\cesureBasse \espace g]
+		f16[ a b c]
+		\ifIndent
+		b8[ a] g8.[ e16]		
+		f16[ g a a] g4
+		\endBar
+	}
+	\addlyrics {
+		Saints an -- ges, nos gar -- diens, dé -- fen -- dez- -- nous dans le com -- bat,
+		de peur que nous ne suc -- com -- bions au Jour du Ju -- ge -- ment.
+	}
+	\header {
+		piece = "Antienne du Magnificat" }
+}
+
+
+\markup {
+      		\fill-line{
+                       	\line{"NOTRE DAME DU ROSAIRE (7 octobre)"}}
+}
+
+\score {
+	\relative c''  {
+		\times 2/3 { r8_\( g[ g]\) }
+		\times 2/3 { g8[ g a] }
+		\times 2/3 { a4\( g8\) } f8[ g] a8.[ g16]
+		g16[\( b\) c a] g8[ f] g16[\( a\) a g] g4
+		\cesure		
+		\times 2/3 { g8[\( c\) b] }
+		\ifIndent
+		\times 2/3 { c4\(\cesure \espace d8\) }
+		\times 2/3 { c8[ b a] }
+		\times 2/3 { c8[ a g] }
+		\times 2/3 { a8[\( c\) d] }
+		\times 2/3 { d4\( d8\) } c8[ c]
+		\times 2/3 { b8[\( a\) b] }
+		\times 2/3 { c8[ c b] } g4
+		\endBar
+	}
+	\addlyrics {
+		Au -- jour -- d'hui cé -- lé -- brons a -- vec fer -- veur
+		la fê -- te du Très Saint Ro -- sai -- re de Ma -- rie, Mè -- re de Dieu,
+		a -- fin que la Vierge in -- ter -- cè -- de pour nous
+		au -- près de No -- tre Sei -- gneur Jé -- sus- -- Christ.
+	}
+	\header {
+		piece = "Antienne du Benedictus" }
+}
+
+
+\score {
+	\relative c''  {
+		r8 g b8[ a] c8[ b] g8[\( a\)] a4
+		f16[ a c d] b4
+		\cesure \espace
+		c8[ a] g8[ e]
+		\times 2/3 { f8[ g a] } g4
+		\endBar
+	}
+	\addlyrics {
+		Ma -- rie gar -- dait fi -- dè -- le -- ment tous ces sou -- ve -- nirs,
+		et les mé -- di -- tait dans son coeur.
+	\markup { \citation #"(Lc 2, 19)" }
+	}
+	\header {
+		piece = "Antienne du Magnificat" }
+}
+
+
+\markup {
+      		\fill-line{
+                       	\line{"FÊTE DE TOUS LES SAINTS (1er novembre)"}}
+}
+
+\score {
+	\relative c''  {
+		r16 g16[ c a] g4
+		\cesure \espace
+		r8 b c8[\( d\)] a8[ c] b4
+		\cesure \espace
+		\times 2/3 { r8\( d[ c]\) } d8[ e]
+		\times 2/3 { d8[\( c\) \espace b] } g8[\( a\)]
+		\espace
+		b16[ c a b] g4		
+		\endBar
+	}
+	\addlyrics {
+		Bé -- nis -- sez Dieu, vous tous - ses é -- lus_:
+		cé -- lé -- brez des jours - de joie - et glo -- ri -- fiez -- -le.
+	}
+	\header {
+		piece = "Invitatoire" }
+}
+
+
+\score {
+	\relative f'  {
+		\key f \major
+		r8 c
+		\times 2/3 { d8[ d\( d]\) } a'8[ bes] a8[\( a\)]
+		\espace r8 a
+		\times 2/3 { g8[ g g] }
+		\times 2/3 { g8[ c a] }
+		\times 2/3 { g4\(\cesure \espace a8\) }
+		\times 2/3 { g8[\( a\) bes] } a4
+		\cesure \espace a8[\( a\)]
+		\cesure
+		\ifIndent
+		\times 2/3 { f8[\( g\) g] }		
+		\times 2/3 { g8[\( f\) f] }
+		\cesure \espace
+		\times 2/3 { d8[ g g] } g8[ f] f16[ g a c]
+		\times 2/3 { a4\( g8\) } a8[ a] c8[ a] g4
+		\ifIndent
+		r8 f f8[ g] e8[\( f\)]		
+		g8[\( f\)] f4
+		\cesure \espace
+		a8[ c] g8[\( f\)] f8[ f] d4		
+		\endBar
+	}
+	\addlyrics {
+		Je vis u -- ne foule im -- men -- se, que nul ne pou -- vait dé -- nom -- brer,
+		de tou -- tes na -- tions, ra -- ces, peu -- ples et lan - gues.
+		Ils se te -- naient de -- bout de -- vant le trô -- ne et de -- vant l'A -- gneau,
+		vê -- tus de ro -- bes blan - ches, et des pal -- mes à la main.
+	\markup { \citation #"(Ap 7, 9)" }
+	}
+	\header {
+		piece = "Antienne du Benedictus" }
+}
+
+
+\score {
+	\relative c''  {
+		g8[\( g\)] c8[ a] g8\([ g16\)\cesureBasse f] g16[ a a g] g4
+		\cesure \espace a16[ c d\( c\)] c4
+		\espace
+		\times 2/3 { r8\( d[ c]\) }
+		\times 2/3 { b8[ c d] }
+		\times 2/3 { c8[ c a] }
+		\times 2/3 { g4\( g8\) }
+		\cesure
+		\ifIndent
+		\times 2/3 { f8[ g a] } g4
+		\cesure
+		\times 2/3 { a8[\( c\) b] } c4
+		\espace r8 c
+		\times 2/3 { c8[ d c] } c4
+		\espace
+		\times 2/3 { r8_\( b[ a]\) } g8[ a] g4
+		\ifIndent
+		r8a c8[ c] c8[\( c\)] b8[ c] a4
+		\cesure \espace
+		f16[ g a\( g\)] g4
+		\cesure \espace
+		c16[ b c\( a\)] g4
+		\endBar
+	}
+	\addlyrics {
+		U -- ne foule im -- men -- se cla -- mait à plei -- ne voix_: Al -- lé -- lu - ia_!
+		Il a pris pos -- ses -- sion de son Rè -- gne, le Sei -- gneur Dieu, Maî -- tre de tout_!
+		Soy -- ons dans la joie, ren -- dons gloire à Dieu_:
+		voi -- là les No -- ces de l'A -- gneau_! Al -- lé -- lu - ia_! Al -- lé -- lu - ia_!
+	\markup { \citation #"(Ap 19,6-7)" }
+	}
+	\header {
+		piece = "Antienne du Magnificat" }
+}
+
+
+\markup {
+      		\fill-line{
+                       	\line{"Commémoration des FIDÈLES DÉFUNTS (2 novembre)"}}
+}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%%  Remettre la mélodie originelle de cette antienne ! fr Raph. %%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+\score {
+	\relative d'  {
+		r8 d f4
+		\cesure
+		\times 2/3 { e8[ d e] } f16[ e e g] f4
+		\cesure \espace
+		\times 2/3 { f8[ d e] }
+		\times 2/3 { f8[ g a] } a4
+		\cesure
+		\ifIndent
+		\times 2/3 { d,8[ a' a] }
+		\times 2/3 { g4\( f8\) } g8[ g] e8[\( e\)]
+		a8[ g]
+		\times 2/3 { f8[\( f\) f] } d8[ f] g8[\( f\)] e4		
+		\endBar
+	}
+	\addlyrics {
+		Heu -- reux ceux qui sont morts dans le Sei -- gneur_;
+		dès main -- te -- nant, dit l'Es -- prit, qu'ils se re -- po -- sent de leurs pei -- nes,
+		car leurs oeu -- vres les ac -- com -- pa - gnent.
+	\markup { \citation #"(Ap 14, 13)" }
+	}
+	\header {
+		piece = "Antienne" }
+}
+
+
+
