@@ -5,6 +5,8 @@
      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
      %                                                                  %
      %      Antiennes du sanctoral dans le carnet actuel des frères     %
+     %                avec peut être quelques variantes			%
+     %                       sans mise en page				%
      %                                                                  %
      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1254,4 +1256,102 @@
 }
 
 
+\markup {
+      		\fill-line{
+                       	\line{"PRÉSENTATION DE LA VIERGE MARIE (21 novembre)"}}
+}
+	
+\score {
+	\relative c''  {
+		a16[\( a\) e' d] e4
+		\cesure \espace
+		\times 2/3 { e8[ e e] } e4
+		\times 2/3 { e8[ f g] }
+		\times 2/3 { e8[ e d] } e8[ e]
+		\cesure \espace
+		\times 2/3 { c8[ c c] }
+		a16[ a a a] b8[ c] b4
+		\cesure
+		\ifIndent
+		a16[ a c d]
+		\times 2/3 { e8[ e\( e]\) }
+		\times 2/3 { d8[\( c\) d] } b4
+		\times 2/3 { g8[ g g] } a8[ b] a4
+		\cesure
+		r8. a16 a16[ a a a] c4		
+		b16[\( b\) c b]
+		\ifIndent
+		b16[\( b\) b c] a4\( a8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Quit -- te ton pa -- ys, ta pa -- ren -- té et la mai -- son de ton pè -- re,
+		pour le pa -- ys que je te mon -- tre -- rai.
+		Je fe -- rai de toi u -- ne gran -- de na -- tion et je te bé -- ni -- rai.
+		En toi se -- ront bé -- nies tou -- tes les fa -- mil -- les de la ter -- re.
+	\markup { \citation #"(Gn 12, 1-2.3)" }
+	}
+	\header {
+		piece = "Antienne" }
+}
 
+
+\markup {
+      		\fill-line{
+                       	\line{"L'IMMACULÉE CONCEPTION DE LA VIERGE MARIE ( 8 décembre)"}}
+}
+
+\score {
+	\relative f'  {
+		r16 f16[ f f] f16[ d c f]
+		\times 2/3 { e8[ f g] }
+		\times 2/3 { f8[ e g] }
+		\times 2/3 { a8[\( bes\) g] } a4
+		\cesure
+		\ifIndent
+		\times 2/3 { r8_\( f[ e]\) } d8[ c] d8[ f]
+		\times 2/3 { e8[ f d] } c4\( d8\) r8
+		\endBar
+	}
+	\addlyrics {
+		En cé -- lé -- brant l'Im -- ma -- cu -- lée Con -- ce -- ption de la Vie -- rge Ma -- rie,
+		a -- dor -- ons le Christ son Fils le Sei -- gneur  -.
+	}
+	\header {
+		piece = "Invitatoire" }
+}
+
+
+\score {
+	\relative d'  {
+		\times 2/3 { e8[ e f] } d4
+		\cesure
+		g8[ g] e4
+		\cesure \espace
+		g8[ a] c8[ b] c4
+		\cesure \espace
+		a8[ c]
+		\times 2/3 { c8[\( c\) a] } a8[\( g\)] a8[ g]
+		\times 2/3 { e4\( e8\) }
+		\cesure
+		\ifIndent
+		f8[ f] d16[ g e g] g8[\cesure \espace a16 a] a8[ d] c16[ b c c]
+		\times 2/3 { c4\( b8\) }
+		\cesure \espace
+		\times 2/3 { g8[ a g] } e8[\( e\)] f8[ e]
+		\ifIndent
+		\times 2/3 { d8[ g a] }
+		\times 2/3 { c8[\( c\) b] }
+		\times 2/3 { c8[ g e] } g8[ f] e4		
+		\endBar
+	}
+	\addlyrics {
+		Tu es bé -- nie, ô Ma -- rie, par le Dieu Très- -- Haut,
+		plus que tou -- tes les fem -- mes de la ter -- re_;
+		et bé -- ni le Sei -- gneur Dieu, Cré -- a -- teur du ciel et de la ter -- re,
+		qui t'a con -- dui -- te pour frap -- per à la tê -- te le chef de nos en -- ne -- mis.
+	\markup { \citation #"(Jud 13, 18)" }
+	}
+	\header {
+		piece = "Antienne" }
+}
