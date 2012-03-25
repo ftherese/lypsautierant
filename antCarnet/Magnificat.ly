@@ -1,9 +1,9 @@
 ﻿\version "2.14.0"
 \include "DefinitionsAntiennesCarnet.ly"
 
-\paper {
-	system-system-spacing = #'((basic-distance . 1) (padding . 1))
-}
+%\paper {
+%	system-system-spacing = #'((basic-distance . 1) (padding . 1))
+%}
 % J'ai diminué le "padding" parce que le 8ème mode ne voulait pas rentrer sur 2 pages
 % mais il faut peut être modifier d'autres paramètres ou simplement le modifier pour le 8ème mode
 % cependant je ne m'y connais pas assez.
