@@ -1,24 +1,37 @@
 \version "2.14.0"
 
+#(set-default-paper-size "a5" 'landscape )
 \paper {
-%	annotate-spacing = ##t
-#(set-paper-size "a5" 'landscape )
+  %	annotate-spacing = ##t
 	two-sided = ##t
-		inner-margin = 25\mm
-		outer-margin = 10\mm
+	inner-margin = 25\mm
+	outer-margin = 10\mm
 	top-margin = 5\mm
-	bottom-margin = 5\mm
+	bottom-margin = 0\mm
 	print-page-number = ##f
-	page-breaking = #ly:minimal-breaking
-	system-system-spacing = #'((padding . 2) (basic-distance . 1))
+	system-system-spacing = 
+	#'((padding . 1) 
+	   (minimum-distance . 0) 
+	   (stretchability . 0) 
+	   (basic-distance . 0))
 	page-limit-inter-system-space = ##t
-	page-limit-inter-system-space-factor = #1
-	score-system-spacing = #'((padding . 1) (basic-distance . 1))
+	page-limit-inter-system-space-factor = #0
+	score-system-spacing = 
+	#'((padding . 0) 
+	   (minimum-distance . 0) 
+	   (stretchability . 0) 
+	   (basic-distance . 0))
+	last-bottom-spacing =
+	#'((padding . 0) 
+	   (minimum-distance . 0) 
+	   (stretchability . 0) 
+	   (basic-distance . 0))	
+	page-breaking = #ly:minimal-breaking
 	indent = 0\mm
 	short-indent = 0\mm
 	ragged-right = ##t
-	ragged-last = ##t
 	ragged-bottom = ##t
+	ragged-last-bottom = ##t
 	bookTitleMarkup = 
 		\markup {
                 	\fill-line {
@@ -59,6 +72,7 @@
   	\context {
     		\Score
     		timing = ##f
+%		\override NonMusicalPaperColumn #'page-break-permission = ##f
 %		\override SpacingSpanner #'uniform-stretching = ##t
 %		derni‚àö√â‚àÜ√≠‚àö√á¬¨¬Æres valeurs 0.5 et 0.0
 
@@ -84,7 +98,7 @@
 		\override SpacingSpanner #'shortest-duration-space = #2.5
 		\override SpacingSpanner #'spacing-increment = #.5
 
-		%\override Rest #'minimum-distance = #10            
+		\override Rest #'minimum-distance = #10            
 		\override RestCollision #'minimum-distance = #5
 		
 		
@@ -96,10 +110,16 @@
 	\context {
 		
     		\Staff
+		\override VerticalAxisGroup #'default-staff-staff-spacing = 
+		  #'((basic-distance . 0) 
+		    (minimum-distance . 0) 
+		    (stretchability . 0) 
+		    (padding . 0)) 
 		\remove "Time_signature_engraver"
 		packed-spacing = ##t
+		
 %%%%%%%%%%%%%%%		
-		\override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
+		%		\override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
 		
 %%%%%%%%%%%%%%%%
 %		\override TupletNumber #'avoid-slur = #'outside %qu'est-ce que ‚àö√â¬¨√üa fait ?
@@ -121,12 +141,12 @@
 		\Lyrics
 		\override LyricText #'font-name = #"Aharoni"
 		\override LyricText #'font-size = #-1.8
-		\override LyricText #'word-space = #1.8
-		\override LyricSpace #'minimum-distance = #0.5
+		%\override LyricText #'word-space = #1.8
+		%\override LyricSpace #'minimum-distance = #0.5
 		%\override LyricSpace #'Y-extent = #(-0.1 . 0.1)
 %%%%%%%%%%%%%%%		
-		\override VerticalAxisGroup #'minimum-Y-extent = #'(-0.1 . 0.1)
-		\override SeparationItem #'padding = #0.1
+		%\override VerticalAxisGroup #'minimum-Y-extent = #'(-0.1 . 0.1)
+		%\override SeparationItem #'padding = #0.1
 %%%%%%%%%%%%%%%%
 
 		ignoreMelismata = ##t
