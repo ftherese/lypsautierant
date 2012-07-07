@@ -20,7 +20,7 @@
 		\slurDashed f4(  \times 2/3 { d8[) e f] }
 		\times 2/3 { g8[\( a\) a] }
 		g4\( g8\) r8
-		\endBar
+		\endBar \espace
 		\stemOff g4 a4 c4
 		\endBar 
 	}
@@ -88,17 +88,13 @@
 		\times 2/3 { g8[\( a\) a] }
 		g4\( g8\) r8
 		\endBar
-		\stemOff a4 g4 a4 
-		\endBar 
-		\stemOff f4 a4 c4 
-		\endBar 
-		\stemOff g,4 a4 c4 
+		\stemOff \espace g4 a4 c4 
 		\endBar 
 	}
 	\addlyrics {
 		Le Ver -- be "s'est" fait chair, et il a de -- meu -- ré par -- mi nous,  nous av -- ons con -- tem -- plé sa gloi -- - -- - -- "re ;" Al -- - -- le -- - -- lu -- ia, al -- - -- le -- lu -- "ia !"  _ _
 %(Jn 1, 14)
-	 _ _ "[Ton ?       4,                 5 ou                   8?]"
+	 "[Ton 8]"
 	}
 	\header {
 		opus = "G 120" }
@@ -123,12 +119,12 @@
 		f8[ d] c8[ d] d4
 		
 		\endBar
-		\stemOff c4 d4 f4
+		\stemOff \espace f4 g4 a4
 		\endBar 
 	}
 	\addlyrics {
 		Le Ve -- rbe "s'est" fait chair et il a de -- meu -- ré par -- mi "nous ;" à tous ceux qui le re -- çoi -- vent, il a don -- né pou -- voir de de -- ve -- nir enf -- ant de Dieu. 
-	 _ _ "[Ton 2]"
+	 _ _ "[Ton 1]"
 % 		(Jn 1, 14.12)
 	}
 	\header {
@@ -150,7 +146,7 @@
 		\times 2/3 { a4\(\cesure a8\) }
 		c8[ b] 
 		a8[\( b\)] c8[\( b\)] g4
-		\endBar
+		\endBar \espace
 		\stemOff c'4 b4 c4
 		\endBar 
 	}
@@ -176,7 +172,7 @@
 		\times 2/3 { g8[ a c] } 
 		\times 2/3 { a8[ b a] } g4
 		\endBar
-		\stemOff g4 a4 c4
+		\stemOff \espace g4 a4 c4
 		\endBar 
 	}
 	\addlyrics {
@@ -226,7 +222,7 @@
 		a8[ f] f4 \cesure
 		\times 2/3 { g8[\( a\) f] }
 		g8[\( a\)] g4
-		\endBar
+		\endBar \espace
 		\stemOff f4 g4 a4
 		\endBar 
 	}
@@ -256,7 +252,7 @@
 		\times 2/3 { d'8[\( d\) e] } c8[\( c\)] \ifIndent
 		\times 2/3 { a8[\( b\) g] }
 		g4
-		\endBar
+		\endBar \espace
 		\stemOff c'4 b4 c4
 		\endBar 
 	}
@@ -282,7 +278,7 @@
 		\times 2/3 { f8[ g a] }
 		g8[ \cesure a] f8[ a]
 		g4\( g8\) r8
-		\endBar
+		\endBar \espace
 		\stemOff g4 a4 c4
 		\endBar 
 	}
@@ -312,13 +308,14 @@
 		\times 2/3 { e8[ g f] }f4
 		
 		\endBar
-		\stemOff a4 g4 a4
+		
+		\stemOff \espace f4 g4 a4
 		\endBar 
 	}
 	\addlyrics {
 		Jean pro -- cla -- ma dans le dé -- "sert :" Pour moi, je vous ba -- pti -- se dans l'eau, mais il vient ce -- lui qui est plus puis -- sant que "moi ;" lui vous bap -- ti -- se -- ra dans l'Es -- prit- -- Saint et le feu.
 % ref?
-	 _ _ "[Ton 4]"
+	 _ _ "[Ton 1]"
 	}
 	\header {
 		piece = "Benedictus"
@@ -339,7 +336,8 @@
 		\times 2/3 { d8[ e c] } d4\cesure
 		\times 2/3 { c8[ b g] } a4\cesure\ifIndent
 		\times 2/3 { c8[ d e] } d4
-		\endBar
+		\endBar 
+		\espace 
 		\stemOff g,4 a4 c4
 		\endBar 
 	}
