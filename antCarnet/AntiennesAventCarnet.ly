@@ -1,11 +1,8 @@
 \version "2.14.00"
 \include "DefinitionsAntiennesCarnet.ly"
-%\book {
-%	\header {
-%		title = "AVENT"
-%}	
-%	\bookpart {
-%	\header { subtitle = "PREMIER DIMANCHE DE L'AVENT"}
+
+% manque les références scripturaires
+
 \markup {
       		\fill-line{
                        	\line{"PREMIER DIMANCHE DE L'AVENT"}}
@@ -26,8 +23,7 @@
 		g8[ g16\( a]\)
 		\times 2/3 { f4\( e8\) } d4
 		\endBar
-		\ifIndent
-		\stemOff f4 g4 a4
+		\stemOff \espace f4 g4 a4
 		\endBar	
 		
 		
@@ -44,8 +40,8 @@
 	}
   	
 } 
-%}
-%\bookpart {
+
+
 
 \score {
 	\relative f' { 
@@ -59,7 +55,7 @@
 		\times 2/3 { c8[ d d] }
 		f8[ e] d4
 		\endBar
-		\ifIndent
+		\espace
 		\stemOff c4 d4 f4
 		\endBar	
 	}
@@ -74,12 +70,8 @@
 	}
   	
 } 
-%}
- 
- %	\bookpart {
- %			\header {
-%		subtitle = "DEUXIEME DIMANCHE DE L'AVENT"
-%}
+
+
 	\markup {
       		\fill-line{
                        	\line{ "DEUXIEME DIMANCHE DE L'AVENT"}}
@@ -97,7 +89,7 @@
 		g8[ g16\( a]\)
 		\times 2/3 { f4\( e8\) } d4
 		\endBar	
-		\ifIndent
+		\espace
 		\stemOff f4 g4 a4
 		\endBar	
 	}
@@ -113,8 +105,7 @@
 	}
 } 
 
-%}
-%\bookpart {
+
 
 \score {
 	\relative f' { 
@@ -129,7 +120,7 @@
 		\times 2/3 { c8[ c\( d]\) } \times 2/3 { d4\( d8\) }
 		\times 2/3 { g8[ g g] } g8[ f] d4
 		\endBar
-		\ifIndent
+		\espace
 		\stemOff c4 d4 f4
 		\endBar			
 	}
@@ -164,7 +155,7 @@
 		g8[ g16\( a]\)
 		\times 2/3 { f4\( e8\) } d4
 		\endBar	
-		\ifIndent
+		\espace
 		\stemOff f4 g4 a4
 		\endBar	
 	}
@@ -180,8 +171,8 @@
 	}
 } 
 
-%}
-%\bookpart {
+
+
 
 \score {
 	\relative f' { 
@@ -195,7 +186,7 @@
 		g16[ f e c]
 		c8[ d] f8[ g] f8[ d] d4
 		\endBar
-		\ifIndent
+		\espace
 		\stemOff c4 d4 f4
 		\endBar			
 	}
@@ -236,13 +227,13 @@
 		g8[ g16\( a]\)
 		\times 2/3 { f4\( e8\) } d4
 		\endBar	
-		\ifIndent
+		\espace
 		\stemOff f4 g4 a4
 		\endBar	
 	}
 
 	\addlyrics {
-		Ô -- - Mar -- ie, tu es le Pa -- ra -- dis nou -- veau et la ter -- re pro -- mi -- "se :" en toi le Sol -- eil a é -- ta -- bli sa de -- meu -- re. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
+		Ô- _ Mar -- ie, tu es le Pa -- ra -- dis nou -- veau et la ter -- re pro -- mi -- "se :" en toi le Sol -- eil a é -- ta -- bli sa de -- meu -- re. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
 		_ _ "[Ton 1]"
 	}
 
@@ -251,25 +242,4 @@
 		opus = "F 400"
 	}
 } 
-
-
-
-
-
-
-
-
-%}
-%\bookpart {
-
-
-
-
-
-%} 
-%}
-
-	
-
-
 
