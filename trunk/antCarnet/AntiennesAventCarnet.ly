@@ -31,8 +31,7 @@
 
 	\addlyrics {
 		Voi -- ci ve -- nir des loin -- tains le Nom du Seig -- neur, et sa cla -- rté il -- lu -- mi -- ne la ter -- re. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
-	 _ _ "[Ton 1]"
-
+	 _ _ "[Ton 1]" 
 	}
 	\header {
 		piece = "Benedictus"
@@ -62,7 +61,8 @@
 
 	\addlyrics {
 		Il vient vers nous, le Dieu vé -- ri -- ta -- \skip 1 ble. Il re -- vêt en Ma -- rie la chair du pre -- mier Ad -- am.
-		_ _ "[Ton 2]"
+		_ _ "[Ton 2]" 
+		
 	}
 	\header {
 		piece = "Magnificat"
@@ -96,7 +96,9 @@
 
 	\addlyrics {
 		Un -- e voix pro -- cla -- "me :" pré -- pa -- rez dans le dés -- ert le che -- min du Seig -- neur, et ren -- dez droits les sent -- iers de not -- re Dieu. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
-		_ _ "[Ton 1]"
+		_ _  "[Ton 1]"
+%		\markup { \citation #"[Ton 1] (Is 40)"} en rajoutant 2 _ _ au dessus
+		
 	}
 
   	\header {
@@ -128,6 +130,7 @@
 	\addlyrics {
 		Tou -- te val -- lée se -- ra com -- blée et tou -- te col -- line a -- bais -- "ée ;" al -- ors la gloi -- re du Sei -- gneur ap -- pa -- raî -- tra, et tou -- te chair ver -- ra le sa -- lut de Dieu.
 		_ _ "[Ton 2]"
+% (Is 40)
 	}
 	\header {
 		piece = "Magnificat"
@@ -194,6 +197,7 @@
 	\addlyrics {
 		Ré -- ou -- is- -- toi, Fi -- lle de Si -- "on :" le Roi "d'Is" -- ra -- ël, le Seig -- neur, est en toi. Il te re -- nou -- vel -- le -- ra dans son am -- our.
 		_ _ "[Ton 2]"
+% (Cf. So)
 	}
 	\header {
 		piece = "Magnificat"
