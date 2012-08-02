@@ -277,7 +277,7 @@
 		\stemOff f  g a
 		\endBar 
 	}
-	\addlyrics { \set stanza = #"C) "
+	\addlyrics { \set stanza = #"(C) "
 	Je me lè -- ve -- rai et "j'i" -- rai dire à mon pè- -- _ "re :"
 	Pè -- re, j'ai pé -- ché con -- tre le ciel et con -- tre toi, 
 	je ne mé -- ri -- te plus "d'être" ap -- pe -- lé ton fils.
@@ -289,83 +289,303 @@
 		opus = "H 402" }
 	} 
 	
+\markup {
+	\fill-line{\line{"CINQUIEME DIMANCHE DE CAREME"}}}
+\score {\relative f'  { 
+	r8 g
+	\times 2/3 { b8[ c d] }
+	e8[ d]
+	\times 2/3 { d8[ c d] } b4
+	r8 d
+	e8[ f]  e8[ d]  b4
+	\cesure
+	a16[ b a g] g4
+		\endBar
+		\stemOff c'4 b c
+		\endBar 
+	}
+	\addlyrics { \set stanza = #"(A) "
+	Je suis la Ré -- sur -- rec -- tion et la Vie.
+	Ce -- lui qui croit en moi ne mour -- ra ja -- mais.
+	 _ _ "[Ton 7]"		
+% (Jn 11)
+
+	}
+	\header {
+		opus = "H 500" }
+	} 
 	
-	%{
+\score {  \transpose g c { \relative f'  { \key c \major
+	g8[ g]  c4 
+	\times 2/3 { c8[ c d] } c4 \cesure
+	d8[ e] d8[\( c\)] c4
+	r8 c \times 2/3 { c8[ c c] } f4 \cesure
+	d8[ c] c8.[ a16]
+	a16[ b c d] c4
+		\endBar
+		\stemOff c4 d e
+		\endBar 
+	} }
+	\addlyrics { \set stanza = #"(B) "
+	Si quel -- qu'un veut me ser -- vir, qu'il me sui- -- _ "ve ;"
+	et là où je suis, là aus -- si sera mon ser -- vi -- teur.
+	 _ _ _ "[Ton 6]"		
+% (Jn 12)
+
+	}
+	\header {
+		opus = "H 501" }
+	} 
+	
+	
+\score {   \relative f'  { 
+	a8[\( a\)]  r8 a
+	\times 2/3 { c8[\( d\) c] }
+	\times 2/3 { b8[ a a] } a4
+	r8 a
+	c8[\( a\)] \cesure c8[\( e\)] d4 \cesure
+	e8[ e] c4  \cesure
+	a16[ a a a]   \ifIndent
+	c8[\( b\)] a4\cesure 
+	f4\cesure
+	\times 2/3 { g8[ a b] } 
+	a8[ a]
+	c8[\( b\)] a4
+		\endBar
+		\stemOff g4 a c
+		\endBar 
+	}
+	\addlyrics { \set stanza = #"(C) "
+	Fem -- me, per -- son -- ne ne t'a con -- dam -- "née ?"
+	"- Per" -- son -- ne, Sei-  -- _ gneur.
+	"- Moi" non plus, je ne te con -- dam -- ne pas. 
+	Va, et dé -- sor -- mais ne pè -- che plus.
+	 _ _ "[Ton 2]"		
+% (Jn 8)
+
+	} 
+
+	\header {
+		opus = "H 502" }
+	} 
+\markup {2° mode transposé au la }
+
+
+\markup {
+	\fill-line{\line{"DIMANCHE DES RAMEAUX"}}}
+\score {\relative f'  { 
+	r8 g  g8[ d']  d4 \cesure
+	\times 2/3 { c8[ b c] }
+	d8[\( e\)] d4 
+	r8 b  \times 2/3 { c8[ d]e }
+	\times 2/3 { d4\( c8\) }
+	\times 2/3 { c8[\( d\) c] } g4
+	r8 g g8[\( d'\)] \times 2/3 { d4\( d8\) }
+	\times 2/3 { c8[ b c] } d4
+	r8 b \times 2/3 { c8[ d e] }
+	\times 2/3 { d8[\( c\) d] }
+	\ifIndent
+	\times 2/3 { c4\( c8\) }
+	\times 2/3 { c8[ c c] }
+	\times 2/3 { a4\( g8\) }
+	r8 g g8[\( d'\)] d4 
+	c8[ a] b8[ g] g4
+		\endBar
+		\stemOff c'4 b c
+		\endBar 
+	}
+	\addlyrics { 
+	Ré -- jou -- is- -- toi, Jé -- ru -- sa -- "lem- !" _ _
+	Voi -- ci que ton Roi "s'a" -- van -- ce vers "toi :"
+	Ho -- san-  -- _ na au Fils de Da -- "vid !"
+	Bé -- ni soit ce -- lui- _ qui vient au nom du Seign -- "eur- !" _
+	Ho -- san- -- _ na au plus haut des "cieux !"
+	 _ _ "[Ton 7]"		
+% (Za 9)
+
+	}
+	\header {
+		opus = "H 610" }
+	} 
+
+\markup {
+	\fill-line{\line{"PREMIERS JOURS DE LA SEMAINE SAINTE"}}}
+\score {\relative f'  { 
+		\times 2/3 { c8[\( d\) f] } e4 \cesure
+		\times 2/3 { e4\( e8\) } \cesure
+		\times 2/3 { e8[ f g] }
+		\times 2/3 { a4\( g8\) } 
+		f8[ f]   d4 \cesure
+		f8[ a] 
+		bes16[\( a\) g a]
+		f8[ e] 
+		\times 2/3 { f8[\( g\) d] }
+		\times 2/3 { c4\( d8\) }
+		d8[ a']  bes8[ g] 
+		f8[\( e\)] e4
+		\endBar
+		\stemOff  a4 a a
+		\endBar 
+	}
+	\addlyrics { 
+	Main- -- _ ten -- ant, Pè -- re, 
+	glo -- ri -- "fie-" -- moi aup -- rès de toi, 
+	de la glo -- ire que j'a -- vais au -- près- _ de toi 
+	a -- vant que fût le mon- -- de
+	_ _ _ "[Ton 4]"		
+% (Jn 17)
+
+	}
+	\header {
+		opus = "H 620" }
+	} 
+	
+\score {\relative f'  { 
+		r8 d
+		\times 2/3 { a'8[ c b] }
+		a8[\( a\)] \cesure
+		a8[ c]
+		d16[\( d\) d c]
+		c8[ b]  a8[ g]
+		\times 2/3 { c4\( c8\) } \cesure
+		\times 2/3 { a8[ a a] }
+		a16[\cesure a  g a]  b4  \cesure
+		c8[ c]  c8[ c] b8[ c] \ifIndent
+		\times 2/3 { a8[\( a\) g] }  a4
+		r8 g
+		b8[\( c\)] a4  \cesure
+		c8[ b] 
+		\times 2/3 { g4\(\cesure f8\) }
+		\times 2/3 { d8[\( e\) f] }
+		g8[ a]  g4 
+		\endBar
+		\stemOff g4 a c 
+		\endBar 
+	}
+	\addlyrics { 
+	Voi -- ci ve -- nue "l'heu" -- re 
+	où doit êt -- re glo -- ri -- fié le Fils de l'hom -- me. 
+	En vé -- ri -- té, je vous le "dis :" 
+	si le grain tom -- bé en ter -- re ne meurt, 
+	il res -- te seul, mais s'il meurt, 
+	il por -- te beau -- coup de fruit.
+	 _ _ "[Ton 8]"		
+% (Jn 12)
+
+	}
+	\header {
+		opus = "H 621" }
+	} 
+	
+	
+\markup {
+	\fill-line{\line{"JEUDI SAINT"}}}
+\score {\relative f'  { 
+		\times 2/3 { f8[ f e] }
+		\times 2/3 { d8[ f a] }
+		\times 2/3 { bes4\( a8\) }
+		\times 2/3 { g8[ a\( c]\) }
+		\times 2/3 { c8[ c b] }
+		\times 2/3 { a4\( a8\) }
+		c8[\( a\)]  g8[ bes]  a4  \cesure
+		d,16[ a' g b] a4
+		\times 2/3 { r8_\( c[ b]\) }
+		\ifIndent c8[\( a\)]
+		\times 2/3 { g8[ a b] }
+		c8[ b]  a4
+		\times 2/3 { a8[ a d,] }  a'8[\( g\)]
+		\times 2/3 { f8[ g a] }  e4
+		\times 2/3 { f8[ g a] }  
+		bes8[\( g\)]  a8[\( bes\)]  a4
+		\endBar
+		\stemOff  f4 g a
+		\endBar 
+	}
+	\addlyrics { 
+	J'ai dé -- si -- ré ar -- dem -- ment man -- ger cet -- te pâque 
+	av -- ec vous a -- "vant-  " _ de souf -- "frir ;"
+	car je vous le dis, jam -- ais plus- _ je ne la man -- ge -- rai 
+	jus -- "qu'à" ce "qu'el" -- le soit ac -- com -- plie 
+	dans le Roy -- au- -- me de- _ Dieu.
+	_ _  "[Ton 1]"		
+% (Lc 22)
+
+	}
+	\header {
+		opus = "H710" }
+	} 
 
 
 	
 \markup {
-	\fill-line{\line{"QUATRIEME DIMANCHE DE CAREME"}}}
-\score {\relative f'  { 
-
+	\fill-line{\line{"VENDREDI SAINT"}}}
+	
+\score {\relative c'  { 
+		\times 2/3 { c'8[ c c] }
+		b8[ c]
+		a8[\( a\)] \cesure
+		\times 2/3 { g8[ a b] }
+		c8[ b]
+		\times 2/3 { g4\( a8\) }
+		\times 2/3 { a8[ b a] } a4 \cesure
+		r8 c  d8[ c]
+		\times 2/3 { b8[\( b\) b] }
+		a8[ b]  a8[\( a\)]
+		\times 2/3 { a8[ c d] } d4 \cesure \ifIndent
+		a8[ g]  a8[ c]
+		b16[ a\( g\) a]
+		b8[\( a\)]  c8[\( c\)]  \cesure
+		\times 2/3 { c8[\( c\) c] }
+		\times 2/3 { c8[ c c] }
+		\times 2/3 { c8[ a b] } c4 \cesure
+		\times 2/3 { d8[ c b] }
+		a8[ g]  a8[\( a\)]  \cesure \ifIndent
+		\times 2/3 { g8[ f g] } a4
 		\endBar
-		\stemOff 
+		\stemOff g4 a c
 		\endBar 
 	}
-	\addlyrics { \set stanza = #"(A) "
-	
-	 _ _ "[Ton ]"		
-% ()
+	\addlyrics { 
+	Jus -- qu'à la neu -- vième heu -- re, l'obs -- cu -- ri -- té se fit sur tout le pa -- ys.
+	Al -- ors le voi -- le du sanc -- tu -- ai -- re se dé -- chi -- ra, et Jé -- sus cri -- a d'un -- e voix for -- "te :"
+	Pè -- re, en -- tre tes mains je re -- mets mon es -- prit.
+	Puis, in -- cli -- nant la tê -- te, il ex -- pi -- ra.
+	 _ _ "[Ton 8]"		
+% (Lc 23)
 
 	}
 	\header {
-		opus = "H 400" }
-	} 
-	
-\score {\relative f'  { 
+		opus = "H 810" }
+	} 	
 
+		
+\markup {
+	\fill-line{\line{"SAMEDI SAINT"}}}
+\score {\relative f'  { 
+	r8 g 	a8[ b]
+	c8[\( b\)] g8[ a] g4 \cesure
+	\times 2/3 { g8[ b c] }
+	d8[ d]  c8[ d]
+	b8[\cesure  b]
+	\times 2/3 { g4\(\cesure f8\) }
+	\times 2/3 { g8[ a a] }
+	g4 \cesure \ifIndent
+	b8[ c] 	\times 2/3 { d8[ d c] }
+	\slurDashed a4( b16[) a b g] g4
+	
 		\endBar
-		\stemOff 
+		\stemOff c'4 b c
 		\endBar 
 	}
-	\addlyrics { \set stanza = #"(B) "
+	\addlyrics { 
+	Ma chair re -- po -- se dans la paix, 
+	car tu ne peux a -- ban -- don -- ner, Sei -- gneur, mon âme aux En -- fers,
+	ni lais -- ser ton a -- mi voir la cor -- rup -- tion.
 	
-	 _ _ "[Ton ]"		
-% ()
+	 _ _ "[Ton 7]"		
+% (Ac 2)
 
 	}
 	\header {
-		opus = "H 401" }
+		opus = "H 910" }
 	} 
-	
-	
-\score {\relative f'  { 
-
-		\endBar
-		\stemOff 
-		\endBar 
-	}
-	\addlyrics { \set stanza = #"C) "
-	
-	 _ _ "[Ton ]"		
-% ()
-
-	}
-	\header {
-		opus = "H 402" }
-	} 
-
-
-
-	
-	\markup {
-	\fill-line{\line{"DIMANCHE DE CAREME"}}}
-
-
-\score {\relative f'  { 
-
-		\endBar
-		\stemOff 
-		\endBar 
-	}
-	\addlyrics { \set stanza = #"(A.B.C) "
-	
-	 _ _ "[Ton ]"		
-% ()
-
-	}
-	\header {
-		opus = "H " }
-	} 
-	
-%}
