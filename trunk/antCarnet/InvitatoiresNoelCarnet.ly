@@ -31,7 +31,7 @@
 		r8 d8
 		e8[\( f\)]
 		a8[ c] g4\(
-		f8.[\)\cesure e16]
+		f8.[\)\cesureBasse e16]
 		d16[ e g a]
 		f4\( e8\) r8
 		
@@ -119,7 +119,7 @@
 		r8. d16 
 		e16[ f g a]
 		g8[ b] c8[ a]
-		g8.[\cesure d16]
+		g8.[\cesureBasse d16]
 		f16[ g a g]		
 		f4\( e8\) r8	
 		\endBar 
