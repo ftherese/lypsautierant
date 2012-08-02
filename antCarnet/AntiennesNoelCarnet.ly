@@ -3,8 +3,39 @@
 
 \markup {
 	\fill-line{\line{"NATIVITE DU SEIGNEUR"}}}
+\markup {}
+\score {\relative f'  { 
+		a4
+	}
+	\addlyrics {
 
-
+	}
+	\header {
+		piece = "Premières vêpres (Latin)"
+		opus = "G 100" }
+	} 
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
 \score {\relative f'  { 
 		\times 2/3 { g8[ d f] }
 		g16[ a g g]
@@ -25,13 +56,46 @@
 		\endBar 
 	}
 	\addlyrics {
-	Quand le sol -- eil se lè -- ve -- ra dans le ciel, vous ver -- rez le Roi -- - des rois, en -- gen -- dré du Pè -- re av -- ant les siè -- - -- - -- cles, tel un ép -- oux pa -- rais -- sant hors de sa cham -- bre nup -- tia -- le.  	
+	Quand le sol -- eil se lè -- ve -- ra dans le ciel, vous ver -- rez le Roi -- - des rois, en -- gen -- dré du Pè -- re av -- ant les siè -- \skip 1 \skip 1 cles, 
+	tel un ép -- oux pa -- rais -- sant hors de sa cham -- bre nup -- tia -- le.  	
 	 _ _ "[Ton 8]"
 	}
 	\header {
 		piece = "Premières vêpres (Français)"
 		opus = "G 101" }
 	} 
+\pageBreak
+
+
+\score {\relative f'  { 
+		a4
+	}
+	\addlyrics {
+
+	}
+	\header {
+		piece = "Premières vêpres (Latin)"
+		opus = "G 110" }
+	} 
+
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
+\markup {}
 
 
 \score {\relative f'  { 
@@ -61,8 +125,11 @@
 		\endBar 
 	}
 	\addlyrics {
-		Auj -- "ourd'" -- hui le Christ est né, auj -- ourd' -- hui le Sau -- veur est ap -- pa -- "ru ;" auj -- ourd' hui sur la ter -- re les an -- ges chan -- tent, les arc -- han -- ges se ré -- jou -- iss -- ent. Auj -- ourd' -- hui les saints e -- xu -- - -- "ltent en" chan -- "tant :" Gloire à Dieu au plus haut -- - des cieux. Al -- le -- - -- lu -- "ia !"   
-%	  (Cf. Lc 2, 11-14)
+		Auj -- "ourd'" -- hui le Christ est né, auj -- ourd' -- hui le Sau -- veur est ap -- pa -- "ru ;" 
+		auj -- ourd' hui sur la ter -- re les an -- ges chan -- tent, les arc -- han -- ges se ré -- jou -- iss -- ent. 
+		Auj -- ourd' -- hui les saints e -- xu- _ "ltent en" chan -- "tant :" 
+		Gloire à Dieu au plus haut -- - des cieux. Al -- le -- \skip 1 lu -- "ia !"   
+%	  (Cf. Lc 2)
 	 _ _ "[Ton 1]"
 	}
 	\header {
@@ -70,6 +137,7 @@
 	opus = "G 111" }
 	} 
 
+\pageBreak
 
 \markup {
 	\fill-line{\line{ "OCTAVE DE NOEL"}}}
@@ -93,7 +161,7 @@
 	}
 	\addlyrics {
 		Le Ver -- be "s'est" fait chair, et il a de -- meu -- ré par -- mi nous,  nous av -- ons con -- tem -- plé sa gloi -- - -- - -- "re ;" Al -- - -- le -- - -- lu -- ia, al -- - -- le -- lu -- "ia !"  _ _
-%(Jn 1, 14)
+%(Jn 1)
 	 "[Ton 8]"
 	}
 	\header {
@@ -125,7 +193,7 @@
 	\addlyrics {
 		Le Ve -- rbe "s'est" fait chair et il a de -- meu -- ré par -- mi "nous ;" à tous ceux qui le re -- çoi -- vent, il a don -- né pou -- voir de de -- ve -- nir enf -- ant de Dieu. 
 	 _ _ "[Ton 1]"
-% 		(Jn 1, 14.12)
+% 		(Jn 1)
 	}
 	\header {
 		opus = "G 200" }
@@ -152,7 +220,7 @@
 	}
 	\addlyrics {
 		A Bet -- hlé -- em, les ber -- gers vin -- rent en hâ -- te, ils tro -- uvè -- rent Mar -- ie et Jo- -- _ seph, et le nou -- veau- -- né, le Sau -- veur, cou -- ché dans un -- e crè- -- _ che.
-%		 (Lc 2, 16)
+%		 (Lc 2)
 	 _ _ "[Ton 7]"
 	}
 	\header {
@@ -177,7 +245,7 @@
 	}
 	\addlyrics {
 		Jos -- eph prit av -- ec lui "l'en" -- fant et sa mè -- re, et vint s'é -- tab -- lir dans un -- e vil -- le de Ga -- li -- lée ap -- pe -- lée Na -- za -- reth. 
-	% (Mt 2, 21...23)
+	% (Mt 2)
 	 _ _ "[Ton 8]"
 	}
 	\header {
@@ -228,7 +296,6 @@
 	}
 	\addlyrics {
 		Par un éch -- an -- ge ad -- mi -- ra -- - -- - -- ble, le Cré -- at -- eur a pris chair de Mar -- ie, et il nous fait par -- ti -- cip -- ants de sa di -- vi -- ni -- té. Al -- - -- le -- lu  -- - -- ia! 
-% (St Augustin)
 	 _ _ "[Ton 6]"
 	}
 	\header {
@@ -258,7 +325,7 @@
 	}
 	\addlyrics {
 		Lè -- ve- -- toi-, -- _ -- Jé -- ru -- sa -- "lem !" Sois il -- lu -- mi -- "ée !" Car voi -- ci ta lu -- miè- --  _ re, et sur toi se lè -- ve la glo -- ire du- -- _ Seig -- neur.
-% (Is 60, 1)
+% (Is 60)
 	 _ _ "[Ton 7]"
 	}
 	\header {
@@ -284,7 +351,7 @@
 	}
 	\addlyrics {
 		A la vue de l'é -- toi -- le, les ma -- ges fur -- ent trans- -- _ -- por -- tés de "joie ;"  ay -- ant tro -- uvé l'en -- fant a -- vec Ma -- rie sa mè -- re, se pros -- ter -- nant, ils l'a -- do -- rè -- rent. 
-%		(Mt 2, 10-11)	
+%		(Mt 2)	
 	 _ _ "[Ton 8]"
 	}
 	\header {
@@ -314,14 +381,17 @@
 	}
 	\addlyrics {
 		Jean pro -- cla -- ma dans le dé -- "sert :" Pour moi, je vous ba -- pti -- se dans l'eau, mais il vient ce -- lui qui est plus puis -- sant que "moi ;" lui vous bap -- ti -- se -- ra dans l'Es -- prit- -- Saint et le feu.
-% ref?
+% (Mt 3)
 	 _ _ "[Ton 1]"
 	}
 	\header {
 		piece = "Benedictus"
 		opus = "G 600" }
 	} 
-\score {\relative f'  { 
+
+	
+%{ nouvelle mais pas trop belle
+	\score {\relative f'  { 
 		\times 2/3 { r8\( c'[ c]\) }
 		\times 2/3 { c8[ d e] } e8.[ e16]
 		d16[ d c d] b4
@@ -343,7 +413,7 @@
 	}
 	\addlyrics {
 		Ba -- pti -- sé au Jour -- dain, Jé -- sus sor -- tit des eaux. Al -- ors les cieux "s'ou" -- vri -- rent et l'Es -- prit des -- cen -- dit sur lui com -- me une co -- lom -- be. Un -- e voix ve -- nue des cieux di -- "sait :" Cel -- ui -- -ci est mon Fils, mon bien- -- ai -- mé. A -- lle -- lu -- "ia !"  
-% (Mt 3,16-17)
+% (Mt 3)
 	 _ _ "[Ton 3]"
 	}
 	\header {
@@ -351,13 +421,28 @@
 		opus = "G 601" }
 	} 
 
+%}
 
-
-%{	\header {
-		piece = "Benedictus"
-		piece = "Magnificat"
-		opus = "F 110"
+\score {\relative f'  { 
+		r8 f f[ d] \times 2/3 { f4\( e8\) }
+		\times 2/3 { e8[\( g\) a] } a4
+		g16[ a\( c\) c]  \times 2/3 { c4\( c8\) } \cesure
+		\times 2/3 { g8[ a g] }
+		f8[ g] e4
+		\endBar
+		\stemOff \espace a4 a a
+		\endBar 
+	
 	}
-%}	
+	\addlyrics {
+		J'ai vu l'Es -- prit des -- cen -- dre du ciel comme u -- ne co -- lom -- be, et de -- meu -- rer sur lui. 
+% (Mt 3)
+	 _ _ "[Ton 4]"
+	}
+	\header {
+		piece = "Magnificat"
+		opus = "G 601" }
+	} 
+	
 
 
