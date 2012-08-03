@@ -514,13 +514,16 @@
 	\cesure
 	\times 2/3 { a8[\( b\) a] } g4\( g8\) r8
 	\endBar
+	\stemOff g4 a c
+	\endBar 
 	}
 	
 	\addlyrics {
 		\set stanza = #"1." Ne me re -- tiens pas, Ma -- rie, dit - le Sei -- gneur, 
 		mais va- -- t-en vers mes frè -- res et dis- -- leur_: 
 		je mon -- te vers mon Pè -- re et vo -- tre Pè - re, 
-		vers mon Dieu et vo -- tre Dieu. Al - le -- lu -- ia_!		
+		vers mon Dieu et vo -- tre Dieu. Al - le -- lu -- ia_!	
+		 _ _ "[Ton 8]"
 		}
 		% (Jn 20)
 	\header {
@@ -544,14 +547,16 @@
 	\times 2/3 { f8[ f f] } e8[ f]
 	\times 2/3 { d8[ f g] } a4 bes16[ a bes\( g\)] a4
 	\endBar
-	}
+	\stemOff f4 g a
+	\endBar	}
 	
 	\addlyrics {
 		\set stanza = #"2." Hom -- mes de Ga -- li -- lée, 
 		pour -- quoi re -- stez- -- vous à re -- gar -- dez le ciel_?
 		Ce -- lui qui vous a é -- té en -- le -- vé, Jé -- sus, re -- vien -- dra, 
 		comme il s'en est al -- lé vers le ciel.
-		Al -- le -- lu - ia.		
+		Al -- le -- lu - ia.	
+		 _ _ "[Ton 1]"
 		}
 		% (Ac 1)
 	\header {
@@ -620,12 +625,6 @@
 
 
 
-
-
-
-
-
-
 \markup {
       		\fill-line{
                        	\line{"7ème DIMANCHE DE PÂQUES"}}
@@ -657,7 +656,8 @@
 	\cesure
 	\times 2/3 { c8[\( d\) b] } \times 2/3 { g8[\( a\) b] } a4
 	\endBar
-	}
+	\stemOff f4 g a
+	\endBar	}
 	
 	\addlyrics {
 		\set stanza = #"(A)" Pè -- re, glo -- ri -- fie ton Fils, 
@@ -666,7 +666,9 @@
 		La vie é -- ter -- nel -- le, c'est qu'ils te con -- nais -- sent, 
 		toi, le seul vrai Dieu 
 		et ce -- lui que tu as en -- voy -- é, Jé -- sus- -- Christ. Al - le -- lu - - ia_!
-		}
+		 _ _ "[Ton 1]"
+	
+	}
 		% (Jn 17)	
 	\header {
 		opus =  "I 700"
@@ -674,7 +676,7 @@
 }
 
 
-\score { \relative c''  { 
+\score { \transpose  a e \relative c''  { 
 	\times 2/3 { a8[\( d\) d] }
 	\times 2/3 { d8[ f e] }
 	\times 2/3 { d8[ c d] } a8[\( a\)]
@@ -693,7 +695,8 @@
 	\cesure
 	c16[ d e\( d\)] d4	
 	\endBar
-	}
+	\stemOff d4 d d
+	\endBar	}
 	
 	\addlyrics {
 		\set stanza = #"(B)" Com -- me tu m'as en -- vo -- yé dans le mon -- de, 
@@ -701,7 +704,7 @@
 		Pour eux, je me con -- sa -- cre moi -- -mê -- me, 
 		a -- fin qu'ils soient, eux aus -- si, con -- sa -- crés 
 		dans la vé -- ri -- té. Al -- le -- lu - ia.		
-		}
+		 _ _ "[Ton 4]"}
 		% (Jn 17)
 	\header {
 		opus =  "I 701"
@@ -727,14 +730,15 @@
 	\cesure
 	f16[ a g\( f\)] f4
 	\endBar
-	}
+	\stemOff f4 g a
+	\endBar	}
 	
 	\addlyrics {
 		\set stanza = #"(C) 1." Je leur ai fait con -- naî -- tre ton nom, 
 		Pè -- re, et je le fe -- rai con -- naître en -- co -- re, 
 		pour que l'a -- mour dont tu m'as ai -- mé soit en eux, 
 		et que moi, je sois en eux. Al -- le -- lu - ia.
-		}
+		 _ _ "[Ton 6]"}
 		% (Jn 17)
 	\header {
 		opus =  "I 702"
@@ -764,14 +768,15 @@
 	a8[ b] 
 	\times 2/3 { c8[ d a] } g4
 	\endBar
-	}
+	\stemOff g4 a c
+	\endBar	}
 	
 	\addlyrics {
 		\set stanza = #"2." Pè -- re, je leur ai don -- né la gloi -- re que tu m'as don -- née, 
 		a -- fin que tous, ils soient un, 
 		com -- me toi tu es en moi et moi en toi. 
 		Ain -- si le mon -- de con -- naî -- tra que tu m'as en -- vo -- yé. Al -- le -- lu - - ia.
-		}
+		 _ _ "[Ton 8]"}
 		% (Jn 17)
 }
 
@@ -783,7 +788,7 @@
                        	\line{"PENTECÔTE"}}
 }
 
-\score { \relative c''  { 
+\score { \transpose a d \relative c''  { 
 	\times 2/3 { a8[ c c] }
 	\times 2/3 { c8[ c b] }
 	\times 2/3 { a8[ b a] } g4
@@ -802,11 +807,12 @@
 	\cesure
 	a16[ b c\( a\)] a4
 	\endBar
-	}
+	\stemOff g4 a c 
+	\endBar	}
 	
 	\addlyrics {
 		\set stanza = #"1/ " Je ne vous lais -- se -- rai pas or -- phe -- lin, al -- le -- lu -- ia, je m'en vais et je re -- viens vers vous, al -- le -- lu - ia, et vo -- tre coeur se -- ra dans la joie, al -- le -- lu - ia.
-		}
+		 _ _ "[Ton 2]"}
 		%(Jn 14 - Jn 16)
 	\header {
 		opus =  "I 800"
@@ -814,7 +820,7 @@
 }
 
 
-\score { \relative d'  { 
+\score { \relative d'  { \key f \major 
 	r8 c16[ d] d8.[ f16] f16[ e d d]
 	\times 2/3 { d8[ e d] }
 	\times 2/3 { c4\( c8\) } d16[\( g\) f\( e\)]
@@ -830,14 +836,15 @@
 	d16[\( g\) f\( e\)] 
 	d4\( d8\) r8
 	\endBar
-	}
+	\stemOff f4 g a
+	\endBar	}
 	
 	\addlyrics {
 		\set stanza = #"2/ " Au -- jour -- d'hui, 
 		l'Es -- prit se ma -- ni -- feste aux dis -- ci -- ples, 
 		al - le - lu -- ia, sur eux, il ré -- pand les dons de sa grâ - ce, 
 		et les en -- voie pro -- cla -- mer les lou -- an -- ges de Dieu. Al - le - lu -- ia_!
-		}
+		 _ _ "[Ton 1]"}
 	\header {
 		opus =  "I 801"
 	}
@@ -870,7 +877,8 @@
 	\cesure
 	a16[ f a\( g\)] g4
 	\endBar
-	}
+	\stemOff g4 a c
+	\endBar	}
 	
 	\addlyrics {
 		\set stanza = #"3/ " Que les cieux se ré -- jou -- is -- sent, 
@@ -880,7 +888,7 @@
 		et ré -- pands ses dons sur les hom -- mes. 
 		Il nous fait pro -- cla -- mer les mer -- veil -- les de Dieu. 
 		Al -- le -- lu - ia.		
-		}
+		 _ _ "[Ton 8]"}
 	\header {
 		opus =  "I 803"
 	}
