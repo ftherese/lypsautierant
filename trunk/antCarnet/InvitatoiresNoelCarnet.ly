@@ -10,7 +10,7 @@
 		r8 g8 \times 2/3 { g8[ g a] } g4 \cesure
 		\times 2/3 { g8[\( c\) a] }
 		\times 2/3 { b8[\( c b]\) } g4
-		r8 a8\cesure
+		r8 a8
 		\slurDashed a4(  \times 2/3 { g8[) a f] } f4\cesure
 		\times 2/3 { f8[ a c] } c4\cesure
 		\times 2/3 { a8[\( c\) a] }
@@ -23,7 +23,7 @@
 		Le Christ nous est né, A -- - -- lle -- lu -- - -- - -- "ia !" Ven -- ez, a -- dor -- ons- -- le, Al -- le -- lu -- ia, A -- - -- lle -- lu -- - -- - -- "ia !" 
 		}
 	\header {
-		piece = "Jour Noël"
+		piece = "Jour de Noël"
 	}
 	} 
 
@@ -49,7 +49,7 @@
 		
 		\times 2/3 { r8_\( a[ g]\) }
 		\times 2/3 { a8[ b c] }
-		a8.[ a16]
+		a8.[\cesure a16]
 		a16[ d c b]
 		a8[ g]
 		\times 2/3 { \stemUp a4\(\cesure c8\) } c4 \cesure
@@ -118,7 +118,7 @@
 \score {\relative f'  { 
 		r8. d16 
 		e16[ f g a]
-		g8[ b] c8[ a]
+		g8[\cesure b] c8[\cesure a]
 		g8.[\cesureBasse d16]
 		f16[ g a g]		
 		f4\( e8\) r8	
@@ -136,7 +136,7 @@
 	piece = "Epiphanie du Seigneur"	
 	}
 	} 
-\score {\relative f'  { 
+\score {\relative f'  { \key f \major
 		\times 2/3 { r8_\( d[ d]\) }
 		\times 2/3 { f8[ g a] }
 		a8[ bes]
