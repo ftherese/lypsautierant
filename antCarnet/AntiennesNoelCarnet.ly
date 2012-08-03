@@ -64,7 +64,8 @@
 		piece = "Premières vêpres (Français)"
 		opus = "G 101" }
 	} 
-\pageBreak
+	
+% \pageBreak
 
 
 \score {\relative f'  { 
@@ -137,7 +138,7 @@
 	opus = "G 111" }
 	} 
 
-\pageBreak
+%\pageBreak
 
 \markup {
 	\fill-line{\line{ "OCTAVE DE NOEL"}}}
