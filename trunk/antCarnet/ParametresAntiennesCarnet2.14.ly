@@ -139,7 +139,7 @@
 	
 	\context {
 		\Lyrics
-		\override LyricText #'font-name = #"Aharoni"
+		\override LyricText #'font-name = #"Arial"
 		\override LyricText #'font-size = #-1.8
 		%\override LyricText #'word-space = #1.8
 		%\override LyricSpace #'minimum-distance = #0.5
