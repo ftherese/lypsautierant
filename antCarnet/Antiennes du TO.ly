@@ -45,7 +45,7 @@
 
 \score {
 	\relative a'  {
-		a8[\( a\)] f16[ g g\( b\)] g4
+		a8[\( a\)] \cesure f16[ g g\( b\)] g4
 		r8 a
 		\times 2/3 { b8[ c a] } g4
 		\ifIndent
@@ -58,8 +58,8 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
-		«_Maî -- tre où de -- meu -- res -- -tu ?_» 
-		«_Ve -- nez et vo -- yez._» Ils vin -- rent donc et 
+		Maî -- tre, où de -- meu -- res -- "-tu ?"
+		Ve -- nez et vo -- yez. Ils vin -- rent donc et 
 		de -- meu -- rèrent au -- près de lui ce jour -- -là.
 	%\markup { \citation #"(Jn 1)"}
 	_ _ "[Ton 8]"
@@ -91,7 +91,10 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C)"
-		Le troi -- siè -- me jour, il y eut des noces à Ca -- na de Ga -- li -- lée, et la mè -- re de Jé -- sus é -- tait là. Le vin des no -- ces ve -- nant à man -- quer, el -- le lui dit : «_Ils n'ont plus de vin._»
+		Le troi -- siè -- me jour, il y eut des noces à Ca -- na de Ga -- li -- lée, 
+		et la mè -- re de Jé -- sus é -- tait là. 
+		Le vin des no -- ces ve -- nant à man -- quer, el -- le lui dit : 
+		Ils n'ont plus de vin.
 	%\markup { \citation #"(Jn 2)"}
 	_ _ "[Ton 5]"
 	}
@@ -125,8 +128,8 @@
 	\addlyrics {\set stanza = #"(A) "
 		Sur les ha -- bi -- tants du pa -- ys de la mort, 
 		u -- ne lu -- miè -- re s'est le -- vée :
-		«_Con -- ver -- tis -- sez -- -vous car le Roy -- au -- me des 
-		Cieux est tout pro -- che. »
+		Con -- ver -- tis -- sez -- -vous car le Roy -- au -- me des 
+		Cieux est tout pro -- che.
 	%\markup { \citation #"(Mt 4)"}
 	_ _ "[Ton 8]"
 	}
@@ -153,7 +156,7 @@
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Les temps sont ac -- com -- plis, voi -- ci le Rè -- gne de Dieu : 
-		con -- ver -- tis -- sez -- vous, cro -- yez à la Bon -- ne Nou -- vel -- le.
+		con -- ver -- tis -- sez- -- vous, cro -- yez à la Bon -- ne Nou -- vel -- le.
 	%\markup { \citation #"(Mc 1)"}
 	_ _ "[Ton 6]"
 	}
@@ -276,7 +279,7 @@
 		\cesure
 		g8[ g]
 		\times 2/3 { e8[ g a] }
-		\times 2/3 { \slurDashed f8([ f) g] } f8[ d] d4
+		\times 2/3 { f8[ f g] } f8[ d] d4
 		\endBar
 		\stemOff f4 g a 
 		\endBar 
@@ -316,7 +319,7 @@
 		\times 2/3 { a8[ c d] }
 		\times 2/3 { d8[ d\( e]\) }
 		\times 2/3 { d8[\( c\) c] }
-		\times 2/3 { \slurDashed c8([ b) c] } a4
+		\times 2/3 { c8[ b c] } a4
 		\endBar
 		\stemOff f4 a c
 		\endBar 
@@ -339,7 +342,6 @@
 		\times 2/3 { a8[ a a] }
 		\times 2/3 { c8[\( c\) \cesure c] }
 		\times 2/3 { c8[ d e] } d4
-		\cesure
 		r8 d16[ d] d16[ e a, b] c16[ c c c] c8[ c] b4
 		\ifIndent
 		\times 2/3 { c8[ a g] } a4
@@ -376,8 +378,8 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
-		«_Sois sans crain -- te, dé -- sor -- mais ce sont des hom -- mes 
-		que tu pren -- dras._» A -- lors ils ra -- me -- nè -- rent les 
+		Sois sans crain -- te, dé -- sor -- mais ce sont des hom -- mes 
+		que tu pren -- dras. A -- lors ils ra -- me -- nè -- rent les 
 		barques au ri -- va -- ge et, lais -- sant tout, ils le sui -- vi -- rent.
 	%\markup { \citation #"(Lc 5)" }
 	_ _ "[Ton 6]"
@@ -437,7 +439,7 @@
 
 \score { \transpose g f {
 	\relative c''  {  \key g \major
-		r8 g16[ g] b16[ c d c] a4
+		r8 g16[ g] b16[ c d c] a4\cesure
 		a16[ a b a] g16[ g g g] a4
 		\cesure
 		\times 2/3 { a8[ b c] } d8.[\cesure d16]
@@ -462,9 +464,9 @@
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Un lé -- preux vient à Jé -- sus, tombe à ses ge -- noux et
-		le sup -- plie_: «_Si tu le veux, tu peux me pu -- ri -- fier._» 
+		le sup -- plie_: Si tu le veux, tu peux me pu -- ri -- fier.
 		Pris de pi -- tié, Jé -- sus é -- ten -- dit la main, 
-		le tou -- cha et lui dit : «_Je le veux, sois pu -- ri -- fié._»
+		le tou -- cha et lui dit : Je le veux, sois pu -- ri -- fié.
 		A l'ins -- tant sa lè -- pre le quit -- ta.
 	%\markup { \citation #"(Mc 1)" }
 	_ _ "[Ton 6]"
@@ -537,7 +539,6 @@
 		a16[ a f\( g\)]
 		\times 2/3 { a8[\( a\) a] }
 		\times 2/3 { g8[ f g] } d4
-		\barre
 		r8 d
 		d8[\cesureBasse a'] bes8[ a] a4
 		c16[\( c\) a\( bes\)]
@@ -569,7 +570,7 @@
 		\times 2/3 { a8[ a b] }
 		\times 2/3 { a8[ a g] }
 		\ifIndent
-		g8[ g]
+		g8[\( g]\)
 		\cesure
 		\times 2/3 { g8[ g b] } c8[\( c\)]
 		\cesure
@@ -584,7 +585,7 @@
 		\ifIndent
 		\times 2/3 { c8[\( c\) b] } b4
 		\cesure
-		\times 2/3 { b8[\( c\) d] } c8[\( c\)]
+		b16[\( c\) d c] c4
 		\cesure
 		\times 2/3 { b8[ c a] }
 		\times 2/3 { g8[ g a] }
@@ -597,10 +598,10 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
-	«_Pour que vous sa -- chiez que le Fils de l'homme a le pou -- voir 
+	Pour que vous sa -- chiez que le Fils de l'homme a le pou -- voir 
 	de par -- don -- ner les pé -- chés sur la ter -- re, je te l'or -- 
 	don  -- ne, dit Jé -- sus au pa -- ra -- ly -- sé, lè -- ve- -- toi, 
-	prends ton bran -- card et ren -- tre chez toi._» L'hom -- me se 
+	prends ton bran -- card et ren -- tre chez toi. L'hom -- me se 
 	le -- va, prit aus -- si -- tôt son bran -- card et sor -- tit 
 	de -- vant tout le mon -- de.
 	%\markup { \citation #"(Mc 2)" }
@@ -625,8 +626,8 @@
 		c4
 		r8. b16
 		\times 2/5 {b16[b c a g]} g4
-		r8 g8[ a]
-		\times 2/6 { a16[ a a a a a] }
+		\times 2/3 { r8_\( g[ a]\) }
+		\times 2/6 { a16[\( a\) a a a a] }
 		\times 2/3 { a8[ c b] }
 		\ifIndent
 		c16[\( c\) d d]
@@ -980,7 +981,7 @@
 		\ifIndent
 		\times 2/3 { f8[ e f] }
 		d8[ c] c4
-		\times 2/3 { r8_\( f[ f]\) }
+		\times 2/3 { r8\( f[ f]\) }
 		\times 2/3 { e8[ f d] }
 		\times 2/3 { d4\(\cesure c8\) }
 		\times 2/3 { d8[ f f] } f4
@@ -1066,7 +1067,7 @@
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Elle a mon -- tré beau -- coup d'a -- mour, 
-		c'est pour -- quoi dit le Sei -- gneur, ses pé -- chés, 
+		c'est pour -- quoi, dit le Sei -- gneur, ses pé -- chés, 
 		ses nom -- breux pé -- chés sont par -- don -- nés.
 	%\markup { \citation #"(Lc 7)" }
 	_ _ "[Ton 7]"
@@ -1085,15 +1086,14 @@
 	\relative d'	{
 		\times 2/3 { f8[ f f] } d4
 		\cesure
-		d16[ d c d] f8[ a] g8[ g]
+		d16[ d c d] f8[ a] g8[\( g]\)
 		\times 2/3 { r8_\( a[ f]\) }
 		\times 2/3 { f8[ f d] } c4
-		\barre
 		r8. f16
 		g16[ a g a]
 		\ifIndent
 		c8[ b] c8[ a]
-		f16[ a g f] g8[\( f\)]
+		f16[ a g f] g8[\( f\)] \cesure
 		\times 2/3 { d8[ f f] }
 		f8[ f] d8[ c]
 		f16[ f f a] g4\( f8\) r8
@@ -1102,7 +1102,7 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
-		Ne crai -- gnez pas_; ce que je vous dis dans l'om -- bre, 
+		Ne crai -- gnez "pas ;" ce que je vous dis dans l'om -- bre, 
 		di -- tes- -- le au grand jour. Ce -- lui qui se 
 		pro -- non -- ce -- ra pour moi de -- vant les hom -- mes, 
 		je me pro -- non -- ce -- rai pour lui de -- vant mon Pè -- re.
@@ -1211,7 +1211,7 @@
 		r8. d16
 		d16[\( d\) f d] d8[ d]
 		\times 2/3 { f8[\( f\)\cesureBasse g] }
-		\times 2/3 { a8[ a g] }
+		\times 2/3 { a8[\( a\) g] }
 		\times 2/3 { a8[\( a\) bes] }
 		\times 2/3 { a8[\( a\) f] }
 		g8[ f] e8[ f] d4
@@ -1276,8 +1276,8 @@
 		U -- ne fem -- me ay -- ant ap -- pris ce qu'on di -- sait de 
 		Jé -- sus, vint par der -- riè -- re et tou -- cha son 
 		vê -- te -- ment. Car el -- le se di -- sait_: 
-		«_Si je tou -- che seu -- le -- ment son vê -- te -- ment, 
-		je se -- rai sau -- vée._» A l'ins -- tant, son mal fut gué -- ri.
+		Si je tou -- che seu -- le -- ment son vê -- te -- ment, 
+		je se -- rai sau -- vée. A l'ins -- tant, son mal fut gué -- ri.
 	%\markup { \citation #"(Mc 5)" }
 	_ _ "[Ton 1]"
 	}
@@ -1382,8 +1382,8 @@
 	}
 	\addlyrics {\set stanza = #"(B) "
 		A Na -- za -- reth, Jé -- sus di -- sait_: 
-		«_Un pro -- phè -- te n'est mé -- pri -- sé que 
-		dans son pa -- ys, sa pa -- ren -- té et sa pro -- pre mai -- son._» 
+		Un pro -- phè -- te n'est mé -- pri -- sé que 
+		dans son pa -- ys, sa pa -- ren -- té et sa pro -- pre mai -- son. 
 		Et là, il ne pou -- vait ac -- com -- plir au -- cun mi -- ra -- cle.
 	%\markup { \citation #"(Mc 6)" }
 	_ _ "[Ton 1]"
@@ -1420,10 +1420,10 @@
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Aux dis -- ci -- ples qu'il en -- voy -- ait de -- vant lui, 
-		Jé -- sus di -- sait_: «_Ne vous ré -- jou -- is -- sez pas de 
+		Jé -- sus di -- sait_: Ne vous ré -- jou -- is -- sez pas de 
 		ce que les es -- prits vous sont sou -- mis_; 
 		mais ré -- jou -- i -- ssez- -- vous de ce que vos 
-		noms se trou -- vent ins -- crits dans les cieux. »
+		noms se trou -- vent ins -- crits dans les cieux.
 	%\markup { \citation #"(Lc 10)" }
 	_ _ "[Ton 6]"
 	}
@@ -1480,11 +1480,11 @@
 		c16[ c e d] c4
 		\cesure
 		\times 2/3 { a8[ a a] }
-		\slurDashed a4( a16[) a g a] f4
+		\slurDashed a4( a16[) a\( g\) a] f4
 		r8 g g8[ a]
 		\ifIndent
 		\slurDashed c4( c8[) c]
-		\times 2/3 { c8[ d e] } c4
+		\times 2/3 { c8[\( d\) e] } c4
 		\cesure
 		\times 2/3 { a8[ a a] }
 		a8[\( a\)]
@@ -1504,11 +1504,11 @@
 	}
 	\addlyrics {\set stanza = #"(B) "
 		A ses a -- pô -- tres, Jé -- sus re -- com -- man -- dait_:
-		«_Quand vous en -- trez dans u -- ne mai -- son, 
+		Quand vous en -- trez dans u -- ne mai -- son, 
 		de -- meu -- rez- -- y jus -- qu'à vo -- tre dé -- part. 
 		Si l'on re -- fu -- se de vous ac -- cueil -- lir,
 		par -- tez en se -- cou -- ant la pous -- siè -- re de vos pieds_: 
-		ce se -- ra pour eux un té -- moi -- gna -- ge. »
+		ce se -- ra pour eux un té -- moi -- gna -- ge.
 	%\markup { \citation #"(Mc 6)" }
 	_ _ "[Ton 5]"
 	}
@@ -1670,7 +1670,7 @@
 		Le Roy -- au -- me des cieux est sem -- blable à un tré -- sor 
 		ca -- ché dans un champ et qu'un hom -- me vient à trou -- ver_: 
 		dans sa joie, il va ven -- dre tout ce qu'il pos -- sè -- de et
-		a -- chè -- te ce champ.
+		a -- chè -- "te " "ce " "champ.  "
 	%\markup { \citation #"(Mt 13)" }
 	_ _ "[Ton 5]"
 	}
@@ -1701,8 +1701,8 @@
 	}
 	\addlyrics {\set stanza = #"(B) "
 		A la vue du si -- gne que Jé -- sus a -- vait ac -- com -- pli, 
-		les gens di -- saient_: «_C'est vrai -- ment lui le grand 
-		pro -- phè -- te, ce -- lui qui doit ve -- nir dans le mon -- de._»
+		les gens di -- saient_: C'est vrai -- ment lui le grand 
+		pro -- phè -- te, ce -- lui qui doit ve -- nir dans le mon -- de.
 	%\markup { \citation #"(Jn 6)" }
 	_ _ "[Ton 5]"
 	}
@@ -1721,10 +1721,10 @@
 		f8[ f] e8[\( f\)] d8[\( d\)]
 		\cesure
 		\times 2/3 { d8[ f a] }
-		g8[ bes] a8[ a]
+		g8[ bes] a8[\( a]\)
 		\ifIndent
 		r8 a
-		f8[ f] e8[ f] d4
+		f8[\( f]\) e8[ f] d4
 		\endBar
 		\stemOff f4 g a 
 		\endBar 
@@ -1980,8 +1980,8 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
-		«_O fem -- me, ré -- pon -- dit Jé -- sus, grande est ta foi_!
-		Qu'il t'ad -- vien -- ne se -- lon ton dé -- sir_!_» 
+		Ô fem -- me, ré -- pon -- dit Jé -- sus, grande est ta foi_!
+		Qu'il t'ad -- vien -- ne se -- lon ton dé -- sir_! 
 		Dès cette heu -- re -- -là sa fil -- le fut gué -- rie.
 	%\markup { \citation #"(Mt 15)" }
 	_ _ "[Ton 4]"
@@ -2040,7 +2040,7 @@
 		\times 2/3 { g8[\( g\) g] }
 		\times 2/3 { f8[ d f] } g4
 		\endBar
-		\stemOff c'4 d e
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -2084,10 +2084,10 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
-		«_Pour vous, qui suis -- -je_?_» Si -- mon -- -Pier -- re 
-		ré -- pon -- dit_: «_Tu es le Christ, le Fils du Dieu vi -- vant_!_» 
-		Jé -- sus lui dé -- cla -- ra_: «_Tu es Pier -- re et sur ce 
-		roc je bâ -- ti -- rai mon E -- gli -- se. »
+		Pour vous, qui suis -- -je_? Si -- mon -- -Pier -- re 
+		ré -- pon -- dit_: Tu es le Christ, le Fils du Dieu vi -- vant_! 
+		Jé -- sus lui dé -- cla -- ra_: Tu es Pier -- re et sur ce 
+		roc je bâ -- ti -- rai mon E -- gli -- se.
 	%\markup { \citation #"(Mt 16)" }
 	_ _ "[Ton 1]"
 	}
@@ -2110,7 +2110,7 @@
 		\ifIndent
 		\times 2/3 { a8[ c c] }
 		\times 2/3 { c8[ c d] }
-		\times 2/3 { c8[\cesure a g] }
+		\times 2/3 { c8[ a g] }
 		f8[ g] g4
 		r8 e f8[ g] g4
 		\endBar
@@ -2182,7 +2182,7 @@
 		e16[\( e\) e e]
 		e16[ f g f]
 		e8[ c] a8[ b]
-		\times 2/3 { c8[ a g] }
+		\times 2/3 { c8[\( a\) g] }
 		b4\( a8\) r8
 		\endBar
 		\stemOff c'4 d e
@@ -2252,7 +2252,7 @@
 		\ifIndent
 		\times 2/3 { g8[ g g] }
 		a8[ c]
-		\slurDashed c4( a16[) a a f]
+		\slurDashed c4( a16[)\( a\) a f]
 		\times 2/3 { g8[ g a] }
 		\times 2/3 { g4\( g8\) }
 		\endBar
@@ -2319,7 +2319,7 @@
 		\times 2/3 { g8[ a c] }
 		b8[ a] c8[ a]
 		\times 2/3 { g8[\( g\) f] }
-		g8[ a] a8[ a]
+		g8[ a] a8[\( a]\)
 		\cesure
 		g16[ a c c]
 		\times 2/3 { c8[ d e] }
@@ -2327,7 +2327,6 @@
 		c16[\( c\) c c]
 		\ifIndent
 		\times 2/3 { c8[ c a] } g8[\( g\)]
-		\cesure
 		\times 2/3 { f8[ a g] }
 		g8[ a] c8[ a] g4\( g8\) r8
 		\endBar
@@ -2355,11 +2354,11 @@
 		\times 2/3 { c8[ d e] }
 		d8[\( d\)] c4
 		\cesure
-		\times 2/3 { c8[ a c] } b!
+		\times 2/3 { c8[ a c] } b4
 		\cesure
 		\ifIndent
 		\times 2/3 { a8[ a a] }
-		a8[\( a\)] g8[ b!] a4\( a8\) r8
+		a8[\( a\)] g8[ b] a4\( a8\) r8
 		\endBar
 		\stemOff f4 a c
 		\endBar 
@@ -2388,12 +2387,12 @@
 		\times 2/3 { c8[ b c] } a8[\( a\)]
 		\times 2/3 { a8[ c d] } b4
 		\cesure
-		c8[ b] a8[ g]
+		c8[ b] a8[\( g]\)
 		\ifIndent
 		\times 2/3 { r8_\( c[ c]\) }
 		c8[ c] c8[ d]
 		\times 2/3 { c8[ b a] }
-		\times 2/3 { a8[\( a\)\cesure b] }
+		\times 2/3 { a8[\( a\) b] }
 		g8[ b] a4
 		\endBar
 		\stemOff g4 a c
@@ -2424,16 +2423,13 @@
 		\cesure
 		a16[ a a a]
 		c16[ c c a] g4
-		\cesure
 		\times 2/3 { f8[ g a] } a4
 		\cesure
 		c8[ d]
 		\ifIndent
 		\times 2/3 { c8[ a g] } a4
-		\cesure
 		\times 2/3 { a8[ a a] }
 		c8[ d] c4
-		\cesure
 		c16[ c c c] c4
 		\cesure
 		\times 2/3 { c8[ c c] }
@@ -2445,8 +2441,8 @@
 	\addlyrics {\set stanza = #"(C) "
 		Toi, mon en -- fant, tu es tou -- jours a -- vec moi. 
 		Mais il fal -- lait bien se ré -- jou -- ir et fes -- toy -- er, 
-		car ton frère é -- tait mort, et il a re -- pris vie_; 
-		il é -- tait per -- du, et il est re -- trou -- vé.
+		car ton frère é -- tait mort et il a re -- pris vie_; 
+		il é -- tait per -- du et il est re -- trou -- vé.
 	%\markup { \citation #"(Lc 15)" }
 	_ _ "[Ton 5]"
 	}
@@ -2466,15 +2462,15 @@
 		c16[ c b a]
 		\times 2/3 { c8[\( c\)\cesure c] }
 		\times 2/3 { c8[\( c\) c] }
-		d8[ e] d8[\( d\)]
+		d8[ e] d8[\( d\)]\cesure 
 		\times 2/3 { c8[ b a] }
 		c8[\( c\)] b16[ c b a]
-		\times 2/3 { a8[\cesure b c] }
+		\times 2/3 { a8[ \cesureBasse b c] }
 		\ifIndent
 		a4
 		r8 c
-		\times 2/3 { c8[\cesure c d] }
-		\times 2/3 { e8[\cesure c b] }
+		\times 2/3 { c8[\cesureBasse c d] }
+		\times 2/3 { e8[\cesureBasse c b] }
 		a4\( a8\) r8
 		\endBar
 		\stemOff g4 a c
@@ -2483,7 +2479,7 @@
 	\addlyrics {\set stanza = #"(A) "
 		Vers la on -- zième heu -- re, le maî -- tre sor -- tit en -- co -- re, 
 		en trou -- va d'au -- tres qui se te -- naient là et 
-		leur dit_: «_Al -- lez, vous aus -- si, à ma vi -- gne._»
+		leur dit_: Al -- lez, vous aus -- si, à ma vi -- gne.
 	%\markup { \citation #"(Mt 20)" }
 	_ _ "[Ton 2]"
 	}}
@@ -2514,8 +2510,8 @@
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Pre -- nant un en -- fant, il le pla -- ça au mi -- lieu d'eux, 
-		l'em -- bras -- sa et leur dit_: «_Qui ac -- cueille en mon nom
-		un de ces en -- fants, c'est moi qu'il ac -- cueil -- le. »
+		l'em -- bras -- sa et leur dit_: Qui ac -- cueille en mon nom
+		un de ces en -- fants, c'est moi qu'il ac -- cueil -- le.
 	%\markup { \citation #"(Mc 9)" }
 	_ _ "[Ton 5]"
 	}}
@@ -2616,7 +2612,7 @@
 		\ifIndent
 		\times 2/3 { a8[ g a] } g4
 		\cesure
-		g16[ g a b] b16[ g f g]
+		g16[ g a b!] b16[ g f g]
 		e4\( e8\) r8
 		\endBar
 		\stemOff a4 a a
@@ -2638,7 +2634,7 @@
 	\relative a'  {
 		g16[ c c c] c8[ d] c8[\( c\)]
 		\times 2/3 { c8[ b c] } a8[\( g\)]
-		r8 f f8[\( g\)]
+		r8 f f8[ g]
 		a16[ c d e]
 		\slurDashed c4( \times 2/3 { c8[)\( a\) b] }
 		\ifIndent
@@ -2745,7 +2741,7 @@
 		\slurDashed g4( \times 2/3 { f8[) f d] }
 		e8[ f] d4\( d8\) r8
 		\endBar
-		\stemOff g4 a c
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -2995,7 +2991,6 @@
 		\times 2/3 { a8[\( a\) c] }
 		\times 2/3 { c8[\( c\)\cesureTresBasse d] }
 		\times 2/3 { f8[ f g] } f4
-		\cesure
 		d8[ e]
 		\times 2/3 { c8[\( d\) f] } f8[\( f\)]
 		\cesure
@@ -3239,7 +3234,7 @@
 
 \score {
 	\relative c''  {
-		r8 g c8[\cesure c] d8[ c] c
+		r8 g c8[\cesure c] d8[ c] c4
 		\cesure
 		\times 2/3 { a8[\cesure c c] }
 		\times 2/3 { c8[ c c] }
@@ -3348,11 +3343,11 @@
 		a16[ a c bes]
 		\times 2/3 { a8[\( a\) g] }
 		g16[ g a g]
-		\times 2/3 { g8[ d f] }
+		\times 2/3 { g8[\cesure d f] }
 		\times 2/3 { g8[\( a\) c] }
 		g8[\( g\)]
 		\ifIndent
-		\times 2/3 { f8[ e d] }
+		\times 2/3 { f8[ e\( d]\) }
 		\times 2/3 { f4\( f8\) }
 		r8 f
 		a16[ a c a]
