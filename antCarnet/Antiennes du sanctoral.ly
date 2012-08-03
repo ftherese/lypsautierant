@@ -11,9 +11,11 @@
      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+     
+     
 \markup {
       		\fill-line{
-                       	\line{"SEMAINE DU 18 au 25 JANVIER)"}}
+                       	\line{"SEMAINE DU 18 au 25 JANVIER"}}
 }
 
 \score {
@@ -79,11 +81,11 @@
 		f16[ f e f] d8.[ d16] d16[\( d\) f a] g4
 		\endBar
 	}
-	\addlyrics {
+	\addlyrics { \set stanza = #"1."
 		Ren -- dons gloire à no -- tre Dieu_: il _a con -- ver -- ti _l'a -- pô -- tre des na -- tions.
 	}
 	\header {
-		piece = "Invitatoire 1" }
+		piece = "Invitatoires" }
 }
 
 \score {
@@ -95,11 +97,9 @@
 		c16[ d f g] f8.[ f16] f16[\( f\) a bes] g4
 		\endBar
 	}
-	\addlyrics {
+	\addlyrics { \set stanza = #"2."
 		Ren -- dons gloire à no -- tre Dieu_: il _a con -- ver -- ti _l'a -- pô -- tre des na -- tions.
 	}
-	\header {
-		piece = "Invitatoire 2" }
 }
 
 \score {
@@ -119,20 +119,24 @@
 		\times 2/3 { e8[\( e\) f] }
 		g8[ a] g4
 		\endBar
+		\stemOff g4 a c
+		\endBar
 	}
-	\addlyrics {
+	\addlyrics { \set stanza = #"1."
 		Je t'en -- voie vers les na -- tions pa -- ïen -- nes _a -- fin qu'elles ob -- tien -- nent, par la foi en moi,
 		la ré -- mis -- sion de leurs pé -- chés et u -- ne part d'hé -- ri -- ta -- ge a -- vec les saints.
+		_ _ "[Ton 3]"
 	}
 	\header {
-		piece = "Antienne 1" }
+		piece = "Antiennes" }
 }
 
 
 
 \score {
-	\relative c''  {
-		r8 d,16[ d] c16[ f g f] g8[ a]
+	\relative f'  {
+		\key f \major
+		r8 d16[ d] c16[ f g f] g8[ a]
 		\times 2/3 { a8[\( a\)\cesure a] }
 		\times 2/3 { c8[ c a] } b8[\( a\)]
 		\cesure
@@ -147,13 +151,14 @@
 		\times 2/3 { a8[\( a\) f] }
 		e8[ d] d4
 		\endBar
+		\stemOff f4 g a
+		\endBar
 	}
-	\addlyrics {
+	\addlyrics { \set stanza = #"2. "
 		Je t'en -- voie vers les na -- tions pa -- ïen -- nes _a -- fin qu'elles ob -- tien -- nent, par la foi en moi,
 		la ré -- mis -- sion de leurs pé -- chés et u -- ne part d'hé -- ri -- ta -- ge a -- vec les saints.
+		_ _ "[Ton 1]" 
 	}
-	\header {
-		piece = "Antienne 2" }
 }
 
 
@@ -178,13 +183,16 @@
 		\times 2/3 { c8[ c b] }
 		\times 2/3 { a8[ a g] } g4
 		\endBar
+		\stemOff c'4 b c
+		\endBar
 	}
 	\addlyrics {
 		J'ai pri -- é et l'in -- tel -- li -- gen -- ce m'a é -- té don -- née.
 		J'ai sup -- pli -- é et l'es -- prit de Sa -- ges -- se est ve -- nu en moi.
 		Je l'ai pré -- fé -- rée à la lu -- miè -- re car son é -- clat ne con -- naît point de re -- pos.
-	\markup { \citation #"(Sg 7, 7-10)"}
-	}
+	%\markup { \citation #"(Sg 7)" }
+		_ _ "[Ton 7]"
+		}
 	\header {
 		piece = "Antienne" }	
 }
@@ -219,8 +227,7 @@
 		f8.[\cesureBasse f16] f16[\( f\) f e] d4
 		\cesure
 		\times 2/3 { f8[ g a] }
-		\times 2/3 { a8[ a a] } a16[ a c a] g8[ a]
-		
+		\times 2/3 { a8[ a a] } a16[ a c a] g8[ a]	
 		\times 2/3 { a4\(\cesure \ifIndent f8\) }
 		\times 2/3 { g8[ f e] }
 		\times 2/3 { d4\( d8\) }
@@ -236,13 +243,16 @@
 		\times 2/3 { a8[ g a] } f8.[ d16]
 		f16[\( f\) f f] f8[\cesureBasse g] f4\( f8\) r8
 		\endBar
+		\stemOff f4 g a
+		\endBar
 	}
 	\addlyrics {
 		Main -- te -- nant, ô Maî -- tre sou -- ve -- rain,
 		tu peux lais -- ser s'en al -- ler ton ser -- vi -- teur en paix, se -- lon ta pa -- ro -- le.
 		Car mes yeux ont vu ton sa -- lut que tu pré -- pa -- res à la fa -- ce des peu -- ples,
 		lu -- miè -- re pour é -- clai -- rer les na -- tions et gloi -- re d'Is -- ra -- ël, ton peu -- ple.
-	\markup { \citation #"(Lc 2, 29-32)"}
+	%\markup { \citation #"(Lc 2)"}
+		_ _ "[Ton 6]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -270,14 +280,17 @@
 		\ifIndent
 		f16[ f e f] d4\( d8\) r8
 		\endBar
+		\stemOff f4 g a
+		\endBar
 	}
-	\addlyrics {
+	\addlyrics { \set stanza = #"1. "
 		J'ai pri -- é pour toi, Si -- mon, a -- fin que ta foi ne som -- bre pas.
 		Et toi, quand tu se -- ras re -- ve -- nu, af -- fer -- mis tes frè -- res.
-	\markup { \citation #"(Lc 22, 32)"}
+	%\markup { \citation #"(Lc 22)"}
+		_ _ "[Ton 1]"
 	}
 	\header {
-		piece = "Antienne 1" }
+		piece = "Antiennes" }
 }
 
 \score {
@@ -294,14 +307,15 @@
 		\times 2/3 { f8[ g a] }
 		g8[ f] g4\( f8\) r8
 		\endBar
+		\stemOff f4 g a
+		\endBar
 	}
-	\addlyrics {
+	\addlyrics { \set stanza = #"2. "
 		Tu es Pier -- re, et sur ce roc je bâ -- ti -- rai mon E -- gli -- se
 		et les por -- tes de l'en -- fer ne tien -- dront pas contre el -- le.
-	\markup { \citation #"(Mt 16, 16)"}
+	%\markup { \citation #"(Mt 16)"}
+		_ _ "[Ton 6]"
 	}
-	\header {
-		piece = "Antienne 2" }
 }
 
 \markup {
@@ -379,12 +393,15 @@
 		\times 2/3 { d4\( c8\) }
 		\times 2/3 { a8[ b g] } g4
 		\endBar
+		\stemOff c'4 b c
+		\endBar
 	}
 	\addlyrics {
 		Jo -- seph, fils de Da -- vid, ne crains pas de pren -- dre chez toi, Ma -- rie ton é -- pou -- se_;
 		l'en -- fant qui est en -- gen -- dré en el -- le vient de l'Es -- prit- -- Saint_;
 		elle met -- tra au monde un fils, au -- quel tu don -- ne -- ras le nom de Jé -- sus.
-	\markup { \citation #"(Mt 1, 20-21)"}
+	%\markup { \citation #"(Mt 1)"}
+		_ _ "[Ton 7]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -424,13 +441,16 @@
 		\times 2/3 { g8[ d' c] } d4
 		c16[ d c b] g4		
 		\endBar
+		\stemOff g4 a c
+		\endBar
 	}
 	\addlyrics {
 		Sois sans crain - te, Mar -- ie, car tu as trou -- vé grâ -- ce au -- près de Dieu.
 		Voi -- ci que tu vas con -- ce -- voir et en -- fan -- ter un fils_;
 		tu lui don - ne -- ras le nom de Jé -- sus.____
 		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" - - le_ -- _lu - - - " ia !)"
-	\markup { \citation #"(Lc 1, 26-38)" }
+	%\markup { \citation #"(Lc 1)" }
+		_ _ "[Ton 8]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -442,8 +462,6 @@
       		\fill-line{
                        	\line{"SAINT LOUIS MARIE GRIGNION DE MONTFORT (28 avril)"}}
 }
-
-
 
 \score {
 	\relative c''  {
@@ -473,6 +491,8 @@
 		e8[ g]
 		\times 2/3 { a8[ f e] } g4
 		\endBar
+		\stemOff g4 a c
+		\endBar
 	}
 	\addlyrics {
 		O Sa -- gesse é -- ter -- nel -- le et in -- car -- née_!
@@ -480,6 +500,7 @@
 		Fils u -- ni -- que du Père é -- ter -- nel et de Ma -- rie tou -- jours Vier -- ge_!
 		Nous t'a -- do -- rons pro -- fon -- dé -- ment.
 		\once \override LyricText #'self-alignment-X = #1 "(T.P.  Al" | lé | lu - - " ia !)"
+		_ _ "[Ton 3]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -515,12 +536,15 @@
 		\times 2/3 { r8_\( g[ e]\) }
 		\times 2/3 { f8[ g f] } e4		
 		\endBar
+		\stemOff g4 a c
+		\endBar
 	}
 	\addlyrics {
 		O é -- ter -- nel -- le Tri -- ni -- té, tu es le feu qui dis -- si -- pe tou -- te froi -- deur
 		et tu é -- clai -- res les es -- prits de ta lu -- miè -- re,
 		cet -- te lu -- miè -- re par la -- quel -- le tu m'as fait con -- naî -- tre ta vé -- ri -- té.____
 		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" -- lé -- lu - - " ia !)"
+		_ _ "[Ton 3]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -574,7 +598,9 @@
 		\times 2/3 { c8[\( c\) a] } g4\( g8\) r8		
 		\barre
 		\pespace
-		f8[ g16 a] g4\( g8\) r8
+		f8[ g16\( a\)] g4\( g8\) r8
+		\endBar
+		\stemOff g4 a c
 		\endBar
 	}
 	\addlyrics {
@@ -582,6 +608,7 @@
 		el -- le s'é -- cri -- a d'u -- ne voix for -- te_:
 		«_D'où me vient cet hon -- neur que la mè -- re de mon Sei -- gneur me ren -- de vi -- si -- te_?_»____
 		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" -- lé - lu -- "ia !)"
+		_ _ "[Ton 8]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -621,11 +648,14 @@
 		\times 2/3 { c4\( b8\) }
 		\times 2/3 { g8[\( g\) a] } g4		
 		\endBar
+		\stemOff g4 a c
+		\endBar
 	}
 	\addlyrics {
 		Cet en -- fant mar -- che -- ra de -- vant le Sei -- gneur dans l'Es -- prit et la puis -- san -- ce d'E -- lie
 		a -- fin de pré -- pa -- rer à Dieu un peu -- ple par -- fait.
-	\markup { \citation #"(Lc 1, 17)" }
+	%\markup { \citation #"(Lc 1)" }
+		_ _ "[Ton 8]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -662,11 +692,14 @@
 		\times 2/3 { d8[\( e\) f] }
 		\times 2/3 { g8[ f e] } c4\( d8\) r8
 		\endBar
+		\stemOff c4 d f
+		\endBar
 	}
 	\addlyrics {
 		Vous qui m'a -- vez sui -- vi, vous siè -- ge -- rez sur dou -- ze trô - _nes,
 		pour - _ju -- ger les dou -- ze tri -- bus d'Is -- ra -- ël_ -.
-	\markup { \citation #"(Mt 19, 28)" }
+	%\markup { \citation #"(Mt 19)" }
+		_ _ "[Ton 2]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -692,10 +725,13 @@
 		\times 2/3 { b8[ a b] }
 		\times 2/3 { g8[ a g] } g4		
 		\endBar
+		\stemOff c'4 b c
+		\endBar
 	}
 	\addlyrics {
 		Ma -- rie ver -- sa du par -- fum sur les pieds de Jé -- sus,
 		qu'elle e -- ssu -- ya de ses che -- veux, et la mai -- son fut rem -- plie par l'o -- deur du par -- fum.
+		_ _ "[Ton 7]"
 	}
 	\header {
 		piece = "Antienne du Benedictus" }
@@ -732,12 +768,15 @@
 		\times 2/3 { f8[ g a] }
 		g8[ f] g8[ f] e8[ f] g4		
 		\endBar
+		\stemOff g4 a c
+		\endBar
 	}
 	\addlyrics {
 		U -- ne fem -- me bien con -- nue dans la vil - _le pour sa vie de dé -- bau -- che,
 		ap -- por -- ta un fla -- con d'al -- bât -- re rem -- pli de par -- fum et,
 		se te -- nant der -- riè -- re Jé -- sus, près de ses pieds,
 		el -- le se mit à les ar -- ro -- ser de ses lar - mes, et à les es -- su -- yer de ses che -- veux.
+		_ _ "[Ton 3]"
 	}
 	\header {
 		piece = "Antienne du Magnificat" }
@@ -790,6 +829,8 @@
 		\times 2/3 { g8[ a g] } g4
 		r8 f d8[ e] d4		
 		\endBar
+		\stemOff f4 g a
+		\endBar
 	}
 	\addlyrics {
 		Sur la mon -- ta -- gne, Jé -- sus fut trans -- fi -- gu -- ré de -- vant eux.
@@ -797,7 +838,8 @@
 		et ses vê -- te -- ments de -- vin -- rent blancs com -- me la lu -- miè - re.
 		De la nu -- ée vint u -- ne voix qui di -- sait_:
 		«_Ce -- lui -- -ci est mon Fils bien -- -ai -- mé, é -- cou -- tez- -- le._»
-	\markup { \citation #"(Mt 17, 1.2.5)" }
+	%\markup { \citation #"(Mt 17)" }
+		_ _ "[Ton 1]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -848,12 +890,15 @@
 		\times 2/3 { c4\( c8\) } r8 a c8[\( c\)]
 		\times 2/3 { c8[ d a] } g4		
 		\endBar
+		\stemOff g4 a c
+		\endBar
 	}
 	\addlyrics {
 		Tou -- te res -- plen -- dis -- san - te, pa -- rée de tis -- sus d'or,
 		la prin -- cesse est me -- née vers le roi_;
 		par -- mi joie et li -- es -- se, elle en -- tre dans son pa -- lais.
-	\markup { \citation #"(Ps 44, 14.16)" }
+	%\markup { \citation #"(Ps 44)" }
+		_ _ "[Ton 8]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -884,11 +929,14 @@
 		\times 2/3 { g8[\( c\) c] } c8[\( c\)]
 		\times 2/3 { c8[ a g] } a8[\( g\)] g4		
 		\endBar
+		\stemOff g4 a c
+		\endBar
 	}
 	\addlyrics {
 		Un grand si -- gne ap -- pa -- rut dans le ciel_: u -- ne fem -- me, en -- ve -- lop -- pée du so -- leil,
 		la lu -- ne sous les pieds, et sur sa tê - te, u -- ne cou -- ron -- ne de douze é -- toi - les.
-	\markup { \citation #"(Ap 12, 1)" }
+	%\markup { \citation #"(Ap 12)" }
+		_ _ "[Ton 8]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -919,12 +967,15 @@
 		\times 2/3 { r8_\( g[ a]\) }
 		\times 2/3 { g8[\( e\) d] } d4		
 		\endBar
+		\stemOff f4 g a
+		\endBar
 	}
 	\addlyrics {
 		Vier -- ge Sain - te, le Sei -- gneur t'a cré -- ée, pré -- mi -- ces de son oeu -- vre,
 		tou -- te bel -- le et sans tâche au -- cu -- ne,
 		comme un jar -- din bien clos, u -- ne sour -- ce scel -- lée.
-	\markup { \citation #"(Pr 8, 22 / Ct 4, 7.12)" }
+	%\markup { \citation #"(Pr 8 / Ct 4)" }
+		_ _ "[Ton 1]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -938,31 +989,68 @@
 
 \score {
 	\relative d'  {
-		\times 2/3 { c8[ f e] }
-		\times 2/3 { f8[ f f] } f8[ d] e8[ d ] c8[\( c\)]
-		\pespace r8 c 
-		\times 2/3 { d8[ d d] }
-		\times 2/3 { d8[ e f] } d4
-		\cesure
-		\ifIndent
-		\times 2/3 { c8[ c c] } f8[ e]
-		\times 2/3 { f8[ a bes] } g4\( f8\) r8
+		r8 e
+		\times 2/3 { e8[\cesureBasse e e] }
+		\times 2/3 { e8[ g b] }
+		\times 2/3 { a8[ b a] }
+		\times 2/3 { g8[\cesure g g] }
+		\times 2/3 { a8[ b c] } a4		
 		\endBar
 	}
 	\addlyrics {
-		Quand vous au -- rez é -- le -- vez le Fils de l'hom -- me, a -- lors vous sau -- rez que Je Suis_:
-		j'at -- ti -- re -- rai à moi tous les hom -- mes.
-	\markup { \citation #"(Jn 8, 26 / 12, 32)" }
+		Ve -- nez, a -- do -- rons le Sei -- gneur no -- tre Roi é -- le -- vé sur la croix_!
+	}
+	\header {
+		piece = "Invitatoire" }
+}
+
+%Antienne 1er mode à transposer en sol
+
+\score {
+	\relative d'  {
+		\times 2/3 { c8[ f e] }
+		\times 2/3 { f8[ f f] } f8[ d] e8[ d] c8[\( c\)] r8 c
+		\times 2/3 { d8[ d d] }
+		\times 2/3 { d8[ e f] } d4
+		\cesure
+		\times 2/3 { c8[ c c] } f8[ e]		
+		\times 2/3 { f8[ a bes] } g4\( f8\) r8		
+		\endBar
+		\stemOff c4 d f
+		\endBar
+	}
+	\addlyrics {
+		Quand vous au -- rez é -- le -- vé le Fils de l'hom -- me, 
+		a -- lors vous sau -- rez que je suis_: 
+		j'at -- ti -- re -- rai à moi tous les hom -- mes. 
+		
+	%\markup { \citation #"(Jn 8 / 12)" }
+		_ _ "[ton 8]"
 	}
 	\header {
 		piece = "Antienne" }
 }
 
 
-
 \markup {
       		\fill-line{
                        	\line{"NOTRE DAME DES DOULEURS (15 septembre)"}}
+}
+
+\score {
+	\relative c''  {
+		r16 a16[ g a] c8[ d]
+		\times 2/3 { c8[ d e] } d4
+		\times 2/3 { r8\( d[ a]\) }
+		\times 2/3 { d8[ c b] } e8[ c] a4\( a8\) r8				
+		\endBar
+	}
+	\addlyrics {
+		A -- vec Ma -- rie au pied de la Croix, 
+		a -- do -- rons le Sau -- veur du mon -- de_!
+	}
+	\header {
+		piece = "Invitatoire" }
 }
 
 \score {
@@ -979,12 +1067,15 @@
 		\espace
 		\times 2/3 { f8[\( f\)\cesureBasse \espace g] } a8[ bes] g4		
 		\endBar
+		\stemOff f4 g a
+		\endBar
 	}
 	\addlyrics {
 		Près de la croix de Jé -- sus se te -- nait sa mè - re.
 		_Voy -- ant sa mè -- re et près d'el -- le le dis -- ci -- ple qu'il ai -- mait,
 		Jé -- sus lui dit_: «_Fem -- me, voi -- ci ton fils._»
-	\markup { \citation #"(Jn 19, 25)" }
+	%\markup { \citation #"(Jn 19)" }
+		_ _ "[ton 1]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -998,6 +1089,25 @@
 
 \score {
 	\relative c''  {
+		\times 2/3 { r8_\( g[ a]\) }
+		\times 2/3 { c8[\( b\) c] }
+		\times 2/3 { d4\( c8\) }
+		r8 e d8[\cesure c16 b]
+		\times 2/3 { g8[ a b] } a4
+		\endBar
+	}
+	\addlyrics {
+		En pré -- sen -- ce des an -- ges, ve -- nez, a -- do -- rons le Sei -- gneur_!
+	}
+	\header {
+		piece = "Invitatoire" }
+}
+
+
+
+
+\score {
+	\relative c''  {
 		\times 2/3 { r8_\( g[ d]\) } f8[ g] a8[ g] g4
 		\cesure a8[ c]
 		\times 2/3 { c8[\( b\) a] }
@@ -1006,11 +1116,14 @@
 		\times 2/3 { e8[ d f] } g8[ a]
 		\ifIndent g8[ f] g4\( g8\) r8		
 		\endBar
+		\stemOff g4 a c
+		\endBar
 	}
 	\addlyrics {
 		Vous ver -- rez les cieux ou -- verts, et les an -- ges de Dieu
 		mon -- ter et des -- cendre au des -- sus du Fils de l'hom -- me.
-	\markup { \citation #"(Jn 1, 51)" }
+	%\markup { \citation #"(Jn 1)" }
+		_ _ "[Ton 8]"
 	}
 	\header {
 		piece = "Antienne du Benedictus" }
@@ -1035,11 +1148,14 @@
 		\pespace
 		\times 2/3 { g8[\( a\) a] } g4\( g8\) r8
 		\endBar
+		\stemOff c'4 b c
+		\endBar
 	}
 	\addlyrics {
 		An -- ges et Ar -- chan - ges, Trô -- nes et Do -- mi -- na -- tions,
 		Prin -- ci -- pau -- tés et Puis -- san -- ces, Ver -- tus cé -- les - tes,
 		lou -- ez le Sei -- gneur - du haut des cieux, Al - lé -- lu -- ia.
+		_ _ "[Ton 7]"
 	}
 	\header {
 		piece = "Antienne du Magnificat" }
@@ -1066,11 +1182,14 @@
 		\cesure
 		a8[ c] e8[ f] d4		
 		\endBar
+		\stemOff c4 b c
+		\endBar
 	}
 	\addlyrics {
 		Oui, j'ai trou -- vé ma pla -- ce dans l'É -- gli -- se,
 		et cet -- te pla -- ce ô mon Dieu, c'est Vous qui me l'a -- vez don -- née.
 		Dans le coeur de l'É -- gli -- se, ma Mè -- re, je se -- rai l'A -- mour...
+		_ _ "[Ton 7]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -1089,10 +1208,13 @@
 		\times 2/3 { c8[\( d\) c] }
 		a8[ f] g4
 		\endBar
+		\stemOff g4 a c
+		\endBar
 	}
 	\addlyrics {
 		L'an -- ge qui me par -- lait re -- vint et m'é -- veil -- la
 		comme un hom -- me qu'on é -- veil -- le de son som -- meil.
+		_ _ "[Ton 8]"
 	}
 	\header {
 		piece = "Antienne du Benedictus" }
@@ -1110,10 +1232,13 @@
 		b8[ a] g8.[ e16]		
 		f16[ g a a] g4
 		\endBar
+		\stemOff g4 a c
+		\endBar
 	}
 	\addlyrics {
 		Saints an -- ges, nos gar -- diens, dé -- fen -- dez- -- nous dans le com -- bat,
 		de peur que nous ne suc -- com -- bions au Jour du Ju -- ge -- ment.
+		_ _ "[Ton 8]"
 	}
 	\header {
 		piece = "Antienne du Magnificat" }
@@ -1142,12 +1267,15 @@
 		\times 2/3 { b8[\( a\) b] }
 		\times 2/3 { c8[ c b] } g4
 		\endBar
+		\stemOff g4 a c
+		\endBar
 	}
 	\addlyrics {
 		Au -- jour -- d'hui cé -- lé -- brons a -- vec fer -- veur
 		la fê -- te du Très Saint Ro -- sai -- re de Ma -- rie, Mè -- re de Dieu,
 		a -- fin que la Vierge in -- ter -- cè -- de pour nous
 		au -- près de No -- tre Sei -- gneur Jé -- sus- -- Christ.
+		_ _ "[Ton 8]"
 	}
 	\header {
 		piece = "Antienne du Benedictus" }
@@ -1162,11 +1290,14 @@
 		c8[ a] g8[ e]
 		\times 2/3 { f8[ g a] } g4
 		\endBar
+		\stemOff g4 a c
+		\endBar
 	}
 	\addlyrics {
 		Ma -- rie gar -- dait fi -- dè -- le -- ment tous ces sou -- ve -- nirs,
 		et les mé -- di -- tait dans son coeur.
-	\markup { \citation #"(Lc 2, 19)" }
+	%\markup { \citation #"(Lc 2)" }
+		_ _ "[Ton 8]"
 	}
 	\header {
 		piece = "Antienne du Magnificat" }
@@ -1223,13 +1354,16 @@
 		\cesure \espace
 		a8[ c] g8[\( f\)] f8[ f] d4		
 		\endBar
+		\stemOff f4 g a
+		\endBar
 	}
 	\addlyrics {
 		Je vis u -- ne foule im -- men -- se, que nul ne pou -- vait dé -- nom -- brer,
 		de tou -- tes na -- tions, ra -- ces, peu -- ples et lan - gues.
 		Ils se te -- naient de -- bout de -- vant le trô -- ne et de -- vant l'A -- gneau,
 		vê -- tus de ro -- bes blan - ches, et des pal -- mes à la main.
-	\markup { \citation #"(Ap 7, 9)" }
+	%\markup { \citation #"(Ap 7)" }
+		_ _ "[Ton 1]"
 	}
 	\header {
 		piece = "Antienne du Benedictus" }
@@ -1261,13 +1395,16 @@
 		\cesure \espace
 		c16[ b c\( a\)] g4
 		\endBar
+		\stemOff g4 a c
+		\endBar
 	}
 	\addlyrics {
 		U -- ne foule im -- men -- se cla -- mait à plei -- ne voix_: Al -- lé -- lu - ia_!
 		Il a pris pos -- ses -- sion de son Rè -- gne, le Sei -- gneur Dieu, Maî -- tre de tout_!
 		Soy -- ons dans la joie, ren -- dons gloire à Dieu_:
 		voi -- là les No -- ces de l'A -- gneau_! Al -- lé -- lu - ia_! Al -- lé -- lu - ia_!
-	\markup { \citation #"(Ap 19,6-7)" }
+	%\markup { \citation #"(Ap 19)" }
+		_ _ "[Ton 8]"
 	}
 	\header {
 		piece = "Antienne du Magnificat" }
@@ -1286,7 +1423,7 @@
 	\relative d'  {
 		r8 d f4
 		\cesure
-		\times 2/3 { e8[ d e] } f16[ e e g] f4
+		\times 2/3 { e8[ d e] } f16[ e e g] \times 2/3 { f4\( e8\) }
 		\cesure \espace
 		\times 2/3 { f8[ d e] }
 		\times 2/3 { f8[ g a] } a4
@@ -1297,12 +1434,15 @@
 		a8[ g]
 		\times 2/3 { f8[\( f\) f] } d8[ f] g8[\( f\)] e4		
 		\endBar
+		\stemOff a4 a a
+		\endBar
 	}
 	\addlyrics {
-		Heu -- reux ceux qui sont morts dans le Sei -- gneur_;
+		Heu -- reux ceux qui sont morts dans le Sei -- gneur -_;
 		dès main -- te -- nant, dit l'Es -- prit, qu'ils se re -- po -- sent de leurs pei -- nes,
 		car leurs oeu -- vres les ac -- com -- pa - gnent.
-	\markup { \citation #"(Ap 14, 13)" }
+	%\markup { \citation #"(Ap 14)" }
+		_ _ "[Ton 4]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -1313,7 +1453,10 @@
       		\fill-line{
                        	\line{"PRÉSENTATION DE LA VIERGE MARIE (21 novembre)"}}
 }
-	
+
+
+%Antienne ton 1 à transposer en ré
+
 \score {
 	\relative c''  {
 		a16[\( a\) e' d] e4
@@ -1336,13 +1479,16 @@
 		\ifIndent
 		b16[\( b\) b c] a4\( a8\) r8
 		\endBar
+		\stemOff c'4 d e
+		\endBar
 	}
 	\addlyrics {
 		Quit -- te ton pa -- ys, ta pa -- ren -- té et la mai -- son de ton pè -- re,
 		pour le pa -- ys que je te mon -- tre -- rai.
 		Je fe -- rai de toi u -- ne gran -- de na -- tion et je te bé -- ni -- rai.
 		En toi se -- ront bé -- nies tou -- tes les fa -- mil -- les de la ter -- re.
-	\markup { \citation #"(Gn 12, 1-2.3)" }
+	%\markup { \citation #"(Gn 12)" }
+		_ _ "[Ton 1]"
 	}
 	\header {
 		piece = "Antienne" }
@@ -1365,10 +1511,12 @@
 		\times 2/3 { r8_\( f[ e]\) } d8[ c] d8[ f]
 		\times 2/3 { e8[ f d] } c4\( d8\) r8
 		\endBar
+		
 	}
 	\addlyrics {
 		En cé -- lé -- brant l'Im -- ma -- cu -- lée Con -- ce -- ption de la Vie -- rge Ma -- rie,
 		a -- dor -- ons le Christ son Fils le Sei -- gneur  -.
+		 
 	}
 	\header {
 		piece = "Invitatoire" }
@@ -1397,13 +1545,175 @@
 		\times 2/3 { c8[\( c\) b] }
 		\times 2/3 { c8[ g e] } g8[ f] e4		
 		\endBar
+		\stemOff g4 a c
+		\endBar
 	}
 	\addlyrics {
 		Tu es bé -- nie, ô Ma -- rie, par le Dieu Très- -- Haut,
 		plus que tou -- tes les fem -- mes de la ter -- re_;
 		et bé -- ni le Sei -- gneur Dieu, Cré -- a -- teur du ciel et de la ter -- re,
 		qui t'a con -- dui -- te pour frap -- per à la tê -- te le chef de nos en -- ne -- mis.
-	\markup { \citation #"(Jud 13, 18)" }
+	%\markup { \citation #"(Jud 13)" }
+		_ _ "[Ton 3]"
+	}
+	\header {
+		piece = "Antienne" }
+}
+
+
+
+\markup {
+      		\fill-line{
+                       	\line{"SAINT ETIENNE (26 décembre)"}}
+}
+
+\score {
+	\relative f'  {
+		r8 d f8[\cesureBasse e16 f] g8[ a] f16[ f e f] \times 2/3 { d4\( d8\) }
+		\cesure
+		\times 2/3 { c8[ d f] } g8[\( a\)] a8[ g] g4		
+		\endBar
+	}
+	\addlyrics {
+		Ve -- nez, a -- do -- rons le Christ en sa nais -- san -- ce_: 
+		il est la gloi -- re des mar -- tyrs.
+	}
+	\header {
+		piece = "Invitatoire" }
+}
+
+
+
+\score {
+	\relative c''  {
+		r8 g
+		\times 2/3 { f8[\( f\) a] } c8[ b] g8[ a] g8[ a]
+		g8[\( f\)] f8[ a] c8[ b] c8[ a]		
+		\times 2/3 { g8[\( g\) g] } f8[ a] g4\( g8\) r8
+		\endBar
+		\stemOff g4 a c
+		\endBar
+	}
+	\addlyrics {
+		E -- tien -- ne rem -- pli de grâce et de puis -- san -- ce 
+		o -- pé -- rait de grands pro -- di -- ges par -- mi le peu -- ple.
+		_ _ "[Ton 8]"		
+	}
+	\header {
+		piece = "Antienne" }
+}
+
+
+
+
+\markup {
+      		\fill-line{
+                       	\line{"SAINT JEAN (27 décembre)"}}
+}
+
+\score {
+	\relative a'  {
+		r8 e
+		\times 2/3 { g8[ a b] }
+		\times 2/3 { a8[\( a\) a] }
+		\times 2/3 { c8[ a b] } a4
+		\cesure
+		\times 2/3 { c8[ d d] } d8.[\cesure c16] c16[ c a g] a4		
+		\endBar
+	}
+	\addlyrics {
+		L'A -- gneau vé -- ri -- ta -- ble que Jean a sui -- vi, 
+		al -- le -- lu -- ia, ve -- nez a -- do -- rons -- -le.
+	}
+	\header {
+		piece = "Invitatoire" }
+}
+
+
+%Antienne en 1er mode à transposer en ré
+
+\score {
+	\relative c''  {
+		r8 a e'8[ e]
+		\times 2/3 { e8[ e d] } e16[\( e\) d c] d16[\( d\) e f]
+		\times 2/3 { e8[\cesure a, e'] }
+		\times 2/3 { e8[ d c] } d8[\( c\)] a4
+		\cesure
+		\times 2/3 { c8[\( c\) c] } d8[ c] b4
+		\cesure
+		\ifIndent
+		c8[ a]
+		\times 2/3 { a8[ g a] }
+		\times 2/3 { b8[\( c\) \cesure a] } g8[ a] e4\( e8\) r8
+		a8[ b] c8[ e] d8[\( d\)] 
+		\times 2/3 { c8[\cesure b a] }
+		\times 2/3 { g8[\( a\) b] } c8[ b] a4
+		\endBar
+		\stemOff c'4 d e
+		\endBar
+	}
+	\addlyrics {
+		Voy -- ant sa mère et près d'el -- le le dis -- ci -- ple qu'il ai -- mait, 
+		Jé -- sus dit à sa mè - re_: 
+		«_Fem -- me, voi -- ci ton fils._» 
+		Puis il dit au dis -- ci -- ple_: 
+		Voi -- ci ta mè -- re._» 
+		Et de -- puis cette heu -- re- -- là, 
+		le dis -- ci -- ple la prit chez lui.
+		% (Jn 19)
+		_ _ "[Ton 1]"
+	}
+	\header {
+		piece = "Antienne" }
+}
+
+
+\markup {
+      		\fill-line{
+                       	\line{"SAINTS INNOCENTS (28 décembre)"}}
+}
+
+\score {
+	\relative a'  {
+		r8 e f8[ e16 d] g8[ a] c16[ b a a] g8[\( g\)]
+		\cesure
+		\times 2/3 { a8[ b a] }
+		\times 2/3 { g8[\( g\) g] }
+		\times 2/3 { g8[ f g] } e4		
+		\endBar
+	}
+	\addlyrics {
+		Ve -- nez, a -- do -- rons le Christ en sa nais -- san -- ce_: 
+		il est la gloi -- re des saints In -- no -- cents.
+	}
+	\header {
+		piece = "Invitatoire" }
+}
+
+
+
+\score {
+	\relative f'  {
+		\key f \major
+		r8 f f16[\( f\) g e]
+		\times 2/3 { f8[ e d] }
+		\times 2/3 { e8[ d c] }
+		\times 2/3 { d8[ e f] } d4
+		r8 f16[ g] a16[ a g bes]
+		\times 2/3 { a4\( a8\) }
+		\cesure
+		\times 2/3 { f8[ g a] } a8[ bes]
+		\ifIndent
+		a16[ g f e]
+		f8[ d] c8[ d] d4		
+		\endBar
+		\stemOff f4 g a
+		\endBar
+	}
+	\addlyrics {
+		Le Ver -- be s'est fait chair et il a de -- meu -- ré par -- mi nous_; 
+		à tous ceux qui le re -- çoi -- vent, Il a don -- né pou -- voir de de -- ve -- nir en -- fant de Dieu.
+		_ _ "[Ton 1]"
 	}
 	\header {
 		piece = "Antienne" }
