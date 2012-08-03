@@ -34,9 +34,9 @@
 	L'an -- ge du Sei -- gneur de -- scen -- dit du ciel et vint 
 	rou -- ler la pie -- rre du tom -- "beau :" 
 	Ne crai -- gnez point, dit- -- il aux fem -- mes, 
-	je sais que vous cher -- cher Jé -- sus le Cru -- ci -- fié, 
-	Il n'est pas " i" -- ci car Il est re -- ssu -- sci -- té "d'en" -- tre 
-	les morts, comme Il "l'a" -- vait dit. 
+	je sais que vous cher -- chez Jé -- sus le Cru -- ci -- fié. 
+	Il n'est pas " i" -- ci car il est re -- ssu -- sci -- té "d'en" -- tre 
+	les morts, comme il "l'a" -- vait dit. 
 	Al -- le -- lu- _ _ "ia !" Al -- le -- lu- _ "ia !" 
 		
 %   (Mt 28)
@@ -118,17 +118,17 @@
 	Jés -- us se joi -- gnit à ses di -- sci -- ples 
 	et fit route av -- ec "eux :" O cœurs sans in -- tel -- li -- gen -- ce, 
 	lents à cro -- ire tout ce "qu'ont" an -- non -- cé les pro -- phè -- "tes !" 
-	Ne fal -- "lait-" -- il pas que le Christ souf -- frit ce -- la 
+	Ne fal -- "lait-" -- il pas que le Christ souf -- frît ce -- la 
 	pour en -- trer dans sa gloi- _ "re ?" 
 	Al- _ le -- lu- _ _ "ia!"
 	
 %   (Lc 24)
-	 _ _ "[Ton 2]"
+	 _ _ "[Ton 2 transposé au la]"
 	}
 	\header {
 		opus = "I 300" }
 	} 
-\markup {2° mode transposé au la }
+%\markup {2° mode transposé au la }
 
 \score {\relative f'  { 
 		r8 g16[ a]
@@ -208,7 +208,7 @@
 	\fill-line{\line{"QUATRIEME DIMANCHE DE PAQUES"}}}
 
 \score {\transpose  c f {\relative f'  { \key c \major
-		\times 2/3 { e8[ e f] } d4
+		\times 2/3 { e8[ e f] } d4 \cesure
 		\times 2/3 { e8[ f f] } c4
 		r8 e8 e8[ f] f8[\( e\)]
 		g8[ f] e4 \cesure
@@ -224,7 +224,7 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
-	En vé -- ri -- té, je vous le "dis :" je suis la Por -- te des bre -- "bis :" 
+	En vé -- ri -- té, je vous le "dis :" je suis la Por -- te des bre -- bis. 
 	si quel -- "qu'un" en -- tre par moi, il se -- ra sau -- vé. 
 	Je suis ve -- nu pour que "l'on" ait la vie et "qu'on" "l'ait"
 	en a -- bon -- dan- -- _ ce. 
@@ -255,7 +255,7 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
-	 Je suis le bon pas -- "teur ;" je con -- nais mes bre -- bis 
+	 Je suis le Bon Pas -- "teur ;" je con -- nais mes bre -- bis 
 	 et mes bre -- bis me con -- nais -- sent, com -- me le Pè -- re 
 	 me con -- nait et que je con -- nais le Pè -- "re ;" et pour el -- les, 
 	 je don -- ne ma vie. Al -- le -- lu- -- _ ia.
@@ -316,7 +316,7 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
-	Vous cro -- yez en Dieu, cro -- yez aus -- si en "moi :"
+	Vous cro -- yez en Dieu, cro -- yez aus -- si en moi.
 	Je suis le Che -- min, la Vé -- ri -- té et la Vie.
 	Nul ne vient vers le Pè -- re que par moi.
 	Al -- le -- lu- -- _ _ "ia !" 
@@ -343,7 +343,7 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
-	Moi, je suis la vi -- gne, vous ê -- tes les sar -- ments.
+	Moi, je suis la Vi -- gne, vous ê -- tes les sar -- ments.
 	Ce -- lui qui de -- meure en moi et en qui je de -- meu -- re, 
 	don -- ne beau -- coup de fruit.
 	Al -- le -- lu- -- _ "ia !" 
@@ -437,7 +437,7 @@
 	\times 2/3 { g8[ a c] }
 	\times 2/3 { c4\( a8\) } \cesure 
 	\times 2/3 { c8[ b a] }
-	g8[ g]  a8[\( b\)] a4
+	g8[ g]  a8[\( b\)] a4  \cesure 
 	g8[ a16\( b\)] a4 a8 r
 		\endBar
 		\stemOff f4 a c
@@ -477,7 +477,7 @@
 	Si quel -- qu'un m'ai- -- _ me, il gar -- de -- ra ma pa -- ro -- le, 
 	et mon Pè -- re l'ai -- me -- ra, 
 	Al -- le -- lu- -- _ "ia !" 
-	Nous vien -- drons chez lui et nous fe -- rons chez lui no -- tre dem -- "eu- " -- _ re.
+	Nous vien -- drons à lui et nous fe -- rons chez lui no -- tre dem -- "eu- " -- _ re.
 	Al -- le -- lu- -- _ "ia !" 
 	
 %   (Jn 14)
@@ -486,8 +486,7 @@
 	\header {
 		opus = "I 602" }
 	} 
-	
-%Raf	
+		
 	
 
 \markup {
@@ -502,7 +501,6 @@
 	\cesure
 	d8[ c]
 	\times 2/3 { a8[ c c] } b8[\( b\)] c8[ a] g4
-	\cesure
 	r8. b16 a16[\( g\) a b]
 	\ifIndent
 	a8[ a] 
@@ -519,7 +517,8 @@
 	}
 	
 	\addlyrics {
-		\set stanza = #"1." Ne me re -- tiens pas, Ma -- rie, dit - le Sei -- gneur, 
+		\set stanza = #"1." 
+		Ne me re -- tiens pas, Ma -- rie, dit - le Sei -- gneur, 
 		mais va- -- t-en vers mes frè -- res et dis- -- leur_: 
 		je mon -- te vers mon Pè -- re et vo -- tre Pè - re, 
 		vers mon Dieu et vo -- tre Dieu. Al - le -- lu -- ia_!	
@@ -545,7 +544,7 @@
 	\ifIndent
 	a8[ \cesure bes16 g] f4
 	\times 2/3 { f8[ f f] } e8[ f]
-	\times 2/3 { d8[ f g] } a4 bes16[ a bes\( g\)] a4
+	\times 2/3 { d8[ f g] } a4  \cesure bes16[ a bes\( g\)] a4
 	\endBar
 	\stemOff f4 g a
 	\endBar	}
@@ -553,7 +552,7 @@
 	\addlyrics {
 		\set stanza = #"2." Hom -- mes de Ga -- li -- lée, 
 		pour -- quoi re -- stez- -- vous à re -- gar -- dez le ciel_?
-		Ce -- lui qui vous a é -- té en -- le -- vé, Jé -- sus, re -- vien -- dra, 
+		Ce -- lui qui vous a é -- té en -- le -- vé, Jé -- sus, re -- vien -- dra 
 		comme il s'en est al -- lé vers le ciel.
 		Al -- le -- lu - ia.	
 		 _ _ "[Ton 1]"
@@ -611,7 +610,7 @@
 		et at -- ten -- dons la for -- ce d'en haut, 
 		car il va ve -- nir, l'au -- tre Con -- so -- la -- teur, se -- lon ta pro -- mes -- se, ô Christ. 
 		Il il -- lu -- mi -- ne les coeurs et fait jail -- lir des sour -- ces d'eau vi -- ve_; 
-		comme un feu, Il se ré -- pand sur tou -- te chair 
+		comme un feu, il se ré -- pand sur tou -- te chair 
 		et re -- nou -- vel -- le la fa -- ce de la ter -- re.
 		}	
 	\header {
@@ -656,17 +655,18 @@
 	\cesure
 	\times 2/3 { c8[\( d\) b] } \times 2/3 { g8[\( a\) b] } a4
 	\endBar
-	\stemOff f4 g a
+	\stemOff c4 d e
 	\endBar	}
 	
 	\addlyrics {
-		\set stanza = #"(A)" Pè -- re, glo -- ri -- fie ton Fils, 
+		\set stanza = #"(A)" 
+		Pè -- re, glo -- ri -- fie ton Fils, 
 		a -- fin que ton Fils te glo -- ri -- fie 
 		et qu'il don -- ne la vie é -- ter -- nel -- le à ceux que tu lui as don -- nés. 
 		La vie é -- ter -- nel -- le, c'est qu'ils te con -- nais -- sent, 
 		toi, le seul vrai Dieu 
 		et ce -- lui que tu as en -- voy -- é, Jé -- sus- -- Christ. Al - le -- lu - - ia_!
-		 _ _ "[Ton 1]"
+		 _ _ "[Ton 1 transposé au la]"
 	
 	}
 		% (Jn 17)	
@@ -685,7 +685,7 @@
 	\cesure
 	\times 2/3 { e8[ \cesure f g] }
 	\times 2/3 { f8[ e d] } d4
-	r8 f g16[ f f g]
+	r8 f g16[ \cesure  f f g]
 	\times 2/3 { g8[\( f\) e] }
 	\ifIndent
 	\times 2/3 { d8[\( d\) \cesure c] } d8[ e]
@@ -699,7 +699,8 @@
 	\endBar	}
 	
 	\addlyrics {
-		\set stanza = #"(B)" Com -- me tu m'as en -- vo -- yé dans le mon -- de, 
+		\set stanza = #"(B)" 
+		Com -- me tu m'as en -- vo -- yé dans le mon -- de, 
 		Pè -- re, moi, je les ai en -- vo -- yés.
 		Pour eux, je me con -- sa -- cre moi -- -mê -- me, 
 		a -- fin qu'ils soient, eux aus -- si, con -- sa -- crés 
@@ -766,7 +767,7 @@
 	\times 2/3 { a8[ a a] } g4
 	\cesure
 	a8[ b] 
-	\times 2/3 { c8[ d a] } g4
+	\times 2/3 { c8[\( d a]\) } g4
 	\endBar
 	\stemOff g4 a c
 	\endBar	}
@@ -823,7 +824,7 @@
 \score { \relative d'  { \key f \major 
 	r8 c16[ d] d8.[ f16] f16[ e d d]
 	\times 2/3 { d8[ e d] }
-	\times 2/3 { c4\( c8\) } d16[\( g\) f\( e\)]
+	\times 2/3 { c4\( c8\) } \cesure d16[\( g\) f\( e\)]
 	\times 2/3 { d4\( d8\) } r8 d
 	\times 2/3 { a'8[ bes a] } a8[ g] 
 	\times 2/3 { f8[ g a] } g8[\( bes\)] a4
@@ -832,7 +833,7 @@
 	\times 2/3 { d,8[ f d] }
 	\times 2/3 { g8[ f f] }
 	\times 2/3 { e8[ g a] }
-	\times 2/3 { f8[\( e\) d] } d4
+	\times 2/3 { f8[\( e\) d] } d4\cesure
 	d16[\( g\) f\( e\)] 
 	d4\( d8\) r8
 	\endBar
@@ -885,7 +886,7 @@
 		que l'al -- lé -- gres -- se rè -- gne sur la ter -- re_:
 		car l'Es -- prit du Sei -- gneur a rem -- pli l'u -- ni -- vers, 
 		il main -- tient tout dans l'u -- ni -- té, 
-		et ré -- pands ses dons sur les hom -- mes. 
+		et ré -- pand ses dons sur les hom -- mes. 
 		Il nous fait pro -- cla -- mer les mer -- veil -- les de Dieu. 
 		Al -- le -- lu - ia.		
 		 _ _ "[Ton 8]"}
