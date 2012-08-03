@@ -6,7 +6,7 @@
 
 \score {\relative f'  { 
 		\times 2/3 { r8_\( f[ e]\) } d4 \cesure
-		d8[ e] c8[ d] f8[ g]  e8.[ \cesure c16]
+		d8[ e] c8[ d] f8[ g]  e8.[ \cesureBasse c16]
 		d16[ f g a]  e4
 		\endBar
 	}
@@ -60,9 +60,9 @@
 	
 	\score {\relative f'  { 
 		r8 c \times 2/3 { d8[ e f] }
-		e8.[ \cesure d16]
+		e8.[ \cesureBasse d16]
 		f16[ e d c] d8[ f]
-		e8.[ \cesure c16]
+		e8.[ \cesureBasse c16]
 		d16[ f g a] d,4		
 		\endBar
 	}
@@ -96,7 +96,7 @@
 	\addlyrics {\set stanza = #"1."
 	La grâ -- ce du Sei -- gneur Jé -- sus- -- Christ, 
 	"l'a" -- mour de Dieu le Pè -- re et la co -- mmu -- nion du 
-	Saint-  -- Esp -- rit soient avec vous tous- _.
+	Saint-  -- Esp -- rit soient a -- vec vous tous- _.
 %   (2 Co 13)
 	 _ _ "[Ton 4]"
 	}
@@ -111,7 +111,7 @@
 		\times 2/3 { g8[ c b] }
 		c8[ d] c8.[ d16]
 		d16[ d e d] c8[\( c\)]
-		\times 2/3 { r8_\( c[ b]\) }
+		\times 2/3 { r8\( c[ b]\) }
 		c8.[ \cesure c16]
 		c16[\( c\) c d] g,4
 		g16[\( a\) c d] c8[\( c\)] \cesure
@@ -135,7 +135,7 @@
 	Al -- lez donc, de tou -- tes les nat -- ions fai -- tes des di -- sci -- ples,
 	les ba -- pti -- sant au nom du Père et du Fils et du Saint- -- Esp -- rit.
 	Et moi, je suis av -- ec vous tous les jours jus -- "qu'à" la fin du mon -- de.
-	Al - _ le -- lu- _ _ ia.
+	Al - le -- lu - - ia.
 %   (2 Co 13)
 	 _ _ "[Ton 8]"
 	}
@@ -149,10 +149,12 @@
 
 \score {\relative f'  { 
 		r8 a, c8[ d] c8[ d]
-		\times 2/3 { d8[ \cesure d f] }
-		d8[ c] d4\( c8\) r8 \cesure
+		\times 2/3 { d8[ \cesureTresBasse d f] }
+		d8[ c] \times 2/3 { d4\( c8\) }		
+		\cesure
 		d8[ f] f4 
-		d16[\(c \) d c] a4 \cesure
+		d16[\(c \) d c] a4
+		\cesure
 		c8[ d] \times 2/3 { f8[ f f] } g8[ f] d4
 		r8 d \times 2/3 { g8[ g f] } g8[ a] g4 \cesure
 		\ifIndent
@@ -179,7 +181,7 @@
 	\fill-line{\line{"LE SACRE COEUR"}}}
 
 \score {\relative f'  { 
-		\times 2/3 { d8[ f] }
+		\times 2/3 { d8[ e f] }
 		d8[ d] e8[ c]
 		\times 2/3 { d8[ f e] }
 		\times 2/3 { d4\( c8\) } \cesure
@@ -202,9 +204,24 @@
 	} 
 
 \score {\relative f'  { 
-		
+		r16 f16[ a c]
+		\times 2/3 { c4\(\cesure c8\) }
+		\times 2/3 { c8[ c d] }
+		\times 2/3 { c8[\cesure c d] } c16[ b g a]
+		\times 2/3 { a4\(\cesure a8\) }
+		\times 2/3 { g8[\cesure g c] }
+		c8[\( c\)]
+		\times 2/3 { c8[ e d] } c4
+		r16 c16[ d c]
+		\ifIndent
+		b8[ a]		
+		a8[\cesureBasse f16 g]
+		\times 2/3 { bes8[ a bes] } g8[\( c\)]
+		\cesure
+		\times 2/3 { c8[ c d] } c8[ g]
+		\times 2/3 { a8[\( g\) f] } f4
 		\endBar
-		\stemOff g4 a c
+		\stemOff f4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"2."
@@ -212,7 +229,7 @@
 	et moi, je vous don -- ne -- rai le re -- pos. Pre -- nez sur vous mon joug, 
 	de -- ve -- nez mes di -- sci -- ples, car je suis doux et hum -- ble de cœur.
 %   (2 Co 13)
-	 _ _ "[Ton 8]"
+	 _ _ "[Ton 5]"
 	}
 	\header {
 		opus = "J 301" }
