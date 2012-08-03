@@ -1,21 +1,5 @@
-﻿%{
-		******************
-		*		 *
-		*		 *
-		*   Frère Raf	 *
-		*		 *
-		*		 *
-		******************
-		
-				
-c'est jsute pour que tu voies si ça marche
-
-%}
-%{Antiennes actuelles du TO dans le carnet des frères%}
-
-\version "2.14.0"
+﻿\version "2.14.0"
 \include "DefinitionsAntiennesCarnet.ly"
-
 
 
 
@@ -24,7 +8,7 @@ c'est jsute pour que tu voies si ça marche
                        	\line{"2ème SEMAINE DU T.O."}}
 }
 
-\score {
+\score { \transpose c f, {
 	\relative c''  {
 		r8 c
 		c8[ c]
@@ -54,7 +38,7 @@ c'est jsute pour que tu voies si ça marche
 		
 %	\markup { \citation #"(Jn 1, 29)"}
 		_ _ "[Ton 2]"
-	}
+} }
 	\header { opus = "K 20" }
 }
 
@@ -350,7 +334,7 @@ c'est jsute pour que tu voies si ça marche
 
 
 
-\score {
+\score { \transpose a d {
 	\relative c''  {
 		\times 2/3 { a8[ a a] }
 		\times 2/3 { c8[\( c\) \cesure c] }
@@ -369,7 +353,7 @@ c'est jsute pour que tu voies si ça marche
 		dé -- sert pour y pri -- er.	
 	%\markup { \citation #"(Lc 4)" }
 	_ _ "[Ton 2]"
-	}
+	}}
 	\header { opus = "K 51" }
 }
 
@@ -451,8 +435,8 @@ c'est jsute pour que tu voies si ça marche
 
 
 
-\score {
-	\relative c''  {
+\score { \transpose g f {
+	\relative c''  {  \key g \major
 		r8 g16[ g] b16[ c d c] a4
 		a16[ a b a] g16[ g g g] a4
 		\cesure
@@ -473,7 +457,7 @@ c'est jsute pour que tu voies si ça marche
 		\cesure
 		a8[ a] a8.[ a16] a16[\( a\) b g] g4
 		\endBar
-		\stemOff f4 g a 
+		\stemOff g4 a b 
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -484,13 +468,13 @@ c'est jsute pour que tu voies si ça marche
 		A l'ins -- tant sa lè -- pre le quit -- ta.
 	%\markup { \citation #"(Mc 1)" }
 	_ _ "[Ton 6]"
-	}
+	}}
 	\header { opus = "K 61" }
 }
 
 
 
-\score {
+\score { 
 	\relative c''  {
 		r8 a 
 		\times 2/3 { a8[ a\( a]\) }
@@ -733,7 +717,7 @@ c'est jsute pour que tu voies si ça marche
 
 
 
-\score {
+\score { \transpose f c {
 	\relative f'	{
 		\key f \major
 		f8[\( g\)] bes4
@@ -765,7 +749,7 @@ c'est jsute pour que tu voies si ça marche
 		car c'est de l'a -- bon -- dan -- ce du coeur que par -- le la bou -- che.
 	%\markup { \citation #"(Lc 6)" }
 	_ _ "[Ton 2 ]"
-	}
+	}}
 	\header { opus = "K 82" }
 }
 
@@ -837,8 +821,8 @@ c'est jsute pour que tu voies si ça marche
 }
 
 
-\score {
-	\relative c''	{
+\score { \transpose c g { 
+	\relative c'	{
 		r8 c a4
 		\cesure
 		c16[ c d e] d8[\( d\)] d8[ d]
@@ -850,7 +834,7 @@ c'est jsute pour que tu voies si ça marche
 		\ifIndent
 		a16[ a a a] a8[ c] d8[ c] c4
 		\endBar
-		\stemOff g,4 a c
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -859,7 +843,7 @@ c'est jsute pour que tu voies si ça marche
 		et mon ser -- vi -- teur se -- ra gué -- ri.
 	%\markup { \citation #"(Lc 7)" }
 	_ _ "[Ton 8]"
-	}
+	} }
 	\header { opus = "K 92" }
 }
 
@@ -983,7 +967,7 @@ c'est jsute pour que tu voies si ça marche
                        	\line{"11ème SEMAINE DU T.O."}}
 }
 
-\score {
+\score { \transpose a e' {
 	\relative d'	{
 		r8 a d8[\cesureTresBasse d16 d]
 		d16[ d e d]
@@ -1005,7 +989,7 @@ c'est jsute pour que tu voies si ça marche
 		\ifIndent
 		r8 d d8[ f] d8[ e] d4
 		\endBar
-		\stemOff g4 a c
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -1016,7 +1000,7 @@ c'est jsute pour que tu voies si ça marche
 		don -- nez gra -- tui -- te -- ment.
 	%\markup { \citation #"(Mt 10)" }
 	_ _ "[Ton 3]"
-	}
+	} }
 	\header { opus = "K 110" }
 }
 
@@ -2006,7 +1990,7 @@ c'est jsute pour que tu voies si ça marche
 }
 
 
-\score {
+\score { \transpose d g
 	\relative d'  {
 		r8 d d8[ d]
 		\times 2/3 { b8[\( d\) e] }
@@ -2022,7 +2006,7 @@ c'est jsute pour que tu voies si ça marche
 		\ifIndent
 		e8[ g] e8[ d] d4
 		\endBar
-		\stemOff g4 a c
+		\stemOff d4 e g
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -2181,8 +2165,8 @@ c'est jsute pour que tu voies si ça marche
                        	\line{"22ème SEMAINE DU T.O."}}
 }
 
-\score {
-	\relative c''  {
+\score { \transpose a d'{
+	\relative c'  {
 		r8 a
 		c16[ b c c]
 		a8[ c]
@@ -2201,7 +2185,7 @@ c'est jsute pour que tu voies si ça marche
 		\times 2/3 { c8[ a g] }
 		b4\( a8\) r8
 		\endBar
-		\stemOff c4 d e
+		\stemOff c'4 d e
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -2211,7 +2195,7 @@ c'est jsute pour que tu voies si ça marche
 		vient à per -- dre son â -- me.
 	%\markup { \citation #"(Mt 16)" }
 	_ _ "[Ton 1]"
-	}
+	} }
 	\header { opus = "K 220" }
 }
 
@@ -2397,7 +2381,7 @@ c'est jsute pour que tu voies si ça marche
                        	\line{"24ème SEMAINE DU T.O."}}
 }
 
-\score {
+\score { \transpose c f, {
 	\relative c''  {
 		c16[ c b c]
 		a16[ a a a] a8[ a]
@@ -2406,7 +2390,7 @@ c'est jsute pour que tu voies si ça marche
 		\cesure
 		c8[ b] a8[ g]
 		\ifIndent
-		\times 2/3 { r8\( c[ c]\) }
+		\times 2/3 { r8_\( c[ c]\) }
 		c8[ c] c8[ d]
 		\times 2/3 { c8[ b a] }
 		\times 2/3 { a8[\( a\)\cesure b] }
@@ -2419,10 +2403,10 @@ c'est jsute pour que tu voies si ça marche
 		Je ne te dis pas de par -- don -- ner les torts de 
 		ton frè -- re jus -- qu'à sept fois, mais sans ces -- se. 
 		Que cha -- cun de vous par -- donne à son frè -- re, 
-		de tout son coeur.
+		de tout son cœur.
 	%\markup { \citation #"(Mt 18)" }
 	_ _ "[Ton 2]"
-	}
+	}}
 	\header { opus = "K 240" }
 }
 
@@ -2477,7 +2461,7 @@ c'est jsute pour que tu voies si ça marche
 }
 
 
-\score {
+\score { \transpose c f, {
 	\relative c''  {
 		c16[ c b a]
 		\times 2/3 { c8[\( c\)\cesure c] }
@@ -2502,19 +2486,19 @@ c'est jsute pour que tu voies si ça marche
 		leur dit_: «_Al -- lez, vous aus -- si, à ma vi -- gne._»
 	%\markup { \citation #"(Mt 20)" }
 	_ _ "[Ton 2]"
-	}
+	}}
 	\header { opus = "K 250" }
 }
 
 
-\score {
-	\relative c''  {
+\score { \transpose g f {
+	\relative c''  { \key g \major
 		r8 g
 		\times 2/3 { b8[ c b] } a4
 		\cesure
 		\times 2/3 { d8[ d e] }
 		d16[ b a g] a4
-		\times 2/3 { r8\( c[ b]\) }
+		\times 2/3 { r8_\( c[ b]\) }
 		\times 2/3 { a8[ a b] } g4
 		\cesure
 		g8[ b]
@@ -2525,7 +2509,7 @@ c'est jsute pour que tu voies si ça marche
 		\times 2/3 { d8[ e d] }
 		b4\( b8\) r8
 		\endBar
-		\stemOff f,4 a c
+		\stemOff g,4 b d
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -2534,7 +2518,7 @@ c'est jsute pour que tu voies si ça marche
 		un de ces en -- fants, c'est moi qu'il ac -- cueil -- le. »
 	%\markup { \citation #"(Mc 9)" }
 	_ _ "[Ton 5]"
-	}
+	}}
 	\header { opus = "K 251" }
 }
 
@@ -2885,8 +2869,8 @@ c'est jsute pour que tu voies si ça marche
                        	\line{"29ème SEMAINE DU T.O."}}
 }
 
-\score {
-	\relative c''  {
+\score { \transpose a d {
+	\relative c''  { \key a\minor
 		r16 a16[ b a]
 		\times 2/3 { a8[ g b] } c8[ b]
 		\times 2/3 { a8[ c d] } e8[ e]
@@ -2901,7 +2885,7 @@ c'est jsute pour que tu voies si ça marche
 		\times 2/3 { a8[ a a] }
 		\times 2/3 { a8[ g a] }
 		\times 2/3 { b8[ c b] } a4
-		\times 2/3 { r8\( c[ d]\) }
+		\times 2/3 { r8_\( c[ d]\) }
 		\times 2/3 { d8[ c d] }
 		c8[ a] a4
 		\endBar
@@ -2915,7 +2899,7 @@ c'est jsute pour que tu voies si ça marche
 		Cé -- sar ce qui est à Cé -- sar, et à Dieu ce qui est à Dieu._»
 	%\markup { \citation #"(Mt 22)" }
 	_ _ "[Ton 2]"
-	}
+	} }
 	\header { opus = "K 290" }
 }
 
@@ -3108,9 +3092,9 @@ c'est jsute pour que tu voies si ça marche
                        	\line{"31ème SEMAINE DU T.O."}}
 }
 
-\score {
+\score { \transpose f g {
 	\relative f'  {
-		\key f \major
+		%\key f \major
 		\times 2/3 { r8_\( f[ g]\) }
 		\times 2/3 { bes8[ c bes] } a8[\( g\)]
 		r8 bes
@@ -3121,7 +3105,7 @@ c'est jsute pour que tu voies si ça marche
 		\times 2/3 { a8[\( a\)\cesureBasse g] }
 		\ifIndent
 		a4
-		\times 2/3 { r8_\( a[ bes]\) }
+		\times 2/3 { r8\( a[ bes]\) }
 		\times 2/3 { a8[\( g\) f] }
 		\times 2/3 { g4\( g8\) }
 		\times 2/3 { r8_\( f[ f]\) }
@@ -3130,7 +3114,7 @@ c'est jsute pour que tu voies si ça marche
 		\times 2/3 { a8[ bes g] }
 		g8[ f] f4
 		\endBar
-		\stemOff g4 a c
+		\stemOff f4 g bes
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -3139,7 +3123,7 @@ c'est jsute pour que tu voies si ça marche
 		Le plus grand par -- mi vous se -- ra vo -- tre ser -- vi -- teur.
 	%\markup { \citation #"(Mt 23)" }
 	_ _ "[Ton 8]"
-	}
+	}}
 	\header { opus = "K 310" }
 }
 
@@ -3324,8 +3308,8 @@ c'est jsute pour que tu voies si ça marche
                        	\line{"33ème SEMAINE DU T.O."}}
 }
 
-\score {
-	\relative c''  {
+\score { \transpose g  f {
+	\relative c''  { \key g \major
 		\times 2/3 { r8_\( g[ a]\) }
 		b8[ b] b8[\( b\)]
 		\cesure
@@ -3341,7 +3325,7 @@ c'est jsute pour que tu voies si ça marche
 		g16[ g g a]
 		\slurDashed b4( c8[) a] g4
 		\endBar
-		\stemOff f4 g a 
+		\stemOff g4 a b 
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -3350,7 +3334,7 @@ c'est jsute pour que tu voies si ça marche
 		cho -- se, je te con -- fie -- rai tous mes biens.
 	%\markup { \citation #"(Mt 25)" }
 	_ _ "[Ton 6]"
-	}
+	} }
 	\header { opus = "K 330" }
 }
 
@@ -3433,9 +3417,9 @@ c'est jsute pour que tu voies si ça marche
                        	\line{"34ème SEMAINE DU T.O."}}
 }
 
-\score {
+\score { \transpose e a, {
 	\relative c''  {
-		\times 2/3 { r8\( e[ e]\) } d8[ e]
+		\times 2/3 { r8_\( e[ e]\) } d8[ e]
 		\times 2/3 { c8[\( c\) b] }
 		\times 2/3 { a8[ b d] }
 		\times 2/3 { e4\( e8\) }
@@ -3459,12 +3443,12 @@ c'est jsute pour que tu voies si ça marche
 		s'as -- sié -- ra sur son trô -- ne de gloi -- - -- re.
 	%\markup { \citation #"(Mt 25)" }
 	_ _ "[Ton 1]"
-	}
+	} }
 	\header { opus = "K 340" }
 }
 
 
-\score {
+\score { \transpose a d' {
 	\relative d'  {
 		\times 2/3 { r8_\( a[ c]\) }
 		\times 2/3 { d8[\( d\) d] }
@@ -3488,7 +3472,7 @@ c'est jsute pour que tu voies si ça marche
 		\ifIndent
 		a4
 		\endBar
-		\stemOff f'4 g a 
+		\stemOff c'4 d e
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -3499,7 +3483,7 @@ c'est jsute pour que tu voies si ça marche
 		é -- cou -- te ma voix.
 	%\markup { \citation #"(Jn 18)" }
 	_ _ "[Ton 1]"
-	}
+	} }
 	\header { opus = "K 341" }
 }
 
