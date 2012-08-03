@@ -97,8 +97,8 @@
 	}
 	\addlyrics { \set stanza = #"(A.B.C) "
 		Dieu, per -- son -- ne ne l'a ja -- mais vu, mais le Fils- _ qui est dans le sein du Pè -- re, 
-		Lui, nous la ré -- vé -- "lé ;" et nous a -- vons vu la gloi -- _ _ re qu'il tient de son Pè -- re, 
-		comme un Fils u -- ni -- que, plein de grâ -- ce et de vé -- ri -- té.
+		lui, nous "l'a" ré -- vé -- "lé ;" et nous a -- vons vu la gloi -- _ _ re qu'il tient de son Pè -- re, 
+		com -- me Fils u -- ni -- que, plein de grâ -- ce et de vé -- ri -- té.
 % (Jn 1)
 	 _ _ "[Ton 1]"
 	}
@@ -152,14 +152,14 @@
 		f16[\( g\) a bes] g4 \ifIndent
 		r8 d' d[ d16 e]
 		c16[\( c\) a a]
-		c16[\( c\) b g] g4
+		c16[\( c\) bes g] g4
 		\endBar
 		\stemOff f a c
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(B) "
-		N'est- -- il pas é -- "crit :" ma mai -- son se -- ra ap -- pe -- lée mai -- son de pri -- è -- re pour tou -- tes les na -- "tions ?"
-		Mais vous, vous en fai -- tes un re -- pè -- re de bri -- gants.
+		N'est- -- il pas é -- "crit :" Ma mai -- son se -- ra ap -- pe -- lée mai -- son de pri -- è -- re pour tou -- tes les na -- "tions ?"
+		Mais vous, vous en fai -- tes un re -- pè -- re de bri -- gands.
 		_ _ "[Ton 5]"
 % (Mc 11)
 	
@@ -185,7 +185,7 @@
 	}
 	\addlyrics { \set stanza = #"(C) "
 	Je suis le Dieu de vos pè- -- _ "res ;" quand j'ai vu la dé -- tre -- sse de mon peu -- ple, 
-	quand j'ai en -- ten -- du sa plain -- te, je suis al -- lé le dé -- li -- vrer.
+	quand j'ai en -- ten -- du sa plain- -- _ te, je suis al -- lé le dé -- li -- "vrer. "
 	 _ _  _ "[Ton 1]"		
 % (Ex 3)
 	}
@@ -220,7 +220,8 @@
 	\addlyrics { \set stanza = #"(A) "
 	Je suis ve -- nu en ce mon -- de pour que les a -- veu -- gles voient, dit le Sei -- gneur.
 	Je suis la Lu -- miè -- re du mon- -- _ de.
-	Qui me suit ne mar -- che -- ra pas dans les té -- nè- -- _ bres mais il au -- ra la Lu -- miè -- re de- _ la Vie.
+	Qui me suit ne mar -- che -- ra pas dans les té -- nè- -- _ bres 
+	mais il au -- ra la lu -- miè -- re de- _ la Vie.
 	 _ _ "[Ton 2]"		
 % (Jn 8;9))
 
@@ -251,7 +252,7 @@
 	Dieu a tant ai -- mé le mon -- de qu'il a don -- né son Fils u -- ni -- que,
 	pour que tout hom -- me qui croit en lui ne pé -- ris -- se pas
 	mais qu'il ait la vie é -- ter -- nel- -- _ le.
-	 _ _ "[Ton 3]"		
+	 _ _ "[Ton 8]"		
 % (Jn 3)
 
 	}
@@ -360,7 +361,7 @@
 	"- Per" -- son -- ne, Sei-  -- _ gneur.
 	"- Moi" non plus, je ne te con -- dam -- ne pas. 
 	Va, et dé -- sor -- mais ne pè -- che plus.
-	 _ _ "[Ton 2]"		
+	 _ _ "[Ton 2 transposé au la]"		
 % (Jn 8)
 
 	} 
@@ -368,7 +369,7 @@
 	\header {
 		opus = "H 502" }
 	} 
-\markup {2° mode transposé au la }
+%\markup {2° mode transposé au la }
 
 
 \markup {
@@ -377,7 +378,7 @@
 	r8 g  g8[ d']  d4 \cesure
 	\times 2/3 { c8[ b c] }
 	d8[\( e\)] d4 
-	r8 b  \times 2/3 { c8[ d]e }
+	r8 b  \times 2/3 { c8[ d e] }
 	\times 2/3 { d4\( c8\) }
 	\times 2/3 { c8[\( d\) c] } g4
 	r8 g g8[\( d'\)] \times 2/3 { d4\( d8\) }
@@ -396,7 +397,7 @@
 	}
 	\addlyrics { 
 	Ré -- jou -- is- -- toi, Jé -- ru -- sa -- "lem- !" _ _
-	Voi -- ci que ton Roi "s'a" -- van -- ce vers "toi :"
+	Voi -- ci que ton Roi "s'a" -- van -- ce vers "toi !"
 	Ho -- san-  -- _ na au Fils de Da -- "vid !"
 	Bé -- ni soit ce -- lui- _ qui vient au nom du Seign -- "eur- !" _
 	Ho -- san- -- _ na au plus haut des "cieux !"
@@ -489,7 +490,7 @@
 		\times 2/3 { a4\( a8\) }
 		c8[\( a\)]  g8[ bes]  a4  \cesure
 		d,16[ a' g b] a4
-		\times 2/3 { r8_\( c[ b]\) }
+		\times 2/3 { r8\( c[ b]\) }
 		\ifIndent c8[\( a\)]
 		\times 2/3 { g8[ a b] }
 		c8[ b]  a4
@@ -534,7 +535,7 @@
 		\times 2/3 { a8[ c d] } d4 \cesure \ifIndent
 		a8[ g]  a8[ c]
 		b16[ a\( g\) a]
-		b8[\( a\)]  c8[\( c\)]  \cesure
+		b8[\( a\)]  \cesure c8[\( c\)]  \cesure
 		\times 2/3 { c8[\( c\) c] }
 		\times 2/3 { c8[ c c] }
 		\times 2/3 { c8[ a b] } c4 \cesure

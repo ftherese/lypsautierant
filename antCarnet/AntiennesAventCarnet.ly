@@ -95,7 +95,8 @@
 	}
 
 	\addlyrics {
-		Un -- e voix pro -- cla -- "me :" pré -- pa -- rez dans le dés -- ert le che -- min du Seig -- neur, et ren -- dez droits les sent -- iers de not -- re Dieu. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
+		Un -- e voix pro -- cla -- "me :" pré -- pa -- rez dans le dés -- ert le che -- min du Seig -- neur, 
+		et ren -- dez droits les sen -- tiers de not -- re Dieu. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
 		_ _  "[Ton 1]"
 %		\markup { \citation #"[Ton 1] (Is 40)"} en rajoutant 2 _ _ au dessus
 		
@@ -128,7 +129,9 @@
 	}
 
 	\addlyrics {
-		Tou -- te val -- lée se -- ra com -- blée et tou -- te col -- line a -- bais -- "ée ;" al -- ors la gloi -- re du Sei -- gneur ap -- pa -- raî -- tra, et tou -- te chair ver -- ra le sa -- lut de Dieu.
+		Tou -- te val -- lée se -- ra com -- blée et tou -- te col -- line a -- bais -- "ée ;" 
+		al -- ors la gloi -- re du Sei -- gneur ap -- pa -- raî -- tra, 
+		et tou -- te chair ver -- ra le sa -- lut de Dieu.
 		_ _ "[Ton 2]"
 % (Is 40)
 	}
@@ -164,7 +167,9 @@
 	}
 
 	\addlyrics {
-		Il siè -- ge -- ra sur le trô -- ne de Da -- vid et rè -- gne -- ra à jam -- ais sur son ro -- yau -- - -- me. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
+		Il siè -- ge -- ra sur le trô -- ne de Da -- vid 
+		et rè -- gne -- ra à jam -- ais sur son ro -- yau -- - -- me. 
+		Al -- le -- \skip 1 lu -- \skip 1 "ia !"
 		_ _ "[Ton 1]"
 	}
 
@@ -195,7 +200,7 @@
 	}
 
 	\addlyrics {
-		Ré -- ou -- is- -- toi, Fi -- lle de Si -- "on :" le Roi "d'Is" -- ra -- ël, le Seig -- neur, est en toi. Il te re -- nou -- vel -- le -- ra dans son am -- our.
+		Ré -- jou -- is- -- toi, Fi -- lle de Si -- "on :" le Roi "d'Is" -- ra -- ël, le Seig -- neur, est en toi. Il te re -- nou -- vel -- le -- ra dans son am -- our.
 		_ _ "[Ton 2]"
 % (Cf. So)
 	}

@@ -141,7 +141,7 @@
 %\pageBreak
 
 \markup {
-	\fill-line{\line{ "OCTAVE DE NOEL"}}}
+	\fill-line{\line{ "OCTAVE DE LA NATIVITE"}}}
 \score {\relative f'  { 
 		r8 f8
 		g8[\( a\)] g8[ g] f4 \cesure
@@ -192,7 +192,8 @@
 		\endBar 
 	}
 	\addlyrics {
-		Le Ve -- rbe "s'est" fait chair et il a de -- meu -- ré par -- mi "nous ;" à tous ceux qui le re -- çoi -- vent, il a don -- né pou -- voir de de -- ve -- nir enf -- ant de Dieu. 
+		Le Ve -- rbe "s'est" fait chair et il a de -- meu -- ré par -- mi "nous ;" 
+		à tous ceux qui le re -- çoi -- vent, il a don -- né pou -- voir de de -- ve -- nir enf -- ants de Dieu. 
 	 _ _ "[Ton 1]"
 % 		(Jn 1)
 	}
@@ -284,7 +285,7 @@
 		\times 2/3 { f8[\( g f]\) } f4\cesure
 		\times 2/3 { f8[ g f] }
 		\times 2/3 { g8[ f a] }
-		\times 2/3 { bes8[ a g] } g4
+		\times 2/3 { bes8[ a g] } g4 \cesure
 		\times 2/3 { f8[ f f] }
 		g8[ a] g8[ a]
 		\slurDashed a4( \times 2/3 { c8[) a g] } \ifIndent
@@ -296,7 +297,8 @@
 		\endBar 
 	}
 	\addlyrics {
-		Par un éch -- an -- ge ad -- mi -- ra -- - -- - -- ble, le Cré -- at -- eur a pris chair de Mar -- ie, et il nous fait par -- ti -- cip -- ants de sa di -- vi -- ni -- té. Al -- - -- le -- lu  -- - -- ia! 
+		Par un éch -- an -- ge ad -- mi -- ra -- - -- - -- ble, le Cré -- at -- eur a pris chair de Mar -- ie, 
+		et il nous fait par -- ti -- cip -- ants de sa di -- vi -- ni -- té. Al -- - -- le -- lu  -- - -- ia! 
 	 _ _ "[Ton 6]"
 	}
 	\header {
@@ -325,7 +327,7 @@
 		\endBar 
 	}
 	\addlyrics {
-		Lè -- ve- -- toi-, -- _ -- Jé -- ru -- sa -- "lem !" Sois il -- lu -- mi -- "ée !" Car voi -- ci ta lu -- miè- --  _ re, et sur toi se lè -- ve la glo -- ire du- -- _ Seig -- neur.
+		Lè -- ve- -- toi-, -- _ -- Jé -- ru -- sa -- "lem !" Sois il -- lu -- mi -- "née !" Car voi -- ci ta lu -- miè- --  _ re, et sur toi se lè -- ve la glo -- ire du- -- _ Seig -- neur.
 % (Is 60)
 	 _ _ "[Ton 7]"
 	}
