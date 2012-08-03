@@ -11,6 +11,59 @@
      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+\markup {
+      		\fill-line{
+                       	\line{"SEMAINE DU 18 au 25 JANVIER)"}}
+}
+
+\score {
+	\relative f'  {
+		\key f \major
+		r8 a bes8[ a] a4
+		\cesure
+		d,8[\( f\)] g4
+		\cesure
+		a8[\( a\)]
+		\cesure
+		\times 2/3 { b8[ b b] }
+		\times 2/3 { g4\( g8\) } a8[ b] a4
+		\cesure
+		d,8[ c] d8[ f] f8[ f] g4
+		\cesure
+		\ifIndent
+		a8[ a]
+		\times 2/3 { a4\( a8\) } bes8[ a] a4
+		r8. d,16 f16[ d c\( d\) ]
+		\times 2/3 { f8[ f f] }
+		\times 2/3 { f8[ f f] } d8[\( d16\) f] g16[ a a a]
+		\times 2/3 { a4\( a8\) }
+		\times 2/3 { a8[ a bes] }
+		\ifIndent
+		a4
+		\cesure
+		\times 2/3 { g8[ g g] } g8[\( a\)]
+		\times 2/3 { d,8[ c d] }
+		\times 2/3 { f8[\( f\) g] } a8[ bes] a4
+		\endBar
+	}
+	\addlyrics {
+		Que tous soient Un, com -- me toi, Pè -- re, 
+		tu es en moi et moi en toi, 
+		qu'eux aus -- si soient Un en nous, 
+		Moi en eux et Toi en moi.
+		Jé -- sus, ac -- cor -- de- -- nous de gar -- der ta Pa -- ro -- le, 
+		a -- fin que nous soy -- ons par -- fai -- te -- ment Un, 
+		et que le mon -- de croie que le Pè -- re t'a en -- vo -- yé.
+	}
+	\header {
+		piece = "Pour la semaine de l'unité" }
+}
+
+
+
+
+
+
 
 \markup {
       		\fill-line{
@@ -1355,3 +1408,4 @@
 	\header {
 		piece = "Antienne" }
 }
+
