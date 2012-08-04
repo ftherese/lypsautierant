@@ -81,26 +81,14 @@
 		f16[ f e f] d8.[ d16] d16[\( d\) f a] g4
 		\endBar
 	}
-	\addlyrics { \set stanza = #"1."
+	\addlyrics {
 		Ren -- dons gloire à no -- tre Dieu_: il _a con -- ver -- ti _l'a -- pô -- tre des na -- tions.
 	}
 	\header {
-		piece = "Invitatoires" }
+		piece = "Invitatoire" }
 }
 
-\score {
-	\relative f'  {
-		\key f \major
-		r8 f16[ f] g16[ f f\( d\)] d4
-		\cesure
-		\espace
-		c16[ d f g] f8.[ f16] f16[\( f\) a bes] g4
-		\endBar
-	}
-	\addlyrics { \set stanza = #"2."
-		Ren -- dons gloire à no -- tre Dieu_: il _a con -- ver -- ti _l'a -- pô -- tre des na -- tions.
-	}
-}
+
 
 \score {
 	\relative c''  {
@@ -279,14 +267,14 @@
 		\ifIndent
 		f16[ f e f] d4\( d8\) r8
 		\endBar
-		\stemOff f4 g a
+		\stemOff c4 d f
 		\endBar
 	}
 	\addlyrics { \set stanza = #"1. "
 		J'ai pri -- é pour toi, Si -- mon, a -- fin que ta foi ne som -- bre pas.
 		Et toi, quand tu se -- ras re -- ve -- nu, af -- fer -- mis tes frè -- res.
 	%\markup { \citation #"(Lc 22)"}
-		_ _ "[Ton 1]"
+		_ _ "[Ton 2]"
 	}
 
 }
@@ -351,7 +339,7 @@
 		r8 f g8[ f] bes8[ a] g4
 		\cesure
 		\times 2/3 { f8[ g a] }
-		\times 2/5 {g16[a f e d]}
+		\times 2/3 { f8[ e d] }
 		f8[ g] a4
 		\times 2/3 { g8[ a g] }
 		g4\( f8\) r8
@@ -359,7 +347,7 @@
 	}
 	\addlyrics {
 		Le Roi des rois, le Sei -- gneur, qui a dai -- gné pas -- ser pour le fils du char -- pen -- tier,
-		ve -- nez, a -- do -- rons -- -le. Al - - le - - - - lu - - - - -  ia  -.
+		ve -- nez, a -- do -- rons -- -le. Al - - le - - lu - - - - -  ia  -.
 	}
 	\header {
 		piece = "Invitatoire 1er mai" }
@@ -1043,13 +1031,28 @@
 		\times 2/3 { d8[ c b] } e8[ c] a4\( a8\) r8				
 		\endBar
 	}
-	\addlyrics {
+	\addlyrics {\set stanza = #"1. "
 		A -- vec Ma -- rie au pied de la Croix, 
 		a -- do -- rons le Sau -- veur du mon -- de_!
 	}
 	\header {
-		piece = "Invitatoire" }
+		piece = "Invitatoires" }
 }
+
+\score {
+	\relative c''  {
+		r8 d, c[ d] 
+		\times 2/3 { d4\( f8\) }
+		\times 2/3 { g8[ f e] } d4
+		\times 2/3 { r8_\( f[ g]\) }
+		\times 2/3 { a8[ bes a] }
+		g[ f] e4\( d8\) r8
+		\endBar
+	}
+	\addlyrics {\set stanza = #"2. "
+		A -- vec Ma -- rie au pied de la Croix, 
+		a -- do -- rons le Sau -- veur du mon -- de_!
+	}}
 
 \score {
 	\relative f'  {
@@ -1198,6 +1201,8 @@
                        	\line{"SAINTS ANGES GARDIENS (2 octobre)"}}
 }
 
+\markup { "Voir au 29 septembre" }
+%{
 \score {
 	\relative c''  {
 		\times 2/5 { g16[\( a\) c a g]} f8.[ g16] a16[ a a g] g4
@@ -1240,42 +1245,11 @@
 	\header {
 		piece = "Magnificat" }
 }
-
+%}
 
 \markup {
       		\fill-line{
                        	\line{"NOTRE DAME DU ROSAIRE (7 octobre)"}}
-}
-
-\score {
-	\relative c''  {
-		\times 2/3 { r8_\( g[ g]\) }
-		\times 2/3 { g8[ g a] }
-		\times 2/3 { a4\( g8\) } f8[ g] a8.[ g16]
-		g16[\( b\) c a] g8[ f] g16[\( a\) a g] g4
-		\cesure		
-		\times 2/3 { g8[\( c\) b] }
-		\ifIndent
-		\times 2/3 { c4\(\cesure \espace d8\) }
-		\times 2/3 { c8[ b a] }
-		\times 2/3 { c8[ a g] }
-		\times 2/3 { a8[\( c\) d] }
-		\times 2/3 { d4\( d8\) } c8[ c]
-		\times 2/3 { b8[\( a\) b] }
-		\times 2/3 { c8[ c b] } g4
-		\endBar
-		\stemOff g4 a c
-		\endBar
-	}
-	\addlyrics {
-		Au -- jour -- d'hui cé -- lé -- brons a -- vec fer -- veur
-		la fê -- te du Très Saint Ro -- sai -- re de Ma -- rie, Mè -- re de Dieu,
-		a -- fin que la Vierge in -- ter -- cè -- de pour nous
-		au -- près de No -- tre Sei -- gneur Jé -- sus- -- Christ.
-		_ _ "[Ton 8]"
-	}
-	\header {
-		piece = "Benedictus" }
 }
 
 
@@ -1296,8 +1270,7 @@
 	%\markup { \citation #"(Lc 2)" }
 		_ _ "[Ton 8]"
 	}
-	\header {
-		piece = "Magnificat" }
+
 }
 
 
