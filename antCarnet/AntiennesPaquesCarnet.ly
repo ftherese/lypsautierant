@@ -186,7 +186,7 @@
 		g8[ f16 e]
 		\times 2/3 { e4\( d8\) } r8
 		\endBar
-		\stemOff c4 d e
+		\stemOff c4 d e e e e
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -195,7 +195,7 @@
 	Ils sa -- vaient que "c'é" -- tait le Sei -- gneur. Al -- le- _ lu -- "ia !" 
 		
 %   (Jn 21)
-	 _ _ "[Ton 1]"
+	 _ _ _ "[Ton 1 " "ou  Per.]"
 	} }
 	\header {
 		opus = "I 302" }
@@ -280,7 +280,7 @@
 		\times 2/3 { a8[ f e] } d4
 		f16[ g a\( g\)] g4
 		\endBar
-		\stemOff f4 g a
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -288,7 +288,7 @@
 	 et nul ne les ar -- ra -- che -- ra de ma main. Al -- le -- lu- -- _ ia. 
 		
 %   (Jn 10)
-	 _ _ "[Ton 6]"
+	 _ _ _ "[Ton 6 " "ou  Per.]"
 	}
 	\header {
 		opus = "I 402" }
@@ -312,7 +312,7 @@
 	\times 2/3 { r8_\( f[ g]\) }
 	\times 2/3 { a8[\( g f]\) } g4
 		\endBar
-		\stemOff f4 g a
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -322,7 +322,7 @@
 	Al -- le -- lu- -- _ _ "ia !" 
 	
 %   (Jn 14)
-	 _ _ "[Ton 1]"
+	_ _ _ "[Ton 1 " "ou  Per.]"
 	} 
 	\header {
 		opus = "I 500" }
@@ -356,7 +356,8 @@
 	} 
 	
 	
-\score {\relative f' {
+\score {\transpose c g {
+	\relative f' {
 	\times 2/3 { r8_\( c[ d]\) }
 	f8[ f16 f]
 	e16[ f g e] f4 \cesure
@@ -377,8 +378,8 @@
 	Al -- le -- lu- -- _ "ia !" 
 	
 %   (Jn 13)
-	 _ _ "[Ton 2]"
-	} 
+	 _ _ "[Ton 8]"
+	 } }
 	\header {
 		opus = "I 502" }
 	} 
@@ -440,7 +441,7 @@
 	g8[ g]  a8[\( b\)] a4  \cesure 
 	g8[ a16\( b\)] a4 a8 r
 		\endBar
-		\stemOff f4 a c
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -450,7 +451,7 @@
 	Al -- le- -- _ lu -- "ia !" 
 	
 %   (Jn 15)
-	 _ _ "[Ton 5]"
+	 _ _ "[Ton 6]"
 	} 
 	\header {
 		opus = "I 601" }
@@ -546,7 +547,7 @@
 	\times 2/3 { f8[ f f] } e8[ f]
 	\times 2/3 { d8[ f g] } a4  \cesure bes16[ a bes\( g\)] a4
 	\endBar
-	\stemOff f4 g a
+	\stemOff f4 g a a a a
 	\endBar	}
 	
 	\addlyrics {
@@ -555,7 +556,7 @@
 		Ce -- lui qui vous a é -- té en -- le -- vé, Jé -- sus, re -- vien -- dra 
 		comme il s'en est al -- lé vers le ciel.
 		Al -- le -- lu - ia.	
-		 _ _ "[Ton 1]"
+		_ _ _ "[Ton 1 " "ou  Per.]"
 		}
 		% (Ac 1)
 	\header {
@@ -837,7 +838,7 @@
 	d16[\( g\) f\( e\)] 
 	d4\( d8\) r8
 	\endBar
-	\stemOff f4 g a
+	\stemOff f4 g a a a a
 	\endBar	}
 	
 	\addlyrics {
@@ -845,7 +846,8 @@
 		l'Es -- prit se ma -- ni -- feste aux dis -- ci -- ples, 
 		al - le - lu -- ia, sur eux, il ré -- pand les dons de sa grâ - ce, 
 		et les en -- voie pro -- cla -- mer les lou -- an -- ges de Dieu. Al - le - lu -- ia_!
-		 _ _ "[Ton 1]"}
+		_ _ _ "[Ton 1 " "ou  Per.]"
+	}
 	\header {
 		opus =  "I 801"
 	}

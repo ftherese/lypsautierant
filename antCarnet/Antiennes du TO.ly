@@ -76,7 +76,7 @@
 		a8[ bes16 bes]
 		bes16[ g a g] f4
 		\cesure
-		a8[ a] a16[\( a\) a f]
+		a8[ g] a16[\( a\) a f]
 		\times 2/3 { g8[ g a] } g4
 		\ifIndent
 		r8 bes8 bes8[ g]
@@ -151,14 +151,14 @@
 		\times 2/3 { c8[ bes a] }
 		\times 2/3 { g8[\( f\) g] } a4\( g8\) r8
 		\endBar
-		\stemOff f4 g a
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Les temps sont ac -- com -- plis, voi -- ci le Rè -- gne de Dieu : 
 		con -- ver -- tis -- sez- -- vous, cro -- yez à la Bon -- ne Nou -- vel -- le.
 	%\markup { \citation #"(Mc 1)"}
-	_ _ "[Ton 6]"
+	_ _ _ "[Ton 6 " "ou  Per.]"
 	}
 	\header { opus = "K 31" }
 }
@@ -246,7 +246,7 @@
 		\times 2/3 { g8[ g a] } g8[ f] f4
 		\times 2/3 { f8[ f f] } e8[ g] a4\( a8\) r8
 		\endBar
-		\stemOff f4 g a 
+		\stemOff f4 g a a a a 
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -254,7 +254,7 @@
 		a -- vec au -- to -- ri -- té ! Il com -- man -- de même 
 		aux es -- prits mau -- vais et ils lui o -- bé -- is -- sent.
 	%\markup { \citation #"(Mc 1)" }
-	_ _ "[Ton 6]"
+	_ _ _ "[Ton 6 " "ou  Per.]"
 	}
 	\header { opus = "K 41" }
 }
@@ -541,7 +541,7 @@
 		\times 2/3 { g8[ f g] } d4
 		r8 d
 		d8[\cesureBasse a'] bes8[ a] a4
-		c16[\( c\) a\( bes\)]
+		c16[\( c\) a\( bes!\)]
 		\ifIndent
 		\times 2/3 { c8[\( c\) c] }
 		\times 2/3 { c8[ a g] } f4
@@ -808,7 +808,7 @@
 		\times 2/3 { f8[\( f\) g] }
 		a16[\( a\) bes g] a4
 		\endBar
-		\stemOff f4 g a
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -816,14 +816,14 @@
 		et non l'hom -- me pour le sab -- bat. 
 		C'est pour -- quoi le Fils de l'hom -- me est maî -- tre du sab -- bat.
 	%\markup { \citation #"(Mc 2)" }
-	_ _ "[Ton 6]"
+	_ _ _ "[Ton 6 " "ou  Per.]"
 	}
 	\header { opus = "K 91" }
 }
 
 
-\score { \transpose c g { 
-	\relative c'	{
+\score { \transpose c f { 
+	\relative c'	{ \key c \major
 		r8 c a4
 		\cesure
 		c16[ c d e] d8[\( d\)] d8[ d]
@@ -835,7 +835,7 @@
 		\ifIndent
 		a16[ a a a] a8[ c] d8[ c] c4
 		\endBar
-		\stemOff c4 d f
+		\stemOff c4 d e
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -843,7 +843,7 @@
 		sous mon toit, mais dis seu -- le -- ment u -- ne pa -- ro -- le, 
 		et mon ser -- vi -- teur se -- ra gué -- ri.
 	%\markup { \citation #"(Lc 7)" }
-	_ _ "[Ton 8]"
+	_ _ "[Ton 6]"
 	} }
 	\header { opus = "K 92" }
 }
@@ -1033,7 +1033,7 @@
 		\times 2/3 { e4\(\cesure d8\) } f8[ g]
 		\times 2/3 { a8[ a g] } g4
 		\endBar
-		\stemOff a4 a a
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B)"
@@ -1043,7 +1043,7 @@
 		la ter -- re pro -- duit du fruit, d'a -- bord l'her -- be, 
 		puis l'é -- pi, en -- fin du blé plein l'é -- pi.
 	%\markup { \citation #"(Mc 4)" }
-	_ _ "[Ton 4]"
+	_ _ "[Ton 8]"
 	}
 	\header { opus = "K 111" }
 }
@@ -1138,7 +1138,7 @@
 		Puis il dit aux dis -- ci -- ples_: «_Pour -- quoi a -- voir peur_? 
 		Com -- ment se fait- -- il que vous n'ay -- ez pas la foi_?_»
 	%\markup { \citation #"(Mc 4)" }
-	_ _ "[Ton 6]"
+	_ _ "[Ton 1]"
 	}
 	\header { opus = "K 121" }
 }
@@ -1159,7 +1159,7 @@
 		\times 2/3 { c8[\( c\) c] }
 		\times 2/3 { c8[ d c] }
 		\ifIndent
-		\slurDashed a4( \times 2/3 { f8[) g a] } g8[\( g\)]
+		\slurDashed a4( \times 2/3 { f8[) g a] } g8[\( f\)] g4
 		\cesure
 		f8[ a]
 		a16[ a bes c] bes8[ a]
@@ -1178,7 +1178,7 @@
 	\addlyrics {\set stanza = #"(C)"
 		Ce -- lui qui veut ve -- nir à ma sui -- te, qu'il re -- nonce 
 		à lui- -- mê -- me, qu'il por -- te sa croix cha -- que jour 
-		et qu'il me sui -- ve. Car ce -- lui qui veut sau -- ver sa 
+		et qu'il me sui -- ve.- _ Car ce -- lui qui veut sau -- ver sa 
 		vie la per -- dra, mais qui per -- dra sa vie à cau -- se de moi, 
 		la sau -- ve -- ra.
 	%\markup { \citation #"(Lc 9)" }
@@ -1226,7 +1226,7 @@
 		d16[ d e f]
 		f16[ e d e] e4\( d8\) r8
 		\endBar
-		\stemOff f4 g a 
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -1237,7 +1237,7 @@
 		en sa qua -- li -- té de di -- sci -- ple, a -- men, je vous le dis_: 
 		il ne per -- dra pas sa ré -- com -- pen -- se.
 	%\markup { \citation #"(Mt 10)" }
-	_ _ "[Ton 1]"
+	_ _ _ "[Ton 1 " "ou  Per.]"
 	}
 	\header { opus = "K 130" }
 }
@@ -1328,7 +1328,7 @@
 		\times 2/3 { a8[\( a\)\cesure f] }
 		g8[ a]
 		a16[ a g bes]
-		a8[\( a\)]
+		a8[\( g\)] a4
 		\cesure
 		a16[ f f f]
 		\times 2/3 { f8[ d f] }
@@ -1341,16 +1341,16 @@
 		\times 2/3 { f8[ g g] }
 		g8[ f] e8[ c] d4
 		\endBar
-		\stemOff f4 g a 
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Je te rends grâ -- - -- ce, Pè -- re, Sei -- gneur du ciel et 
-		de la ter -- re, car tu as ca -- ché les mys -- tè -- res du 
+		de la ter- _ -- re car tu as ca -- ché les mys -- tè -- res du 
 		Roy -- au -- me aux sages et aux sa -- vants, et tu les a
 		ré -- vé -- lés aux tout- -- pe -- tits.
 	%\markup { \citation #"(Mt 11)" }
-	_ _ "[Ton 1]"
+	_ _ _ "[Ton 1 " "ou  Per.]"
 	}
 	\header { opus = "K 140" }
 }
@@ -1726,7 +1726,7 @@
 		r8 a
 		f8[\( f]\) e8[ f] d4
 		\endBar
-		\stemOff f4 g a 
+		\stemOff f4 g a a a a 
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -1734,7 +1734,7 @@
 		cher -- che trou -- ve, et pour ce -- lui qui frap -- pe 
 		la por -- te s'ou -- vri -- ra.
 	%\markup { \citation #"(Lc 11)" }
-	_ _ "[Ton 1]"
+	_ _ _ "[Ton 1 " "ou  Per.]" 
 	}
 	\header { opus = "K 172" }
 }
@@ -1773,7 +1773,7 @@
 		puis, rom -- pant les pains, il les don -- na aux dis -- ci -- ples 
 		qui les don -- nè -- rent aux fou -- les. Tous man -- gè -- rent à leur faim.
 	%\markup { \citation #"(Mt 14)" }
-	_ _ "[Ton 6]"
+	_ _ "[Ton 1]"
 	}
 	\header { opus = "K 180" }
 }
@@ -1900,9 +1900,9 @@
 		r8 e e8[ e]
 		\times 2/3 { e8[ e e] }
 		\times 2/3 { e8[ g a] }
-		g4\( g8\) r8
+		g8[\( f8]\) g4
 		\endBar
-		\stemOff a4 a a
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -1910,9 +1910,9 @@
 		en -- voy -- é ne l'at -- ti -- re_; et moi,
 		je le res -- sus -- ci -- te -- rai au der -- nier jour.
 		A -- men, je vous le dis_: ce -- lui qui croit a la 
-		vie é -- ter -- nel -- le.
+		vie é -- ter -- nel- _ -- le.
 	%\markup { \citation #"(Jn 6)" }
-	_ _ "[Ton 4]"
+	_ _ "[Ton 3]"
 	}
 	\header { opus = "K 191" }
 }
@@ -2078,7 +2078,7 @@
 		\times 2/3 { a8[ g g] }
 		f16[ f e f]
 		\times 2/3 { g8[ f g] }
-		f4\( d8\) r8
+		f8[\( d]\) d4
 		\endBar
 		\stemOff f4 g a
 		\endBar 
@@ -2087,7 +2087,7 @@
 		Pour vous, qui suis -- -je_? Si -- mon -- -Pier -- re 
 		ré -- pon -- dit_: Tu es le Christ, le Fils du Dieu vi -- vant_! 
 		Jé -- sus lui dé -- cla -- ra_: Tu es Pier -- re et sur ce 
-		roc je bâ -- ti -- rai mon E -- gli -- se.
+		roc je bâ -- ti -- rai mon E -- gli- -- _ se.
 	%\markup { \citation #"(Mt 16)" }
 	_ _ "[Ton 1]"
 	}
@@ -2166,7 +2166,7 @@
 }
 
 \score { \transpose a d'{
-	\relative c'  {
+	\relative c'  { \key a\minor
 		r8 a
 		c16[ b c c]
 		a8[ c]
@@ -2183,7 +2183,7 @@
 		e16[ f g f]
 		e8[ c] a8[ b]
 		\times 2/3 { c8[\( a\) g] }
-		b4\( a8\) r8
+		b8[\( a8]\) a4
 		\endBar
 		\stemOff c'4 d e
 		\endBar 
@@ -2194,7 +2194,7 @@
 		Que sert à l'hom -- me de ga -- gner le monde en -- tier s'il 
 		vient à per -- dre son â -- me.
 	%\markup { \citation #"(Mt 16)" }
-	_ _ "[Ton 1]"
+	_ _ _ "[Ton 1]"
 	} }
 	\header { opus = "K 220" }
 }
@@ -2220,7 +2220,7 @@
 		\times 2/3 { f8[ f f] }
 		f8[ g] e8[ e] g8[ bes] a4
 		\endBar
-		\stemOff f4 g a 
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -2229,7 +2229,7 @@
 		Met -- tez la Pa -- role en pra -- ti -- que, ne vous 
 		con -- ten -- tez pas de l'é -- cou -- ter.
 	%\markup { \citation #"(Jc 1)" }
-	_ _ "[Ton 1]"
+	_ _ _ "[Ton 1 " "ou  Per.]"
 	}
 	\header { opus = "K 221" }
 }
@@ -2264,7 +2264,7 @@
 		des in -- fir -- mes, des boi -- teux, des a -- veu -- gles_; 
 		et tu se -- ras heu -- reux par -- ce qu'ils n'ont rien à te ren -- dre.
 	%\markup { \citation #"(Lc 14)" }
-	_ _ "[Ton 8]"
+	_ _ "[Ton 2 transposé en la]"
 	}
 	\header { opus = "K 222" }
 }
@@ -2299,7 +2299,7 @@
 		\ifIndent
 		c16[\cesure c a g] g4
 		\endBar
-		\stemOff f4 g a 
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -2308,7 +2308,7 @@
 		est dans les cieux. Quand deux ou trois se ras -- sem -- blent
 		en mon nom, je suis là, au mi -- lieu d'eux.
 	%\markup { \citation #"(Mt 18)" }
-	_ _ "[Ton 6]"
+	_ _ _ "[Ton 6 " "ou  Per.]"
 	}
 	\header { opus = "K 230" }
 }
@@ -2336,7 +2336,7 @@
 	\addlyrics {\set stanza = #"(B) "
 		Dieu n'a -- -t-il pas choi -- si les pau -- vres se -- lon 
 		le mon -- de pour les en -- ri -- chir dans la foi,
-		les fai -- re hé -- ri -- ter du Roy -- au -- me qu'il 
+		les fai -- re hé -- ri -- tiers du Roy -- au -- me qu'il 
 		a pro -- mis à ceux qui l'ai -- ment_?
 	%\markup { \citation #"(Jc 2)" }
 	_ _ "[Ton 8]"
@@ -2541,7 +2541,7 @@
 		\ifIndent
 		g8[ a] g4
 		\endBar
-		\stemOff f4 g a 
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -2550,7 +2550,7 @@
 		Si vous n'a -- vez pas é -- té fi -- dè -- les pour le 
 		bien é -- tran -- ger, le vô -- tre, qui vous le don -- ne -- ra_?
 	%\markup { \citation #"(Lc 16)" }
-	_ _ "[Ton 6]"
+	_ _ _ "[Ton 6 " "ou  Per.]"
 	}
 	\header { opus = "K 252" }
 }
@@ -2741,7 +2741,7 @@
 		\slurDashed g4( \times 2/3 { f8[) f d] }
 		e8[ f] d4\( d8\) r8
 		\endBar
-		\stemOff c4 d f
+		\stemOff c4 d f a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -2749,7 +2749,7 @@
 		di -- tes -- -vous_: nous som -- mes des ser -- vi -- teurs 
 		i -- nu -- ti -- les, nous a -- vons fait ce que nous de -- vions fai -- re.
 	%\markup { \citation #"(Lc 17)" }
-	_ _ "[Ton 2]"
+	_ _ _ "[Ton 2 " "ou  Per.]"
 	}
 	\header { opus = "K 272" }
 }
@@ -2973,7 +2973,7 @@
       		\fill-line{
                        	\line{"30ème SEMAINE DU T.O."}}
 }
-
+%}
 \score {
 	\relative d'  {
 		r8 a
@@ -2989,7 +2989,7 @@
 		\times 2/3 { d4\( c8\) } d8[ c]
 		\times 2/3 { a4\(\cesure a8\) }
 		\times 2/3 { a8[\( a\) c] }
-		\times 2/3 { c8[\( c\)\cesureTresBasse d] }
+		d8[\( c]\) \times 2/3 { c4\(\cesureTresBasse d8\) }
 		\times 2/3 { f8[ f g] } f4
 		d8[ e]
 		\times 2/3 { c8[\( d\) f] } f8[\( f\)]
@@ -2997,7 +2997,7 @@
 		\ifIndent
 		\times 2/3 { f8[ e f] } g4
 		\times 2/3 { a8[\( f\) e] }
-		d4\( d8\) r8
+		d8[\( e8]\) d4 
 		\endBar
 		\stemOff c4 d f
 		\endBar 
@@ -3005,9 +3005,9 @@
 	\addlyrics {\set stanza = #"(A) "
 		É -- coute I -- sra -- ël_! Le Sei -- gneur no -- tre Dieu est 
 		l'u -- ni -- que Sei -- gneur. Tu ai -- me -- ras le Sei -- gneur
-		ton Dieu de tout ton coeur, de tou -- te ton â -- me, 
+		ton Dieu de tout ton coeur, de tou -- te ton â- _ -- me, 
 		de tout ton es -- prit et de tou -- te ta for -- ce, 
-		et ton pro -- chain com -- me toi -- -mê -- me.
+		et ton pro -- chain com -- me toi -- -mê- _ -- me.
 	%\markup { \citation #"(Mc 12)" }
 	_ _ "[Ton 2]"
 	}
@@ -3087,7 +3087,7 @@
                        	\line{"31ème SEMAINE DU T.O."}}
 }
 
-\score { \transpose f g {
+\score { \transpose f c {
 	\relative f'  {
 		%\key f \major
 		\times 2/3 { r8_\( f[ g]\) }
@@ -3095,12 +3095,12 @@
 		r8 bes
 		c8[ bes]
 		\times 2/3 { a8[ g g] } g4
-		\times 2/3 { r8\( c[ d]\) }
+		\times 2/3 { r8_\( c[ d]\) }
 		\times 2/3 { c8[ bes c] }
 		\times 2/3 { a8[\( a\)\cesureBasse g] }
 		\ifIndent
 		a4
-		\times 2/3 { r8\( a[ bes]\) }
+		\times 2/3 { r8_\( a[ bes]\) }
 		\times 2/3 { a8[\( g\) f] }
 		\times 2/3 { g4\( g8\) }
 		\times 2/3 { r8_\( f[ f]\) }
@@ -3117,7 +3117,7 @@
 		Vous n'a -- vez qu'un seul Maî -- tre, le Christ, et vous ê -- tes tous frè -- res. 
 		Le plus grand par -- mi vous se -- ra vo -- tre ser -- vi -- teur.
 	%\markup { \citation #"(Mt 23)" }
-	_ _ "[Ton 8]"
+	_ _ "[Ton 2]"
 	}}
 	\header { opus = "K 310" }
 }
@@ -3181,7 +3181,7 @@
 		\slurDashed g4( \times 2/3 { f8[) e f] }
 		d8[ e] d4
 		\endBar
-		\stemOff f4 g a 
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -3189,7 +3189,7 @@
 		cet -- te mai -- son, car lui aus -- si est un fils d'A -- bra -- ham.
 		Le Fils de l'homme est ve -- nu cher -- cher et sau -- ver ce qui é -- tait per -- du.
 	%\markup { \citation #"(Lc 19)" }
-	_ _ "[Ton 1]"
+	_ _ _ "[Ton 1 " "ou  Per.]"
 	}
 	\header { opus = "K 312" }
 }
@@ -3284,7 +3284,7 @@
 		\cesure
 		\times 2/3 { f8[ e f] } d4
 		\endBar
-		\stemOff f4 g a 
+		\stemOff f4 g a a a a 
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -3292,7 +3292,7 @@
 		au monde à ve -- nir sont fils de Dieu, é -- tant fils de
 		la ré -- sur -- rec -- tion. Il n'est pas le Dieu des morts, mais des vi -- vants.
 	%\markup { \citation #"(Lc 20)" }
-	_ _ "[Ton 1]"
+	_ _ _ "[Ton 1 " "ou  Per.]"
 	}
 	\header { opus = "K 322" }
 }
@@ -3429,7 +3429,7 @@
 		\times 2/3 { e8[\( e\) c] }
 		d8[\( b\)] a4
 		\endBar
-		\stemOff c'4 d e 
+		\stemOff c'4 d e e e e
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -3437,7 +3437,7 @@
 		et tous les an -- ges a -- vec lui, a -- lors il
 		s'as -- sié -- ra sur son trô -- ne de gloi -- - -- re.
 	%\markup { \citation #"(Mt 25)" }
-	_ _ "[Ton 1]"
+	_ _ _ "[Ton 1 " "ou  Per.]"
 	} }
 	\header { opus = "K 340" }
 }
@@ -3467,7 +3467,7 @@
 		\ifIndent
 		a4
 		\endBar
-		\stemOff c'4 d e
+		\stemOff c'4 d e e e e
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -3477,7 +3477,7 @@
 		Tout hom -- me qui ap -- par -- tient à la vé -- ri -- té
 		é -- cou -- te ma voix.
 	%\markup { \citation #"(Jn 18)" }
-	_ _ "[Ton 1]"
+	_ _ _ "[Ton 1 " "ou  Per.]"
 	} }
 	\header { opus = "K 341" }
 }

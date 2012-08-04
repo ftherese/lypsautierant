@@ -92,7 +92,7 @@
 		e8[\( g\)] f8[ e]  d8[\( d\)]\cesure 
 		f8[ g] a8[\( a\)] g8[ f] a8[ g] g4
 		\endBar
-		\stemOff  f4 g a
+		\stemOff  f4 g a a a a
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(A.B.C) "
@@ -100,7 +100,7 @@
 		lui, nous "l'a" ré -- vé -- "lé ;" et nous a -- vons vu la gloi -- _ _ re qu'il tient de son Pè -- re, 
 		com -- me Fils u -- ni -- que, plein de grâ -- ce et de vé -- ri -- té.
 % (Jn 1)
-	 _ _ "[Ton 1]"
+	_ _ _ "[Ton 1 " "ou  Per.]"
 	}
 	\header {
 		opus = "H 200" }
@@ -118,7 +118,7 @@
 		r8 g g16[ f f a] c8[ d] d4 \cesure
 		\ifIndent \times 2/3 { c8[ d f] }
 		e8[ f] e8[ e]
-		\times 2/3 { d8[\( e d]\) } c4 \cesure
+		d4\( d8\)  r
 		c8[ a]
 		\times 2/3 { c8[\( d\) e] }
 		\times 2/3 { d4\(\cesure c8\) }
@@ -133,7 +133,7 @@
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Si tu sa -- vais le don- _ de Dieu et quel est cel -- ui qui te de -- mande à boi -- re,
-		c'est toi qui l'en au -- rais pri -- é, et il "t'au" -- rait don -- né l'eau vi- -- _ _ ve.
+		c'est toi qui l'en au -- rais pri -- é, et il "t'au" -- rait don -- né l'eau vi -- ve.
 		L'eau qu'il don- -- _ ne -- ra, en toi se -- ra sour -- ce jai -- lli -- ssant en vie é -- ter -- nel- _ le.
 % (Jn 4)
 	 _ _ "[Ton 7]"

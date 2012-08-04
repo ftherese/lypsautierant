@@ -257,7 +257,8 @@
 
 \markup {
 	\fill-line{\line{ "SAINTE MARIE, MERE DE DIEU (1er janvier)"}}}
-\score {\relative f'  { 
+	\score {\transpose c f, {
+	\relative f'  { \key a\minor
 		r8 c'8
 		\times 2/3 { b8[ c d] }
 		d16[ c d e]
@@ -268,13 +269,13 @@
 		g,16[ a c c] a4
 		
 		\endBar
-		\stemOff c'4 b4 c4
+		\stemOff c'4 d e  e e e
 		\endBar 
 	}
 	\addlyrics {
 		Voi -- ci que Mar -- ie est de -- ven -- ue le Temple et l'Ar -- che sain -- - -- te, le ciel nou -- veau où Dieu a res -- plen -- di.
-	 _ _ "[Ton 7]"
-	}
+	_ _ _ "[Ton 1 " "ou Per.]"
+	 	}}
 	\header {
 		piece = "Benedictus"
 		opus = "G 400" }
