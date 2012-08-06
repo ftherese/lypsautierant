@@ -2,7 +2,6 @@
 \include "DefinitionsAntiennesCarnet.ly"
 
 
-
 \markup {
       		\fill-line{
                        	\line{"2ème SEMAINE DU T.O."}}
@@ -42,7 +41,6 @@
 	\header { opus = "K 20" }
 }
 
-
 \score {
 	\relative a'  {
 		a8[\( a\)] \cesure f16[ g g\( b\)] g4
@@ -58,15 +56,14 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
-		Maî -- tre, où de -- meu -- res -- "-tu ?"
-		Ve -- nez et vo -- yez. Ils vin -- rent donc et 
+		«_Maî -- tre, où de -- meu -- res -- -tu ?_»
+		«_Ve -- nez et vo -- yez._» Ils vin -- rent donc et 
 		de -- meu -- rèrent au -- près de lui ce jour -- -là.
 	%\markup { \citation #"(Jn 1)"}
 	_ _ "[Ton 8]"
 	}
 	\header { opus = "K 21" }
 }
-
 
 \score {
 	\relative f'  {
@@ -94,13 +91,12 @@
 		Le troi -- siè -- me jour, il y eut des noces à Ca -- na de Ga -- li -- lée, 
 		et la mè -- re de Jé -- sus é -- tait là. 
 		Le vin des no -- ces ve -- nant à man -- quer, el -- le lui dit : 
-		Ils n'ont plus de vin.
+		«_Ils n'ont plus de vin._»
 	%\markup { \citation #"(Jn 2)"}
 	_ _ "[Ton 5]"
 	}
 	\header { opus = "K 22" }
 }
-
 
 \markup {
       		\fill-line{
@@ -128,15 +124,14 @@
 	\addlyrics {\set stanza = #"(A) "
 		Sur les ha -- bi -- tants du pa -- ys de la mort, 
 		u -- ne lu -- miè -- re s'est le -- vée :
-		Con -- ver -- tis -- sez -- -vous car le Roy -- au -- me des 
-		Cieux est tout pro -- che.
+		«_Con -- ver -- tis -- sez -- -vous car le Roy -- au -- me des 
+		Cieux est tout pro -- che._»
 	%\markup { \citation #"(Mt 4)"}
 	_ _ "[Ton 8]"
 	}
 	\header { opus = "K 30" }
 }
 	
-
 
 \score {
 	\relative f'  {
@@ -155,7 +150,7 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
-		Les temps sont ac -- com -- plis, voi -- ci le Rè -- gne de Dieu : 
+		Les temps sont ac -- com -- plis, voi -- "ci " le Rè -- gne de Dieu : 
 		con -- ver -- tis -- sez- -- vous, cro -- yez à la Bon -- ne Nou -- vel -- le.
 	%\markup { \citation #"(Mc 1)"}
 	_ _ _ "[Ton 6 " "ou  Per.]"
@@ -192,7 +187,7 @@
 		par l'onc -- tion. Il m'a en -- vo -- yé por -- ter aux pau -- vres 
 		la Bon -- ne Nou -- vel -- le, an -- non -- cer aux ca -- ptifs la 
 		dé -- li -- vran -- ce, aux a -- veu -- gles le re -- tour
-		à la lu -- m -- ière.
+		à la lu -- miè -- re.
 	%\markup { \citation #"(Lc 4)"}
 	_ _ "[Ton 8]"
 	}
@@ -233,7 +228,6 @@
 	\header { opus = "K 40" }
 }
 
-
 \score {
 	\relative f'  {
 		\key f \major
@@ -250,17 +244,15 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
-		Voi -- là un en -- sei -- gne -- ment pro -- cla -- mé
+		Voi -- "là " un en -- sei -- gne -- ment pro -- cla -- mé
 		a -- vec au -- to -- ri -- té ! Il com -- man -- de même 
-		aux es -- prits mau -- vais et ils lui o -- bé -- is -- sent.
+		aux es -- prits mau -- vais et ils lui o -- bé -- iss -- ent.
 	%\markup { \citation #"(Mc 1)" }
 	_ _ _ "[Ton 6 " "ou  Per.]"
 	}
 	\header { opus = "K 41" }
 }
 
-
-	
 \score {
 	\relative f'  {
 		\key f \major
@@ -288,7 +280,7 @@
 		Je fais de toi en ce jour u -- ne vil -- le for -- te, 
 		u -- ne co -- lon -- ne de fer, un rem -- part de bron -- ze. 
 		Ils ne l'em -- por -- te -- ront pas sur toi, car je suis 
-		a -- vec toi pour te dé -- li -- vrer.
+		a -- vec toi pour te dé -- liv -- rer.
 	%\markup { \citation #"(Jr 1)" }
 	_ _ "[Ton 1]"
 	}
@@ -335,12 +327,10 @@
 	\header { opus = "K 50" }
 }
 
-
-
 \score { \transpose a d {
 	\relative c''  {
 		\times 2/3 { a8[ a a] }
-		\times 2/3 { c8[\( c\) \cesure c] }
+		\times 2/3 { c8[\( c\) \cesureBasse c] }
 		\times 2/3 { c8[ d e] } d4
 		r8 d16[ d] d16[ e a, b] c16[ c c c] c8[ c] b4
 		\ifIndent
@@ -358,7 +348,6 @@
 	}}
 	\header { opus = "K 51" }
 }
-
 
 \score {
 	\relative a'  {
@@ -378,15 +367,14 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
-		Sois sans crain -- te, dé -- sor -- mais ce sont des hom -- mes 
-		que tu pren -- dras. A -- lors ils ra -- me -- nè -- rent les 
-		barques au ri -- va -- ge et, lais -- sant tout, ils le sui -- vi -- rent.
+		«_Sois sans crain -- te, dé -- sor -- mais ce sont des hom -- mes 
+		que tu pren -- dras._» A -- lors ils ra -- me -- nè -- rent les 
+		barques au ri -- va -- ge et, lais -- sant tout, ils le sui -- vir -- ent.
 	%\markup { \citation #"(Lc 5)" }
 	_ _ "[Ton 6]"
 	}
 	\header { opus = "K 52" }
 }
-
 
 
 \markup {
@@ -435,8 +423,6 @@
 	\header { opus = "K 60" }
 }
 
-
-
 \score { \transpose g f {
 	\relative c''  {  \key g \major
 		r8 g16[ g] b16[ c d c] a4\cesure
@@ -464,17 +450,15 @@
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Un lé -- preux vient à Jé -- sus, tombe à ses ge -- noux et
-		le sup -- plie_: Si tu le veux, tu peux me pu -- ri -- fier.
+		le sup -- plie_: «_Si tu le veux, tu peux me pu -- ri -- fier._»
 		Pris de pi -- tié, Jé -- sus é -- ten -- dit la main, 
-		le tou -- cha et lui dit : Je le veux, sois pu -- ri -- fié.
+		le tou -- cha et lui dit : «_Je le veux, sois pu -- ri -- fié._»
 		A l'ins -- tant sa lè -- pre le quit -- ta.
 	%\markup { \citation #"(Mc 1)" }
 	_ _ "[Ton 6]"
 	}}
 	\header { opus = "K 61" }
 }
-
-
 
 \score { 
 	\relative c''  {
@@ -521,8 +505,6 @@
       		\fill-line{
                        	\line{"7ème SEMAINE DU T.O."}}
 }
-
-
 
 \score {
 	\relative f'	{
@@ -598,10 +580,10 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
-	Pour que vous sa -- chiez que le Fils de l'homme a le pou -- voir 
+	«_Pour que vous sa -- chiez que le Fils de l'homme a le pou -- voir 
 	de par -- don -- ner les pé -- chés sur la ter -- re, je te l'or -- 
 	don  -- ne, dit Jé -- sus au pa -- ra -- ly -- sé, lè -- ve- -- toi, 
-	prends ton bran -- card et ren -- tre chez toi. L'hom -- me se 
+	prends ton bran -- card et ren -- tre chez toi._» L'hom -- me se 
 	le -- va, prit aus -- si -- tôt son bran -- card et sor -- tit 
 	de -- vant tout le mon -- de.
 	%\markup { \citation #"(Mc 2)" }
@@ -609,8 +591,6 @@
 	}
 	\header { opus = "K 71" }
 }
-
-
 
 \score {
 	\relative c''	{
@@ -717,7 +697,6 @@
 }
 
 
-
 \score { \transpose f c {
 	\relative f'	{
 		\key f \major
@@ -741,11 +720,11 @@
 		\times 2/3 { bes8[\( g\) a] }
 		g4\( g8\) r8
 		\endBar
-		\stemOff g4 a c
+		\stemOff f4 g bes
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
-		L'hom -- me bon ti -- re le bien du tré -- sor de son coeur qui est bon.
+		L'hom -- me bon " ti" -- re le bien du tré -- sor de son coeur qui est bon.
 		L'hom -- me mau -- vais ti -- re le mal de son coeur qui est mau -- vais_:
 		car c'est de l'a -- bon -- dan -- ce du coeur que par -- le la bou -- che.
 	%\markup { \citation #"(Lc 6)" }
@@ -877,10 +856,10 @@
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Al -- lez ap -- pren -- dre ce que veut di -- re cet -- te 
-		pa -- ro -- - -- le_: «_C'est la mi -- sé -- ri -- cor -- de 
+		pa -- ro - le_: «_C'est la mi -- sé -- ri -- cor -- de 
 		que je dé -- si -- re et non le sa -- cri -- fi -- ce_»_;
 		car je ne suis pas ve -- nu ap -- pe -- ler les jus -- tes,
-		mais les pé -- cheurs.
+		mais les péc -- heurs.
 	%\markup { \citation #"(Mt 9)" }
 	_ _ "[Ton 7]"
 	}
@@ -1019,7 +998,7 @@
 		\cesure
 		\ifIndent
 		f8[ e]
-		\times 2/3 { f8[\cesure g g] }
+		\times 2/3 { f8[\cesureBasse g g] }
 		a8[ f] f4
 		\cesure
 		e8[\( f\)]
@@ -1041,7 +1020,7 @@
 		un hom -- me qui jet -- te du grain dans son champ.
 		Nuit et jour, il ne sait com -- ment, d'el -- le- -- mê -- me 
 		la ter -- re pro -- duit du fruit, d'a -- bord l'her -- be, 
-		puis l'é -- pi, en -- fin du blé plein l'é -- pi.
+		puis l'é -- pi, " en" -- fin du blé plein l'é -- pi.
 	%\markup { \citation #"(Mc 4)" }
 	_ _ "[Ton 8]"
 	}
@@ -1178,7 +1157,7 @@
 	\addlyrics {\set stanza = #"(C)"
 		Ce -- lui qui veut ve -- nir à ma sui -- te, qu'il re -- nonce 
 		à lui- -- mê -- me, qu'il por -- te sa croix cha -- que jour 
-		et qu'il me sui -- ve.- _ Car ce -- lui qui veut sau -- ver sa 
+		et qu'il me sui - ve. Car ce -- lui qui veut sau -- ver sa 
 		vie la per -- dra, mais qui per -- dra sa vie à cau -- se de moi, 
 		la sau -- ve -- ra.
 	%\markup { \citation #"(Lc 9)" }
@@ -1276,8 +1255,8 @@
 		U -- ne fem -- me ay -- ant ap -- pris ce qu'on di -- sait de 
 		Jé -- sus, vint par der -- riè -- re et tou -- cha son 
 		vê -- te -- ment. Car el -- le se di -- sait_: 
-		Si je tou -- che seu -- le -- ment son vê -- te -- ment, 
-		je se -- rai sau -- vée. A l'ins -- tant, son mal fut gué -- ri.
+		«_Si je tou -- che seu -- le -- ment son vê -- te -- ment, 
+		je se -- rai sau -- vée._» A l'ins -- tant, son mal fut gué -- ri.
 	%\markup { \citation #"(Mc 5)" }
 	_ _ "[Ton 1]"
 	}
@@ -1345,8 +1324,8 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
-		Je te rends grâ -- - -- ce, Pè -- re, Sei -- gneur du ciel et 
-		de la ter- _ -- re car tu as ca -- ché les mys -- tè -- res du 
+		Je te rends grâ - ce, Pè -- re, Sei -- gneur du ciel et 
+		de la ter - re car tu as ca -- ché les mys -- tè -- res du 
 		Roy -- au -- me aux sages et aux sa -- vants, et tu les a
 		ré -- vé -- lés aux tout- -- pe -- tits.
 	%\markup { \citation #"(Mt 11)" }
@@ -1354,7 +1333,6 @@
 	}
 	\header { opus = "K 140" }
 }
-
 
 
 \score {
@@ -1382,9 +1360,9 @@
 	}
 	\addlyrics {\set stanza = #"(B) "
 		A Na -- za -- reth, Jé -- sus di -- sait_: 
-		Un pro -- phè -- te n'est mé -- pri -- sé que 
-		dans son pa -- ys, sa pa -- ren -- té et sa pro -- pre mai -- son. 
-		Et là, il ne pou -- vait ac -- com -- plir au -- cun mi -- ra -- cle.
+		«_Un pro -- phè -- te n'est mé -- pri -- sé que 
+		dans son pa -- ys, sa pa -- ren -- té et sa pro -- pre mai -- son._»
+		Et là, il ne pou -- vait ac -- com -- plir au -- cun mi -- rac -- le.
 	%\markup { \citation #"(Mc 6)" }
 	_ _ "[Ton 1]"
 	}
@@ -1420,10 +1398,10 @@
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Aux dis -- ci -- ples qu'il en -- voy -- ait de -- vant lui, 
-		Jé -- sus di -- sait_: Ne vous ré -- jou -- is -- sez pas de 
+		Jé -- sus di -- sait_: «_Ne vous ré -- jou -- is -- sez pas de 
 		ce que les es -- prits vous sont sou -- mis_; 
 		mais ré -- jou -- i -- ssez- -- vous de ce que vos 
-		noms se trou -- vent ins -- crits dans les cieux.
+		noms se trou -- vent ins -- crits dans les cieux._»
 	%\markup { \citation #"(Lc 10)" }
 	_ _ "[Ton 6]"
 	}
@@ -1504,11 +1482,11 @@
 	}
 	\addlyrics {\set stanza = #"(B) "
 		A ses a -- pô -- tres, Jé -- sus re -- com -- man -- dait_:
-		Quand vous en -- trez dans u -- ne mai -- son, 
+		«_Quand vous en -- trez dans u -- ne mai -- son, 
 		de -- meu -- rez- -- y jus -- qu'à vo -- tre dé -- part. 
 		Si l'on re -- fu -- se de vous ac -- cueil -- lir,
 		par -- tez en se -- cou -- ant la pous -- siè -- re de vos pieds_: 
-		ce se -- ra pour eux un té -- moi -- gna -- ge.
+		ce se -- ra pour eux un té -- moi -- gna -- ge._»
 	%\markup { \citation #"(Mc 6)" }
 	_ _ "[Ton 5]"
 	}
@@ -2973,7 +2951,7 @@
       		\fill-line{
                        	\line{"30ème SEMAINE DU T.O."}}
 }
-%}
+
 \score {
 	\relative d'  {
 		r8 a
