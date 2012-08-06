@@ -1,6 +1,8 @@
 \version "2.14.00"
 \include "DefinitionsAntiennesCarnet.ly"
 
+
+
 \markup {
 	\fill-line{\line{"NATIVITE DU SEIGNEUR"}}}
 \markup {}
@@ -36,6 +38,7 @@
 \markup {}
 \markup {}
 \markup {}
+
 \score {\relative f'  { 
 		\times 2/3 { g8[ d f] }
 		g16[ a g g]
@@ -56,7 +59,7 @@
 		\endBar 
 	}
 	\addlyrics {
-	Quand le sol -- eil se lè -- ve -- ra dans le ciel, vous ver -- rez le Roi -- - des rois, en -- gen -- dré du Pè -- re av -- ant les siè -- \skip 1 \skip 1 cles, 
+	Quand le sol -- eil se lè -- ve -- ra dans le ciel, vous ver -- rez le Roi - _des rois, en -- gen -- dré du Pè -- re av -- ant les siè - - cles, 
 	tel un ép -- oux pa -- rais -- sant hors de sa cham -- bre nup -- tia -- le.  	
 	 _ _ "[Ton 8]"
 	}
@@ -66,6 +69,7 @@
 	} 
 	
 % \pageBreak
+
 
 
 \score {\relative f'  { 
@@ -98,7 +102,6 @@
 \markup {}
 \markup {}
 
-
 \score {\relative f'  { 
 	\key f \major
 		f8[ g] \times 2/3 { a4\( g8\) }
@@ -128,8 +131,8 @@
 	\addlyrics {
 		Auj -- "ourd'" -- hui le Christ est né, auj -- ourd' -- hui le Sau -- veur est ap -- pa -- "ru ;" 
 		auj -- ourd' hui sur la ter -- re les an -- ges chan -- tent, les arc -- han -- ges se ré -- jou -- iss -- ent. 
-		Auj -- ourd' -- hui les saints e -- xu- _ "ltent en" chan -- "tant :" 
-		Gloire à Dieu au plus haut -- - des cieux. Al -- le -- \skip 1 lu -- "ia !"   
+		Auj -- ourd' -- hui les saints e -- xul -- tent en chan -- "tant :" 
+		Gloire à Dieu au plus haut - _des cieux. Al -- le - lu -- "ia !"
 %	  (Cf. Lc 2)
 	 _ _ "[Ton 1]"
 	}
@@ -161,14 +164,13 @@
 		\endBar 
 	}
 	\addlyrics {
-		Le Ver -- be "s'est" fait chair, et il a de -- meu -- ré par -- mi nous,  nous av -- ons con -- tem -- plé sa gloi -- - -- - -- "re ;" Al -- - -- le -- - -- lu -- ia, al -- - -- le -- lu -- "ia !"  _ _
+		Le Ver -- be "s'est" fait chair, et il a de -- meu -- ré par -- mi nous,  nous av -- ons con -- tem -- plé sa gloi - - "re ;" Al - le - lu -- ia, al - le -- lu -- "ia !"  _ _
 %(Jn 1)
 	 "[Ton 8]"
 	}
 	\header {
 		opus = "G 120" }
 	} 
-
 
 \markup {
 	\fill-line{\line{"DEUXIEME DIMANCHE DE NOEL"}}}
@@ -201,7 +203,6 @@
 		opus = "G 200" }
 	} 
 
-
 \markup {
 	\fill-line{\line{"LA SAINTE FAMILLE"}}}
 \score {\relative f'  { 
@@ -221,7 +222,7 @@
 		\endBar 
 	}
 	\addlyrics {
-		A Bet -- hlé -- em, les ber -- gers vin -- rent en hâ -- te, ils tro -- uvè -- rent Mar -- ie et Jo- -- _ seph, et le nou -- veau- -- né, le Sau -- veur, cou -- ché dans un -- e crè- -- _ che.
+		A Bet -- hlé -- em, les ber -- gers vin -- rent en hâ -- te, ils tro -- uvè -- rent Mar -- ie et Jo - seph, et le nou -- veau- -- né, le Sau -- veur, cou -- ché dans un -- e crè - che.
 %		 (Lc 2)
 	 _ _ "[Ton 7]"
 	}
@@ -254,7 +255,7 @@
 	piece = "Magnificat"	
 	opus = "G 301" }
 	} 
-
+	
 \markup {
 	\fill-line{\line{ "SAINTE MARIE, MERE DE DIEU (1er janvier)"}}}
 	\score {\transpose c f, {
@@ -273,13 +274,14 @@
 		\endBar 
 	}
 	\addlyrics {
-		Voi -- ci que Mar -- ie est de -- ven -- ue le Temple et l'Ar -- che sain -- - -- te, le ciel nou -- veau où Dieu a res -- plen -- di.
-	_ _ _ "[Ton 1 " "ou Per.]"
+		Voi -- ci que Mar -- ie est de -- ven -- ue le Temple et l'Ar -- che sain - te, le ciel nou -- veau où Dieu a res -- plen -- di.
+	_ _ _ "[Ton 1 " " ou Per.]"
 	 	}}
 	\header {
 		piece = "Benedictus"
 		opus = "G 400" }
-	} 
+	}
+		
 \score {\relative f'  { 
 		\times 2/3 { f8[ f d] }
 		d8[\( c\)] f8[ f]
@@ -298,15 +300,14 @@
 		\endBar 
 	}
 	\addlyrics {
-		Par un éch -- an -- ge ad -- mi -- ra -- - -- - -- ble, le Cré -- at -- eur a pris chair de Mar -- ie, 
-		et il nous fait par -- ti -- cip -- ants de sa di -- vi -- ni -- té. Al -- - -- le -- lu  -- - -- ia! 
+		Par un éch -- an -- ge ad -- mi -- ra - - ble, le Cré -- at -- eur a pris chair de Mar -- ie, 
+		et il nous fait par -- ti -- cip -- ants de sa di -- vi -- ni -- té. Al - le -- lu - ia! 
 	 _ _ "[Ton 6]"
 	}
 	\header {
 		piece = "Magnificat"
 		opus = "G 401" }
 	} 
-
 
 \markup {
 	\fill-line{\line{ "EPIPHANIE DU SEIGNEUR"}}}
@@ -328,14 +329,15 @@
 		\endBar 
 	}
 	\addlyrics {
-		Lè -- ve- -- toi-, -- _ -- Jé -- ru -- sa -- "lem !" Sois il -- lu -- mi -- "née !" Car voi -- ci ta lu -- miè- --  _ re, et sur toi se lè -- ve la glo -- ire du- -- _ Seig -- neur.
+		Lè -- ve- -- toi -, _Jé -- ru -- sa -- "lem !" Sois il -- lu -- mi -- "née !" Car voi -- ci ta lu -- miè - re, et sur toi se lè -- ve la glo -- ire du - _Seig -- neur.
 % (Is 60)
 	 _ _ "[Ton 7]"
 	}
 	\header {
 		piece = "Benedictus"
 		opus = "G 500" }
-	} 
+	}
+		
 \score {\relative f'  { 
 		\times 2/3 { r8_\( f[ g]\) }
 		\times 2/3 { a8[ g a] }
@@ -354,7 +356,7 @@
 		\endBar 
 	}
 	\addlyrics {
-		A la vue de l'é -- toi -- le, les ma -- ges fur -- ent trans- -- _ -- por -- tés de "joie ;"  ay -- ant tro -- uvé l'en -- fant a -- vec Ma -- rie sa mè -- re, se pros -- ter -- nant, ils l'a -- do -- rè -- rent. 
+		A la vue de l'é -- toi -- le, les ma -- ges fur -- ent trans - por -- tés de "joie ;"  ay -- ant tro -- uvé l'en -- fant a -- vec Ma -- rie sa mè -- re, se pros -- ter -- nant, ils l'a -- do -- rè -- rent. 
 %		(Mt 2)	
 	 _ _ "[Ton 8]"
 	}
@@ -384,17 +386,17 @@
 		\endBar 
 	}
 	\addlyrics {
-		Jean pro -- cla -- ma dans le dé -- "sert :" Pour moi, je vous ba -- pti -- se dans l'eau, mais il vient ce -- lui qui est plus puis -- sant que "moi ;" lui vous bap -- ti -- se -- ra dans l'Es -- prit- -- Saint et le feu.
+		Jean pro -- cla -- ma dans le dé -- "sert :" «_Pour moi, je vous ba -- pti -- se dans l'eau, mais il vient ce -- lui qui est plus puis -- sant que "moi ;" lui vous bap -- ti -- se -- ra dans l'Es -- prit- -- Saint et le feu._»
 % (Mt 3)
 	 _ _ "[Ton 1]"
 	}
 	\header {
 		piece = "Benedictus"
 		opus = "G 600" }
-	} 
-
+	}
 	
-%{ nouvelle mais pas trop belle
+	
+%nouvelle mais pas trop belle
 	\score {\relative f'  { 
 		\times 2/3 { r8\( c'[ c]\) }
 		\times 2/3 { c8[ d e] } e8.[ e16]
@@ -416,16 +418,16 @@
 		\endBar 
 	}
 	\addlyrics {
-		Ba -- pti -- sé au Jour -- dain, Jé -- sus sor -- tit des eaux. Al -- ors les cieux "s'ou" -- vri -- rent et l'Es -- prit des -- cen -- dit sur lui com -- me une co -- lom -- be. Un -- e voix ve -- nue des cieux di -- "sait :" Cel -- ui -- -ci est mon Fils, mon bien- -- ai -- mé. A -- lle -- lu -- "ia !"  
+		Ba -- pti -- sé au Jour -- dain, Jé -- sus sor -- tit des eaux. Al -- ors les cieux "s'ou" -- vri -- rent et l'Es -- prit des -- cen -- dit sur lui com -- me une co -- lom -- be. Un -- e voix ve -- nue des cieux di -- "sait :" «_Cel -- ui -- -ci est mon Fils, mon bien- -- ai -- mé._» A -- lle -- lu -- "ia !"  
 % (Mt 3)
 	 _ _ "[Ton 3]"
 	}
 	\header {
 		piece = "Magnificat"
 		opus = "G 601" }
-	} 
+	}
+	
 
-%}
 
 \score {\relative f'  { 
 		r8 f f[ d] \times 2/3 { f4\( e8\) }
@@ -446,7 +448,5 @@
 	\header {
 		piece = "Magnificat"
 		opus = "G 601" }
-	} 
-	
-
+	}
 
