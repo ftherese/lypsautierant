@@ -329,7 +329,7 @@
 		\endBar 
 	}
 	\addlyrics {
-		Lè -- ve- -- toi -, _Jé -- ru -- sa -- "lem !" Sois il -- lu -- mi -- "née !" Car voi -- ci ta lu -- miè - re, et sur toi se lè -- ve la glo -- ire du - _Seig -- neur.
+		Lè -- ve- -- toi -, _Jé -- ru -- sa -- "lem !" Sois " il" -- lu -- mi -- "née !" Car voi -- ci ta lu -- miè - re, et sur toi se lè -- ve la glo -- ire du - _Seig -- neur.
 % (Is 60)
 	 _ _ "[Ton 7]"
 	}
@@ -337,7 +337,7 @@
 		piece = "Benedictus"
 		opus = "G 500" }
 	}
-		
+
 \score {\relative f'  { 
 		\times 2/3 { r8_\( f[ g]\) }
 		\times 2/3 { a8[ g a] }
@@ -356,7 +356,9 @@
 		\endBar 
 	}
 	\addlyrics {
-		A la vue de l'é -- toi -- le, les ma -- ges fur -- ent trans - por -- tés de "joie ;"  ay -- ant tro -- uvé l'en -- fant a -- vec Ma -- rie sa mè -- re, se pros -- ter -- nant, ils l'a -- do -- rè -- rent. 
+		A la vue de l'é -- toi -- le, les ma -- ges fur -- ent trans - por -- tés de "joie ;"  
+		ay -- ant tro -- uvé l'en -- fant a -- vec Ma -- rie sa mè -- re, 
+		se pros -- ter -- nant, ils l'a -- do -- rè -- rent.
 %		(Mt 2)	
 	 _ _ "[Ton 8]"
 	}
@@ -386,7 +388,9 @@
 		\endBar 
 	}
 	\addlyrics {
-		Jean pro -- cla -- ma dans le dé -- "sert :" «_Pour moi, je vous ba -- pti -- se dans l'eau, mais il vient ce -- lui qui est plus puis -- sant que "moi ;" lui vous bap -- ti -- se -- ra dans l'Es -- prit- -- Saint et le feu._»
+		Jean pro -- cla -- ma dans le dé -- "sert :" «_Pour moi, je vous ba -- pti -- se dans l'eau, 
+		mais il vient " ce" -- lui qui est plus puis -- sant que "moi ;" 
+		lui vous bap -- ti -- se -- ra dans l'Es -- prit- -- Saint et le feu._»
 % (Mt 3)
 	 _ _ "[Ton 1]"
 	}
@@ -394,7 +398,7 @@
 		piece = "Benedictus"
 		opus = "G 600" }
 	}
-	
+
 	
 %nouvelle mais pas trop belle
 	\score {\relative f'  { 
