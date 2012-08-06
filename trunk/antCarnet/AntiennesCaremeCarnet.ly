@@ -64,14 +64,17 @@
 		\endBar 
 	}
 	\addlyrics {
-		Il est éc -- "rit :" «_L'hom -- me ne vit pas seu -- le -- ment de pain, mais de tou -- te pa -- ro -- le "sort" -- ant de la bou -- che de Dieu_».  Il est enc -- ore é -- "crit :" «_Tu ne met -- tras pas à  "l'é" -- preu -- ve le Seig -- neur ton Dieu. C'est lui que tu a -- do - re -- ras, et lui seul que tu ser -- vir -- as._»  
+		Il est éc -- "rit :" «_L'hom -- me ne vit pas seu -- le -- ment de pain, 
+		mais de tou -- te pa -- ro -- le "sort" -- ant de la bou -- che de Dieu_».  
+		Il est enc -- ore é -- "crit :" «_Tu ne met -- tras pas à  "l'é" -- preu -- ve le Seig -- neur ton Dieu. 
+		C'est lui que tu " a" -- do - re -- ras, et lui seul que tu ser -- vir -- as._»  
 % (Mt 4)
 	 _ _ "[Ton 8]"
 	}
 	\header {
 		opus = "H 100" }
 	} 
-		
+	
 \markup {
 	\fill-line{\line{ "DEUXIEME DIMANCHE DE CARÊME"}}}
 \score {\relative f'  { 
@@ -164,7 +167,7 @@
 	\header {
 		opus = "H 301" }
 	}
-	
+
 \score {\relative f'  { \key f \major
 	r8 d d8[ f] \times 2/3 { e8[ d c]}
 	f8[\( g\)] a4  \cesure
@@ -190,7 +193,6 @@
 		opus = "H 302" }
 	}
 
-	
 \markup {
 	\fill-line{\line{"QUATRIEME DIMANCHE DE CARÊME"}}}
 \score {\relative f'  { 
@@ -364,7 +366,7 @@
 	\header {
 		opus = "H 502" }
 	} 
-%\markup {2Â° mode transposé au la }
+%\markup {2è mode transposé au la }
 
 \markup {
 	\fill-line{\line{"DIMANCHE DES RAMEAUX"}}}
@@ -497,7 +499,7 @@
 	}
 	\addlyrics { 
 	J'ai dé -- si -- ré ar -- dem -- ment man -- ger cet -- te pâque 
-	av -- ec vous a -- vant - _de souf -- "frir ;"
+	" av" -- "ec " vous a -- vant - _de souf -- "frir ;"
 	car je vous le dis, jam -- ais plus - _je ne la man -- ge -- rai 
 	jus -- "qu'à " ce "qu'el" -- le soit ac -- com -- plie 
 	dans le Roy -- au -- me de - Dieu.
@@ -508,7 +510,7 @@
 	\header {
 		opus = "H710" }
 	} 
-	
+
 \markup {
 	\fill-line{\line{"VENDREDI SAINT"}}}
 	
@@ -580,5 +582,5 @@
 	\header {
 		opus = "H 910" }
 	} 
-	
+
 
