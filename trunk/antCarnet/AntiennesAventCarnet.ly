@@ -3,6 +3,7 @@
 
 % manque les références scripturaires
 
+
 \markup {
       		\fill-line{
                        	\line{"PREMIER DIMANCHE DE L'AVENT"}}
@@ -95,8 +96,8 @@
 	}
 
 	\addlyrics {
-		Un -- e voix pro -- cla -- "me :" pré -- pa -- rez dans le dés -- ert le che -- min du Seig -- neur, 
-		et ren -- dez droits les sen -- tiers de not -- re Dieu. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
+		Un -- e voix pro -- cla -- "me :" «_Pré -- pa -- rez dans le dés -- ert le che -- min du Seig -- neur, 
+		et ren -- dez droits les sen -- tiers de not -- re Dieu._» Al -- le -- \skip 1 lu -- \skip 1 "ia !"
 		_ _  "[Ton 1]"
 %		\markup { \citation #"[Ton 1] (Is 40)"} en rajoutant 2 _ _ au dessus
 		
@@ -107,6 +108,7 @@
 		opus = "F 200"
 	}
 } 
+
 
 
 
@@ -189,8 +191,8 @@
 		e16[\( c\) d d]
 		\times 2/3 { f4\(\cesure f8\) }
 		\times 2/3 { f8[ f e] }
-		\times 2/3 { c8[\cesure e c] }
-		\times 2/3 { d8[\cesure d d] } f4 \cesure
+		\times 2/3 { c8[\cesureTresBasse e c] }
+		\times 2/3 { d8[\cesureTresBasse d d] } f4 \cesure
 		g16[ f e c]
 		c8[ d] f8[ g] f8[ d] d4
 		\endBar
@@ -242,7 +244,7 @@
 	}
 
 	\addlyrics {
-		Ô- _ Mar -- ie, tu es le Pa -- ra -- dis nou -- veau et la ter -- re pro -- mi -- "se :" en toi le Sol -- eil a é -- ta -- bli sa de -- meu -- re. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
+		Ô - _Mar -- ie, tu es le Pa -- ra -- dis nou -- veau et la ter -- re pro -- mi -- "se :" en toi le Sol -- eil a é -- ta -- bli sa de -- meu -- re. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
 		_ _ "[Ton 1]"
 	}
 
@@ -251,4 +253,5 @@
 		opus = "F 400"
 	}
 } 
+
 
