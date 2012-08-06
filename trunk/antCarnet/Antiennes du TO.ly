@@ -2,6 +2,7 @@
 \include "DefinitionsAntiennesCarnet.ly"
 
 
+
 \markup {
       		\fill-line{
                        	\line{"2ème SEMAINE DU T.O."}}
@@ -1679,8 +1680,8 @@
 	}
 	\addlyrics {\set stanza = #"(B) "
 		A la vue du si -- gne que Jé -- sus a -- vait ac -- com -- pli, 
-		les gens di -- saient_: C'est vrai -- ment lui le grand 
-		pro -- phè -- te, ce -- lui qui doit ve -- nir dans le mon -- de.
+		les gens di -- saient_: «_C'est vrai -- ment lui le grand 
+		pro -- phè -- te, " ce" -- lui qui doit ve -- nir dans le mon -- de._»
 	%\markup { \citation #"(Jn 6)" }
 	_ _ "[Ton 5]"
 	}
@@ -1716,7 +1717,7 @@
 	}
 	\header { opus = "K 172" }
 }
-	
+
 \markup {
       		\fill-line{
                        	\line{"18ème SEMAINE DU T.O."}}
@@ -1731,7 +1732,7 @@
 		\times 2/3 { c8[ c c] }
 		c8[ bes] a4
 		\cesure
-		d,8[\cesure f] g8[ g] a4
+		d,8[\cesureBasse f] g8[ g] a4
 		\cesure
 		\times 2/3 { g8[ a f] }
 		\ifIndent
@@ -1857,7 +1858,6 @@
 }
 
 
-
 \score {
 	\relative a'  {
 		e8[ e] e8[ d] f8[ e] e4
@@ -1888,13 +1888,12 @@
 		en -- voy -- é ne l'at -- ti -- re_; et moi,
 		je le res -- sus -- ci -- te -- rai au der -- nier jour.
 		A -- men, je vous le dis_: ce -- lui qui croit a la 
-		vie é -- ter -- nel- _ -- le.
+		vie é -- ter -- nel - le.
 	%\markup { \citation #"(Jn 6)" }
 	_ _ "[Ton 3]"
 	}
 	\header { opus = "K 191" }
 }
-
 
 \score {
 	\relative a'  {
@@ -1921,17 +1920,14 @@
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Heu -- reux les ser -- vi -- teurs que le maî -- tre, 
-		à sa ve -- nue, trou -- ve -- ra en train de veil -- ler_!
-		Il se cein -- dra, les fe -- ra mettre à ta -- - -- ble, 
+		à sa ve -- nue, trou -- ve -- ra en train de veil -- ler_! 
+		Il se cein -- dra, les fe -- ra mettre à ta - ble, 
 		et pas -- se -- ra les ser -- vir.
 	%\markup { \citation #"(Lc 12)" }
 	_ _ "[Ton 8]"
 	}
 	\header { opus = "K 192" }
 }
-
-
-
 
 \markup {
       		\fill-line{
@@ -1958,8 +1954,8 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
-		Ô fem -- me, ré -- pon -- dit Jé -- sus, grande est ta foi_!
-		Qu'il t'ad -- vien -- ne se -- lon ton dé -- sir_! 
+		«_Ô fem -- me, ré -- pon -- dit Jé -- sus, grande est ta foi_!
+		Qu'il t'ad -- vien -- ne se -- lon ton dé -- sir_!_» 
 		Dès cette heu -- re -- -là sa fil -- le fut gué -- rie.
 	%\markup { \citation #"(Mt 15)" }
 	_ _ "[Ton 4]"
@@ -2062,10 +2058,10 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
-		Pour vous, qui suis -- -je_? Si -- mon -- -Pier -- re 
-		ré -- pon -- dit_: Tu es le Christ, le Fils du Dieu vi -- vant_! 
-		Jé -- sus lui dé -- cla -- ra_: Tu es Pier -- re et sur ce 
-		roc je bâ -- ti -- rai mon E -- gli- -- _ se.
+		«_Pour vous, qui suis -- -je_?_» Si -- mon -- -Pier -- re 
+		ré -- pon -- dit_: «_Tu es le Christ, le Fils du Dieu vi -- vant_!_» 
+		Jé -- sus lui dé -- cla -- ra_: «_Tu es Pier -- re et sur ce 
+		roc je bâ -- ti -- rai mon E -- gli - se._»
 	%\markup { \citation #"(Mt 16)" }
 	_ _ "[Ton 1]"
 	}
@@ -2170,7 +2166,7 @@
 		Ce -- lui qui veut sau -- ver sa vie la per -- dra,
 		mais qui per -- dra sa vie à cau -- se de moi la trou -- ve -- ra. 
 		Que sert à l'hom -- me de ga -- gner le monde en -- tier s'il 
-		vient à per -- dre son â -- me.
+		vient à per -- dre son â - me.
 	%\markup { \citation #"(Mt 16)" }
 	_ _ _ "[Ton 1]"
 	} }
@@ -2438,7 +2434,7 @@
 \score { \transpose c f, {
 	\relative c''  {
 		c16[ c b a]
-		\times 2/3 { c8[\( c\)\cesure c] }
+		\times 2/3 { c8[\( c\)\cesureBasse c] }
 		\times 2/3 { c8[\( c\) c] }
 		d8[ e] d8[\( d\)]\cesure 
 		\times 2/3 { c8[ b a] }
@@ -2457,7 +2453,7 @@
 	\addlyrics {\set stanza = #"(A) "
 		Vers la on -- zième heu -- re, le maî -- tre sor -- tit en -- co -- re, 
 		en trou -- va d'au -- tres qui se te -- naient là et 
-		leur dit_: Al -- lez, vous aus -- si, à ma vi -- gne.
+		leur dit_: «_Al -- lez, vous aus -- si, à ma vig -- ne._»
 	%\markup { \citation #"(Mt 20)" }
 	_ _ "[Ton 2]"
 	}}
@@ -2488,8 +2484,8 @@
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Pre -- nant un en -- fant, il le pla -- ça au mi -- lieu d'eux, 
-		l'em -- bras -- sa et leur dit_: Qui ac -- cueille en mon nom
-		un de ces en -- fants, c'est moi qu'il ac -- cueil -- le.
+		l'em -- bras -- sa et leur dit_: «_Qui ac -- cueille en mon nom
+		un de ces en -- fants, c'est moi qu'il ac -- cueil -- le._»
 	%\markup { \citation #"(Mc 9)" }
 	_ _ "[Ton 5]"
 	}}
@@ -2605,8 +2601,6 @@
 	}
 	\header { opus = "K 261" }
 }
-
-
 
 \score {
 	\relative a'  {
@@ -2983,9 +2977,9 @@
 	\addlyrics {\set stanza = #"(A) "
 		É -- coute I -- sra -- ël_! Le Sei -- gneur no -- tre Dieu est 
 		l'u -- ni -- que Sei -- gneur. Tu ai -- me -- ras le Sei -- gneur
-		ton Dieu de tout ton coeur, de tou -- te ton â- _ -- me, 
+		ton Dieu de tout ton coeur, de tou -- te ton â - me, 
 		de tout ton es -- prit et de tou -- te ta for -- ce, 
-		et ton pro -- chain com -- me toi -- -mê- _ -- me.
+		et ton pro -- chain com -- me toi -- -mê - me.
 	%\markup { \citation #"(Mc 12)" }
 	_ _ "[Ton 2]"
 	}
@@ -3075,7 +3069,7 @@
 		\times 2/3 { a8[ g g] } g4
 		\times 2/3 { r8_\( c[ d]\) }
 		\times 2/3 { c8[ bes c] }
-		\times 2/3 { a8[\( a\)\cesureBasse g] }
+		\times 2/3 { a8[\( a\)\cesureTresBasse g] }
 		\ifIndent
 		a4
 		\times 2/3 { r8_\( a[ bes]\) }
@@ -3091,15 +3085,14 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
-		Vous n'a -- vez qu'un seul Pè -- re, ce -- lui qui est dans les cieux.
+		Vous n'a -- vez qu'un seul Pè -- re, " ce" -- lui qui est dans les cieux.
 		Vous n'a -- vez qu'un seul Maî -- tre, le Christ, et vous ê -- tes tous frè -- res. 
-		Le plus grand par -- mi vous se -- ra vo -- tre ser -- vi -- teur.
+		Le plus grand par -- mi vous " se" -- ra vo -- tre ser -- vit -- eur.
 	%\markup { \citation #"(Mt 23)" }
 	_ _ "[Ton 2]"
 	}}
 	\header { opus = "K 310" }
 }
-
 
 
 \score {
@@ -3133,7 +3126,7 @@
 		L'ai -- mer de tout son coeur, de tou -- te son 
 		in -- tel -- li -- gen -- ce et de tou -- te sa for -- ce,
 		ai -- mer son pro -- chain com -- me soi -- -mê -- me,
-		vaut mieux que tous les sa -- cri -- fi -- ces.
+		vaut mieux que tous les sa -- cri -- fic -- es.
 	%\markup { \citation #"(Mc 12)" }
 	_ _ "[Ton 2]"
 	}
@@ -3268,7 +3261,7 @@
 	\addlyrics {\set stanza = #"(C) "
 		Ceux qui ont é -- té ju -- gés di -- gnes d'a -- voir part
 		au monde à ve -- nir sont fils de Dieu, é -- tant fils de
-		la ré -- sur -- rec -- tion. Il n'est pas le Dieu des morts, mais des vi -- vants.
+		la ré -- sur -- rec -- tion. Il n'est pas le Dieu des morts, mais des viv -- ants.
 	%\markup { \citation #"(Lc 20)" }
 	_ _ _ "[Ton 1 " "ou  Per.]"
 	}
@@ -3413,7 +3406,7 @@
 	\addlyrics {\set stanza = #"(A) "
 		Quand le Fils de l'hom -- me vien -- dra dans sa gloi -- re, 
 		et tous les an -- ges a -- vec lui, a -- lors il
-		s'as -- sié -- ra sur son trô -- ne de gloi -- - -- re.
+		s'as -- sié -- ra sur son trô -- ne de gloi - re.
 	%\markup { \citation #"(Mt 25)" }
 	_ _ _ "[Ton 1 " "ou  Per.]"
 	} }
@@ -3432,7 +3425,7 @@
 		\cesure
 		\times 2/3 { e8[ e f] }
 		\times 2/3 { g8[ g a] }
-		\times 2/3 { e8[\( e\)\cesureTresBasse e] }
+		\times 2/3 { e8[\( e\)\cesure e] }
 		\ifIndent
 		a16[\( a\) b a]
 		g8[\( g\)]
@@ -3453,7 +3446,7 @@
 		Je suis né, je suis ve -- nu dans le mon -- de_:
 		pour ren -- dre té -- moi -- gna -- ge à la vé -- ri -- té. 
 		Tout hom -- me qui ap -- par -- tient à la vé -- ri -- té
-		é -- cou -- te ma voix.
+		" é" -- cou -- te ma voix.
 	%\markup { \citation #"(Jn 18)" }
 	_ _ _ "[Ton 1 " "ou  Per.]"
 	} }
