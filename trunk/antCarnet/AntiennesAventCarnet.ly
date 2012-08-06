@@ -31,7 +31,7 @@
 	}
 
 	\addlyrics {
-		Voi -- ci ve -- nir des loin -- tains le Nom du Seig -- neur, et sa cla -- rté il -- lu -- mi -- ne la ter -- re. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
+		Voi -- "ci " ve -- nir des loin -- tains le Nom du Seig -- neur, et sa cla -- rté " il" -- lu -- mi -- ne la ter -- re. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
 	 _ _ "[Ton 1]" 
 	}
 	\header {
@@ -131,7 +131,7 @@
 	}
 
 	\addlyrics {
-		Tou -- te val -- lée se -- ra com -- blée et tou -- te col -- line a -- bais -- "ée ;" 
+		Tou -- te val -- lée se -- ra com -- blée et tou -- te col -- line a -- bai -- "ssée ;" 
 		al -- ors la gloi -- re du Sei -- gneur ap -- pa -- raî -- tra, 
 		et tou -- te chair ver -- ra le sa -- lut de Dieu.
 		_ _ "[Ton 2]"
