@@ -1,6 +1,8 @@
 \version "2.14.00"
 \include "DefinitionsAntiennesCarnet.ly"
 
+
+
 \markup {
 	\fill-line{\line{"MERCREDI DES CENDRES"}}}
 
@@ -22,17 +24,16 @@
 		\endBar 
 	}
 	\addlyrics {
-		Re -- ve -- nez au Seig -- neur de tout vo -- tre cœur, car il est ten -- dre- -- _ sse et mi -- sé -- ri -- cor -- - -- - -- de, lent à la co -- lè-- re et plein "d'a" -- "mour-. " _  
+		Re -- ve -- nez au Seig -- neur de tout vo -- tre cœur, car il est ten -- dre - sse et mi -- sé -- ri -- cor - - de, lent à  la co -- lè -- re et plein d'a -- mour -. _  
 %   (Jl 2)
 	 _ _ "[Ton 8]"
 	}
 	\header {
 		opus = "H 090" }
-	} 
-
-
+	}
+	
 \markup {
-	\fill-line{\line{"PREMIER DIMANCHE DE CAREME"}}}
+	\fill-line{\line{"PREMIER DIMANCHE DE CARÊME"}}}
 
 
 \score {\relative f'  { 
@@ -63,17 +64,16 @@
 		\endBar 
 	}
 	\addlyrics {
-		Il est éc -- "rit :" L'hom -- me ne vit pas seu -- le -- ment de pain, mais de tou -- te pa -- ro -- le "sort" -- ant de la bou -- che de Dieu.  Il est enc -- ore é -- "crit :" Tu ne met -- tras pas à "l'é" -- preu -- ve le Seig -- neur ton Dieu. C'est lui que tu a -- do- -- _ re -- ras, et lui seul que tu ser -- vir -- as.  
+		Il est éc -- "rit :" «_L'hom -- me ne vit pas seu -- le -- ment de pain, mais de tou -- te pa -- ro -- le "sort" -- ant de la bou -- che de Dieu_».  Il est enc -- ore é -- "crit :" «_Tu ne met -- tras pas à  "l'é" -- preu -- ve le Seig -- neur ton Dieu. C'est lui que tu a -- do - re -- ras, et lui seul que tu ser -- vir -- as._»  
 % (Mt 4)
 	 _ _ "[Ton 8]"
 	}
 	\header {
 		opus = "H 100" }
 	} 
-	
-
+		
 \markup {
-	\fill-line{\line{ "DEUXIEME DIMANCHE DE CAREME"}}}
+	\fill-line{\line{ "DEUXIEME DIMANCHE DE CARÊME"}}}
 \score {\relative f'  { 
 		\times 2/3 { d4\(\cesure e8\) }
 		\times 2/3 { f8[\( g\) e] }
@@ -96,8 +96,8 @@
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(A.B.C) "
-		Dieu, per -- son -- ne ne l'a ja -- mais vu, mais le Fils- _ qui est dans le sein du Pè -- re, 
-		lui, nous "l'a" ré -- vé -- "lé ;" et nous a -- vons vu la gloi -- _ _ re qu'il tient de son Pè -- re, 
+		Dieu, per -- son -- ne ne l'a ja -- mais vu, mais le Fils - _qui est dans le sein du Pè -- re, 
+		lui, nous "l'a" ré -- vé -- "lé ;" et nous a -- vons vu la gloi - - re qu'il tient de son Pè -- re, 
 		com -- me Fils u -- ni -- que, plein de grâ -- ce et de vé -- ri -- té.
 % (Jn 1)
 	_ _ _ "[Ton 1 " "ou  Per.]"
@@ -105,10 +105,9 @@
 	\header {
 		opus = "H 200" }
 	} 
-	
-	
+		
 \markup {
-\fill-line{\line{"TROISIEME DIMANCHE DE CAREME"}}}
+\fill-line{\line{"TROISIEME DIMANCHE DE CARÊME"}}}
 
 \score {\relative f'  { 
 		\times 2/3 { g8[ d' d] } d8[ e]
@@ -132,17 +131,15 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
-		Si tu sa -- vais le don- _ de Dieu et quel est cel -- ui qui te de -- mande à boi -- re,
+		Si tu sa -- vais le don - _de Dieu et quel est cel -- ui qui te de -- mande à  boi -- re,
 		c'est toi qui l'en au -- rais pri -- é, et il "t'au" -- rait don -- né l'eau vi -- ve.
-		L'eau qu'il don- -- _ ne -- ra, en toi se -- ra sour -- ce jai -- lli -- ssant en vie é -- ter -- nel- _ le.
+		L'eau qu'il don - ne -- ra, en toi se -- ra sour -- ce jai -- lli -- ssant en vie é -- ter -- nel - le.
 % (Jn 4)
 	 _ _ "[Ton 7]"
 	}
 	\header {
 		opus = "H 300" }
 	} 
-		 
-	
 	
 \score {\relative f'  { 
 		\times 2/3 { r8\( c'[ c]\) } d8[ c] a4
@@ -158,15 +155,15 @@
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(B) "
-		N'est- -- il pas é -- "crit :" Ma mai -- son se -- ra ap -- pe -- lée mai -- son de pri -- è -- re pour tou -- tes les na -- "tions ?"
-		Mais vous, vous en fai -- tes un re -- pè -- re de bri -- gands.
+		N'est- -- il pas é -- "crit :" «_Ma mai -- son se -- ra ap -- pe -- lée mai -- son de pri -- è -- re pour tou -- tes les na -- "tions ? »"
+		Mais vous, vous en fai -- tes un re -- pè -- re de brig -- ands.
 		_ _ "[Ton 5]"
 % (Mc 11)
-	
+
 	}
 	\header {
 		opus = "H 301" }
-	} 
+	}
 	
 \score {\relative f'  { \key f \major
 	r8 d d8[ f] \times 2/3 { e8[ d c]}
@@ -184,18 +181,18 @@
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(C) "
-	Je suis le Dieu de vos pè- -- _ "res ;" quand j'ai vu la dé -- tre -- sse de mon peu -- ple, 
-	quand j'ai en -- ten -- du sa plain- -- _ te, je suis al -- lé le dé -- li -- "vrer. "
+	Je suis le Dieu de vos pè - "res ;" quand j'ai vu la dé -- tre -- sse de mon peu -- ple, 
+	quand j'ai en -- ten -- du sa plain - te, je suis al -- lé le dé -- li -- vrer.
 	 _ _  _ "[Ton 1]"		
 % (Ex 3)
 	}
 	\header {
 		opus = "H 302" }
-	} 
+	}
 
 	
 \markup {
-	\fill-line{\line{"QUATRIEME DIMANCHE DE CAREME"}}}
+	\fill-line{\line{"QUATRIEME DIMANCHE DE CARÊME"}}}
 \score {\relative f'  { 
 	\times 2/3 { d8[ a c]}
 	\times 2/3 { d8[ d e]}
@@ -219,23 +216,23 @@
 	}
 	\addlyrics { \set stanza = #"(A) "
 	Je suis ve -- nu en ce mon -- de pour que les a -- veu -- gles voient, dit le Sei -- gneur.
-	Je suis la Lu -- miè -- re du mon- -- _ de.
-	Qui me suit ne mar -- che -- ra pas dans les té -- nè- -- _ bres 
-	mais il au -- ra la lu -- miè -- re de- _ la Vie.
+	Je suis la Lu -- miè -- re du mon - de.
+	Qui me suit ne mar -- che -- ra pas dans les té -- nè - bres 
+	mais il au -- ra la lu -- miè -- re de - _la Vie.
 	 _ _ "[Ton 2]"		
 % (Jn 8;9))
 
 	}
 	\header {
 		opus = "H 400" }
-	} 
-	
+	}
+		
 \score {\relative f'  { 
 	g8[ g] c8[ b] c8[ a]
 	\times 2/3 { g4\( g8\) } \cesure
 	\times 2/3 { g8[ a c] } 
 	c8[ d] e8[ c]
-	\times 2/3 { c4\( a8\) } \cesure
+	\times 2/3 { c4_\( a8\) } \cesure
 	\times 2/3 { c8[ b c] } 
 	\times 2/3 { d8[\( c\) a] }
 	a8[ g] g4
@@ -251,7 +248,7 @@
 	\addlyrics { \set stanza = #"(B) "
 	Dieu a tant ai -- mé le mon -- de qu'il a don -- né son Fils u -- ni -- que,
 	pour que tout hom -- me qui croit en lui ne pé -- ris -- se pas
-	mais qu'il ait la vie é -- ter -- nel- -- _ le.
+	mais qu'il ait la vie é -- ter -- nel - le.
 	 _ _ "[Ton 8]"		
 % (Jn 3)
 
@@ -259,8 +256,7 @@
 	\header {
 		opus = "H 401" }
 	} 
-	
-	
+
 \score {\relative f'  { 
 	f16[ f  f g] a4
 	\times 2/3 { a8[ a g] } \times 2/3 { f8[ g a] }
@@ -279,7 +275,7 @@
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(C) "
-	Je me lè -- ve -- rai et "j'i" -- rai dire à mon pè- -- _ "re :"
+	Je me lè -- ve -- rai et "j'i" -- rai dire à  mon pè - "re :"
 	Pè -- re, j'ai pé -- ché con -- tre le ciel et con -- tre toi, 
 	je ne mé -- ri -- te plus "d'être" ap -- pe -- lé ton fils.
 	 _ _ "[Ton 1]"		
@@ -289,9 +285,9 @@
 	\header {
 		opus = "H 402" }
 	} 
-	
+
 \markup {
-	\fill-line{\line{"CINQUIEME DIMANCHE DE CAREME"}}}
+	\fill-line{\line{"CINQUIEME DIMANCHE DE CARÊME"}}}
 \score {\relative f'  { 
 	r8 g
 	\times 2/3 { b8[ c d] }
@@ -314,8 +310,8 @@
 	}
 	\header {
 		opus = "H 500" }
-	} 
-	
+	}
+
 \score {  \transpose g c { \relative f'  { \key c \major
 	g8[ g]  c4 
 	\times 2/3 { c8[ c d] } c4 \cesure
@@ -328,8 +324,8 @@
 		\endBar 
 	} }
 	\addlyrics { \set stanza = #"(B) "
-	Si quel -- qu'un veut me ser -- vir, qu'il me sui- -- _ "ve ;"
-	et là où je suis, là aus -- si sera mon ser -- vi -- teur.
+	Si quel -- qu'un veut me ser -- vir, qu'il me sui - "ve ;"
+	et là  où je suis, là  aus -- si se -- ra mon ser -- vit -- eur.
 	 _ _ _ "[Ton 6]"		
 % (Jn 12)
 
@@ -337,7 +333,6 @@
 	\header {
 		opus = "H 501" }
 	} 
-	
 	
 \score {   \relative f'  { 
 	a8[\( a\)]  r8 a
@@ -358,7 +353,7 @@
 	}
 	\addlyrics { \set stanza = #"(C) "
 	Fem -- me, per -- son -- ne ne t'a con -- dam -- "née ?"
-	"- Per" -- son -- ne, Sei-  -- _ gneur.
+	"- Per" -- son -- ne, Sei - gneur.
 	"- Moi" non plus, je ne te con -- dam -- ne pas. 
 	Va, et dé -- sor -- mais ne pè -- che plus.
 	 _ _ "[Ton 2 transposé au la]"		
@@ -369,8 +364,7 @@
 	\header {
 		opus = "H 502" }
 	} 
-%\markup {2° mode transposé au la }
-
+%\markup {2Â° mode transposé au la }
 
 \markup {
 	\fill-line{\line{"DIMANCHE DES RAMEAUX"}}}
@@ -396,11 +390,11 @@
 		\endBar 
 	}
 	\addlyrics { 
-	Ré -- jou -- is- -- toi, Jé -- ru -- sa -- "lem- !" _ _
+	Ré -- jou -- is- -- toi, Jé -- ru -- sa -- lem - -_!
 	Voi -- ci que ton Roi "s'a" -- van -- ce vers "toi !"
-	Ho -- san-  -- _ na au Fils de Da -- "vid !"
-	Bé -- ni soit ce -- lui- _ qui vient au nom du Seign -- "eur- !" _
-	Ho -- san- -- _ na au plus haut des "cieux !"
+	Ho -- san - na au Fils de Da -- "vid !"
+	Bé -- ni soit ce -- lui - _qui vient au nom du Seign -- eur -_!
+	Ho -- san - na au plus haut des "cieux !"
 	 _ _ "[Ton 7]"		
 % (Za 9)
 
@@ -429,10 +423,10 @@
 		\endBar 
 	}
 	\addlyrics { 
-	Main- -- _ ten -- ant, Pè -- re, 
+	Main - ten -- ant, Pè -- re, 
 	glo -- ri -- "fie-" -- moi aup -- rès de toi, 
-	de la glo -- ire que j'a -- vais au -- près- _ de toi 
-	a -- vant que fût le mon- -- de
+	de la glo -- ire que j'a -- vais au -- près - de toi 
+	a -- vant que fût le mon - de.
 	_ _ _ "[Ton 4]"		
 % (Jn 17)
 
@@ -440,7 +434,7 @@
 	\header {
 		opus = "H 620" }
 	} 
-	
+
 \score {\relative f'  { 
 		r8 d
 		\times 2/3 { a'8[ c b] }
@@ -477,14 +471,13 @@
 	\header {
 		opus = "H 621" }
 	} 
-	
-	
+
 \markup {
 	\fill-line{\line{"JEUDI SAINT"}}}
 \score {\relative f'  { 
 		\times 2/3 { f8[ f e] }
 		\times 2/3 { d8[ f a] }
-		\times 2/3 { bes4\( a8\) }
+		\times 2/3 { bes4_\( a8\) }
 		\times 2/3 { g8[ a\( c]\) }
 		\times 2/3 { c8[ c b] }
 		\times 2/3 { a4\( a8\) }
@@ -504,10 +497,10 @@
 	}
 	\addlyrics { 
 	J'ai dé -- si -- ré ar -- dem -- ment man -- ger cet -- te pâque 
-	av -- ec vous a -- "vant-  " _ de souf -- "frir ;"
-	car je vous le dis, jam -- ais plus- _ je ne la man -- ge -- rai 
-	jus -- "qu'à" ce "qu'el" -- le soit ac -- com -- plie 
-	dans le Roy -- au- -- me de- _ Dieu.
+	av -- ec vous a -- vant - _de souf -- "frir ;"
+	car je vous le dis, jam -- ais plus - _je ne la man -- ge -- rai 
+	jus -- "qu'à " ce "qu'el" -- le soit ac -- com -- plie 
+	dans le Roy -- au -- me de - Dieu.
 	_ _  "[Ton 1]"		
 % (Lc 22)
 
@@ -515,8 +508,6 @@
 	\header {
 		opus = "H710" }
 	} 
-
-
 	
 \markup {
 	\fill-line{\line{"VENDREDI SAINT"}}}
@@ -547,9 +538,9 @@
 		\endBar 
 	}
 	\addlyrics { 
-	Jus -- qu'à la neu -- vième heu -- re, l'obs -- cu -- ri -- té se fit sur tout le pa -- ys.
+	Jus -- qu'à  la neu -- vième heu -- re, l'obs -- cu -- ri -- té se fit sur tout le pa -- ys.
 	Al -- ors le voi -- le du sanc -- tu -- ai -- re se dé -- chi -- ra, et Jé -- sus cri -- a d'un -- e voix for -- "te :"
-	Pè -- re, en -- tre tes mains je re -- mets mon es -- prit.
+	«_Pè -- re, en -- tre tes mains je re -- mets mon es -- prit._»
 	Puis, in -- cli -- nant la tê -- te, il ex -- pi -- ra.
 	 _ _ "[Ton 8]"		
 % (Lc 23)
@@ -559,7 +550,6 @@
 		opus = "H 810" }
 	} 	
 
-		
 \markup {
 	\fill-line{\line{"SAMEDI SAINT"}}}
 \score {\relative f'  { 
@@ -590,3 +580,5 @@
 	\header {
 		opus = "H 910" }
 	} 
+	
+
