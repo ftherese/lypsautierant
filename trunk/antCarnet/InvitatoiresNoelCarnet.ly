@@ -1,10 +1,10 @@
 \version "2.14.00"
 \include "DefinitionsAntiennesCarnet.ly"
+
 \header {
 	title = "ANTIENNES D'INVITATOIRE (NOEL)"
 	composer =  "G 001" 
 }
-
 
 \score {\relative f'  { 
 		r8 g8 \times 2/3 { g8[ g a] } g4 \cesure
@@ -19,14 +19,14 @@
 		
 	}
 	\addlyrics {
-		\set stanza = #"1/ "
-		Le Christ nous est né, A -- - -- lle -- lu -- - -- - -- "ia !" Ven -- ez, a -- dor -- ons- -- le, Al -- le -- lu -- ia, A -- - -- lle -- lu -- - -- - -- "ia !" 
+		\set stanza = #"1. "
+		Le Christ nous est né, A - lle -- lu - - "ia !" Ven -- ez, a -- dor -- ons- -- le, Al -- le -- lu -- ia, A - lle -- lu - - "ia !" 
 		}
 	\header {
 		piece = "Jour de Noël"
 	}
 	} 
-
+	
 \score {\relative f'  { 
 		r8 d8
 		e8[\( f\)]
@@ -39,12 +39,14 @@
 
 	}
 	\addlyrics {
-		\set stanza = #"2/ "
-		Le Christ- _ nous est né-, _ ve -- nez, a -- dor -- ons- -- le-.
+		\set stanza = #"2. "
+		Le Christ - _nous est né -, ve -- nez, a -- do -- rons -- -le -.
 	
 	}
 
 	} 
+		
+	
 \score {\relative f'  { 
 		
 		\times 2/3 { r8_\( a[ g]\) }
@@ -59,8 +61,8 @@
 
 	}
 	\addlyrics {
-		\set stanza = #"3/ "
-		Un enf -- ant nous est né, un fils nous a é -- té don -- "né !" Ve -- nez, a -- dor -- "ons-" "le !" Al -- le -- lu -- - -- "ia !"
+		\set stanza = #"3. "
+		Un enf -- ant nous est né, un fils nous a é -- té don -- "né !" Ve -- nez, a -- dor -- "ons-" "le !" Al -- le -- lu - "ia !"
 	
 	}
 
@@ -69,6 +71,7 @@
 	piece = "Octave de Noël et deuxième dimanche"	
 	}
 	} 
+		
 \score {\relative f'  { 
 		r8 g8
 		\times 2/3 { b8[\cesure c d] }
@@ -80,8 +83,8 @@
 
 	}
 	\addlyrics {
-		\set stanza = #"4/ "
-		Ven -- ez, a -- do -- rons le Fils de Dieu, sou -- mis à Ma -- rie et à Jos -- eph.
+		\set stanza = #"4. "
+		Ven -- ez, a -- do -- rons le Fils de Dieu, sou -- mis à  Ma -- rie et à Jo -- seph.
 	
 	}
 
@@ -89,7 +92,9 @@
 	\header {
 	piece = "La Sainte Famille"	
 	}
-	} 
+	}
+	
+
 \score {\relative f'  { 
 	\key f \major
 		r16 f16[f f]
@@ -105,8 +110,8 @@
 
 	}
 	\addlyrics {
-		\set stanza = #"5/ "
-		En cé -- léb -- rant la ma -- ter -- ni -- té de la Vie -- rge Mar -- ie, a -- do -- rons le Christ, son Fils, le Sei -- gneur-. 
+		\set stanza = #"5. "
+		En cé -- léb -- rant la ma -- ter -- ni -- té de la Vie -- rge Mar -- ie, a -- do -- rons le Christ, son Fils, le Sei -- gneur -. 
 	
 	}
 
@@ -114,7 +119,8 @@
 	\header {
 	piece = "Sainte Marie, Mère de Dieu (1er janvier)"	
 	}
-	} 
+	}
+		
 \score {\relative f'  { 
 		r8. d16 
 		e16[ f g a]
@@ -126,16 +132,16 @@
 
 	}
 	\addlyrics {
-		\set stanza = #"6/ "
-		Il s'est ma -- ni -- fes -- té, le Christ, Seig -- neur, ven -- ez a -- dor -- ons- -- le-.
+		\set stanza = #"6. "
+		Il s'est ma -- ni -- fes -- té, le Christ, Seig -- neur, ven -- ez a -- dor -- ons- -- le -.
 	
 	}
-
 	
 	\header {
 	piece = "Epiphanie du Seigneur"	
 	}
-	} 
+	}
+	
 \score {\relative f'  { \key f \major
 		\times 2/3 { r8_\( d[ d]\) }
 		\times 2/3 { f8[ g a] }
@@ -149,8 +155,8 @@
 
 	}
 	\addlyrics {
-		\set stanza = #"7/ "   
-		A -- dor -- ons le Sei -- gneur Jé -- sus, le Fils bien- -- ai -- mé de Dieu no -- tre Pè -- re.
+		\set stanza = #"7. "   
+		A -- dor -- ons le Sei -- gneur Jé -- sus, le Fils bien -- -ai -- mé de Dieu no -- tre Pè -- re.
 	
 	}
 
@@ -158,5 +164,5 @@
 	\header {
 	piece = "Baptême du Seigneur"	
 	}
-	} 
+	}
 	
