@@ -2,7 +2,6 @@
 \include "DefinitionsAntiennesCarnet.ly"
 
 
-
 \markup {
 	\fill-line{\line{"LA SAINTE TRINITE"}}}
 \score {\relative f'  { 
@@ -33,7 +32,7 @@
 	}
 	\addlyrics {\set stanza = #"2/ "
 		A -- do -- rons no -- tre Dieu, Al -- le -- lu -- "ia !"
-		A -- do -- rons le Pè -- re, le Fils et l'Es -- prit Saint, Al -- le -- lu -- - -- "ia !"
+		A -- do -- rons le Pè -- re, le Fils et l'Es -- prit Saint, Al -- le -- lu - "ia !"
 		}
 } 	
 
@@ -52,16 +51,15 @@
 	}
 	\addlyrics {\set stanza = #"1."
 	La grâ -- ce du Sei -- gneur Jé -- sus- -- Christ, 
-	"l'a" -- mour de Dieu le Pè- -- _ re et la co -- mmu -- nion du 
-	Saint-  -- Esp -- rit soient a -- vec vous tous.- _
+	"l'a" -- mour de Dieu le Pè - re et la co -- mmu -- nion du 
+	Saint-  -- Esp -- rit soient a -- vec vous tous -.
 %   (2 Co 13)
-	_  _ "[Ton 4 transposé au ré]"
+	_ _ _ "[Ton 4 transposé au ré]"
 	}
 	\header {
 		piece = "Antiennes"
 		opus = "J 110" }
 	} 
-
 
 \score {\relative f'  { 
 		\times 2/3 { r8_\( g[ g]\) }
@@ -88,10 +86,10 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"2."
-	Tout pou -- voir m'a é -- té don -- né au ciel et sur la ter- -- _ re. 
+	Tout pou -- voir m'a é -- té don -- né au ciel et sur la ter - re. 
 	Al -- lez donc, de tou -- tes les nat -- ions fai -- tes des di -- sci -- ples,
 	les ba -- pti -- sant au nom du Père et du Fils et du Saint- -- Esp -- rit.
-	Et moi, je suis av -- ec vous tous les jours jus -- "qu'à" la fin du mon- -- _ de.
+	Et moi, je suis av -- ec vous tous les jours jus -- "qu'à " la fin du mon - de.
 	Al - le -- lu - - ia.
 %   (2 Co 13)
 	 _ _ "[Ton 8]"
@@ -99,8 +97,7 @@
 	\header {
 		opus = "J 120" }
 	} 
-	
-	
+
 \markup {
 	\fill-line{\line{"LE SAINT SACREMENT"}}}
 
@@ -121,8 +118,8 @@
 		piece = "Antienne d'invitatoire"
 		opus = "J 201"
  }
-	} 
-	
+	}
+
 \score {\relative f'  { 
 		r8 a, c8[ d] c8[ d]
 		\times 2/3 { d8[ \cesureTresBasse d f] }
@@ -132,8 +129,8 @@
 		d16[\(c \) d c] a4
 		\cesure
 		c8[ d] \times 2/3 { f8[ f f] }   \times 2/3 { f8[\( g\) f] } d4
-		r8 d \times 2/3 { g8[ g f] } g8[ a] g4 \cesure
 		\ifIndent
+		r8 d \times 2/3 { g8[ g f] } g8[ a] g4 \cesure
 		f8[ f] \times 2/3 { f8[ g f] }
 		e8[ d] e4\( d8\) r8
 		\endBar
@@ -141,8 +138,8 @@
 		\endBar 
 	}
 	\addlyrics {
-	Je suis le Pain viv -- ant, de -- scen -- du du ciel- _.
-	Si quel -- "qu'un" man -- ge de ce pain, il vi -- vra é -- ter -- nel- -- _ le -- ment.
+	Je suis le Pain viv -- ant, de -- scen -- du du ciel -.
+	Si quel -- "qu'un" man -- ge de ce pain, il vi -- vra é -- ter -- nel - le -- ment.
 	Le pain que je don -- ne -- rai, c'est ma chair pour la vie du mon -- de.
 	
 %   (Jn 6)
@@ -152,7 +149,6 @@
 		piece = "Antienne"
 		opus = "J 210" }
 	} 
-
 
 \markup {
 	\fill-line{\line{"LE SACRE COEUR"}}}
@@ -169,7 +165,7 @@
 		\endBar
 	}
 	\addlyrics {
-	Le cœur de Jés -- us, bles -- sé par son am -- our pour nous, 
+	Le Cœur de Jés -- us, bles -- sé par son am -- our pour nous, 
 	ve -- nez a -- do -- rons- -- le.			
 	}
 	\header {
@@ -177,7 +173,7 @@
 		opus = "J 301"
  }
 	} 	
-	
+
 \score {\relative f'  { 
 		\times 2/3 { d8[ e f] }
 		d8[ d] e8[ c]
@@ -224,16 +220,16 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"2."
-	Ve -- nez à moi, vous tous qui pei -- nez et plo -- yez sous le far -- deau, 
+	Ve -- nez à  moi, vous tous qui pei -- nez et plo -- yez sous le far -- deau, 
 	et moi, je vous don -- ne -- rai le re -- pos. Pre -- nez sur vous mon joug, 
-	de -- ve -- nez mes di -- sci- -- _ ples, car je suis doux et hum -- ble de cœur.
+	de -- ve -- nez mes di -- sci - ples, car je suis doux et hum -- ble de cœur.
 %   (2 Co 13)
 	 _ _ "[Ton 5]"
 	}
 	\header {
 		opus = "J 320" }
 	} 
-	
+
 	
 \markup {
 	\fill-line{\line{"LE COEUR IMMACULE DE MARIE"}}}
@@ -257,4 +253,5 @@
 	}
 	\header {
 		opus = "J 410" }
-	} 
+	}
+
