@@ -31,7 +31,9 @@
 	}
 
 	\addlyrics {
-		Voi -- "ci " ve -- nir des loin -- tains le Nom du Seig -- neur, et sa cla -- rté " il" -- lu -- mi -- ne la ter -- re. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
+		Voi -- "ci " ve -- nir des loin -- tains le Nom du Seig -- neur, 
+		et sa cla -- rté " il" -- lu -- mi -- ne la ter -- re. 
+		Al -- le -- \skip 1 lu -- \skip 1 "ia !"
 	 _ _ "[Ton 1]" 
 	}
 	\header {
@@ -40,8 +42,6 @@
 	}
   	
 } 
-
-
 
 \score {
 	\relative f' { 
@@ -61,7 +61,8 @@
 	}
 
 	\addlyrics {
-		Il vient vers nous, le Dieu vé -- ri -- ta -- \skip 1 ble. Il re -- vêt en Ma -- rie la chair du pre -- mier Ad -- am.
+		Il vient vers nous, le Dieu vé -- ri -- ta -- \skip 1 ble. 
+		Il re -- vêt en Ma -- rie la chair du pre -- mier Ad -- am.
 		_ _ "[Ton 2]" 
 		
 	}
