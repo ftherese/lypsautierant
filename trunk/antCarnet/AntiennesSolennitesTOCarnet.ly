@@ -10,7 +10,7 @@
 		d16[ f g a]  e4
 		\endBar
 	}
-	\addlyrics {\set stanza = #"1/ "
+	\addlyrics {\set stanza = #"1. "
 		Le vrai Dieu, Tri -- ni -- té dans "l'u" -- ni -- té, ve -- nez a -- do -- rons- -- le.
 	}
 	\header {
@@ -30,9 +30,9 @@
 
 		\endBar 
 	}
-	\addlyrics {\set stanza = #"2/ "
+	\addlyrics {\set stanza = #"2. "
 		A -- do -- rons no -- tre Dieu, Al -- le -- lu -- "ia !"
-		A -- do -- rons le Pè -- re, le Fils et l'Es -- prit Saint, Al -- le -- lu - "ia !"
+		A -- do -- rons le Pè -- re, le Fils et l'Es -- prit Saint, Al -- le -- lu- _ -- "ia !"
 		}
 } 	
 
@@ -51,7 +51,7 @@
 	}
 	\addlyrics {\set stanza = #"1."
 	La grâ -- ce du Sei -- gneur Jé -- sus- -- Christ, 
-	"l'a" -- mour de Dieu le Pè - re et la co -- mmu -- nion du 
+	"l'a" -- mour de Dieu le Pè- _ -- re et la co -- mmu -- nion du 
 	Saint-  -- Esp -- rit soient a -- vec vous tous -.
 %   (2 Co 13)
 	_ _ _ "[Ton 4 transposé au ré]"
@@ -86,12 +86,12 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"2."
-	Tout pou -- voir m'a é -- té don -- né au ciel et sur la ter - re. 
+	Tout pou -- voir m'a é -- té don -- né au ciel et sur la ter- _ -- re. 
 	Al -- lez donc, de tou -- tes les nat -- ions fai -- tes des di -- sci -- ples,
 	les ba -- pti -- sant au nom du Père et du Fils et du Saint- -- Esp -- rit.
-	Et moi, je suis av -- ec vous tous les jours jus -- "qu'à " la fin du mon - de.
-	Al - le -- lu - - ia.
-%   (2 Co 13)
+	Et moi, je suis av -- ec vous tous les jours jus -- "qu'à " la fin du mon- _ -- de.
+	Al- _ -- le -- lu - - ia.
+%   (Mt 28)
 	 _ _ "[Ton 8]"
 	}
 	\header {
@@ -139,7 +139,7 @@
 	}
 	\addlyrics {
 	Je suis le Pain viv -- ant, de -- scen -- du du ciel -.
-	Si quel -- "qu'un" man -- ge de ce pain, il vi -- vra é -- ter -- nel - le -- ment.
+	Si quel -- "qu'un" man -- ge de ce pain, il vi -- vra é -- ter -- nel- _ -- le -- ment.
 	Le pain que je don -- ne -- rai, c'est ma chair pour la vie du mon -- de.
 	
 %   (Jn 6)
@@ -189,8 +189,7 @@
 	\addlyrics {\set stanza = #"1."
 	Je suis ve -- nu je -- ter le feu sur la ter -- re, 
 	et com -- bien je vou -- drais "qu'il" brû -- le.
-	
-%   (2 Co 13)
+%   (Lc 12 )
 	 _ _ "[Ton 1]"
 	}
 	\header {
@@ -222,15 +221,14 @@
 	\addlyrics {\set stanza = #"2."
 	Ve -- nez à  moi, vous tous qui pei -- nez et plo -- yez sous le far -- deau, 
 	et moi, je vous don -- ne -- rai le re -- pos. Pre -- nez sur vous mon joug, 
-	de -- ve -- nez mes di -- sci - ples, car je suis doux et hum -- ble de cœur.
-%   (2 Co 13)
+	de -- ve -- nez mes di -- sci- _ -- ples, car je suis doux et hum -- ble de cœur.
+%   (Mt 11)
 	 _ _ "[Ton 5]"
 	}
 	\header {
 		opus = "J 320" }
 	} 
 
-	
 \markup {
 	\fill-line{\line{"LE COEUR IMMACULE DE MARIE"}}}
 \score {\relative f'  { \key f \major
