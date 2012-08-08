@@ -24,14 +24,15 @@
 		\endBar 
 	}
 	\addlyrics {
-		Re -- ve -- nez au Seig -- neur de tout vo -- tre cœur, car il est ten -- dre - sse et mi -- sé -- ri -- cor - - de, lent à  la co -- lè -- re et plein d'a -- mour -. _  
+		Re -- ve -- nez au Seig -- neur de tout vo -- tre cœur, car il est ten -- dre- _ -- sse 
+		et mi -- sé -- ri -- cor- -- \skip 1 \skip 1 de, lent à  la co -- lè -- re et plein d'a -- mour -. _  
 %   (Jl 2)
 	 _ _ "[Ton 8]"
 	}
 	\header {
 		opus = "H 090" }
 	}
-	
+
 \markup {
 	\fill-line{\line{"PREMIER DIMANCHE DE CARÊME"}}}
 
@@ -67,14 +68,14 @@
 		Il est éc -- "rit :" «_L'hom -- me ne vit pas seu -- le -- ment de pain, 
 		mais de tou -- te pa -- ro -- le "sort" -- ant de la bou -- che de Dieu_».  
 		Il est enc -- ore é -- "crit :" «_Tu ne met -- tras pas à  "l'é" -- preu -- ve le Seig -- neur ton Dieu. 
-		C'est lui que tu " a" -- do - re -- ras, et lui seul que tu ser -- vir -- as._»  
+		C'est lui que tu " a" -- do- _ -- re -- ras, et lui seul que tu ser -- vir -- as._»  
 % (Mt 4)
 	 _ _ "[Ton 8]"
 	}
 	\header {
 		opus = "H 100" }
 	} 
-	
+
 \markup {
 	\fill-line{\line{ "DEUXIEME DIMANCHE DE CARÊME"}}}
 \score {\relative f'  { 
@@ -99,8 +100,8 @@
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(A.B.C) "
-		Dieu, per -- son -- ne ne l'a ja -- mais vu, mais le Fils - _qui est dans le sein du Pè -- re, 
-		lui, nous "l'a" ré -- vé -- "lé ;" et nous a -- vons vu la gloi - - re qu'il tient de son Pè -- re, 
+		Dieu, per -- son -- ne ne l'a ja -- mais vu, mais le Fils- _ -- _qui est dans le sein du Pè -- re, 
+		lui, nous "l'a" ré -- vé -- "lé ;" et nous a -- vons vu la gloi- -- \skip 1 \skip 1 re qu'il tient de son Pè -- re, 
 		com -- me Fils u -- ni -- que, plein de grâ -- ce et de vé -- ri -- té.
 % (Jn 1)
 	_ _ _ "[Ton 1 " "ou  Per.]"
@@ -108,7 +109,7 @@
 	\header {
 		opus = "H 200" }
 	} 
-		
+
 \markup {
 \fill-line{\line{"TROISIEME DIMANCHE DE CARÊME"}}}
 
@@ -134,16 +135,16 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
-		Si tu sa -- vais le don - _de Dieu et quel est cel -- ui qui te de -- mande à  boi -- re,
+		Si tu sa -- vais le don- _ -- _de Dieu et quel est cel -- ui qui te de -- mande à  boi -- re,
 		c'est toi qui l'en au -- rais pri -- é, et il "t'au" -- rait don -- né l'eau vi -- ve.
-		L'eau qu'il don - ne -- ra, en toi se -- ra sour -- ce jai -- lli -- ssant en vie é -- ter -- nel - le.
+		L'eau qu'il don- _ -- ne -- ra, en toi se -- ra sour -- ce jai -- lli -- ssant en vie é -- ter -- nel- _ -- le.
 % (Jn 4)
 	 _ _ "[Ton 7]"
 	}
 	\header {
 		opus = "H 300" }
 	} 
-	
+
 \score {\relative f'  { 
 		\times 2/3 { r8\( c'[ c]\) } d8[ c] a4
 		\times 2/3 { r8_\( f[ g]\) } a8[ a]
@@ -184,8 +185,8 @@
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(C) "
-	Je suis le Dieu de vos pè - "res ;" quand j'ai vu la dé -- tre -- sse de mon peu -- ple, 
-	quand j'ai en -- ten -- du sa plain - te, je suis al -- lé le dé -- li -- vrer.
+	Je suis le Dieu de vos pè- _ -- "res ;" quand j'ai vu la dé -- tre -- sse de mon peu -- ple, 
+	quand j'ai en -- ten -- du sa plain- _ -- te, je suis al -- lé le dé -- li -- vrer.
 	 _ _  _ "[Ton 1]"		
 % (Ex 3)
 	}
@@ -218,9 +219,9 @@
 	}
 	\addlyrics { \set stanza = #"(A) "
 	Je suis ve -- nu en ce mon -- de pour que les a -- veu -- gles voient, dit le Sei -- gneur.
-	Je suis la Lu -- miè -- re du mon - de.
+	Je suis la Lu -- miè -- re du mon- _ -- de.
 	Qui me suit ne mar -- che -- ra pas dans les té -- nè - bres 
-	mais il au -- ra la lu -- miè -- re de - _la Vie.
+	mais il au -- ra la lu -- miè -- re de- _ -- _la Vie.
 	 _ _ "[Ton 2]"		
 % (Jn 8;9))
 
@@ -228,7 +229,7 @@
 	\header {
 		opus = "H 400" }
 	}
-		
+
 \score {\relative f'  { 
 	g8[ g] c8[ b] c8[ a]
 	\times 2/3 { g4\( g8\) } \cesure
@@ -250,7 +251,7 @@
 	\addlyrics { \set stanza = #"(B) "
 	Dieu a tant ai -- mé le mon -- de qu'il a don -- né son Fils u -- ni -- que,
 	pour que tout hom -- me qui croit en lui ne pé -- ris -- se pas
-	mais qu'il ait la vie é -- ter -- nel - le.
+	mais qu'il ait la vie é -- ter -- nel- _ -- le.
 	 _ _ "[Ton 8]"		
 % (Jn 3)
 
@@ -277,7 +278,7 @@
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(C) "
-	Je me lè -- ve -- rai et "j'i" -- rai dire à  mon pè - "re :"
+	Je me lè -- ve -- rai et "j'i" -- rai dire à  mon pè- _ -- "re :"
 	Pè -- re, j'ai pé -- ché con -- tre le ciel et con -- tre toi, 
 	je ne mé -- ri -- te plus "d'être" ap -- pe -- lé ton fils.
 	 _ _ "[Ton 1]"		
@@ -326,7 +327,7 @@
 		\endBar 
 	} }
 	\addlyrics { \set stanza = #"(B) "
-	Si quel -- qu'un veut me ser -- vir, qu'il me sui - "ve ;"
+	Si quel -- qu'un veut me ser -- vir, qu'il me sui- _ -- "ve ;"
 	et là  où je suis, là  aus -- si se -- ra mon ser -- vit -- eur.
 	 _ _ _ "[Ton 6]"		
 % (Jn 12)
@@ -335,7 +336,7 @@
 	\header {
 		opus = "H 501" }
 	} 
-	
+
 \score {   \relative f'  { 
 	a8[\( a\)]  r8 a
 	\times 2/3 { c8[\( d\) c] }
@@ -355,7 +356,7 @@
 	}
 	\addlyrics { \set stanza = #"(C) "
 	Fem -- me, per -- son -- ne ne t'a con -- dam -- "née ?"
-	"- Per" -- son -- ne, Sei - gneur.
+	"- Per" -- son -- ne, Sei- _ -- gneur.
 	"- Moi" non plus, je ne te con -- dam -- ne pas. 
 	Va, et dé -- sor -- mais ne pè -- che plus.
 	 _ _ "[Ton 2 transposé au la]"		
@@ -392,11 +393,11 @@
 		\endBar 
 	}
 	\addlyrics { 
-	Ré -- jou -- is- -- toi, Jé -- ru -- sa -- lem - -_!
+	Ré -- jou -- is- -- toi, Jé -- ru -- sa -- le- _ -- m_!
 	Voi -- ci que ton Roi "s'a" -- van -- ce vers "toi !"
-	Ho -- san - na au Fils de Da -- "vid !"
+	Ho -- san- _ -- na au Fils de Da -- "vid !"
 	Bé -- ni soit ce -- lui - _qui vient au nom du Seign -- eur -_!
-	Ho -- san - na au plus haut des "cieux !"
+	Ho -- san- _ -- na au plus haut des "cieux !"
 	 _ _ "[Ton 7]"		
 % (Za 9)
 
@@ -425,10 +426,10 @@
 		\endBar 
 	}
 	\addlyrics { 
-	Main - ten -- ant, Pè -- re, 
+	Main- _ -- ten -- ant, Pè -- re, 
 	glo -- ri -- "fie-" -- moi aup -- rès de toi, 
-	de la glo -- ire que j'a -- vais au -- près - de toi 
-	a -- vant que fût le mon - de.
+	de la glo -- ire que j'a -- vais au -- près - _de toi 
+	a -- vant que fût le mon- _ -- de.
 	_ _ _ "[Ton 4]"		
 % (Jn 17)
 
@@ -502,7 +503,7 @@
 	" av" -- "ec " vous a -- vant - _de souf -- "frir ;"
 	car je vous le dis, jam -- ais plus - _je ne la man -- ge -- rai 
 	jus -- "qu'à " ce "qu'el" -- le soit ac -- com -- plie 
-	dans le Roy -- au -- me de - Dieu.
+	dans le Roy -- au -- me de - _Dieu.
 	_ _  "[Ton 1]"		
 % (Lc 22)
 
