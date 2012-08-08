@@ -20,13 +20,14 @@
 	}
 	\addlyrics {
 		\set stanza = #"1. "
-		Le Christ nous est né, A - lle -- lu - - "ia !" Ven -- ez, a -- dor -- ons- -- le, Al -- le -- lu -- ia, A - lle -- lu - - "ia !" 
+		Le Christ nous est né, A - lle -- lu - - "ia !" 
+		Ven -- ez, a -- dor -- ons- -- le, Al -- le -- lu -- ia, A - lle -- lu - - "ia !" 
 		}
 	\header {
 		piece = "Jour de Noël"
 	}
 	} 
-	
+
 \score {\relative f'  { 
 		r8 d8
 		e8[\( f\)]
@@ -45,8 +46,7 @@
 	}
 
 	} 
-		
-	
+
 \score {\relative f'  { 
 		
 		\times 2/3 { r8_\( a[ g]\) }
@@ -62,16 +62,19 @@
 	}
 	\addlyrics {
 		\set stanza = #"3. "
-		Un enf -- ant nous est né, un fils nous a é -- té don -- "né !" Ve -- nez, a -- dor -- "ons-" "le !" Al -- le -- lu - "ia !"
+		Un enf -- ant nous est né, 
+		un fils nous a é -- té don -- "né !" 
+		Ve -- nez, a -- dor -- "ons-" "le !" 
+		Al -- le -- lu - "ia !"
 	
 	}
 
-	
+
 	\header {
 	piece = "Octave de Noël et deuxième dimanche"	
 	}
 	} 
-		
+
 \score {\relative f'  { 
 		r8 g8
 		\times 2/3 { b8[\cesure c d] }
@@ -111,7 +114,8 @@
 	}
 	\addlyrics {
 		\set stanza = #"5. "
-		En cé -- léb -- rant la ma -- ter -- ni -- té de la Vie -- rge Mar -- ie, a -- do -- rons le Christ, son Fils, le Sei -- gneur -. 
+		En cé -- léb -- rant la ma -- ter -- ni -- té de la Vie -- rge Mar -- ie, 
+		a -- do -- rons le Christ, son Fils, le Sei -- gneur -. 
 	
 	}
 
