@@ -857,7 +857,7 @@
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Al -- lez ap -- pren -- dre ce que veut di -- re cet -- te 
-		pa -- ro - le_: «_C'est la mi -- sé -- ri -- cor -- de 
+		pa -- ro- _ -- le_: «_C'est la mi -- sé -- ri -- cor -- de 
 		que je dé -- si -- re et non le sa -- cri -- fi -- ce_»_;
 		car je ne suis pas ve -- nu ap -- pe -- ler les jus -- tes,
 		mais les péc -- heurs.
@@ -1158,7 +1158,7 @@
 	\addlyrics {\set stanza = #"(C)"
 		Ce -- lui qui veut ve -- nir à ma sui -- te, qu'il re -- nonce 
 		à lui- -- mê -- me, qu'il por -- te sa croix cha -- que jour 
-		et qu'il me sui - ve. Car ce -- lui qui veut sau -- ver sa 
+		et qu'il me sui- _ -- ve. Car ce -- lui qui veut sau -- ver sa 
 		vie la per -- dra, mais qui per -- dra sa vie à cau -- se de moi, 
 		la sau -- ve -- ra.
 	%\markup { \citation #"(Lc 9)" }
@@ -1325,8 +1325,8 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
-		Je te rends grâ - ce, Pè -- re, Sei -- gneur du ciel et 
-		de la ter - re car tu as ca -- ché les mys -- tè -- res du 
+		Je te rends grâ- _ -- ce, Pè -- re, Sei -- gneur du ciel et 
+		de la ter- _ -- re car tu as ca -- ché les mys -- tè -- res du 
 		Roy -- au -- me aux sages et aux sa -- vants, et tu les a
 		ré -- vé -- lés aux tout- -- pe -- tits.
 	%\markup { \citation #"(Mt 11)" }
@@ -1709,7 +1709,7 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
-		Ce -- lui qui de -- man -- de re -- çoit, ce -- lui qui 
+		Ce -- lui qui de -- man -- de re -- çoit, _ce -- lui qui 
 		cher -- che trou -- ve, et pour ce -- lui qui frap -- pe 
 		la por -- te s'ou -- vri -- ra.
 	%\markup { \citation #"(Lc 11)" }
@@ -1717,6 +1717,7 @@
 	}
 	\header { opus = "K 172" }
 }
+
 
 \markup {
       		\fill-line{
@@ -1775,8 +1776,8 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
-		Moi, je suis le pain de vie. Ce -- lui qui vient à moi
-		n'au -- ra plus ja -- mais faim_; ce -- lui qui croit 
+		Moi, je suis le pain de vie. _Ce -- lui qui vient à moi
+		n'au -- ra plus ja -- mais faim_; _ce -- lui qui croit 
 		en moi n'au -- ra plus ja -- mais soif.
 	%\markup { \citation #"(Jn 6)" }
 	_ _ "[Ton 2]"
@@ -1887,8 +1888,8 @@
 		Nul ne peut ve -- nir à moi, si le Pè -- re qui m'a 
 		en -- voy -- é ne l'at -- ti -- re_; et moi,
 		je le res -- sus -- ci -- te -- rai au der -- nier jour.
-		A -- men, je vous le dis_: ce -- lui qui croit a la 
-		vie é -- ter -- nel - le.
+		A -- men, je vous le dis_: _ce -- lui qui croit a la 
+		vie é -- ter -- nel- _ -- le.
 	%\markup { \citation #"(Jn 6)" }
 	_ _ "[Ton 3]"
 	}
@@ -1921,7 +1922,7 @@
 	\addlyrics {\set stanza = #"(C) "
 		Heu -- reux les ser -- vi -- teurs que le maî -- tre, 
 		à sa ve -- nue, trou -- ve -- ra en train de veil -- ler_! 
-		Il se cein -- dra, les fe -- ra mettre à ta - ble, 
+		Il se cein -- dra, les fe -- ra mettre à ta- _ -- ble, 
 		et pas -- se -- ra les ser -- vir.
 	%\markup { \citation #"(Lc 12)" }
 	_ _ "[Ton 8]"
@@ -2061,7 +2062,7 @@
 		«_Pour vous, qui suis -- -je_?_» Si -- mon -- -Pier -- re 
 		ré -- pon -- dit_: «_Tu es le Christ, le Fils du Dieu vi -- vant_!_» 
 		Jé -- sus lui dé -- cla -- ra_: «_Tu es Pier -- re et sur ce 
-		roc je bâ -- ti -- rai mon E -- gli - se._»
+		roc je bâ -- ti -- rai mon Eg -- li - se._»
 	%\markup { \citation #"(Mt 16)" }
 	_ _ "[Ton 1]"
 	}
@@ -2977,9 +2978,9 @@
 	\addlyrics {\set stanza = #"(A) "
 		É -- coute I -- sra -- ël_! Le Sei -- gneur no -- tre Dieu est 
 		l'u -- ni -- que Sei -- gneur. Tu ai -- me -- ras le Sei -- gneur
-		ton Dieu de tout ton coeur, de tou -- te ton â - me, 
+		ton Dieu de tout ton coeur, de tou -- te ton â- _ -- me, 
 		de tout ton es -- prit et de tou -- te ta for -- ce, 
-		et ton pro -- chain com -- me toi -- -mê - me.
+		et ton pro -- chain com -- me toi- -- mê- _ -- me.
 	%\markup { \citation #"(Mc 12)" }
 	_ _ "[Ton 2]"
 	}
@@ -3406,7 +3407,7 @@
 	\addlyrics {\set stanza = #"(A) "
 		Quand le Fils de l'hom -- me vien -- dra dans sa gloi -- re, 
 		et tous les an -- ges a -- vec lui, a -- lors il
-		s'as -- sié -- ra sur son trô -- ne de gloi - re.
+		s'as -- sié -- ra sur son trô -- ne de gloi- _ -- re.
 	%\markup { \citation #"(Mt 25)" }
 	_ _ _ "[Ton 1 " "ou  Per.]"
 	} }
