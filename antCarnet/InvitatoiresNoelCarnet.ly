@@ -1,6 +1,7 @@
 \version "2.14.00"
 \include "DefinitionsAntiennesCarnet.ly"
 
+
 \header {
 	title = "ANTIENNES D'INVITATOIRE (NOEL)"
 	composer =  "G 001" 
@@ -26,7 +27,7 @@
 	\header {
 		piece = "Jour de Noël"
 	}
-	} 
+	}
 
 \score {\relative f'  { 
 		r8 d8
@@ -169,4 +170,4 @@
 	piece = "Baptême du Seigneur"	
 	}
 	}
-	
+
