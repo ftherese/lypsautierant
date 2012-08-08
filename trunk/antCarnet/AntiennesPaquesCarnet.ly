@@ -115,7 +115,7 @@
 	et fit route av -- ec "eux :" «_O cœurs sans in -- tel -- li -- gen -- ce, 
 	lents à cro -- ire tout ce "qu'ont" an -- non -- cé les pro -- phè -- "tes !" 
 	Ne fal -- "lait-" -- il pas que le Christ souf -- frît ce -- la 
-	pour en -- trer dans sa gloi - re_?_» 
+	pour en -- trer dans sa gloi- _ -- re_?_» 
 	Al - le -- lu - - "ia !"
 	
 %   (Lc 24)
@@ -167,7 +167,7 @@
 	\header {
 		opus = "I 301" }
 	}
-	
+
 \score {  \transpose  c f {\relative f'  { \key c \major
 		r8 c b8[ c] a4
 		r8 b c8[ e] d8[\( c\)]  b8[ a] c8[\( b\)]  a4
@@ -185,7 +185,7 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
-	Au bord du lac, Jés -- us in -- vi -- te ses di -- sci - "ples :"
+	Au bord du lac, Jés -- us in -- vi -- te ses di -- sci- _ -- "ples :"
 	«_Ve -- nez et man -- gez -_!_» Puis il prend le pain et le leur don -- ne.
 	Ils sa -- vaient que "c'é" -- tait le Sei -- gneur. Al -- le - lu -- "ia !" 
 		
@@ -219,7 +219,7 @@
 	En vé -- ri -- té, je vous le "dis :" je suis la Por -- te des bre -- bis. 
 	Si quel -- "qu'un" en -- tre par moi, il se -- ra sau -- vé. 
 	Je suis ve -- nu pour que "l'on" ait la vie et "qu'on" "l'ait"
-	en a -- bon -- dan - ce. 
+	en a -- bon -- dan- _ -- ce. 
 	Al -- le -- lu - - "ia !" 
 	
 %   (Jn 10)
@@ -362,7 +362,7 @@
 	}
 	\addlyrics {\set stanza = #"(C) "
 	Je vous donne un com -- man -- de -- ment nou -- veau, dit le Sei -- gneur.
-	Com -- me je vous ai ai -- més, ai -- mez- -- vous les uns les au - tres.
+	Com -- me je vous ai ai -- més, ai -- mez- -- vous les uns les au- _ -- tres.
 	Al -- le -- lu - "ia !"
 	
 %   (Jn 13)
@@ -434,7 +434,7 @@
 	\addlyrics {\set stanza = #"(B) "
 	Vous ê -- tes mes a -- mis si vous fai -- tes ce que je vous com -- man -- de.
 	Je ne vous ap -- pel -- le plus ser -- vi -- teurs, 
-	car tout ce que j'ai en -- ten -- du de mon Pè -- re, je vous "l'ai" fait con -- naî - tre.
+	car tout ce que j'ai en -- ten -- du de mon Pè -- re, je vous "l'ai" fait con -- naî- _ -- tre.
 	Al -- le - lu -- ia_! 
 
 %   (Jn 15)
@@ -461,10 +461,10 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
-	Si quel -- qu'un m'ai - me, il gar -- de -- ra ma pa -- ro -- le, 
+	Si quel -- qu'un m'ai- _ -- me, il gar -- de -- ra ma pa -- ro -- le, 
 	et mon Pè -- re l'ai -- me -- ra, 
-	Al -- le -- lu - "ia !" 
-	Nous vien -- drons à lui et nous fe -- rons chez lui no -- tre dem -- eu - re.
+	Al -- le -- lu- _ -- "ia !" 
+	Nous vien -- drons à lui et nous fe -- rons chez lui no -- tre dem -- eu- _ -- re.
 	Al -- le -- lu - "ia !" 
 	
 %   (Jn 14)
@@ -505,7 +505,7 @@
 		\set stanza = #"1." 
 		Ne me re -- tiens pas, Ma -- rie, dit - _le Sei -- gneur, 
 		mais va- -- t-en vers mes frè -- res et dis- -- leur_: 
-		je mon -- te vers mon Pè -- re et vo -- tre Pè - re, 
+		je mon -- te vers mon Pè -- re et vo -- tre Pè- _ -- re, 
 		vers mon Dieu et vo -- tre Dieu. Al - le -- lu -- ia_!	
 		 _ _ "[Ton 8]"
 		}
@@ -807,7 +807,7 @@
 	\addlyrics {
 		\set stanza = #"2. " Au -- jour -- d'hui, 
 		l'Es -- prit se ma -- ni -- feste aux dis -- ci -- ples, 
-		al - le - lu -- ia, sur eux, il ré -- pand les dons de sa grâ - ce, 
+		al - le - lu -- ia, sur eux, il ré -- pand les dons de sa grâ- _ -- ce, 
 		et les en -- voie pro -- cla -- mer les lou -- an -- ges de Dieu. Al - le - lu -- ia_!
 		_ _ _ "[Ton 1 " "ou  Per.]"
 	}
