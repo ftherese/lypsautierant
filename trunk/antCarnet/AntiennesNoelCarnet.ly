@@ -2,7 +2,6 @@
 \include "DefinitionsAntiennesCarnet.ly"
 
 
-
 \markup {
 	\fill-line{\line{"NATIVITE DU SEIGNEUR"}}}
 \markup {}
@@ -59,7 +58,8 @@
 		\endBar 
 	}
 	\addlyrics {
-	Quand le sol -- eil se lè -- ve -- ra dans le ciel, vous ver -- rez le Roi - _des rois, en -- gen -- dré du Pè -- re av -- ant les siè - - cles, 
+	Quand le sol -- eil se lè -- ve -- ra dans le ciel, 
+	vous ver -- rez le Roi- _ -- _des rois, en -- gen -- dré du Pè -- re av -- ant les siè - - cles, 
 	tel un ép -- oux pa -- rais -- sant hors de sa cham -- bre nup -- tia -- le.  	
 	 _ _ "[Ton 8]"
 	}
@@ -132,7 +132,7 @@
 		Auj -- "ourd'" -- hui le Christ est né, auj -- ourd' -- hui le Sau -- veur est ap -- pa -- "ru ;" 
 		auj -- ourd' hui sur la ter -- re les an -- ges chan -- tent, les arc -- han -- ges se ré -- jou -- iss -- ent. 
 		Auj -- ourd' -- hui les saints e -- xul -- tent en chan -- "tant :" 
-		Gloire à Dieu au plus haut - _des cieux. Al -- le - lu -- "ia !"
+		Gloire à Dieu au plus haut- _ -- _des cieux. Al -- le - lu -- "ia !"
 %	  (Cf. Lc 2)
 	 _ _ "[Ton 1]"
 	}
@@ -164,7 +164,9 @@
 		\endBar 
 	}
 	\addlyrics {
-		Le Ver -- be "s'est" fait chair, et il a de -- meu -- ré par -- mi nous,  nous av -- ons con -- tem -- plé sa gloi - - "re ;" Al - le - lu -- ia, al - le -- lu -- "ia !"  _ _
+		Le Ver -- be "s'est" fait chair, et il a de -- meu -- ré par -- mi nous,  
+		nous av -- ons con -- tem -- plé sa gloi - - "re ;" 
+		Al - le - lu -- ia, al - le -- lu -- "ia !"  _ _
 %(Jn 1)
 	 "[Ton 8]"
 	}
@@ -222,7 +224,9 @@
 		\endBar 
 	}
 	\addlyrics {
-		A Bet -- hlé -- em, les ber -- gers vin -- rent en hâ -- te, ils tro -- uvè -- rent Mar -- ie et Jo - seph, et le nou -- veau- -- né, le Sau -- veur, cou -- ché dans un -- e crè - che.
+		A Bet -- hlé -- em, les ber -- gers vin -- rent en hâ -- te, 
+		ils tro -- uvè -- rent Mar -- ie et Jo- _ -- seph, 
+		et le nou -- veau- -- né, le Sau -- veur, cou -- ché dans un -- e crè- _ -- che.
 %		 (Lc 2)
 	 _ _ "[Ton 7]"
 	}
@@ -255,7 +259,7 @@
 	piece = "Magnificat"	
 	opus = "G 301" }
 	} 
-	
+
 \markup {
 	\fill-line{\line{ "SAINTE MARIE, MERE DE DIEU (1er janvier)"}}}
 	\score {\transpose c f, {
@@ -274,14 +278,14 @@
 		\endBar 
 	}
 	\addlyrics {
-		Voi -- ci que Mar -- ie est de -- ven -- ue le Temple et l'Ar -- che sain - te, le ciel nou -- veau où Dieu a res -- plen -- di.
+		Voi -- ci que Mar -- ie est de -- ven -- ue le Temple et l'Ar -- che sain- _ -- te, le ciel nou -- veau où Dieu a res -- plen -- di.
 	_ _ _ "[Ton 1 " " ou Per.]"
 	 	}}
 	\header {
 		piece = "Benedictus"
 		opus = "G 400" }
 	}
-		
+
 \score {\relative f'  { 
 		\times 2/3 { f8[ f d] }
 		d8[\( c\)] f8[ f]
@@ -329,7 +333,9 @@
 		\endBar 
 	}
 	\addlyrics {
-		Lè -- ve- -- toi -, _Jé -- ru -- sa -- "lem !" Sois " il" -- lu -- mi -- "née !" Car voi -- ci ta lu -- miè - re, et sur toi se lè -- ve la glo -- ire du - _Seig -- neur.
+		Lè -- ve- -- toi -, _Jé -- ru -- sa -- "lem !" Sois " il" -- lu -- mi -- "née !" 
+		Car voi -- ci ta lu -- miè- _ -- re, 
+		et sur toi se lè -- ve la glo -- ire du- _ -- Seig -- neur.
 % (Is 60)
 	 _ _ "[Ton 7]"
 	}
@@ -356,7 +362,7 @@
 		\endBar 
 	}
 	\addlyrics {
-		A la vue de l'é -- toi -- le, les ma -- ges fur -- ent trans - por -- tés de "joie ;"  
+		A la vue de l'é -- toi -- le, les ma -- ges fur -- ent trans- _ -- por -- tés de "joie ;"  
 		ay -- ant tro -- uvé l'en -- fant a -- vec Ma -- rie sa mè -- re, 
 		se pros -- ter -- nant, ils l'a -- do -- rè -- rent.
 %		(Mt 2)	
