@@ -11,7 +11,7 @@
      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-     
+
      
 \markup {
       		\fill-line{
@@ -200,7 +200,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Voi -- ci qu'il vient dans son san -- ctu -- ai -- re, le Sei -- gneur sou -- ve -- rain_;
+		_Voi -- ci qu'il vient dans son san -- ctu -- ai -- re, le Sei -- gneur sou -- ve -- rain_;
 		ve -- nez, a -- do -- rons -- -le.
 	}
 	\header {
@@ -325,7 +325,6 @@
 }
 
 
-
 \score {
 	\relative f'  {
 		\key f \major
@@ -352,7 +351,6 @@
 	\header {
 		piece = "Invitatoire 1er mai" }
 }
-
 
 
 \score {
@@ -390,8 +388,8 @@
 	\addlyrics {
 		Jo -- seph, fils de Da -- vid, ne crains pas de pren -- dre chez toi, Ma -- rie ton é -- pou -- se_;
 		l'en -- fant qui est en -- gen -- dré en el -- le vient de l'Es -- prit- -- Saint_;
-		elle met -- tra au monde un fils, au -- quel tu don -- ne -- ras le nom de Jé -- sus.
-		"(T.P.  Al" - - le_ -- _lu - - - " ia !)"
+		elle met -- tra au monde un fils, au -- quel tu don -- ne -- ras le nom de Jé -- sus. 
+		\once \override LyricText #'self-alignment-X = #1 "(T.P.  Al" - - le_ -- _lu - - - " ia !)"
 		%\markup { \citation #"(Mt 1)"}
 		_ _ "[Ton 7]"
 	}
@@ -437,9 +435,11 @@
 		\endBar
 	}
 	\addlyrics {
-		Sois sans crain - te, Mar -- ie, car tu as trou -- vé grâ -- ce au -- près de Dieu.
-		Voi -- ci que tu vas con -- ce -- voir et en -- fan -- ter un fils_;
-		tu lui don - ne -- ras le nom de Jé -- sus. "(T.P.  Al" - - le_ -- _lu - - - " ia !)"
+		Sois sans crain- _ -- te, Mar -- ie, car tu as trou -- vé grâ -- ce au -- près de Dieu. 
+		_Voi -- ci que tu vas con -- ce -- voir et en -- fan -- ter un fils_; 
+		tu lui don- _ -- ne -- ras le nom de Jé -- sus. 
+		\once \override LyricText #'self-alignment-X = #1 "(T.P.  Al" - - le_ -- _lu - - - " ia !)"
+		
 	%\markup { \citation #"(Lc 1)" }
 		_ _ "[Ton 8]"
 	}
@@ -452,6 +452,7 @@
       		\fill-line{
                        	\line{"SAINT LOUIS MARIE GRIGNION DE MONTFORT (28 avril)"}}
 }
+
 
 \score {
 	\relative c''  {
@@ -489,7 +490,7 @@
 		O très ai -- mable et a -- do -- ra -- ble Jé -- sus, vrai Dieu et vrai hom -- me,
 		Fils u -- ni -- que du Père é -- ter -- nel et de Ma -- rie tou -- jours Vier -- ge_!
 		Nous t'a -- do -- rons pro -- fon -- dé -- ment.
-		\once \override LyricText #'self-alignment-X = #1 "(T.P.  Al" | lé | lu - - " ia !)"
+		\once \override LyricText #'self-alignment-X = #1 "(T.P.  Al" | le | lu - - " ia !)"
 		_ _ "[Ton 3]"
 	}
 
@@ -532,7 +533,7 @@
 		O é -- ter -- nel -- le Tri -- ni -- té, tu es le feu qui dis -- si -- pe tou -- te froi -- deur
 		et tu é -- clai -- res les es -- prits de ta lu -- miè -- re,
 		cet -- te lu -- miè -- re par la -- quel -- le tu m'as fait con -- naî -- tre ta vé -- ri -- té.____
-		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" -- lé -- lu - - " ia !)"
+		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" -- le -- lu - - " ia !)"
 		_ _ "[Ton 3]"
 	}
 
@@ -546,7 +547,7 @@
                        	\line{"VISITATION DE LA VIERGE MARIE (31 mai)"}}
 }
 
-%{\score {
+\score {
 	\relative d'  {
 		\times 2/3 { r8_\( f[ f]\) }
 		\times 2/3 { f8[ d c] } d8[ f]
@@ -566,7 +567,7 @@
 	\header {
 		piece = "Invitatoire" }
 }
-%}
+
 
 
 \score {
@@ -595,7 +596,7 @@
 		Dès qu'E -- li -- sa -- beth en -- ten -- dit Ma -- rie la sa -- lu -- er,
 		el -- le s'é -- cri -- a d'u -- ne voix for -- te_:
 		«_D'où me vient cet hon -- neur que la mè -- re de mon Sei -- gneur me ren -- de vi -- si -- te_?_»____
-		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" -- lé - lu -- "ia !)"
+		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" -- le - lu -- "ia !)"
 		_ _ "[Ton 8]"
 	}
 
@@ -653,7 +654,7 @@
       		\fill-line{
                        	\line{"SAINT PIERRE ET SAINT PAUL (29 juin)"}}
 }
-%{
+
 \score {
 	\relative c''  {
 		r8 g a4
@@ -668,7 +669,7 @@
 	\header {
 		piece = "Invitatoire" }
 }
-%}
+
 \score {
 	\relative d'  {
 		\times 2/3 { d8[ d d] } e8[ f] g4		
@@ -1202,7 +1203,7 @@
 }
 
 \markup { "Voir au 29 septembre" }
-%{
+
 \score {
 	\relative c''  {
 		\times 2/5 { g16[\( a\) c a g]} f8.[ g16] a16[ a a g] g4
@@ -1245,7 +1246,7 @@
 	\header {
 		piece = "Magnificat" }
 }
-%}
+
 
 \markup {
       		\fill-line{
