@@ -52,9 +52,9 @@
 	\addlyrics {\set stanza = #"1."
 	La grâ -- ce du Sei -- gneur Jé -- sus- -- Christ, 
 	"l'a" -- mour de Dieu le Pè- _ -- re et la co -- mmu -- nion du 
-	Saint-  -- Esp -- rit soient a -- vec vous tous -.
+	Saint- -- Esp -- rit soient a -- vec vous tous -.
 %   (2 Co 13)
-	_ _ _ "[Ton 4 transposé au ré]"
+	_ _ _ _ "[Ton 4 transposé au ré]"
 	}
 	\header {
 		piece = "Antiennes"
@@ -90,7 +90,7 @@
 	Al -- lez donc, de tou -- tes les nat -- ions fai -- tes des di -- sci -- ples,
 	les ba -- pti -- sant au nom du Père et du Fils et du Saint- -- Esp -- rit.
 	Et moi, je suis av -- ec vous tous les jours jus -- "qu'à " la fin du mon- _ -- de.
-	Al- _ -- le -- lu - - ia.
+	Al - le -- lu - - ia.
 %   (Mt 28)
 	 _ _ "[Ton 8]"
 	}
