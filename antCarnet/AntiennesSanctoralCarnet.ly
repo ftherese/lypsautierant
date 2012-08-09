@@ -10,7 +10,7 @@
      %                                                                  %
      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+ 
 
      
 \markup {
@@ -389,7 +389,7 @@
 		Jo -- seph, fils de Da -- vid, ne crains pas de pren -- dre chez toi, Ma -- rie ton é -- pou -- se_;
 		l'en -- fant qui est en -- gen -- dré en el -- le vient de l'Es -- prit- -- Saint_;
 		elle met -- tra au monde un fils, au -- quel tu don -- ne -- ras le nom de Jé -- sus. 
-		\once \override LyricText #'self-alignment-X = #1 "(T.P.  Al" - - le_ -- _lu - - - " ia !)"
+		\once \override LyricText #'self-alignment-X = #1 "(T.P.  Al" - - le_ -- _lu - - - "ia !)"
 		%\markup { \citation #"(Mt 1)"}
 		_ _ "[Ton 7]"
 	}
@@ -438,7 +438,7 @@
 		Sois sans crain- _ -- te, Mar -- ie, car tu as trou -- vé grâ -- ce au -- près de Dieu. 
 		_Voi -- ci que tu vas con -- ce -- voir et en -- fan -- ter un fils_; 
 		tu lui don- _ -- ne -- ras le nom de Jé -- sus. 
-		\once \override LyricText #'self-alignment-X = #1 "(T.P.  Al" - - le_ -- _lu - - - " ia !)"
+		\once \override LyricText #'self-alignment-X = #1 "(T.P.  Al" - - le_ -- _lu - - - "ia !)"
 		
 	%\markup { \citation #"(Lc 1)" }
 		_ _ "[Ton 8]"
@@ -452,7 +452,6 @@
       		\fill-line{
                        	\line{"SAINT LOUIS MARIE GRIGNION DE MONTFORT (28 avril)"}}
 }
-
 
 \score {
 	\relative c''  {
@@ -490,7 +489,7 @@
 		O très ai -- mable et a -- do -- ra -- ble Jé -- sus, vrai Dieu et vrai hom -- me,
 		Fils u -- ni -- que du Père é -- ter -- nel et de Ma -- rie tou -- jours Vier -- ge_!
 		Nous t'a -- do -- rons pro -- fon -- dé -- ment.
-		\once \override LyricText #'self-alignment-X = #1 "(T.P.  Al" | le | lu - - " ia !)"
+		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" | le -- lu - - "ia !)"
 		_ _ "[Ton 3]"
 	}
 
@@ -533,13 +532,11 @@
 		O é -- ter -- nel -- le Tri -- ni -- té, tu es le feu qui dis -- si -- pe tou -- te froi -- deur
 		et tu é -- clai -- res les es -- prits de ta lu -- miè -- re,
 		cet -- te lu -- miè -- re par la -- quel -- le tu m'as fait con -- naî -- tre ta vé -- ri -- té.____
-		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" -- le -- lu - - " ia !)"
+		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" -- le -- lu - - "ia !)"
 		_ _ "[Ton 3]"
 	}
 
 }
-
-
 
 
 \markup {
@@ -562,7 +559,7 @@
 	}
 	\addlyrics {
 		Cé -- léb -- rons la Vi -- si -- ta -- tion de la Vier -- ge Ma -- rie,
-		a -- do -- rons le Christ, son Fils, le Sei -- gneur -- _-.
+		a -- do -- rons le Christ, son Fils, le Sei -- gneur -.
 	}
 	\header {
 		piece = "Invitatoire" }
@@ -596,7 +593,7 @@
 		Dès qu'E -- li -- sa -- beth en -- ten -- dit Ma -- rie la sa -- lu -- er,
 		el -- le s'é -- cri -- a d'u -- ne voix for -- te_:
 		«_D'où me vient cet hon -- neur que la mè -- re de mon Sei -- gneur me ren -- de vi -- si -- te_?_»____
-		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" -- le - lu -- "ia !)"
+		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" -- le - lu | "ia !)"
 		_ _ "[Ton 8]"
 	}
 
@@ -685,8 +682,8 @@
 		\endBar
 	}
 	\addlyrics {
-		Vous qui m'a -- vez sui -- vi, vous siè -- ge -- rez sur dou -- ze trô - _nes,
-		pour - _ju -- ger les dou -- ze tri -- bus d'Is -- ra -- ël_ -.
+		Vous qui m'a -- vez sui -- vi, vous siè -- ge -- rez sur dou -- ze trô- _ -- nes,
+		pour- _ -- _ju -- ger les dou -- ze tri -- bus d'Is -- ra -- ël -.
 	%\markup { \citation #"(Mt 19)" }
 		_ _ "[Ton 2]"
 	}
@@ -760,10 +757,10 @@
 		\endBar
 	}
 	\addlyrics {
-		U -- ne fem -- me bien con -- nue dans la vil - _le pour sa vie de dé -- bau -- che,
+		U -- ne fem -- me bien con -- nue dans la vil- _ -- le pour sa vie de dé -- bau -- che,
 		ap -- por -- ta un fla -- con d'al -- bât -- re rem -- pli de par -- fum et,
 		se te -- nant der -- riè -- re Jé -- sus, près de ses pieds,
-		el -- le se mit à les ar -- ro -- ser de ses lar - mes, et à les es -- su -- yer de ses che -- veux.
+		el -- le se mit à les ar -- ro -- ser de ses lar- _ -- mes, et à les es -- su -- yer de ses che -- veux.
 		_ _ "[Ton 8]"
 	}
 	\header {
@@ -824,7 +821,7 @@
 	\addlyrics {
 		Sur la mon -- ta -- gne, Jé -- sus fut trans -- fi -- gu -- ré de -- vant eux.
 		Son vi -- sa -- ge res -- plen -- dit com -- me le so -- leil,
-		et ses vê -- te -- ments de -- vin -- rent blancs com -- me la lu -- miè - re.
+		et ses vê -- te -- ments de -- vin -- rent blancs com -- me la lu -- miè- _ -- re.
 		De la nu -- ée vint u -- ne voix qui di -- sait_:
 		«_Ce -- lui -- -ci est mon Fils bien -- -ai -- mé, é -- cou -- tez- -- le._»
 	%\markup { \citation #"(Mt 17)" }
@@ -858,7 +855,7 @@
 	}
 	\addlyrics {
 		Au -- jour -- d'hui, la Vier -- ge Ma -- rie est é -- le -- vée dans les cieux_;
-		ré -- jou -- is -- sons -- -nous_: a -- vec le Christ el -- le rè -- gne é -- ter -- nel -- le -- ment.
+		ré -- jou -- is -- sons -- -nous_: _a -- vec le Christ el -- le rè -- gne é -- ter -- nel -- le -- ment.
 	}
 	\header {
 		piece = "Invitatoire" }
@@ -883,7 +880,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Tou -- te res -- plen -- dis -- san - te, pa -- rée de tis -- sus d'or,
+		Tou -- te res -- plen -- dis -- san- _ -- te, pa -- rée de tis -- sus d'or,
 		la prin -- cesse est me -- née vers le roi_;
 		par -- mi joie et li -- es -- se, elle en -- tre dans son pa -- lais.
 	%\markup { \citation #"(Ps 44)" }
@@ -923,7 +920,7 @@
 	}
 	\addlyrics {
 		Un grand si -- gne ap -- pa -- rut dans le ciel_: u -- ne fem -- me, en -- ve -- lop -- pée du so -- leil,
-		la lu -- ne sous les pieds, et sur sa tê - te, u -- ne cou -- ron -- ne de douze é -- toi - les.
+		la lu -- ne sous les pieds, et sur sa tê- _ -- te, u -- ne cou -- ron -- ne de douze _é -- toi- _ -- les.
 	%\markup { \citation #"(Ap 12)" }
 		_ _ "[Ton 8]"
 	}
@@ -959,7 +956,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Vier -- ge Sain - te, le Sei -- gneur t'a cré -- ée, pré -- mi -- ces de son oeu -- vre,
+		Vier -- ge Sain- _ -- te, le Sei -- gneur t'a cré -- ée, pré -- mi -- ces de son oeu -- vre,
 		tou -- te bel -- le et sans tâche au -- cu -- ne,
 		comme un jar -- din bien clos, u -- ne sour -- ce scel -- lée.
 	%\markup { \citation #"(Pr 8 / Ct 4)" }
@@ -977,10 +974,10 @@
 \score { \transpose e d {
 	\relative d'  {
 		r8 e
-		\times 2/3 { e8[\cesureBasse e e] }
+		\times 2/3 { e8[\cesureTresBasse e e] }
 		\times 2/3 { e8[ g b] }
 		\times 2/3 { a8[ b a] }
-		\times 2/3 { g8[\cesure g g] }
+		\times 2/3 { g8[\cesureBasse g g] }
 		\times 2/3 { a8[ b c] } a4		
 		\endBar
 	}
@@ -1008,7 +1005,7 @@
 	}
 	\addlyrics {
 		Quand vous au -- rez é -- le -- vé le Fils de l'hom -- me, 
-		a -- lors vous sau -- rez que je suis_: 
+		_a -- lors vous sau -- rez que je suis_: 
 		j'at -- ti -- re -- rai à moi tous les hom -- mes. 
 		
 	%\markup { \citation #"(Jn 8 / 12)" }
@@ -1073,9 +1070,9 @@
 		\endBar
 	}
 	\addlyrics {
-		Près de la croix de Jé -- sus se te -- nait sa mè - re.
+		Près de la croix de Jé -- sus se te -- nait sa mè- _ -- re. 
 		_Voy -- ant sa mè -- re et près d'el -- le le dis -- ci -- ple qu'il ai -- mait,
-		Jé -- sus lui dit_: Fem -- me, voi -- ci ton fils.
+		Jé -- sus lui dit_: «_Fem -- me, voi -- ci ton fils._»
 	%\markup { \citation #"(Jn 19)" }
 		_ _ "[ton 1]"
 	}
@@ -1154,9 +1151,9 @@
 		\endBar
 	}
 	\addlyrics {
-		An -- ges et Ar -- chan - ges, Trô -- nes et Do -- mi -- na -- tions,
-		Prin -- ci -- pau -- tés et Puis -- san -- ces, Ver -- tus cé -- les - tes,
-		lou -- ez le Sei -- gneur - du haut des cieux, Al - lé -- lu -- ia.
+		An -- ges et Arc -- han- _ -- ges, Trô -- nes et Do -- mi -- na -- tions,
+		Prin -- ci -- pau -- tés et Puis -- san -- ces, Ver -- tus cé -- les- _ -- tes,
+		lou -- ez le Sei -- gneur - du haut des cieux, Al - lé -- lu | ia.
 		_ _ "[Ton 7]"
 	}
 	\header {
@@ -1293,13 +1290,12 @@
 		\endBar
 	}
 	\addlyrics {
-		Bé -- nis -- sez Dieu, vous tous - ses é -- lus_:
+		Bé -- nis -- sez Dieu, vous tous - _ses é -- lus_:
 		cé -- lé -- brez des jours - de joie - et glo -- ri -- fiez -- -le.
 	}
 	\header {
 		piece = "Invitatoire" }
 }
-
 
 \score {
 	\relative f'  {
@@ -1330,9 +1326,9 @@
 	}
 	\addlyrics {
 		Je vis u -- ne foule im -- men -- se, que nul ne pou -- vait dé -- nom -- brer,
-		de tou -- tes na -- tions, ra -- ces, peu -- ples et lan - gues.
+		de tou -- tes na -- tions, ra -- ces, peu -- ples et lan- _ -- gues.
 		Ils se te -- naient de -- bout de -- vant le trô -- ne et de -- vant l'A -- gneau,
-		vê -- tus de ro -- bes blan - ches, et des pal -- mes à la main.
+		vê -- tus de ro -- bes blan- _ -- ches, et des pal -- mes à la main.
 	%\markup { \citation #"(Ap 7)" }
 		_ _ "[Ton 1]"
 	}
@@ -1340,12 +1336,10 @@
 		piece = "Benedictus" }
 }
 
-
 \score {
 	\relative c''  {
 		g8[\( g\)] c8[ a] g8\([ g16\) f] g16[ a a g] g4
 		\cesure \espace a16[ c d\( c\)] c4
-		\espace
 		\times 2/3 { r8\( d[ c]\) }
 		\times 2/3 { b8[ c d] }
 		\times 2/3 { c8[ c a] }
@@ -1370,10 +1364,10 @@
 		\endBar
 	}
 	\addlyrics {
-		U -- ne foule im -- men -- se cla -- mait à plei -- ne voix_: Al -- lé -- lu - ia_!
+		U -- ne foule im -- men -- se cla -- mait à plei -- ne voix_: «_Al -- lé -- lu- _ -- ia_!
 		Il a pris pos -- ses -- sion de son Rè -- gne, le Sei -- gneur Dieu, Maî -- tre de tout_!
 		Soy -- ons dans la joie, ren -- dons gloire à Dieu_:
-		voi -- là les No -- ces de l'A -- gneau_! Al -- lé -- lu - ia_! Al -- lé -- lu - ia_!
+		_voi -- là les No -- ces de l'A -- gneau_!_» Al -- lé -- lu- _ -- ia_! Al -- lé -- lu - ia_!
 	%\markup { \citation #"(Ap 19)" }
 		_ _ "[Ton 8]"
 	}
@@ -1406,7 +1400,7 @@
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	%%  Remettre la mélodie originelle de cette antienne ! fr Raph. %%
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	
+
 \score {
 	\relative d'  {
 		r8 d f4
@@ -1418,7 +1412,7 @@
 		\cesure
 		\ifIndent
 		\times 2/3 { d,8[ a' a] }
-		\times 2/3 { g4\( f8\) } \times 2/3 { g8[\( f\) g] } e8[\( e\)] \cesure
+		\times 2/3 { g4\( f8\) } \times 2/3 { g8[\( a\) g] } e8[\( e\)] \cesure
 		a8[ g]
 		\times 2/3 { f8[\( f\) f] } d8[ f] g8[\( f\)] e4		
 		\endBar
@@ -1427,8 +1421,8 @@
 	}
 	\addlyrics {
 		Heu -- reux ceux qui sont morts dans le Sei -- gneur -_;
-		dès main -- te -- nant, dit- _ l'Es -- prit, qu'ils se re -- po -- sent de- _ leurs pei -- nes,
-		car leurs oeu -- vres les ac -- com -- pa - gnent.
+		dès main -- te -- nant, dit- _ l'Es -- prit, qu'ils se re -- po -- sent de- _ _leurs pei -- nes,
+		car leurs oeu -- vres les ac -- com -- pa- _ -- gnent.
 	%\markup { \citation #"(Ap 14)" }
 		_ _ "[Ton 4]"
 	}
@@ -1502,7 +1496,7 @@
 	}
 	\addlyrics {
 		En cé -- lé -- brant l'Im -- ma -- cu -- lée Con -- ce -- ption de la Vie -- rge Ma -- rie,
-		a -- dor -- ons le Christ son Fils le Sei -- gneur  -.
+		a -- dor -- ons le Christ son Fils le Sei -- gneur -.
 		 
 	}
 	\header {
@@ -1617,8 +1611,6 @@
 }
 
 
-
-
 \score {  \transpose a d {
 	\relative c''  {  \key a \minor
 		r8 a e'8[ e]
@@ -1631,9 +1623,9 @@
 		\ifIndent
 		c8[ a]
 		\times 2/3 { a8[ g a] }
-		\times 2/3 { b8[\( c\) \cesure a] } g8[ a] e4\( e8\) r8
+		\times 2/3 { b8[\( c\) \cesureBasse a] } g8[ a] e4\( e8\) r8
 		a8[ b] c8[ e] d8[\( d\)] 
-		\times 2/3 { c8[\cesure b a] }
+		\times 2/3 { c8[\cesureBasse b a] }
 		\times 2/3 { g8[\( a\) b] } c8[ b] a4
 		\endBar
 		\stemOff c'4 d e
@@ -1641,10 +1633,10 @@
 	}
 	\addlyrics {
 		Voy -- ant sa mère et près d'el -- le le dis -- ci -- ple qu'il ai -- mait, 
-		Jé -- sus dit à sa mè - re_: 
-		Fem -- me, voi -- ci ton fils.
+		Jé -- sus dit à sa mè- _ -- re_: 
+		«_Fem -- me, voi -- ci ton fils._»
 		Puis il dit au dis -- ci -- ple_: 
-		Voi -- ci ta mè -- re.
+		«_Voi -- ci ta mè -- re._»
 		Et de -- puis cette heu -- re- -- là, 
 		le dis -- ci -- ple la prit chez lui.
 		% (Jn 19)
@@ -1662,7 +1654,7 @@
 
 \score {
 	\relative a'  {
-		r8 e f8[\cesure e16 d] g8[ a] c16[ b a a] g8[\( g\)]
+		r8 e f8[\cesureBasse e16 d] g8[ a] c16[ b a a] g8[\( g\)]
 		\cesure
 		\times 2/3 { a8[ b a] }
 		\times 2/3 { g8[\( g\) g] }
