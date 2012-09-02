@@ -1,19 +1,35 @@
 \version "2.14.0"
 
 #(set-default-paper-size "a5" 'landscape )
+
 \paper {
   %	annotate-spacing = ##t
 	two-sided = ##t
 	inner-margin = 25\mm
 	outer-margin = 10\mm
-	top-margin = 5\mm
-	bottom-margin = 0\mm
+	top-margin = 6\mm
+	bottom-margin = 6\mm
 	print-page-number = ##f
-	system-system-spacing = 
+	markup-system-spacing =		% ajouté par fr Raf
+	#'((padding . 0)		% détermine l’espacement entre un titre ou un markup de premier niveau,
+	   (basic-distance . 0)		% et le système qui le suit.
+	   (minimum-distance . 0)	% Il faut mieux peut être laisser le padding à 0
+	   (stretchability . 0))
+	score-markup-spacing =		% ajouté par fr Raf
+	#'((padding . 3)		% détermine l’espacement entre le dernier système
+	   (basic-distance . 0)		% et le titre ou markup de haut niveau qui le suit.
+	   (minimum-distance . 0)	% C'est bien de mettre une valeur positive au padding. Il pourrait encore être un peu augmenté ?
+	   (stretchability . 0))
+	system-system-spacing = 	% détermine, de fait, l'espacement entre les portées des antiennes
 	#'((padding . 1) 
 	   (minimum-distance . 0) 
 	   (stretchability . 0) 
 	   (basic-distance . 0))
+	page-breaking-system-system-spacing =	%% ajouté par fr Raf et très important, ça concerne la gestion des sauts de page				 %%
+	#'((padding . 0)			%% Si ce padding est supérieur à celui de system-system-spacing			 		 %%
+	   (minimum-distance . 0) 		%% alors il y aura moins de systèmes sur une page. Je l'ai mis à 0.				 %%
+	   (stretchability . 0) 		%% C'est ce qui a résolu le gros blanc sur l'essaie que j'ai fait du Magnificat			 %%
+	   (basic-distance . 0))   		%% et de même aussi les blancs entre les antiennes d'invitatoire et les antiennes sur ce fichier.%%
 	page-limit-inter-system-space = ##t
 	page-limit-inter-system-space-factor = #0
 	score-system-spacing = 
@@ -40,24 +56,26 @@
                         	\large { \bold { \fromproperty #'header:composer } }
                		 }
       		  }   
-  %    	bookpartTitleMarkup =
+  %    	bookpartTitleMarkup =  % on le supprime avec fr Raf car il y a des paramètres par défauts qui font que piece et opus se mettent automatiquement à gauche et à droite
    %   		\markup {
    %   			\center-align {
    %                    		\huge { \bold { \fromproperty #'header:subtitle } }
    %            		 }
    %            	}
-	scoreTitleMarkup =
-      		  \markup {
-                	\fill-line {
-                		\left-align {
+%   	scoreTitleMarkup = %% le titre qui est le premier défini passe à gauche, donc dans le cas ci-dessus, la piece.
+%      		  \markup {  %% Si l'opus était le premier défini, il serait placé à gauche. j'ai fait les essais.
+%                	\fill-line {
+%                		\left-align {
+%                		\raise #0	% ajouté par fr Raf: permet de mettre de l'espace avec la portée, si besoin
 %				\hspace #8.0 
-				\fromproperty #'header:piece	
-			}
-               		 	\right-align {
+%				\fromproperty #'header:piece	
+%			}
+%               		 	\right-align {
+                		\raise #0	% ajouté par fr Raf: permet de mettre de l'espace avec la portée, si besoin
 %				\hspace #8.0 
-				\large { \bold { \fromproperty #'header:opus } }	
-			}
-		}}
+%				\large { \bold { \fromproperty #'header:opus } }	
+%			}
+%		}}
 }
 
 \header {
@@ -116,7 +134,7 @@
 		    (stretchability . 0) 
 		    (padding . 0)) 
 		\remove "Time_signature_engraver"
-		packed-spacing = ##t
+%		packed-spacing = ##t
 		
 %%%%%%%%%%%%%%%		
 		%		\override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
@@ -124,8 +142,12 @@
 %%%%%%%%%%%%%%%%
 %		\override TupletNumber #'avoid-slur = #'outside %qu'est-ce que ‚àö√â¬¨√üa fait ?
 
-		\override TupletNumber #'transparent = ##t
-		\override TupletBracket #'bracket-visibility = ##f
+%		\override TupletNumber #'transparent = ##t  % supprimé par fr Raf car gardait l'espacement des triolets
+%		\override TupletBracket #'bracket-visibility = ##f  % idem
+		\override TupletNumber #'stencil = ##f	% ajouté pa fr Raf pour enlever les chiffres des triolets
+		\override TupletBracket #'stencil = ##f	% ajouté pa fr Raf pour enlever les triolets
+
+
 		%\override TupletBracket #'control-points = #'((0 . 0) (2 . 2) (4 . 0) )
 	   
 		%%%%%%%%%\override Beam #'beamed-stem-shorten = #'(2.0 1.5 1.5) 
@@ -139,7 +161,7 @@
 	
 	\context {
 		\Lyrics
-		\override LyricText #'font-name = #"Arial"
+		\override LyricText #'font-name = #"Roman"
 		\override LyricText #'font-size = #-1.8
 		%\override LyricText #'word-space = #1.8
 		%\override LyricSpace #'minimum-distance = #0.5
