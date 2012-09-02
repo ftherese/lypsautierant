@@ -1,6 +1,8 @@
 \version "2.14.00"
 \include "DefinitionsAntiennesCarnet.ly"
 
+
+
 % manque les références scripturaires
 
 
@@ -126,8 +128,8 @@
 		\times 2/3 { c8[ c\( d]\) } \times 2/3 { d4\( d8\) }
 		\times 2/3 { g8[ g g] } g8[ f] d4
 		\endBar
-		\espace
-		\stemOff c4 d4 f4
+		\espace \espace
+		\stemOff c4 d4 f4_\markup {  \halign #-3 \teeny "(Is 40)" }   % ou \tiny si on veut que la sitation soit un peu plus grosse
 		\endBar			
 	}
 
@@ -139,8 +141,8 @@
 % (Is 40)
 	}
 	\header {
-		piece = "Magnificat"
-		opus = "F 210"
+		piece = "F 210     Magnificat"
+		opus = ""
 	}
   	
 } 
@@ -164,7 +166,9 @@
 		g8[ g16\( a]\)
 		\times 2/3 { f4\( e8\) } d4
 		\endBar	
-		\espace
+
+				%\espace 
+		\noBreak
 		\stemOff f4 g4 a4
 		\endBar	
 	}
