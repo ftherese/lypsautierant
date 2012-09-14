@@ -225,3 +225,20 @@ stemOff = {
 		(interpret-markup layout props
 			(markup #:hspace .5 #:tiny str )))
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% nouvelle définition pour la référence biblique fr Raphael sept 2012
+
+#(define-markup-command
+	(ref layout props text) (markup?)
+	"référence bibiliques en dessous de la portée."
+		(interpret-markup layout props		  
+		(markup #:halign -2.2  #:teeny text )))
+	% On peut avec halign déplacer horizontalement la référence					
+	% On peut grossir la référence en remplaçant teeny par tiny si nécessaire
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%% Fonction  \ref  pour la référence biblique dans les antiennes.	%%
+	%% A accrocher à la dernière note de l'intonation de cette manière-là :	%%
+	%% 	a4-\markup \ref "(Is 40)"					%%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
