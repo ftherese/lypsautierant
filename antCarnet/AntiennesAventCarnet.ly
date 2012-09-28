@@ -3,9 +3,6 @@
 
 
 
-% manque les références scripturaires
-
-
 \markup {
       		\fill-line{
                        	\line{"PREMIER DIMANCHE DE L'AVENT"}}
@@ -13,6 +10,7 @@
 
 \score {
 	\relative f'  { 
+		\label #'a
 		\key f \major
 		r8 d8 a'8[ bes]
 		\times 2/3 { a8[ bes c] }
@@ -27,9 +25,7 @@
 		\times 2/3 { f4\( e8\) } d4
 		\endBar
 		\stemOff \espace f4 g4 a4
-		\endBar	
-		
-		
+		\endBar		
 	}
 
 	\addlyrics {
@@ -39,14 +35,16 @@
 	 _ _ "[Ton 1]" 
 	}
 	\header {
-		piece = "Benedictus"
-		opus = "F 100"
+		titres = \markup \ant #'a "F 100" "Benedictus"	% S'il n'y avait pas arg2 (ici, Benedictus) garder les ""
 	}
   	
 } 
 
+
+
 \score {
 	\relative f' { 
+		\label #'b
 		r8 d8 
 		d8[ g] \times 2/3 { f4\( e8\) }
 		\times 2/3 { c8[ d d] }
@@ -69,8 +67,7 @@
 		
 	}
 	\header {
-		piece = "Magnificat"
-		opus = "F 110"
+		titres = \markup \ant #'b "F 110" "Magnificat"
 	}
   	
 } 
@@ -83,6 +80,7 @@
 	
 	\score {
 	\relative f' { 
+		\label #'c
 		\key f \major
 		d8[\( a'\)] bes8[ a]
 		\times 2/3 { bes4\( c8\) }
@@ -94,7 +92,7 @@
 		\times 2/3 { f4\( e8\) } d4
 		\endBar	
 		\espace
-		\stemOff f4 g4 a4
+		\stemOff f4 g4 a4-\markup \ref "(Is 40)"
 		\endBar	
 	}
 
@@ -102,13 +100,11 @@
 		Un -- e voix pro -- cla -- "me :" «_Pré -- pa -- rez dans le dés -- ert le che -- min du Seig -- neur, 
 		et ren -- dez droits les sen -- tiers de not -- re Dieu._» Al -- le -- \skip 1 lu -- \skip 1 "ia !"
 		_ _  "[Ton 1]"
-%		\markup { \citation #"[Ton 1] (Is 40)"} en rajoutant 2 _ _ au dessus
 		
 	}
 
   	\header {
-		piece = "Benedictus"
-		opus = "F 200"
+  		titres = \markup \ant #'c "F 200" "Benedictus"
 	}
 } 
 
@@ -116,7 +112,8 @@
 
 
 \score {
-	\relative f' { 
+	\relative f' {
+		\label #'d
 		\times 2/3 { d8[\( d\) g] }
 		f8[ e] c8[ d]
 		\times 2/3 { d4\( e8\) }
@@ -129,7 +126,7 @@
 		\times 2/3 { g8[ g g] } g8[ f] d4
 		\endBar
 		\espace \espace
-		\stemOff c4 d4 f4_\markup {  \halign #-3 \teeny "(Is 40)" }   % ou \tiny si on veut que la sitation soit un peu plus grosse
+		\stemOff c4 d4 f4-\markup \ref "(Is 40)"
 		\endBar			
 	}
 
@@ -138,11 +135,9 @@
 		al -- ors la gloi -- re du Sei -- gneur ap -- pa -- raî -- tra, 
 		et tou -- te chair ver -- ra le sa -- lut de Dieu.
 		_ _ "[Ton 2]"
-% (Is 40)
 	}
 	\header {
-		piece = "F 210     Magnificat"
-		opus = ""
+		titres = \markup \ant #'d "F 210" "Magnificat"
 	}
   	
 } 
@@ -153,7 +148,8 @@
 	}
 	
 	\score {
-	\relative f' { 
+	\relative f' {
+		\label #'e
 		\key f \major
 		\times 2/3 { d8[ a' bes] }
 		\times 2/3 { a8[ bes c] }
@@ -181,8 +177,7 @@
 	}
 
   	\header {
-		piece = "Benedictus"
-		opus = "F 300"
+  		titres = \markup \ant #'e "F 300" "Benedictus"
 	}
 } 
 
@@ -190,7 +185,8 @@
 
 
 \score {
-	\relative f' { 
+	\relative f' {
+		\label #'f
 		r8 d8	
 		d8[ g] f4\cesure
 		e16[\( c\) d d]
@@ -202,22 +198,23 @@
 		c8[ d] f8[ g] f8[ d] d4
 		\endBar
 		\espace
-		\stemOff c4 d4 f4
+		\stemOff c4 d4 f4-\markup \ref "(Cf. So)"
 		\endBar			
 	}
 
 	\addlyrics {
 		Ré -- jou -- is- -- toi, Fi -- lle de Si -- "on :" le Roi "d'Is" -- ra -- ël, le Seig -- neur, est en toi. Il te re -- nou -- vel -- le -- ra dans son am -- our.
 		_ _ "[Ton 2]"
-% (Cf. So)
+
 	}
 	\header {
-		piece = "Magnificat"
-		opus = "F 310"
+		titres = \markup \ant #'f "F 310" "Magnificat"
 	}
   	
 } 
 
+
+\pageBreak
 
 	\markup {
       		\fill-line{
@@ -225,7 +222,8 @@
 	}
 	
 	\score {
-	\relative f' { 
+	\relative f' {
+		\label #'g
 		\key f \major
 		\times 2/3 { d8[\( a'\) bes] }
 		\stemUp	
@@ -254,8 +252,7 @@
 	}
 
   	\header {
-		piece = "Benedictus"
-		opus = "F 400"
+  		titres = \markup \ant #'g "F 400" "Benedictus"
 	}
 } 
 

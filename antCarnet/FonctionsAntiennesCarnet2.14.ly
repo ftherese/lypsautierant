@@ -219,6 +219,10 @@ stemOff = {
 	\override Staff.Stem #'transparent = ##t 
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Ci-dessous, définition de commandes \markup.
+%% Les commentaires au niveau de la définition doivent être précédés de ; et non de %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 #(define-markup-command 
 	(citation layout props str) (string?)
 	"Formatter le citation dans la ligne des Lyrics."
@@ -242,3 +246,27 @@ stemOff = {
 	%% 	a4-\markup \ref "(Is 40)"					%%
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Ci-dessous, nouvelle définition d'un markup (en langage scheme) que j'ai appelé \ant
+%% à utiliser avec un \label. Ceci pour aligner les pièces en haut de la partition.
+
+#(define-markup-command (ant layout props label arg1 arg2)
+       (symbol? markup? markup?)
+(let* ((space (+ (ly:output-def-lookup layout 'titres-hspace 0)
+                  (ly:output-def-lookup layout 'indent 0)))
+        (stencil-even (interpret-markup layout props
+            (markup #:line (arg1 #:hspace space #:fontsize -1 arg2))))		; ici, on peut modifier taille et font des caractères
+            ; on peut utiliser general-align pour aligner les arg1 et arg2
+        (stencil-odd (interpret-markup layout props
+            (markup #:fill-line (#:line (#:hspace space #:fontsize -1 arg2) arg1))))) ; ici, on peut modifier taille et font des caractères
+   (ly:make-stencil
+     `(delay-stencil-evaluation
+        ,(delay (ly:stencil-expr
+           (let* ((table (ly:output-def-lookup layout 'label-page-table))
+                  (page-number (if (list? table)
+                    (assoc-get label table)
+                    #f)))
+             (if (even? page-number) stencil-even stencil-odd)))))
+     '(0 . 0) '(0 . 0))))	
+	
+	
