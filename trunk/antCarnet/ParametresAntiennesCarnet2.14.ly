@@ -10,13 +10,16 @@
 	top-margin = 6\mm
 	bottom-margin = 6\mm
 	print-page-number = ##f
+	markup-markup-spacing =		% variable redéfinie pour mettre de l'espace entre le \markup et les titres
+	#'((padding . 0)
+	   (basic-distance . 2))
 	markup-system-spacing =		% ajouté par fr Raf
 	#'((padding . 0)		% détermine l’espacement entre un titre ou un markup de premier niveau,
 	   (basic-distance . 0)		% et le système qui le suit.
 	   (minimum-distance . 0)	% Il faut mieux peut être laisser le padding à 0
 	   (stretchability . 0))
 	score-markup-spacing =		% ajouté par fr Raf
-	#'((padding . 3)		% détermine l’espacement entre le dernier système
+	#'((padding . 3.5)		% détermine l’espacement entre le dernier système
 	   (basic-distance . 0)		% et le titre ou markup de haut niveau qui le suit.
 	   (minimum-distance . 0)	% C'est bien de mettre une valeur positive au padding. Il pourrait encore être un peu augmenté ?
 	   (stretchability . 0))
@@ -41,7 +44,7 @@
 	#'((padding . 0) 
 	   (minimum-distance . 0) 
 	   (stretchability . 0) 
-	   (basic-distance . 0))	
+	   (basic-distance . 0))
 	page-breaking = #ly:minimal-breaking
 	indent = 0\mm
 	short-indent = 0\mm
@@ -56,27 +59,24 @@
                         	\large { \bold { \fromproperty #'header:composer } }
                		 }
       		  }   
-  %    	bookpartTitleMarkup =  % on le supprime avec fr Raf car il y a des paramètres par défauts qui font que piece et opus se mettent automatiquement à gauche et à droite
+  %    	bookpartTitleMarkup = 
    %   		\markup {
    %   			\center-align {
    %                    		\huge { \bold { \fromproperty #'header:subtitle } }
    %            		 }
    %            	}
-%   	scoreTitleMarkup = %% le titre qui est le premier défini passe à gauche, donc dans le cas ci-dessus, la piece.
-%      		  \markup {  %% Si l'opus était le premier défini, il serait placé à gauche. j'ai fait les essais.
-%                	\fill-line {
-%                		\left-align {
-%                		\raise #0	% ajouté par fr Raf: permet de mettre de l'espace avec la portée, si besoin
-%				\hspace #8.0 
-%				\fromproperty #'header:piece	
-%			}
-%               		 	\right-align {
-                		\raise #0	% ajouté par fr Raf: permet de mettre de l'espace avec la portée, si besoin
-%				\hspace #8.0 
-%				\large { \bold { \fromproperty #'header:opus } }	
-%			}
-%		}}
+   
+%% Ci-dessous, deux nouvelles variables pour la variable "titres" à mettre dans \header comportant arg1 (=opus) et arg2 (=piece)
+%% C'est le plus simple pour l'utilisation. S'il n'y a pas d'arg2 (de pièce à inscrire), mettre toujours ""
+
+       titres-hspace = #8		% pour décaler les titres (arg1 et arg2)
+       scoreTitleMarkup = \markup { \column {
+         \on-the-fly #print-all-headers { \bookTitleMarkup \hspace #1 }
+         \fromproperty #'header:titres		% titres, (à la place de opus et piece)
+               }
+       }   
 }
+
 
 \header {
                tagline=""
