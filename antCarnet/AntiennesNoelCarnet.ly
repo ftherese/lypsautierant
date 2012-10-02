@@ -5,16 +5,16 @@
 \markup {
 	\fill-line{\line{"NATIVITE DU SEIGNEUR"}}}
 \markup {}
-\score {\relative f'  { 
+\score { \relative f'  {
+	\label #'a
 		a4
 	}
 	\addlyrics {
 
 	}
 	\header {
-		piece = "Premières vêpres (Latin)"
-		opus = "G 100" }
-	} 
+		titres = \markup \ant #'a "G 100" "Premières vêpres (Latin)" }
+} 
 \markup {}
 \markup {}
 \markup {}
@@ -38,7 +38,8 @@
 \markup {}
 \markup {}
 
-\score {\relative f'  { 
+\score {\relative f'  {
+	\label #'b
 		\times 2/3 { g8[ d f] }
 		g16[ a g g]
 		\times 2/3 { a8[ g a] } a4
@@ -64,24 +65,23 @@
 	 _ _ "[Ton 8]"
 	}
 	\header {
-		piece = "Premières vêpres (Français)"
-		opus = "G 101" }
-	} 
+		titres = \markup \ant #'b "G 101" "Premières vêpres (Français)" }
+} 
 	
 % \pageBreak
 
 
 
-\score {\relative f'  { 
+\score {\relative f'  {
+	\label #'c
 		a4
 	}
 	\addlyrics {
 
 	}
 	\header {
-		piece = "Premières vêpres (Latin)"
-		opus = "G 110" }
-	} 
+		titres = \markup \ant #'c "G 110" "Jour de Noël (Latin)" }
+} 
 
 \markup {}
 \markup {}
@@ -103,6 +103,7 @@
 \markup {}
 
 \score {\relative f'  { 
+	\label #'d
 	\key f \major
 		f8[ g] \times 2/3 { a4\( g8\) }
 		a8[ bes] a4 \cesure
@@ -137,15 +138,15 @@
 	 _ _ "[Ton 1]"
 	}
 	\header {
-	piece = "Jour de Noël (Français)"	
-	opus = "G 111" }
-	} 
+		titres = \markup \ant #'d "G 111" "Jour de Noël (Français)" }
+} 
 
 %\pageBreak
 
 \markup {
 	\fill-line{\line{ "OCTAVE DE LA NATIVITE"}}}
-\score {\relative f'  { 
+\score {\relative f'  {
+	\label #'e
 		r8 f8
 		g8[\( a\)] g8[ g] f4 \cesure
 		g8[ a]
@@ -160,23 +161,23 @@
 		\times 2/3 { g8[\( a\) a] }
 		g4\( g8\) r8
 		\endBar
-		\stemOff \espace g4 a4 c4 
+		\stemOff \espace g4 a4 c4-\markup \ref "(Jn 1)" 
 		\endBar 
 	}
 	\addlyrics {
 		Le Ver -- be "s'est" fait chair, et il a de -- meu -- ré par -- mi nous,  
 		nous av -- ons con -- tem -- plé sa gloi - - "re ;" 
 		Al - le - lu -- ia, al - le -- lu -- "ia !"  _ _
-%(Jn 1)
 	 "[Ton 8]"
 	}
 	\header {
-		opus = "G 120" }
-	} 
+		titres = \markup \ant #'e "G 120" "" }
+} 
 
 \markup {
 	\fill-line{\line{"DEUXIEME DIMANCHE DE NOEL"}}}
 \score {\relative f'  {
+	\label #'f
 	\key f \major
 		r8. f16
 		f16[\( f\) g e]
@@ -192,22 +193,23 @@
 		f8[ d] c8[ d] d4
 		
 		\endBar
-		\stemOff \espace f4 g4 a4
+		\stemOff \espace f4 g4 a4-\markup \ref "(Jn 1)"
 		\endBar 
 	}
 	\addlyrics {
 		Le Ve -- rbe "s'est" fait chair et il a de -- meu -- ré par -- mi "nous ;" 
 		à tous ceux qui le re -- çoi -- vent, il a don -- né pou -- voir de de -- ve -- nir enf -- ants de Dieu. 
 	 _ _ "[Ton 1]"
-% 		(Jn 1)
+
 	}
 	\header {
-		opus = "G 200" }
-	} 
+		titres = \markup \ant #'f "G 200" "" }
+} 
 
 \markup {
 	\fill-line{\line{"LA SAINTE FAMILLE"}}}
-\score {\relative f'  { 
+\score {\relative f'  {
+	\label #'g
 		r8 g8 g8[ d'] d4\cesure
 		d8[ d] \slurDashed c4(  \times 2/3 { d8[)\( f\) e] }
 		d8[\( d\)] \cesure
@@ -220,22 +222,21 @@
 		c8[ b] 
 		a8[\( b\)] c8[\( b\)] g4
 		\endBar \espace
-		\stemOff c'4 b4 c4
+		\stemOff c'4 b4 c4-\markup \ref "(Lc 2)"
 		\endBar 
 	}
 	\addlyrics {
 		A Bet -- hlé -- em, les ber -- gers vin -- rent en hâ -- te, 
 		ils tro -- uvè -- rent Mar -- ie et Jo- _ -- seph, 
 		et le nou -- veau- -- né, le Sau -- veur, cou -- ché dans un -- e crè- _ -- che.
-%		 (Lc 2)
 	 _ _ "[Ton 7]"
 	}
 	\header {
-	piece = "Benedictus"	
-	opus = "G 300" }
-	} 
+		titres = \markup \ant #'g "G 300" "Benedictus" }
+} 
 
-\score {\relative f'  { 
+\score {\relative f'  {
+	\label #'h
 		r8 g8 g4
 		\times 2/3 { f8[ d e] }
 		\times 2/3 { f4\( g8\) }
@@ -247,23 +248,23 @@
 		\times 2/3 { g8[ a c] } 
 		\times 2/3 { a8[ b a] } g4
 		\endBar
-		\stemOff \espace g4 a4 c4
+		\stemOff \espace g4 a4 c4-\markup \ref "(Mt 2)"
 		\endBar 
 	}
 	\addlyrics {
 		Jos -- eph prit av -- ec lui "l'en" -- fant et sa mè -- re, et vint s'é -- tab -- lir dans un -- e vil -- le de Ga -- li -- lée ap -- pe -- lée Na -- za -- reth. 
-	% (Mt 2)
 	 _ _ "[Ton 8]"
 	}
 	\header {
-	piece = "Magnificat"	
-	opus = "G 301" }
-	} 
+		titres = \markup \ant #'h "G 301" "Magnificat" }
+} 
 
 \markup {
 	\fill-line{\line{ "SAINTE MARIE, MERE DE DIEU (1er janvier)"}}}
 	\score {\transpose c f, {
-	\relative f'  { \key a\minor
+	\relative f'  {
+	\label #'i
+		\key a\minor
 		r8 c'8
 		\times 2/3 { b8[ c d] }
 		d16[ c d e]
@@ -282,11 +283,11 @@
 	_ _ _ "[Ton 1 " " ou Per.]"
 	 	}}
 	\header {
-		piece = "Benedictus"
-		opus = "G 400" }
-	}
+		titres = \markup \ant #'i "G 400" "Benedictus" }
+}
 
-\score {\relative f'  { 
+\score {\relative f'  {
+	\label #'j
 		\times 2/3 { f8[ f d] }
 		d8[\( c\)] f8[ f]
 		\times 2/3 { f8[\( g f]\) } f4\cesure
@@ -309,13 +310,13 @@
 	 _ _ "[Ton 6]"
 	}
 	\header {
-		piece = "Magnificat"
-		opus = "G 401" }
-	} 
+		titres = \markup \ant #'j "G 401" "Magnificat" }
+} 
 
 \markup {
 	\fill-line{\line{ "EPIPHANIE DU SEIGNEUR"}}}
 \score {\relative f'  { 
+	\label #'k
 		\times 2/3 { r8\( g[ d']\) }
 		b8[\( c\)] \cesure
 		\times 2/3 { d8[ e d] } d4 \cesure
@@ -329,22 +330,21 @@
 		\times 2/3 { a8[\( b\) g] }
 		g4
 		\endBar \espace
-		\stemOff c'4 b4 c4
+		\stemOff c'4 b4 c4-\markup \ref "(Is 60)"
 		\endBar 
 	}
 	\addlyrics {
 		Lè -- ve- -- toi -, _Jé -- ru -- sa -- "lem !" Sois " il" -- lu -- mi -- "née !" 
 		Car voi -- ci ta lu -- miè- _ -- re, 
 		et sur toi se lè -- ve la glo -- ire du- _ -- Seig -- neur.
-% (Is 60)
 	 _ _ "[Ton 7]"
 	}
 	\header {
-		piece = "Benedictus"
-		opus = "G 500" }
-	}
+		titres = \markup \ant #'k "G 500" "Benedictus" }
+}
 
 \score {\relative f'  { 
+	\label #'l
 		\times 2/3 { r8_\( f[ g]\) }
 		\times 2/3 { a8[ g a] }
 		\times 2/3 { a4\( g8\) }
@@ -358,24 +358,23 @@
 		g8[ \cesure a] f8[ a]
 		g4\( g8\) r8
 		\endBar \espace
-		\stemOff g4 a4 c4
+		\stemOff g4 a4 c4-\markup \ref "(Mt 2)"
 		\endBar 
 	}
 	\addlyrics {
 		A la vue de l'é -- toi -- le, les ma -- ges fur -- ent trans- _ -- por -- tés de "joie ;"  
 		ay -- ant tro -- uvé l'en -- fant a -- vec Ma -- rie sa mè -- re, 
-		se pros -- ter -- nant, ils l'a -- do -- rè -- rent.
-%		(Mt 2)	
+		se pros -- ter -- nant, ils l'a -- do -- rè -- rent.	
 	 _ _ "[Ton 8]"
 	}
 	\header {
-		piece = "Magnificat"
-		opus = "G 501" }
-	} 
+		titres = \markup \ant #'l "G 501" "Magnificat" }
+} 
 
 \markup {
 	\fill-line{\line{ "BAPTEME DU SEIGNEUR"}}}
 \score {\relative f'  { 
+	\label #'m
 		\times 2/3 { a8[ a a] }
 		a16[ g a a] d,4
 		r8 d8 e4 \cesure
@@ -390,24 +389,23 @@
 		
 		\endBar
 		
-		\stemOff \espace f4 g4 a4
+		\stemOff \espace f4 g4 a4-\markup \ref "(Mt 3)"
 		\endBar 
 	}
 	\addlyrics {
 		Jean pro -- cla -- ma dans le dé -- "sert :" «_Pour moi, je vous ba -- pti -- se dans l'eau, 
 		mais il vient " ce" -- lui qui est plus puis -- sant que "moi ;" 
 		lui vous bap -- ti -- se -- ra dans l'Es -- prit- -- Saint et le feu._»
-% (Mt 3)
 	 _ _ "[Ton 1]"
 	}
 	\header {
-		piece = "Benedictus"
-		opus = "G 600" }
-	}
+		titres = \markup \ant #'m "G 600" "Benedictus" }
+}
 
 	
 %nouvelle mais pas trop belle
 	\score {\relative f'  { 
+		\label #'n
 		\times 2/3 { r8\( c'[ c]\) }
 		\times 2/3 { c8[ d e] } e8.[ e16]
 		d16[ d c d] b4
@@ -424,39 +422,36 @@
 		\times 2/3 { c8[ d e] } d4
 		\endBar 
 		\espace 
-		\stemOff g,4 a4 c4
+		\stemOff g,4 a4 c4-\markup \ref "(Mt 3)"
 		\endBar 
 	}
 	\addlyrics {
 		Ba -- pti -- sé au Jour -- dain, Jé -- sus sor -- tit des eaux. Al -- ors les cieux "s'ou" -- vri -- rent et l'Es -- prit des -- cen -- dit sur lui com -- me une co -- lom -- be. Un -- e voix ve -- nue des cieux di -- "sait :" «_Cel -- ui -- -ci est mon Fils, mon bien- -- ai -- mé._» A -- lle -- lu -- "ia !"  
-% (Mt 3)
 	 _ _ "[Ton 3]"
 	}
 	\header {
-		piece = "Magnificat"
-		opus = "G 601" }
-	}
+		titres = \markup \ant #'n "G 601" "Magnificat" }
+}
 	
 
 
 \score {\relative f'  { 
+	\label #'o
 		r8 f f[ d] \times 2/3 { f4\( e8\) }
 		\times 2/3 { e8[\( g\) a] } a4
 		g16[ a\( c\) c]  \times 2/3 { c4\( c8\) } \cesure
 		\times 2/3 { g8[ a g] }
 		f8[ g] e4
 		\endBar
-		\stemOff \espace a4 a a
+		\stemOff \espace a4 a a-\markup \ref "(Mt 3)"
 		\endBar 
 	
 	}
 	\addlyrics {
-		J'ai vu l'Es -- prit des -- cen -- dre du ciel comme u -- ne co -- lom -- be, et de -- meu -- rer sur lui. 
-% (Mt 3)
+		J'ai vu l'Es -- prit des -- cen -- dre du ciel comme u -- ne co -- lom -- be, et de -- meu -- rer sur lui.
 	 _ _ "[Ton 4]"
 	}
 	\header {
-		piece = "Magnificat"
-		opus = "G 601" }
-	}
+		titres = \markup \ant #'o "G 601" "Magnificat" }
+}
 

@@ -35,9 +35,7 @@
 	 _ _ "[Ton 1]" 
 	}
 	\header {
-		titres = \markup \ant #'a "F 100" "Benedictus"	% S'il n'y avait pas arg2 (ici, Benedictus) garder les ""
-	}
-  	
+		titres = \markup \ant #'a "F 100" "Benedictus" }	% S'il n'y avait pas arg2 (ici, Benedictus) garder les ""
 } 
 
 
@@ -63,22 +61,19 @@
 	\addlyrics {
 		Il vient vers nous, le Dieu vé -- ri -- ta -- \skip 1 ble. 
 		Il re -- vêt en Ma -- rie la chair du pre -- mier Ad -- am.
-		_ _ "[Ton 2]" 
-		
+		_ _ "[Ton 2]" 	
 	}
 	\header {
-		titres = \markup \ant #'b "F 110" "Magnificat"
-	}
-  	
+		titres = \markup \ant #'b "F 110" "Magnificat" }
 } 
 
 
-	\markup {
-      		\fill-line{
-                       	\line{ "DEUXIEME DIMANCHE DE L'AVENT"}}
-	}
+\markup {
+      	\fill-line{
+      	\line{ "DEUXIEME DIMANCHE DE L'AVENT"}}
+        }
 	
-	\score {
+\score {
 	\relative f' { 
 		\label #'c
 		\key f \major
@@ -99,13 +94,10 @@
 	\addlyrics {
 		Un -- e voix pro -- cla -- "me :" «_Pré -- pa -- rez dans le dés -- ert le che -- min du Seig -- neur, 
 		et ren -- dez droits les sen -- tiers de not -- re Dieu._» Al -- le -- \skip 1 lu -- \skip 1 "ia !"
-		_ _  "[Ton 1]"
-		
+		_ _  "[Ton 1]"	
 	}
-
   	\header {
-  		titres = \markup \ant #'c "F 200" "Benedictus"
-	}
+  		titres = \markup \ant #'c "F 200" "Benedictus" }
 } 
 
 
@@ -137,14 +129,12 @@
 		_ _ "[Ton 2]"
 	}
 	\header {
-		titres = \markup \ant #'d "F 210" "Magnificat"
-	}
-  	
+		titres = \markup \ant #'d "F 210" "Magnificat" } 	
 } 
 
-	\markup {
-      		\fill-line{
-                       	\line{"TROISIEME DIMANCHE DE L'AVENT"}}
+\markup {
+      	\fill-line{
+      	\line{"TROISIEME DIMANCHE DE L'AVENT"}}
 	}
 	
 	\score {
@@ -175,12 +165,9 @@
 		Al -- le -- \skip 1 lu -- \skip 1 "ia !"
 		_ _ "[Ton 1]"
 	}
-
   	\header {
-  		titres = \markup \ant #'e "F 300" "Benedictus"
-	}
-} 
-
+  		titres = \markup \ant #'e "F 300" "Benedictus" }
+}
 
 
 
@@ -205,20 +192,17 @@
 	\addlyrics {
 		Ré -- jou -- is- -- toi, Fi -- lle de Si -- "on :" le Roi "d'Is" -- ra -- ël, le Seig -- neur, est en toi. Il te re -- nou -- vel -- le -- ra dans son am -- our.
 		_ _ "[Ton 2]"
-
 	}
 	\header {
-		titres = \markup \ant #'f "F 310" "Magnificat"
-	}
-  	
+		titres = \markup \ant #'f "F 310" "Magnificat" }	
 } 
 
 
 \pageBreak
 
-	\markup {
-      		\fill-line{
-                       	\line{"QUATRIEME DIMANCHE DE L'AVENT"}}
+\markup {
+      	\fill-line{
+      	\line{"QUATRIEME DIMANCHE DE L'AVENT"}}
 	}
 	
 	\score {
@@ -250,10 +234,8 @@
 		Ô - _Mar -- ie, tu es le Pa -- ra -- dis nou -- veau et la ter -- re pro -- mi -- "se :" en toi le Sol -- eil a é -- ta -- bli sa de -- meu -- re. Al -- le -- \skip 1 lu -- \skip 1 "ia !"
 		_ _ "[Ton 1]"
 	}
-
   	\header {
-  		titres = \markup \ant #'g "F 400" "Benedictus"
-	}
+  		titres = \markup \ant #'g "F 400" "Benedictus" }
 } 
 
 
