@@ -28,8 +28,8 @@
 		\endBar
 		\stemOff g4 a c-\markup \ref "(Mt 28)"
 		\endBar 
-	}
-	\addlyrics { \set stanza = # "(A.B.C) "
+	}	
+	\addlyrics { \set stanza = # "(A.B.C)"
 	L'an -- ge du Sei -- gneur de -- scen -- dit du ciel et vint 
 	rou -- ler la pie -- rre du tom -- "beau :" 
 	«_Ne crai -- gnez point, dit- -- il aux fem -- mes, 
