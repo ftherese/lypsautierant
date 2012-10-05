@@ -3,14 +3,11 @@
 
 
 
-\markup {
-      		\fill-line{
-                       	\line{"PREMIER DIMANCHE DE L'AVENT"}}
-	}
-
+\markup { \fill-line {
+	\line{"PREMIER DIMANCHE DE L'AVENT"}}}
+\label #'a	
 \score {
-	\relative f'  { 
-		\label #'a
+	\relative f'  {
 		\key f \major
 		r8 d8 a'8[ bes]
 		\times 2/3 { a8[ bes c] }
@@ -39,10 +36,9 @@
 } 
 
 
-
+\label #'b
 \score {
-	\relative f' { 
-		\label #'b
+	\relative f' {
 		r8 d8 
 		d8[ g] \times 2/3 { f4\( e8\) }
 		\times 2/3 { c8[ d d] }
@@ -70,12 +66,10 @@
 
 \markup {
       	\fill-line{
-      	\line{ "DEUXIEME DIMANCHE DE L'AVENT"}}
-        }
-	
+      	\line{ "DEUXIÈME DIMANCHE DE L'AVENT"}}}
+\label #'c
 \score {
-	\relative f' { 
-		\label #'c
+	\relative f' {
 		\key f \major
 		d8[\( a'\)] bes8[ a]
 		\times 2/3 { bes4\( c8\) }
@@ -102,10 +96,9 @@
 
 
 
-
+\label #'d
 \score {
 	\relative f' {
-		\label #'d
 		\times 2/3 { d8[\( d\) g] }
 		f8[ e] c8[ d]
 		\times 2/3 { d4\( e8\) }
@@ -132,14 +125,13 @@
 		titres = \markup \ant #'d "F 210" "Magnificat" } 	
 } 
 
+
 \markup {
       	\fill-line{
-      	\line{"TROISIEME DIMANCHE DE L'AVENT"}}
-	}
-	
-	\score {
+      	\line{"TROISIÈME DIMANCHE DE L'AVENT"}}}
+\label #'e
+\score {
 	\relative f' {
-		\label #'e
 		\key f \major
 		\times 2/3 { d8[ a' bes] }
 		\times 2/3 { a8[ bes c] }
@@ -170,10 +162,9 @@
 }
 
 
-
+\label #'f
 \score {
 	\relative f' {
-		\label #'f
 		r8 d8	
 		d8[ g] f4\cesure
 		e16[\( c\) d d]
@@ -198,16 +189,15 @@
 } 
 
 
-\pageBreak
+%\pageBreak
+
 
 \markup {
       	\fill-line{
-      	\line{"QUATRIEME DIMANCHE DE L'AVENT"}}
-	}
-	
-	\score {
+      	\line{"QUATRIÈME DIMANCHE DE L'AVENT"}}}
+\label #'g
+\score {
 	\relative f' {
-		\label #'g
 		\key f \major
 		\times 2/3 { d8[\( a'\) bes] }
 		\stemUp	
