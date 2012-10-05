@@ -14,12 +14,12 @@
 	#'((padding . 0)
 	   (basic-distance . 2))
 	markup-system-spacing =		% ajouté par fr Raf
-	#'((padding . 0)		% détermine l’espacement entre un titre ou un markup de premier niveau,
-	   (basic-distance . 0)		% et le système qui le suit.
-	   (minimum-distance . 0)	% Il faut mieux peut être laisser le padding à 0
+	#'((padding . 0.2)		% détermine l’espacement entre un titre ou un markup de premier niveau,
+	   (basic-distance . 0.2)		% et le système qui le suit.
+	   (minimum-distance . 0)
 	   (stretchability . 0))
 	score-markup-spacing =		% ajouté par fr Raf
-	#'((padding . 3.5)		% détermine l’espacement entre le dernier système
+	#'((padding . 4)		% détermine l’espacement entre le dernier système
 	   (basic-distance . 0)		% et le titre ou markup de haut niveau qui le suit.
 	   (minimum-distance . 0)	% C'est bien de mettre une valeur positive au padding. Il pourrait encore être un peu augmenté ?
 	   (stretchability . 0))
@@ -29,7 +29,7 @@
 	   (stretchability . 0) 
 	   (basic-distance . 0))
 	page-breaking-system-system-spacing =	%% ajouté par fr Raf et très important, ça concerne la gestion des sauts de page				 %%
-	#'((padding . 0)			%% Si ce padding est supérieur à celui de system-system-spacing			 		 %%
+	#'((padding . 0.1)			%% Si ce padding est supérieur à celui de system-system-spacing			 		 %%
 	   (minimum-distance . 0) 		%% alors il y aura moins de systèmes sur une page. Je l'ai mis à 0.				 %%
 	   (stretchability . 0) 		%% C'est ce qui a résolu le gros blanc sur l'essaie que j'ai fait du Magnificat			 %%
 	   (basic-distance . 0))   		%% et de même aussi les blancs entre les antiennes d'invitatoire et les antiennes sur ce fichier.%%
@@ -126,7 +126,6 @@
 %		\override BarLine #'space-alist = #'( (left-edge extra-space . 5.0) ) 
 	}
 	\context {
-		
     		\Staff
 		\override VerticalAxisGroup #'default-staff-staff-spacing = 
 		  #'((basic-distance . 0) 
@@ -134,7 +133,7 @@
 		    (stretchability . 0) 
 		    (padding . 0)) 
 		\remove "Time_signature_engraver"
-%		packed-spacing = ##t
+		\override SpacingSpanner #'packed-spacing = ##t
 		
 %%%%%%%%%%%%%%%		
 		%		\override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
