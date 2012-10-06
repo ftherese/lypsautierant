@@ -66,7 +66,7 @@
 
 \markup {
       	\fill-line{
-      	\line{ "DEUXIÈME DIMANCHE DE L'AVENT"}}}
+      	\line{ "DEUXIEME DIMANCHE DE L'AVENT"}}}
 \label #'c
 \score {
 	\relative f' {
@@ -128,7 +128,7 @@
 
 \markup {
       	\fill-line{
-      	\line{"TROISIÈME DIMANCHE DE L'AVENT"}}}
+      	\line{"TROISIEME DIMANCHE DE L'AVENT"}}}
 \label #'e
 \score {
 	\relative f' {
@@ -144,8 +144,6 @@
 		g8[ g16\( a]\)
 		\times 2/3 { f4\( e8\) } d4
 		\endBar	
-
-				%\espace 
 		\noBreak
 		\stemOff f4 g4 a4
 		\endBar	
@@ -170,10 +168,13 @@
 		e16[\( c\) d d]
 		\times 2/3 { f4\(\cesure f8\) }
 		\times 2/3 { f8[ f e] }
-		\times 2/3 { c8[\cesureTresBasse e c] }
+		\times 2/3 { c8[\cesureTresBasse \espace e c] }
 		\times 2/3 { d8[\cesureTresBasse d d] } f4 \cesure
+		\espace
 		g16[ f e c]
-		c8[ d] f8[ g] f8[ d] d4
+		c8[ d] f8[ g]
+		\ifIndent
+		f8[ d] d4
 		\endBar
 		\espace
 		\stemOff c4 d4 f4-\markup \ref "(Cf. So)"
@@ -189,12 +190,9 @@
 } 
 
 
-%\pageBreak
-
-
 \markup {
       	\fill-line{
-      	\line{"QUATRIÈME DIMANCHE DE L'AVENT"}}}
+      	\line{"QUATRIEME DIMANCHE DE L'AVENT"}}}
 \label #'g
 \score {
 	\relative f' {
