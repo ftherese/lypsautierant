@@ -51,9 +51,7 @@
 		titres = \markup \ant #'b "G 101" "Premières vêpres (Français)" }
 } 
 
-
-%\pageBreak
-
+\pageBreak
 
 \label #'c
 \score {\relative f'  {
@@ -66,7 +64,7 @@
 		titres = \markup \ant #'c "G 110" "Jour de Noël (Latin)" }
 } 
 
-%\pageBreak
+\pageBreak
 
 \label #'d
 \score {\relative f'  { 
@@ -78,7 +76,8 @@
 		f8[ g]
 		\times 2/3 { a8[ a a] }
 		\times 2/3 { a8[\( g\) bes] }
-		a8[\( g\)] \ifIndent
+		\ifIndent
+		a8[\( g\)]
 		\times 2/3 { a4\( a8\) }
 		a8[ a]
 		\times 2/3 { g8[\( bes\) a] }
@@ -99,15 +98,12 @@
 		Auj -- "ourd'" -- hui le Christ est né, auj -- ourd' -- hui le Sau -- veur est ap -- pa -- "ru ;" 
 		auj -- ourd' hui sur la ter -- re les an -- ges chan -- tent, les arc -- han -- ges se ré -- jou -- iss -- ent. 
 		Auj -- ourd' -- hui les saints e -- xul -- tent en chan -- "tant :" 
-		Gloire à Dieu au plus haut- _ -- _des cieux. Al -- le - lu -- "ia !"
+		Gloire à  Dieu au plus haut- _ -- _des cieux. Al -- le - lu -- "ia !"
 	 _ _ "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'d "G 111" "Jour de Noël (Français)" }
 } 
-
-%\pageBreak
-
 
 
 \markup {
@@ -142,11 +138,10 @@
 		titres = \markup \ant #'e "G 120" "" }
 } 
 
-%\pageBreak
-
+\pageBreak
 
 \markup {
-	\fill-line{\line{"DEUXIÈME DIMANCHE DE NOËL"}}}
+	\fill-line{\line{"DEUXIEME DIMANCHE DE NOEL"}}}
 \label #'f
 \score {\relative f'  {
 	\key f \major
@@ -169,7 +164,7 @@
 	}
 	\addlyrics {
 		Le Ve -- rbe "s'est" fait chair et il a de -- meu -- ré par -- mi "nous ;" 
-		à tous ceux qui le re -- çoi -- vent, il a don -- né pou -- voir de de -- ve -- nir enf -- ants de Dieu. 
+		à  tous ceux qui le re -- çoi -- vent, il a don -- né pou -- voir de de -- ve -- nir enf -- ants de Dieu. 
 	 _ _ "[Ton 1]"
 
 	}
@@ -213,11 +208,12 @@
 		\times 2/3 { f8[ d e] }
 		\times 2/3 { f4\( g8\) }
 		\times 2/3 { a8[ a g] }
-		\times 2/3 { g8[\( g\) \cesure g] }
+		\times 2/3 { g8[\( g\) \cesureBasse g] }
 		\times 2/3 { f8[ a c] }
 		d16[ c c\( b\)]
 		c16[\( c\) d c b ]
-		\times 2/3 { g8[ a c] } 
+		\times 2/3 { g8[ a c] }
+		\ifIndent
 		\times 2/3 { a8[ b a] } g4
 		\endBar
 		\stemOff \espace g4 a4 c4-\markup \ref "(Mt 2)"
@@ -233,7 +229,7 @@
 
 
 \markup {
-	\fill-line{\line{ "SAINTE MARIE, MÈRE DE DIEU (1er janvier)"}}}
+	\fill-line{\line{ "SAINTE MARIE, MERE DE DIEU (1er janvier)"}}}
 \label #'i
 \score {\transpose c f, {
 	\relative f'  {
@@ -243,6 +239,7 @@
 		d16[ c d e]
 		d8[ d] e8[ f]
 		e8[\( d\)] d8[\( c\)] c4
+		\espace
 		r8 g8
 		a8[ a] d8[ d]
 		g,16[ a c c] a4
@@ -264,12 +261,14 @@
 		\times 2/3 { f8[ f d] }
 		d8[\( c\)] f8[ f]
 		\times 2/3 { f8[\( g f]\) } f4 \cesure
+		\espace
 		\times 2/3 { f8[ g f] }
 		\times 2/3 { g8[ f a] }
 		\times 2/3 { bes8[ a g] } g4 \cesure
+		\espace
 		\times 2/3 { f8[ f f] }
 		g8[ a] g8[ a]
-		\slurDashed a4( \times 2/3 { c8[) a g] } \ifIndent
+		\slurDashed a4( \times 2/3 { \ifIndent c8[) a g] }
 		a8[ f] f4 \cesure
 		\times 2/3 { g8[\( a\) f] }
 		g8[\( a\)] g4
@@ -286,23 +285,26 @@
 		titres = \markup \ant #'j "G 401" "Magnificat" }
 } 
 
-%\pageBreak
-
+\pageBreak
 
 \markup {
-	\fill-line{\line{ "ÉPIPHANIE DU SEIGNEUR"}}}
+	\fill-line{\line{ "EPIPHANIE DU SEIGNEUR"}}}
 \label #'k
 \score {\relative f'  {
 		\times 2/3 { r8\( g[ d']\) }
 		b8[\( c\)] \cesure
+		\espace
 		\times 2/3 { d8[ e d] } d4 \cesure
 		d16[ e d c] d4 \cesure
 		c8[ c]
 		\times 2/3 { d8[ c b] }
-		g8[\( a\)] g4 
+		g8[\( a\)] g4
+		\espace
 		\times 2/3 { r8_\( g[ a]\) }
 		\times 2/3 { g4\( g8\) }
-		\times 2/3 { d'8[\( d\) e] } c8[\( c\)] \ifIndent
+		\times 2/3 { d'8[\( d\) e] }
+		\ifIndent
+		c8[\( c\)]
 		\times 2/3 { a8[\( b\) g] }
 		g4
 		\endBar \espace
@@ -312,7 +314,7 @@
 	\addlyrics {
 		Lè -- ve- -- toi -, _Jé -- ru -- sa -- "lem !" Sois " il" -- lu -- mi -- "née !" 
 		Car voi -- ci ta lu -- miè- _ -- re, 
-		et sur toi se lè -- ve la glo -- ire du- _ -- Seig -- neur.
+		et sur toi se lè -- ve la glo -- ire du- _ -- _Seig -- neur.
 	 _ _ "[Ton 7]"
 	}
 	\header {
@@ -328,10 +330,11 @@
 		\times 2/3 { a8[\( g\) f] }
 		g8[ a] g4
 		r8 g8 c8[ d] b8[ c]
-		a16[ c c a] c8[ b] \ifIndent
+		\ifIndent
+		a16[ c c a] c8[ b]
 		\times 2/3 { g4\( g8\) } \cesure
 		\times 2/3 { f8[ g a] }
-		g8[ \cesure a] f8[ a]
+		g8[ \cesureBasse a] f8[ a]
 		g4\( g8\) r8
 		\endBar \espace
 		\stemOff g4 a4 c4-\markup \ref "(Mt 2)"
@@ -349,7 +352,7 @@
 
 
 \markup {
-	\fill-line{\line{ "BAPTÊME DU SEIGNEUR"}}}
+	\fill-line{\line{ "BAPTEME DU SEIGNEUR"}}}
 \label #'m
 \score {\relative f'  { 
 		\times 2/3 { a8[ a a] }
@@ -384,18 +387,24 @@
 \label #'n
 	\score {\relative f'  {
 		\times 2/3 { r8\( c'[ c]\) }
-		\times 2/3 { c8[ d e] } e8.[ e16]
+		\times 2/3 { c8[ d e] } e8.[ \espace e16]
 		d16[ d c d] b4
+		\espace
 		r8 a8 c16[ c c b]
 		c8[\( c\)]
+		\espace
 		\times 2/3 { r8\( e[ e]\) }
-		e16[ e e e c] \ifIndent
+		\ifIndent
+		e16[ e e e c]
 		\slurDashed d4( c16[) d\( e\) c]
-		a8[\( a\)] \cesure a8[\( d\)]
+		a8[\( a\)] \cesure \espace a8[\( d\)]
 		d8[ d] c8[ b] a8[ a] c4
 		\times 2/3 { r8\( d[ d]\) }
-		\times 2/3 { d8[ e c] } d4 \cesure
-		\times 2/3 { c8[ b g] } a4 \cesure \ifIndent
+		\times 2/3 { d8[ e c] }
+		\ifIndent
+		d4 \cesure
+		\times 2/3 { c8[ b g] } a4 \cesure
+		\espace
 		\times 2/3 { c8[ d e] } d4
 		\endBar 
 		\espace 

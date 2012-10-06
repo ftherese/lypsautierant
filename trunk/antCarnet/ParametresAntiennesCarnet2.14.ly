@@ -19,9 +19,9 @@
 	   (minimum-distance . 0)
 	   (stretchability . 0))
 	score-markup-spacing =		% ajouté par fr Raf
-	#'((padding . 4)		% détermine l’espacement entre le dernier système
+	#'((padding . 3.8)		% détermine l’espacement entre le dernier système
 	   (basic-distance . 0)		% et le titre ou markup de haut niveau qui le suit.
-	   (minimum-distance . 0)	% C'est bien de mettre une valeur positive au padding. Il pourrait encore être un peu augmenté ?
+	   (minimum-distance . 0)	% C'est bien de mettre une valeur positive au padding.
 	   (stretchability . 0))
 	system-system-spacing = 	% détermine, de fait, l'espacement entre les portées des antiennes
 	#'((padding . 1) 
