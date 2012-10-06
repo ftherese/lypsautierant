@@ -237,7 +237,7 @@ stemOff = {
 	(ref layout props text) (markup?)
 	"référence bibiliques en dessous de la portée."
 		(interpret-markup layout props		  
-		(markup #:halign -2.2  #:teeny text )))
+		(markup #:halign -2  #:teeny text )))
 	% On peut avec halign déplacer horizontalement la référence					
 	% On peut grossir la référence en remplaçant teeny par tiny si nécessaire
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
