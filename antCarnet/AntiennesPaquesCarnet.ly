@@ -3,7 +3,7 @@
 
 
 \markup {
-	\fill-line {\line { "PREMIER DIMANCHE DE PÂQUES" }}}
+	\fill-line {\line { "PREMIER DIMANCHE DE PAQUES" }}}
 \label #'a
 \score {\relative f'  { 
 		d16[\( a'\) a a]
@@ -16,8 +16,10 @@
 		r8. d,16
 		a'16[ a a b]  c8[ b]
 		a16[ g c b]  a4 \cesure
+		\espace
 		a16[ a d c]  d4 \cesure
-		\times 2/6 { a16[ g f g e f] }\ifIndent	d4 
+		\ifIndent
+		\times 2/6 { a16[ g f g e f] }	d4 
 		\times 2/3 { f8[\( g\) a] } 
 		g4  \cesure
 		a16[ c d d]  a4
@@ -45,7 +47,7 @@
 
 
 \markup {
-	\fill-line {\line { "DEUXIÈME DIMANCHE DE PÂQUES" }}}
+	\fill-line {\line { "DEUXIEME DIMANCHE DE PAQUES" }}}
 \label #'b	
 \score {\relative f'  { 
 		r8. c'16
@@ -54,9 +56,9 @@
 		\times 2/3 { a8[\( a\) g] }
 		a8[ b] a4 \cesure
 		g8[ a] 
-		c16[ \cesure c c d] c4 \ifIndent
+		c16[ \cesure c c d] c4 
 		\times 2/3 { r8_\( b[ a]\) }
-		\times 2/3 { g8[ a c] } b4
+		\times 2/3 { g8[ a c] } \ifIndent b4
 		r8 b16[ a]
 		b16[ g e g]
 		\times 2/3 { a8[ a b] } a4 \cesure
@@ -65,6 +67,7 @@
 		r8 a16[ g]
 		a8[\( c\)] b4
 		\endBar
+		\noBreak
 		\stemOff  g,4 a c-\markup \ref "(Jn 20)"
 		\endBar 
 	}
@@ -82,7 +85,7 @@
 
 
 \markup {
-	\fill-line {\line { "TROISIÈME DIMANCHE DE PÂQUES" }}}
+	\fill-line {\line { "TROISIEME DIMANCHE DE PAQUES" }}}
 \label #'c	
 \score {\relative f'  { 
 		r8 a
@@ -194,7 +197,7 @@
 
 
 \markup {
-	\fill-line {\line { "QUATRIÈME DIMANCHE DE PÂQUES" }}}
+	\fill-line {\line { "QUATRIEME DIMANCHE DE PAQUES" }}}
 \label #'f	
 \score {\transpose  c f {\relative f'  { \key c \major
 		\times 2/3 { e8[ e f] } d4 \cesure
@@ -209,6 +212,7 @@
 		\times 2/3 { r8\( f[ f]\) }
 		\times 2/3 { e8[ d e] } c4
 		\endBar
+		\noBreak
 		\stemOff c4 d e-\markup \ref "(Jn 10)"
 		\endBar 
 	}
@@ -231,7 +235,7 @@
 		\times 2/3 { e8[ d e] }\times 2/3 { c8[ b c] }
 		\times 2/3 { a4\( a8\) } \cesure
 		\times 2/3 { g8[\( g\) a] }
-		c8[\( c]\) c8[ c] a4 \ifIndent
+		c8[\( c]\) c8[ c] \ifIndent a4 
 		c16[ d e d] d8[ c]
 		\times 2/3 { d4\( d8\) } \cesure
 		c8[ b] \times 2/3 { a8[\( a\) \cesureTresBasse a] }
@@ -277,9 +281,10 @@
 		titres = \markup \ant #'h "I 402" "" }
 }
 
+\pageBreak
 
 \markup {
-	\fill-line {\line { "CINQUIÈME DIMANCHE DE PÂQUES" }}}
+	\fill-line {\line { "CINQUIEME DIMANCHE DE PAQUES" }}}
 \label #'i
 \score {\relative f' { \key f \major
 	\times 2/3 { r8_\( d[ d]\) }
@@ -364,7 +369,7 @@
 
 
 \markup {
-	\fill-line {\line { "SIXIÈME DIMANCHE DE PÂQUES" }}}
+	\fill-line {\line { "SIXIEME DIMANCHE DE PAQUES" }}}
 \label #'l	
 \score {\relative f' {
 	\times 2/3 { f8[ g a] } g4  \cesure
@@ -375,8 +380,8 @@
 	a8[ c] 
 	\times 2/3 { b4_\( g8\) } \cesure
 	\times 2/3 { c8[ c c] }
-	\ifIndent 
 	c8[ c]
+	\ifIndent 
 	c8.[ a16]
 	c16[\( b\) g a]
 	\times 2/3 { g8[ g g] }
@@ -388,6 +393,7 @@
 	\times 2/3 { a8[\( c b]\) }
 	\times 2/3 { g8[\( a g]\) } g4
 		\endBar
+		\noBreak
 		\stemOff  g4 a c-\markup \ref "(Jn 14)"
 		\endBar 
 	}
@@ -401,7 +407,7 @@
 	\header {
 		titres = \markup \ant #'l "I 600" "" }
 } 
-%{
+
 \label #'m
 \score {\relative f' {
 	r8. f16  f[\( f\) d f]
@@ -421,6 +427,7 @@
 	g8[ g]  a8[\( b\)] a4  \cesure 
 	g8[ a16\( b\)] a4 a8 r
 		\endBar
+		\noBreak
 		\stemOff f4 g a-\markup \ref "(Jn 15)"
 		\endBar 
 	}
@@ -537,7 +544,7 @@
       	\fill-line{ \line{ "TROPAIRE POUR LE TEMPS DU CENACLE" }}}
 \label #'q
 \score { \relative c''  { 
-	r16 g16[ b c] d16[ d d c] d16[\( d\)  \cesure e f]
+	r16 g16[ b c] d16[ d d c] d16[\( d\) \cesure e f]
 	\times 2/3 { g8[ f e] } d16[ d c e]
 	\times 2/3 { d4\( d8\) }
 	\cesure
@@ -557,7 +564,7 @@
 	\times 2/3 { d4\( d8\) }
 	\cesure	
 	d8[ f] 
-	g16[ \cesure e d c]
+	g16[ \cesure \espace e d c]
 	d16[\( d\) d d]
 	d16[ c e d]
 	\times 2/3 { g8[\( f\) e] } d16[\( d\) c e]
@@ -568,7 +575,7 @@
 		A -- vec Ma -- rie et les di -- sci -- ples, 
 		de -- meu -- rons é -- veil -- lés dans la pri -- è -- re, 
 		et at -- ten -- dons la for -- ce d'en haut, 
-		car il va ve -- nir, l'au -- tre Con -- so -- la -- teur, se -- lon ta pro -- mes -- se, à´ Christ. 
+		car il va ve -- nir, l'au -- tre Con -- so -- la -- teur, se -- lon ta pro -- mes -- se, ô Christ. 
 		Il il -- lu -- mi -- ne les coeurs et fait jail -- lir des sour -- ces d'eau vi -- ve_; 
 		comme un feu, il se ré -- pand sur tou -- te chair 
 		et re -- nou -- vel -- le la fa -- ce de la ter -- re.
@@ -579,7 +586,7 @@
 
 
 \markup {
-      	\fill-line { \line { "SEPTIÈME DIMANCHE DE PÂQUES" }}}
+      	\fill-line { \line { "SEPTIEME DIMANCHE DE PAQUES" }}}
 \label #'r
 \score { \relative c''  { 
 	a8[\( a\)]
@@ -701,11 +708,11 @@
 	r8 d c8[ b] a4
 	\cesure
 	a8[ c] g4
-	
 	\cesure
 	g8[\( g\)]
+	g16[ g g a]
 	\ifIndent
-	g16[ g g a] g8[ e] f8[ g] g4
+	g8[ e] f8[ g] g4
 	r8 g a8[ c] c16[\( c\) d a]
 	\times 2/3 { g8[ f g] }
 	\times 2/3 { a8[ a a] } g4
@@ -713,6 +720,7 @@
 	a8[ b] 
 	\times 2/3 { c8[\( d a]\) } g4
 	\endBar
+	\noBreak
 	\stemOff g4 a c-\markup \ref "(Jn 17)"
 	\endBar	}
 	
@@ -728,7 +736,7 @@
 
 
 \markup {
-      	\fill-line{ \line{ "PENTECÔTE" }}}
+      	\fill-line{ \line{ "PENTECOTE" }}}
 \label #'v
 \score { \transpose a d \relative c''  { 
 	\times 2/3 { a8[ c c] }
@@ -760,7 +768,7 @@
 	\header {
 		titres = \markup \ant #'v "I 800" "" }
 }
-%{
+
 \label #'w
 \score { \relative d'  { \key f \major 
 	r8 c16[ d] d8.[ f16] f16[ e d d]
@@ -779,6 +787,7 @@
 	d16[\( g\) f\( e\)] 
 	d4\( d8\) r8
 	\endBar
+	\noBreak
 	\stemOff f4 g a a a a
 	\endBar	}
 	

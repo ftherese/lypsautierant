@@ -34,7 +34,7 @@
 
 
 \markup {
-	\fill-line{\line{"PREMIER DIMANCHE DE CARÊME"}}}
+	\fill-line{\line{"PREMIER DIMANCHE DE CAREME"}}}
 \label #'b
 \score {\relative f'  { 
 		r8 g8 
@@ -78,7 +78,7 @@
 
 
 \markup {
-	\fill-line{\line{ "DEUXIÈME DIMANCHE DE CARÊME"}}}
+	\fill-line{\line{ "DEUXIEME DIMANCHE DE CAREME"}}}
 \label #'c
 \score {\relative f'  { 
 		\times 2/3 { d4\(\cesure e8\) }
@@ -113,15 +113,18 @@
 
 
 \markup {
-\fill-line{\line{"TROISIÈME DIMANCHE DE CARÊME"}}}
+\fill-line{\line{"TROISIEME DIMANCHE DE CAREME"}}}
 \label #'d
 \score {\relative f'  { 
 		\times 2/3 { g8[ d' d] } d8[ e]
 		\times 2/3 { d8[\( e\) c] } d4
 		b8[ a] c8[ c]
 		b16[ c a g] g8[ a] a8[\( a\)]
-		r8 g g16[ f f a] c8[ d] d4 \cesure
-		\ifIndent \times 2/3 { c8[ d f] }
+		r8 g g16[ f f a]
+		\ifIndent
+		c8[ d]
+		d4 \cesure 
+		\times 2/3 { c8[ d f] }
 		e8[ f] e8[ e]
 		d4\( d8\)  r
 		c8[ a]
@@ -129,10 +132,12 @@
 		\times 2/3 { d4\( \cesure c8\) }
 		\times 2/3 { c8[ d c] } 
 		g16[\( g\) g a] c8[ c]
+		\ifIndent
 		\times 2/3 { a8[ g f] }
 		g8[\( a\)] g4
 	
 		\endBar
+		\noBreak
 		\stemOff c'4 b c-\markup \ref "(Jn 4)"
 		\endBar 
 	}
@@ -194,9 +199,10 @@
 		titres = \markup \ant #'f "H 302" "" }
 }
 
+\pageBreak
 
 \markup {
-	\fill-line{\line{"QUATRIÈME DIMANCHE DE CARÊME"}}}
+	\fill-line{\line{"QUATRIEME DIMANCHE DE CAREME"}}}
 \label #'g
 \score {\relative f'  { 
 	\times 2/3 { d8[ a c]}
@@ -206,8 +212,9 @@
 	\times 2/3 { c8[ d c]} c4
 	r8 d 
 	\times 2/3 { c8[ d f]}
-	\times 2/3 { f8[\( f\) f] }
 	\ifIndent
+	\times 2/3 { f8[\( f\) f] }
+	
 	f8[\( g\)] f4
 	\times 2/3 { r8_\( d[ d]\) } e4
 	f16[ e c e] d16[ d f g]
@@ -215,6 +222,7 @@
 	\times 2/3 { c8[ f e]}
 	\times 2/3 { f8[ e d]}
 	e8[\( d\)]
+	\ifIndent
 	\times 2/3 { e8[\( f\) e] } d4
 		\endBar
 		\stemOff c4 d f-\markup \ref "(Jn 8;9)"
@@ -291,7 +299,7 @@
 
 
 \markup {
-	\fill-line{\line{"CINQUIÈME DIMANCHE DE CARÊME"}}}
+	\fill-line{\line{"CINQUIEME DIMANCHE DE CAREME"}}}
 \label #'j
 \score {\relative f'  { 
 	r8 g
@@ -351,7 +359,7 @@
 	a8[ a]
 	c8[\( b\)] a4
 		\endBar
-		\stemOff g4 a c-\markup \ref "(Jn 8)"
+		\stemOff g4 a c-\markup \ref "        (Jn 8)"
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(C) "
@@ -359,7 +367,7 @@
 	"- Per" -- son -- ne, Sei- _ -- gneur.
 	"- Moi" non plus, je ne te con -- dam -- ne pas. 
 	Va, et dé -- sor -- mais ne pè -- che plus.
-	 _ _ "[Ton 2 transposé au la]"
+	_ _ _ "[Ton 2 transposé au la]"
 	}
 	\header {
 		titres = \markup \ant #'l "H 502" "" }
@@ -388,6 +396,7 @@
 	r8 g g8[\( d'\)] d4 
 	c8[ a] b8[ g] g4
 		\endBar
+		\noBreak
 		\stemOff c'4 b c-\markup \ref "(Za 9)"
 		\endBar 
 	}
@@ -395,7 +404,7 @@
 	Ré -- jou -- is- -- toi, Jé -- ru -- sa -- le- _ -- m_!
 	Voi -- ci que ton Roi "s'a" -- van -- ce vers "toi !"
 	Ho -- san- _ -- na au Fils de Da -- "vid !"
-	Bé -- ni soit ce -- lui - _qui vient au nom du Seign -- eur -_!
+	Bé -- ni soit ce -- lui- _ -- _qui vient au nom du Seign -- eur -_!
 	Ho -- san- _ -- na au plus haut des "cieux !"
 	 _ _ "[Ton 7]"
 	}
@@ -403,6 +412,7 @@
 		titres = \markup \ant #'m "H 610" "" }
 } 
 
+\pageBreak
 
 \markup {
 	\fill-line{\line{"PREMIERS JOURS DE LA SEMAINE SAINTE"}}}
@@ -428,7 +438,7 @@
 	\addlyrics { 
 	Main- _ -- ten -- ant, Pè -- re, 
 	glo -- ri -- "fie-" -- moi aup -- rès de toi, 
-	de la glo -- ire que j'a -- vais au -- près - _de toi 
+	de la glo -- ire que j'a -- vais au -- près- _ -- _de toi 
 	a -- vant que fût le mon- _ -- de.
 	_ _ _ "[Ton 4]"
 	}
@@ -456,6 +466,7 @@
 		\times 2/3 { d8[\( e\) f] }
 		g8[ a]  g4 
 		\endBar
+		\noBreak
 		\stemOff g4 a c-\markup \ref "(Jn 12)"
 		\endBar 
 	}
@@ -472,6 +483,7 @@
 		titres = \markup \ant #'o "H 621" "" }
 } 
 
+\pageBreak
 
 \markup {
 	\fill-line{\line{"JEUDI SAINT"}}}
@@ -495,22 +507,21 @@
 		\times 2/3 { f8[ g a] }  
 		bes8[\( g\)]  a8[\( bes\)] \espace a4
 		\endBar
+		\noBreak
 		\stemOff  f4 g a-\markup \ref "(Lc 22)"
 		\endBar 
 	}
 	\addlyrics { 
 	J'ai dé -- si -- ré ar -- dem -- ment man -- ger cet -- te pâque 
-	" av" -- "ec " vous a -- vant - _de souf -- "frir ;"
-	car je vous le dis, jam -- ais plus - _je ne la man -- ge -- rai 
+	" av" -- "ec " vous " ava" -- nt- _ -- _de souf -- "frir ;"
+	car je vous le dis, jam -- ais plus- _ -- _je ne la man -- ge -- rai 
 	jus -- "qu'à " ce "qu'el" -- le soit ac -- com -- plie 
-	dans le Roy -- au -- me de- _ -- Dieu.
+	dans le Roy -- au -- me de- _ -- Dieu._
 	_ _  "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'p "H 710" "" }
 }
-
-
 
 
 \markup {
@@ -583,3 +594,5 @@
 	\header {
 		titres = \markup \ant #'r "H 910" "" }
 }
+
+

@@ -48,7 +48,7 @@
 		c16[ d e c]
 		b4\( a8\) r8
 		\endBar
-		\stemOff d'4 d d-\markup \ref "            (2Co 13)"
+		\stemOff d'4 d d-\markup \ref "           (2Co 13)"
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"1."
@@ -119,7 +119,7 @@
 	Jé -- sus, Pain de Vie, qui don -- ne la vie au mon -- de, ve -- nez, a -- do -- rons- -- "le !"	
 	}
 	\header {
-		titres = \markup \ant #'e "J 201" "Invitatoire" }
+		titres = \markup \ant #'e "J 201" "Antienne d'invitatoire" }
 }
 
 \label #'f
@@ -167,7 +167,7 @@
 	ve -- nez a -- do -- rons- -- le.			
 	}
 	\header {
-		titres = \markup \ant #'g "J 301" "Invitatoire" }
+		titres = \markup \ant #'g "J 301" "Antienne d'invitatoire" }
 } 	
 
 \label #'h
@@ -211,6 +211,7 @@
 		\times 2/3 { c8[ c d] } c8[ g]
 		\times 2/3 { a8[\( g\) f] } f4
 		\endBar
+		\noBreak
 		\stemOff f4 a c-\markup \ref "(Mt 11)"
 		\endBar 
 	}
