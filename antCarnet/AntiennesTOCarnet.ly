@@ -396,6 +396,7 @@
 		\ifIndent
 		c16[ b c b] g4\( g8\) r8
 		\endBar
+		\noBreak
 		\stemOff g4 a c-\markup \ref "(Mt 5)"
 		\endBar 
 	}
@@ -524,7 +525,7 @@
 		et pri -- ez pour ceux qui vous per -- sé -- cu -- tent, 
 		a -- fin d'ê -- tre vrai -- ment les fils de vo -- tre 
 		Pè -- re qui est dans les cieux. Vous donc, so -- yez 
-		par -- faits com -- me vo -- tre Pè -- re cé -- leste 
+		par -- faits com -- me " vo" -- "tre " Pè -- re cé -- leste 
 		est par -- fait.
 	_ _ "[Ton 1]"
 	}
@@ -553,8 +554,10 @@
 		\cesure
 		\times 2/3 { a8[ c d] }
 		\times 2/3 { c4\( c8\) }
+		
+		\times 2/3 { c8[\( c\) b] }
 		\ifIndent
-		\times 2/3 { c8[\( c\) b] } b4
+		b4
 		\cesure
 		b16[\( c\) d c] c4
 		\cesure
@@ -693,8 +696,9 @@
 		\times 2/3 { g8[\( a\) c] } c4
 		\cesure
 		\times 2/3 { c8[\( d\) c] }
-		\ifIndent
+		
 		\times 2/3 { a8[ a d] }
+		\ifIndent
 		c16[ bes g a] g4
 		\cesure
 		\times 2/3 { c8[ d f] } f8[ d]
@@ -704,6 +708,7 @@
 		\times 2/3 { bes8[\( g\) a] }
 		g4\( g8\) r8
 		\endBar
+		\noBreak
 		\stemOff f4 g bes-\markup \ref "(Lc 6)"
 		\endBar 
 	}
@@ -925,7 +930,7 @@
 \label #'ab
 \score { \transpose a e' {
 	\relative d'	{
-		r8 a d8[\cesureTresBasse d16 d]
+		r8 a d8[\cesure d16 d]
 		d16[ d e d]
 		\times 2/3 { c8[\( c\) d] }
 		\times 2/3 { c8[ f f] }
@@ -1040,14 +1045,15 @@
 		\times 2/3 { r8_\( a[ f]\) }
 		\times 2/3 { f8[ f d] } c4
 		r8. f16
-		g16[ a g a]
+		g16[ a g a] c8[ b]
 		\ifIndent
-		c8[ b] c8[ a]
+		c8[ a]
 		f16[ a g f] g8[\( f\)] \cesure
 		\times 2/3 { d8[ f f] }
 		f8[ f] d8[ c]
 		f16[ f f a] g4\( f8\) r8
 		\endBar
+		\noBreak
 		\stemOff f4 g a-\markup \ref "(Mt 10)"
 		\endBar 
 	}
@@ -1309,8 +1315,8 @@
 		\times 2/3 { a8[ f f] }
 		e8[ f] d4
 		\cesure
-		\ifIndent
 		\times 2/3 { f8[ f f] }
+		\ifIndent
 		\times 2/3 { f8[ f f] }
 		\times 2/3 { f8[ g bes] } a4
 		r8 c
@@ -1579,8 +1585,10 @@
 		\times 2/3 { a8[ c d] } f4
 		\cesure
 		d8[ d] c8[\( a\)]
+		
+		\times 2/3 { g8[ a c] }
 		\ifIndent
-		\times 2/3 { g8[ a c] } c4
+		c4
 		\cesure
 		f,8[ g] a4
 		\cesure
@@ -1597,7 +1605,7 @@
 		Le Roy -- au -- me des cieux est sem -- blable à un tré -- sor 
 		ca -- ché dans un champ et qu'un hom -- me vient à trou -- ver_: 
 		dans sa joie, il va ven -- dre tout ce qu'il pos -- sè -- de et
-		a -- chè -- "te " "ce " "champ.  "
+		a -- chè -- te ce "champ.  "
 	_ _ "[Ton 5]"
 	}
 	\header {
@@ -3391,3 +3399,4 @@
 	\header {
 		titres = \markup \ant #'cu "K 342" "" }
 }
+
