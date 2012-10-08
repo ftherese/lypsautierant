@@ -166,7 +166,8 @@
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(B) "
-		N'est- -- il pas é -- "crit :" «_Ma mai -- son se -- ra ap -- pe -- lée mai -- son de pri -- è -- re pour tou -- tes les na -- "tions ? »"
+		N'est- -- il pas é -- "crit :" «_Ma mai -- son se -- ra ap -- pe -- lée 
+		mai -- son de pri -- è -- re pour tou -- tes les na -- "tions ? »"
 		Mais vous, vous en fai -- tes un re -- pè -- re de brig -- ands. ""
 		_ "[Ton 5]"
 	}
@@ -225,7 +226,7 @@
 	\ifIndent
 	\times 2/3 { e8[\( f\) e] } d4
 		\endBar
-		\stemOff c4 d f_\markup \ref "(Jn 8;9)"
+		\stemOff c4 d f_\markup \ref "(Jn 8.9)"
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(A) "
@@ -517,7 +518,7 @@
 	car je vous le dis, jam -- ais plus- _ -- _je ne la man -- ge -- rai 
 	jus -- "qu'à " ce "qu'el" -- le soit ac -- com -- plie 
 	dans le Roy -- au -- me de- _ -- Dieu. ""
-	_  "[Ton 1]"
+	_ "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'p "H 710" "" }

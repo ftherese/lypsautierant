@@ -86,7 +86,7 @@
 	\addlyrics {
 		Un -- e voix pro -- cla -- "me :" «_Pré -- pa -- rez dans le dés -- ert le che -- min du Seig -- neur, 
 		et ren -- dez droits les sen -- tiers de not -- re Dieu._» Al -- le -- \skip 1 lu -- \skip 1 "ia !" ""
-		_  "[Ton 1]"	
+		_ "[Ton 1]"	
 	}
   	\header {
   		titres = \markup \ant #'c "F 200" "Benedictus" }
