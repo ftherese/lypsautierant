@@ -20,13 +20,13 @@
 		a8[ f] 
 		e4\( d8\) r8
 		\endBar
-		\stemOff g4 a c-\markup \ref "(Jl 2)"
+		\stemOff g4 a c_\markup \ref "(Jl 2)"
 		\endBar 
 	}
 	\addlyrics {
 		Re -- ve -- nez au Seig -- neur de tout vo -- tre cœur, car il est ten -- dre- _ -- sse 
-		et mi -- sé -- ri -- cor- -- \skip 1 \skip 1 de, lent à  la co -- lè -- re et plein d'a -- mour -. _  
-	 _ _ "[Ton 8]"
+		et mi -- sé -- ri -- cor- -- \skip 1 \skip 1 de, lent à  la co -- lè -- re et plein d'a -- mour -. ""
+		_ "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'a "H 090" "" }
@@ -62,15 +62,15 @@
 		\times 2/3 { b8[ g a] }
 		a8[ g] g4
 		\endBar
-		\stemOff g4 a4 c4-\markup \ref "(Mt 4)"
+		\stemOff g4 a4 c4_\markup \ref "(Mt 4)"
 		\endBar 
 	}
 	\addlyrics {
 		Il est éc -- "rit :" «_L'hom -- me ne vit pas seu -- le -- ment de pain, 
 		mais de tou -- te pa -- ro -- le "sort" -- ant de la bou -- che de Dieu_».  
 		Il est enc -- ore é -- "crit :" «_Tu ne met -- tras pas à  "l'é" -- preu -- ve le Seig -- neur ton Dieu. 
-		C'est lui que tu " a" -- do- _ -- re -- ras, et lui seul que tu ser -- vir -- as._»  
-	 _ _ "[Ton 8]"
+		C'est lui que tu " a" -- do- _ -- re -- ras, et lui seul que tu ser -- vir -- as._» ""
+		_ "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'b "H 100" "" }
@@ -98,14 +98,14 @@
 		e8[\( g\)] f8[ e]  d8[\( d\)] \cesure 
 		f8[ g] a8[\( a\)] g8[ f] a8[ g] g4
 		\endBar
-		\stemOff  f4 g a a a a-\markup \ref "(Jn 1)"
+		\stemOff  f4 g a a a a_\markup \ref "(Jn 1)"
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(A.B.C) "
 		Dieu, per -- son -- ne ne l'a ja -- mais vu, mais le Fils- _ -- _qui est dans le sein du Pè -- re, 
 		lui, nous "l'a" ré -- vé -- "lé ;" et nous a -- vons vu la gloi- -- \skip 1 \skip 1 re qu'il tient de son Pè -- re, 
-		com -- me Fils u -- ni -- que, plein de grâ -- ce et de vé -- ri -- té.
-	_ _ _ "[Ton 1 " "ou  Per.]"
+		com -- me Fils u -- ni -- que, plein de grâ -- ce et de vé -- ri -- té. ""
+		_ _ "[Ton 1 " "ou  Per.]"
 	}
 	\header {
 		titres = \markup \ant #'c "H 200" "" }
@@ -138,14 +138,14 @@
 	
 		\endBar
 		\noBreak
-		\stemOff c'4 b c-\markup \ref "(Jn 4)"
+		\stemOff c'4 b c_\markup \ref "(Jn 4)"
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Si tu sa -- vais le don- _ -- _de Dieu et quel est cel -- ui qui te de -- mande à  boi -- re,
 		c'est toi qui l'en au -- rais pri -- é, et il "t'au" -- rait don -- né l'eau vi -- ve.
-		L'eau qu'il don- _ -- ne -- ra, en toi se -- ra sour -- ce jai -- lli -- ssant en vie é -- ter -- nel- _ -- le.
-	 _ _ "[Ton 7]"
+		L'eau qu'il don- _ -- ne -- ra, en toi se -- ra sour -- ce jai -- lli -- ssant en vie é -- ter -- nel- _ -- le. ""
+		_ "[Ton 7]"
 	}
 	\header {
 		titres = \markup \ant #'d "H 300" "" }
@@ -162,13 +162,13 @@
 		c16[\( c\) a a]
 		c16[\( c\) bes g] g4
 		\endBar
-		\stemOff f a c-\markup \ref "(Mc 11)"
+		\stemOff f a c_\markup \ref "(Mc 11)"
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(B) "
 		N'est- -- il pas é -- "crit :" «_Ma mai -- son se -- ra ap -- pe -- lée mai -- son de pri -- è -- re pour tou -- tes les na -- "tions ? »"
-		Mais vous, vous en fai -- tes un re -- pè -- re de brig -- ands.
-		_ _ "[Ton 5]"
+		Mais vous, vous en fai -- tes un re -- pè -- re de brig -- ands. ""
+		_ "[Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'e "H 301" "" }
@@ -187,19 +187,19 @@
 	\times 2/3 { f8[ g a]}
 	a8[ a] g8[ f] a4
 		\endBar
-		\stemOff f4 g a-\markup \ref "(Ex 3)"
+		\stemOff f4 g a_\markup \ref "(Ex 3)"
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(C) "
 	Je suis le Dieu de vos pè- _ -- "res ;" quand j'ai vu la dé -- tre -- sse de mon peu -- ple, 
-	quand j'ai en -- ten -- du sa plain- _ -- te, je suis al -- lé le dé -- liv -- rer.
-	 _ _  _ "[Ton 1]"
+	quand j'ai en -- ten -- du sa plain- _ -- te, je suis al -- lé le dé -- liv -- rer. ""
+	_ "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'f "H 302" "" }
 }
 
-\pageBreak
+%\pageBreak
 
 \markup {
 	\fill-line{\line{"QUATRIEME DIMANCHE DE CAREME"}}}
@@ -225,15 +225,15 @@
 	\ifIndent
 	\times 2/3 { e8[\( f\) e] } d4
 		\endBar
-		\stemOff c4 d f-\markup \ref "(Jn 8;9)"
+		\stemOff c4 d f_\markup \ref "(Jn 8;9)"
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(A) "
 	Je suis ve -- nu en ce mon -- de pour que les a -- veu -- gles voient, dit le Sei -- gneur.
 	Je suis la Lu -- miè -- re du mon- _ -- de.
 	Qui me suit ne mar -- che -- ra pas dans les té -- nè - bres 
-	mais il au -- ra la lu -- miè -- re de- _ -- _la Vie.
-	 _ _ "[Ton 2]"
+	mais il au -- ra la lu -- miè -- re de- _ -- _la Vie. ""
+	_ "[Ton 2]"
 	}
 	\header {
 		titres = \markup \ant #'g "H 400" "" }
@@ -256,14 +256,14 @@
 	\times 2/3 { e8[ g a] } 
 	a8[\( b\)] a4
 		\endBar
-		\stemOff g4 a c-\markup \ref "(Jn 3)"
+		\stemOff g4 a c_\markup \ref "(Jn 3)"
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(B) "
 	Dieu a tant ai -- mé le mon -- de qu'il a don -- né son Fils u -- ni -- que,
 	pour que tout hom -- me qui croit en lui ne pé -- ris -- se pas
-	mais qu'il ait la vie é -- ter -- nel- _ -- le.
-	 _ _ "[Ton 8]"
+	mais qu'il ait la vie é -- ter -- nel- _ -- le. ""
+	_ "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'h "H 401" "" }
@@ -284,14 +284,14 @@
 	a16[ f e f]
 	d8[ c] d4
 		\endBar
-		\stemOff f g a-\markup \ref "(Lc 15)"
+		\stemOff f g a_\markup \ref "(Lc 15)"
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(C) "
 	Je me lè -- ve -- rai et "j'i" -- rai dire à  mon pè- _ -- "re :"
 	Pè -- re, j'ai pé -- ché con -- tre le ciel et con -- tre toi, 
-	je ne mé -- ri -- te plus "d'être" ap -- pe -- lé ton fils.
-	 _ _ "[Ton 1]"
+	je ne mé -- ri -- te plus "d'être" ap -- pe -- lé ton fils. ""
+	_ "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'i "H 402" "" }
@@ -311,13 +311,13 @@
 	\cesure
 	a16[ b a g] g4
 		\endBar
-		\stemOff c'4 b c-\markup \ref "(Jn 11)"
+		\stemOff c'4 b c_\markup \ref "(Jn 11)"
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(A) "
 	Je suis la Ré -- sur -- rec -- tion et la Vie.
-	Ce -- lui qui croit en moi ne mour -- ra ja -- mais.
-	 _ _ "[Ton 7]"
+	Ce -- lui qui croit en moi ne mour -- ra ja -- mais. ""
+	_ "[Ton 7]"
 	}
 	\header {
 		titres = \markup \ant #'j "H 500" "" }
@@ -332,13 +332,13 @@
 	d8[ c] c8.[ a16]
 	a16[ b c d] c4
 		\endBar
-		\stemOff c4 d e-\markup \ref "(Jn 12)"
+		\stemOff c4 d e_\markup \ref "(Jn 12)"
 		\endBar 
 	} }
 	\addlyrics { \set stanza = #"(B) "
 	Si quel -- qu'un veut me ser -- vir, qu'il me sui- _ -- "ve ;"
-	et là  où je suis, là  aus -- si se -- ra mon ser -- vit -- eur.
-	 _ _ _ "[Ton 6]"
+	et là  où je suis, là  aus -- si se -- ra mon ser -- vit -- eur. ""
+	_ "[Ton 6]"
 	}
 	\header {
 		titres = \markup \ant #'k "H 501" "" }
@@ -359,15 +359,15 @@
 	a8[ a]
 	c8[\( b\)] a4
 		\endBar
-		\stemOff g4 a c-\markup \ref "        (Jn 8)"
+		\stemOff g4 a c_\markup \ref "            (Jn 8)"
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(C) "
 	Fem -- me, per -- son -- ne ne t'a con -- dam -- "née ?"
 	"- Per" -- son -- ne, Sei- _ -- gneur.
 	"- Moi" non plus, je ne te con -- dam -- ne pas. 
-	Va, et dé -- sor -- mais ne pè -- che plus.
-	_ _ _ "[Ton 2 transposé au la]"
+	Va, et dé -- sor -- mais ne pè -- che plus. ""
+	 _ _ "[Ton 2 transposé au la]"
 	}
 	\header {
 		titres = \markup \ant #'l "H 502" "" }
@@ -397,7 +397,7 @@
 	c8[ a] b8[ g] g4
 		\endBar
 		\noBreak
-		\stemOff c'4 b c-\markup \ref "(Za 9)"
+		\stemOff c'4 b c_\markup \ref "(Za 9)"
 		\endBar 
 	}
 	\addlyrics { 
@@ -405,14 +405,14 @@
 	Voi -- ci que ton Roi "s'a" -- van -- ce vers "toi !"
 	Ho -- san- _ -- na au Fils de Da -- "vid !"
 	Bé -- ni soit ce -- lui- _ -- _qui vient au nom du Seign -- eur -_!
-	Ho -- san- _ -- na au plus haut des "cieux !"
-	 _ _ "[Ton 7]"
+	Ho -- san- _ -- na au plus haut des "cieux !" ""
+	_ "[Ton 7]"
 	}
 	\header {
 		titres = \markup \ant #'m "H 610" "" }
 } 
 
-\pageBreak
+%\pageBreak
 
 \markup {
 	\fill-line{\line{"PREMIERS JOURS DE LA SEMAINE SAINTE"}}}
@@ -432,15 +432,15 @@
 		d8[ a']  bes8[ g] 
 		f8[\( e\)] e4
 		\endBar
-		\stemOff  a4 a a-\markup \ref "(Jn 17)"
+		\stemOff  a4 a a_\markup \ref "(Jn 17)"
 		\endBar 
 	}
 	\addlyrics { 
 	Main- _ -- ten -- ant, Pè -- re, 
 	glo -- ri -- "fie-" -- moi aup -- rès de toi, 
 	de la glo -- ire que j'a -- vais au -- près- _ -- _de toi 
-	a -- vant que fût le mon- _ -- de.
-	_ _ _ "[Ton 4]"
+	a -- vant que fût le mon- _ -- de. ""
+	_ "[Ton 4]"
 	}
 	\header {
 		titres = \markup \ant #'n "H 620" "" }
@@ -467,7 +467,7 @@
 		g8[ a]  g4 
 		\endBar
 		\noBreak
-		\stemOff g4 a c-\markup \ref "(Jn 12)"
+		\stemOff g4 a c_\markup \ref "(Jn 12)"
 		\endBar 
 	}
 	\addlyrics { 
@@ -476,14 +476,14 @@
 	En vé -- ri -- té, je vous le "dis :" 
 	si le grain tom -- bé en ter -- re ne meurt, 
 	il res -- te seul, mais s'il meurt, 
-	il por -- te beau -- coup de fruit.
-	 _ _ "[Ton 8]"
+	il por -- te beau -- coup de fruit. ""
+	_ "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'o "H 621" "" }
 } 
 
-\pageBreak
+%\pageBreak
 
 \markup {
 	\fill-line{\line{"JEUDI SAINT"}}}
@@ -508,7 +508,7 @@
 		bes8[\( g\)]  a8[\( bes\)] \espace a4
 		\endBar
 		\noBreak
-		\stemOff  f4 g a-\markup \ref "(Lc 22)"
+		\stemOff  f4 g a_\markup \ref "(Lc 22)"
 		\endBar 
 	}
 	\addlyrics { 
@@ -516,8 +516,8 @@
 	" av" -- "ec " vous " ava" -- nt- _ -- _de souf -- "frir ;"
 	car je vous le dis, jam -- ais plus- _ -- _je ne la man -- ge -- rai 
 	jus -- "qu'à " ce "qu'el" -- le soit ac -- com -- plie 
-	dans le Roy -- au -- me de- _ -- Dieu._
-	_ _  "[Ton 1]"
+	dans le Roy -- au -- me de- _ -- Dieu. ""
+	_  "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'p "H 710" "" }
@@ -551,15 +551,15 @@
 		a8[ g]  a8[\( a\)]  \cesure
 		\times 2/3 { g8[ f g] } a4
 		\endBar
-		\stemOff g4 a c-\markup \ref "(Lc 23)"
+		\stemOff g4 a c_\markup \ref "(Lc 23)"
 		\endBar 
 	}
 	\addlyrics { 
 	Jus -- qu'à  la neu -- vième heu -- re, l'obs -- cu -- ri -- té se fit sur tout le pa -- ys.
 	Al -- ors le voi -- le du sanc -- tu -- ai -- re se dé -- chi -- ra, et Jé -- sus cri -- a d'un -- e voix for -- "te :"
 	«_Pè -- re, en -- tre tes mains je re -- mets mon es -- prit._»
-	Puis, in -- cli -- nant la tê -- te, il ex -- pi -- ra.
-	 _ _ "[Ton 8]"
+	Puis, in -- cli -- nant la tê -- te, il ex -- pi -- ra. ""
+	_ "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'q "H 810" "" }
@@ -582,14 +582,14 @@
 	\slurDashed a4( b16[) a b g] g4
 	
 		\endBar
-		\stemOff c'4 b c-\markup \ref "(Ac 2)"
+		\stemOff c'4 b c_\markup \ref "(Ac 2)"
 		\endBar 
 	}
 	\addlyrics { 
 	Ma chair re -- po -- se dans la paix, 
 	car tu ne peux a -- ban -- don -- ner, Sei -- gneur, mon âme aux En -- fers,
-	ni lais -- ser ton a -- mi voir la cor -- rup -- tion.
-	 _ _ "[Ton 7]"
+	ni lais -- ser ton a -- mi voir la cor -- rup -- tion. ""
+	_ "[Ton 7]"
 	}
 	\header {
 		titres = \markup \ant #'r "H 910" "" }
