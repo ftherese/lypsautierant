@@ -37,21 +37,26 @@
 		\slurDashed f4(  \times 2/3 { d8[) e f] }
 		\times 2/3 { g8[\( a\) a] }
 		g4\( g8\) r8
-		\endBar \espace
+		\endBar
 		\stemOff g4 a4 c4
 		\endBar 
 	}
 	\addlyrics {
 	Quand le sol -- eil se lè -- ve -- ra dans le ciel, 
 	vous ver -- rez le Roi- _ -- _des rois, en -- gen -- dré du Pè -- re av -- ant les siè - - cles, 
-	tel un ép -- oux pa -- rais -- sant hors de sa cham -- bre nup -- tia -- le.  	
-	 _ _ "[Ton 8]"
+	tel un ép -- oux pa -- rais -- sant hors de sa cham -- bre nup -- tia -- le. ""	
+	_ "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'b "G 101" "Premières vêpres (Français)" }
 } 
 
-\pageBreak
+\markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
+\markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
+\markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
+
+
+%\pageBreak
 
 \label #'c
 \score {\relative f'  {
@@ -91,15 +96,15 @@
 		r8 d8 \times 2/3 { f4\( e8\) }
 		d4\( d8\) r8
 		\endBar
-		\stemOff f4 g4 a4-\markup \ref "(Lc 2)" 
+		\stemOff f4 g4 a4_\markup \ref "(Lc 2)" 
 		\endBar 
 	}
 	\addlyrics {
 		Auj -- "ourd'" -- hui le Christ est né, auj -- ourd' -- hui le Sau -- veur est ap -- pa -- "ru ;" 
 		auj -- ourd' hui sur la ter -- re les an -- ges chan -- tent, les arc -- han -- ges se ré -- jou -- iss -- ent. 
 		Auj -- ourd' -- hui les saints e -- xul -- tent en chan -- "tant :" 
-		Gloire à  Dieu au plus haut- _ -- _des cieux. Al -- le - lu -- "ia !"
-	 _ _ "[Ton 1]"
+		Gloire à  Dieu au plus haut- _ -- _des cieux. Al -- le - lu -- "ia !" ""
+		_ "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'d "G 111" "Jour de Noël (Français)" }
@@ -125,20 +130,20 @@
 		\times 2/3 { g8[\( a\) a] }
 		g4\( g8\) r8
 		\endBar
-		\stemOff \espace g4 a4 c4-\markup \ref "(Jn 1)" 
+		\stemOff g4 a4 c4_\markup \ref "(Jn 1)" 
 		\endBar 
 	}
 	\addlyrics {
 		Le Ver -- be "s'est" fait chair, et il a de -- meu -- ré par -- mi nous,  
 		nous av -- ons con -- tem -- plé sa gloi - - "re ;" 
-		Al - le - lu -- ia, al - le -- lu -- "ia !"  _ _
-	 "[Ton 8]"
+		Al - le - lu -- ia, al - le -- lu -- "ia !" ""
+		_ "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'e "G 120" "" }
 } 
 
-\pageBreak
+%\pageBreak
 
 \markup {
 	\fill-line{\line{"DEUXIEME DIMANCHE DE NOEL"}}}
@@ -159,13 +164,13 @@
 		f8[ d] c8[ d] d4
 		
 		\endBar
-		\stemOff \espace f4 g4 a4-\markup \ref "(Jn 1)"
+		\stemOff f4 g4 a4_\markup \ref "(Jn 1)"
 		\endBar 
 	}
 	\addlyrics {
 		Le Ve -- rbe "s'est" fait chair et il a de -- meu -- ré par -- mi "nous ;" 
-		à  tous ceux qui le re -- çoi -- vent, il a don -- né pou -- voir de de -- ve -- nir enf -- ants de Dieu. 
-	 _ _ "[Ton 1]"
+		à  tous ceux qui le re -- çoi -- vent, il a don -- né pou -- voir de de -- ve -- nir enf -- ants de Dieu. ""
+		_ "[Ton 1]"
 
 	}
 	\header {
@@ -188,15 +193,15 @@
 		\times 2/3 { a4\( \cesure a8\) }
 		c8[ b] 
 		a8[\( b\)] c8[\( b\)] g4
-		\endBar \espace
-		\stemOff c'4 b4 c4-\markup \ref "(Lc 2)"
+		\endBar
+		\stemOff c'4 b4 c4_\markup \ref "(Lc 2)"
 		\endBar 
 	}
 	\addlyrics {
 		A Bet -- hlé -- em, les ber -- gers vin -- rent en hâ -- te, 
 		ils tro -- uvè -- rent Mar -- ie et Jo- _ -- seph, 
-		et le nou -- veau- -- né, le Sau -- veur, cou -- ché dans un -- e crè- _ -- che.
-	 _ _ "[Ton 7]"
+		et le nou -- veau- -- né, le Sau -- veur, cou -- ché dans un -- e crè- _ -- che. ""
+		_ "[Ton 7]"
 	}
 	\header {
 		titres = \markup \ant #'g "G 300" "Benedictus" }
@@ -216,12 +221,13 @@
 		\ifIndent
 		\times 2/3 { a8[ b a] } g4
 		\endBar
-		\stemOff \espace g4 a4 c4-\markup \ref "(Mt 2)"
+		\stemOff g4 a4 c4_\markup \ref "(Mt 2)"
 		\endBar 
 	}
 	\addlyrics {
-		Jos -- eph prit av -- ec lui "l'en" -- fant et sa mè -- re, et vint s'é -- tab -- lir dans un -- e vil -- le de Ga -- li -- lée ap -- pe -- lée Na -- za -- reth. 
-	 _ _ "[Ton 8]"
+		Jos -- eph prit av -- ec lui "l'en" -- fant et sa mè -- re, 
+		et vint s'é -- tab -- lir dans un -- e vil -- le de Ga -- li -- lée ap -- pe -- lée Na -- za -- reth. ""
+		_ "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'h "G 301" "Magnificat" }
@@ -249,8 +255,9 @@
 		\endBar 
 	}
 	\addlyrics {
-		Voi -- ci que Mar -- ie est de -- ven -- ue le Temple et l'Ar -- che sain- _ -- te, le ciel nou -- veau où Dieu a res -- plen -- di.
-	_ _ _ "[Ton 1 " " ou Per.]"
+		Voi -- ci que Mar -- ie est de -- ven -- ue le Temple et l'Ar -- che sain- _ -- te, 
+		le ciel nou -- veau où Dieu a res -- plen -- di. ""
+		_ _ "[Ton 1 " " ou Per.]"
 	 	}}
 	\header {
 		titres = \markup \ant #'i "G 400" "Benedictus" }
@@ -272,20 +279,20 @@
 		a8[ f] f4 \cesure
 		\times 2/3 { g8[\( a\) f] }
 		g8[\( a\)] g4
-		\endBar \espace
+		\endBar
 		\stemOff f4 g4 a4
 		\endBar 
 	}
 	\addlyrics {
 		Par un éch -- an -- ge ad -- mi -- ra - - ble, le Cré -- at -- eur a pris chair de Mar -- ie, 
-		et il nous fait par -- ti -- cip -- ants de sa di -- vi -- ni -- té. Al - le -- lu - ia! 
-	 _ _ "[Ton 6]"
+		et il nous fait par -- ti -- cip -- ants de sa di -- vi -- ni -- té. Al - le -- lu - ia_! ""
+		_ "[Ton 6]"
 	}
 	\header {
 		titres = \markup \ant #'j "G 401" "Magnificat" }
 } 
 
-\pageBreak
+%\pageBreak
 
 \markup {
 	\fill-line{\line{ "EPIPHANIE DU SEIGNEUR"}}}
@@ -307,15 +314,15 @@
 		c8[\( c\)]
 		\times 2/3 { a8[\( b\) g] }
 		g4
-		\endBar \espace
-		\stemOff c'4 b4 c4-\markup \ref "(Is 60)"
+		\endBar
+		\stemOff c'4 b4 c4_\markup \ref "(Is 60)"
 		\endBar 
 	}
 	\addlyrics {
 		Lè -- ve- -- toi -, _Jé -- ru -- sa -- "lem !" Sois " il" -- lu -- mi -- "née !" 
 		Car voi -- ci ta lu -- miè- _ -- re, 
-		et sur toi se lè -- ve la glo -- ire du- _ -- _Seig -- neur.
-	 _ _ "[Ton 7]"
+		et sur toi se lè -- ve la glo -- ire du- _ -- _Seig -- neur. ""
+		_ "[Ton 7]"
 	}
 	\header {
 		titres = \markup \ant #'k "G 500" "Benedictus" }
@@ -336,15 +343,15 @@
 		\times 2/3 { f8[ g a] }
 		g8[ \cesureBasse a] f8[ a]
 		g4\( g8\) r8
-		\endBar \espace
-		\stemOff g4 a4 c4-\markup \ref "(Mt 2)"
+		\endBar
+		\stemOff g4 a4 c4_\markup \ref "(Mt 2)"
 		\endBar 
 	}
 	\addlyrics {
 		A la vue de l'é -- toi -- le, les ma -- ges fur -- ent trans- _ -- por -- tés de "joie ;"  
 		ay -- ant tro -- uvé l'en -- fant a -- vec Ma -- rie sa mè -- re, 
-		se pros -- ter -- nant, ils l'a -- do -- rè -- rent.	
-	 _ _ "[Ton 8]"
+		se pros -- ter -- nant, ils l'a -- do -- rè -- rent. ""
+		_ "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'l "G 501" "Magnificat" }
@@ -368,15 +375,14 @@
 		\times 2/3 { e8[ g f] }f4
 		
 		\endBar
-		
-		\stemOff \espace f4 g4 a4-\markup \ref "(Mt 3)"
+		\stemOff f4 g4 a4_\markup \ref "(Mt 3)"
 		\endBar 
 	}
 	\addlyrics {
 		Jean pro -- cla -- ma dans le dé -- "sert :" «_Pour moi, je vous ba -- pti -- se dans l'eau, 
 		mais il vient " ce" -- lui qui est plus puis -- sant que "moi ;" 
-		lui vous bap -- ti -- se -- ra dans l'Es -- prit- -- Saint et le feu._»
-	 _ _ "[Ton 1]"
+		lui vous bap -- ti -- se -- ra dans l'Es -- prit- -- Saint et le feu._» ""
+		_ "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'m "G 600" "Benedictus" }
@@ -407,13 +413,15 @@
 		\espace
 		\times 2/3 { c8[ d e] } d4
 		\endBar 
-		\espace 
-		\stemOff g,4 a4 c4-\markup \ref "(Mt 3)"
+		\stemOff g,4 a4 c4_\markup \ref "(Mt 3)"
 		\endBar 
 	}
 	\addlyrics {
-		Ba -- pti -- sé au Jour -- dain, Jé -- sus sor -- tit des eaux. Al -- ors les cieux "s'ou" -- vri -- rent et l'Es -- prit des -- cen -- dit sur lui com -- me une co -- lom -- be. Un -- e voix ve -- nue des cieux di -- "sait :" «_Cel -- ui -- -ci est mon Fils, mon bien- -- ai -- mé._» A -- lle -- lu -- "ia !"  
-	 _ _ "[Ton 3]"
+		Ba -- pti -- sé au Jour -- dain, Jé -- sus sor -- tit des eaux. 
+		Al -- ors les cieux "s'ou" -- vri -- rent et l'Es -- prit des -- cen -- dit sur lui com -- me une co -- lom -- be. 
+		Un -- e voix ve -- nue des cieux di -- "sait :" 
+		«_Cel -- ui -- -ci est mon Fils, mon bien- -- ai -- mé._» A -- lle -- lu -- "ia !" ""
+		_ "[Ton 3]"
 	}
 	\header {
 		titres = \markup \ant #'n "G 601" "Magnificat" }
@@ -428,12 +436,12 @@
 		\times 2/3 { g8[ a g] }
 		f8[ g] e4
 		\endBar
-		\stemOff \espace a4 a a-\markup \ref "(Mt 3)"
+		\stemOff a4 a a_\markup \ref "(Mt 3)"
 		\endBar
 	}
 	\addlyrics {
-		J'ai vu l'Es -- prit des -- cen -- dre du ciel comme u -- ne co -- lom -- be, et de -- meu -- rer sur lui.
-	 _ _ "[Ton 4]"
+		J'ai vu l'Es -- prit des -- cen -- dre du ciel comme u -- ne co -- lom -- be, et de -- meu -- rer sur lui. ""
+		_ "[Ton 4]"
 	}
 	\header {
 		titres = \markup \ant #'o "G 601" "Magnificat" }
