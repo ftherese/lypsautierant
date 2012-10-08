@@ -44,7 +44,7 @@
 	\addlyrics {
 	Quand le sol -- eil se lè -- ve -- ra dans le ciel, 
 	vous ver -- rez le Roi- _ -- _des rois, en -- gen -- dré du Pè -- re av -- ant les siè - - cles, 
-	tel un ép -- oux pa -- rais -- sant hors de sa cham -- bre nup -- tia -- le. ""	
+	tel un ép -- oux pa -- rais -- sant hors de sa cham -- bre nup -- tia -- le. ""
 	_ "[Ton 8]"
 	}
 	\header {

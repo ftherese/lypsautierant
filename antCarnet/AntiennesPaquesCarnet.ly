@@ -118,8 +118,8 @@
 	et fit route av -- ec "eux :" «_O cœurs sans in -- tel -- li -- gen -- ce, 
 	lents à  cro -- ire tout ce "qu'ont" an -- non -- cé les pro -- phè -- "tes !" 
 	Ne fal -- "lait-" -- il pas que le Christ souf -- frît ce -- la 
-	pour en -- trer dans sa gloi- _ -- re_?_» ""
-	Al - le -- lu - - "ia !"
+	pour en -- trer dans sa gloi- _ -- re_?_»
+	Al - le -- lu - - "ia !" ""
 	_ _ "[Ton 2 transposé au la]"
 	}
 	\header {
@@ -660,7 +660,7 @@
 		Pè -- re, moi, je les ai en -- vo -- yés.
 		Pour eux, je me con -- sa -- cre moi -- -mê -- me, 
 		a -- fin qu'ils soient, eux aus -- si, con -- sa -- crés 
-		dans la vé -- ri -- té. Al -- le -- lu - ia. ""	
+		dans la vé -- ri -- té. Al -- le -- lu - ia. ""
 		_ "[Ton 4]"}
 	\header {
 		titres = \markup \ant #'s "I 701" "" }
