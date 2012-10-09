@@ -1,10 +1,8 @@
 \version "2.14.00"
 \include "DefinitionsAntiennesCarnet.ly"
 
+%Solennités TO
 
-
-%\markup {
-%	\fill-line{\line{"LA SAINTE TRINITÉ"}}}
 \label #'a
 \score {\relative f'  { 
 		\times 2/3 { r8_\( f[ e]\) } d4 \cesure
@@ -88,7 +86,7 @@
 		\times 2/3 { a8[\( c\) d] }
 		\times 2/3 { b8[\( c a\)] } g4
 		\endBar
-		\stemOff \espace g4 a c %_\markup \ref "(Mt 28)"
+		\stemOff \espace g4 a c 
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"2."
@@ -104,8 +102,7 @@
 } 
 
 
-%\markup {
-%	\fill-line{\line{"LE SAINT SACREMENT"}}}
+
 \label #'e
 \score {\relative f'  { \key f \major
 		r8 c \times 2/3 { d8[\cesure a' bes] } 
@@ -141,7 +138,7 @@
 		f8[ f] \times 2/3 { f8[ g f] }
 		e8[ d] e4\( d8\) r8
 		\endBar
-		\stemOff c4 d f %_\markup \ref "(Jn 6)"
+		\stemOff c4 d f 
 		\endBar 
 	}
 	\addlyrics {
@@ -154,8 +151,8 @@
 		titres = \markup \ant #'f "J 210" "Antiennes" }
 } 
 
-%\markup {
-%	\fill-line{\line{"LE SACRÉ COEUR"}}}
+
+
 \label #'g
 \score {\relative f'  { 
 		r8 c \times 2/3 { d8[ e f] }
@@ -184,7 +181,7 @@
 		g8[ f]
 		e4\( d8\) r8
 		\endBar
-		\stemOff f4 g a %_\markup \ref "(Lc 12)"
+		\stemOff f4 g a 
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"1."
@@ -229,8 +226,8 @@
 		titres = \markup \ant #'i "J 320" "" }
 } 
 
-%\markup {
-%	\fill-line{\line{"LE COEUR IMMACULÉ DE MARIE"}}}
+
+
 \label #'j	
 \score {\relative f'  { \key f \major
 		r8 d f4
@@ -241,7 +238,7 @@
 		bes8[ a] g4
 		
 		\endBar
-		\stemOff f4 g a %_\markup \ref "(Lc 2)"
+		\stemOff f4 g a 
 		\endBar 
 	}
 	\addlyrics {
