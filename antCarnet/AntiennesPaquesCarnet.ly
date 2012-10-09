@@ -2,33 +2,31 @@
 \include "DefinitionsAntiennesCarnet.ly"
 
 
-%\markup {
-%	\fill-line {\line { "PREMIER DIMANCHE DE PAQUES" }}}
+%Pâques
+
 \label #'a
 \score {\relative f'  { 
 		d16[\( a'\) a a]
 		\times 2/3 { a8[ g a] }
 		b8[ g] \times 2/3 { a4_\(\cesure b8\) }
 		c8[ d] b[ g]
-		a16[\( a\) b c]  a4 \cesure
-		\times 2/3 { d8[ d c] } \ifIndent d8[\cesure c]
+		a16[\( a\) b c]  a4 \cesure \ifIndent
+		\times 2/3 { d8[ d c] }  d8[\cesure c]
 		b8[ c]  a8[\( a\)]
 		r8. d,16
 		a'16[ a a b]  c8[ b]
-		a16[ g c b]  a4 \cesure
-		\espace
+		a16[ g c b]  a4 \cesure \ifIndent
 		a16[ a d c]  d4 \cesure
-		\ifIndent
 		\times 2/6 { a16[ g f g e f] }	d4 
 		\times 2/3 { f8[\( g\) a] } 
 		g4  \cesure
-		a16[ c d d]  a4
+		a16[ c d d]  a4 \espace \break
 		\times 2/3 { r8\( c[ b]\) }
 		\times 2/3 { a8[\( b g]\) } e4
 		\times 2/3 { r8_\( g[ a]\) }
 		 b[\( a\)] a4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Mt 28)"
+		\stemOff g4 a c
 		\endBar 
 	}	
 	\addlyrics { \set stanza = # "(A.B.C)"
@@ -38,8 +36,8 @@
 	je sais que vous cher -- chez Jé -- sus le Cru -- ci -- fié. 
 	Il n'est pas " i" -- "ci " car il est re -- ssu -- sci -- té "d'en" -- tre 
 	les morts, comme il "l'a" -- vait dit._»
-	Al -- le -- lu - - "ia !" Al -- le -- lu - "ia !" ""
-	_ "[Ton 3]"
+	Al -- le -- lu - - "ia !" Al -- le -- lu - "ia !" 
+	\markup { \citation #"(Mt 28)  " } "" "[Ton 3]"
 	}
 	\header {
 		titre =  "PREMIER DIMANCHE DE PAQUES"
@@ -47,8 +45,6 @@
 } 
 
 
-%\markup {
-%	\fill-line {\line { "DEUXIEME DIMANCHE DE PAQUES" }}}
 \label #'b	
 \score {\relative f'  { 
 		r8. c'16
@@ -64,12 +60,12 @@
 		b16[ g e g]
 		\times 2/3 { a8[ a b] } a4 \cesure
 		\times 2/3 { g8[ a b] }
-		c8[ a] b4
+		c8[ a] b4 \espace
 		r8 a16[ g]
 		a8[\( c\)] b4
 		\endBar
 		\noBreak
-		\stemOff  g,4 a c_\markup \ref "(Jn 20)"
+		\stemOff  g,4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A.B.C) "
@@ -77,8 +73,8 @@
 	Com -- me le Pè -- re "m'a" en -- vo -- yé, moi aus -- si, 
 	je vous env -- oie. Re -- ce -- vez "l'Es" -- prit "Saint ;"
 	ceux à  qui vous re -- met -- trez les péc -- hés, 
-	ils leur ser -- ont re -- mis. Al -- le -- lu - "ia !" ""
-	_ "[Ton 3]"
+	ils leur ser -- ont re -- mis. Al -- le -- lu - "ia !" 
+	\markup { \citation #"(Jn 20)  " } "" "[Ton 3]"
 	}
 	\header {
 		titre = "DEUXIEME DIMANCHE DE PAQUES"
@@ -86,8 +82,6 @@
 }
 
 
-%\markup {
-%	\fill-line {\line { "TROISIEME DIMANCHE DE PAQUES" }}}
 \label #'c	
 \score {\relative f'  { 
 		r8 a
@@ -112,7 +106,7 @@
 		\times 2/3 { c8[\( d\) e] }
 		\times 2/3 { c8[\( a b]\) } a4
 		\endBar
-		\stemOff g4 a c_\markup \ref "           (Lc 24)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -121,14 +115,15 @@
 	lents à  cro -- ire tout ce "qu'ont" an -- non -- cé les pro -- phè -- "tes !" 
 	Ne fal -- "lait-" -- il pas que le Christ souf -- frît ce -- la 
 	pour en -- trer dans sa gloi- _ -- re_?_»
-	Al - le -- lu - - "ia !" ""
-	_ _ "[Ton 2 transposé au la]"
+	Al - le -- lu - - "ia !"
+	\markup { \citation #"(Lc 24)  " } "" "[Ton 2*]"
 	}
 	\header {
 		titre = "TROISIEME DIMANCHE DE PAQUES"
 		titres = \markup \ant #'c "I 300" "" }
 } 
-%\markup {2ème mode transposé au la }
+
+
 
 \label #'d
 \score {\relative f'  { 
@@ -154,7 +149,7 @@
 		a16[ b a\( g\)] g4
 		
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Lc 24)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -163,8 +158,8 @@
 	les souf -- fran -- ces du Mes -- sie, 
 	sa ré -- sur -- rec -- tion "d'en" -- tre les morts le troi -- siè -- me jour, 
 	et la con -- ver -- sion pro -- cla -- mée en son nom pour le par -- don des pé -- chés, 
-	à  tou -- tes les na -- tions. Al -- le -- lu - "ia !" ""
-	_ "[Ton 8]"
+	à  tou -- tes les na -- tions. Al -- le -- lu - "ia !" 
+	\markup { \citation #"(Lc 24)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'d "I 301" "" }
@@ -185,22 +180,22 @@
 		g8[ f16 e]
 		\times 2/3 { e4\( d8\) } r8
 		\endBar
-		\stemOff c4 d e e e e_\markup \ref "(Jn 21)"
+		\stemOff c4 d e e e e
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 	Au bord du lac, Jés -- us in -- vi -- te ses di -- sci- _ -- "ples :"
 	«_Ve -- nez et man -- gez -_!_» Puis il prend le pain et le leur don -- ne.
-	Ils sa -- vaient que "c'é" -- tait le Sei -- gneur. Al -- le - lu -- "ia !" ""
-	_ _ "[Ton 1 " "ou  Per.]"
+	Ils sa -- vaient que "c'é" -- tait le Sei -- gneur. Al -- le - lu -- "ia !" 
+	\markup { \citation #"(Jn 21)  " } "" _ "[Ton 1" "ou Per.]"
 	} }
 	\header {
 		titres = \markup \ant #'e "I 302" "" }
 }
 
 
-%\markup {
-%	\fill-line {\line { "QUATRIEME DIMANCHE DE PAQUES" }}}
+
+
 \label #'f	
 \score {\transpose  c f {\relative f'  { \key c \major
 		\times 2/3 { e8[ e f] } d4 \cesure
@@ -216,7 +211,7 @@
 		\times 2/3 { e8[ d e] } c4
 		\endBar
 		\noBreak
-		\stemOff c4 d e-\markup \ref "(Jn 10)"
+		\stemOff c4 d e
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -224,8 +219,8 @@
 	Si quel -- "qu'un" en -- tre par moi, il se -- ra sau -- vé. 
 	Je suis ve -- nu pour que "l'on" ait la vie et "qu'on" "l'ait"
 	en a -- bon -- dan- _ -- ce. 
-	Al -- le -- lu - - "ia !" ""
-	_ "[Ton 6]"
+	Al -- le -- lu - - "ia !" 
+	\markup { \citation #"(Jn 10)  " } "" "[Ton 6]"
 	} }
 	\header {
 		titre = "QUATRIEME DIMANCHE DE PAQUES"
@@ -246,15 +241,15 @@
 		\times 2/3 { c8[\( a\) g] } a4 \cesure
 		g16[ a c\( a\)] a4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Jn 10)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 	 Je suis le Bon Pas -- "teur ;" je con -- nais mes bre -- bis 
 	 et mes bre -- bis me con -- nais -- sent, com -- me le Pè -- re 
 	 me con -- nait et que je con -- nais le Pè -- "re ;" et pour el -- les, 
-	 je don -- ne ma vie. Al -- le -- lu - ia. ""
-	 _ "[Ton 2]"
+	 je don -- ne ma vie. Al -- le -- lu - ia. 
+	\markup { \citation #"(Jn 10)  " } "" "[Ton 2]"
 	} }
 	\header {
 		titres = \markup \ant #'g "I 401" "" }
@@ -273,13 +268,13 @@
 		\ifIndent
 		f16[ g a\( g\)] g4
 		\endBar
-		\stemOff f4 g a a a a_\markup \ref "(Jn 10)"
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 	 Je con -- nais mes bre -- bis. Je leur don -- ne la vie é -- ter -- nel -- le
-	 et nul ne les ar -- ra -- che -- ra de ma main. Al -- le -- lu - ia. ""
-	 _ _ "[Ton 6 " "ou  Per.]"
+	 et nul ne les ar -- ra -- che -- ra de ma main. Al -- le -- lu - ia. 
+	\markup { \citation #"(Jn 10)  " } "" _ "[Ton 6" "ou Per.]"
 	}
 	\header {
 		titres = \markup \ant #'h "I 402" "" }
@@ -287,8 +282,7 @@
 
 
 
-%\markup {
-%	\fill-line {\line { "CINQUIEME DIMANCHE DE PAQUES" }}}
+
 \label #'i
 \score {\relative f' { \key f \major
 	\times 2/3 { r8_\( d[ d]\) }
@@ -305,15 +299,15 @@
 	\times 2/3 { r8_\( f[ g]\) }
 	\times 2/3 { a8[\( g f]\) } g4
 		\endBar
-		\stemOff f4 g a a a a_\markup \ref "(Jn 14)"
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 	Vous cro -- yez en Dieu, cro -- yez aus -- si en moi.
 	Je suis le Che -- min, la Vé -- ri -- té et la Vie.
 	Nul ne vient vers le Pè -- re que par moi.
-	Al -- le -- lu - - "ia !" ""
-	_ _ "[Ton 1 " "ou  Per.]"
+	Al -- le -- lu - - "ia !" 
+	\markup { \citation #"(Jn 14)  " } "" _ "[Ton 1" "ou Per.]"
 	} 
 	\header {
 		titre = "CINQUIEME DIMANCHE DE PAQUES"
@@ -331,15 +325,15 @@
 	\times 2/3 { c8[\( c\) c] }  a8[ g]  a4 \cesure
 	a16[ g a\( f\)]  f4	
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Jn 15)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 	Moi, je suis la Vi -- gne, vous ê -- tes les sar -- ments.
 	Ce -- lui qui de -- meure en moi et en qui je de -- meu -- re, 
 	don -- ne beau -- coup de fruit.
-	Al -- le -- lu - "ia !" ""
-	_ "[Ton 6]"
+	Al -- le -- lu - "ia !" 
+	\markup { \citation #"(Jn 15)  " } "" "[Ton 6]"
 	} 
 	\header {
 		titres = \markup \ant #'j "I 501" "" }
@@ -359,22 +353,21 @@
 	f16[ g a\( g\)] g4
 	
 		\endBar
-		\stemOff c4 d f_\markup \ref "(Jn 13)"
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 	Je vous donne un com -- man -- de -- ment nou -- veau, dit le Sei -- gneur.
 	Com -- me je vous ai ai -- més, ai -- mez- -- vous les uns les au- _ -- tres.
-	Al -- le -- lu - "ia !" ""
-	_ "[Ton 8]"
+	Al -- le -- lu - "ia !" 
+	\markup { \citation #"(Jn 13)  " } "" "[Ton 8]"
 	 } }
 	\header {
 		titres = \markup \ant #'k "I 502" "" }
 } 
 
 
-%\markup {
-%	\fill-line {\line { "SIXIEME DIMANCHE DE PAQUES" }}}
+
 \label #'l	
 \score {\relative f' {
 	\times 2/3 { f8[ g a] } g4  \cesure
@@ -399,15 +392,15 @@
 	\times 2/3 { g8[\( a g]\) } g4
 		\endBar
 		\noBreak
-		\stemOff  g4 a c_\markup \ref "(Jn 14)"
+		\stemOff  g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 	Si vous m'ai -- mez, vous gar -- de -- rez mes com -- man -- de -- ments.
 	Moi, je prie -- rai le Pè -- re, et il vous don -- ne -- ra un au -- tre Pa -- ra -- clet 
 	qui se -- ra av -- ec vous à  ja -- mais, l'Es -- prit de Vé -- ri -- té.
-	Al -- le - - lu - - "ia !" ""
-	_ "[Ton 8]"
+	Al -- le - - lu - - "ia !" 
+	\markup { \citation #"(Jn 14)  " } "" "[Ton 8]"
 	} 
 	\header {
 		titre = "SIXIEME DIMANCHE DE PAQUES"
@@ -434,15 +427,15 @@
 	g8[ a16\( b\)] a4 a8 r
 		\endBar
 		\noBreak
-		\stemOff f4 g a_\markup \ref "(Jn 15)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 	Vous ê -- tes mes a -- mis si vous fai -- tes ce que je vous com -- man -- de.
 	Je ne vous ap -- pel -- le plus ser -- vi -- teurs, 
 	car tout ce que j'ai en -- ten -- du de mon Pè -- re, je vous "l'ai" fait con -- naî- _ -- tre.
-	Al -- le - lu -- ia_! ""
-	_ "[Ton 6]"
+	Al -- le - lu -- ia_! 
+	\markup { \citation #"(Jn 15)  " } "" "[Ton 6]"
 	} 
 	\header {
 		titres = \markup \ant #'m "I 601" "" }
@@ -462,7 +455,7 @@
 	a8[ g]  g16[ a\( c\) a] b8[\( c\)] b4 \cesure 
 	a16[ g a\( g\)]   g4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Jn 14)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -470,16 +463,15 @@
 	et mon Pè -- re l'ai -- me -- ra, 
 	Al -- le -- lu- _ -- "ia !" 
 	Nous vien -- drons à  lui et nous fe -- rons chez lui no -- tre dem -- eu- _ -- re.
-	Al -- le -- lu - "ia !" ""
-	_ "[Ton 8]"
+	Al -- le -- lu - "ia !" 
+	\markup { \citation #"(Jn 14)  " } "" "[Ton 8]"
 	} 
 	\header {
 		titres = \markup \ant #'n "I 602" "" }
 } 
 
 
-%\markup {
-%      	\fill-line { \line { "ASCENSION" }}}
+
 \label #'o
 \score { \relative c''  { 
 	g16[ g g c] a8[ \cesure f] g4
@@ -500,7 +492,7 @@
 	\cesure
 	\times 2/3 { a8[\( b\) a] } g4\( g8\) r8
 	\endBar
-	\stemOff g4 a c_\markup \ref "(Jn 20)"
+	\stemOff g4 a c
 	\endBar 
 	}
 	\addlyrics {
@@ -508,8 +500,8 @@
 		Ne me re -- tiens pas, Ma -- rie, dit - _le Sei -- gneur, 
 		mais va- -- t-en vers mes frè -- res et dis- -- leur_: 
 		je mon -- te vers mon Pè -- re et vo -- tre Pè- _ -- re, 
-		vers mon Dieu et vo -- tre Dieu. Al - le -- lu -- ia_! ""
-		_ "[Ton 8]"
+		vers mon Dieu et vo -- tre Dieu. Al - le -- lu -- ia_! 
+	\markup { \citation #"(Jn 20)  " } "" "[Ton 8]"
 		}
 	\header {
 		titre = "ASCENSION"
@@ -531,7 +523,7 @@
 	\times 2/3 { f8[ f f] } e8[ f]
 	\times 2/3 { d8[ f g] } a4  \cesure bes16[ a bes\( g\)] a4
 	\endBar
-	\stemOff f4 g a a a a_\markup \ref "(Ac 1)"
+	\stemOff f4 g a a a a
 	\endBar
 	}
 	\addlyrics {
@@ -539,16 +531,15 @@
 		pour -- quoi re -- stez- -- vous à  re -- gar -- dez le ciel_?
 		Ce -- lui qui vous a é -- té en -- le -- vé, Jé -- sus, re -- vien -- dra 
 		comme il s'en est al -- lé vers le ciel.
-		Al -- le -- lu - ia. ""
-		_ _ "[Ton 1 " "ou  Per.]"
+		Al -- le -- lu - ia.
+	\markup { \citation #"(Ac 1)  " } "" _ "[Ton 1" "ou Per.]"
 		}
 	\header {
 		titres = \markup \ant #'p "I 651" "" }
 }
 
 
-%\markup {
-%      	\fill-line{ \line{ "TROPAIRE POUR LE TEMPS DU CENACLE" }}}
+
 \label #'q
 \score { \relative c''  { 
 	r16 g16[ b c] d16[ d d c] d16[\( d\) \cesure e f]
@@ -593,8 +584,7 @@
 }
 
 
-%\markup {
-%     	\fill-line { \line { "SEPTIEME DIMANCHE DE PAQUES" }}}
+
 \label #'r
 \score { \relative c''  { 
 	a8[\( a\)]
@@ -622,7 +612,7 @@
 	\cesure
 	\times 2/3 { c8[\( d\) b] } \times 2/3 { g8[\( a\) b] } a4
 	\endBar
-	\stemOff c'4 d e_\markup \ref "            (Jn 17)"
+	\stemOff c'4 d e
 	\endBar
 	}
 	\addlyrics {
@@ -632,8 +622,8 @@
 		et qu'il don -- ne la vie é -- ter -- nel -- le à  ceux que tu lui as don -- nés. 
 		La vie é -- ter -- nel -- le, c'est qu'ils te con -- nais -- sent, 
 		toi, le seul vrai Dieu 
-		et ce -- lui que tu as en -- voy -- é, Jé -- sus- -- Christ. Al - le -- lu - - ia_! ""
-		_ _ "[Ton 1 transposé au la]"
+		et ce -- lui que tu as en -- voy -- é, Jé -- sus- -- Christ. Al - le -- lu - - ia_! 
+	\markup { \citation #"(Jn 17)  " } "" "[Ton 1*]"
 	}
 	\header {
 		titre = "SEPTIEME DIMANCHE DE PAQUES"
@@ -660,7 +650,7 @@
 	\cesure
 	c16[ d e\( d\)] d4	
 	\endBar
-	\stemOff d4 d d_\markup \ref "(Jn 17)"
+	\stemOff d4 d d
 	\endBar
 	}
 	\addlyrics {
@@ -669,8 +659,8 @@
 		Pè -- re, moi, je les ai en -- vo -- yés.
 		Pour eux, je me con -- sa -- cre moi -- -mê -- me, 
 		a -- fin qu'ils soient, eux aus -- si, con -- sa -- crés 
-		dans la vé -- ri -- té. Al -- le -- lu - ia. ""
-		_ "[Ton 4]"}
+		dans la vé -- ri -- té. Al -- le -- lu - ia. 
+	\markup { \citation #"(Jn 17)  " } "" "[Ton 4]"}
 	\header {
 		titres = \markup \ant #'s "I 701" "" }
 }
@@ -694,15 +684,15 @@
 	\cesure
 	f16[ a g\( f\)] f4
 	\endBar
-	\stemOff f4 g a_\markup \ref "(Jn 17)"
+	\stemOff f4 g a
 	\endBar	}
 	
 	\addlyrics {
 		\set stanza = #"(C) 1." Je leur ai fait con -- naî -- tre ton nom, 
 		Pè -- re, et je le fe -- rai con -- naître en -- co -- re, 
 		pour que l'a -- mour dont tu m'as ai -- mé soit en eux, 
-		et que moi, je sois en eux. Al -- le -- lu - ia. ""
-		_ "[Ton 6]"}
+		et que moi, je sois en eux. Al -- le -- lu - ia. 
+	\markup { \citation #"(Jn 17)  " } "" "[Ton 6]"}
 	\header {
 		titres = \markup \ant #'t "I 702" "" }
 }
@@ -730,22 +720,20 @@
 	\times 2/3 { c8[\( d a]\) } g4
 	\endBar
 	\noBreak
-	\stemOff g4 a c_\markup \ref "(Jn 17)"
+	\stemOff g4 a c
 	\endBar	}
 	
 	\addlyrics {
 		\set stanza = #"2." Pè -- re, je leur ai don -- né la gloi -- re que tu m'as don -- née, 
 		a -- fin que tous, ils soient un, 
 		com -- me toi tu es en moi et moi en toi. 
-		Ain -- "si " le mon -- de con -- naî -- tra que tu m'as en -- vo -- yé. Al -- le -- lu - - ia. ""
-		_ "[Ton 8]"}
+		Ain -- "si " le mon -- de con -- naî -- tra que tu m'as en -- vo -- yé. Al -- le -- lu - - ia. 
+	\markup { \citation #"(Jn 17)  " } "" "[Ton 8]"}
 	\header {
 		titres = \markup \ant #'u "I 703" "" }
 }
 
 
-%\markup {
-%     	\fill-line{ \line{ "PENTECOTE" }}}
 \label #'v
 \score { \transpose a d \relative c''  { 
 	\times 2/3 { a8[ c c] }
@@ -766,14 +754,14 @@
 	\cesure
 	a16[ b c\( a\)] a4
 	\endBar
-	\stemOff g4 a c_\markup \ref "(Jn 14 - Jn 16)"
+	\stemOff g4 a c
 	\endBar	}
 	
 	\addlyrics {
 		\set stanza = #"1. " Je ne vous lais -- se -- rai pas or -- phe -- lin, al -- le -- lu -- ia, 
 		je m'en vais et je re -- viens vers vous, al -- le -- lu - ia, 
-		et vo -- tre coeur se -- ra dans la joie, al -- le -- lu - ia. ""
-		_ "[Ton 2]"}
+		et vo -- tre coeur se -- ra dans la joie, al -- le -- lu - ia. 
+	\markup { \citation #"Jn 14-16)  " } "" "[Ton 2]"}
 	\header {
 		titre = "PENTECOTE"
 		titres = \markup \ant #'v "I 800" "" }
@@ -805,7 +793,7 @@
 		\set stanza = #"2. " Au -- jour -- d'hui, 
 		l'Es -- prit se ma -- ni -- feste aux dis -- ci -- ples, 
 		al - le - lu -- ia, sur eux, il ré -- pand les dons de sa grâ- _ -- ce, 
-		et les en -- voie pro -- cla -- mer les lou -- an -- ges de Dieu. Al - le - lu -- ia_! ""
+		et les en -- voie pro -- cla -- mer les lou -- an -- ges de Dieu. Al - le - lu -- ia_!  ""
 		_ _ "[Ton 1 " "ou  Per.]"
 	}
 	\header {
