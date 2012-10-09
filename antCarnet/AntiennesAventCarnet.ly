@@ -87,14 +87,14 @@
 		g8[ g16\( a]\)
 		\times 2/3 { f4\( e8\) } d4
 		\endBar	
-		\stemOff f4 g4 a4_\markup \ref "(Is 40)"
+		\stemOff f4 g4 a4
 		\endBar	
 	}
 
 	\addlyrics {
 		Un -- e voix pro -- cla -- "me :" «_Pré -- pa -- rez dans le dés -- ert le che -- min du Seig -- neur, 
-		et ren -- dez droits les sen -- tiers de not -- re Dieu._» Al -- le -- \skip 1 lu -- \skip 1 "ia !" ""
-		_  "[Ton 1]"	
+		et ren -- dez droits les sen -- tiers de not -- re Dieu._» Al -- le -- \skip 1 lu -- \skip 1 "ia !"
+		\markup { \citation #"(Is 40)  " } "" "[Ton 1]"	
 	}
   	\header {
   		titre = "DEUXIEME DIMANCHE DE L'AVENT"
