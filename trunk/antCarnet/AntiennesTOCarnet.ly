@@ -1,9 +1,8 @@
 \version "2.14.0"
 \include "DefinitionsAntiennesCarnet.ly"
 
+%TO
 
-
-% 2ème SEMAINE DU T.O.
 \label #'a
 \score { \transpose c f, {
 	\relative c''  {
@@ -32,7 +31,7 @@
 		co -- lom -- be et de -- meur -- er sur lui. 
 		Voi -- ci l'A -- gneau de Dieu qui en -- lè -- ve 
 		le pé -- ché du mon -- de.
-		\markup { \citation #"(Jn 1)  " } "" "[Ton 2]"
+	\markup { \citation #"(Jn 1)  " } "" "[Ton 2]"
 	} }
 	\header {
 		titre = "2ème SEMAINE DU T.O."
@@ -58,7 +57,7 @@
 		«_Maî -- tre, où de -- meu -- res -- -tu ?_»
 		«_Ve -- nez et vo -- yez._» Ils vin -- rent donc et 
 		de -- meu -- rèrent au -- près de lui ce jour -- -là.
-		\markup { \citation #"(Jn 1)  " } "" "[Ton 8]"
+	\markup { \citation #"(Jn 1)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'b "K 21" "" }
@@ -92,15 +91,13 @@
 		et la mè -- re de Jé -- sus é -- tait là. 
 		Le vin des no -- ces ve -- nant à man -- quer, el -- le lui dit : 
 		«_Ils n'ont plus de vin._»
-		\markup { \citation #"(Jn 2)  " } "" "[Ton 5]"
+	\markup { \citation #"(Jn 2)  " } "" "[Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'c "K 22" "" }
 }
 
 
-%\markup {
-%      	\fill-line{ \line {"3ème SEMAINE DU T.O."}}}
 \label #'d
 \score {
 	\relative c''  {
@@ -116,15 +113,15 @@
 		\times 2/3 { c8[\( b\) a] }
 		\times 2/3 { c8[ d g,] } g4\( g8\) r8
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Mt 4)"
+		\stemOff g4 a c 
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Sur les ha -- bi -- tants du pa -- ys de la mort, 
 		u -- ne lu -- miè -- re s'est le -- vée :
 		«_Con -- ver -- tis -- sez -- -vous car le Roy -- au -- me des 
-		Cieux est tout pro -- che._» ""
-		_ "[Ton 8]"
+		Cieux est tout pro -- che._» 
+	\markup { \citation #"(Mt 4)  " } "" "[Ton 8]"
 	}
 	\header {
 		titre = "3ème SEMAINE DU T.O."
@@ -145,13 +142,13 @@
 		\times 2/3 { c8[ bes a] }
 		\times 2/3 { g8[\( f\) g] } a4\( g8\) r8
 		\endBar
-		\stemOff f4 g a a a a_\markup \ref "(Mc 1)"
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Les temps sont ac -- com -- plis, voi -- "ci " le Rè -- gne de Dieu : 
-		con -- ver -- tis -- sez- -- vous, cro -- yez à la Bon -- ne Nou -- vel -- le. ""
-		_ _ "[Ton 6 " "ou  Per.]"
+		con -- ver -- tis -- sez- -- vous, cro -- yez à la Bon -- ne Nou -- vel -- le. 
+	\markup { \citation #"(Mc 1)  " } "" "[Ton 6 " "ou  Per.]"
 	}
 	\header {
 		titres = \markup \ant #'e "K 31" "" }
@@ -177,7 +174,7 @@
 		\ifIndent
 		r8 a16[ c] c16[\( c\) c c] c16[ c b! c] a4\( a8\) r8
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Lc 4)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -185,16 +182,15 @@
 		par l'onc -- tion. Il m'a en -- vo -- yé por -- ter aux pau -- vres 
 		la Bon -- ne Nou -- vel -- le, an -- non -- cer aux ca -- ptifs la 
 		dé -- li -- vran -- ce, aux a -- veu -- gles le re -- tour
-		à la lu -- miè -- re. ""
-		_ "[Ton 8]"
+		à la lu -- miè -- re. 
+	\markup { \citation #"(Lc 4)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'f "K 32" "" }
 }
 
 
-%\markup {
-%      	\fill-line{ \line {"4ème SEMAINE DU T.O."}}}
+
 \label #'g
 \score {
 	\relative f'  {
@@ -210,14 +206,14 @@
 		\cesure
 		\times 2/3 { g8[ a bes] } g4
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Mt 5)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Bien -- heu -- reux les mi -- sé -- ri -- cor -- dieux : 
 		il leur se -- ra fait mi -- sé -- ri -- cor -- de.
-		Bien -- heu -- reux les coeurs purs, ils ver -- ront Dieu. ""
-		_ "[Ton 6]"
+		Bien -- heu -- reux les coeurs purs, ils ver -- ront Dieu. 
+	\markup { \citation #"(Mt 5)  " } "" "[Ton 6]"
 	}
 	\header {
 		titre = "4ème SEMAINE DU T.O."
@@ -237,14 +233,14 @@
 		\times 2/3 { g8[ g a] } g8[ f] f4
 		\times 2/3 { f8[ f f] } e8[ g] a4\( a8\) r8
 		\endBar
-		\stemOff f4 g a a a a_\markup \ref "(Mc 1)"
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Voi -- "là " un en -- sei -- gne -- ment pro -- cla -- mé
 		a -- vec au -- to -- ri -- té ! Il com -- man -- de même 
-		aux es -- prits mau -- vais et ils lui o -- bé -- iss -- ent. ""
-		_ _ "[Ton 6 " "ou  Per.]"
+		aux es -- prits mau -- vais et ils lui o -- bé -- iss -- ent. 
+	\markup { \citation #"(Mc 1)  " } "" "[Ton 6 " "ou  Per.]"
 	}
 	\header {
 		titres = \markup \ant #'h "K 41" "" }
@@ -271,22 +267,21 @@
 		\times 2/3 { e8[ g a] }
 		\times 2/3 { f8[ f g] } f8[ d] d4
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Jr 1)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Je fais de toi en ce jour u -- ne vil -- le for -- te, 
 		u -- ne co -- lon -- ne de fer, un rem -- part de bron -- ze. 
 		Ils ne l'em -- por -- te -- ront pas sur toi, car je suis 
-		a -- vec toi pour te dé -- liv -- rer. ""
-		_ "[Ton 1]"
+		a -- vec toi pour te dé -- liv -- rer. 
+	\markup { \citation #"(Jr 1)  " } "" "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'i "K 42" "" }
 }
 
-%\markup {
-%      	\fill-line {\line {"5ème SEMAINE DU T.O."}}}
+
 \label #'j
 \score {
 	\relative a'  {
@@ -307,15 +302,15 @@
 		\times 2/3 { d8[\( c\) c] }
 		\times 2/3 { c8[ b c] } a4
 		\endBar
-		\stemOff f4 a c_\markup \ref "(Mt 5)"
+		\stemOff f4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Vous ê -- tes la lu -- miè -- re de mon -- de. 
 		Que bri -- lle vo -- tre lu -- miè -- re de -- vant les hom -- mes, 
 		a -- fin qu'ils voient vos bon -- nes oeu -- vres et 
-		glo -- ri -- fient vo -- tre Pè -- re qui est dans les cieux. ""
-		_ "[Ton 5]"
+		glo -- ri -- fient vo -- tre Pè -- re qui est dans les cieux. 
+	\markup { \citation #"(Mt 5)  " } "" "[Ton 5]"
 	}
 	\header {
 		titre = "5ème SEMAINE DU T.O."
@@ -332,14 +327,14 @@
 		\ifIndent
 		\times 2/3 { c8[ a g] } a4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Lc 4)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Bien a -- vant l'au -- be, Jé -- sus se le -- va.
 		Il sor -- tit et s'en al -- la dans un en -- droit
-		dé -- sert pour y pri -- er. ""
-		_ "[Ton 2]"
+		dé -- sert pour y pri -- er. 
+	\markup { \citation #"(Lc 4)  " } "" "[Ton 2]"
 	}}
 	\header {
 		titres = \markup \ant #'k "K 51" "" }
@@ -360,22 +355,21 @@
 		\cesure
 		\times 2/3 { bes8[ g f] } g4\( g8\) r8
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Lc 5)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		«_Sois sans crain -- te, dé -- sor -- mais ce sont des hom -- mes 
 		que tu pren -- dras._» A -- lors ils ra -- me -- nè -- rent les 
-		barques au ri -- va -- ge et, lais -- sant tout, ils le sui -- vir -- ent. ""
-		_ "[Ton 6]"
+		barques au ri -- va -- ge et, lais -- sant tout, ils le sui -- vir -- ent. 
+	\markup { \citation #"(Lc 5)  " } "" "[Ton 6]"
 	}
 	\header {
 		titres = \markup \ant #'l "K 52" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"6ème SEMAINE DU T.O."}}}
+
 \label #'m
 \score {
 	\relative a'  {
@@ -401,7 +395,7 @@
 		c16[ b c b] g4\( g8\) r8
 		\endBar
 		\noBreak
-		\stemOff g4 a c_\markup \ref "(Mt 5)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -409,8 +403,8 @@
 		A -- men, je vous le dis_: a -- vant que le ciel et la ter -- re 
 		dis -- pa -- rais -- sent, pas u -- ne let -- tre ne 
 		dis -- pa -- raî -- tra de la loi jus -- qu'à ce que tout se
-		ré -- a -- li -- se. ""
-		_ "[Ton 8]"
+		ré -- a -- li -- se. 
+	\markup { \citation #"(Mt 5)  " } "" "[Ton 8]"
 	}
 	\header {
 		titre = "6ème SEMAINE DU T.O."
@@ -440,7 +434,7 @@
 		\cesure
 		a8[ a] a8.[ a16] a16[\( a\) b g] g4
 		\endBar
-		\stemOff g4 a b_\markup \ref "(Mc 1)"
+		\stemOff g4 a b
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -448,8 +442,8 @@
 		le sup -- plie_: «_Si tu le veux, tu peux me pu -- ri -- fier._»
 		Pris de pi -- tié, Jé -- sus é -- ten -- dit la main, 
 		le tou -- cha et lui dit : «_Je le veux, sois pu -- ri -- fié._»
-		A l'ins -- tant sa lè -- pre le quit -- ta. ""
-		_ "[Ton 6]"
+		A l'ins -- tant sa lè -- pre le quit -- ta. 
+	\markup { \citation #"(Mc 1)  " } "" "[Ton 6]"
 	}}
 	\header {
 		titres = \markup \ant #'n "K 61" "" }
@@ -480,7 +474,7 @@
 		\times 2/3 { c8[\( c\) c] }
 		\times 2/3 { c8[ c e] } d4\( d8\) r8
 		\endBar
-		\stemOff g,4 a c_\markup \ref "(Lc 6)"
+		\stemOff g,4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -489,16 +483,15 @@
 		du Fils de l'hom -- me. Ce jour- -- là soy -- ez heu -- reux 
 		et sau -- tez de joie, car vo -- tre ré -- com -- pense est 
 		gran -- de dans le ciel_: c'est ain -- si que leurs pè -- res
-		trai -- taient les pro -- phè -- tes. ""
-		_ "[Ton 8]"
+		trai -- taient les pro -- phè -- tes. 
+	\markup { \citation #"(Lc 6)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'o "K 62" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"7ème SEMAINE DU T.O."}}}
+
 \label #'p
 \score {
 	\relative f'	{
@@ -522,7 +515,7 @@
 		\times 2/3 { c8[\( c\) c] }
 		\times 2/3 { c8[ a g] } f4
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Mt 5)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -531,8 +524,8 @@
 		a -- fin d'ê -- tre vrai -- ment les fils de vo -- tre 
 		Pè -- re qui est dans les cieux. Vous donc, so -- yez 
 		par -- faits com -- me " vo" -- "tre " Pè -- re cé -- leste 
-		est par -- fait. ""
-		_ "[Ton 1]"
+		est par -- fait. 
+	\markup { \citation #"(Mt 5)  " } "" "[Ton 1]"
 	}
 	\header {
 		titre = "7ème SEMAINE DU T.O."
@@ -574,7 +567,7 @@
 		\ifIndent
 		c8[ b] g4\( g8\) r8
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Mc 2)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -583,8 +576,8 @@
 		don  -- ne, dit Jé -- sus au pa -- ra -- ly -- sé, lè -- ve- -- toi, 
 		prends ton bran -- card et ren -- tre chez toi._» L'hom -- me se 
 		le -- va, prit aus -- si -- tôt son bran -- card et sor -- tit 
-		de -- vant tout le mon -- de. ""
-		_ "[Ton 8]"
+		de -- vant tout le mon -- de. 
+	\markup { \citation #"(Mc 2)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'q "K 71" "" }
@@ -612,7 +605,7 @@
 		c16[\( c\) d d]
 		d8[ d] d8[ c] b4
 		\endBar
-		\stemOff c4 b c_\markup \ref "(Lc 6)"
+		\stemOff c4 b c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -620,16 +613,15 @@
 		Père est mi -- sé -- ri -- cor -- dieux. Par -- don -- nez et 
 		vous se -- rez par -- don -- nés. Don -- nez et vous 
 		re -- ce -- vrez. La me -- su -- re dont vous vous 
-		ser -- vez pour les au -- tres ser -- vi -- ra aus -- si pour vous. ""
-		_ "[Ton 7]"
+		ser -- vez pour les au -- tres ser -- vi -- ra aus -- si pour vous. 
+	\markup { \citation #"(Lc 6)  " } "" "[Ton 7]"
 	}
 	\header {
 		titres = \markup \ant #'r "K 72" "" }
 }
 
 
-%\markup {
-%     	\fill-line {\line {"8ème SEMAINE DU T.O."}}}
+
 \label #'s
 \score {
 	\relative f'	{
@@ -646,15 +638,15 @@
 		\times 2/3 { d8[ f f] }
 		\times 2/3 { f8[ f f] } g8[ f] f4
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Mt 6)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Vot -- re Pè -- re cé -- les -- te sait de quoi vous 
 		a -- vez be -- soin. Cher -- chez d'a -- bord le
 		Roy -- au -- me et sa ju -- sti -- ce, et le 
-		sur -- croît vous se -- ra don -- né. ""
-		_ "[Ton 6]"
+		sur -- croît vous se -- ra don -- né. 
+	\markup { \citation #"(Mt 6)  " } "" "[Ton 6]"
 	}
 	\header {
 		titre = "8ème SEMAINE DU T.O."
@@ -676,15 +668,15 @@
 		\cesure
 		\times 2/3 { f8[ d e] } d4
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Mc 2)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Tant que l'E -- poux est là, com -- ment ses 
 		com -- pa -- gnons jeû -- ne -- raient -- -ils_?
 		Un jour vien -- dra où l'E -- poux leur se -- ra en -- le -- vé_: 
-		a -- lors, ils jeû -- ne -- ront. ""
-		_ "[Ton 1]"
+		a -- lors, ils jeû -- ne -- ront. 
+	\markup { \citation #"(Mc 2)  " } "" "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'t "K 81" "" }
@@ -716,22 +708,22 @@
 		g4\( g8\) r8
 		\endBar
 		\noBreak
-		\stemOff f4 g bes_\markup \ref "(Lc 6)"
+		\stemOff f4 g bes
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		L'hom -- me bon " ti" -- re le bien du tré -- sor de son coeur qui est bon.
 		L'hom -- me mau -- vais ti -- re le mal de son coeur qui est mau -- vais_:
-		car c'est de l'a -- bon -- dan -- ce du coeur que par -- le la bou -- che. ""
-		_ "[Ton 2 ]"
+		car c'est de l'a -- bon -- dan -- ce du coeur que par -- le la bou -- che. 
+	\markup { \citation #"(Lc 6)  " } "" "[Ton 2 ]"
 	}}
 	\header {
 		titres = \markup \ant #'u "K 82" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"9ème SEMAINE DU T.O."}}}
+
+
 \label #'v
 \score {
 	\relative a'	{
@@ -753,14 +745,14 @@
 		\times 2/3 { a8[\( a\) f] }
 		\times 2/3 { g8[ a g] } g4
 		\endBar
-		\stemOff f4 a c_\markup \ref "(Mt 7)"
+		\stemOff f4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Ce n'est pas ce -- lui qui me dit_: «_Sei -- gneur, Sei -- gneur !_» 
 		qui en -- tre -- ra dans le Roy -- au -- me des cieux, 
-		mais ce -- lui qui fait la vo -- lon -- té de mon Pè -- re qui est dans les cieux. ""
-		_ "[Ton 5]"
+		mais ce -- lui qui fait la vo -- lon -- té de mon Pè -- re qui est dans les cieux. 
+	\markup { \citation #"(Mt 7)  " } "" "[Ton 5]"
 	}
 	\header {
 		titre = "9ème SEMAINE DU T.O."
@@ -781,14 +773,14 @@
 		\times 2/3 { f8[\( f\) g] }
 		a16[\( a\) bes g] a4
 		\endBar
-		\stemOff f4 g a a a a_\markup \ref "(Mc 2)"
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Le sab -- bat est fait pour l'hom -- me, 
 		et non l'hom -- me pour le sab -- bat. 
-		C'est pour -- quoi le Fils de l'hom -- me est maî -- tre du sab -- bat. ""
-		_ _ "[Ton 6 " "ou  Per.]"
+		C'est pour -- quoi le Fils de l'hom -- me est maî -- tre du sab -- bat. 
+	\markup { \citation #"(Mc 2)  " } "" "[Ton 6 " "ou  Per.]"
 	}
 	\header {
 		titres = \markup \ant #'w "K 91" "" }
@@ -808,22 +800,21 @@
 		\ifIndent
 		a16[ a a a] a8[ c] d8[ c] c4
 		\endBar
-		\stemOff c4 d e_\markup \ref "(Lc 7)"
+		\stemOff c4 d e
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Sei -- gneur, je ne suis pas di -- gne que tu en -- tres 
 		sous mon toit, mais dis seu -- le -- ment u -- ne pa -- ro -- le, 
-		et mon ser -- vi -- teur se -- ra gué -- ri. ""
-		_ "[Ton 6]"
+		et mon ser -- vi -- teur se -- ra gué -- ri. 
+	\markup { \citation #"(Lc 7)  " } "" "[Ton 6]"
 	} }
 	\header {
 		titres = \markup \ant #'x "K 92" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"10ème SEMAINE DU T.O."}}}
+
 \label #'y
 \score {
 	\relative c''	{
@@ -844,7 +835,7 @@
 		\cesure
 		\times 2/3 { c8[ a g] } g4
 		\endBar
-		\stemOff c'4 b c_\markup \ref "(Mt 9)"
+		\stemOff c'4 b c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -852,8 +843,8 @@
 		pa -- ro- _ -- le_: «_C'est la mi -- sé -- ri -- cor -- de 
 		que je dé -- si -- re et non le sa -- cri -- fi -- ce_»_;
 		car je ne suis pas ve -- nu ap -- pe -- ler les jus -- tes,
-		mais les péc -- heurs. ""
-		_ "[Ton 7]"
+		mais les péc -- heurs. 
+	\markup { \citation #"(Mt 9)  " } "" "[Ton 7]"
 	}
 	\header {
 		titre = "10ème SEMAINE DU T.O."
@@ -880,14 +871,14 @@
 		\times 2/3 { c8[ c a] }
 		g4\( g8\) r8
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Mc 3)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Qui est ma mè -- re_? Qui sont mes frè -- res_? 
 		dit le Sei -- gneur. Ce -- lui qui fait la vo -- lon -- té de Dieu, 
-		ce -- lui- -- là est mon frè -- re, ma soeur et ma mè -- re. ""
-		_ "[Ton 1]"
+		ce -- lui- -- là est mon frè -- re, ma soeur et ma mè -- re. 
+	\markup { \citation #"(Mc 3)  " } "" "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'z "K 101" "" }
@@ -918,7 +909,7 @@
 		\ifIndent
 		c16[ c c c] c8[ d] c4\( c8\) r8
 		\endBar
-		\stemOff f,4 a c_\markup \ref "(Lc 7)"
+		\stemOff f,4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -926,16 +917,16 @@
 		Jé -- sus fut sai -- si de pi -- tié. Il res -- sus -- ci -- ta 
 		le jeune hom -- me, et le ren -- dit à sa mè -- re.
 		Un grand pro -- phè -- te s'est le -- vé par -- mi nous,
-		Dieu a vi -- si -- té son peu -- ple_! ""
-		_ "[Ton 5]"
+		Dieu a vi -- si -- té son peu -- ple_! 
+	\markup { \citation #"(Lc 7)  " } "" "[Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'aa "K 102" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line{"11ème SEMAINE DU T.O."}}}
+
+
 \label #'ab
 \score { \transpose a e' {
 	\relative d'	{
@@ -959,7 +950,7 @@
 		\ifIndent
 		r8 d d8[ f] d8[ e] d4
 		\endBar
-		\stemOff c4 d f_\markup \ref "(Mt 10)"
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -967,8 +958,8 @@
 		cieux est tout pro -- che. Gué -- ris -- sez les ma -- la -- des,
 		res -- sus -- ci -- tez les morts, pu -- ri -- fiez les lé -- preux,
 		chas -- sez les dé -- mons. Vous a -- vez re -- çu gra -- tui -- te -- ment,
-		don -- nez gra -- tui -- te -- ment. ""
-		_ "[Ton 3]"
+		don -- nez gra -- tui -- te -- ment. 
+	\markup { \citation #"(Mt 10)  " } "" "[Ton 3]"
 	} }
 	\header {
 		titre = "11ème SEMAINE DU T.O."
@@ -1002,7 +993,7 @@
 		\times 2/3 { e4\(\cesure d8\) } f8[ g]
 		\times 2/3 { a8[ a g] } g4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Mc 4)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B)"
@@ -1010,8 +1001,8 @@
 		un hom -- me qui jet -- te du grain dans son champ.
 		Nuit et jour, il ne sait com -- ment, d'el -- le- -- mê -- me 
 		la ter -- re pro -- duit du fruit, d'a -- bord l'her -- be, 
-		puis l'é -- pi, " en" -- fin du blé plein l'é -- pi. ""
-		_ "[Ton 8]"
+		puis l'é -- pi, " en" -- fin du blé plein l'é -- pi. 
+	\markup { \citation #"(Mc 4)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'ac "K 111" "" }
@@ -1030,22 +1021,21 @@
 		\ifIndent
 		a16[ c c g] f8[ g] a8[ a] g4
 		\endBar
-		\stemOff c'4 b c_\markup \ref "(Lc 7)"
+		\stemOff c'4 b c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Elle a mon -- tré beau -- coup d'a -- mour, 
 		c'est pour -- quoi, dit le Sei -- gneur, ses pé -- chés, 
-		ses nom -- breux pé -- chés sont par -- don -- nés. ""
-		_ "[Ton 7]"
+		ses nom -- breux pé -- chés sont par -- don -- nés. 
+	\markup { \citation #"(Lc 7)  " } "" "[Ton 7]"
 	}
 	\header {
 		titres = \markup \ant #'ad "K 112" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"12ème SEMAINE DU T.O."}}}
+
 \label #'ae
 \score {
 	\relative d'	{
@@ -1064,15 +1054,15 @@
 		f16[ f f a] g4\( f8\) r8
 		\endBar
 		\noBreak
-		\stemOff f4 g a_\markup \ref "(Mt 10)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Ne crai -- gnez "pas ;" ce que je vous dis dans l'om -- bre, 
 		di -- tes- -- le au grand jour. Ce -- lui qui se 
 		pro -- non -- ce -- ra pour moi de -- vant les hom -- mes, 
-		je me pro -- non -- ce -- rai pour lui de -- vant mon Pè -- re. ""
-		_ "[Ton 6]"
+		je me pro -- non -- ce -- rai pour lui de -- vant mon Pè -- re. 
+	\markup { \citation #"(Mt 10)  " } "" "[Ton 6]"
 	}
 	\header {
 		titre = "12ème SEMAINE DU T.O."
@@ -1098,14 +1088,14 @@
 		\times 2/3 { g8[ a a] }
 		\times 2/5 {a16[\cesureBasse a a g a]} c8[ bes] a4
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Mc 4)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		D'un mot, Jé -- sus maî -- tri -- se le vent et la mer. 
 		Puis il dit aux dis -- ci -- ples_: «_Pour -- quoi a -- voir peur_? 
-		Com -- ment se fait- -- il que vous n'ay -- ez pas la foi_?_» ""
-		_ "[Ton 1]"
+		Com -- ment se fait- -- il que vous n'ay -- ez pas la foi_?_» 
+	\markup { \citation #"(Mc 4)  " } "" "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'af "K 121" "" }
@@ -1139,7 +1129,7 @@
 		\cesure
 		\times 2/3 { c8[ bes c] } a4
 		\endBar
-		\stemOff f4 a c_\markup \ref "(Lc 9)"
+		\stemOff f4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C)"
@@ -1147,16 +1137,16 @@
 		à lui- -- mê -- me, qu'il por -- te sa croix cha -- que jour 
 		et qu'il me sui- _ -- ve. Car ce -- lui qui veut sau -- ver sa 
 		vie la per -- dra, mais qui per -- dra sa vie à cau -- se de moi, 
-		la sau -- ve -- ra. ""
-		_ "[Ton 5]"
+		la sau -- ve -- ra. 
+	\markup { \citation #"(Lc 9)  " } "" "[Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'ag "K 122" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"13ème SEMAINE DU T.O."}}}
+
+
 \label #'ah
 \score {
 	\relative f'	{
@@ -1189,7 +1179,7 @@
 		d16[ d e f]
 		f16[ e d e] e4\( d8\) r8
 		\endBar
-		\stemOff f4 g a a a a_\markup \ref "(Mt 10)"
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -1198,8 +1188,8 @@
 		m'a en -- vo -- yé. Qui -- con -- que don -- ne -- ra à boi -- re, 
 		ne fût- -- ce qu'un ver -- re d'eau fraî -- che à l'un de ces pe -- tits,
 		en sa qua -- li -- té de di -- sci -- ple, a -- men, je vous le dis_: 
-		il ne per -- dra pas sa ré -- com -- pen -- se. ""
-		_ _ "[Ton 1 " "ou  Per.]"
+		il ne per -- dra pas sa ré -- com -- pen -- se. 
+	\markup { \citation #"(Mt 10)  " } "" "[Ton 1 " "ou  Per.]"
 	}
 	\header {
 		titre = "13ème SEMAINE DU T.O."
@@ -1233,7 +1223,7 @@
 		\times 2/3 { d4\(\cesure d8\) }
 		\times 2/3 { e8[ f d] } d4
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Mc 5)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -1241,8 +1231,8 @@
 		Jé -- sus, vint par der -- riè -- re et tou -- cha son 
 		vê -- te -- ment. Car el -- le se di -- sait_: 
 		«_Si je tou -- che seu -- le -- ment son vê -- te -- ment, 
-		je se -- rai sau -- vée._» A l'ins -- tant, son mal fut gué -- ri. ""
-		_ "[Ton 1]"
+		je se -- rai sau -- vée._» A l'ins -- tant, son mal fut gué -- ri. 
+	\markup { \citation #"(Mc 5)  " } "" "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'ai "K 131" "" }
@@ -1263,21 +1253,20 @@
 		g16[\( g\) f g]
 		\times 2/3 { a8[\( a\) a] } g4
 		\endBar
-		\stemOff f4 a c_\markup \ref "(Lc 9)"
+		\stemOff f4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Qui met la main à la char -- rue et re -- garde en ar -- riè -- re, 
-		dit le Sei -- gneur, n'est pas di -- gne du Roy -- au -- me de Dieu. ""
-		_ "[Ton 5]"
+		dit le Sei -- gneur, n'est pas di -- gne du Roy -- au -- me de Dieu. 
+	\markup { \citation #"(Lc 9)  " } "" "[Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'aj "K 132" "" }
 }
 
 
-%\markup {
-%     	\fill-line {\line{"14ème SEMAINE DU T.O."}}}
+
 \label #'ak
 \score {
 	\relative f'	{
@@ -1301,15 +1290,15 @@
 		\times 2/3 { f8[ g g] }
 		g8[ f] e8[ c] d4
 		\endBar
-		\stemOff f4 g a a a a_\markup \ref "(Mt 11)"
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Je te rends grâ- _ -- ce, Pè -- re, Sei -- gneur du ciel et 
 		de la ter- _ -- re car tu as ca -- ché les mys -- tè -- res du 
 		Roy -- au -- me aux sages et aux sa -- vants, et tu les a
-		ré -- vé -- lés aux tout- -- pe -- tits. ""
-		_ _ "[Ton 1 " "ou  Per.]"
+		ré -- vé -- lés aux tout- -- pe -- tits. 
+	\markup { \citation #"(Mt 11)  " } "" "[Ton 1 " "ou  Per.]"
 	}
 	\header {
 		titre = "14ème SEMAINE DU T.O."
@@ -1337,15 +1326,15 @@
 		\times 2/3 { c8[ bes g] }
 		a16[ f e f] d4\( d8\) r8
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Mc 6)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		A Na -- za -- reth, Jé -- sus di -- sait_: 
 		«_Un pro -- phè -- te n'est mé -- pri -- sé que 
 		dans son pa -- ys, sa pa -- ren -- té et sa pro -- pre mai -- son._»
-		Et là, il ne pou -- vait ac -- com -- plir au -- cun mi -- rac -- le. ""
-		_ "[Ton 1]"
+		Et là, il ne pou -- vait ac -- com -- plir au -- cun mi -- rac -- le. 
+	\markup { \citation #"(Mc 6)  " } "" "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'al "K 141" "" }
@@ -1374,7 +1363,7 @@
 		\ifIndent
 		\times 2/3 { g8[ a f] } f4
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Lc 10)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -1382,16 +1371,16 @@
 		Jé -- sus di -- sait_: «_Ne vous ré -- jou -- is -- sez pas de 
 		ce que les es -- prits vous sont sou -- mis_; 
 		mais ré -- jou -- i -- ssez- -- vous de ce que vos 
-		noms se trou -- vent ins -- crits dans les cieux._» ""
-		_ "[Ton 6]"
+		noms se trou -- vent ins -- crits dans les cieux._» 
+	\markup { \citation #"(Lc 10)  " } "" "[Ton 6]"
 	}
 	\header {
 		titres = \markup \ant #'am "K 142" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"15ème SEMAINE DU T.O."}}}
+
+
 \label #'an
 \score {
 	\relative f'	{
@@ -1414,15 +1403,15 @@
 		g8[\( g\)]
 		r8 g a8[\( f\)] e4\( d8\) r8
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Mt 13)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Voi -- ci que le se -- meur est sor -- ti pour se -- mer.
 		Des grains sont tom -- bés dans la bon -- ne ter -- re et 
 		ils ont don -- né du fruit, l'un cent, l'au -- tre soi -- xan -- te, 
-		et l'au -- tre tren -- te. ""
-		_ "[Ton 1]"
+		et l'au -- tre tren -- te. 
+	\markup { \citation #"(Mt 13)  " } "" "[Ton 1]"
 	}
 	\header {
 		titre = "15ème SEMAINE DU T.O."
@@ -1456,7 +1445,7 @@
 		c16[ c a g]
 		a4\( a8\) r8
 		\endBar
-		\stemOff f4 a c_\markup \ref "(Mc 6)"
+		\stemOff f4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -1465,8 +1454,8 @@
 		de -- meu -- rez- -- y jus -- qu'à vo -- tre dé -- part. 
 		Si l'on re -- fu -- se de vous ac -- cueil -- lir,
 		par -- tez en se -- cou -- ant la pous -- siè -- re de vos pieds_: 
-		ce se -- ra pour eux un té -- moi -- gna -- ge._» ""
-		_ "[Ton 5]"
+		ce se -- ra pour eux un té -- moi -- gna -- ge._» 
+	\markup { \citation #"(Mc 6)  " } "" "[Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'ao "K 151" "" }
@@ -1476,8 +1465,8 @@
 \markup { "K 152 (C)  Cf. K 300" }
 
 
-%\markup {
-%     	\fill-line {\line {"16ème SEMAINE DU T.O."}}}
+
+
 \label #'ap
 \score {
 	\relative a'	{
@@ -1502,7 +1491,7 @@
 		c16[\( a\) g f]
 		e4\( e8\) r8
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Mt 13)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -1510,8 +1499,8 @@
 		an -- ges_: ils en -- lè -- ve -- ront de son Roy -- au -- me 
 		tous ceux qui com -- met -- tent le mal. A -- lors les ju -- stes 
 		res -- plen -- di -- ront com -- me le so -- leil dans le 
-		Roy -- au -- me de leur Pè -- re. ""
-		_ "[Ton 3]"
+		Roy -- au -- me de leur Pè -- re. 
+	\markup { \citation #"(Mt 13)  " } "" "[Ton 3]"
 	}
 	\header {
 		titre = "16ème SEMAINE DU T.O."
@@ -1537,14 +1526,14 @@
 		a16[ a c a]
 		g8[\( g\)] f8[ d] d4
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Mc 6)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Voy -- ant la fou -- le, Jé -- sus fut sai -- si de pi -- tié,
 		car ils é -- taient com -- me des bre -- bis sans ber -- ger. 
-		A -- lors, il se mit à les ins -- trui -- re lon -- gue -- ment. ""
-		_ "[Ton 1]"
+		A -- lors, il se mit à les ins -- trui -- re lon -- gue -- ment. 
+	\markup { \citation #"(Mc 6)  " } "" "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'aq "K 161" "" }
@@ -1573,23 +1562,22 @@
 		\times 2/6 { a16[\( a\) a a c a] }
 		\times 2/3 { g8[ bes a] } f4
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Lc 10)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Mar -- the, tu t'a -- gi -- tes pour bien des cho -- ses_; 
 		u -- ne seule est né -- ces -- sai -- re. Ma -- rie a 
 		choi -- si la meil -- leu -- re part_: el -- le ne lui
-		se -- ra pas en -- le -- vée. ""
-		_ "[Ton 6]"
+		se -- ra pas en -- le -- vée. 
+	\markup { \citation #"(Lc 10)  " } "" "[Ton 6]"
 	}
 	\header {
 		titres = \markup \ant #'ar "K 162" "" }
 }
 
 
-%\markup {
-%     	\fill-line {\line {"17ème SEMAINE DU T.O."}}}
+
 \label #'as
 \score {
 	\relative a'	{
@@ -1613,15 +1601,15 @@
 		a8[ b]
 		\times 2/3 { c8[\( b\) c] } a4
 		\endBar
-		\stemOff f4 a c_\markup \ref "(Mt 13)"
+		\stemOff f4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Le Roy -- au -- me des cieux est sem -- blable à un tré -- sor 
 		ca -- ché dans un champ et qu'un hom -- me vient à trou -- ver_: 
 		dans sa joie, il va ven -- dre tout ce qu'il pos -- sè -- de et
-		a -- chè -- te ce champ. ""
-		_ "[Ton 5]"
+		a -- chè -- te ce champ. 
+	\markup { \citation #"(Mt 13)  " } "" "[Ton 5]"
 	}
 	\header {
 		titre = "17ème SEMAINE DU T.O."
@@ -1646,14 +1634,14 @@
 		\times 2/3 { a8[ bes a] }
 		g4\( f8\) r8
 		\endBar
-		\stemOff f4 a c_\markup \ref "(Jn 6)"
+		\stemOff f4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		A la vue du si -- gne que Jé -- sus a -- vait ac -- com -- pli, 
 		les gens di -- saient_: «_C'est vrai -- ment lui le grand 
-		pro -- phè -- te, " ce" -- lui qui doit ve -- nir dans le mon -- de._» ""
-		_ "[Ton 5]"
+		pro -- phè -- te, " ce" -- lui qui doit ve -- nir dans le mon -- de._» 
+	\markup { \citation #"(Jn 6)  " } "" "[Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'at "K 171" "" }
@@ -1675,22 +1663,21 @@
 		r8 a
 		f8[\( f]\) e8[ f] d4
 		\endBar
-		\stemOff f4 g a a a a_\markup \ref "(Lc 11)"
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Ce -- lui qui de -- man -- de re -- çoit, _ce -- lui qui 
 		cher -- che trou -- ve, et pour ce -- lui qui frap -- pe 
-		la por -- te s'ou -- vri -- ra. ""
-		_ _ "[Ton 1 " "ou  Per.]" 
+		la por -- te s'ou -- vri -- ra. 
+	\markup { \citation #"(Lc 11)  " } "" "[Ton 1 " "ou  Per.]" 
 	}
 	\header {
 		titres = \markup \ant #'au "K 172" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"18ème SEMAINE DU T.O."}}}
+
 \label #'av
 \score {
 	\relative f'	{
@@ -1713,14 +1700,14 @@
 		\cesure
 		c8[ c] bes8[\( c\)] bes8[ a] a4
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Mt 14)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Jé -- sus le -- va les yeux au ciel, dit la bé -- né -- dic -- tion,
 		puis, rom -- pant les pains, il les don -- na aux dis -- ci -- ples 
-		qui les don -- nè -- rent aux fou -- les. Tous man -- gè -- rent à leur faim. ""
-		_ "[Ton 1]"
+		qui les don -- nè -- rent aux fou -- les. Tous man -- gè -- rent à leur faim. 
+	\markup { \citation #"(Mt 14)  " } "" "[Ton 1]"
 	}
 	\header {
 		titre = "18ème SEMAINE DU T.O."
@@ -1741,14 +1728,14 @@
 		\slurDashed g4( f8[) g]
 		\times 2/3 { f8[ d c] } d4
 		\endBar
-		\stemOff c4 d f_\markup \ref "(Jn 6)"
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Moi, je suis le pain de vie. _Ce -- lui qui vient à moi
 		n'au -- ra plus ja -- mais faim_; _ce -- lui qui croit 
-		en moi n'au -- ra plus ja -- mais soif. ""
-		_ "[Ton 2]"
+		en moi n'au -- ra plus ja -- mais soif. 
+	\markup { \citation #"(Jn 6)  " } "" "[Ton 2]"
 	}
 	\header {
 		titres = \markup \ant #'aw "K 181" "" }
@@ -1772,22 +1759,22 @@
 		c16[ g b a]
 		\times 2/3 { a4\( a8\) }
 		\endBar
-		\stemOff c'4 b c_\markup \ref "(Lc 12)"
+		\stemOff c'4 b c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Gar -- dez- -- vous de toute â -- pre -- té au gain_; 
 		car la vie d'un hom -- me, fût- -- il dans l'a -- bon -- dan -- ce, 
-		ne dé -- pend pas de ses ri -- ches -- ses. ""
-		_ "[Ton 7]"
+		ne dé -- pend pas de ses ri -- ches -- ses. 
+	\markup { \citation #"(Lc 12)  " } "" "[Ton 7]"
 	}
 	\header {
 		titres = \markup \ant #'ax "K 182" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"19ème SEMAINE DU T.O."}}}
+
+
 \label #'ay
 \score {
 	\relative c''  {
@@ -1808,14 +1795,14 @@
 		\times 2/3 { a8[ b c] } c8[\( c\)]
 		r8 c c8[ a] g4
 		\endBar
-		\stemOff c'4 b c_\markup \ref "(Mt 14)"
+		\stemOff c'4 b c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Vers la fin de la nuit, Jé -- sus vint vers eux en mar -- chant 
 		sur la mer_: «_Con -- fian -- ce, c'est moi, ne crai -- gnez pas !_» 
-		Et quand il fut mon -- té dans la bar -- que, le vent tom -- ba. ""
-		_ "[Ton 7]"
+		Et quand il fut mon -- té dans la bar -- que, le vent tom -- ba. 
+	\markup { \citation #"(Mt 14)  " } "" "[Ton 7]"
 	}
 	\header {
 		titre = "19ème SEMAINE DU T.O."
@@ -1845,7 +1832,7 @@
 		\times 2/3 { e8[ g a] }
 		g8[\( f8]\) g4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Jn 6)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -1853,8 +1840,8 @@
 		en -- voy -- é ne l'at -- ti -- re_; et moi,
 		je le res -- sus -- ci -- te -- rai au der -- nier jour.
 		A -- men, je vous le dis_: _ce -- lui qui croit a la 
-		vie é -- ter -- nel- _ -- le. ""
-		_ "[Ton 3]"
+		vie é -- ter -- nel- _ -- le. 
+	\markup { \citation #"(Jn 6)  " } "" "[Ton 3]"
 	}
 	\header {
 		titres = \markup \ant #'az "K 191" "" }
@@ -1881,23 +1868,23 @@
 		\times 2/3 { a8[ a c] }
 		\times 2/3 { c8[ a g] } g4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Lc 12)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Heu -- reux les ser -- vi -- teurs que le maî -- tre, 
 		à sa ve -- nue, trou -- ve -- ra en train de veil -- ler_! 
 		Il se cein -- dra, les fe -- ra mettre à ta- _ -- ble, 
-		et pas -- se -- ra les ser -- vir. ""
-		_ "[Ton 8]"
+		et pas -- se -- ra les ser -- vir. 
+	\markup { \citation #"(Lc 12)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'ba "K 192" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"20ème SEMAINE DU T.O."}}}
+
+
 \label #'bb
 \score {
 	\relative a'  {
@@ -1915,14 +1902,14 @@
 		g8[\( a\)] g4
 		r8 g f8[\( g\)] a8[ g] e4
 		\endBar
-		\stemOff a4 a a_\markup \ref "(Mt 15)"
+		\stemOff a4 a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		«_Ô fem -- me, ré -- pon -- dit Jé -- sus, grande est ta foi_!
 		Qu'il t'ad -- vien -- ne se -- lon ton dé -- sir_!_» 
-		Dès cette heu -- re -- -là sa fil -- le fut gué -- rie. ""
-		_ "[Ton 4]"
+		Dès cette heu -- re -- -là sa fil -- le fut gué -- rie. 
+	\markup { \citation #"(Mt 15)  " } "" "[Ton 4]"
 	}
 	\header {
 		titre = "20ème SEMAINE DU T.O."
@@ -1946,14 +1933,14 @@
 		\ifIndent
 		e8[ g] e8[ d] d4
 		\endBar
-		\stemOff d4 e g_\markup \ref "(Jn 6)"
+		\stemOff d4 e g
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Ce -- lui qui man -- ge ma chair et boit mon sang a la vie
 		é -- ter -- nel -- le_; il de -- meure en moi, et moi, 
-		je de -- meure en lui. ""
-		_ "[Ton 8]"
+		je de -- meure en lui. 
+	\markup { \citation #"(Jn 6)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'bc "K 201" "" }
@@ -1980,23 +1967,23 @@
 		\times 2/3 { g8[\( g\) g] }
 		\times 2/3 { f8[ d f] } g4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Lc 12)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Je suis ve -- nu je -- ter un feu sur la ter -- re, 
 		com -- me je vou -- drais qu'il fût al -- lu -- mé_! 
 		Je dois re -- ce -- voir un ba -- ptê -- me, comme il 
-		m'en coû -- te d'at -- ten -- dre qu'il soit con -- som -- mé_! ""
-		_ "[Ton 8]"
+		m'en coû -- te d'at -- ten -- dre qu'il soit con -- som -- mé_! 
+	\markup { \citation #"(Lc 12)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'bd "K 202" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"21ème SEMAINE DU T.O."}}}
+
+
 \label #'be
 \score {
 	\relative f'  {
@@ -2018,15 +2005,15 @@
 		\times 2/3 { g8[ f g] }
 		f8[\( d]\) d4
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Mt 16)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		«_Pour vous, qui suis -- -je_?_» Si -- mon -- -Pier -- re 
 		ré -- pon -- dit_: «_Tu es le Christ, le Fils du Dieu vi -- vant_!_» 
 		Jé -- sus lui dé -- cla -- ra_: «_Tu es Pier -- re et sur ce 
-		roc je bâ -- ti -- rai mon Eg -- li - se._» ""
-		_ "[Ton 1]"
+		roc je bâ -- ti -- rai mon Eg -- li - se._» 
+	\markup { \citation #"(Mt 16)  " } "" "[Ton 1]"
 	}
 	\header {
 		titre = "21ème SEMAINE DU T.O."
@@ -2054,15 +2041,15 @@
 		f8[ g] g4
 		r8 e f8[ g] g4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Jn 6)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Sei -- gneur, vers qui i -- rions -- -nous_? 
 		Tu as les pa -- ro -- les de la vie é -- ter -- nel -- le. 
 		Nous a -- vons cru et nous a -- vons re -- con -- nu que tu 
-		es le Saint, le Saint de Dieu. ""
-		_ "[Ton 8]"
+		es le Saint, le Saint de Dieu. 
+	\markup { \citation #"(Jn 6)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'bf "K 211" "" }
@@ -2084,22 +2071,22 @@
 		\slurDashed f4( \times 2/3 { d8[) d e] }
 		\times 2/3 { f8[\( e\) d] } d4
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Lc 13)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Ils vien -- dront nom -- breux du le -- vant et du cou -- chant,
 		du nord et du mi -- di, pren -- dre place au fes -- tin dans
-		le Roy -- au -- me de Dieu. ""
-		_ "[Ton 1]"
+		le Roy -- au -- me de Dieu. 
+	\markup { \citation #"(Lc 13)  " } "" "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'bg "K 212" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"22ème SEMAINE DU T.O."}}}
+
+
 \label #'bh
 \score { \transpose a d'{
 	\relative c'  { \key a\minor
@@ -2121,15 +2108,15 @@
 		\times 2/3 { c8[\( a\) g] }
 		b8[\( a8]\) a4
 		\endBar
-		\stemOff c'4 d e_\markup \ref "(Mt 16)"
+		\stemOff c'4 d e
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Ce -- lui qui veut sau -- ver sa vie la per -- dra,
 		mais qui per -- dra sa vie à cau -- se de moi la trou -- ve -- ra. 
 		Que sert à l'hom -- me de ga -- gner le monde en -- tier s'il 
-		vient à per -- dre son â - me. ""
-		_ "[Ton 1]"
+		vient à per -- dre son â - me. 
+	\markup { \citation #"(Mt 16)  " } "" "[Ton 1]"
 	} }
 	\header {
 		titre = "22ème SEMAINE DU T.O."
@@ -2157,15 +2144,15 @@
 		\times 2/3 { f8[ f f] }
 		f8[ g] e8[ e] g8[ bes] a4
 		\endBar
-		\stemOff f4 g a a a a_\markup \ref "(Jc 1)"
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Re -- ce -- vez a -- vec dou -- ceur la pa -- ro -- le se -- mée 
 		en vous, elle est ca -- pa -- ble de vous sau -- ver. 
 		Met -- tez la Pa -- role en pra -- ti -- que, ne vous 
-		con -- ten -- tez pas de l'é -- cou -- ter. ""
-		_ _ "[Ton 1 " "ou  Per.]"
+		con -- ten -- tez pas de l'é -- cou -- ter. 
+	\markup { \citation #"(Jc 1)  " } "" "[Ton 1 " "ou  Per.]"
 
 
 	}
@@ -2195,14 +2182,14 @@
 		\times 2/3 { g8[ g a] }
 		\times 2/3 { g4\( g8\) }
 		\endBar
-		\stemOff g4 a c_\markup \ref "        (Lc 14)"
+		\stemOff g4 a c        
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Quand tu donnes un fes -- tin, in -- vi -- te des pau -- vres, 
 		des in -- fir -- mes, des boi -- teux, des a -- veu -- gles_; 
-		et tu se -- ras heu -- reux par -- ce qu'ils n'ont rien à te ren -- dre. ""
-		_ "[Ton 2 transposé en la]"
+		et tu se -- ras heu -- reux par -- ce qu'ils n'ont rien à te ren -- dre. 
+	\markup { \citation #"(Lc 14)  " } "" "[Ton 2 transposé en la]"
 	}
 	\header {
 		titres = \markup \ant #'bj "K 222" "" }
@@ -2210,8 +2197,8 @@
 
 
 
-%\markup {
-%     	\fill-line {\line {"23ème SEMAINE DU T.O."}}}
+
+
 \label #'bk
 \score {
 	\relative f'  {
@@ -2236,15 +2223,15 @@
 		\ifIndent
 		c16[\cesure c a g] g4
 		\endBar
-		\stemOff f4 g a a a a_\markup \ref "(Mt 18)"
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Si deux d'en -- tre vous s'ac -- cor -- dent pour de -- man -- der 
 		u -- ne cho -- se, ils l'ob -- tien -- dront de mon Pè -- re qui 
 		est dans les cieux. Quand deux ou trois se ras -- sem -- blent
-		en mon nom, je suis là, au mi -- lieu d'eux. ""
-		_ _ "[Ton 6 " "ou  Per.]"
+		en mon nom, je suis là, au mi -- lieu d'eux. 
+	\markup { \citation #"(Mt 18)  " } "" "[Ton 6 " "ou  Per.]"
 	}
 	\header {
 		titre = "23ème SEMAINE DU T.O."
@@ -2268,15 +2255,15 @@
 		\times 2/3 { f8[ a g] }
 		g8[ a] c8[ a] g4\( g8\) r8
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Jc 2)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Dieu n'a -- -t-il pas choi -- si les pau -- vres se -- lon 
 		le mon -- de pour les en -- ri -- chir dans la foi,
 		les fai -- re hé -- ri -- tiers du Roy -- au -- me qu'il 
-		a pro -- mis à ceux qui l'ai -- ment_? ""
-		_ "[Ton 8]"
+		a pro -- mis à ceux qui l'ai -- ment_? 
+	\markup { \citation #"(Jc 2)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'bl "K 231" "" }
@@ -2298,22 +2285,21 @@
 		\times 2/3 { a8[ a a] }
 		a8[\( a\)] g8[ b] a4\( a8\) r8
 		\endBar
-		\stemOff f4 a c_\markup \ref "(Lc 14)"
+		\stemOff f4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Si quel -- qu'un vient à moi sans me pré -- fé -- rer aux siens, 
 		et même à sa pro -- pre vie, dit le Sei -- gneur, 
-		il ne peut ê -- tre mon di -- sci -- ple. ""
-		_ "[Ton 5]"
+		il ne peut ê -- tre mon di -- sci -- ple. 
+	\markup { \citation #"(Lc 14)  " } "" "[Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'bm "K 232" "" }
 }
 
 
-%\markup {
-%     	\fill-line {\line {"24ème SEMAINE DU T.O."}}}
+
 \label #'bn
 \score { \transpose c f, {
 	\relative c''  {
@@ -2330,15 +2316,15 @@
 		\times 2/3 { a8[\( a\) b] }
 		g8[ b] a4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Mt 18)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Je ne te dis pas de par -- don -- ner les torts de 
 		ton frè -- re jus -- qu'à sept fois, mais sans ces -- se. 
 		Que cha -- cun de vous par -- donne à son frè -- re, 
-		de tout son cœur. ""
-		_ "[Ton 2]"
+		de tout son cœur. 
+	\markup { \citation #"(Mt 18)  " } "" "[Ton 2]"
 	}}
 	\header {
 		titre = "24ème SEMAINE DU T.O."
@@ -2369,23 +2355,22 @@
 		\times 2/3 { c8[ c c] }
 		a8[ g] a4
 		\endBar
-		\stemOff f4 a c_\markup \ref "(Lc 15)"
+		\stemOff f4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Toi, mon en -- fant, tu es tou -- jours a -- vec moi. 
 		Mais il fal -- lait bien se ré -- jou -- ir et fes -- toy -- er, 
 		car ton frère é -- tait mort et il a re -- pris vie_; 
-		il é -- tait per -- du et il est re -- trou -- vé. ""
-		_ "[Ton 5]"
+		il é -- tait per -- du et il est re -- trou -- vé. 
+	\markup { \citation #"(Lc 15)  " } "" "[Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'bo "K 242" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"25ème SEMAINE DU T.O."}}}
+
 \label #'bp
 \score { \transpose c f, {
 	\relative c''  {
@@ -2403,14 +2388,14 @@
 		\times 2/3 { e8[\cesureBasse c b] }
 		a4\( a8\) r8
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Mt 20)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Vers la on -- zième heu -- re, le maî -- tre sor -- tit en -- co -- re, 
 		en trou -- va d'au -- tres qui se te -- naient là et 
-		leur dit_: «_Al -- lez, vous aus -- si, à ma vig -- ne._» ""
-		_ "[Ton 2]"
+		leur dit_: «_Al -- lez, vous aus -- si, à ma vig -- ne._» 
+	\markup { \citation #"(Mt 20)  " } "" "[Ton 2]"
 	}}
 	\header {
 		titre = "25ème SEMAINE DU T.O."
@@ -2436,14 +2421,14 @@
 		\times 2/3 { d8[ e d] }
 		b4\( b8\) r8
 		\endBar
-		\stemOff g,4 b d_\markup \ref "(Mc 9)"
+		\stemOff g,4 b d
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Pre -- nant un en -- fant, il le pla -- ça au mi -- lieu d'eux, 
 		l'em -- bras -- sa et leur dit_: «_Qui ac -- cueille en mon nom
-		un de ces en -- fants, c'est moi qu'il ac -- cueil -- le._» ""
-		_ "[Ton 5]"
+		un de ces en -- fants, c'est moi qu'il ac -- cueil -- le._» 
+	\markup { \citation #"(Mc 9)  " } "" "[Ton 5]"
 	}}
 	\header {
 		titres = \markup \ant #'bq "K 251" "" }
@@ -2472,23 +2457,22 @@
 		\ifIndent
 		g8[ a] g4
 		\endBar
-		\stemOff f4 g a a a a_\markup \ref "(Lc 16)"
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Si vous n'a -- vez pas é -- té fi -- dè -- les pour de l'ar -- gent, 
 		qui vous con -- fie -- ra le bien vé -- ri -- ta -- ble_? 
 		Si vous n'a -- vez pas é -- té fi -- dè -- les pour le 
-		bien é -- tran -- ger, le vô -- tre, qui vous le don -- ne -- ra_? ""
-		_ _ "[Ton 6 " "ou  Per.]"
+		bien é -- tran -- ger, le vô -- tre, qui vous le don -- ne -- ra_? 
+	\markup { \citation #"(Lc 16)  " } "" "[Ton 6 " "ou  Per.]"
 	}
 	\header {
 		titres = \markup \ant #'br "K 252" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"26ème SEMAINE DU T.O."}}}
+
 \label #'bs
 \score {
 	\relative a'  {
@@ -2515,15 +2499,15 @@
 		\ifIndent
 		g8[ a] g4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Mt 21)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		A -- men, je vous le dis, les pu -- bli -- cains et les
 		pé -- cheurs vous pré -- cè -- dent dans le Roy -- au -- me de Dieu. 
 		Car Jean -- -Ba -- ptiste est ve -- nu, et ils ont cru. 
-		Mais vous ne vous ê -- tes pas re -- pen -- tis pour croire en lui. ""
-		_ "[Ton 8]"
+		Mais vous ne vous ê -- tes pas re -- pen -- tis pour croire en lui. 
+	\markup { \citation #"(Mt 21)  " } "" "[Ton 8]"
 	}
 	\header {
 		titre = "26ème SEMAINE DU T.O."
@@ -2545,14 +2529,14 @@
 		g16[ g a b!] b16[ g f g]
 		e4\( e8\) r8
 		\endBar
-		\stemOff a4 a a_\markup \ref "(Mc 9)"
+		\stemOff a4 a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Qui vous don -- ne -- ra à boi -- re un ver -- re d'eau 
 		en rai -- son de votre ap -- par -- te -- nan -- ce au Christ, 
-		a -- men je vous le dis_: il ne per -- dra pas sa ré -- com -- pen -- se. ""
-		_ "[Ton 4]"
+		a -- men je vous le dis_: il ne per -- dra pas sa ré -- com -- pen -- se. 
+	\markup { \citation #"(Mc 9)  " } "" "[Ton 4]"
 	}
 	\header {
 		titres = \markup \ant #'bu "K 261" "" }
@@ -2572,22 +2556,22 @@
 		g16[ a g f]
 		\times 2/3 { g8[ g f] } e4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Lc 16)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		S'ils n'é -- cou -- tent pas Mo -- ï -- se ni les pro -- phè -- tes, 
 		quel -- qu'un pour -- rait res -- sus -- ci -- ter d'en -- tre les morts,
-		ils ne se -- raient pas con -- vain -- cus. ""
-		_ "[Ton 3]"
+		ils ne se -- raient pas con -- vain -- cus. 
+	\markup { \citation #"(Lc 16)  " } "" "[Ton 3]"
 	}
 	\header {
 		titres = \markup \ant #'bv "K 262" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"27ème SEMAINE DU T.O."}}}
+
+
 \label #'bw
 \score {
 	\relative c''  {
@@ -2606,14 +2590,14 @@
 		r8 g f8[ g]
 		\times 2/3 { a8[ a a] } g4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Mt 21)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		N'a -- vez -- -vous ja -- mais lu dans les E -- cri -- tu -- res_: «_La pier -- re 
 		qu'ont re -- je -- tée les bâ -- tis -- seurs est de -- ve -- nue la tê -- te d'an -- gle.
-		C'est là l'oeu -- vre du Sei -- gneur, ce fut mer -- veille à nos yeux_!_» ""
-		_ "[Ton 8]"
+		C'est là l'oeu -- vre du Sei -- gneur, ce fut mer -- veille à nos yeux_!_» 
+	\markup { \citation #"(Mt 21)  " } "" "[Ton 8]"
 	}
 	\header {
 		titre = "27ème SEMAINE DU T.O."
@@ -2638,13 +2622,13 @@
 		g8[ f]
 		g4\( e8\) r8
 		\endBar
-		\stemOff a4 a a_\markup \ref "(Mc 10)"
+		\stemOff a4 a a
 		\endBar 
 	}
 	\addlyrics {
 		Lais -- sez les en -- fants ve -- nir à moi_; ne les em -- pê -- chez pas, 
-		le Roy -- au -- me de Dieu est à ceux qui leur res -- sem -- blent. ""
-		_ _ "[Ton 4]"
+		le Roy -- au -- me de Dieu est à ceux qui leur res -- sem -- blent. 
+	\markup { \citation #"(Mc 10)  " } "" "[Ton 4]"
 	}
 	\header {
 		titres = \markup \ant #'bx "K 271" "" }
@@ -2669,22 +2653,21 @@
 		\slurDashed g4( \times 2/3 { f8[) f d] }
 		e8[ f] d4\( d8\) r8
 		\endBar
-		\stemOff c4 d f a a a_\markup \ref "(Lc 17)"
+		\stemOff c4 d f a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Quand vous au -- rez fait tout ce que Dieu vous a com -- man -- dé, 
 		di -- tes -- -vous_: nous som -- mes des ser -- vi -- teurs 
-		i -- nu -- ti -- les, nous a -- vons fait ce que nous de -- vions fai -- re. ""
-		_ _ "[Ton 2 " "ou  Per.]"
+		i -- nu -- ti -- les, nous a -- vons fait ce que nous de -- vions fai -- re. 
+	\markup { \citation #"(Lc 17)  " } "" "[Ton 2 " "ou  Per.]"
 	}
 	\header {
 		titres = \markup \ant #'by "K 272" "" }
 }
 
 
-%\markup {
-%     	\fill-line {\line {"28ème SEMAINE DU T.O."}}}
+
 \label #'bz
 \score {
 	\relative f'  {
@@ -2708,15 +2691,15 @@
 		\times 2/3 { f8[ g a] }
 		bes8[ g] a4\( a8\) r8
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Mt 22)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Le re -- pas des noces est prêt, mais les in -- vi -- tés 
 		n'é -- taient pas di -- gnes. Al -- lez donc aux croi -- sées 
 		des che -- mins, et tous ceux que vous ren -- con -- tre -- rez,
-		les mau -- vais com -- me les bons, in -- vi -- tez -- -les aux no -- ces. ""
-		_ "[Ton 6]"
+		les mau -- vais com -- me les bons, in -- vi -- tez -- -les aux no -- ces. 
+	\markup { \citation #"(Mt 22)  " } "" "[Ton 6]"
 	}
 	\header {
 		titre = "28ème SEMAINE DU T.O."
@@ -2744,14 +2727,14 @@
 		\cesure
 		d8[ e] d4
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Mc 10)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		U -- ne seu -- le cho -- se te man -- que_: va, vends ce que tu as
 		et don -- ne -- -le aux pau -- vres_: tu au -- ras un tré -- sor 
-		dans le ciel_; puis viens et suis -- -moi. ""
-		_ "[Ton 1]"
+		dans le ciel_; puis viens et suis -- -moi. 
+	\markup { \citation #"(Mc 10)  " } "" "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'ca "K 281" "" }
@@ -2771,23 +2754,22 @@
 		r8 c c8[ c] a8[ b]
 		a4\( a8\) r8
 		\endBar
-		\stemOff c'4 b c_\markup \ref "(2Tm 2)"
+		\stemOff c'4 b c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Sou -- viens -- -toi de Jé -- sus -- -Christ, 
 		le des -- cen -- dant de Da -- vid_: il est 
 		res -- sus -- ci -- té d'en -- tre les morts, 
-		voi -- là mon E -- van -- gi -- le. ""
-		_ "[Ton 7]"
+		voi -- là mon E -- van -- gi -- le. 
+	\markup { \citation #"(2Tm 2)  " } "" "[Ton 7]"
 	}
 	\header {
 		titres = \markup \ant #'cb "K 282" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"29ème SEMAINE DU T.O."}}}
+
 \label #'cc
 \score { \transpose a d {
 	\relative c''  { \key a\minor
@@ -2809,15 +2791,15 @@
 		\times 2/3 { d8[ c d] }
 		c8[ a] a4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Mt 22)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Aux pha -- ri -- siens qui lui de -- man -- daient
 		s'il é -- tait per -- mis de pay -- er le tri -- but à 
 		Cé -- sar, Jés -- us ré -- pon -- dit_: «_Ren -- dez à 
-		Cé -- sar ce qui est à Cé -- sar, et à Dieu ce qui est à Dieu._» ""
-		_ "[Ton 2]"
+		Cé -- sar ce qui est à Cé -- sar, et à Dieu ce qui est à Dieu._» 
+	\markup { \citation #"(Mt 22)  " } "" "[Ton 2]"
 	} }
 	\header {
 		titre = "29ème SEMAINE DU T.O."
@@ -2847,15 +2829,15 @@
 		f8[ g] g8[ a] f8[ f] e4
 		\endBar
 		\noBreak
-		\stemOff a4 a a_\markup \ref "(Mc 10)"
+		\stemOff a4 a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		La cou -- pe que je vais boi -- re, vous la boi -- rez, 
 		et le bap -- tê -- me dont je vais ê -- tre ba -- pti -- sé,
 		vous le re -- ce -- vrez. Mais de sié -- ger à mes cô -- tés,
-		il ne m'ap -- par -- tient pas de l'ac -- cor -- der. ""
-		_ "[Ton 4]"
+		il ne m'ap -- par -- tient pas de l'ac -- cor -- der. 
+	\markup { \citation #"(Mc 10)  " } "" "[Ton 4]"
 	}
 	\header {
 		titres = \markup \ant #'ce "K 291" "" }
@@ -2881,22 +2863,21 @@
 		\times 2/3 { d8[ f e] }
 		d4\( d8\) r8
 		\endBar
-		\stemOff c4 d f_\markup \ref "(Lc 18)"
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Dieu ne fe -- ra -- -t-il pas ju -- sti -- ce à ses é -- lus
 		qui crient vers lui jour et nuit_? Mais le Fils de l'hom -- me,
-		quand il vien -- dra, trou -- ve -- ra -- -t-il la foi sur la ter -- re_? ""
-		_ "[Ton 2]"
+		quand il vien -- dra, trou -- ve -- ra -- -t-il la foi sur la ter -- re_? 
+	\markup { \citation #"(Lc 18)  " } "" "[Ton 2]"
 	}
 	\header {
 		titres = \markup \ant #'cf "K 292" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"30ème SEMAINE DU T.O."}}}
+
 \label #'cg
 \score {
 	\relative d'  {
@@ -2923,7 +2904,7 @@
 		\times 2/3 { a8[\( f\) e] }
 		d8[\( e8]\) d4 
 		\endBar
-		\stemOff c4 d f_\markup \ref "(Mc 12)"
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -2931,8 +2912,8 @@
 		l'u -- ni -- que Sei -- gneur. Tu ai -- me -- ras le Sei -- gneur
 		ton Dieu de tout ton coeur, de tou -- te ton â- _ -- me, 
 		de tout ton es -- prit et de tou -- te ta for -- ce, 
-		et ton pro -- chain com -- me toi- -- mê- _ -- me. ""
-		_ "[Ton 2]"
+		et ton pro -- chain com -- me toi- -- mê- _ -- me. 
+	\markup { \citation #"(Mc 12)  " } "" "[Ton 2]"
 	}
 	\header {
 		titre = "30ème SEMAINE DU T.O."
@@ -2957,15 +2938,15 @@
 		\times 2/3 { a8[ a a] }
 		\times 2/3 { f8[ e f] } d4
 		\endBar
-		\stemOff c4 d f_\markup \ref "(Jr 31)"
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Je les ras -- sem -- ble des ex -- tré -- mi -- tés du mon -- de.
 		Par -- mi eux, l'a -- veugle et le boi -- teux, 
 		la femme en -- cein -- te et cel -- le qui en -- fan -- te.
-		C'est u -- ne grande as -- sem -- blée qui re -- vient. ""
-		_ "[Ton 2]"
+		C'est u -- ne grande as -- sem -- blée qui re -- vient. 
+	\markup { \citation #"(Jr 31)  " } "" "[Ton 2]"
 	}
 	\header {
 		titres = \markup \ant #'ch "K 301" "" }
@@ -2992,23 +2973,22 @@
 		\times 2/3 { f8[ e f] } d8[ d]
 		\times 2/3 { d8[ e d] } d4
 		\endBar
-		\stemOff c4 d f_\markup \ref "(Lc 18)"
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Le pu -- bli -- cain, se te -- nant au loin, se frap -- pait la 
 		poi -- trine en di -- sant_: «_Mon Dieu, prends pi -- tié du
 		pé -- cheur que je suis_!_» Je vous le dis_: il des -- cen -- dit 
-		chez lui ju -- sti -- fié. ""
-		_ "[Ton 2]"
+		chez lui ju -- sti -- fié. 
+	\markup { \citation #"(Lc 18)  " } "" "[Ton 2]"
 	}
 	\header {
 		titres = \markup \ant #'ci "K 302" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"31ème SEMAINE DU T.O."}}}
+
 \label #'cj
 \score { \transpose f c {
 	\relative f'  {
@@ -3032,14 +3012,14 @@
 		\times 2/3 { a8[ bes g] }
 		g8[ f] f4
 		\endBar
-		\stemOff f4 g bes_\markup \ref "(Mt 23)"
+		\stemOff f4 g bes
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Vous n'a -- vez qu'un seul Pè -- re, " ce" -- lui qui est dans les cieux.
 		Vous n'a -- vez qu'un seul Maî -- tre, le Christ, et vous ê -- tes tous frè -- res. 
-		Le plus grand par -- mi vous " se" -- ra vo -- tre ser -- vit -- eur. ""
-		_ "[Ton 2]"
+		Le plus grand par -- mi vous " se" -- ra vo -- tre ser -- vit -- eur. 
+	\markup { \citation #"(Mt 23)  " } "" "[Ton 2]"
 	}}
 	\header {
 		titre = "31ème SEMAINE DU T.O."
@@ -3070,7 +3050,7 @@
 		f16[ e f d]
 		e4\( d8\) r8
 		\endBar
-		\stemOff c4 d f_\markup \ref "(Mc 12)"
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -3078,8 +3058,8 @@
 		L'ai -- mer de tout son coeur, de tou -- te son 
 		in -- tel -- li -- gen -- ce et de tou -- te sa for -- ce,
 		ai -- mer son pro -- chain com -- me soi -- -mê -- me,
-		vaut mieux que tous les sa -- cri -- fic -- es. ""
-		_ "[Ton 2]"
+		vaut mieux que tous les sa -- cri -- fic -- es. 
+	\markup { \citation #"(Mc 12)  " } "" "[Ton 2]"
 	}
 	\header {
 		titres = \markup \ant #'ck "K 311" "" }
@@ -3105,22 +3085,22 @@
 		\slurDashed g4( \times 2/3 { f8[) e f] }
 		d8[ e] d4
 		\endBar
-		\stemOff f4 g a a a a_\markup \ref "(Lc 19)"
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Au -- jour -- d'hui le sa -- lut est ar -- ri -- vé pour 
 		cet -- te mai -- son, car lui aus -- si est un fils d'A -- bra -- ham.
-		Le Fils de l'homme est ve -- nu cher -- cher et sau -- ver ce qui é -- tait per -- du. ""
-		_ _ "[Ton 1 " "ou  Per.]"
+		Le Fils de l'homme est ve -- nu cher -- cher et sau -- ver ce qui é -- tait per -- du. 
+	\markup { \citation #"(Lc 19)  " } "" "[Ton 1 " "ou  Per.]"
 	}
 	\header {
 		titres = \markup \ant #'cl "K 312" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"32ème SEMAINE DU T.O."}}}
+
+
 \label #'cm
 \score {
 	\relative f'  {
@@ -3140,14 +3120,14 @@
 		\times 2/3 { c8[ c c] }
 		a8[ g] a4\( a8\) r8
 		\endBar
-		\stemOff f4 a c_\markup \ref "(Mt 25)"
+		\stemOff f4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Au mi -- lieu de la nuit, un cri se fit en -- ten -- dre_: 
 		«_Voi -- ci l'E -- poux_! Sor -- tez à sa ren -- con -- tre._» 
-		Veil -- lez donc, car vous ne sa -- vez ni le jour ni l'heu -- re. ""
-		_ "[Ton 5]"
+		Veil -- lez donc, car vous ne sa -- vez ni le jour ni l'heu -- re. 
+	\markup { \citation #"(Mt 25)  " } "" "[Ton 5]"
 	}
 	\header {
 		titre = "32ème SEMAINE DU T.O."
@@ -3173,15 +3153,15 @@
 		c16[ g g g] f8[ g] 
 		g4\( g8\) r8
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Mc 12)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		A -- men, je vous le dis_: tous, ils ont mis de leur
 		a -- bon -- dan -- ce, mais el -- le, c'est de son
 		in -- di -- gen -- ce_: elle a tout don -- né,
-		tout ce qu'elle a -- vait pour vi -- vre. ""
-		_ "[Ton 8]"
+		tout ce qu'elle a -- vait pour vi -- vre. 
+	\markup { \citation #"(Mc 12)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'cn "K 321" "" }
@@ -3207,22 +3187,22 @@
 		\cesure
 		\times 2/3 { f8[ e f] } d4
 		\endBar
-		\stemOff f4 g a a a a_\markup \ref "(Lc 20)"
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Ceux qui ont é -- té ju -- gés di -- gnes d'a -- voir part
 		au monde à ve -- nir sont fils de Dieu, é -- tant fils de
-		la ré -- sur -- rec -- tion. Il n'est pas le Dieu des morts, mais des viv -- ants. ""
-		_ _ "[Ton 1 " "ou  Per.]"
+		la ré -- sur -- rec -- tion. Il n'est pas le Dieu des morts, mais des viv -- ants. 
+	\markup { \citation #"(Lc 20)  " } "" "[Ton 1 " "ou  Per.]"
 	}
 	\header {
 		titres = \markup \ant #'co "K 322" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"33ème SEMAINE DU T.O."}}}
+
+
 \label #'cp
 \score { \transpose g  f {
 	\relative c''  { \key g \major
@@ -3241,14 +3221,14 @@
 		g16[ g g a]
 		\slurDashed b4( c8[) a] g4
 		\endBar
-		\stemOff g4 a b_\markup \ref "(Mt 25)"
+		\stemOff g4 a b
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Ser -- vi -- teur fi -- dè -- le, en -- tre dans la joie de
 		ton Sei -- gneur_: tu as é -- té fi -- dè -- le en peu de 
-		cho -- se, je te con -- fie -- rai tous mes biens. ""
-		_ "[Ton 6]"
+		cho -- se, je te con -- fie -- rai tous mes biens. 
+	\markup { \citation #"(Mt 25)  " } "" "[Ton 6]"
 	} }
 	\header {
 		titre = "33ème SEMAINE DU T.O."
@@ -3280,7 +3260,7 @@
 		\ifIndent
 		e8[ f] d4\( d8\) r8
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Mc 13)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -3288,8 +3268,8 @@
 		ve -- nir sur les nu -- ées, a -- vec gran -- de 
 		puis -- san -- ce et gran -- de gloi -- re. 
 		A -- lors il en -- ver -- ra les an -- ges pour
-		ras -- sem -- bler ses é -- lus des ex -- tré -- mi -- tés du mon -- de. ""
-		_ "[Ton 1]"
+		ras -- sem -- bler ses é -- lus des ex -- tré -- mi -- tés du mon -- de. 
+	\markup { \citation #"(Mc 13)  " } ""  "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'cq "K 331" "" }
@@ -3315,22 +3295,21 @@
 		c16[ c c a]
 		a8[ g] a4
 		\endBar
-		\stemOff f4 a c_\markup \ref "(Lc 21)"
+		\stemOff f4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Je vous don -- ne -- rai un lan -- ga -- ge et u -- ne sa -- ges -- se,
 		que nul de vos ad -- ver -- sai -- res ne pour -- ra con -- tre -- di -- re.
-		C'est par vo -- tre per -- sé -- vé -- ran -- ce que vous ob -- tien -- drez la vie. ""
-		_ "[Ton 5]"
+		C'est par vo -- tre per -- sé -- vé -- ran -- ce que vous ob -- tien -- drez la vie. 
+	\markup { \citation #"(Lc 21)  " } "" "[Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'cr "K 332" "" }
 }
 
 
-%\markup {
-%      	\fill-line {\line {"34ème SEMAINE DU T.O."}}}
+
 \label #'cs
 \score { \transpose e a, {
 	\relative c''  {
@@ -3349,14 +3328,14 @@
 		\times 2/3 { e8[\( e\) c] }
 		d8[\( b\)] a4
 		\endBar
-		\stemOff c'4 d e e e e_\markup \ref "(Mt 25)"
+		\stemOff c'4 d e e e e
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Quand le Fils de l'hom -- me vien -- dra dans sa gloi -- re, 
 		et tous les an -- ges a -- vec lui, a -- lors il
-		s'as -- sié -- ra sur son trô -- ne de gloi- _ -- re. ""
-		_ _ "[Ton 1 " "ou  Per.]"
+		s'as -- sié -- ra sur son trô -- ne de gloi- _ -- re. 
+	\markup { \citation #"(Mt 25)  " } "" "[Ton 1 " "ou  Per.]"
 	} }
 	\header {
 		titre = "34ème SEMAINE DU T.O."
@@ -3388,7 +3367,7 @@
 		\ifIndent
 		a4
 		\endBar
-		\stemOff c'4 d e e e e_\markup \ref "(Jn 18)"
+		\stemOff c'4 d e e e e
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -3396,8 +3375,8 @@
 		Je suis né, je suis ve -- nu dans le mon -- de_:
 		pour ren -- dre té -- moi -- gna -- ge à la vé -- ri -- té. 
 		Tout hom -- me qui ap -- par -- tient à la vé -- ri -- té
-		" é" -- cou -- te ma voix. ""
-		_ _ "[Ton 1 " "ou  Per.]"
+		" é" -- cou -- te ma voix. 
+	\markup { \citation #"(Jn 18)  " } "" "[Ton 1 " "ou  Per.]"
 	} }
 	\header {
 		titres = \markup \ant #'ct "K 341" "" }
@@ -3422,15 +3401,15 @@
 		\times 2/3 { f8[\cesureBasse f f] }
 		\times 2/3 { f8[ d c] }
 		d8[ e] e4
-		\endBar\stemOff a4 a a_\markup \ref "(Lc 23)"
+		\endBar\stemOff a4 a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		«_Jé -- sus, sou -- viens -- -toi de moi, 
 		quand tu vien -- dras dans ton Roy -- au -- me._» 
 		«_A -- men, je te le dis_: Au -- jour -- d'hui, a -- vec moi, 
-		tu se -- ras dans le Pa -- ra -- dis._» ""
-		_ "[Ton 4]"
+		tu se -- ras dans le Pa -- ra -- dis._» 
+	\markup { \citation #"(Lc 23)  " } "" "[Ton 4]"
 	}
 	\header {
 		titres = \markup \ant #'cu "K 342" "" }

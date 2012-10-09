@@ -55,7 +55,7 @@
 	La grâ -- ce du Sei -- gneur Jé -- sus- -- Christ, 
 	"l'a" -- mour de Dieu le Pè- _ -- re et la co -- mmu -- nion du 
 	Saint- -- Esp -- rit soient a -- vec vous tous -.
-	\markup { \citation #"(2 Co 13)   " } "" "[Ton 4 transposé au ré]" 
+	\markup { \citation #"(2 Co 13)   " } "" "[Ton 4*]" 
 	}
 	\header {
 		titres = \markup \ant #'c "J 110" "Antiennes" }
