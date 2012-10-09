@@ -12,14 +12,14 @@
 	print-page-number = ##f
 	markup-markup-spacing =		% variable redéfinie pour mettre de l'espace entre le \markup et les titres
 	#'((padding . 0)
-	   (basic-distance . 2))
+	   (basic-distance . 1.8))
 	markup-system-spacing =		% ajouté par fr Raf
 	#'((padding . 0.2)		% détermine l’espacement entre un titre ou un markup de premier niveau,
 	   (basic-distance . 0.2)		% et le système qui le suit.
 	   (minimum-distance . 0)
 	   (stretchability . 0))
 	score-markup-spacing =		% ajouté par fr Raf
-	#'((padding . 3.8)		% détermine l’espacement entre le dernier système
+	#'((padding . 3.2)		% détermine l’espacement entre le dernier système
 	   (basic-distance . 0)		% et le titre ou markup de haut niveau qui le suit.
 	   (minimum-distance . 0)	% C'est bien de mettre une valeur positive au padding.
 	   (stretchability . 0))

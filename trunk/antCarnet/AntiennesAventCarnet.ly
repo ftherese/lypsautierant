@@ -122,7 +122,7 @@
 		titres = \markup \ant #'d "F 210" "Magnificat" } 	
 } 
 
-
+%{
 \markup {
       	\fill-line{
       	\line{"TROISIEME DIMANCHE DE L'AVENT"}}}
@@ -223,4 +223,4 @@
   		titres = \markup \ant #'g "F 400" "Benedictus" }
 } 
 
-
+%}
