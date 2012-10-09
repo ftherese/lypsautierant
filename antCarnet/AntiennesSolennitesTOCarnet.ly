@@ -2,8 +2,9 @@
 \include "DefinitionsAntiennesCarnet.ly"
 
 
-\markup {
-	\fill-line{\line{"LA SAINTE TRINITÉ"}}}
+
+%\markup {
+%	\fill-line{\line{"LA SAINTE TRINITÉ"}}}
 \label #'a
 \score {\relative f'  { 
 		\times 2/3 { r8_\( f[ e]\) } d4 \cesure
@@ -15,6 +16,7 @@
 		Le vrai Dieu, Tri -- ni -- té dans "l'u" -- ni -- té, ve -- nez a -- do -- rons- -- le.
 	}
 	\header {
+		titre = "LA SAINTE TRINITÉ"
 		titres = \markup \ant #'a "J 101" "Antiennes d'invitatoire" }
 } 
 
@@ -102,8 +104,8 @@
 } 
 
 
-\markup {
-	\fill-line{\line{"LE SAINT SACREMENT"}}}
+%\markup {
+%	\fill-line{\line{"LE SAINT SACREMENT"}}}
 \label #'e
 \score {\relative f'  { \key f \major
 		r8 c \times 2/3 { d8[\cesure a' bes] } 
@@ -119,6 +121,7 @@
 	Jé -- sus, Pain de Vie, qui don -- ne la vie au mon -- de, ve -- nez, a -- do -- rons- -- "le !"	
 	}
 	\header {
+		titre = "LE SAINT SACREMENT"
 		titres = \markup \ant #'e "J 201" "Antienne d'invitatoire" }
 }
 
@@ -151,8 +154,8 @@
 		titres = \markup \ant #'f "J 210" "Antiennes" }
 } 
 
-\markup {
-	\fill-line{\line{"LE SACRÉ COEUR"}}}
+%\markup {
+%	\fill-line{\line{"LE SACRÉ COEUR"}}}
 \label #'g
 \score {\relative f'  { 
 		r8 c \times 2/3 { d8[ e f] }
@@ -167,6 +170,7 @@
 	ve -- nez a -- do -- rons- -- le.			
 	}
 	\header {
+		titre = "LE SACRÉ COEUR"
 		titres = \markup \ant #'g "J 301" "Antienne d'invitatoire" }
 } 	
 
@@ -225,8 +229,8 @@
 		titres = \markup \ant #'i "J 320" "" }
 } 
 
-\markup {
-	\fill-line{\line{"LE COEUR IMMACULÉ DE MARIE"}}}
+%\markup {
+%	\fill-line{\line{"LE COEUR IMMACULÉ DE MARIE"}}}
 \label #'j	
 \score {\relative f'  { \key f \major
 		r8 d f4
@@ -246,6 +250,7 @@
 	_ "[Ton 1]"
 	}
 	\header {
+		titre = "LE COEUR IMMACULÉ DE MARIE"
 		titres = \markup \ant #'j "J 410" "" }
 }
 

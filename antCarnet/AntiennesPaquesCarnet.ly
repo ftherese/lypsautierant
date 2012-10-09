@@ -2,8 +2,8 @@
 \include "DefinitionsAntiennesCarnet.ly"
 
 
-\markup {
-	\fill-line {\line { "PREMIER DIMANCHE DE PAQUES" }}}
+%\markup {
+%	\fill-line {\line { "PREMIER DIMANCHE DE PAQUES" }}}
 \label #'a
 \score {\relative f'  { 
 		d16[\( a'\) a a]
@@ -42,12 +42,13 @@
 	_ "[Ton 3]"
 	}
 	\header {
+		titre =  "PREMIER DIMANCHE DE PAQUES"
 		titres = \markup \ant #'a "I 100" "" }
 } 
 
 
-\markup {
-	\fill-line {\line { "DEUXIEME DIMANCHE DE PAQUES" }}}
+%\markup {
+%	\fill-line {\line { "DEUXIEME DIMANCHE DE PAQUES" }}}
 \label #'b	
 \score {\relative f'  { 
 		r8. c'16
@@ -80,12 +81,13 @@
 	_ "[Ton 3]"
 	}
 	\header {
+		titre = "DEUXIEME DIMANCHE DE PAQUES"
 		titres = \markup \ant #'b "I 200" "" }
 }
 
 
-\markup {
-	\fill-line {\line { "TROISIEME DIMANCHE DE PAQUES" }}}
+%\markup {
+%	\fill-line {\line { "TROISIEME DIMANCHE DE PAQUES" }}}
 \label #'c	
 \score {\relative f'  { 
 		r8 a
@@ -123,6 +125,7 @@
 	_ _ "[Ton 2 transposé au la]"
 	}
 	\header {
+		titre = "TROISIEME DIMANCHE DE PAQUES"
 		titres = \markup \ant #'c "I 300" "" }
 } 
 %\markup {2ème mode transposé au la }
@@ -196,8 +199,8 @@
 }
 
 
-\markup {
-	\fill-line {\line { "QUATRIEME DIMANCHE DE PAQUES" }}}
+%\markup {
+%	\fill-line {\line { "QUATRIEME DIMANCHE DE PAQUES" }}}
 \label #'f	
 \score {\transpose  c f {\relative f'  { \key c \major
 		\times 2/3 { e8[ e f] } d4 \cesure
@@ -225,6 +228,7 @@
 	_ "[Ton 6]"
 	} }
 	\header {
+		titre = "QUATRIEME DIMANCHE DE PAQUES"
 		titres = \markup \ant #'f "I 400" "" }
 } 
 
@@ -281,10 +285,10 @@
 		titres = \markup \ant #'h "I 402" "" }
 }
 
-\pageBreak
 
-\markup {
-	\fill-line {\line { "CINQUIEME DIMANCHE DE PAQUES" }}}
+
+%\markup {
+%	\fill-line {\line { "CINQUIEME DIMANCHE DE PAQUES" }}}
 \label #'i
 \score {\relative f' { \key f \major
 	\times 2/3 { r8_\( d[ d]\) }
@@ -312,6 +316,7 @@
 	_ _ "[Ton 1 " "ou  Per.]"
 	} 
 	\header {
+		titre = "CINQUIEME DIMANCHE DE PAQUES"
 		titres = \markup \ant #'i "I 500" "" }
 } 
 
@@ -368,8 +373,8 @@
 } 
 
 
-\markup {
-	\fill-line {\line { "SIXIEME DIMANCHE DE PAQUES" }}}
+%\markup {
+%	\fill-line {\line { "SIXIEME DIMANCHE DE PAQUES" }}}
 \label #'l	
 \score {\relative f' {
 	\times 2/3 { f8[ g a] } g4  \cesure
@@ -405,6 +410,7 @@
 	_ "[Ton 8]"
 	} 
 	\header {
+		titre = "SIXIEME DIMANCHE DE PAQUES"
 		titres = \markup \ant #'l "I 600" "" }
 } 
 
@@ -472,8 +478,8 @@
 } 
 
 
-\markup {
-      	\fill-line { \line { "ASCENSION" }}}
+%\markup {
+%      	\fill-line { \line { "ASCENSION" }}}
 \label #'o
 \score { \relative c''  { 
 	g16[ g g c] a8[ \cesure f] g4
@@ -506,6 +512,7 @@
 		_ "[Ton 8]"
 		}
 	\header {
+		titre = "ASCENSION"
 		titres = \markup \ant #'o "I 650" "" }
 }
 
@@ -540,8 +547,8 @@
 }
 
 
-\markup {
-      	\fill-line{ \line{ "TROPAIRE POUR LE TEMPS DU CENACLE" }}}
+%\markup {
+%      	\fill-line{ \line{ "TROPAIRE POUR LE TEMPS DU CENACLE" }}}
 \label #'q
 \score { \relative c''  { 
 	r16 g16[ b c] d16[ d d c] d16[\( d\) \cesure e f]
@@ -581,12 +588,13 @@
 		et re -- nou -- vel -- le la fa -- ce de la ter -- re.
 		}	
 	\header {
+		titre = "TROPAIRE POUR LE TEMPS DU CENACLE"
 		titres = \markup \ant #'q "I 655" "" }
 }
 
 
-\markup {
-      	\fill-line { \line { "SEPTIEME DIMANCHE DE PAQUES" }}}
+%\markup {
+%     	\fill-line { \line { "SEPTIEME DIMANCHE DE PAQUES" }}}
 \label #'r
 \score { \relative c''  { 
 	a8[\( a\)]
@@ -628,6 +636,7 @@
 		_ _ "[Ton 1 transposé au la]"
 	}
 	\header {
+		titre = "SEPTIEME DIMANCHE DE PAQUES"
 		titres = \markup \ant #'r "I 700" "" }
 }
 
@@ -735,8 +744,8 @@
 }
 
 
-\markup {
-      	\fill-line{ \line{ "PENTECOTE" }}}
+%\markup {
+%     	\fill-line{ \line{ "PENTECOTE" }}}
 \label #'v
 \score { \transpose a d \relative c''  { 
 	\times 2/3 { a8[ c c] }
@@ -766,6 +775,7 @@
 		et vo -- tre coeur se -- ra dans la joie, al -- le -- lu - ia. ""
 		_ "[Ton 2]"}
 	\header {
+		titre = "PENTECOTE"
 		titres = \markup \ant #'v "I 800" "" }
 }
 

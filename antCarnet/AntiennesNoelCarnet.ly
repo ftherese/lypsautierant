@@ -3,8 +3,8 @@
 
 
 
-\markup {
-	\fill-line{\line{ "NATIVITÉ DU SEIGNEUR"}}}
+%\markup {
+%	\fill-line{\line{ "NATIVITÉ DU SEIGNEUR"}}}
 \label #'a
 \score { 
 	\relative f'  {
@@ -13,6 +13,7 @@
 	\addlyrics { 
 	}
 	\header {
+		titre = "NATIVITÉ DU SEIGNEUR"
 		titres = \markup \ant #'a "G 100" "Premières vêpres (Latin)" }
 }
 
@@ -51,12 +52,7 @@
 		titres = \markup \ant #'b "G 101" "Premières vêpres (Français)" }
 } 
 
-\markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
-\markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
-\markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
-
-
-%\pageBreak
+\pageBreak
 
 \label #'c
 \score {\relative f'  {
@@ -68,6 +64,12 @@
 	\header {
 		titres = \markup \ant #'c "G 110" "Jour de Noël (Latin)" }
 } 
+
+\markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
+\markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
+\markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
+\markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
+
 
 \pageBreak
 
@@ -111,8 +113,8 @@
 } 
 
 
-\markup {
-	\fill-line{\line{ "OCTAVE DE LA NATIVITÉ"}}}
+%\markup {
+%	\fill-line{\line{ "OCTAVE DE LA NATIVITÉ"}}}
 \label #'e
 \score {\relative f'  {
 	
@@ -140,13 +142,14 @@
 		_ "[Ton 8]"
 	}
 	\header {
+		titre = "OCTAVE DE LA NATIVITÉ"
 		titres = \markup \ant #'e "G 120" "" }
 } 
 
-%\pageBreak
 
-\markup {
-	\fill-line{\line{"DEUXIEME DIMANCHE DE NOEL"}}}
+
+%\markup {
+%	\fill-line{\line{"DEUXIEME DIMANCHE DE NOEL"}}}
 \label #'f
 \score {\relative f'  {
 	\key f \major
@@ -174,12 +177,13 @@
 
 	}
 	\header {
+		titre = "DEUXIEME DIMANCHE DE NOEL"
 		titres = \markup \ant #'f "G 200" "" }
 } 
 
 
-\markup {
-	\fill-line{\line{"LA SAINTE FAMILLE"}}}
+%\markup {
+%	\fill-line{\line{"LA SAINTE FAMILLE"}}}
 \label #'g	
 \score {\relative f'  {
 		r8 g8 g8[ d'] d4\cesure
@@ -204,6 +208,7 @@
 		_ "[Ton 7]"
 	}
 	\header {
+		titre = "LA SAINTE FAMILLE"
 		titres = \markup \ant #'g "G 300" "Benedictus" }
 } 
 
@@ -234,8 +239,8 @@
 } 
 
 
-\markup {
-	\fill-line{\line{ "SAINTE MARIE, MERE DE DIEU (1er janvier)"}}}
+%\markup {
+%	\fill-line{\line{ "SAINTE MARIE, MERE DE DIEU (1er janvier)"}}}
 \label #'i
 \score {\transpose c f, {
 	\relative f'  {
@@ -260,6 +265,7 @@
 		_ _ "[Ton 1 " " ou Per.]"
 	 	}}
 	\header {
+		titre = "SAINTE MARIE, MERE DE DIEU (1er janvier)"
 		titres = \markup \ant #'i "G 400" "Benedictus" }
 }
 
@@ -292,10 +298,10 @@
 		titres = \markup \ant #'j "G 401" "Magnificat" }
 } 
 
-%\pageBreak
 
-\markup {
-	\fill-line{\line{ "EPIPHANIE DU SEIGNEUR"}}}
+
+%\markup {
+%	\fill-line{\line{ "EPIPHANIE DU SEIGNEUR"}}}
 \label #'k
 \score {\relative f'  {
 		\times 2/3 { r8\( g[ d']\) }
@@ -325,6 +331,7 @@
 		_ "[Ton 7]"
 	}
 	\header {
+		titre = "EPIPHANIE DU SEIGNEUR"
 		titres = \markup \ant #'k "G 500" "Benedictus" }
 }
 
@@ -358,8 +365,8 @@
 } 
 
 
-\markup {
-	\fill-line{\line{ "BAPTEME DU SEIGNEUR"}}}
+%\markup {
+%	\fill-line{\line{ "BAPTEME DU SEIGNEUR"}}}
 \label #'m
 \score {\relative f'  { 
 		\times 2/3 { a8[ a a] }
@@ -385,6 +392,7 @@
 		_ "[Ton 1]"
 	}
 	\header {
+		titre = "BAPTEME DU SEIGNEUR"
 		titres = \markup \ant #'m "G 600" "Benedictus" }
 }
 

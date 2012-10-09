@@ -2,10 +2,12 @@
 \include "DefinitionsAntiennesCarnet.ly"
 
 
+%	\markup {
+ %     		\fill-line{
+ %                      	\line{ "PREMIER DIMANCHE DE L'AVENT"}}
+%	}
 
-\markup { \fill-line {
-	\line{"PREMIER DIMANCHE DE L'AVENT"}}}
-\label #'a	
+\label #'a
 \score {
 	\relative f'  {
 		\key f \major
@@ -32,7 +34,10 @@
 		_ "[Ton 1]" 
 	}
 	\header {
-		titres = \markup \ant #'a "F 100" "Benedictus" }	% S'il n'y avait pas arg2 (ici, Benedictus) garder les ""
+		titre =  "PREMIER DIMANCHE DE L'AVENT" 
+		titres = \markup \ant #'a "F 100" "Benedictus"
+	}
+  	
 } 
 
 
@@ -59,14 +64,17 @@
 		_ "[Ton 2]" 	
 	}
 	\header {
-		titres = \markup \ant #'b "F 110" "Magnificat" }
+		titres = \markup \ant #'b "F 110" "Magnificat"
+	}
+  	
 } 
 
 
-\markup {
-      	\fill-line{
-      	\line{ "DEUXIEME DIMANCHE DE L'AVENT"}}}
-\label #'c
+%	\markup {
+ %     		\fill-line{
+ %                      	\line{ "DEUXIEME DIMANCHE DE L'AVENT"}}
+%	}
+\label #'c	
 \score {
 	\relative f' {
 		\key f \major
@@ -78,7 +86,7 @@
 		a16[ a g\( a\)] f4 \cesure
 		g8[ g16\( a]\)
 		\times 2/3 { f4\( e8\) } d4
-		\endBar
+		\endBar	
 		\stemOff f4 g4 a4_\markup \ref "(Is 40)"
 		\endBar	
 	}
@@ -86,10 +94,12 @@
 	\addlyrics {
 		Un -- e voix pro -- cla -- "me :" «_Pré -- pa -- rez dans le dés -- ert le che -- min du Seig -- neur, 
 		et ren -- dez droits les sen -- tiers de not -- re Dieu._» Al -- le -- \skip 1 lu -- \skip 1 "ia !" ""
-		_ "[Ton 1]"	
+		_  "[Ton 1]"	
 	}
   	\header {
-  		titres = \markup \ant #'c "F 200" "Benedictus" }
+  		titre = "DEUXIEME DIMANCHE DE L'AVENT"
+  		titres = \markup \ant #'c "F 200" "Benedictus"
+	}
 } 
 
 
@@ -108,6 +118,7 @@
 		\times 2/3 { c8[ c\( d]\) } \times 2/3 { d4\( d8\) }
 		\times 2/3 { g8[ g g] } g8[ f] d4
 		\endBar
+		\espace \espace
 		\stemOff c4 d4 f4_\markup \ref "(Is 40)"
 		\endBar			
 	}
@@ -119,13 +130,16 @@
 		_ "[Ton 2]"
 	}
 	\header {
-		titres = \markup \ant #'d "F 210" "Magnificat" } 	
+		titres = \markup \ant #'d "F 210" "Magnificat"
+	}
+  	
 } 
 
 
-\markup {
-      	\fill-line{
-      	\line{"TROISIEME DIMANCHE DE L'AVENT"}}}
+%	\markup {
+ %     		\fill-line{
+%                       	\line{"TROISIEME DIMANCHE DE L'AVENT"}}
+%	}
 \label #'e
 \score {
 	\relative f' {
@@ -141,6 +155,8 @@
 		g8[ g16\( a]\)
 		\times 2/3 { f4\( e8\) } d4
 		\endBar	
+
+				%\espace 
 		\noBreak
 		\stemOff f4 g4 a4
 		\endBar	
@@ -152,10 +168,12 @@
 		Al -- le -- \skip 1 lu -- \skip 1 "ia !" ""
 		_ "[Ton 1]"
 	}
-  	\header {
-  		titres = \markup \ant #'e "F 300" "Benedictus" }
-}
 
+  	\header {
+  		titre = "TROISIEME DIMANCHE DE L'AVENT"
+  		titres = \markup \ant #'e "F 300" "Benedictus"
+	}
+} 
 
 \label #'f
 \score {
@@ -165,32 +183,32 @@
 		e16[\( c\) d d]
 		\times 2/3 { f4\(\cesure f8\) }
 		\times 2/3 { f8[ f e] }
-		\times 2/3 { c8[\cesureTresBasse \espace e c] }
+		\times 2/3 { c8[\cesureTresBasse e c] }
 		\times 2/3 { d8[\cesureTresBasse d d] } f4 \cesure
-		\espace
 		g16[ f e c]
-		c8[ d] f8[ g]
-		\ifIndent
-		f8[ d] d4
+		c8[ d] f8[ g] f8[ d] d4
 		\endBar
+		\espace
 		\stemOff c4 d4 f4_\markup \ref "(Cf. So)"
 		\endBar			
 	}
-
 	\addlyrics {
 		Ré -- jou -- is- -- toi, Fi -- lle de Si -- "on :" le Roi "d'Is" -- ra -- ël, 
 		le Seig -- neur, est en toi. Il te re -- nou -- vel -- le -- ra dans son am -- our. ""
 		_ "[Ton 2]"
 	}
 	\header {
-		titres = \markup \ant #'f "F 310" "Magnificat" }	
+		titres = \markup \ant #'f "F 310" "Magnificat"
+	}
+  	
 } 
 
 
-\markup {
-      	\fill-line{
-      	\line{"QUATRIEME DIMANCHE DE L'AVENT"}}}
-\label #'g
+%	\markup {
+%      		\fill-line{
+%                       	\line{"QUATRIEME DIMANCHE DE L'AVENT"}}
+%	}
+\label #'g	
 \score {
 	\relative f' {
 		\key f \major
@@ -209,7 +227,8 @@
 		\ifIndent
 		g8[ g16\( a]\)
 		\times 2/3 { f4\( e8\) } d4
-		\endBar
+		\endBar	
+		\espace
 		\stemOff f4 g4 a4
 		\endBar	
 	}
@@ -219,8 +238,11 @@
 		en toi le Sol -- eil a é -- ta -- bli sa de -- meu -- re. Al -- le -- \skip 1 lu -- \skip 1 "ia !" ""
 		_ "[Ton 1]"
 	}
+
   	\header {
-  		titres = \markup \ant #'g "F 400" "Benedictus" }
+  		titre = "QUATRIEME DIMANCHE DE L'AVENT"
+  		titres = \markup \ant #'g "F 400" "Benedictus"
+	}
 } 
 
 
