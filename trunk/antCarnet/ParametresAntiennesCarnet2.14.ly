@@ -12,14 +12,14 @@
 	print-page-number = ##f
 	markup-markup-spacing =		% variable redéfinie pour mettre de l'espace entre le \markup et les titres
 	#'((padding . 0)
-	   (basic-distance . 1.8))
+	   (basic-distance . 2))
 	markup-system-spacing =		% ajouté par fr Raf
-	#'((padding . 0.2)		% détermine l’espacement entre un titre ou un markup de premier niveau,
-	   (basic-distance . 0.2)		% et le système qui le suit.
+	#'((padding . 0.1)		% détermine l’espacement entre un titre ou un markup de premier niveau,
+	   (basic-distance . 0.1)		% et le système qui le suit.
 	   (minimum-distance . 0)
 	   (stretchability . 0))
 	score-markup-spacing =		% ajouté par fr Raf
-	#'((padding . 3.2)		% détermine l’espacement entre le dernier système
+	#'((padding . 3.5)		% détermine l’espacement entre le dernier système
 	   (basic-distance . 0)		% et le titre ou markup de haut niveau qui le suit.
 	   (minimum-distance . 0)	% C'est bien de mettre une valeur positive au padding.
 	   (stretchability . 0))
@@ -33,6 +33,8 @@
 	   (minimum-distance . 0) 		%% alors il y aura moins de systèmes sur une page. Je l'ai mis à 0.				 %%
 	   (stretchability . 0) 		%% C'est ce qui a résolu le gros blanc sur l'essaie que j'ai fait du Magnificat			 %%
 	   (basic-distance . 0))   		%% et de même aussi les blancs entre les antiennes d'invitatoire et les antiennes sur ce fichier.%%
+	top-system-spacing = #'((basic-distance . 0) (minimum-distance . 0) (padding . 0))
+	top-markup-spacing = #'((basic-distance . 0) (minimum-distance . 0) (padding . 0))
 	page-limit-inter-system-space = ##t
 	page-limit-inter-system-space-factor = #0
 	score-system-spacing = 
@@ -69,13 +71,17 @@
 %% Ci-dessous, deux nouvelles variables pour la variable "titres" à mettre dans \header comportant arg1 (=opus) et arg2 (=piece)
 %% C'est le plus simple pour l'utilisation. S'il n'y a pas d'arg2 (de pièce à inscrire), mettre toujours ""
 
-       titres-hspace = #8		% pour décaler les titres (arg1 et arg2)
+       titres-hspace = #8						% pour décaler les titres (arg1 et arg2)
        scoreTitleMarkup = \markup { \column {
-         \on-the-fly #print-all-headers { \bookTitleMarkup \hspace #1 }
-         \fromproperty #'header:titres		% titres, (à la place de opus et piece)
-               }
-       }   
-}
+       	       \on-the-fly #print-all-headers { \bookTitleMarkup \hspace #0 }
+       	       \fill-line { 
+       	       		\line { \fromproperty #'header:titre } }
+       	       		\raise #1.3
+       	       \fromproperty #'header:titres
+       	       }							% titres, (à la place de opus et piece)
+       }
+}   
+
 
 
 \header {
@@ -166,6 +172,7 @@
 		%\override LyricSpace #'minimum-distance = #0.5
 		%\override LyricSpace #'Y-extent = #(-0.1 . 0.1)
 %%%%%%%%%%%%%%%%
+		\override StanzaNumber #'font-name = #"Roman"
 		\override StanzaNumber #'font-series = #'medium		% ajouté pour diminuer la grosseur des stanza
 		\override StanzaNumber #'font-size = #-1.3		%
 %%%%%%%%%%%%%%%%

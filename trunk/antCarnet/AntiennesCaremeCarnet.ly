@@ -3,8 +3,8 @@
 
 
 
-\markup {
-	\fill-line{\line{"MERCREDI DES CENDRES"}}}
+%\markup {
+%	\fill-line{\line{"MERCREDI DES CENDRES"}}}
 \label #'a
 \score {\relative f'  { 
 		\times 2/3 { r8_\( g[ d]\) }
@@ -29,12 +29,13 @@
 		_ "[Ton 8]"
 	}
 	\header {
+		titre = "MERCREDI DES CENDRES"
 		titres = \markup \ant #'a "H 090" "" }
 }
 
 
-\markup {
-	\fill-line{\line{"PREMIER DIMANCHE DE CAREME"}}}
+%\markup {
+%	\fill-line{\line{"PREMIER DIMANCHE DE CAREME"}}}
 \label #'b
 \score {\relative f'  { 
 		r8 g8 
@@ -73,12 +74,13 @@
 		_ "[Ton 8]"
 	}
 	\header {
+		titre = "PREMIER DIMANCHE DE CAREME"
 		titres = \markup \ant #'b "H 100" "" }
 } 
 
 
-\markup {
-	\fill-line{\line{ "DEUXIEME DIMANCHE DE CAREME"}}}
+%\markup {
+%	\fill-line{\line{ "DEUXIEME DIMANCHE DE CAREME"}}}
 \label #'c
 \score {\relative f'  { 
 		\times 2/3 { d4\(\cesure e8\) }
@@ -108,12 +110,13 @@
 		_ _ "[Ton 1 " "ou  Per.]"
 	}
 	\header {
+		titre = "DEUXIEME DIMANCHE DE CAREME"
 		titres = \markup \ant #'c "H 200" "" }
 } 
 
 
-\markup {
-\fill-line{\line{"TROISIEME DIMANCHE DE CAREME"}}}
+%\markup {
+%	\fill-line{\line{"TROISIEME DIMANCHE DE CAREME"}}}
 \label #'d
 \score {\relative f'  { 
 		\times 2/3 { g8[ d' d] } d8[ e]
@@ -148,6 +151,7 @@
 		_ "[Ton 7]"
 	}
 	\header {
+		titre = "TROISIEME DIMANCHE DE CAREME"
 		titres = \markup \ant #'d "H 300" "" }
 }
 
@@ -200,10 +204,10 @@
 		titres = \markup \ant #'f "H 302" "" }
 }
 
-%\pageBreak
 
-\markup {
-	\fill-line{\line{"QUATRIEME DIMANCHE DE CAREME"}}}
+
+%\markup {
+%	\fill-line{\line{"QUATRIEME DIMANCHE DE CAREME"}}}
 \label #'g
 \score {\relative f'  { 
 	\times 2/3 { d8[ a c]}
@@ -237,6 +241,7 @@
 	_ "[Ton 2]"
 	}
 	\header {
+		titre = "QUATRIEME DIMANCHE DE CAREME"
 		titres = \markup \ant #'g "H 400" "" }
 }
 
@@ -299,8 +304,8 @@
 } 
 
 
-\markup {
-	\fill-line{\line{"CINQUIEME DIMANCHE DE CAREME"}}}
+%\markup {
+%	\fill-line{\line{"CINQUIEME DIMANCHE DE CAREME"}}}
 \label #'j
 \score {\relative f'  { 
 	r8 g
@@ -321,6 +326,7 @@
 	_ "[Ton 7]"
 	}
 	\header {
+		titre = "CINQUIEME DIMANCHE DE CAREME"
 		titres = \markup \ant #'j "H 500" "" }
 }
 
@@ -376,8 +382,8 @@
 %\markup {2è mode transposé au la }
 
 
-\markup {
-	\fill-line{\line{"DIMANCHE DES RAMEAUX"}}}
+%\markup {
+%	\fill-line{\line{"DIMANCHE DES RAMEAUX"}}}
 \label #'m
 \score {\relative f'  { 
 	r8 g  g8[ d']  d4 \cesure
@@ -410,13 +416,14 @@
 	_ "[Ton 7]"
 	}
 	\header {
+		titre = "DIMANCHE DES RAMEAUX"
 		titres = \markup \ant #'m "H 610" "" }
 } 
 
-%\pageBreak
 
-\markup {
-	\fill-line{\line{"PREMIERS JOURS DE LA SEMAINE SAINTE"}}}
+
+%\markup {
+%	\fill-line{\line{"PREMIERS JOURS DE LA SEMAINE SAINTE"}}}
 \label #'n
 \score {\relative f'  { 
 		\times 2/3 { c8[\( d\) f] } e4 \cesure
@@ -444,6 +451,7 @@
 	_ "[Ton 4]"
 	}
 	\header {
+		titre = "PREMIERS JOURS DE LA SEMAINE SAINTE"
 		titres = \markup \ant #'n "H 620" "" }
 } 
 
@@ -484,10 +492,9 @@
 		titres = \markup \ant #'o "H 621" "" }
 } 
 
-%\pageBreak
 
-\markup {
-	\fill-line{\line{"JEUDI SAINT"}}}
+%\markup {
+%	\fill-line{\line{"JEUDI SAINT"}}}
 \label #'p
 \score {\relative f'  { 
 		\times 2/3 { f8[ f e] }
@@ -521,12 +528,13 @@
 	_ "[Ton 1]"
 	}
 	\header {
+		titre = "JEUDI SAINT"
 		titres = \markup \ant #'p "H 710" "" }
 }
 
 
-\markup {
-	\fill-line{\line{"VENDREDI SAINT"}}}
+%\markup {
+%	\fill-line{\line{"VENDREDI SAINT"}}}
 \label #'q
 \score {\relative c'  { 
 		\times 2/3 { c'8[ c c] }
@@ -563,12 +571,13 @@
 	_ "[Ton 8]"
 	}
 	\header {
+		titre = "VENDREDI SAINT"
 		titres = \markup \ant #'q "H 810" "" }
 } 	
 
 
-\markup {
-	\fill-line{\line{"SAMEDI SAINT"}}}
+%\markup {
+%	\fill-line{\line{"SAMEDI SAINT"}}}
 \label #'r
 \score {\relative f'  { 
 	r8 g 	a8[ b]
@@ -593,6 +602,7 @@
 	_ "[Ton 7]"
 	}
 	\header {
+		titre = "SAMEDI SAINT"
 		titres = \markup \ant #'r "H 910" "" }
 }
 
