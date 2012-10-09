@@ -1,11 +1,7 @@
 \version "2.14.00"
 \include "DefinitionsAntiennesCarnet.ly"
 
-
-%	\markup {
- %     		\fill-line{
- %                      	\line{ "PREMIER DIMANCHE DE L'AVENT"}}
-%	}
+%AVENT
 
 \label #'a
 \score {
@@ -70,10 +66,6 @@
 } 
 
 
-%	\markup {
- %     		\fill-line{
- %                      	\line{ "DEUXIEME DIMANCHE DE L'AVENT"}}
-%	}
 \label #'c	
 \score {
 	\relative f' {
@@ -119,15 +111,15 @@
 		\times 2/3 { g8[ g g] } g8[ f] d4
 		\endBar
 		\espace \espace
-		\stemOff c4 d4 f4_\markup \ref "(Is 40)"
+		\stemOff c4 d4 f4
 		\endBar			
 	}
 
 	\addlyrics {
 		Tou -- te val -- lée se -- ra com -- blée et tou -- te col -- line a -- bai -- "ssée ;" 
 		al -- ors la gloi -- re du Sei -- gneur ap -- pa -- raî -- tra, 
-		et tou -- te chair ver -- ra le sa -- lut de Dieu. ""
-		_ "[Ton 2]"
+		et tou -- te chair ver -- ra le sa -- lut de Dieu. 
+		\markup { \citation #"(Is 40)  " } "" "[Ton 2]"
 	}
 	\header {
 		titres = \markup \ant #'d "F 210" "Magnificat"
@@ -136,10 +128,6 @@
 } 
 
 
-%	\markup {
- %     		\fill-line{
-%                       	\line{"TROISIEME DIMANCHE DE L'AVENT"}}
-%	}
 \label #'e
 \score {
 	\relative f' {
@@ -155,8 +143,6 @@
 		g8[ g16\( a]\)
 		\times 2/3 { f4\( e8\) } d4
 		\endBar	
-
-				%\espace 
 		\noBreak
 		\stemOff f4 g4 a4
 		\endBar	
@@ -186,16 +172,16 @@
 		\times 2/3 { c8[\cesureTresBasse e c] }
 		\times 2/3 { d8[\cesureTresBasse d d] } f4 \cesure
 		g16[ f e c]
-		c8[ d] f8[ g] f8[ d] d4
+		c8[ d] f8[ g] \ifIndent f8[ d] d4
 		\endBar
 		\espace
-		\stemOff c4 d4 f4_\markup \ref "(Cf. So)"
+		\stemOff c4 d4 f4
 		\endBar			
 	}
 	\addlyrics {
 		Ré -- jou -- is- -- toi, Fi -- lle de Si -- "on :" le Roi "d'Is" -- ra -- ël, 
-		le Seig -- neur, est en toi. Il te re -- nou -- vel -- le -- ra dans son am -- our. ""
-		_ "[Ton 2]"
+		le Seig -- neur, est en toi. Il te re -- nou -- vel -- le -- ra dans son am -- our. 
+		\markup { \citation #"(Cf. So)  " } "" "[Ton 2]"
 	}
 	\header {
 		titres = \markup \ant #'f "F 310" "Magnificat"
@@ -204,10 +190,6 @@
 } 
 
 
-%	\markup {
-%      		\fill-line{
-%                       	\line{"QUATRIEME DIMANCHE DE L'AVENT"}}
-%	}
 \label #'g	
 \score {
 	\relative f' {
