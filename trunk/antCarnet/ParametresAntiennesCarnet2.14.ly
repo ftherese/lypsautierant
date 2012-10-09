@@ -24,7 +24,7 @@
 	   (minimum-distance . 0)	% C'est bien de mettre une valeur positive au padding.
 	   (stretchability . 0))
 	system-system-spacing = 	% détermine, de fait, l'espacement entre les portées des antiennes
-	#'((padding . 1) 
+	#'((padding . 0.8) 
 	   (minimum-distance . 0) 
 	   (stretchability . 0) 
 	   (basic-distance . 0))
