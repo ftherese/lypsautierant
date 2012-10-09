@@ -50,14 +50,14 @@
 		c16[ d e c]
 		b4\( a8\) r8
 		\endBar
-		\stemOff d'4 d d_\markup \ref "            (2Co 13)"
+		\stemOff d'4 d d
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"1."
 	La grâ -- ce du Sei -- gneur Jé -- sus- -- Christ, 
 	"l'a" -- mour de Dieu le Pè- _ -- re et la co -- mmu -- nion du 
-	Saint- -- Esp -- rit soient a -- vec vous tous -. ""
-	_ _ "[Ton 4 transposé au ré]"
+	Saint- -- Esp -- rit soient a -- vec vous tous -.
+	\markup { \citation #"(2 Co 13)   " } "" "[Ton 4 transposé au ré]" 
 	}
 	\header {
 		titres = \markup \ant #'c "J 110" "Antiennes" }
@@ -88,7 +88,7 @@
 		\times 2/3 { a8[\( c\) d] }
 		\times 2/3 { b8[\( c a\)] } g4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Mt 28)"
+		\stemOff \espace g4 a c %_\markup \ref "(Mt 28)"
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"2."
@@ -96,8 +96,8 @@
 	Al -- lez donc, de tou -- tes les nat -- ions fai -- tes des di -- sci -- ples,
 	les ba -- pti -- sant au nom du Père et du Fils et du Saint- -- Esp -- rit.
 	Et moi, je suis av -- ec vous tous les jours jus -- "qu'à" la fin du mon- _ -- de.
-	Al - le -- lu - - ia. ""
-	_ "[Ton 8]"
+	Al - le -- lu - - ia.
+	\markup { \citation #"(Mt 28)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'d "J 120" "" }
@@ -141,14 +141,14 @@
 		f8[ f] \times 2/3 { f8[ g f] }
 		e8[ d] e4\( d8\) r8
 		\endBar
-		\stemOff c4 d f_\markup \ref "(Jn 6)"
+		\stemOff c4 d f %_\markup \ref "(Jn 6)"
 		\endBar 
 	}
 	\addlyrics {
 	Je suis le Pain viv -- ant, de -- scen -- du du ciel -.
 	Si quel -- "qu'un" man -- ge de ce pain, il vi -- vra é -- ter -- nel- _ -- le -- ment.
-	Le pain que je don -- ne -- rai, c'est ma chair pour la vie du mon -- de. ""
-	_ "[Ton 2]"
+	Le pain que je don -- ne -- rai, c'est ma chair pour la vie du mon -- de.
+	\markup { \citation #"(Jn 6)  " } "" "[Ton 2]"
 	}
 	\header {
 		titres = \markup \ant #'f "J 210" "Antiennes" }
@@ -184,13 +184,13 @@
 		g8[ f]
 		e4\( d8\) r8
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Lc 12)"
+		\stemOff f4 g a %_\markup \ref "(Lc 12)"
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"1."
 	Je suis ve -- nu je -- ter le feu sur la ter -- re, 
-	et com -- bien je vou -- drais "qu'il" brû -- le. ""
-	_ "[Ton 1]"
+	et com -- bien je vou -- drais "qu'il" brû -- le.
+	\markup { \citation #"(Lc 12)  " } "" "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'h "J 310" "Antiennes" }
@@ -216,14 +216,14 @@
 		\times 2/3 { a8[\( g\) f] } f4
 		\endBar
 		\noBreak
-		\stemOff f4 a c_\markup \ref "(Mt 11)"
+		\stemOff f4 a c %_\markup \ref "(Mt 11)"
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"2."
 	Ve -- nez à moi, vous tous qui pei -- nez et plo -- yez sous le far -- deau, 
 	et moi, je vous don -- ne -- rai le re -- pos. Pre -- nez sur vous mon joug, 
-	de -- ve -- nez mes di -- sci- _ -- ples, car je suis doux et hum -- ble de cœur. ""
-	_ "[Ton 5]"
+	de -- ve -- nez mes di -- sci- _ -- ples, car je suis doux et hum -- ble de cœur.
+	\markup { \citation #"(Mt 11)  " } "" "[Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'i "J 320" "" }
@@ -241,13 +241,13 @@
 		bes8[ a] g4
 		
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Lc 2)"
+		\stemOff f4 g a %_\markup \ref "(Lc 2)"
 		\endBar 
 	}
 	\addlyrics {
 			Ma -- rie re -- te -- nait tous les é -- vè -- ne -- ments 
-			et les mé -- di -- tait dans son cœur. ""
-	_ "[Ton 1]"
+			et les mé -- di -- tait dans son cœur.
+			\markup { \citation #"(Lc 2)  " } "" "[Ton 1]"
 	}
 	\header {
 		titre = "LE COEUR IMMACULÉ DE MARIE"

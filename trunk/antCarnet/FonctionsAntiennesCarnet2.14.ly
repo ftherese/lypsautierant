@@ -227,7 +227,7 @@ stemOff = {
 	(citation layout props str) (string?)
 	"Formatter le citation dans la ligne des Lyrics."
 		(interpret-markup layout props
-			(markup #:hspace .5 #:tiny str )))
+			(markup #:hspace .5  #:teeny str )))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

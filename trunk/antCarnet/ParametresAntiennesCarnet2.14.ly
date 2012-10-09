@@ -1,6 +1,6 @@
 \version "2.14.0"
 
-#(set-default-paper-size "a5" 'landscape )
+#(set-default-paper-size "a4" ) % 'landscape
 
 \paper {
   %	annotate-spacing = ##t
@@ -172,9 +172,9 @@
 		%\override LyricSpace #'minimum-distance = #0.5
 		%\override LyricSpace #'Y-extent = #(-0.1 . 0.1)
 %%%%%%%%%%%%%%%%
-		\override StanzaNumber #'font-name = #"Roman"
+		\override StanzaNumber #'font-name = #"TimesNewRoman"
 		\override StanzaNumber #'font-series = #'medium		% ajouté pour diminuer la grosseur des stanza
-		\override StanzaNumber #'font-size = #-1.3		%
+		\override StanzaNumber #'font-size = #-1		%
 %%%%%%%%%%%%%%%%
 		%\override VerticalAxisGroup #'minimum-Y-extent = #'(-0.1 . 0.1)
 		%\override SeparationItem #'padding = #0.1
