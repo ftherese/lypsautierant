@@ -2,9 +2,7 @@
 \include "DefinitionsAntiennesCarnet.ly"
 
 
-
-%\markup {
-%	\fill-line{\line{ "NATIVITÉ DU SEIGNEUR"}}}
+% NATIVITE DU SEIGNEUR
 \label #'a
 \score { 
 	\relative f'  {
@@ -52,7 +50,7 @@
 		titres = \markup \ant #'b "G 101" "Premières vêpres (Français)" }
 } 
 
-\pageBreak
+%\pageBreak
 
 \label #'c
 \score {\relative f'  {
@@ -71,7 +69,7 @@
 \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
 
 
-\pageBreak
+%\pageBreak
 
 \label #'d
 \score {\relative f'  { 
@@ -98,23 +96,22 @@
 		r8 d8 \times 2/3 { f4\( e8\) }
 		d4\( d8\) r8
 		\endBar
-		\stemOff f4 g4 a4_\markup \ref "(Lc 2)" 
+		\stemOff f4 g4 a4
 		\endBar 
 	}
 	\addlyrics {
 		Auj -- "ourd'" -- hui le Christ est né, auj -- ourd' -- hui le Sau -- veur est ap -- pa -- "ru ;" 
 		auj -- ourd' hui sur la ter -- re les an -- ges chan -- tent, les arc -- han -- ges se ré -- jou -- iss -- ent. 
 		Auj -- ourd' -- hui les saints e -- xul -- tent en chan -- "tant :" 
-		Gloire à  Dieu au plus haut- _ -- _des cieux. Al -- le - lu -- "ia !" ""
-		_ "[Ton 1]"
+		Gloire à  Dieu au plus haut- _ -- _des cieux. Al -- le - lu -- "ia !"
+		\markup { \citation #"(Lc 2)  " } "" "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'d "G 111" "Jour de Noël (Français)" }
 } 
 
 
-%\markup {
-%	\fill-line{\line{ "OCTAVE DE LA NATIVITÉ"}}}
+% OCTAVE DE LA NATIVITÉ
 \label #'e
 \score {\relative f'  {
 	
@@ -132,14 +129,14 @@
 		\times 2/3 { g8[\( a\) a] }
 		g4\( g8\) r8
 		\endBar
-		\stemOff g4 a4 c4_\markup \ref "(Jn 1)" 
+		\stemOff g4 a4 c4
 		\endBar 
 	}
 	\addlyrics {
 		Le Ver -- be "s'est" fait chair, et il a de -- meu -- ré par -- mi nous,  
 		nous av -- ons con -- tem -- plé sa gloi - - "re ;" 
-		Al - le - lu -- ia, al - le -- lu -- "ia !" ""
-		_ "[Ton 8]"
+		Al - le - lu -- ia, al - le -- lu -- "ia !"
+		\markup { \citation #"(Jn 1)  " } "" "[Ton 8]"
 	}
 	\header {
 		titre = "OCTAVE DE LA NATIVITÉ"
@@ -148,8 +145,8 @@
 
 
 
-%\markup {
-%	\fill-line{\line{"DEUXIEME DIMANCHE DE NOEL"}}}
+
+% DEUXIEME DIMANCHE DE NOEL
 \label #'f
 \score {\relative f'  {
 	\key f \major
@@ -167,13 +164,13 @@
 		f8[ d] c8[ d] d4
 		
 		\endBar
-		\stemOff f4 g4 a4_\markup \ref "(Jn 1)"
+		\stemOff f4 g4 a4
 		\endBar 
 	}
 	\addlyrics {
 		Le Ve -- rbe "s'est" fait chair et il a de -- meu -- ré par -- mi "nous ;" 
-		à  tous ceux qui le re -- çoi -- vent, il a don -- né pou -- voir de de -- ve -- nir enf -- ants de Dieu. ""
-		_ "[Ton 1]"
+		à  tous ceux qui le re -- çoi -- vent, il a don -- né pou -- voir de de -- ve -- nir enf -- ants de Dieu.
+		\markup { \citation #"(Jn 1)  " } "" "[Ton 1]"
 
 	}
 	\header {
@@ -182,8 +179,8 @@
 } 
 
 
-%\markup {
-%	\fill-line{\line{"LA SAINTE FAMILLE"}}}
+
+% LA SAINTE FAMILLE
 \label #'g	
 \score {\relative f'  {
 		r8 g8 g8[ d'] d4\cesure
@@ -198,14 +195,14 @@
 		c8[ b] 
 		a8[\( b\)] c8[\( b\)] g4
 		\endBar
-		\stemOff c'4 b4 c4_\markup \ref "(Lc 2)"
+		\stemOff c'4 b4 c4
 		\endBar 
 	}
 	\addlyrics {
 		A Bet -- hlé -- em, les ber -- gers vin -- rent en hâ -- te, 
 		ils tro -- uvè -- rent Mar -- ie et Jo- _ -- seph, 
-		et le nou -- veau- -- né, le Sau -- veur, cou -- ché dans un -- e crè- _ -- che. ""
-		_ "[Ton 7]"
+		et le nou -- veau- -- né, le Sau -- veur, cou -- ché dans un -- e crè- _ -- che.
+		\markup { \citation #"(Lc 2)  " } "" "[Ton 7]"
 	}
 	\header {
 		titre = "LA SAINTE FAMILLE"
@@ -226,21 +223,21 @@
 		\ifIndent
 		\times 2/3 { a8[ b a] } g4
 		\endBar
-		\stemOff g4 a4 c4_\markup \ref "(Mt 2)"
+		\stemOff g4 a4 c4
 		\endBar 
 	}
 	\addlyrics {
 		Jos -- eph prit av -- ec lui "l'en" -- fant et sa mè -- re, 
-		et vint s'é -- tab -- lir dans un -- e vil -- le de Ga -- li -- lée ap -- pe -- lée Na -- za -- reth. ""
-		_ "[Ton 8]"
+		et vint s'é -- tab -- lir dans un -- e vil -- le de Ga -- li -- lée ap -- pe -- lée Na -- za -- reth.
+		\markup { \citation #"(Mt 2)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'h "G 301" "Magnificat" }
 } 
 
 
-%\markup {
-%	\fill-line{\line{ "SAINTE MARIE, MERE DE DIEU (1er janvier)"}}}
+
+% SAINTE MARIE, MERE DE DIEU (1er janvier)
 \label #'i
 \score {\transpose c f, {
 	\relative f'  {
@@ -253,21 +250,24 @@
 		\espace
 		r8 g8
 		a8[ a] d8[ d]
+		\ifIndent
 		g,16[ a c c] a4
 		
 		\endBar
+		\espace
 		\stemOff c'4 d e  e e e
 		\endBar 
 	}
 	\addlyrics {
 		Voi -- ci que Mar -- ie est de -- ven -- ue le Temple et l'Ar -- che sain- _ -- te, 
-		le ciel nou -- veau où Dieu a res -- plen -- di. ""
-		_ _ "[Ton 1 " " ou Per.]"
+		le ciel nou -- veau où Dieu a res -- plen -- di. ""_ _ "[Ton 1 " " ou Per.]"
 	 	}}
 	\header {
 		titre = "SAINTE MARIE, MERE DE DIEU (1er janvier)"
 		titres = \markup \ant #'i "G 400" "Benedictus" }
 }
+
+
 
 \label #'j
 \score {\relative f'  {
@@ -300,8 +300,8 @@
 
 
 
-%\markup {
-%	\fill-line{\line{ "EPIPHANIE DU SEIGNEUR"}}}
+
+% EPIPHANIE DU SEIGNEUR
 \label #'k
 \score {\relative f'  {
 		\times 2/3 { r8\( g[ d']\) }
@@ -321,14 +321,14 @@
 		\times 2/3 { a8[\( b\) g] }
 		g4
 		\endBar
-		\stemOff c'4 b4 c4_\markup \ref "(Is 60)"
+		\stemOff c'4 b4 c4
 		\endBar 
 	}
 	\addlyrics {
 		Lè -- ve- -- toi -, _Jé -- ru -- sa -- "lem !" Sois " il" -- lu -- mi -- "née !" 
 		Car voi -- ci ta lu -- miè- _ -- re, 
-		et sur toi se lè -- ve la glo -- ire du- _ -- _Seig -- neur. ""
-		_ "[Ton 7]"
+		et sur toi se lè -- ve la glo -- ire du- _ -- _Seig -- neur.
+		\markup { \citation #"(Is 60)  " } "" "[Ton 7]"
 	}
 	\header {
 		titre = "EPIPHANIE DU SEIGNEUR"
@@ -351,14 +351,14 @@
 		g8[ \cesureBasse a] f8[ a]
 		g4\( g8\) r8
 		\endBar
-		\stemOff g4 a4 c4_\markup \ref "(Mt 2)"
+		\stemOff g4 a4 c4
 		\endBar 
 	}
 	\addlyrics {
 		A la vue de l'é -- toi -- le, les ma -- ges fur -- ent trans- _ -- por -- tés de "joie ;"  
 		ay -- ant tro -- uvé l'en -- fant a -- vec Ma -- rie sa mè -- re, 
-		se pros -- ter -- nant, ils l'a -- do -- rè -- rent. ""
-		_ "[Ton 8]"
+		se pros -- ter -- nant, ils l'a -- do -- rè -- rent.
+		\markup { \citation #"(Mt 2)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'l "G 501" "Magnificat" }
@@ -382,14 +382,14 @@
 		\times 2/3 { e8[ g f] }f4
 		
 		\endBar
-		\stemOff f4 g4 a4_\markup \ref "(Mt 3)"
+		\stemOff f4 g4 a4
 		\endBar 
 	}
 	\addlyrics {
 		Jean pro -- cla -- ma dans le dé -- "sert :" «_Pour moi, je vous ba -- pti -- se dans l'eau, 
 		mais il vient " ce" -- lui qui est plus puis -- sant que "moi ;" 
-		lui vous bap -- ti -- se -- ra dans l'Es -- prit- -- Saint et le feu._» ""
-		_ "[Ton 1]"
+		lui vous bap -- ti -- se -- ra dans l'Es -- prit- -- Saint et le feu._»
+		\markup { \citation #"(Mt 3)  " } "" "[Ton 1]"
 	}
 	\header {
 		titre = "BAPTEME DU SEIGNEUR"
@@ -421,15 +421,15 @@
 		\espace
 		\times 2/3 { c8[ d e] } d4
 		\endBar 
-		\stemOff g,4 a4 c4_\markup \ref "(Mt 3)"
+		\stemOff g,4 a4 c4
 		\endBar 
 	}
 	\addlyrics {
 		Ba -- pti -- sé au Jour -- dain, Jé -- sus sor -- tit des eaux. 
 		Al -- ors les cieux "s'ou" -- vri -- rent et l'Es -- prit des -- cen -- dit sur lui com -- me une co -- lom -- be. 
 		Un -- e voix ve -- nue des cieux di -- "sait :" 
-		«_Cel -- ui -- -ci est mon Fils, mon bien- -- ai -- mé._» A -- lle -- lu -- "ia !" ""
-		_ "[Ton 3]"
+		«_Cel -- ui -- -ci est mon Fils, mon bien- -- ai -- mé._» A -- lle -- lu -- "ia !"
+		\markup { \citation #"(Mt 3)  " } "" "[Ton 3]"
 	}
 	\header {
 		titres = \markup \ant #'n "G 601" "Magnificat" }
@@ -444,12 +444,12 @@
 		\times 2/3 { g8[ a g] }
 		f8[ g] e4
 		\endBar
-		\stemOff a4 a a_\markup \ref "(Mt 3)"
+		\stemOff a4 a a
 		\endBar
 	}
 	\addlyrics {
-		J'ai vu l'Es -- prit des -- cen -- dre du ciel comme u -- ne co -- lom -- be, et de -- meu -- rer sur lui. ""
-		_ "[Ton 4]"
+		J'ai vu l'Es -- prit des -- cen -- dre du ciel comme u -- ne co -- lom -- be, et de -- meu -- rer sur lui.
+		\markup { \citation #"(Mt 3)  " } "" "[Ton 4]"
 	}
 	\header {
 		titres = \markup \ant #'o "G 601" "Magnificat" }
