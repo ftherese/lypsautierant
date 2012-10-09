@@ -1,10 +1,8 @@
 \version "2.14.00"
 \include "DefinitionsAntiennesCarnet.ly"
 
+%Carême
 
-
-%\markup {
-%	\fill-line{\line{"MERCREDI DES CENDRES"}}}
 \label #'a
 \score {\relative f'  { 
 		\times 2/3 { r8_\( g[ d]\) }
@@ -20,13 +18,13 @@
 		a8[ f] 
 		e4\( d8\) r8
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Jl 2)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {
 		Re -- ve -- nez au Seig -- neur de tout vo -- tre cœur, car il est ten -- dre- _ -- sse 
-		et mi -- sé -- ri -- cor- -- \skip 1 \skip 1 de, lent à  la co -- lè -- re et plein d'a -- mour -. ""
-		_ "[Ton 8]"
+		et mi -- sé -- ri -- cor- -- \skip 1 \skip 1 de, lent à  la co -- lè -- re et plein d'a -- mour -.
+		\markup { \citation #"(Jl 2)  " } "" "[Ton 8]" 
 	}
 	\header {
 		titre = "MERCREDI DES CENDRES"
@@ -34,8 +32,7 @@
 }
 
 
-%\markup {
-%	\fill-line{\line{"PREMIER DIMANCHE DE CAREME"}}}
+
 \label #'b
 \score {\relative f'  { 
 		r8 g8 
@@ -63,15 +60,15 @@
 		\times 2/3 { b8[ g a] }
 		a8[ g] g4
 		\endBar
-		\stemOff g4 a4 c4_\markup \ref "(Mt 4)"
+		\stemOff g4 a4 c4
 		\endBar 
 	}
 	\addlyrics {
 		Il est éc -- "rit :" «_L'hom -- me ne vit pas seu -- le -- ment de pain, 
 		mais de tou -- te pa -- ro -- le "sort" -- ant de la bou -- che de Dieu_».  
 		Il est enc -- ore é -- "crit :" «_Tu ne met -- tras pas à  "l'é" -- preu -- ve le Seig -- neur ton Dieu. 
-		C'est lui que tu " a" -- do- _ -- re -- ras, et lui seul que tu ser -- vir -- as._» ""
-		_ "[Ton 8]"
+		C'est lui que tu " a" -- do- _ -- re -- ras, et lui seul que tu ser -- vir -- as._» 
+		\markup { \citation #"(Mt 4)  " } "" "[Ton 8]" 
 	}
 	\header {
 		titre = "PREMIER DIMANCHE DE CAREME"
@@ -79,8 +76,7 @@
 } 
 
 
-%\markup {
-%	\fill-line{\line{ "DEUXIEME DIMANCHE DE CAREME"}}}
+
 \label #'c
 \score {\relative f'  { 
 		\times 2/3 { d4\(\cesure e8\) }
@@ -97,17 +93,17 @@
 		\times 2/3 { d4\( c8\) }
 		\times 2/3 { f8[ g a] }
 		\times 2/3 { g4\( g8\) } \cesure
-		e8[\( g\)] f8[ e]  d8[\( d\)] \cesure 
+		e8[\( g\)] f8[ e]  d8[\( d\)] \cesure \ifIndent
 		f8[ g] a8[\( a\)] g8[ f] a8[ g] g4
 		\endBar
-		\stemOff  f4 g a a a a_\markup \ref "(Jn 1)"
+		\stemOff  f4 g a a a a
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(A.B.C) "
 		Dieu, per -- son -- ne ne l'a ja -- mais vu, mais le Fils- _ -- _qui est dans le sein du Pè -- re, 
 		lui, nous "l'a" ré -- vé -- "lé ;" et nous a -- vons vu la gloi- -- \skip 1 \skip 1 re qu'il tient de son Pè -- re, 
-		com -- me Fils u -- ni -- que, plein de grâ -- ce et de vé -- ri -- té. ""
-		_ _ "[Ton 1 " "ou  Per.]"
+		com -- me Fils u -- ni -- que, plein de grâ -- ce et de vé -- ri -- té.
+		\markup { \citation #"(Jn 1)  " } _ _ "[Ton 1 " "ou  Per.]"
 	}
 	\header {
 		titre = "DEUXIEME DIMANCHE DE CAREME"
@@ -115,8 +111,6 @@
 } 
 
 
-%\markup {
-%	\fill-line{\line{"TROISIEME DIMANCHE DE CAREME"}}}
 \label #'d
 \score {\relative f'  { 
 		\times 2/3 { g8[ d' d] } d8[ e]
@@ -141,14 +135,14 @@
 	
 		\endBar
 		\noBreak
-		\stemOff c'4 b c_\markup \ref "(Jn 4)"
+		\stemOff c'4 b c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		Si tu sa -- vais le don- _ -- _de Dieu et quel est cel -- ui qui te de -- mande à  boi -- re,
 		c'est toi qui l'en au -- rais pri -- é, et il "t'au" -- rait don -- né l'eau vi -- ve.
-		L'eau qu'il don- _ -- ne -- ra, en toi se -- ra sour -- ce jai -- lli -- ssant en vie é -- ter -- nel- _ -- le. ""
-		_ "[Ton 7]"
+		L'eau qu'il don- _ -- ne -- ra, en toi se -- ra sour -- ce jai -- lli -- ssant en vie é -- ter -- nel- _ -- le.
+		\markup { \citation #"(Jn 4)  " } "" "[Ton 7]"
 	}
 	\header {
 		titre = "TROISIEME DIMANCHE DE CAREME"
@@ -166,14 +160,14 @@
 		c16[\( c\) a a]
 		c16[\( c\) bes g] g4
 		\endBar
-		\stemOff f a c_\markup \ref "(Mc 11)"
+		\stemOff f a c
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(B) "
 		N'est- -- il pas é -- "crit :" «_Ma mai -- son se -- ra ap -- pe -- lée 
 		mai -- son de pri -- è -- re pour tou -- tes les na -- "tions ? »"
-		Mais vous, vous en fai -- tes un re -- pè -- re de brig -- ands. ""
-		_ "[Ton 5]"
+		Mais vous, vous en fai -- tes un re -- pè -- re de brig -- ands. 
+		\markup { \citation #"(Mc 11)  " } "" "[Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'e "H 301" "" }
@@ -192,13 +186,13 @@
 	\times 2/3 { f8[ g a]}
 	a8[ a] g8[ f] a4
 		\endBar
-		\stemOff f4 g a_\markup \ref "(Ex 3)"
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(C) "
 	Je suis le Dieu de vos pè- _ -- "res ;" quand j'ai vu la dé -- tre -- sse de mon peu -- ple, 
-	quand j'ai en -- ten -- du sa plain- _ -- te, je suis al -- lé le dé -- liv -- rer. ""
-	_ "[Ton 1]"
+	quand j'ai en -- ten -- du sa plain- _ -- te, je suis al -- lé le dé -- liv -- rer.
+	\markup { \citation #"(Ex 3)  " } "" "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'f "H 302" "" }
@@ -206,8 +200,6 @@
 
 
 
-%\markup {
-%	\fill-line{\line{"QUATRIEME DIMANCHE DE CAREME"}}}
 \label #'g
 \score {\relative f'  { 
 	\times 2/3 { d8[ a c]}
@@ -230,15 +222,15 @@
 	\ifIndent
 	\times 2/3 { e8[\( f\) e] } d4
 		\endBar
-		\stemOff c4 d f_\markup \ref "(Jn 8.9)"
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(A) "
 	Je suis ve -- nu en ce mon -- de pour que les a -- veu -- gles voient, dit le Sei -- gneur.
 	Je suis la Lu -- miè -- re du mon- _ -- de.
 	Qui me suit ne mar -- che -- ra pas dans les té -- nè - bres 
-	mais il au -- ra la lu -- miè -- re de- _ -- _la Vie. ""
-	_ "[Ton 2]"
+	mais il au -- ra la lu -- miè -- re de- _ -- _la Vie. 
+	\markup { \citation #"(Jn 8-9)  " } "" "[Ton 2]"
 	}
 	\header {
 		titre = "QUATRIEME DIMANCHE DE CAREME"
@@ -262,14 +254,14 @@
 	\times 2/3 { e8[ g a] } 
 	a8[\( b\)] a4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Jn 3)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(B) "
 	Dieu a tant ai -- mé le mon -- de qu'il a don -- né son Fils u -- ni -- que,
 	pour que tout hom -- me qui croit en lui ne pé -- ris -- se pas
-	mais qu'il ait la vie é -- ter -- nel- _ -- le. ""
-	_ "[Ton 8]"
+	mais qu'il ait la vie é -- ter -- nel- _ -- le.
+	\markup { \citation #"(Jn 3)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'h "H 401" "" }
@@ -290,22 +282,20 @@
 	a16[ f e f]
 	d8[ c] d4
 		\endBar
-		\stemOff f g a_\markup \ref "(Lc 15)"
+		\stemOff f g a
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(C) "
 	Je me lè -- ve -- rai et "j'i" -- rai dire à  mon pè- _ -- "re :"
 	Pè -- re, j'ai pé -- ché con -- tre le ciel et con -- tre toi, 
-	je ne mé -- ri -- te plus "d'être" ap -- pe -- lé ton fils. ""
-	_ "[Ton 1]"
+	je ne mé -- ri -- te plus "d'être" ap -- pe -- lé ton fils. 
+	\markup { \citation #"(Lc 15)  " } "" "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'i "H 402" "" }
 } 
 
 
-%\markup {
-%	\fill-line{\line{"CINQUIEME DIMANCHE DE CAREME"}}}
 \label #'j
 \score {\relative f'  { 
 	r8 g
@@ -317,13 +307,13 @@
 	\cesure
 	a16[ b a g] g4
 		\endBar
-		\stemOff c'4 b c_\markup \ref "(Jn 11)"
+		\stemOff c'4 b c
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(A) "
 	Je suis la Ré -- sur -- rec -- tion et la Vie.
-	Ce -- lui qui croit en moi ne mour -- ra ja -- mais. ""
-	_ "[Ton 7]"
+	Ce -- lui qui croit en moi ne mour -- ra ja -- mais. 
+	\markup { \citation #"(Jn 11)  " } "" "[Ton 7]"
 	}
 	\header {
 		titre = "CINQUIEME DIMANCHE DE CAREME"
@@ -335,17 +325,17 @@
 	g8[ g]  c4 
 	\times 2/3 { c8[ c d] } c4 \cesure
 	d8[ e] d8[\( c\)] c4
-	r8 c \times 2/3 { c8[ c c] } f4 \cesure
+	r8 c \times 2/3 { c8[ c c] } f4 \cesure \ifIndent
 	d8[ c] c8.[ a16]
 	a16[ b c d] c4
 		\endBar
-		\stemOff c4 d e_\markup \ref "(Jn 12)"
+		\stemOff c4 d e
 		\endBar 
 	} }
 	\addlyrics { \set stanza = #"(B) "
 	Si quel -- qu'un veut me ser -- vir, qu'il me sui- _ -- "ve ;"
-	et là  où je suis, là  aus -- si se -- ra mon ser -- vit -- eur. ""
-	_ "[Ton 6]"
+	et là  où je suis, là  aus -- si se -- ra mon ser -- vit -- eur.
+		\markup { \citation #"(Jn 12)  " } "" "[Ton 6]"
 	}
 	\header {
 		titres = \markup \ant #'k "H 501" "" }
@@ -366,24 +356,22 @@
 	a8[ a]
 	c8[\( b\)] a4
 		\endBar
-		\stemOff g4 a c_\markup \ref "            (Jn 8)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics { \set stanza = #"(C) "
 	Fem -- me, per -- son -- ne ne t'a con -- dam -- "née ?"
 	"- Per" -- son -- ne, Sei- _ -- gneur.
 	"- Moi" non plus, je ne te con -- dam -- ne pas. 
-	Va, et dé -- sor -- mais ne pè -- che plus. ""
-	 _ _ "[Ton 2 transposé au la]"
+	Va, et dé -- sor -- mais ne pè -- che plus. 
+	\markup { \citation #"(Jn 8)  " } "" "[Ton 2 transposé au la]"
 	}
 	\header {
 		titres = \markup \ant #'l "H 502" "" }
 	} 
-%\markup {2è mode transposé au la }
 
 
-%\markup {
-%	\fill-line{\line{"DIMANCHE DES RAMEAUX"}}}
+
 \label #'m
 \score {\relative f'  { 
 	r8 g  g8[ d']  d4 \cesure
@@ -404,7 +392,7 @@
 	c8[ a] b8[ g] g4
 		\endBar
 		\noBreak
-		\stemOff c'4 b c_\markup \ref "(Za 9)"
+		\stemOff c'4 b c
 		\endBar 
 	}
 	\addlyrics { 
@@ -412,8 +400,8 @@
 	Voi -- ci que ton Roi "s'a" -- van -- ce vers "toi !"
 	Ho -- san- _ -- na au Fils de Da -- "vid !"
 	Bé -- ni soit ce -- lui- _ -- _qui vient au nom du Seign -- eur -_!
-	Ho -- san- _ -- na au plus haut des "cieux !" ""
-	_ "[Ton 7]"
+	Ho -- san- _ -- na au plus haut des "cieux !" 
+	\markup { \citation #"(Za 9)  " } "" "[Ton 7]"
 	}
 	\header {
 		titre = "DIMANCHE DES RAMEAUX"
@@ -422,8 +410,6 @@
 
 
 
-%\markup {
-%	\fill-line{\line{"PREMIERS JOURS DE LA SEMAINE SAINTE"}}}
 \label #'n
 \score {\relative f'  { 
 		\times 2/3 { c8[\( d\) f] } e4 \cesure
@@ -440,15 +426,15 @@
 		d8[ a']  bes8[ g] 
 		f8[\( e\)] e4
 		\endBar
-		\stemOff  a4 a a_\markup \ref "(Jn 17)"
+		\stemOff  a4 a a
 		\endBar 
 	}
 	\addlyrics { 
 	Main- _ -- ten -- ant, Pè -- re, 
 	glo -- ri -- "fie-" -- moi aup -- rès de toi, 
 	de la glo -- ire que j'a -- vais au -- près- _ -- _de toi 
-	a -- vant que fût le mon- _ -- de. ""
-	_ "[Ton 4]"
+	a -- vant que fût le mon- _ -- de. 
+	\markup { \citation #"(Jn 17)  " } "" "[Ton 4]"
 	}
 	\header {
 		titre = "PREMIERS JOURS DE LA SEMAINE SAINTE"
@@ -476,7 +462,7 @@
 		g8[ a]  g4 
 		\endBar
 		\noBreak
-		\stemOff g4 a c_\markup \ref "(Jn 12)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics { 
@@ -485,16 +471,15 @@
 	En vé -- ri -- té, je vous le "dis :" 
 	si le grain tom -- bé en ter -- re ne meurt, 
 	il res -- te seul, mais s'il meurt, 
-	il por -- te beau -- coup de fruit. ""
-	_ "[Ton 8]"
+	il por -- te beau -- coup de fruit. 
+		\markup { \citation #"(Jn 12)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'o "H 621" "" }
 } 
 
 
-%\markup {
-%	\fill-line{\line{"JEUDI SAINT"}}}
+
 \label #'p
 \score {\relative f'  { 
 		\times 2/3 { f8[ f e] }
@@ -516,7 +501,7 @@
 		bes8[\( g\)]  a8[\( bes\)] \espace a4
 		\endBar
 		\noBreak
-		\stemOff  f4 g a_\markup \ref "(Lc 22)"
+		\stemOff  f4 g a
 		\endBar 
 	}
 	\addlyrics { 
@@ -524,8 +509,8 @@
 	" av" -- "ec " vous " ava" -- nt- _ -- _de souf -- "frir ;"
 	car je vous le dis, jam -- ais plus- _ -- _je ne la man -- ge -- rai 
 	jus -- "qu'à " ce "qu'el" -- le soit ac -- com -- plie 
-	dans le Roy -- au -- me de- _ -- Dieu. ""
-	_ "[Ton 1]"
+	dans le Roy -- au -- me de- _ -- Dieu.
+		\markup { \citation #"(Lc 22)  " } "" "[Ton 1]"
 	}
 	\header {
 		titre = "JEUDI SAINT"
@@ -533,8 +518,7 @@
 }
 
 
-%\markup {
-%	\fill-line{\line{"VENDREDI SAINT"}}}
+
 \label #'q
 \score {\relative c'  { 
 		\times 2/3 { c'8[ c c] }
@@ -560,15 +544,15 @@
 		a8[ g]  a8[\( a\)]  \cesure
 		\times 2/3 { g8[ f g] } a4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Lc 23)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics { 
 	Jus -- qu'à  la neu -- vième heu -- re, l'obs -- cu -- ri -- té se fit sur tout le pa -- ys.
 	Al -- ors le voi -- le du sanc -- tu -- ai -- re se dé -- chi -- ra, et Jé -- sus cri -- a d'un -- e voix for -- "te :"
 	«_Pè -- re, en -- tre tes mains je re -- mets mon es -- prit._»
-	Puis, in -- cli -- nant la tê -- te, il ex -- pi -- ra. ""
-	_ "[Ton 8]"
+	Puis, in -- cli -- nant la tê -- te, il ex -- pi -- ra. 
+	\markup { \citation #"(Lc 23)  " } "" "[Ton 8]"
 	}
 	\header {
 		titre = "VENDREDI SAINT"
@@ -576,8 +560,7 @@
 } 	
 
 
-%\markup {
-%	\fill-line{\line{"SAMEDI SAINT"}}}
+
 \label #'r
 \score {\relative f'  { 
 	r8 g 	a8[ b]
@@ -592,14 +575,14 @@
 	\slurDashed a4( b16[) a b g] g4
 	
 		\endBar
-		\stemOff c'4 b c_\markup \ref "(Ac 2)"
+		\stemOff c'4 b c
 		\endBar 
 	}
 	\addlyrics { 
 	Ma chair re -- po -- se dans la paix, 
 	car tu ne peux a -- ban -- don -- ner, Sei -- gneur, mon âme aux En -- fers,
-	ni lais -- ser ton a -- mi voir la cor -- rup -- tion. ""
-	_ "[Ton 7]"
+	ni lais -- ser ton a -- mi voir la cor -- rup -- tion. 
+		\markup { \citation #"(Ac 2)  " } "" "[Ton 7]"
 	}
 	\header {
 		titre = "SAMEDI SAINT"
