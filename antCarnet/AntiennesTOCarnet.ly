@@ -2,8 +2,8 @@
 \include "DefinitionsAntiennesCarnet.ly"
 
 
-%\markup {
-%      	\fill-line{\line{"2ème SEMAINE DU T.O."}}}
+
+% 2ème SEMAINE DU T.O.
 \label #'a
 \score { \transpose c f, {
 	\relative c''  {
@@ -24,15 +24,15 @@
 		a8[ g]
 		a4\( a8\) r8
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Jn 1)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
 		J'ai vu l'Es -- prit des -- cen -- dre du ciel comme u -- ne 
 		co -- lom -- be et de -- meur -- er sur lui. 
 		Voi -- ci l'A -- gneau de Dieu qui en -- lè -- ve 
-		le pé -- ché du mon -- de. ""
-		_ "[Ton 2]"
+		le pé -- ché du mon -- de.
+		\markup { \citation #"(Jn 1)  " } "" "[Ton 2]"
 	} }
 	\header {
 		titre = "2ème SEMAINE DU T.O."
@@ -51,14 +51,14 @@
 		c16[ c c d]
 		\times 2/3 { c8[ a g] } g4
 		\endBar
-		\stemOff g4 a c_\markup \ref "(Jn 1)"
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		«_Maî -- tre, où de -- meu -- res -- -tu ?_»
 		«_Ve -- nez et vo -- yez._» Ils vin -- rent donc et 
-		de -- meu -- rèrent au -- près de lui ce jour -- -là. ""
-		_ "[Ton 8]"
+		de -- meu -- rèrent au -- près de lui ce jour -- -là.
+		\markup { \citation #"(Jn 1)  " } "" "[Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'b "K 21" "" }
@@ -84,15 +84,15 @@
 		\cesure
 		e8[ d] c8[ a] a4
 		\endBar
-		\stemOff f4 a c_\markup \ref "(Jn 2)"
+		\stemOff f4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C)"
 		Le troi -- siè -- me jour, il y eut des noces à Ca -- na de Ga -- li -- lée, 
 		et la mè -- re de Jé -- sus é -- tait là. 
 		Le vin des no -- ces ve -- nant à man -- quer, el -- le lui dit : 
-		«_Ils n'ont plus de vin._» ""
-		_ "[Ton 5]"
+		«_Ils n'ont plus de vin._»
+		\markup { \citation #"(Jn 2)  " } "" "[Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'c "K 22" "" }
