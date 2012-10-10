@@ -95,7 +95,7 @@
 		\times 2/3 { g4\( g8\) } \cesure
 		e8[\( g\)] f8[ e]  d8[\( d\)] \cesure \ifIndent
 		f8[ g] a8[\( a\)] g8[ f] a8[ g] g4
-		\endBar \espace
+		\endBar \espace\espace
 		\stemOff  f4 g a a a a
 		\endBar 
 	}
@@ -103,7 +103,7 @@
 		Dieu, per -- son -- ne ne l'a ja -- mais vu, mais le Fils- _ -- _qui est dans le sein du Pè -- re, 
 		lui, nous "l'a" ré -- vé -- "lé ;" et nous a -- vons vu la gloi- -- \skip 1 \skip 1 re qu'il tient de son Pè -- re, 
 		com -- me Fils u -- ni -- que, plein de grâ -- ce et de vé -- ri -- té.
-		\markup { \citation #"(Jn 1)  " } "" _ "[Ton 1" "ou Per.]"
+		\markup { \citation #"(Jn 1)  " } "" _ "[Ton 1   " "ou   Per.]"
 	}
 	\header {
 		titre = "DEUXIEME DIMANCHE DE CAREME"

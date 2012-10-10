@@ -2,7 +2,8 @@
 \include "DefinitionsAntiennesCarnet.ly"
 
 
-% NATIVITE DU SEIGNEUR
+% Noël
+
 \label #'a
 \score { 
 	\relative f'  {
@@ -111,7 +112,6 @@
 } 
 
 
-% OCTAVE DE LA NATIVITÉ
 \label #'e
 \score {\relative f'  {
 	
@@ -146,7 +146,6 @@
 
 
 
-% DEUXIEME DIMANCHE DE NOEL
 \label #'f
 \score {\relative f'  {
 	\key f \major
@@ -180,7 +179,6 @@
 
 
 
-% LA SAINTE FAMILLE
 \label #'g	
 \score {\relative f'  {
 		r8 g8 g8[ d'] d4\cesure
@@ -237,7 +235,6 @@
 
 
 
-% SAINTE MARIE, MERE DE DIEU (1er janvier)
 \label #'i
 \score {\transpose c f, {
 	\relative f'  {
@@ -254,13 +251,13 @@
 		g,16[ a c c] a4
 		
 		\endBar
-		\espace
+		\espace\espace
 		\stemOff c'4 d e  e e e
 		\endBar 
 	}
 	\addlyrics {
 		Voi -- ci que Mar -- ie est de -- ven -- ue le Temple et l'Ar -- che sain- _ -- te, 
-		le ciel nou -- veau où Dieu a res -- plen -- di. ""_ _ "[Ton 1 " " ou Per.]"
+		le ciel nou -- veau où Dieu a res -- plen -- di. "" _ "[Ton 1   " "ou   Per.]"
 	 	}}
 	\header {
 		titre = "SAINTE MARIE, MERE DE DIEU (1er janvier)"

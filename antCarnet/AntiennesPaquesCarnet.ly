@@ -179,7 +179,7 @@
 		\times 2/3 { e8[ d e] } e4 \cesure
 		g8[ f16 e]
 		\times 2/3 { e4\( d8\) } r8
-		\endBar
+		\endBar\espace\espace
 		\stemOff c4 d e e e e
 		\endBar 
 	}
@@ -187,7 +187,7 @@
 	Au bord du lac, Jés -- us in -- vi -- te ses di -- sci- _ -- "ples :"
 	«_Ve -- nez et man -- gez -_!_» Puis il prend le pain et le leur don -- ne.
 	Ils sa -- vaient que "c'é" -- tait le Sei -- gneur. Al -- le - lu -- "ia !" 
-	\markup { \citation #"(Jn 21)  " } "" _ "[Ton 1" "ou Per.]"
+	\markup { \citation #"(Jn 21)  " } "" _ "[Ton 1   " "ou   Per.]"
 	} }
 	\header {
 		titres = \markup \ant #'e "I 302" "" }
@@ -267,14 +267,14 @@
 		\times 2/3 { a8[ f e] } d4
 		\ifIndent
 		f16[ g a\( g\)] g4
-		\endBar
+		\endBar\espace\espace
 		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 	 Je con -- nais mes bre -- bis. Je leur don -- ne la vie é -- ter -- nel -- le
 	 et nul ne les ar -- ra -- che -- ra de ma main. Al -- le -- lu - ia. 
-	\markup { \citation #"(Jn 10)  " } "" _ "[Ton 6" "ou Per.]"
+	\markup { \citation #"(Jn 10)  " } "" _ "[Ton 6   " "ou   Per.]"
 	}
 	\header {
 		titres = \markup \ant #'h "I 402" "" }
@@ -298,7 +298,7 @@
 	e8[ d]  d4
 	\times 2/3 { r8_\( f[ g]\) }
 	\times 2/3 { a8[\( g f]\) } g4
-		\endBar
+		\endBar \espace\espace
 		\stemOff f4 g a a a a
 		\endBar 
 	}
@@ -307,7 +307,7 @@
 	Je suis le Che -- min, la Vé -- ri -- té et la Vie.
 	Nul ne vient vers le Pè -- re que par moi.
 	Al -- le -- lu - - "ia !" 
-	\markup { \citation #"(Jn 14)  " } "" _ "[Ton 1" "ou Per.]"
+	\markup { \citation #"(Jn 14)  " } "" _ "[Ton 6   " "ou   Per.]"
 	} 
 	\header {
 		titre = "CINQUIEME DIMANCHE DE PAQUES"
@@ -522,7 +522,7 @@
 	a8[ \cesure bes16 g] f4
 	\times 2/3 { f8[ f f] } e8[ f]
 	\times 2/3 { d8[ f g] } a4  \cesure bes16[ a bes\( g\)] a4
-	\endBar
+	\endBar\espace\espace
 	\stemOff f4 g a a a a
 	\endBar
 	}
@@ -532,7 +532,7 @@
 		Ce -- lui qui vous a é -- té en -- le -- vé, Jé -- sus, re -- vien -- dra 
 		comme il s'en est al -- lé vers le ciel.
 		Al -- le -- lu - ia.
-	\markup { \citation #"(Ac 1)  " } "" _ "[Ton 1" "ou Per.]"
+	\markup { \citation #"(Ac 1)  " } "" _ "[Ton 1   " "ou   Per.]"
 		}
 	\header {
 		titres = \markup \ant #'p "I 651" "" }
@@ -784,7 +784,7 @@
 	\times 2/3 { f8[\( e\) d] } d4\cesure
 	d16[\( g\) f\( e\)] 
 	d4\( d8\) r8
-	\endBar
+	\endBar \espace \espace
 	\noBreak
 	\stemOff f4 g a a a a
 	\endBar	}
@@ -794,7 +794,7 @@
 		l'Es -- prit se ma -- ni -- feste aux dis -- ci -- ples, 
 		al - le - lu -- ia, sur eux, il ré -- pand les dons de sa grâ- _ -- ce, 
 		et les en -- voie pro -- cla -- mer les lou -- an -- ges de Dieu. Al - le - lu -- ia_!  ""
-		_ _ "[Ton 1 " "ou  Per.]"
+		_ _ "[Ton 1   " "ou    Per.]" 
 	}
 	\header {
 		titres = \markup \ant #'w "I 801" "" }

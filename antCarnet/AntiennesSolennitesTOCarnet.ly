@@ -213,7 +213,7 @@
 		\times 2/3 { a8[\( g\) f] } f4
 		\endBar
 		\noBreak
-		\stemOff f4 a c %_\markup \ref "(Mt 11)"
+		\stemOff f4 a c 
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"2."

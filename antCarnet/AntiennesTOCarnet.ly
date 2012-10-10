@@ -141,14 +141,14 @@
 		\times 2/3 { c4\(\cesure c8\) }
 		\times 2/3 { c8[ bes a] }
 		\times 2/3 { g8[\( f\) g] } a4\( g8\) r8
-		\endBar
+		\endBar\espace  \espace
 		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Les temps sont ac -- com -- plis, voi -- "ci " le Rè -- gne de Dieu : 
 		con -- ver -- tis -- sez- -- vous, cro -- yez à la Bon -- ne Nou -- vel -- le. 
-	\markup { \citation #"(Mc 1)  " } "" "[Ton 6 " "ou  Per.]"
+	\markup { \citation #"(Mc 1)  " }  "" _ "[Ton 6   " "ou   Per.]"
 	}
 	\header {
 		titres = \markup \ant #'e "K 31" "" }
@@ -232,7 +232,7 @@
 		e8[ f] g8[\( g\)]
 		\times 2/3 { g8[ g a] } g8[ f] f4
 		\times 2/3 { f8[ f f] } e8[ g] a4\( a8\) r8
-		\endBar
+		\endBar\espace  \espace
 		\stemOff f4 g a a a a
 		\endBar 
 	}
@@ -240,7 +240,7 @@
 		Voi -- "là " un en -- sei -- gne -- ment pro -- cla -- mé
 		a -- vec au -- to -- ri -- té ! Il com -- man -- de même 
 		aux es -- prits mau -- vais et ils lui o -- bé -- iss -- ent. 
-	\markup { \citation #"(Mc 1)  " } "" "[Ton 6 " "ou  Per.]"
+	\markup { \citation #"(Mc 1)  " } "" _ "[Ton 6   " "ou   Per.]"
 	}
 	\header {
 		titres = \markup \ant #'h "K 41" "" }
@@ -772,7 +772,7 @@
 		\ifIndent
 		\times 2/3 { f8[\( f\) g] }
 		a16[\( a\) bes g] a4
-		\endBar
+		\endBar \espace \espace
 		\stemOff f4 g a a a a
 		\endBar 
 	}
@@ -780,7 +780,7 @@
 		Le sab -- bat est fait pour l'hom -- me, 
 		et non l'hom -- me pour le sab -- bat. 
 		C'est pour -- quoi le Fils de l'hom -- me est maî -- tre du sab -- bat. 
-	\markup { \citation #"(Mc 2)  " } "" "[Ton 6 " "ou  Per.]"
+	\markup { \citation #"(Mc 2)  " }  "" _ "[Ton 6   " "ou   Per.]"
 	}
 	\header {
 		titres = \markup \ant #'w "K 91" "" }
@@ -1178,7 +1178,7 @@
 		\cesure
 		d16[ d e f]
 		f16[ e d e] e4\( d8\) r8
-		\endBar
+		\endBar\espace  \espace
 		\stemOff f4 g a a a a
 		\endBar 
 	}
@@ -1189,7 +1189,7 @@
 		ne fût- -- ce qu'un ver -- re d'eau fraî -- che à l'un de ces pe -- tits,
 		en sa qua -- li -- té de di -- sci -- ple, a -- men, je vous le dis_: 
 		il ne per -- dra pas sa ré -- com -- pen -- se. 
-	\markup { \citation #"(Mt 10)  " } "" "[Ton 1 " "ou  Per.]"
+	\markup { \citation #"(Mt 10)  " } "" _ "[Ton 1   " "ou   Per.]"
 	}
 	\header {
 		titre = "13ème SEMAINE DU T.O."
@@ -1289,7 +1289,7 @@
 		\times 2/3 { d8[ c d] }
 		\times 2/3 { f8[ g g] }
 		g8[ f] e8[ c] d4
-		\endBar
+		\endBar\espace  \espace
 		\stemOff f4 g a a a a
 		\endBar 
 	}
@@ -1298,7 +1298,7 @@
 		de la ter- _ -- re car tu as ca -- ché les mys -- tè -- res du 
 		Roy -- au -- me aux sages et aux sa -- vants, et tu les a
 		ré -- vé -- lés aux tout- -- pe -- tits. 
-	\markup { \citation #"(Mt 11)  " } "" "[Ton 1 " "ou  Per.]"
+	\markup { \citation #"(Mt 11)  " } "" _ "[Ton 1   " "ou   Per.]"
 	}
 	\header {
 		titre = "14ème SEMAINE DU T.O."
@@ -1662,7 +1662,7 @@
 		\ifIndent
 		r8 a
 		f8[\( f]\) e8[ f] d4
-		\endBar
+		\endBar\espace  \espace
 		\stemOff f4 g a a a a
 		\endBar 
 	}
@@ -1670,7 +1670,7 @@
 		Ce -- lui qui de -- man -- de re -- çoit, _ce -- lui qui 
 		cher -- che trou -- ve, et pour ce -- lui qui frap -- pe 
 		la por -- te s'ou -- vri -- ra. 
-	\markup { \citation #"(Lc 11)  " } "" "[Ton 1 " "ou  Per.]" 
+	\markup { \citation #"(Lc 11)  " } "" _ "[Ton 1   " "ou   Per.]"
 	}
 	\header {
 		titres = \markup \ant #'au "K 172" "" }
@@ -2143,7 +2143,7 @@
 		\cesure
 		\times 2/3 { f8[ f f] }
 		f8[ g] e8[ e] g8[ bes] a4
-		\endBar
+		\endBar\espace  \espace
 		\stemOff f4 g a a a a
 		\endBar 
 	}
@@ -2152,7 +2152,7 @@
 		en vous, elle est ca -- pa -- ble de vous sau -- ver. 
 		Met -- tez la Pa -- role en pra -- ti -- que, ne vous 
 		con -- ten -- tez pas de l'é -- cou -- ter. 
-	\markup { \citation #"(Jc 1)  " } "" "[Ton 1 " "ou  Per.]"
+	\markup { \citation #"(Jc 1)  " } "" _ "[Ton 1   " "ou   Per.]"
 
 
 	}
@@ -2189,7 +2189,7 @@
 		Quand tu donnes un fes -- tin, in -- vi -- te des pau -- vres, 
 		des in -- fir -- mes, des boi -- teux, des a -- veu -- gles_; 
 		et tu se -- ras heu -- reux par -- ce qu'ils n'ont rien à te ren -- dre. 
-	\markup { \citation #"(Lc 14)  " } "" "[Ton 2 transposé en la]"
+	\markup { \citation #"(Lc 14)  " } "" "[Ton 2*]"
 	}
 	\header {
 		titres = \markup \ant #'bj "K 222" "" }
@@ -2222,7 +2222,7 @@
 		g8[ a]
 		\ifIndent
 		c16[\cesure c a g] g4
-		\endBar
+		\endBar\espace  \espace
 		\stemOff f4 g a a a a
 		\endBar 
 	}
@@ -2231,7 +2231,7 @@
 		u -- ne cho -- se, ils l'ob -- tien -- dront de mon Pè -- re qui 
 		est dans les cieux. Quand deux ou trois se ras -- sem -- blent
 		en mon nom, je suis là, au mi -- lieu d'eux. 
-	\markup { \citation #"(Mt 18)  " } "" "[Ton 6 " "ou  Per.]"
+	\markup { \citation #"(Mt 18)  " } "" _ "[Ton 6   " "ou   Per.]"
 	}
 	\header {
 		titre = "23ème SEMAINE DU T.O."
@@ -2456,7 +2456,7 @@
 		\times 2/3 { f8[ f f] }
 		\ifIndent
 		g8[ a] g4
-		\endBar
+		\endBar\espace  \espace
 		\stemOff f4 g a a a a
 		\endBar 
 	}
@@ -2465,7 +2465,7 @@
 		qui vous con -- fie -- ra le bien vé -- ri -- ta -- ble_? 
 		Si vous n'a -- vez pas é -- té fi -- dè -- les pour le 
 		bien é -- tran -- ger, le vô -- tre, qui vous le don -- ne -- ra_? 
-	\markup { \citation #"(Lc 16)  " } "" "[Ton 6 " "ou  Per.]"
+	\markup { \citation #"(Lc 16)  " } "" _ "[Ton 6   " "ou   Per.]"
 	}
 	\header {
 		titres = \markup \ant #'br "K 252" "" }
@@ -2652,7 +2652,7 @@
 		\times 2/3 { g8[ g a] }
 		\slurDashed g4( \times 2/3 { f8[) f d] }
 		e8[ f] d4\( d8\) r8
-		\endBar
+		\endBar\espace  \espace
 		\stemOff c4 d f a a a
 		\endBar 
 	}
@@ -2660,7 +2660,7 @@
 		Quand vous au -- rez fait tout ce que Dieu vous a com -- man -- dé, 
 		di -- tes -- -vous_: nous som -- mes des ser -- vi -- teurs 
 		i -- nu -- ti -- les, nous a -- vons fait ce que nous de -- vions fai -- re. 
-	\markup { \citation #"(Lc 17)  " } "" "[Ton 2 " "ou  Per.]"
+	\markup { \citation #"(Lc 17)  " } "" _ "[Ton 2   " "ou   Per.]"
 	}
 	\header {
 		titres = \markup \ant #'by "K 272" "" }
@@ -3084,7 +3084,7 @@
 		\times 2/3 { f8[ g a] }
 		\slurDashed g4( \times 2/3 { f8[) e f] }
 		d8[ e] d4
-		\endBar
+		\endBar\espace  \espace
 		\stemOff f4 g a a a a
 		\endBar 
 	}
@@ -3092,7 +3092,7 @@
 		Au -- jour -- d'hui le sa -- lut est ar -- ri -- vé pour 
 		cet -- te mai -- son, car lui aus -- si est un fils d'A -- bra -- ham.
 		Le Fils de l'homme est ve -- nu cher -- cher et sau -- ver ce qui é -- tait per -- du. 
-	\markup { \citation #"(Lc 19)  " } "" "[Ton 1 " "ou  Per.]"
+	\markup { \citation #"(Lc 19)  " } "" _ "[Ton 1   " "ou   Per.]"
 	}
 	\header {
 		titres = \markup \ant #'cl "K 312" "" }
@@ -3186,7 +3186,7 @@
 		a8[ g] a4
 		\cesure
 		\times 2/3 { f8[ e f] } d4
-		\endBar
+		\endBar\espace  \espace
 		\stemOff f4 g a a a a
 		\endBar 
 	}
@@ -3194,7 +3194,7 @@
 		Ceux qui ont é -- té ju -- gés di -- gnes d'a -- voir part
 		au monde à ve -- nir sont fils de Dieu, é -- tant fils de
 		la ré -- sur -- rec -- tion. Il n'est pas le Dieu des morts, mais des viv -- ants. 
-	\markup { \citation #"(Lc 20)  " } "" "[Ton 1 " "ou  Per.]"
+	\markup { \citation #"(Lc 20)  " } "" _ "[Ton 1   " "ou   Per.]"
 	}
 	\header {
 		titres = \markup \ant #'co "K 322" "" }
@@ -3327,7 +3327,7 @@
 		\times 2/3 { f8[ e d] }
 		\times 2/3 { e8[\( e\) c] }
 		d8[\( b\)] a4
-		\endBar
+		\endBar\espace  \espace
 		\stemOff c'4 d e e e e
 		\endBar 
 	}
@@ -3335,7 +3335,7 @@
 		Quand le Fils de l'hom -- me vien -- dra dans sa gloi -- re, 
 		et tous les an -- ges a -- vec lui, a -- lors il
 		s'as -- sié -- ra sur son trô -- ne de gloi- _ -- re. 
-	\markup { \citation #"(Mt 25)  " } "" "[Ton 1 " "ou  Per.]"
+	\markup { \citation #"(Mt 25)  " } "" _ "[Ton 1   " "ou   Per.]"
 	} }
 	\header {
 		titre = "34ème SEMAINE DU T.O."
@@ -3366,7 +3366,7 @@
 		\times 2/3 { d8[\( c\) a] }
 		\ifIndent
 		a4
-		\endBar
+		\endBar \espace  \espace
 		\stemOff c'4 d e e e e
 		\endBar 
 	}
@@ -3376,7 +3376,7 @@
 		pour ren -- dre té -- moi -- gna -- ge à la vé -- ri -- té. 
 		Tout hom -- me qui ap -- par -- tient à la vé -- ri -- té
 		" é" -- cou -- te ma voix. 
-	\markup { \citation #"(Jn 18)  " } "" "[Ton 1 " "ou  Per.]"
+	\markup { \citation #"(Jn 18)  " } "" _ "[Ton 1   " "ou   Per.]"
 	} }
 	\header {
 		titres = \markup \ant #'ct "K 341" "" }
@@ -3401,7 +3401,7 @@
 		\times 2/3 { f8[\cesureBasse f f] }
 		\times 2/3 { f8[ d c] }
 		d8[ e] e4
-		\endBar\stemOff a4 a a
+		\endBar \espace  \espace  \stemOff a4 a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -3414,4 +3414,4 @@
 	\header {
 		titres = \markup \ant #'cu "K 342" "" }
 }
-
+%}
