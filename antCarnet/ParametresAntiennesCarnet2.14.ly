@@ -38,7 +38,7 @@
 	page-limit-inter-system-space = ##t
 	page-limit-inter-system-space-factor = #0
 	score-system-spacing = 
-	#'((padding . 0) 
+	#'((padding . 1) 
 	   (minimum-distance . 0) 
 	   (stretchability . 0) 
 	   (basic-distance . 0))
