@@ -11,12 +11,16 @@
 \setlength{\evensidemargin}{0in}
 \setlength{\textheight}{9in}
 \setlength{\textwidth}{6.25in}
-\setlength{\headwidth}{6.25in}
+%\setlength{\headwidth}{6.25in}
 
 \newcommand{\flagflex}[1]{\hskip\vrightskip\llap{\smash\tiny#1}\hskip\vrightskip\ignorespaces}
 %\def\pl#1{\leavevmode\setbox0\hbox{#1}\setbox1\hbox to \wd0{\hss\raise1.5ex\hbox{\tiny{+}}\hss}{\vtop{\box0\box1}}}
-\def\pl#1{$\smash{\underset{\text{\tiny{+}}}{\smash{\text{#1}}}}$}
+%\def\pl#1{$\smash{\underset{\text{\tiny{+}}}{\smash{\text{#1}}}}$}
+%\def\pl#1{$\underset{\text{\tiny +}}{\text{#1}}$}
+%\def\pl#1{$\stackrel{\hbox{#1}}{\hbox{\tiny +}}$}
+\def\pl#1{$\displaystyle{\mathop{\mbox{\smash {#1}}}_{\tiny +}}$} 
 
 %\def\mi#1{\leavevmode\setbox0\hbox{#1}\setbox1\hbox to \wd0{\hss\raise1.5ex\hbox{\tiny{--}}\hss}{\vtop{\box0\box1}}}
-\def\mi#1{$\underset{\text{--}}{\smash{\text{#1}}}$}
-
+%\def\mi#1{$\underset{\text{--}}{\smash{\text{#1}}}$}
+%\def\mi#1{$\underset{\text{--}}{\text{#1}}$}
+\def\mi#1{$\displaystyle{\mathop{\mbox{\smash {#1}}}_{\tiny -}}$} 

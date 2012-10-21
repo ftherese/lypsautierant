@@ -37,12 +37,12 @@ foreach my $line (@lines){
  chomp($line);
  if ($counter == 0){
   $_ = $line;
-  /(\d+)\(/;
+  /([0-9]+)/;
   $lilyfile = $1;
   print '\poemtitle{'.$line."}\\nopagebreak\n";
-  print '\begin{changemargin}{-40pt}{0pt}'."\n";
-  print '\lilypondfile{p'.$lilyfile.'.modif.ly}'."\n";
-  print '\end{changemargin}'."\n";
+#  print '\begin{changemargin}{-40pt}{0pt}'."\n";
+  print '\lilypondfile{../p'.$lilyfile.'.modif.ly}'."\n";
+#  print '\end{changemargin}'."\n";
   print '\begin{flushleft}'."\n".'\begin{verse}'."\n";
  }
  elsif ($counter >= 1){
