@@ -134,11 +134,11 @@
 	}
 	\context {
     		\Staff
-		\override VerticalAxisGroup #'default-staff-staff-spacing = 
-		  #'((basic-distance . 0) 
-		    (minimum-distance . 0) 
-		    (stretchability . 0) 
-		    (padding . 0)) 
+		%\override VerticalAxisGroup #'default-staff-staff-spacing = 
+		%  #'((basic-distance . 0) 
+		%    (minimum-distance . 0) 
+		%    (stretchability . 0) 
+		%    (padding . 0)) 
 		\remove "Time_signature_engraver"
 		\override SpacingSpanner #'packed-spacing = ##t
 		

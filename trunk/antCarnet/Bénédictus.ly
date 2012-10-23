@@ -262,7 +262,7 @@
 }
 
 \pageBreak
-
+%{
 %2ème mode
 \label #'b
 \score {
@@ -1278,4 +1278,4 @@
 		titre = "BENEDICTUS (ton pérégrinus)"
 		titres = \markup \ant #'i "B 519" "" }
 }
-
+%}
