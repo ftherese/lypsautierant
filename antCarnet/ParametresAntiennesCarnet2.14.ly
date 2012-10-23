@@ -1,6 +1,7 @@
 \version "2.14.0"
 
-#(set-default-paper-size "a4" ) % 'landscape
+#(set-default-paper-size "a5" 'landscape)
+% 'landscape
 
 \paper {
   %	annotate-spacing = ##t
@@ -11,42 +12,42 @@
 	bottom-margin = 6\mm
 	print-page-number = ##f
 	markup-markup-spacing =		% variable redéfinie pour mettre de l'espace entre le \markup et les titres
-	#'((padding . 0)
-	   (basic-distance . 2))
+	#'((padding . 0.5)
+	   (basic-distance . 1))
 	markup-system-spacing =		% ajouté par fr Raf
-	#'((padding . 0.1)		% détermine l’espacement entre un titre ou un markup de premier niveau,
-	   (basic-distance . 0.1)		% et le système qui le suit.
+	#'((padding . 0.5)		% détermine l’espacement entre un titre ou un markup de premier niveau,
+	   (basic-distance . 5)		% et le système qui le suit.
 	   (minimum-distance . 0)
-	   (stretchability . 0))
+	   (stretchability . 30))
 	score-markup-spacing =		% ajouté par fr Raf
-	#'((padding . 3.5)		% détermine l’espacement entre le dernier système
-	   (basic-distance . 0)		% et le titre ou markup de haut niveau qui le suit.
-	   (minimum-distance . 0)	% C'est bien de mettre une valeur positive au padding.
-	   (stretchability . 0))
+	#'((padding . 0.5)		% détermine l’espacement entre le dernier système
+	   (basic-distance . 11)		% et le titre ou markup de haut niveau qui le suit.
+	   (minimum-distance . 0)
+	   (stretchability . 60))
 	system-system-spacing = 	% détermine, de fait, l'espacement entre les portées des antiennes
-	#'((padding . 0.8) 
-	   (minimum-distance . 0) 
-	   (stretchability . 0) 
-	   (basic-distance . 0))
+	#'((padding . 1)
+	   (minimum-distance . 8) 
+	   (stretchability . 60) 
+	   (basic-distance . 10))
 	page-breaking-system-system-spacing =	%% ajouté par fr Raf et très important, ça concerne la gestion des sauts de page				 %%
 	#'((padding . 0.1)			%% Si ce padding est supérieur à celui de system-system-spacing			 		 %%
 	   (minimum-distance . 0) 		%% alors il y aura moins de systèmes sur une page. Je l'ai mis à 0.				 %%
 	   (stretchability . 0) 		%% C'est ce qui a résolu le gros blanc sur l'essaie que j'ai fait du Magnificat			 %%
 	   (basic-distance . 0))   		%% et de même aussi les blancs entre les antiennes d'invitatoire et les antiennes sur ce fichier.%%
-	top-system-spacing = #'((basic-distance . 0) (minimum-distance . 0) (padding . 0))
-	top-markup-spacing = #'((basic-distance . 0) (minimum-distance . 0) (padding . 0))
+	top-system-spacing = #'((basic-distance . 1) (minimum-distance . 0) (padding . 1))
+	top-markup-spacing = #'((basic-distance . 0) (minimum-distance . 0) (padding . 1))
 	page-limit-inter-system-space = ##t
 	page-limit-inter-system-space-factor = #0
 	score-system-spacing = 
 	#'((padding . 1) 
-	   (minimum-distance . 0) 
-	   (stretchability . 0) 
-	   (basic-distance . 0))
+	   (minimum-distance . 8) 
+	   (stretchability . 120) 
+	   (basic-distance . 12))
 	last-bottom-spacing =
-	#'((padding . 0) 
+	#'((padding . 1) 
 	   (minimum-distance . 0) 
-	   (stretchability . 0) 
-	   (basic-distance . 0))
+	   (stretchability . 30) 
+	   (basic-distance . 1))
 	page-breaking = #ly:minimal-breaking
 	indent = 0\mm
 	short-indent = 0\mm
@@ -76,7 +77,7 @@
        	       \on-the-fly #print-all-headers { \bookTitleMarkup \hspace #0 }
        	       \fill-line { 
        	       		\line { \fromproperty #'header:titre } }
-       	       		\raise #1.3
+       	       		\raise #1.2
        	       \fromproperty #'header:titres
        	       }							% titres, (à la place de opus et piece)
        }
