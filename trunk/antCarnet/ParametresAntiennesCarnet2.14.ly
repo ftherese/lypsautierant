@@ -81,13 +81,16 @@
        	       \fromproperty #'header:titres
        	       }							% titres, (à la place de opus et piece)
        }
+      oddFooterMarkup = \markup {
+      \null \hspace #-5 \fontsize #-3.5 \fromproperty #'header:tagline }
+      evenFooterMarkup = \markup { "" }
+      %% redéfinition des oddFooter et evenFooter pour mettre le tagline en bas des pages impaires (fr Raph oct2012)
 }   
 
-
-
 \header {
-               tagline=""
+      tagline = "Communauté Saint Jean 2012"
 }
+
 
 %{ this is where you can change the staff size %}
 #(set-global-staff-size 22)
