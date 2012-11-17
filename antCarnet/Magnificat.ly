@@ -1,7 +1,6 @@
 \version "2.14.0"
 \include "DefinitionsAntiennesCarnet.ly"
 
-#(set-default-paper-size "a5" 'landscape )
 \paper {
 oddHeaderMarkup = \markup
 \fill-line {
