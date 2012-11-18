@@ -12,18 +12,19 @@
 	bottom-margin = 6\mm
 	print-page-number = ##f
 	markup-markup-spacing =		% variable redéfinie pour mettre de l'espace entre le \markup et les titres
-	#'((padding . 0.5)
-	   (basic-distance . 1))
+	#'((padding . 1)
+	   (basic-distance . 1)
+	   (stretchability . 0))
 	markup-system-spacing =		% ajouté par fr Raf
 	#'((padding . 0.5)		% détermine l’espacement entre un titre ou un markup de premier niveau,
 	   (basic-distance . 5)		% et le système qui le suit.
 	   (minimum-distance . 0)
-	   (stretchability . 30))
+	   (stretchability . 0))
 	score-markup-spacing =		% ajouté par fr Raf
-	#'((padding . 0.5)		% détermine l’espacement entre le dernier système
+	#'((padding . 1)		% détermine l’espacement entre le dernier système
 	   (basic-distance . 11)		% et le titre ou markup de haut niveau qui le suit.
-	   (minimum-distance . 0)
-	   (stretchability . 60))
+	   (minimum-distance . 8)
+	   (stretchability . 0))
 	system-system-spacing = 	% détermine, de fait, l'espacement entre les portées des antiennes
 	#'((padding . 1)
 	   (minimum-distance . 8) 
@@ -41,8 +42,8 @@
 	score-system-spacing = 
 	#'((padding . 1) 
 	   (minimum-distance . 8) 
-	   (stretchability . 120) 
-	   (basic-distance . 12))
+	   (stretchability . 0) 
+	   (basic-distance . 11))
 	last-bottom-spacing =
 	#'((padding . 1) 
 	   (minimum-distance . 0) 
