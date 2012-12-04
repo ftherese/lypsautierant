@@ -150,31 +150,26 @@ evenHeaderMarkup = \markup
 		r8. f16 g8.[ a16] bes16[\( a\) g a]
 		a8.[\pespace \cesure \pespace a16] g16[\( f\) g a] g8[ g] g8[ f16 e] d4
 		\barre
-		%\ifIndent
-		\pespace
+		\ifIndent
 		% il s'est penché...
 		r16 f16[ g a]
 		\times 2/3 { a8[ a bes] }
-		\ifIndent
 		\times 2/3 { a8[\( a\) g] } a8[\( a\)]
 		r8 a16[ a] a8[ a16 a] a16[\( a\) g f]
 		\times 2/3 { g8[ a g] }
 		\times 2/3 { g4\( f8\) }
 		\barre
-		%\ifIndent
-		\pespace
+		\ifIndent
 		% le Puissant...
 		\times 2/3 { r8_\( f[ g]\) }
 		\times 2/3 { a8[ a bes] }
-		\ifIndent
 		\times 2/3 { a8[ a g] } a8[\( a\)]
 		\pespace
 		\cesure		
 		\pespace
 		\times 2/3 { g8[ g f] } d4
 		\barre
-		%\ifIndent
-		\pespace
+		\ifIndent
 		% son amour...
 		\times 2/3 { r8_\( f[ g]\) }
 		\times 2/3 { a4\( \override Stem #'neutral-direction = #up bes8\) }
@@ -183,26 +178,22 @@ evenHeaderMarkup = \markup
 		\times 2/3 { g8[ f g] }
 		\times 2/3 { a4\( a8\) }
 		\barre
-		%\ifIndent
-		\break
+		\ifIndent
 		% déployant...
 		r8 f16[ g] a8.[ bes16] a16[\( a\) g a]
 		a8[\pespace \cesure \pespace a16 a] g16[\( f\) g g]
 		\times 2/3 { f4\( d8\) }
 		\barre
-		%\ifIndent
-		\pespace
+		\ifIndent
 		% il renverse...
 		r8 f16[ g] a16[\( a\) a bes] a8[ a16 g] a8[\( a\)]
-		\ifIndent
 		\pespace
 		\pespace
 		\times 2/3 { r8_\( a[\espace g]\) }
 		\times 2/3 { f8[\( g\) a] }
 		\times 2/3 { g4\( f8\) }
 		\barre
-		%\ifIndent
-		\pespace
+		\ifIndent
 		% il comble...
 		r8. f16 g8[\( a16\) bes] a16[ a g a] a4
 		\pespace
@@ -210,16 +201,14 @@ evenHeaderMarkup = \markup
 		r16 a16[ a g] f16[\( g\) g g]
 		\times 2/3 { a4\( g8\) }
 		\barre
-		%\ifIndent
-		\break
+		\ifIndent
 		% il relève...
 		r8 f16[ g] a8[ a16 bes] a16[ a g a] a4
 		\pespace
 		\pespace
 		r16 a16[ a g] f16[ g g f] d4
 		\barre
-		%\ifIndent
-		\pespace
+		\ifIndent
 		% de la promesse...
 		r16 f16[ g a] a8[\( bes\)] a8[ a16 g] a8[\( a\)]
 		\ifIndent
@@ -229,7 +218,7 @@ evenHeaderMarkup = \markup
 		\times 2/3 { a8[ a a] } a16[ g f g]
 		\times 2/3 { a8[ g g] } a4
 		\barre
-		\break
+		\ifIndent
 		% gloire...
 		r8 a16[ a] a8.[ \cesure a16] a16[ \cesure a a g] g4
 		\ifIndent
@@ -424,7 +413,7 @@ evenHeaderMarkup = \markup
 		r8 g16[ a] c16[\( c\) d c] c8[ c16 b] a8[\( c\)]
 		\pespace
 		\pespace
-		\times 2/3 { r8_\( c[\espace c]\) }
+		\times 2/3 { r8\( c[\espace c]\) }
 		\times 2/3 { c8[\( a\) c] }
 		\times 2/3 { c4\( b8\) }
 		\barre
@@ -448,7 +437,7 @@ evenHeaderMarkup = \markup
 		r16 c16[ c c] d8[\( c\)] c8[ c16 b] a8[\( c\)]
 		\pespace
 		\pespace
-		\times 2/3 { r8_\( c[ c]\) }
+		\times 2/3 { r8\( c[ c]\) }
 		\times 2/3 { c8[ c c] } c16[ b a b]
 		\times 2/3 { a8[ g g] } a4
 		\barre
@@ -661,7 +650,7 @@ evenHeaderMarkup = \markup
 		r16 c16[ c c] c8[\( c\)] c8[ c16 d] c8[\( c\)]
 		\pespace
 		\pespace
-		\times 2/3 { r8_\( c[ c]\) }
+		\times 2/3 { r8\( c[ c]\) }
 		\times 2/3 { c8[ c c] } c16[ c d b]
 		\times 2/3 { b8[ c a] } a4
 		\barre
