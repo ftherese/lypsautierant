@@ -12,7 +12,7 @@
 		c8[ d] b[ g]
 		a16[\( a\) b c]  a4 \cesure \ifIndent
 		\times 2/3 { d8[ d c] }  d8[\cesure c]
-		b8[ c]  a8[\( a\)]
+		b8[ c]  a8[\( a\)] \pespace
 		r8. d,16
 		a'16[ a a b]  c8[ b]
 		a16[ g c b]  a4 \cesure \ifIndent
@@ -22,7 +22,7 @@
 		g4  \cesure
 		a16[ c d d]  a4 \espace \break
 		\times 2/3 { r8\( c[ b]\) }
-		\times 2/3 { a8[\( b g]\) } e4
+		\times 2/3 { a8[\( b g]\) } e4 \pespace \pespace
 		\times 2/3 { r8_\( g[ a]\) }
 		 b[\( a\)] a4
 		\endBar
@@ -102,7 +102,7 @@
 		\slurDashed c4( a8[) b]
 		\times 2/3 { a8[ g f] }
 		\ifIndent
-		a8[\( b\)]   a4 \cesure
+		a8[\( b\)]   a4 \cesure \pespace \pespace
 		\times 2/3 { c8[\( d\) e] }
 		\times 2/3 { c8[\( a b]\) } a4
 		\endBar
@@ -228,20 +228,20 @@
 } 
 
 \label #'g
-\score { \transpose a d { \relative f'  { 
-		r8 a8 g8[ b] c8[ b] a4 \cesure
-		c8[ d] \times 2/3 { e8[ e e] } e4
-		\times 2/3 { e8[ d e] }\times 2/3 { c8[ b c] }
-		\times 2/3 { a4\( a8\) } \cesure
-		\times 2/3 { g8[\( g\) a] }
-		c8[\( c]\) c8[ c] \ifIndent a4 
-		c16[ d e d] d8[ c]
+\score {\relative d'  { 
+		r8 d8 c8[ e] f8[ e] d4 \cesure
+		f8[ g] \times 2/3 { a8[ a a] } a4
+		\times 2/3 { a8[ g a] }\times 2/3 { f8[ e f] }
 		\times 2/3 { d4\( d8\) } \cesure
-		c8[ b] \times 2/3 { a8[\( a\) \cesureTresBasse a] }
-		\times 2/3 { c8[\( a\) g] } a4 \cesure
-		g16[ a c\( a\)] a4
+		\times 2/3 { c8[\( c\) d] }
+		f8[\( f]\) f8[ f] \ifIndent d4 
+		f16[ g a g] g8[ f]
+		\times 2/3 { g4\( g8\) } \cesure
+		f8[ e] \times 2/3 { d8[\( d\) \cesureTresBasse d] }
+		\times 2/3 { f8[\( d\) c] } d4 \cesure
+		f16[ g a\( g\)] g4
 		\endBar
-		\stemOff g4 a c
+		\stemOff c4 d f 
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -253,7 +253,7 @@
 	} }
 	\header {
 		titres = \markup \ant #'g "I 401" "" }
-}
+
 
 \label #'h
 \score {\relative f'  { 
@@ -264,7 +264,7 @@
 		\times 2/3 { f8[ d e] }
 		\times 2/3 { f8[\( f\) \cesureBasse f] }
 		g16[ a bes a] a8[ g]
-		\times 2/3 { a8[ f e] } d4
+		\times 2/3 { a8[ f e] } d4 \cesure
 		\ifIndent
 		f16[ g a\( g\)] g4
 		\endBar\espace\espace
@@ -322,8 +322,8 @@
 	r8 a \times 2/3 { a8[ g a] } c8[ a]  g4
 	f8[ f]  \times 2/3 { f8[ f g] }
 	a8[\( a\)]  \cesure \ifIndent
-	\times 2/3 { c8[\( c\) c] }  a8[ g]  a4 \cesure
-	a16[ g a\( f\)]  f4	
+	\times 2/3 { c8[\( c\) c] }  a8[ g]  a4 \pespace\cesure
+	\pespace \pespace a16[ g a\( f\)]  f4	
 		\endBar
 		\stemOff f4 g a
 		\endBar 
@@ -349,8 +349,8 @@
 	f8[\( f\)]  f8[ g]  a8[ bes]
 	\times 2/3 { a8[\cesure g f] } \ifIndent
 	e8[ d]  c8[ d]
-	f8[\( d\)] d4 \cesure
-	f16[ g a\( g\)] g4
+	f8[\( d\)] d4 \pespace\cesure
+	\pespace \pespace f16[ g a\( g\)] g4
 	
 		\endBar
 		\stemOff c4 d f
@@ -452,8 +452,8 @@
 	a16[ g a\( g\)]  g4 \cesure 
 	d'8[ c]  d8[ e] \ifIndent d4 \cesure 
 	\times 2/3 { c8[ c c] }
-	a8[ g]  g16[ a\( c\) a] b8[\( c\)] b4 \cesure 
-	a16[ g a\( g\)]   g4
+	a8[ g]  g16[ a\( c\) a] b8[\( c\)] b4  \pespace\cesure 
+	\pespace \pespace a16[ g a\( g\)]   g4
 		\endBar
 		\stemOff g4 a c
 		\endBar 
@@ -521,7 +521,8 @@
 	\ifIndent
 	a8[ \cesure bes16 g] f4
 	\times 2/3 { f8[ f f] } e8[ f]
-	\times 2/3 { d8[ f g] } a4  \cesure bes16[ a bes\( g\)] a4
+	\times 2/3 { d8[ f g] } a4  	
+	\cesure \pespace bes16[ a bes\( g\)] a4
 	\endBar\espace\espace
 	\stemOff f4 g a a a a
 	\endBar
@@ -609,7 +610,7 @@
 	a8[ b] g4
 	\cesure
 	a8[ b] a4
-	\cesure
+	\pespace \cesure \pespace \pespace
 	\times 2/3 { c8[\( d\) b] } \times 2/3 { g8[\( a\) b] } a4
 	\endBar
 	\stemOff c'4 d e
@@ -647,7 +648,7 @@
 	\times 2/3 { d8[ f e] }
 	\times 2/3 { d8[ d d] }
 	\times 2/3 { d8[ d e] } c8[ a] a4
-	\cesure
+	\pespace \cesure \pespace \pespace
 	c16[ d e\( d\)] d4	
 	\endBar
 	\stemOff d4 d d
@@ -681,7 +682,7 @@
 	\times 2/3 { bes8[ a g] } a4
 	\cesure
 	a8[ a] a8[ \cesure a] g8[ a] f4
-	\cesure
+	\pespace \cesure \pespace \pespace
 	f16[ a g\( f\)] f4
 	\endBar
 	\stemOff f4 g a
@@ -735,33 +736,33 @@
 
 
 \label #'v
-\score { \transpose a d \relative c''  { 
-	\times 2/3 { a8[ c c] }
-	\times 2/3 { c8[ c b] }
-	\times 2/3 { a8[ b a] } g4
+\score {  \relative d'  { 
+	\times 2/3 { d8[ f f] }
+	\times 2/3 { f8[ f e] }
+	\times 2/3 { d8[ e d] } c4
 	\cesure
-	\times 2/3 { a8[ b a] } g4
+	\times 2/3 { d8[ e d] } c4
+		\pespace \cesure \pespace \pespace
+	d8[ d] d4
 	\cesure
-	a8[ a] a4
-	\cesure
-	\times 2/3 { a8[ c d] } e8[ e] e4
+	\times 2/3 { d8[ f g] } a8[ a] a4
 	\cesure
 	\ifIndent
-	f16[ d c\( d\)] a4
-	\cesure
-	\times 2/3 { c8[ c c] } c8[ c]
-	\times 2/3 { a8[ b a] } g4
-	\cesure
-	a16[ b c\( a\)] a4
+	bes16[ g f\( g\)] d4
+		\pespace \cesure \pespace \pespace
+	\times 2/3 { f8[ f f] } f8[ f]
+	\times 2/3 { d8[ e d] } c4
+		\pespace \cesure \pespace \pespace
+	d16[ e f\( d\)] d4
 	\endBar
-	\stemOff g4 a c
+	\stemOff c4 d f
 	\endBar	}
 	
 	\addlyrics {
 		\set stanza = #"1. " Je ne vous lais -- se -- rai pas or -- phe -- lin, al -- le -- lu -- ia, 
 		je m'en vais et je re -- viens vers vous, al -- le -- lu - ia, 
 		et vo -- tre coeur se -- ra dans la joie, al -- le -- lu - ia. 
-	\markup { \citation #"Jn 14-16)  " } "" "[Ton 2]"}
+	\markup { \citation #"(Jn 14-16)  " } "" "[Ton 2]"}
 	\header {
 		titre = "PENTECOTE"
 		titres = \markup \ant #'v "I 800" "" }
@@ -772,20 +773,19 @@
 	r8 c16[ d] d8.[ f16] f16[ e d d]
 	\times 2/3 { d8[ e d] }
 	\times 2/3 { c4\( c8\) } \cesure d16[\( g\) f\( e\)]
-	\times 2/3 { d4\( d8\) } r8 d
-	\times 2/3 { a'8[ bes a] } a8[ g] 
+	\times 2/3 { d4\( d8\) } 
+	\pespace r8 d
+	\times 2/3 { a'8[ bes a] } a8[ g] \ifIndent
 	\times 2/3 { f8[ g a] }
-	\ifIndent
 	g8[\( bes\)] a4
 	\cesure
 	\times 2/3 { d,8[ f d] }
 	\times 2/3 { g8[ f f] }
 	\times 2/3 { e8[ g a] }
-	\times 2/3 { f8[\( e\) d] } d4\cesure
+	\times 2/3 { f8[\( e\) d] } d4 	\pespace \cesure\pespace \break
 	d16[\( g\) f\( e\)] 
 	d4\( d8\) r8
 	\endBar \espace \espace
-	\noBreak
 	\stemOff f4 g a a a a
 	\endBar	}
 	
@@ -824,7 +824,7 @@
 	\ifIndent
 	\times 2/3 { e8[ d c] }
 	\times 2/3 { a8[\( g\) f] } g4
-	\cesure
+	\pespace \cesure \pespace \pespace
 	a16[ f a\( g\)] g4
 	\endBar
 	\stemOff g4 a c
