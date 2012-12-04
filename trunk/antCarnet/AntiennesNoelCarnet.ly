@@ -18,6 +18,8 @@
 
 \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
 \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
+\markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
+\markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
 
 
 \label #'b
@@ -51,7 +53,7 @@
 		titres = \markup \ant #'b "G 101" "Premières vêpres (Français)" }
 } 
 
-%\pageBreak
+\pageBreak
 
 \label #'c
 \score {\relative f'  {
@@ -69,8 +71,6 @@
 \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
 \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
 
-
-%\pageBreak
 
 \label #'d
 \score {\relative f'  { 
@@ -111,7 +111,7 @@
 		titres = \markup \ant #'d "G 111" "Jour de Noël (Français)" }
 } 
 
-
+\pageBreak
 \label #'e
 \score {\relative f'  {
 	
@@ -236,28 +236,28 @@
 
 
 \label #'i
-\score {\transpose c f, {
-	\relative f'  {
-		\key a\minor
-		r8 c'8
-		\times 2/3 { b8[ c d] }
-		d16[ c d e]
-		d8[ d] e8[ f]
-		e8[\( d\)] d8[\( c\)] c4
+\score {	\relative f'  {
+		\key f\major
+		r8 f8
+		\times 2/3 { e8[ f g] }
+		g16[ f g a]
+		g8[ g] a8[ bes]
+		a8[\( g\)] g8[\( f\)] f4
 		\espace
-		r8 g8
-		a8[ a] d8[ d]
+		r8 c8
+		d8[ d] g8[ g]
 		\ifIndent
-		g,16[ a c c] a4
+		c,16[ d f f] d4
 		
 		\endBar
 		\espace\espace
-		\stemOff c'4 d e  e e e
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {
 		Voi -- ci que Mar -- ie est de -- ven -- ue le Temple et l'Ar -- che sain- _ -- te, 
-		le ciel nou -- veau où Dieu a res -- plen -- di. "" _ "[Ton 1   " "ou   Per.]"
+		le ciel nou -- veau où Dieu a res -- plen -- di. 
+		"" _ _ "[Ton 1   " "ou   Per.]"
 	 	}}
 	\header {
 		titre = "SAINTE MARIE, MERE DE DIEU (1er janvier)"
