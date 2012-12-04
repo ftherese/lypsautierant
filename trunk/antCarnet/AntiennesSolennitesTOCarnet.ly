@@ -27,7 +27,7 @@
 		c8[ c]
 		\times 2/3 { d8[\( d\)\cesure b] }
 		\slurDashed b4( \times 2/3 { b8[) d b] } c4
-		\times 2/3 {r8\(c[ b]\)} a[\( g\)] a4
+		\pespace \pespace\times 2/3 {r8\(c[ b]\)} a[\( g\)] a4
 
 		\endBar 
 	}
