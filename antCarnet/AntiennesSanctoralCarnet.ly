@@ -3,7 +3,7 @@
 
 
 %SANCTORAL
-
+%{
 
 \label #'a
 \score {
@@ -914,9 +914,9 @@
 		\times 2/3 { d8[ d d] }
 		\times 2/3 { d8[ e f] } d4
 		\cesure
-		\times 2/3 { c8[ c c] } f8[ e]		
+		\times 2/3 { c8[ c c] } f8[ e]	\ifIndent	
 		\times 2/3 { f8[ a bes] }
-		\ifIndent
+		
 		g4\( f8\) r8		
 		\endBar
 		\stemOff c4 d f
@@ -926,19 +926,19 @@
 		Quand vous au -- rez é -- le -- vé le Fils de l'hom -- me, 
 		_a -- lors vous sau -- rez que je suis_: 
 		j'at -- ti -- re -- rai à moi tous les hom -- mes. 
-		\markup { \citation #"(Jn 8 /12)  " } "" "[Ton 8]"
+		\markup { \citation #"(Jn 8-12)  " } "" "[Ton 8]"
 	}}
 	\header {
 		titres = \markup \ant #'v "" "Antienne" }
 }
 
 \label #'w
-\score { \transpose a d
-	\relative c''  {
-		r16 a16[ g a] c8[ d]
-		\times 2/3 { c8[ d e] } d4
-		\times 2/3 { r8_\( d[ a]\) }
-		\times 2/3 { d8[ c b] } e8[ c] a4\( a8\) r8				
+\score { 
+	\relative d'  {
+		r16 d16[ c d] f8[ g]
+		\times 2/3 { f8[ g a] } g4
+		\times 2/3 { r8_\( g[ d]\) }
+		\times 2/3 { g8[ f e] } a8[ f] d4\( d8\) r8				
 		\endBar
 	}
 	\addlyrics {\set stanza = #"1. "
@@ -951,8 +951,8 @@
 }
 
 \score {
-	\relative c''  {
-		r8 d, c[ d] 
+	\relative c'  {
+		r8 d c[ d] 
 		\times 2/3 { d4\( f8\) }
 		\times 2/3 { g8[ f e] } d4
 		\times 2/3 { r8_\( f[ g]\) }
@@ -1328,38 +1328,38 @@
 }
 
 
-\score { \transpose a d {
-	\relative c''  { \key a \minor
-		a16[\( a\) e' d] e4
+\score {
+	\relative d'  { \key f\major
+		d16[\( d\) a' g] a4
 		\cesure \espace
-		\times 2/3 { e8[ e e] } e4
-		\times 2/3 { e8[ f g] }
-		\times 2/3 { e8[ e d] } e8[ e]
+		\times 2/3 { a8[ a a] } a4
+		\times 2/3 { a8[ bes c] }
+		\times 2/3 { a8[ a g] } a8[\( bes]\) a4
 		\cesure \espace
-		\times 2/3 { c8[ c c] }
-		a16[ a a a] b8[ c] b4
+		\times 2/3 { f8[ f f] }
+		d16[ d d d] e8[ f] e4
 		\cesure
 		\ifIndent
-		a16[ a c d]
-		\times 2/3 { e8[ e\( e]\) }
-		\times 2/3 { d8[\( c\) d] } b4
-		\times 2/3 { g8[ g g] } a8[ b] a4
+		d16[ d f g]
+		\times 2/3 { a8[ a\( a]\) }
+		\times 2/3 { g8[\( f\) g] } e4
+		\times 2/3 { c8[ c c] } d8[ e] d4
 		\cesure
-		r8. a16 a16[ a a a] c4		
-		b16[\( b\) c b]
+		r8. d16 d16[ d d d] f4		
+		e16[\( e\) f e]
 		\ifIndent
-		b16[\( b\) b c] a4\( a8\) r8
+		e16[\( e\) e f] d4\( d8\) r8
 		\endBar
-		\stemOff c'4 d e
+		\stemOff f4 g a
 		\endBar
 	}
 	\addlyrics {
-		Quit -- te ton pa -- ys, ta pa -- ren -- té et la mai -- son de ton pè -- re,
+		Quit -- te ton pa -- ys, ta pa -- ren -- té et la mai -- son de ton pè -- - -- re,
 		pour le pa -- ys que je te mon -- tre -- rai.
 		Je fe -- rai de toi u -- ne gran -- de na -- tion et je te bé -- ni -- rai.
 		En toi se -- ront bé -- nies tou -- tes les fa -- mil -- les de la ter -- re.
 		\markup { \citation #"(Gn 12)  " } "" "[Ton 1]"
-	}}
+	}
 	\header {
 		titre =  "PRESENTATION DE LA VIERGE MARIE (21 novembre)" }
 }
@@ -1425,7 +1425,7 @@
 	\header {
 		titres = \markup \ant #'aj "" "Antienne" }
 }
-
+%}
 
 \label #'ak
 \score {
@@ -1487,27 +1487,28 @@
 }
 
 \label #'an
-\score {  \transpose a d {
-	\relative c''  {  \key a \minor
-		r8 a e'8[ e]
-		\times 2/3 { e8[ e d] } e16[\( e\) d c] d16[\( d\) e f]
-		\times 2/3 { e8[\cesure a, e'] }
-		\times 2/3 { e8[ d c] } d8[\( c\)] a4
-		\cesure
-		\times 2/3 { c8[\( c\) c] }
-		\ifIndent
-		d8[ c] b4
-		\cesure		
-		c8[ a]
-		\times 2/3 { a8[ g a] }
-		\times 2/3 { b8[\( c\) \cesureBasse a] } g8[ a] e4\( e8\) r8
-		a8[ b] c8[ e] d8[\( d\)] 
-		\times 2/3 { c8[\cesureBasse b a] }
-		\times 2/3 { g8[\( a\) b] }
-		\ifIndent
-		c8[ b] a4
+\score {  
+	\relative d'  {  \key f\major
+		r8 d a'8[ a]
+		\times 2/3 { a8[ a g] } a16[\( a\) g f] g16[\( g\) a bes]
+		\times 2/3 { a8[\pespace\cesureBasse\pespace d, a'] }
+		\times 2/3 { a8[ g f] } g8[\( f\)] d4
+		\pespace\cesure\ifIndent
+		\times 2/3 { f8[\( f\) f] }
+		
+		g8[ f] e4
+		\pespace\cesure	\pespace\pespace	
+		f8[ d]
+		\times 2/3 { d8[  c d] }
+		\times 2/3 { e8[\( f\) \pespace\cesureTresBasse\pespace d] } c8[ d] a4\( a8\) 
+		\pespace\pespace r8
+		d8[ e] f8[ a] \ifIndent g8[\( g\)] 
+		\times 2/3 { f8[\pespace\cesureBasse \pespace e d] }
+		\times 2/3 { c8[\( d\) e] }
+		
+		f8[ e] d4
 		\endBar
-		\stemOff c'4 d e
+		\stemOff f4 g a
 		\endBar
 	}
 	\addlyrics {
@@ -1519,7 +1520,7 @@
 		Et de -- puis cette heu -- re- -- là, 
 		le dis -- ci -- ple la prit chez lui.
 		\markup { \citation #"(Jn 19)  " } "" "[Ton 1]"
-	} }
+	} 
 	\header {
 		titres = \markup \ant #'an "" "Antienne" }
 }
