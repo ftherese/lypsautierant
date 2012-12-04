@@ -148,66 +148,82 @@
 		\times 2/3 { a8[ a g] }
 		\times 2/3 { f8[\( g\) g] }
 		\times 2/3 { f4\( d8\) }
+		\pespace
 		\barre
-		\ifIndent
+		\pespace
+		\pespace
 		% il nous suscite...
-		r16 f16[ g a] a8[ a16\( bes\)] a16[\( a\) g a] a4
+		r16 f16[ g a] a8[ a16\( bes\)]
+		\ifIndent a16[\( a\) g a] a4
 		\pespace
 		\pespace
 		r16 a16[ a a] a8[ a16 a] g16[ \cesureBasse f g a] a4
+		\pespace \pespace
 		\barre
-		\ifIndent
+		\pespace
+		\pespace
 		% comme il...
 		r16 f16[ g a]
 		\times 2/3 { a8[ bes a] }
 		\times 2/3 { a8[\( g\) a] } a4
+		\ifIndent r8 a16[ a] a8[\( a16\) \cesure g] f16[ g g f] d4
 		\pespace
-		\pespace
-		r8 a16[ a] a8[\( a16\) \cesure g] f16[ g g f] d4
 		\barre
-		\ifIndent
+		\pespace
+		\pespace
 		% salut...
 		r8. f16 g16[ a a bes] a16[ a g a] a4
 		\pespace
 		\pespace
-		r8. a16 a8.[ a16] a16[ g f g] a8[\( a\)]
+		r8. a16 a8.[ a16] 
+		\ifIndent a16[ g f g] a8[\( a\)]
+		\pespace
 		\barre
-		\ifIndent
+		\pespace
+		\pespace
 		% amour...
 		r8. f16 g8.[ a16] bes16[ a a g] a8[\( a\)]
 		\pespace
 		\pespace
-		r16 a16[ a a] a16[ a g f] g8[\( g\)] f8[\( d\)]
+		r16 a16[ a a] a16[ a g f] g8[\( g\)] 
+		\ifIndent f8[\( d\)]
+		\pespace
 		\barre
-		\ifIndent
+		\pespace
+		\pespace		
 		% serment...
 		r16 a'16[ a a] a16[ a a a]
 		\times 2/3 { a8[ a g] } g4
-		\ifIndent
 		r16 f16[ g a]
 		\times 2/3 { a8[ a bes] }
 		\times 2/3 { a8[ a g] } a8[\( a\)]
 		\pespace
 		\pespace
-		r16 a16[ a a] a8.[ a16] g16[ f g a] a4
+		\ifIndent r16 a16[ a a] a8.[ a16] g16[ f g a] a4
+		\pespace
 		\barre
-		\ifIndent
+		\pespace
+		\pespace
 		% nous le servions...
 		r16 f16[ g a] a8[ a16 bes] a16[ a g a] a4
 		\pespace
 		\pespace
+		\ifIndent
 		r16 a16[ a a] a16[\( a\) \cesureBasse g f]
 		\times 2/3 { g8[ g f] } d4
+		\pespace
 		\barre
-		\ifIndent
+		\pespace
+		\pespace
 		% et toi...
 		r8. a'16 a16[ \cesure a a g] g4
 		\pespace
 		\pespace
 		\times 2/3 { r8_\( f[ g]\) }
-		\times 2/3 { a8[ a a] } a8.[ bes16] a16[\( a\) g a] a4
-		\ifIndent
+		\times 2/3 { a8[ a a] } a8.[ bes16] 
+		\ifIndent a16[\( a\) g a] a4 \pespace \pespace
 		r16 a16[ a a] a16[ a a a] a16[\( a\) a a] a16[ a g f] g8[ a] a4
+		\pespace
 		\barre
 		\ifIndent
 		% pour donner...
@@ -217,26 +233,32 @@
 		\pespace
 		\pespace
 		r16 a16[ a g] f16[ g g f] d4
+		\pespace
 		\barre
-		\ifIndent
+		\pespace
+		\pespace
 		% par l'amour...
-		r8 f16[ g] a8.[ bes16] a16[ a g a] a4
+		r8 f16[ g] a8.[ bes16]
+		\ifIndent a16[ a g a] a4
 		\pespace
 		\pespace
 		r16 a16[ a a] a8.[ a16] g16[ f g a] a4
+		\pespace
 		\barre
-		\ifIndent
+		\pespace
+		\pespace
 		% pour éclairer...
-		r16 f16[ g a] a16[ a a a] a16[\( a\) a a] a8[\( a16\) bes] a16[\( a\) g a] a4
-		\ifIndent
+		r16 f16[ g a] a16[ a a a] a16[\( a\) a a] 
+		\ifIndent a8[\( a16\) bes] a16[\( a\) g a] a4
 		\times 2/3 { r8_\( a[ a]\) }
 		\times 2/3 { a8[\( a\) a] } a16[ g f g] g8[ f] d4
+		\pespace
 		\barre
-		\ifIndent
+		\pespace
+		\pespace
 		% gloire...
-		r8 a'16[ a] a8.[ \cesure a16] a16[ \cesure a a g] g4
-		\ifIndent
-		r16 f16[ g a] 
+		\ifIndent r8 a'16[ a] a8.[ \cesure a16] a16[ \cesure a a g] g4
+		\ifIndent r16 f16[ g a] 
 		\times 2/3 { a8[ \cesure bes a] }
 		\times 2/3 { a8[ g a] } \times 2/3 { a8[ a a] } \times 2/3 { a8[\( a\) g] }
 		\times 2/3 { f8[\( g\) \cesure \espace a] } a4				
@@ -262,7 +284,7 @@
 }
 
 \pageBreak
-%{
+
 %2ème mode
 \label #'b
 \score {
@@ -359,9 +381,9 @@
 		\times 2/3 { r8_\( f[ f]\) }
 		\times 2/3 { f8[\( f\) f] } f16[ f f e] c8[ d] d4
 		\barre
-		\ifIndent
+		
 		% gloire...
-		r8 f16[ f] f8.[ \cesureBasse f16] f16[ \cesureBasse f f d] d4
+		\indentLine r8 f16[ f] f8.[ \cesureBasse f16] f16[ \cesureBasse f f d] d4
 		\ifIndent
 		r16 c16[ d f] 
 		\times 2/3 { f8[ \cesureBasse f f] }
@@ -488,7 +510,7 @@
 		\barre
 		\ifIndent
 		% gloire...
-		r8 c16[ c] c8.[ \cesure c16] c16[ \cesure c c a] a4
+		\indentLine r8 c16[ c] c8.[ \cesure c16] c16[ \cesure c c a] a4
 		\ifIndent
 		r16 c16[ c c] 
 		\times 2/3 { d8[ \cesure c c] }
@@ -1278,4 +1300,3 @@
 		titre = "BENEDICTUS (ton pérégrinus)"
 		titres = \markup \ant #'i "B 519" "" }
 }
-%}
