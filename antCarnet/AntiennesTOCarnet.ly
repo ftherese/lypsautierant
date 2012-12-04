@@ -4,26 +4,25 @@
 %TO
 
 \label #'a
-\score { \transpose c f, {
-	\relative c''  {
-		r8 c
-		c8[ c]
-		c8[ a]
-		\times 2/3 { a8[\( a\) g] } g4
-		g16[ a c d]
-		e8[\( e\)]
-		\times 2/3 { e8[ e e] }
-		e8[ c] d4
+\score {	\relative d'  {
+		r8 f
+		f8[ f]
+		f8[ d]
+		\times 2/3 { d8[\( d\) c] } c4
+		c16[ d f g]
+		a8[\( a\)]
+		\times 2/3 { a8[ a a] }
+		a8[ f] g4
 		\ifIndent
-		r8 c
-		b8[ a]
-		a8[ a]
-		a8[ g16 a]
-		c16[\( c\) b c]
-		a8[ g]
-		a4\( a8\) r8
+		r8 f
+		e8[ d]
+		d8[ d]
+		d8[ c16 d]
+		f16[\( f\) e f]
+		d8[ c]
+		d4\( d8\) r8
 		\endBar
-		\stemOff g4 a c
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -32,7 +31,7 @@
 		Voi -- ci l'A -- gneau de Dieu qui en -- lè -- ve 
 		le pé -- ché du mon -- de.
 	\markup { \citation #"(Jn 1)  " } "" "[Ton 2]"
-	} }
+	} 
 	\header {
 		titre = "2ème SEMAINE DU T.O."
 		titres = \markup \ant #'a "K 20" "" }
@@ -68,7 +67,7 @@
 	\relative f'  {
 		\key f \major
 		\times 2/3 { r8_\( f[ g]\) } a8[\( g\)] a4
-		\times 2/3 { r8\( c[ c]\) } b8[ c]
+		\pespace \pespace\times 2/3 { r8\( c[ c]\) } b8[ c]
 		a8[ bes16 bes]
 		bes16[ g a g] f4
 		\cesure
@@ -132,7 +131,7 @@
 \score {
 	\relative f'  {
 		\key f \major
-		r8. f16 f16[ f e f] d4
+		r8. f16 f16[ f e f] d4 \pespace\pespace
 		r8 f8 g8[ a]
 		\times 2/3 { bes8[\( bes\) g] } a4
 		\cesure
@@ -167,7 +166,7 @@
 		\ifIndent
 		\times 2/3 { g8[\( g\) g] }
 		\times 2/3 { g8[\( g\) a] }
-		\times 2/3 { g4\( g8\) }
+		\times 2/3 { g4\( g8\) } \pespace\pespace
 		\times 2/3 { r8_\( g[ g]\) }
 		\times 2/3 { g8[ g a] }
 		f16[ f e f] g8[\( g\)]
@@ -228,9 +227,9 @@
 		\times 2/3 { a8[ f g] }
 		\times 2/6 { a16[ a a bes g f] } f4
 		\cesure
-		\ifIndent
+		
 		e8[ f] g8[\( g\)]
-		\times 2/3 { g8[ g a] } g8[ f] f4
+		\times 2/3 { g8[ g a] } g8[ f] f4\ifIndent
 		\times 2/3 { f8[ f f] } e8[ g] a4\( a8\) r8
 		\endBar\espace  \espace
 		\stemOff f4 g a a a a
@@ -292,7 +291,7 @@
 		r8 c c8[ c]
 		\times 2/3 { e8[\( d\) c] }
 		\times 2/3 { c8[\( c\) c] } c8[ c]
-		\times 2/3 { a4\( a8\) }
+		\times 2/3 { a4\( a8\) } \pespace
 		r8 a f8[ g]
 		\ifIndent
 		a4
@@ -318,16 +317,16 @@
 }
 
 \label #'k
-\score { \transpose a d {
-	\relative c''  {
-		\times 2/3 { a8[ a a] }
-		\times 2/3 { c8[\( c\) \cesureBasse c] }
-		\times 2/3 { c8[ d e] } d4
-		r8 d16[ d] d16[ e a, b] c16[ c c c] c8[ c] b4
+\score { 
+	\relative d'  {
+		\times 2/3 { d8[ d d] }
+		\times 2/3 { f8[\( f\)\pespace \cesureBasse \pespace f] }
+		\times 2/3 { f8[ g a] } g4\pespace\pespace
+		r8 g16[ g] g16[ a d, e] f16[ f f f] f8[ f] e4\pespace\pespace
 		\ifIndent
-		\times 2/3 { c8[ a g] } a4
+		\times 2/3 { f8[ d c] } d4
 		\endBar
-		\stemOff g4 a c
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -335,7 +334,7 @@
 		Il sor -- tit et s'en al -- la dans un en -- droit
 		dé -- sert pour y pri -- er. 
 	\markup { \citation #"(Lc 4)  " } "" "[Ton 2]"
-	}}
+	}
 	\header {
 		titres = \markup \ant #'k "K 51" "" }
 }
@@ -347,8 +346,8 @@
 		a8[ g] a8[\( a\)]
 		\times 2/3 { r8\( c[ bes]\) } c16[ c c c]
 		\times 2/3 { c8[\( c\) c] } bes8[ g] a4
-		\ifIndent
-		r8. f16 f16[ f f d]
+		
+		r8. f16 f16[ f f d]\ifIndent
 		\times 2/3 { f8[\( f\) f] }
 		\times 2/3 { f8[ g a] } a8[\( a\)]
 		\times 2/3 { a8[\cesure a c] } a4
@@ -367,7 +366,6 @@
 	\header {
 		titres = \markup \ant #'l "K 52" "" }
 }
-
 
 
 \label #'m
@@ -420,7 +418,7 @@
 		\times 2/3 { a8[ b c] } d8.[\cesure d16]
 		\ifIndent
 		d16[ d c d] b4
-		\cesure
+		\cesure \pespace\pespace
 		\times 2/3 { b8[ b b] }
 		\times 2/3 { b4\(\cesureBasse b8\) }
 		\times 2/3 { b8[ c b] } a8[ g] a4
@@ -460,8 +458,8 @@
 		\times 2/3 { c8[\( c\) c] }
 		\times 2/3 { c8[\( c\) c] } c8[ a]
 		\ifIndent		
-		\times 2/3 { g4\( g8\) }
-		\cesure
+		\times 2/3 { g4\( g8\) }\pespace
+		\cesure\pespace\pespace
 		c8[ e] d16[ f f d]
 		\times 2/3 { d8[ c c] } d8[ c] c4
 		\cesure
@@ -553,11 +551,9 @@
 		\cesure
 		\times 2/3 { a8[ c d] }
 		\times 2/3 { c4\( c8\) }
-		
-		\times 2/3 { c8[\( c\) b] }
 		\ifIndent
-		b4
-		\cesure
+		\times 2/3 { c8[\( c\) b] } b4 \pespace
+		\cesure\pespace\pespace
 		b16[\( c\) d c] c4
 		\cesure
 		\times 2/3 { b8[ c a] }
@@ -590,14 +586,14 @@
 		\times 2/5 {c16[d e d d]}
 		\slurDashed d4 ( e8[) f]
 		e8[\( d\)]
-		\times 2/6 { c16[ c c c d c] } c4
+		\times 2/6 { c16[ c c c d c] } c4\pespace\pespace
 		\times 2/3 { r8\( d[ d]\) }
 		\times 2/3 { d4\( b8\) } d8[ e]
 		\ifIndent
 		\times 2/3 { d8[ c c] }
 		c4
 		r8. b16
-		\times 2/5 {b16[b c a g]} g4
+		\times 2/5 {b16[b c a g]} g4 \pespace\pespace
 		\times 2/3 { r8_\( g[ a]\) }
 		\times 2/6 { a16[\( a\) a a a a] }
 		\times 2/3 { a8[ c b] }
@@ -663,7 +659,7 @@
 		r8 a c8[ c] c4 a8[ b]
 		\ifIndent
 		\times 2/3 { a8[ a g] }
-		\times 2/3 { f8[ g a] } g4
+		\times 2/3 { f8[ g a] } g4\pespace\pespace
 		r8 e f4
 		\cesure
 		\times 2/3 { f8[ d e] } d4
@@ -683,32 +679,32 @@
 }
 
 \label #'u
-\score { \transpose f c {
-	\relative f'	{
-		\key f \major
-		f8[\( g\)] bes4
-		\times 2/3 { bes8[\( bes\) g] }
-		\times 2/3 { bes8[ bes bes] }
-		\times 2/3 { c8[ bes a] }
-		\times 2/3 { g8[ f a] } g4
-		\cesure
-		\times 2/3 { g8[\( a\) c] } c4
-		\cesure
-		\times 2/3 { c8[\( d\) c] }
+\score { 
+	\relative d'	{
 		
-		\times 2/3 { a8[ a d] }
-		\ifIndent
-		c16[ bes g a] g4
+		c8[\( d\)] f4
+		\times 2/3 { f8[\( f\) d] }
+		\times 2/3 { f8[ f f] }
+		\times 2/3 { g8[ f e] }
+		\times 2/3 { d8[ c e] } d4
 		\cesure
-		\times 2/3 { c8[ d f] } f8[ d]
-		\times 2/3 { f8[\( f\) e] }
-		\times 2/3 { c4\( bes8\) }
+		\times 2/3 { d8[\( e\) g] } g4
+		\cesure
+		\times 2/3 { g8[\( a\) g] }
+		
+		\times 2/3 { e8[ e a] }
 		\ifIndent
-		\times 2/3 { bes8[\( g\) a] }
-		g4\( g8\) r8
+		g16[ f d e] d4
+		\cesure
+		\times 2/3 { g8[ a c] } c8[ a]
+		\times 2/3 { c8[\( c\) b] }
+		\times 2/3 { g4\( f8\) }
+		\ifIndent
+		\times 2/3 { f8[\( d\) e] }
+		d4\( d8\) r8
 		\endBar
 		\noBreak
-		\stemOff f4 g bes
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -716,7 +712,7 @@
 		L'hom -- me mau -- vais ti -- re le mal de son coeur qui est mau -- vais_:
 		car c'est de l'a -- bon -- dan -- ce du coeur que par -- le la bou -- che. 
 	\markup { \citation #"(Lc 6)  " } "" "[Ton 2 ]"
-	}}
+	}
 	\header {
 		titres = \markup \ant #'u "K 82" "" }
 }
@@ -822,17 +818,17 @@
 		\times 2/3 { e8[ d c] } c8[\( c\)]
 		\times 2/3 { a8[\( c\) b] } c8[\( a\)] g4
 		\cesure
-		\times 2/5 {f16[a c d e]} d8[\( d\)]
+		\times 2/5 {f16[a c d e]} d8[\( d\)]\ifIndent
 		\times 2/3 { d8[ b c] }
 		\times 2/3 { d8[\( d\)\cesure c] }
-		\ifIndent
+		
 		b16[ a b c]
 		\times 2/3 { b4_\( g8\) }
-		\cesure
+		\pespace \cesure \pespace\pespace
 		b16[ b c b] a8[ c]
 		\times 2/3 { d8[ d d] } d8[ e]
 		\times 2/3 { d4\( d8\) }
-		\cesure
+		\cesure \ifIndent
 		\times 2/3 { c8[ a g] } g4
 		\endBar
 		\stemOff c'4 b c
@@ -986,7 +982,7 @@
 		\times 2/3 { g8[\( g\) a] }
 		\times 2/3 { c8[\( c\) c] }
 		a8[ g] g4
-		\times 2/3 { r8_\( f[ g]\) } a8[\( a\)]
+		\times 2/3 { r8_\( f[ g]\) } a8[\( bes\)] g4
 		\cesure
 		\ifIndent
 		a8[ g]
@@ -1000,7 +996,7 @@
 		Le Roy -- au -- me des cieux est sem -- bla -- ble à
 		un hom -- me qui jet -- te du grain dans son champ.
 		Nuit et jour, il ne sait com -- ment, d'el -- le- -- mê -- me 
-		la ter -- re pro -- duit du fruit, d'a -- bord l'her -- be, 
+		la ter -- re pro -- duit du fruit, d'a -- bord l'her -- - -- be, 
 		puis l'é -- pi, " en" -- fin du blé plein l'é -- pi. 
 	\markup { \citation #"(Mc 4)  " } "" "[Ton 8]"
 	}
@@ -1146,7 +1142,6 @@
 
 
 
-
 \label #'ah
 \score {
 	\relative f'	{
@@ -1171,12 +1166,12 @@
 		\cesure
 		\ifIndent
 		d16[ d d d]
-		\times 2/3 { d8[ f e] } c8[\( d\)]
-		r8 f a4
-		\cesure
-		\times 2/3 { g8[ f g] } d4
-		\cesure
-		d16[ d e f]
+		\times 2/3 { d8[ f e] } c8[\( d\)] \pespace\pespace
+		r8 f a4 \pespace
+		\cesure\pespace
+		\times 2/3 { g8[ f g] } d4\pespace
+		\cesure\pespace\pespace
+		d16[ d e f] \ifIndent
 		f16[ e d e] e4\( d8\) r8
 		\endBar\espace  \espace
 		\stemOff f4 g a a a a
@@ -1272,20 +1267,20 @@
 	\relative f'	{
 		\key f \major
 		\times 2/3 { c8[ d d] }
-		a'8[\( bes\)] a4
-		\cesure
-		\times 2/3 { a8[\( a\)\cesure f] }
+		a'8[\( bes\)] a4 
+		\cesure\pespace\pespace
+		\times 2/3 { a8[\( a\)\pespace\cesure\pespace f] }
 		g8[ a]
 		a16[ a g bes]
-		a8[\( g\)] a4
-		\cesure
+		a8[\( g\)] a4\pespace
+		\cesure\ifIndent
 		a16[ f f f]
 		\times 2/3 { f8[ d f] }
 		f16[\( f\) g f]
-		\ifIndent
+		
 		\times 2/3 { f8[\( f\) a] }
 		g16[ g f g] d4
-		\cesure
+		\cesure \ifIndent
 		\times 2/3 { d8[ c d] }
 		\times 2/3 { f8[ g g] }
 		g8[ f] e8[ c] d4
@@ -1310,8 +1305,8 @@
 	\relative f'	{
 		\key f \major
 		\times 2/3 { a8[ a a] }
-		a8[\cesureBasse d,] e8[ f] f4
-		\cesure
+		a8[\cesureBasse d,] e8[ f] f4 \pespace
+		\cesure\pespace
 		a8[ a] a8[\( a\)]
 		\times 2/3 { a8[ bes c] }
 		\times 2/3 { a8[ f f] }
@@ -1321,7 +1316,7 @@
 		\ifIndent
 		\times 2/3 { f8[ f f] }
 		\times 2/3 { f8[ g bes] } a4
-		r8 c
+		\pespace \pespace r8 c
 		c16[\cesure c c c]
 		\times 2/3 { c8[ bes g] }
 		a16[ f e f] d4\( d8\) r8
@@ -1451,7 +1446,7 @@
 	\addlyrics {\set stanza = #"(B) "
 		A ses a -- pô -- tres, Jé -- sus re -- com -- man -- dait_:
 		«_Quand vous en -- trez dans u -- ne mai -- son, 
-		de -- meu -- rez- -- y jus -- qu'à vo -- tre dé -- part. 
+		de -- meu -- "rez-" y jus -- qu'à vo -- tre dé -- part. 
 		Si l'on re -- fu -- se de vous ac -- cueil -- lir,
 		par -- tez en se -- cou -- ant la pous -- siè -- re de vos pieds_: 
 		ce se -- ra pour eux un té -- moi -- gna -- ge._» 
@@ -1462,7 +1457,7 @@
 }
 
 
-\markup { "K 152 (C)  Cf. K 300" }
+\markup { "K 152 (C) :   cf. K 300" }
 
 
 
@@ -1471,7 +1466,7 @@
 \score {
 	\relative a'	{
 		\times 2/3 { r8_\( f[ a]\) }
-		b8[ c] c8[\( c\)]
+		b8[ c] c8[\( c\)] \pespace\pespace
 		r8 c d8[ e]
 		\times 2/3 { d8[ c d] } b8[ a]
 		\times 2/3 { b4\( b8\) }
@@ -1481,7 +1476,7 @@
 		\ifIndent
 		\times 2/3 { a8[\( a\)\cesure c] }
 		\times 2/3 { c8[ c c] }
-		\times 2/3 { b8[\( g\) a] } a4
+		\times 2/3 { b8[\( g\) a] } a4\pespace\pespace
 		r8 a e8[ a]
 		\times 2/3 { b8[\( b\) c] }
 		d8[ e] d4
@@ -1512,7 +1507,7 @@
 	\relative f'	{
 		\key f \major
 		r8 d
-		a'8[ bes] a8[\( a\)]
+		a'8[ bes] a8[\( a\)]\pespace\pespace
 		r8 c
 		\times 2/3 { c8[ bes c] }
 		\times 2/3 { a8[ a a] } f4
@@ -1784,15 +1779,15 @@
 		\times 2/3 { d8[ e c] }
 		\times 2/3 { b8[ b c] }
 		\times 2/3 { e8[ f d] } c4
-		r8 a b8[\( c\)]
-		r8 c g4
+		r8 a b8[\( c\)]\pespace\pespace
+		r8 \pespace c g4
 		\cesure
 		\ifIndent
 		\times 2/3 { g8[ a c] } c4
 		\cesure
 		\times 2/3 { c8[ c c] }
 		b8[ c]
-		\times 2/3 { a8[ b c] } c8[\( c\)]
+		\times 2/3 { a8[ b c] } c8[\( c\)]\pespace\pespace
 		r8 c c8[ a] g4
 		\endBar
 		\stemOff c'4 b c
@@ -1809,17 +1804,18 @@
 		titres = \markup \ant #'ay "K 190" "" }
 }
 
+
 \label #'az
 \score {
 	\relative a'  {
 		e8[ e] e8[ d] f8[ e] e4
-		\cesure
+		\cesure\pespace\pespace
 		g8[ a]
 		\times 2/3 { c8[\( c\) a] }
 		\times 2/3 { g8[ e f] }
 		\slurDashed e4( d8[) f]
-		\times 2/3 { e4\( e8\) }
-		r8 g g4
+		\times 2/3 { e4\( e8\) } \pespace\pespace
+		r8\pespace g g4
 		\cesure
 		g16[ g g g] e8[ f]
 		\ifIndent
@@ -1955,8 +1951,8 @@
 		\cesure
 		f16[\( e\) f g]
 		\times 2/3 { g4\( g8\) }
-		\times 2/3 { b8[ a g] } g4
-		r8 c
+		\times 2/3 { b8[ a g] } g4\pespace\pespace
+		r8 \pespace c
 		\times 2/3 { c8[ b c] }
 		\ifIndent
 		\times 2/3 { a8[ g g] }
@@ -2088,27 +2084,27 @@
 
 
 \label #'bh
-\score { \transpose a d'{
-	\relative c'  { \key a\minor
-		r8 a
-		c16[ b c c]
-		a8[ c]
-		\times 2/3 { d8[ c e] } e4
+\score { 
+	\relative d'  { \key f\major
+		r8 d
+		f16[ e f f]
+		d8[ f]
+		\times 2/3 { g8[ f a] } a4
 		\cesure
-		\times 2/3 { e8[ f g] }
-		g8[ f]
-		\times 2/3 { e4\( d8\) }
-		\times 2/3 { d8[\( d\) e] }
-		c16[ a b c] b4
-		\ifIndent
-		r8 a c8[ e]
-		e16[\( e\) e e]
-		e16[ f g f]
-		e8[ c] a8[ b]
-		\times 2/3 { c8[\( a\) g] }
-		b8[\( a8]\) a4
+		\times 2/3 { a8[ bes c] }
+		c8[ bes]
+		\times 2/3 { a4\( g8\) }
+		\times 2/3 { g8[\( g\) a] }\ifIndent
+		f16[ d e f] e4 \pespace
+		
+		r8\pespace d f8[ a]
+		a16[\( a\) a a]
+		a16[ bes c bes]
+		a8[ f] d8[ e] \ifIndent
+		\times 2/3 { f8[\( d\) c] }
+		e8[\( d8]\) d4
 		\endBar
-		\stemOff c'4 d e
+		\stemOff f4 g a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -2117,7 +2113,7 @@
 		Que sert à l'hom -- me de ga -- gner le monde en -- tier s'il 
 		vient à per -- dre son â - me. 
 	\markup { \citation #"(Mt 16)  " } "" "[Ton 1]"
-	} }
+	} 
 	\header {
 		titre = "22ème SEMAINE DU T.O."
 		titres = \markup \ant #'bh "K 220" "" }
@@ -2131,18 +2127,19 @@
 		f16[ g bes g]
 		\times 2/3 { a8[ g f] }
 		\times 2/3 { e8[\( e\) d] }
-		e8[ f] e4
-		\cesure
+		e8[ f] e4 \pespace
+		\cesure\pespace
 		\times 2/3 { f8[ g a] }
 		\times 2/3 { a8[\( a\) a] }
-		c8[ bes] a4
-		\ifIndent
-		r8 f
+		\ifIndent c8[ bes] a4\pespace\pespace\pespace
+		
+		r8\pespace f
 		\times 2/3 { f8[ f f] }
-		\times 2/3 { f8[ e f] } d8[\( d\)]
-		\cesure
+		\times 2/3 { f8[ e f] } d8[\( d\)]\pespace\pespace
+		\cesure\pespace\pespace
 		\times 2/3 { f8[ f f] }
-		f8[ g] e8[ e] g8[ bes] a4
+		f8[ g]
+		\ifIndent e8[ e] g8[ bes] a4
 		\endBar\espace  \espace
 		\stemOff f4 g a a a a
 		\endBar 
@@ -2164,8 +2161,8 @@
 \score {
 	\relative c''  {
 		\times 2/3 { r8_\( a[ b]\) }
-		\times 2/3 { c8[ b c] } a4
-		r8 c
+		\times 2/3 { c8[ b c] } a4\pespace
+		r8\pespace c
 		\times 2/3 { c8[\( c\) d] } e8[\( e\)]
 		\cesure
 		d8[ c] d8[\( d\)]
@@ -2301,22 +2298,22 @@
 
 
 \label #'bn
-\score { \transpose c f, {
-	\relative c''  {
-		c16[ c b c]
-		a16[ a a a] a8[ a]
-		\times 2/3 { c8[ b c] } a8[\( a\)]
-		\times 2/3 { a8[ c d] } b4
+\score { 
+	\relative d'  {
+		f16[ f e f]
+		d16[ d d d] d8[ d]
+		\times 2/3 { f8[ e f] } d8[\( d\)]
+		\times 2/3 { d8[ f g] } e4
 		\cesure
-		c8[ b] a8[\( g]\)
+		f8[ e] d8[\( c]\)
 		\ifIndent
-		\times 2/3 { r8_\( c[ c]\) }
-		c8[ c] c8[ d]
-		\times 2/3 { c8[ b a] }
-		\times 2/3 { a8[\( a\) b] }
-		g8[ b] a4
+		\times 2/3 { r8_\( f[ f]\) }
+		f8[ f] f8[ g]
+		\times 2/3 { f8[ e d] }
+		\times 2/3 { d8[\( d\) e] }
+		c8[ e] d4
 		\endBar
-		\stemOff g4 a c
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -2325,13 +2322,13 @@
 		Que cha -- cun de vous par -- donne à son frè -- re, 
 		de tout son cœur. 
 	\markup { \citation #"(Mt 18)  " } "" "[Ton 2]"
-	}}
+	}
 	\header {
 		titre = "24ème SEMAINE DU T.O."
 		titres = \markup \ant #'bn "K 240" "" }
 }
 
-\markup { "K 241 (B)  Cf. K 122" }
+\markup { "K 241 (B) :  cf. K 122" }
 
 \label #'bo
 \score {
@@ -2342,7 +2339,7 @@
 		\times 2/3 { c8[ d e] } c4
 		\cesure
 		a16[ a a a]
-		c16[ c c a] g4
+		c16[ c c a] g4 \pespace\pespace
 		\times 2/3 { f8[ g a] } a4
 		\cesure
 		c8[ d]
@@ -2372,23 +2369,23 @@
 
 
 \label #'bp
-\score { \transpose c f, {
-	\relative c''  {
-		c16[ c b a]
-		\times 2/3 { c8[\( c\)\cesureBasse c] }
-		\times 2/3 { c8[\( c\) c] }
-		d8[ e] d8[\( d\)]\cesure 
-		\times 2/3 { c8[ b a] }
-		c8[\( c\)] b16[ c b a]
-		\times 2/3 { a8[ \cesureBasse b c] }
-		\ifIndent
-		a4
-		r8 c
-		\times 2/3 { c8[\cesureBasse c d] }
-		\times 2/3 { e8[\cesureBasse c b] }
-		a4\( a8\) r8
+\score { 
+	\relative d'  {
+		f16[ f e d]
+		\times 2/3 { f8[\( f\)\cesureBasse f] }
+		\times 2/3 { f8[\( f\) f] }
+		g8[ a] g8[\( g\)]\cesure 
+		\times 2/3 { f8[ e d] }
+		f8[\( f\)] e16[ f e d]\ifIndent
+		\times 2/3 { d8[ \cesureBasse e f] }
+		
+		d4
+		r8 f
+		\times 2/3 { f8[\cesureBasse f g] }
+		\times 2/3 { a8[\cesureBasse f e] }
+		d4\( d8\) r8
 		\endBar
-		\stemOff g4 a c
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -2396,7 +2393,7 @@
 		en trou -- va d'au -- tres qui se te -- naient là et 
 		leur dit_: «_Al -- lez, vous aus -- si, à ma vig -- ne._» 
 	\markup { \citation #"(Mt 20)  " } "" "[Ton 2]"
-	}}
+	}
 	\header {
 		titre = "25ème SEMAINE DU T.O."
 		titres = \markup \ant #'bp "K 250" "" }
@@ -2448,13 +2445,13 @@
 		\cesure
 		\ifIndent
 		f16[ f e f]
-		d8[ f] g8[ bes]
+		d8[ f]\pespace g8[ bes]\pespace
 		a8[\( a\)] g8[ g]
 		\times 2/3 { f8[ g a] }
-		\times 2/3 { d,4\(\cesure d8\) } f8[\( f\)]
-		\cesure
+		\times 2/3 { d,4\(\pespace\cesure\pespace d8\) } f8[\( f\)]
+		\pespace\cesure\ifIndent
 		\times 2/3 { f8[ f f] }
-		\ifIndent
+		
 		g8[ a] g4
 		\endBar\espace  \espace
 		\stemOff f4 g a a a a
@@ -2577,16 +2574,16 @@
 	\relative c''  {
 		\times 2/3 { r8_\( a[ a]\) }
 		\times 2/3 { a8[ g a] }
-		\slurDashed b4( b16[) c b g] e8[\( e\)]
+		\slurDashed b4( b16[) c b g] e8[\( e\)]\pespace\pespace
 		r8 a a8[\( a\)]
 		\times 2/3 { g8[ a b] }
-		c8[ c] c8[ b]
+		c8[ c]\ifIndent c8[ b]
 		\slurDashed a4( \times 2/3 { c8[) a g] }
 		\ifIndent
 		f8[ g] a8[\( a\)]
 		\times 2/3 { g4\( g8\) }
-		r8 a
-		\slurDashed c4( c16[)\( c\) c b] a4
+		\pespace\pespace r8 a
+		\slurDashed c4( c16[)\( c\) c b] a4\ifIndent
 		r8 g f8[ g]
 		\times 2/3 { a8[ a a] } g4
 		\endBar
@@ -2676,7 +2673,7 @@
 		f8[ f] a8[ g] a4
 		\cesure
 		bes16[ a g f]
-		a16[ a a bes] g8[\( g\)]
+		a16[ a a bes] g8[\( g\)]\pespace\pespace
 		\times 2/3 { r8\( c[ c]\) }
 		\times 2/3 { c8[ c bes] }
 		\ifIndent
@@ -2747,7 +2744,7 @@
 		\slurDashed g4( \times 2/3 { g8[) a f] } g4
 		\cesure
 		\times 2/3 { g8[ a c] }
-		\times 2/3 { d8[ d e] } c4
+		\times 2/3 { d8[ d e] } c4\pespace\pespace
 		r8 c c8[ c] a8[ g]
 		\slurDashed g4( \times 2/3 { g8[)\( a\) c] } d4
 		\ifIndent
@@ -2762,7 +2759,7 @@
 		le des -- cen -- dant de Da -- vid_: il est 
 		res -- sus -- ci -- té d'en -- tre les morts, 
 		voi -- là mon E -- van -- gi -- le. 
-	\markup { \citation #"(2Tm 2)  " } "" "[Ton 7]"
+	\markup { \citation #"(2 Tm 2)  " } "" "[Ton 7]"
 	}
 	\header {
 		titres = \markup \ant #'cb "K 282" "" }
@@ -2771,27 +2768,27 @@
 
 
 \label #'cc
-\score { \transpose a d {
-	\relative c''  { \key a\minor
-		r16 a16[ b a]
-		\times 2/3 { a8[ g b] } c8[ b]
-		\times 2/3 { a8[ c d] } e8[ e]
-		\times 2/3 { e8[ f d] }
-		\times 2/3 { e8[ e d] }
-		\times 2/3 { c8[ a d] } e4
-		r8 d
-		\times 2/3 { d8[ c d] }
+\score {
+	\relative d'  { \key f\major
+		r16 d16[ e d]
+		\times 2/3 { d8[ c e] } f8[ e]
+		\times 2/3 { d8[ f g] } a8[ a]
+		\times 2/3 { a8[ bes g] }
+		\times 2/3 { a8[ a g] }
+		\times 2/3 { f8[ d g] } a4
+		r8 g
+		\times 2/3 { g8[ f g] }
 		\ifIndent
-		b4
-		r8 a
-		\times 2/3 { a8[ a a] }
-		\times 2/3 { a8[ g a] }
-		\times 2/3 { b8[ c b] } a4
-		\times 2/3 { r8_\( c[ d]\) }
+		e4
+		r8 d
+		\times 2/3 { d8[  d d] }
 		\times 2/3 { d8[ c d] }
-		c8[ a] a4
+		\times 2/3 { e8[ f e] } d4
+		\times 2/3 { r8_\( f[ g]\) }
+		\times 2/3 { g8[ f g] }
+		f8[ d] d4
 		\endBar
-		\stemOff g4 a c
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -2800,7 +2797,7 @@
 		Cé -- sar, Jés -- us ré -- pon -- dit_: «_Ren -- dez à 
 		Cé -- sar ce qui est à Cé -- sar, et à Dieu ce qui est à Dieu._» 
 	\markup { \citation #"(Mt 22)  " } "" "[Ton 2]"
-	} }
+	} 
 	\header {
 		titre = "29ème SEMAINE DU T.O."
 		titres = \markup \ant #'cc "K 290" "" }
@@ -2882,19 +2879,19 @@
 \score {
 	\relative d'  {
 		r8 a
-		\times 2/3 { a8[ c d] } d4
+		\times 2/3 { a8[ c d] } d4\pespace\pespace
 		\times 2/3 { r8_\( d[ f]\) }
 		\times 2/3 { d8[ c d] }
 		\times 2/3 { d8[ f g] }
 		\times 2/3 { f8[\( e\) d] } d4
-		\cesure
+		\pespace\cesure\pespace
 		\times 2/3 { f8[ g f] }
 		\times 2/3 { f8[ d f] } e8[ d]
 		\ifIndent
 		\times 2/3 { d4\( c8\) } d8[ c]
-		\times 2/3 { a4\(\cesure a8\) }
+		\times 2/3 { a4\(\pespace\cesureTresBasse\pespace a8\) }
 		\times 2/3 { a8[\( a\) c] }
-		d8[\( c]\) \times 2/3 { c4\(\cesureTresBasse d8\) }
+		d8[\( c]\) \times 2/3 { c4\(\pespace\cesureTresBasse\pespace d8\) }
 		\times 2/3 { f8[ f g] } f4
 		d8[ e]
 		\times 2/3 { c8[\( d\) f] } f8[\( f\)]
@@ -2990,29 +2987,29 @@
 
 
 \label #'cj
-\score { \transpose f c {
-	\relative f'  {
-		%\key f \major
-		\times 2/3 { r8_\( f[ g]\) }
-		\times 2/3 { bes8[ c bes] } a8[\( g\)]
-		r8 bes
-		c8[ bes]
-		\times 2/3 { a8[ g g] } g4
+\score { 
+	\relative d'  {
+		\key f \major
 		\times 2/3 { r8_\( c[ d]\) }
-		\times 2/3 { c8[ bes c] }
-		\times 2/3 { a8[\( a\)\cesureTresBasse g] }
-		\ifIndent
-		a4
-		\times 2/3 { r8_\( a[ bes]\) }
-		\times 2/3 { a8[\( g\) f] }
-		\times 2/3 { g4\( g8\) }
-		\times 2/3 { r8_\( f[ f]\) }
-		\times 2/3 { d8[ f g] }
-		\times 2/3 { bes4_\( g8\) }
-		\times 2/3 { a8[ bes g] }
-		g8[ f] f4
+		\times 2/3 { f8[ g f] } e8[\( d\)]
+		r8 f
+		g8[ f]
+		\times 2/3 { e8[ d d] } d4
+		\times 2/3 { r8_\( g[ a]\) }
+		\times 2/3 { g8[ f g] }
+		\times 2/3 { e8[\( e\)\cesureTresBasse d] }
+		
+		e4\ifIndent
+		\times 2/3 { r8_\( e[ f]\) }
+		\times 2/3 { e8[\( d\) c] }
+		\times 2/3 { d4\( d8\) }
+		\times 2/3 { r8_\( c[ c]\) }
+		\times 2/3 { a8[ c d] }
+		\times 2/3 { f_\( d8\) }
+		\times 2/3 { e8[ f d] }
+		d8[ c] c4
 		\endBar
-		\stemOff f4 g bes
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -3020,7 +3017,7 @@
 		Vous n'a -- vez qu'un seul Maî -- tre, le Christ, et vous ê -- tes tous frè -- res. 
 		Le plus grand par -- mi vous " se" -- ra vo -- tre ser -- vit -- eur. 
 	\markup { \citation #"(Mt 23)  " } "" "[Ton 2]"
-	}}
+	}
 	\header {
 		titre = "31ème SEMAINE DU T.O."
 		titres = \markup \ant #'cj "K 310" "" }
@@ -3078,8 +3075,8 @@
 		\times 2/3 { a8[ a a] }
 		\times 2/3 { a8[ a a] }
 		\times 2/3 { a8[ f g] } g4
-		\ifIndent
-		r8 a g8[ f]
+		
+		r8 a g8[ f]\ifIndent
 		\times 2/3 { f8[ g bes] } a8[ f]
 		\times 2/3 { f8[ g a] }
 		\slurDashed g4( \times 2/3 { f8[) e f] }
@@ -3106,10 +3103,10 @@
 	\relative f'  {
 		\key f \major
 		\times 2/3 { r8_\( f[ f]\) }
-		\times 2/3 { f8[ a bes] } a4
+		\times 2/3 { f8[ a bes] } a4\pespace\pespace
 		r8 a
 		c8[ c] c8[ b]
-		\times 2/3 { a4\( a8\) }
+		\times 2/3 { a4\( a8\) }\pespace\pespace
 		r8 g a8[ f]
 		g8.[\cesure a16]
 		c16[ c c d] c8[\( c\)]
@@ -3147,9 +3144,9 @@
 		\times 2/3 { c8[ c c] }
 		\ifIndent
 		d8[ a] a8[\( g\)]
-		\cesure
+		\pespace\cesure\pespace
 		c16[ d e c] b4
-		\cesure
+		\pespace\cesure\pespace
 		c16[ g g g] f8[ g] 
 		g4\( g8\) r8
 		\endBar
@@ -3178,10 +3175,10 @@
 		\times 2/3 { a8[ a a] }
 		g8[ f] e8[ d]
 		f8[\cesureBasse f16 g]
-		\ifIndent
-		bes16[ bes bes bes]
+		
+		bes16[ bes bes bes]\ifIndent
 		g8[ f] a4
-		\cesure
+		\cesure\pespace
 		a16[ a a a]
 		a8[ g] a4
 		\cesure
@@ -3251,7 +3248,7 @@
 		\ifIndent
 		\times 2/3 { f8[ e\( d]\) }
 		\times 2/3 { f4\( f8\) }
-		r8 f
+		\pespace\pespace r8 f
 		a16[ a c a]
 		a8[ a] a8[\( g\)]
 		\times 2/3 { a8[ a a] }
@@ -3311,24 +3308,24 @@
 
 
 \label #'cs
-\score { \transpose e a, {
-	\relative c''  {
-		\times 2/3 { r8_\( e[ e]\) } d8[ e]
-		\times 2/3 { c8[\( c\) b] }
-		\times 2/3 { a8[ b d] }
-		\times 2/3 { e4\( e8\) }
+\score { 
+	\relative d''  { \key f\major
+		\times 2/3 { r8_\( a[ a]\) } g8[ a]
+		\times 2/3 { f8[\( f\) e] }
+		\times 2/3 { d8[ e] g}
+		\times 2/3 { a4\( a8\) }
 		\cesure
-		\times 2/3 { e8[ c a] }
-		b8[\( b\)]
-		d8[ c] b4
+		\times 2/3 { a8[ f d] }
+		e8[\( e\)]
+		g8[ f] e4
 		\ifIndent
-		r8. c16
-		c16[ c d e]
-		\times 2/3 { f8[ e d] }
-		\times 2/3 { e8[\( e\) c] }
-		d8[\( b\)] a4
+		r8. f16
+		f16[ f g a]
+		\times 2/3 { bes8[ a g] }
+		\times 2/3 { a8[\( a\) f] }
+		g8[\( e\)] d4
 		\endBar\espace  \espace
-		\stemOff c'4 d e e e e
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
@@ -3336,38 +3333,35 @@
 		et tous les an -- ges a -- vec lui, a -- lors il
 		s'as -- sié -- ra sur son trô -- ne de gloi- _ -- re. 
 	\markup { \citation #"(Mt 25)  " } "" _ "[Ton 1   " "ou   Per.]"
-	} }
+	} 
 	\header {
 		titre = "34ème SEMAINE DU T.O."
 		titres = \markup \ant #'cs "K 340" "" }
 }
 
 \label #'ct
-\score { \transpose a d' {
-	\relative d'  {
-		\times 2/3 { r8_\( a[ c]\) }
-		\times 2/3 { d8[\( d\) d] }
-		\times 2/3 { d8[ c d] }
-		\times 2/3 { a4\( a8\) }
+\score { 
+	\relative d'  {\key f\major
+		\times 2/3 { r8_\( d[ f]\) }
+		\times 2/3 { g8[\( g\) g] }
+		\times 2/3 { g8[ f g] }
+		\times 2/3 { d4\( d8\) }
 		\cesure
-		c8[ d] e4
+		f8[ g] a4
 		\cesure
-		\times 2/3 { e8[ e f] }
-		\times 2/3 { g8[ g a] }
-		\times 2/3 { e8[\( e\)\cesure e] }
-		\ifIndent
-		a16[\( a\) b a]
-		g8[\( g\)]
-		g16[ g f g] e4
-		r8 c d8[\( d\)]
-		\times 2/3 { d8[ d d] }
-		\times 2/3 { f8[ f f] } d8[ e]
-		\times 2/3 { e4\( e8\) }
-		\times 2/3 { d8[\( c\) a] }
-		\ifIndent
-		a4
+		\times 2/3 { a8[ a bes] }
+		\times 2/3 { c8[ c d] }\ifIndent
+		\times 2/3 { a8[\( a\)\cesure a] }
+		d16[\( d\) e d]
+		c8[\( c\)]
+		c16[ c bes c] a4
+		r8 f g8[\( g\)]
+		\times 2/3 { g8[ g g] }
+		\times 2/3 { bes8[ bes bes ] } \ifIndent g8[ a]
+		\times 2/3 { a4\(\pespace \pespace a8\) }
+		\times 2/3 { g8[\( f\) d] } d4
 		\endBar \espace  \espace
-		\stemOff c'4 d e e e e
+		\stemOff f4 g a a a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
@@ -3377,7 +3371,7 @@
 		Tout hom -- me qui ap -- par -- tient à la vé -- ri -- té
 		" é" -- cou -- te ma voix. 
 	\markup { \citation #"(Jn 18)  " } "" _ "[Ton 1   " "ou   Per.]"
-	} }
+	} 
 	\header {
 		titres = \markup \ant #'ct "K 341" "" }
 }
@@ -3414,4 +3408,4 @@
 	\header {
 		titres = \markup \ant #'cu "K 342" "" }
 }
-%}
+
