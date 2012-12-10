@@ -24,7 +24,7 @@
 		titre = "ANTIENNES D'INVITATOIRE (NOEL)"
 		titres = \markup \ant #'a "G 001" "Jour de Noël" }
 	}
-}
+
 
 
 \score {\relative f'  { 
