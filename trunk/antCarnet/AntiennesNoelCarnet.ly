@@ -258,7 +258,7 @@
 		Voi -- ci que Mar -- ie est de -- ven -- ue le Temple et l'Ar -- che sain- _ -- te, 
 		le ciel nou -- veau où Dieu a res -- plen -- di. 
 		"" _ _ "[Ton 1   " "ou   Per.]"
-	 	}}
+	 	}
 	\header {
 		titre = "SAINTE MARIE, MERE DE DIEU (1er janvier)"
 		titres = \markup \ant #'i "G 400" "Benedictus" }
