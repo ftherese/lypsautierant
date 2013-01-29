@@ -14,40 +14,41 @@
 	markup-markup-spacing =		% variable redéfinie pour mettre de l'espace entre le \markup et les titres
 	#'((padding . 1)
 	   (basic-distance . 1)
+	   (minimum-distance . 1)
 	   (stretchability . 0))
 	markup-system-spacing =		% ajouté par fr Raf
 	#'((padding . 0.5)		% détermine l’espacement entre un titre ou un markup de premier niveau,
 	   (basic-distance . 5)		% et le système qui le suit.
-	   (minimum-distance . 0)
+	   (minimum-distance . 5)
 	   (stretchability . 0))
 	score-markup-spacing =		% ajouté par fr Raf
 	#'((padding . 1)		% détermine l’espacement entre le dernier système
 	   (basic-distance . 11)		% et le titre ou markup de haut niveau qui le suit.
-	   (minimum-distance . 8)
+	   (minimum-distance . 11)
 	   (stretchability . 0))
 	system-system-spacing = 	% détermine, de fait, l'espacement entre les portées des antiennes
 	#'((padding . 1)
-	   (minimum-distance . 8) 
-	   (stretchability . 60) 
-	   (basic-distance . 10))
+	   (minimum-distance . 10.5) 
+	   (stretchability . 0) 
+	   (basic-distance . 10.5))
 	page-breaking-system-system-spacing =	%% ajouté par fr Raf et très important, ça concerne la gestion des sauts de page				 %%
 	#'((padding . 0.1)			%% Si ce padding est supérieur à celui de system-system-spacing			 		 %%
 	   (minimum-distance . 0) 		%% alors il y aura moins de systèmes sur une page. Je l'ai mis à 0.				 %%
 	   (stretchability . 0) 		%% C'est ce qui a résolu le gros blanc sur l'essaie que j'ai fait du Magnificat			 %%
 	   (basic-distance . 0))   		%% et de même aussi les blancs entre les antiennes d'invitatoire et les antiennes sur ce fichier.%%
-	top-system-spacing = #'((basic-distance . 1) (minimum-distance . 0) (padding . 1))
-	top-markup-spacing = #'((basic-distance . 0) (minimum-distance . 0) (padding . 1))
+	top-system-spacing = #'((basic-distance . 0) (minimum-distance . 0) (padding . 1) (stretchability . 0))
+	top-markup-spacing = #'((basic-distance . 0) (minimum-distance . 0) (padding . 1) (stretchability . 0))
 	page-limit-inter-system-space = ##t
 	page-limit-inter-system-space-factor = #0
 	score-system-spacing = 
 	#'((padding . 1) 
-	   (minimum-distance . 8) 
+	   (minimum-distance . 10.5) 
 	   (stretchability . 0) 
-	   (basic-distance . 11))
+	   (basic-distance . 10.5))
 	last-bottom-spacing =
 	#'((padding . 1) 
-	   (minimum-distance . 0) 
-	   (stretchability . 30) 
+	   (minimum-distance . 1) 
+	   (stretchability . 0) 
 	   (basic-distance . 1))
 	page-breaking = #ly:minimal-breaking
 	indent = 0\mm
@@ -78,7 +79,7 @@
        	       \on-the-fly #print-all-headers { \bookTitleMarkup \hspace #0 }
        	       \fill-line { 
        	       		\line { \fromproperty #'header:titre } }
-       	       		\raise #1.2
+       	       		\raise #1.1 					%1.2 j'ai diminué pour augmenter l'espace
        	       \fromproperty #'header:titres
        	       }							% titres, (à la place de opus et piece)
        }
@@ -89,7 +90,7 @@
 }   
 
 \header {
-      tagline = "Communauté Saint Jean 2012"
+      tagline = "Communauté Saint Jean 2013"
 }
 
 
@@ -182,6 +183,13 @@
 %%%%%%%%%%%%%%%%
 		%\override VerticalAxisGroup #'minimum-Y-extent = #'(-0.1 . 0.1)
 		%\override SeparationItem #'padding = #0.1
+%%%%%%%%%%%%%%%%
+		\override VerticalAxisGroup #'staff-affinity = #UP
+		\override VerticalAxisGroup #'nonstaff-relatedstaff-spacing =
+		#'((padding . 0.3)					% ajouté pour la distance entre portée et LyricText
+		%(basic-distance . 5.4)
+		%(minimum-distance . 5.4)		
+		(stretchability . 0))	
 %%%%%%%%%%%%%%%%
 
 		ignoreMelismata = ##t
