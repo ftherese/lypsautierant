@@ -41,7 +41,7 @@ foreach my $line (@lines){
   $lilyfile = $1;
   print '\poemtitle{'.$line."}\\nopagebreak\n";
 #  print '\begin{changemargin}{-40pt}{0pt}'."\n";
-  print '\lilypondfile{../p'.$lilyfile.'.modif.ly}'."\n";
+  print '\lilypondfile{../2.14/p'.$lilyfile.'.ly}'."\n";
 #  print '\end{changemargin}'."\n";
   print '\begin{flushleft}'."\n".'\begin{verse}'."\n";
  }
