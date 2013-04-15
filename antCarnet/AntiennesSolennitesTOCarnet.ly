@@ -80,7 +80,7 @@
 		r8 a c4 r8 c
 		\times 2/3 { c8[ b c] }
 		\ifIndent
-		\times 2/3 { d8[ c a] } g4 \cesure
+		\times 2/3 { d8[ c a] } g4
 		\times 2/3 { a8[ c d] }
 		c8[ c] c8[\( a\)] g4 \cesure
 		\times 2/3 { a8[\( c\) d] }
@@ -91,7 +91,7 @@
 	}
 	\addlyrics {\set stanza = #"2."
 	Tout pou -- voir m'a é -- té don -- né au ciel et sur la ter- _ -- re. 
-	Al -- lez donc, de tou -- tes les nat -- ions fai -- tes des di -- sci -- ples,
+	Al -- lez donc, de tou -- tes les nat -- ions fai -- tes des dis -- ci -- ples,
 	les ba -- pti -- sant au nom du Père et du Fils et du Saint- -- Esp -- rit.
 	Et moi, je suis av -- ec vous tous les jours jus -- "qu'à" la fin du mon- _ -- de.
 	Al - le -- lu - - ia.
@@ -242,7 +242,7 @@
 		\endBar 
 	}
 	\addlyrics {
-			Ma -- rie re -- te -- nait tous les é -- vè -- ne -- ments 
+			Ma -- rie re -- te -- nait tous les é -- vé -- ne -- ments 
 			et les mé -- di -- tait dans son cœur.
 			\markup { \citation #"(Lc 2)  " } "" "[Ton 1]"
 	}

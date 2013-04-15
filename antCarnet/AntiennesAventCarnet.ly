@@ -15,8 +15,8 @@
 		\times 2/3 { d,8[ f e] }
 		\times 2/3 { f8[ f g] }
 		\times 2/3 { a8[\( a\) g] }
-		f4\( f8\) \pespace  \pespace
-		\ifIndent r8 g8[ g16\( a]\)
+		f4\( f8\) \pespace  \pespace r8
+		\ifIndent  g8[ g16\( a]\)
 		\times 2/3 { f4\( e8\) } d4
 		\endBar
 		\stemOff f4 g4 a4
@@ -150,7 +150,7 @@
 
 	\addlyrics {
 		Il siè -- ge -- ra sur le trô -- ne de Da -- vid 
-		et rè -- gne -- ra à jam -- ais sur son ro -- yau -- - -- me. 
+		et ré -- gne -- ra à jam -- ais sur son ro -- yau -- - -- me. 
 		Al -- le -- \skip 1 lu -- \skip 1 "ia !"
 		\markup { \citation #"(Lc 1)  " } "" "[Ton 1]"
 	}
@@ -181,7 +181,7 @@
 	\addlyrics {
 		Ré -- jou -- is- -- toi, Fi -- lle de Si -- "on :" le Roi "d'Is" -- ra -- ël, 
 		le Seig -- neur, est en toi. Il te re -- nou -- vel -- le -- ra dans son am -- our. 
-		\markup { \citation #"(Cf. So)  " } "" "[Ton 2]"
+		\markup { \citation #"(So 3)  " } "" "[Ton 2]"
 	}
 	\header {
 		titres = \markup \ant #'f "F 310" "Magnificat"

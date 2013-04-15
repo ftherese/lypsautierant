@@ -128,7 +128,7 @@
 \label #'d
 \score {\relative f'  { 
 		r8 g16[ a]
-		c16[ c d e] d8[\( d\)] \cesure
+		c16[ c d e] d8[\( d\)] 
 		\times 2/3 { c8[ c c] }
 		\times 2/3 { c8[ a b] }
 		g16[ g g f]
@@ -247,7 +247,7 @@
 	\addlyrics {\set stanza = #"(B) "
 	 Je suis le Bon Pas -- "teur ;" je con -- nais mes bre -- bis 
 	 et mes bre -- bis me con -- nais -- sent, com -- me le Pè -- re 
-	 me con -- nait et que je con -- nais le Pè -- "re ;" et pour el -- les, 
+	 me con -- naît et que je con -- nais le Pè -- "re ;" et pour el -- les, 
 	 je don -- ne ma vie. Al -- le -- lu - ia. 
 	\markup { \citation #"(Jn 10)  " } "" "[Ton 2]"
 	} }
@@ -479,17 +479,17 @@
 	a16[\( f\) g a] c4
 	\cesure
 	d8[ c]
-	\times 2/3 { a8[ c c] } b8[\( b\)] c8[ a] g4
+	\times 2/3 { a8[ c c] } b8[\( b\)] c8[ a] g4\ifIndent
 	r8. b16
-	\ifIndent
+	
 	a16[\( g\) a b]
-	a8[ a] 
+	a8[\( a]\) 
 	\times 2/3 { b8[ c b] }
 	g8[\( a\)] g4
 	\cesure
 	a8[ c] a4
-	\times 2/3 { f8[ a\( a\) ] }g4
-	\cesure
+	\times 2/3 { f8[ a\( a\) ] }g4 \pespace\pespace
+	\cesure \pespace\pespace\ifIndent
 	\times 2/3 { a8[\( b\) a] } g4\( g8\) r8
 	\endBar
 	\stemOff g4 a c
@@ -497,10 +497,10 @@
 	}
 	\addlyrics {
 		\set stanza = #"1." 
-		Ne me re -- tiens pas, Ma -- rie, dit - _le Sei -- gneur, 
-		mais va- -- t-en vers mes frè -- res et dis- -- leur_: 
+		«_Ne me re -- tiens pas, Ma -- rie_», dit - _le Sei -- gneur, 
+		«_mais va- -- t-en vers mes frè -- res et dis- -- leur_: 
 		je mon -- te vers mon Pè -- re et vo -- tre Pè- _ -- re, 
-		vers mon Dieu et vo -- tre Dieu. Al - le -- lu -- ia_! 
+		vers mon Dieu et vo -- tre Dieu._» Al - le -- lu -- ia_! 
 	\markup { \citation #"(Jn 20)  " } "" "[Ton 8]"
 		}
 	\header {
@@ -517,7 +517,7 @@
 	\times 2/3 { bes8[ a g] }a4
 	r8 d,
 	\times 2/3 { d8[ d d] } d8[ d]
-	\times 2/3 { d8[ f a] } g8.[ f16]
+	\times 2/3 { d8[ f a] } g8.[\cesureBasse f16]
 	\ifIndent
 	a8[ \cesure bes16 g] f4
 	\times 2/3 { f8[ f f] } e8[ f]
@@ -529,7 +529,7 @@
 	}
 	\addlyrics {
 		\set stanza = #"2." Hom -- mes de Ga -- li -- lée, 
-		pour -- quoi re -- stez- -- vous à  re -- gar -- dez le ciel_?
+		pour -- quoi re -- stez- -- vous à  re -- gar -- der le ciel_?
 		Ce -- lui qui vous a é -- té en -- le -- vé, Jé -- sus, re -- vien -- dra 
 		comme il s'en est al -- lé vers le ciel.
 		Al -- le -- lu - ia.
@@ -564,7 +564,7 @@
 	\cesure	
 	d8[ f] 
 	g16[ \cesure \espace e d c]
-	d16[\( d\) d d]
+	d16[ d d\( d]\)
 	d16[ c e d]
 	\times 2/3 { g8[\( f\) e] } d16[\( d\) c e]
 	d4\( d8\) r8
@@ -645,8 +645,8 @@
 	\times 2/3 { g8[\( f\) e] }
 	\ifIndent
 	\times 2/3 { d8[\( d\) \cesureBasse c] } d8[ e]
-	\times 2/3 { d8[ f e] }
-	\times 2/3 { d8[ d d] }
+	\times 2/3 { d8[\cesure f e] }
+	\times 2/3 { d8[\cesure d d] }
 	\times 2/3 { d8[ d e] } c8[ a] a4
 	\pespace \cesure \pespace \pespace
 	c16[ d e\( d\)] d4	
@@ -669,7 +669,7 @@
 \label #'t
 \score { \relative f'  {
 	\key f \major
-	\times 2/3 { f8[\( g\) a] } a8[ bes]
+	\times 2/3 { f8[ g a] } a8[ bes]
 	\times 2/3 { g8[\( g\) f] } a4
 	\cesure
 	c8[\( c\)] \cesure
@@ -742,17 +742,17 @@
 	\times 2/3 { d8[ e d] } c4
 	\cesure
 	\times 2/3 { d8[ e d] } c4
-		\pespace \cesure \pespace \pespace
+		\pespace \cesure \pespace
 	d8[ d] d4
 	\cesure
 	\times 2/3 { d8[ f g] } a8[ a] a4
 	\cesure
 	\ifIndent
 	bes16[ g f\( g\)] d4
-		\pespace \cesure \pespace \pespace
+		\pespace \cesure \pespace
 	\times 2/3 { f8[ f f] } f8[ f]
 	\times 2/3 { d8[ e d] } c4
-		\pespace \cesure \pespace \pespace
+		\pespace \cesure \pespace
 	d16[ e f\( d\)] d4
 	\endBar
 	\stemOff c4 d f
@@ -761,7 +761,7 @@
 	\addlyrics {
 		\set stanza = #"1. " Je ne vous lais -- se -- rai pas or -- phe -- lin, al -- le -- lu -- ia, 
 		je m'en vais et je re -- viens vers vous, al -- le -- lu - ia, 
-		et vo -- tre coeur se -- ra dans la joie, al -- le -- lu - ia. 
+		et vo -- tre cœur se -- ra dans la joie, al -- le -- lu - ia. 
 	\markup { \citation #"(Jn 14-16)  " } "" "[Ton 2]"}
 	\header {
 		titre = "PENTECOTE"
