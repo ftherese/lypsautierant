@@ -90,7 +90,7 @@
 }   
 
 \header {
-      tagline = "Communauté Saint Jean 2013"
+      tagline = "Communauté Saint-Jean 2013"
 }
 
 

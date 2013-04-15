@@ -211,7 +211,7 @@
 	\addlyrics {\set stanza = #"(A) "
 		Bien -- heu -- reux les mi -- sé -- ri -- cor -- dieux : 
 		il leur se -- ra fait mi -- sé -- ri -- cor -- de.
-		Bien -- heu -- reux les coeurs purs, ils ver -- ront Dieu. 
+		Bien -- heu -- reux les cœurs purs, ils ver -- ront Dieu. 
 	\markup { \citation #"(Mt 5)  " } "" "[Ton 6]"
 	}
 	\header {
@@ -343,7 +343,7 @@
 \score {
 	\relative a'  {
 		\key f \major
-		a8[ g] a8[\( a\)]
+		a8[ g] a8[\( a\)]\pespace
 		\times 2/3 { r8\( c[ bes]\) } c16[ c c c]
 		\times 2/3 { c8[\( c\) c] } bes8[ g] a4
 		
@@ -384,10 +384,10 @@
 		\ifIndent
 		g16[\( g\) f g]
 		a8[\( a\)]
-		\cesure
+		\cesure\pespace
 		\times 2/3 { g8[ g\( g]\) }
 		\times 2/6 { b16[\( b\) c a a a] }
-		\times 2/3 { g8[ f g] } a4
+		\times 2/3 { g8[ f g] } a4\pespace
 		a16[ a a a]
 		\ifIndent
 		c16[ b c b] g4\( g8\) r8
@@ -689,9 +689,7 @@
 		\times 2/3 { d8[ c e] } d4
 		\cesure
 		\times 2/3 { d8[\( e\) g] } g4
-		\cesure
 		\times 2/3 { g8[\( a\) g] }
-		
 		\times 2/3 { e8[ e a] }
 		\ifIndent
 		g16[ f d e] d4
@@ -783,8 +781,8 @@
 }
 
 \label #'x
-\score { \transpose c f { 
-	\relative c'	{ \key c \major
+\score { \transpose c g { 
+	\relative c'	{ 
 		r8 c a4
 		\cesure
 		c16[ c d e] d8[\( d\)] d8[ d]
@@ -796,14 +794,14 @@
 		\ifIndent
 		a16[ a a a] a8[ c] d8[ c] c4
 		\endBar
-		\stemOff c4 d e
+		\stemOff c4 d f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Sei -- gneur, je ne suis pas di -- gne que tu en -- tres 
 		sous mon toit, mais dis seu -- le -- ment u -- ne pa -- ro -- le, 
 		et mon ser -- vi -- teur se -- ra gué -- ri. 
-	\markup { \citation #"(Lc 7)  " } "" "[Ton 6]"
+	\markup { \citation #"(Lc 7)  " } "" "[Ton 8]"
 	} }
 	\header {
 		titres = \markup \ant #'x "K 92" "" }
@@ -871,9 +869,9 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
-		Qui est ma mè -- re_? Qui sont mes frè -- res_? 
-		dit le Sei -- gneur. Ce -- lui qui fait la vo -- lon -- té de Dieu, 
-		ce -- lui- -- là est mon frè -- re, ma soeur et ma mè -- re. 
+		«_Qui est ma mè -- re_? Qui sont mes frè -- res_?_» 
+		dit le Sei -- gneur. «_Ce -- lui qui fait la vo -- lon -- té de Dieu, 
+		ce -- lui- -- là est mon frè -- re, ma sœur et ma mè -- re._» 
 	\markup { \citation #"(Mc 3)  " } "" "[Ton 1]"
 	}
 	\header {
@@ -914,7 +912,7 @@
 		le jeune hom -- me, et le ren -- dit à sa mè -- re.
 		Un grand pro -- phè -- te s'est le -- vé par -- mi nous,
 		Dieu a vi -- si -- té son peu -- ple_! 
-	\markup { \citation #"(Lc 7)  " } "" "[Ton 5]"
+	\markup { \citation #"(cf. Lc 7)  " } "" "[Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'aa "K 102" "" }
@@ -982,7 +980,7 @@
 		\times 2/3 { g8[\( g\) a] }
 		\times 2/3 { c8[\( c\) c] }
 		a8[ g] g4
-		\times 2/3 { r8_\( f[ g]\) } a8[\( bes\)] g4
+		\times 2/3 { r8_\( f[ g]\) } a8[\( bes!\)] g4
 		\cesure
 		\ifIndent
 		a8[ g]
@@ -1132,7 +1130,7 @@
 		Ce -- lui qui veut ve -- nir à ma sui -- te, qu'il re -- nonce 
 		à lui- -- mê -- me, qu'il por -- te sa croix cha -- que jour 
 		et qu'il me sui- _ -- ve. Car ce -- lui qui veut sau -- ver sa 
-		vie la per -- dra, mais qui per -- dra sa vie à cau -- se de moi, 
+		vie la per -- dra, mais qui per -- dra sa vie à cau -- se de moi
 		la sau -- ve -- ra. 
 	\markup { \citation #"(Lc 9)  " } "" "[Ton 5]"
 	}
@@ -1166,7 +1164,7 @@
 		\cesure
 		\ifIndent
 		d16[ d d d]
-		\times 2/3 { d8[ f e] } c8[\( d\)] \pespace\pespace
+		\times 2/3 { d8[ f e] } \times 2/3 { c4\( d8\) } \pespace\pespace
 		r8 f a4 \pespace
 		\cesure\pespace
 		\times 2/3 { g8[ f g] } d4\pespace
@@ -1222,7 +1220,7 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
-		U -- ne fem -- me ay -- ant ap -- pris ce qu'on di -- sait de 
+		U -- ne fem -- me, ay -- ant ap -- pris ce qu'on di -- sait de 
 		Jé -- sus, vint par der -- riè -- re et tou -- cha son 
 		vê -- te -- ment. Car el -- le se di -- sait_: 
 		«_Si je tou -- che seu -- le -- ment son vê -- te -- ment, 
@@ -1466,7 +1464,7 @@
 \score {
 	\relative a'	{
 		\times 2/3 { r8_\( f[ a]\) }
-		b8[ c] c8[\( c\)] \pespace\pespace
+		b!8[ c] c8[\( c\)] \pespace\pespace
 		r8 c d8[ e]
 		\times 2/3 { d8[ c d] } b8[ a]
 		\times 2/3 { b4\( b8\) }
@@ -1474,13 +1472,14 @@
 		g16[ g f g]
 		e16[ g a b]
 		\ifIndent
-		\times 2/3 { a8[\( a\)\cesure c] }
+		\times 2/3 { a8[\( a\) c] }
 		\times 2/3 { c8[ c c] }
 		\times 2/3 { b8[\( g\) a] } a4\pespace\pespace
 		r8 a e8[ a]
 		\times 2/3 { b8[\( b\) c] }
-		d8[ e] d4
-		c16[\( c\) b c] a4
+		d8[ e] 
+		\slurDashed d4(
+		c16[)\( c\) b c] a4
 		\ifIndent
 		\times 2/3 { g8[ a b] }
 		c16[\( a\) g f]
@@ -1710,9 +1709,9 @@
 }
 
 \label #'aw
-\score {
+\score { \transpose c g
 	\relative f'	{
-		\key f \major
+		
 		c8[\cesureTresBasse d] f8[ d] f8[ g] g4
 		r8 a
 		bes8[ a] g8[ a]
@@ -1723,14 +1722,14 @@
 		\slurDashed g4( f8[) g]
 		\times 2/3 { f8[ d c] } d4
 		\endBar
-		\stemOff c4 d f
+		\stemOff f4 e f
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Moi, je suis le pain de vie. _Ce -- lui qui vient à moi
 		n'au -- ra plus ja -- mais faim_; _ce -- lui qui croit 
 		en moi n'au -- ra plus ja -- mais soif. 
-	\markup { \citation #"(Jn 6)  " } "" "[Ton 2]"
+	\markup { \citation #"(Jn 6)  " } "" "[Ton 7]"
 	}
 	\header {
 		titres = \markup \ant #'aw "K 181" "" }
@@ -1847,7 +1846,6 @@
 \score {
 	\relative a'  {
 		r8 f a8[ c] d8[ c] c4
-		\cesure
 		c8[ c] a8[\( a\)]
 		\cesure
 		\times 2/3 { b8[ a b] } a4
@@ -1864,7 +1862,7 @@
 		\times 2/3 { a8[ a c] }
 		\times 2/3 { c8[ a g] } g4
 		\endBar
-		\stemOff g4 a c
+		\stemOff f4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
@@ -1872,7 +1870,7 @@
 		à sa ve -- nue, trou -- ve -- ra en train de veil -- ler_! 
 		Il se cein -- dra, les fe -- ra mettre à ta- _ -- ble, 
 		et pas -- se -- ra les ser -- vir. 
-	\markup { \citation #"(Lc 12)  " } "" "[Ton 8]"
+	\markup { \citation #"(Lc 12)  " } "" "[Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'ba "K 192" "" }
@@ -1902,7 +1900,7 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
-		«_Ô fem -- me, ré -- pon -- dit Jé -- sus, grande est ta foi_!
+		«_Ô fem -- me_», ré -- pon -- dit Jé -- sus, «_grande est ta foi_!
 		Qu'il t'ad -- vien -- ne se -- lon ton dé -- sir_!_» 
 		Dès cette heu -- re -- -là sa fil -- le fut gué -- rie. 
 	\markup { \citation #"(Mt 15)  " } "" "[Ton 4]"
@@ -2027,7 +2025,7 @@
 		\times 2/3 { g8[ g g] }
 		b16[\( b\) b b]
 		\times 2/3 { b8[ a b] }
-		\times 2/3 { g4\( g8\) }
+		\times 2/3 { g4\( g8\) }\cesure
 		\times 2/3 { f8[ g a] } g4
 		\cesure
 		\ifIndent
@@ -2246,7 +2244,7 @@
 		g16[ a c c]
 		\times 2/3 { c8[ d e] }
 		c8[\cesure c]
-		c16[\( c\) c c]
+		\times 2/3 { c8[ c c] }
 		\ifIndent
 		\times 2/3 { c8[ c a] } g8[\( g\)]
 		\times 2/3 { f8[ a g] }
@@ -2258,7 +2256,7 @@
 	\addlyrics {\set stanza = #"(B) "
 		Dieu n'a -- -t-il pas choi -- si les pau -- vres se -- lon 
 		le mon -- de pour les en -- ri -- chir dans la foi,
-		les fai -- re hé -- ri -- tiers du Roy -- au -- me qu'il 
+		les faire hé -- ri -- tiers du Roy -- au -- me qu'il 
 		a pro -- mis à ceux qui l'ai -- ment_? 
 	\markup { \citation #"(Jc 2)  " } "" "[Ton 8]"
 	}
@@ -2305,7 +2303,8 @@
 		\times 2/3 { f8[ e f] } d8[\( d\)]
 		\times 2/3 { d8[ f g] } e4
 		\cesure
-		f8[ e] d8[\( c]\)
+		f8[ e] 
+		\times 2/3 { d4\( c8\) }
 		\ifIndent
 		\times 2/3 { r8_\( f[ f]\) }
 		f8[ f] f8[ g]
@@ -2321,7 +2320,7 @@
 		ton frè -- re jus -- qu'à sept fois, mais sans ces -- se. 
 		Que cha -- cun de vous par -- donne à son frè -- re, 
 		de tout son cœur. 
-	\markup { \citation #"(Mt 18)  " } "" "[Ton 2]"
+	\markup { \citation #"(cf. Mt 18)  " } "" "[Ton 2]"
 	}
 	\header {
 		titre = "24ème SEMAINE DU T.O."
@@ -2329,7 +2328,8 @@
 }
 
 \markup { "K 241 (B) :  cf. K 122" }
-
+\markup {" "}
+\markup {" "}\markup {" "}
 \label #'bo
 \score {
 	\relative a'  {
@@ -2346,9 +2346,9 @@
 		\ifIndent
 		\times 2/3 { c8[ a g] } a4
 		\times 2/3 { a8[ a a] }
-		c8[ d] c4
+		c8[ d] c4\cesure
 		c16[ c c c] c4
-		\cesure
+		
 		\times 2/3 { c8[ c c] }
 		a8[ g] a4
 		\endBar
@@ -2515,7 +2515,7 @@
 \score {
 	\relative a'  {
 		f16[ f g a] a8[ g]
-		\times 2/3 { a8[\( a\)\cesure f] } f8[\( g\)]
+		\times 2/3 { a8[\( a\) f] } f8[\( g\)]
 		\times 2/3 { g8[\cesureBasse g d] } f8[ f]
 		f16[ f e g]
 		\times 2/3 { f8[\( f\) e] } f4
@@ -2593,7 +2593,7 @@
 	\addlyrics {\set stanza = #"(A) "
 		N'a -- vez -- -vous ja -- mais lu dans les E -- cri -- tu -- res_: «_La pier -- re 
 		qu'ont re -- je -- tée les bâ -- tis -- seurs est de -- ve -- nue la tê -- te d'an -- gle.
-		C'est là l'oeu -- vre du Sei -- gneur, ce fut mer -- veille à nos yeux_!_» 
+		C'est là l'œu -- vre du Sei -- gneur, ce fut mer -- veille à nos yeux_!_» 
 	\markup { \citation #"(Mt 21)  " } "" "[Ton 8]"
 	}
 	\header {
@@ -2619,13 +2619,13 @@
 		g8[ f]
 		g4\( e8\) r8
 		\endBar
-		\stemOff a4 a a
+		\stemOff c4 d f
 		\endBar 
 	}
-	\addlyrics {
+	\addlyrics {\set stanza = #"(B) "
 		Lais -- sez les en -- fants ve -- nir à moi_; ne les em -- pê -- chez pas, 
 		le Roy -- au -- me de Dieu est à ceux qui leur res -- sem -- blent. 
-	\markup { \citation #"(Mc 10)  " } "" "[Ton 4]"
+	\markup { \citation #"(Mc 10)  " } "" "[Ton 2]"
 	}
 	\header {
 		titres = \markup \ant #'bx "K 271" "" }
@@ -2907,7 +2907,7 @@
 	\addlyrics {\set stanza = #"(A) "
 		É -- coute I -- sra -- ël_! Le Sei -- gneur no -- tre Dieu est 
 		l'u -- ni -- que Sei -- gneur. Tu ai -- me -- ras le Sei -- gneur
-		ton Dieu de tout ton coeur, de tou -- te ton â- _ -- me, 
+		ton Dieu de tout ton cœur, de tou -- te ton â- _ -- me, 
 		de tout ton es -- prit et de tou -- te ta for -- ce, 
 		et ton pro -- chain com -- me toi- -- mê- _ -- me. 
 	\markup { \citation #"(Mc 12)  " } "" "[Ton 2]"
@@ -2989,7 +2989,7 @@
 \label #'cj
 \score { 
 	\relative d'  {
-		\key f \major
+		
 		\times 2/3 { r8_\( c[ d]\) }
 		\times 2/3 { f8[ g f] } e8[\( d\)]
 		r8 f
@@ -3005,8 +3005,8 @@
 		\times 2/3 { d4\( d8\) }
 		\times 2/3 { r8_\( c[ c]\) }
 		\times 2/3 { a8[ c d] }
-		\times 2/3 { f_\( d8\) }
-		\times 2/3 { e8[ f d] }
+		\times 2/3 { f4\( d8\) }
+		\times 2/3 { e8[ f\( d]\) }
 		d8[ c] c4
 		\endBar
 		\stemOff c4 d f
@@ -3052,7 +3052,7 @@
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Dieu est l'u -- ni -- que, il n'en est pas d'au -- tre. 
-		L'ai -- mer de tout son coeur, de tou -- te son 
+		L'ai -- mer de tout son cœur, de tou -- te son 
 		in -- tel -- li -- gen -- ce et de tou -- te sa for -- ce,
 		ai -- mer son pro -- chain com -- me soi -- -mê -- me,
 		vaut mieux que tous les sa -- cri -- fic -- es. 
@@ -3292,14 +3292,14 @@
 		c16[ c c a]
 		a8[ g] a4
 		\endBar
-		\stemOff f4 a c
+		\stemOff g4 a c
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(C) "
 		Je vous don -- ne -- rai un lan -- ga -- ge et u -- ne sa -- ges -- se,
 		que nul de vos ad -- ver -- sai -- res ne pour -- ra con -- tre -- di -- re.
 		C'est par vo -- tre per -- sé -- vé -- ran -- ce que vous ob -- tien -- drez la vie. 
-	\markup { \citation #"(Lc 21)  " } "" "[Ton 5]"
+	\markup { \citation #"(Lc 21)  " } "" "[Ton 2*]"
 	}
 	\header {
 		titres = \markup \ant #'cr "K 332" "" }
@@ -3312,7 +3312,7 @@
 	\relative d''  { \key f\major
 		\times 2/3 { r8_\( a[ a]\) } g8[ a]
 		\times 2/3 { f8[\( f\) e] }
-		\times 2/3 { d8[ e] g}
+		\times 2/3 { d8[ e g]}
 		\times 2/3 { a4\( a8\) }
 		\cesure
 		\times 2/3 { a8[ f d] }
@@ -3366,7 +3366,7 @@
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Mon Roy -- au -- me n'est pas de ce mon -- de. 
-		Je suis né, je suis ve -- nu dans le mon -- de_:
+		Je suis né, je suis ve -- nu dans le mon -- de,
 		pour ren -- dre té -- moi -- gna -- ge à la vé -- ri -- té. 
 		Tout hom -- me qui ap -- par -- tient à la vé -- ri -- té
 		" é" -- cou -- te ma voix. 

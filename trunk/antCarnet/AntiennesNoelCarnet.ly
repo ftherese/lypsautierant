@@ -84,7 +84,7 @@
 		\times 2/3 { a8[\( g\) bes] }
 		\ifIndent
 		a8[\( g\)]
-		\times 2/3 { a4\( a8\) }
+		\times 2/3 { a4\( a8\) }\cesure
 		a8[ a]
 		\times 2/3 { g8[\( bes\) a] }
 		g8[ f]
@@ -105,7 +105,7 @@
 		auj -- ourd' hui sur la ter -- re les an -- ges chan -- tent, les arc -- han -- ges se ré -- jou -- iss -- ent. 
 		Auj -- ourd' -- hui les saints e -- xul -- tent en chan -- "tant :" 
 		Gloire à  Dieu au plus haut- _ -- _des cieux. Al -- le - lu -- "ia !"
-		\markup { \citation #"(Lc 2)  " } "" "[Ton 1]"
+		\markup { \citation #"(cf. Lc 2)  " } "" "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'d "G 111" "Jour de Noël (Français)" }
@@ -145,7 +145,7 @@
 
 
 
-
+%{
 \label #'f
 \score {\relative f'  {
 	\key f \major
@@ -177,7 +177,7 @@
 		titres = \markup \ant #'f "G 200" "" }
 } 
 
-
+%}
 
 \label #'g	
 \score {\relative f'  {
@@ -288,8 +288,8 @@
 	}
 	\addlyrics {
 		Par un éch -- an -- ge ad -- mi -- ra - - ble, le Cré -- at -- eur a pris chair de Mar -- ie, 
-		et il nous fait par -- ti -- cip -- ants de sa di -- vi -- ni -- té. Al - le -- lu - ia_! ""
-		_ "[Ton 6]"
+		et il nous fait par -- ti -- cip -- ants de sa di -- vi -- ni -- té. Al - le -- lu - ia_! 
+		\markup { \citation #"(St Augustin)  " }""_ "[Ton 6]"
 	}
 	\header {
 		titres = \markup \ant #'j "G 401" "Magnificat" }
@@ -395,6 +395,7 @@
 
 	
 %nouvelle mais pas trop belle
+%{
 \label #'n
 	\score {\relative f'  {
 		\times 2/3 { r8\( c'[ c]\) }
@@ -431,7 +432,7 @@
 	\header {
 		titres = \markup \ant #'n "G 601" "Magnificat" }
 }
-	
+%}	
 
 \label #'o
 \score {\relative f'  { 
@@ -446,7 +447,7 @@
 	}
 	\addlyrics {
 		J'ai vu l'Es -- prit des -- cen -- dre du ciel comme u -- ne co -- lom -- be, et de -- meu -- rer sur lui.
-		\markup { \citation #"(Mt 3)  " } "" "[Ton 4]"
+		\markup { \citation #"(Jn 1)  " } "" "[Ton 4]"
 	}
 	\header {
 		titres = \markup \ant #'o "G 601" "Magnificat" }

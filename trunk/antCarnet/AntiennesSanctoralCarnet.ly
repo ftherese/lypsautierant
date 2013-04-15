@@ -1458,8 +1458,8 @@
 	}
 	\addlyrics {
 		E -- tien -- ne rem -- pli de grâce et de puis -- san -- ce 
-		o -- pé -- rait de grands pro -- di -- ges par -- mi le peu -- ple. ""
-		_ "[Ton 8]"		
+		o -- pé -- rait de grands pro -- di -- ges par -- mi le peu -- ple. 
+		\markup { \citation #"(Ac 6)  " } "" "[Ton 8]"		
 	}
 	\header {
 		titres = \markup \ant #'al "" "Antienne" }
@@ -1566,8 +1566,8 @@
 	}
 	\addlyrics {
 		Le Ver -- be s'est fait chair et il a de -- meu -- ré par -- mi nous_; 
-		à tous ceux qui le re -- çoi -- vent, il a don -- né pou -- voir de de -- ve -- nir en -- fant de Dieu. ""
-		_ "[Ton 1]"
+		à tous ceux qui le re -- çoi -- vent, il a don -- né pou -- voir de de -- ve -- nir en -- fant de Dieu. 
+		\markup { \citation #"(Jn 1)  " } "" "[Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'ap "" "Antienne" }

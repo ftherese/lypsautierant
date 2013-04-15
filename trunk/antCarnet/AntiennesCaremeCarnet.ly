@@ -13,7 +13,7 @@
 		\slurDashed b4( a8[) c] d8[ c]
 		\times 2/3 { a8[\(  b a]\) } g4 \cesure
 		a16[ bes a g]
-		\times 2/3 { g4\( d8\) } \ifIndent
+		\times 2/3 { g4\( e8\) } \ifIndent
 		r8 g8
 		a8[ f] 
 		e4\( d8\) r8
@@ -84,12 +84,12 @@
 		\times 2/3 { g8[ a f] } e4  \cesure d8[ f]
 		\times 2/3 { d8[\( c\) f] } \times 2/3 { a8[ g a] }  g8[ f]
 		\times 2/3 { g4\( f8\) }  \cesure
-		\times 2/3 { f4\(\cesure c8\) }
+		\times 2/3 { f4\(\cesure d8\) }
 		\times 2/3 { f8[ g a] } g4 \cesure
 		\ifIndent
 		a16[ c a g] f8[ f]
 		
-		\times 2/3 { f8[ g f] }
+		\times 2/3 { f8[\( g f]\) }
 		\times 2/3 { d4\( c8\) }
 		\times 2/3 { f8[ g a] }
 		\times 2/3 { g4\( g8\) } \cesure
@@ -156,7 +156,7 @@
 		\times 2/3 { a8[ bes c] } \times 2/3 { d4\( c8\) }
 		\times 2/3 { c8[ bes c]} a8[\( a16\) f]
 		f16[\( g\) a bes] g4 \ifIndent
-		r8 d' d[ d16 e]
+		r8 d' d[\cesure d16 e]
 		c16[\( c\) a a]
 		c16[\( c\) bes g] g4
 		\endBar
@@ -180,7 +180,7 @@
 	f8[ f]
 	\times 2/3 { f8[ a bes]}
 	g16[\( g\) f g]
-	e8[\( e\)]
+	e8[\( e\)]\cesure
 	f16[ f f f] e8[ f] \ifIndent
 	d8[\( e\)] d4 \cesure
 	\times 2/3 { f8[ g a]}
@@ -247,7 +247,6 @@
 	\times 2/3 { c8[ b c] } 
 	\times 2/3 { d8[\( c\) a] }
 	a8[ g] g4
-	\cesure
 	\ifIndent
 	g16[\( a\) b\( b\)] a4	
 	a8[ b] g8[ e]
@@ -304,7 +303,6 @@
 	\times 2/3 { d8[ c d] } b4
 	r8 d
 	e8[ f]  e8[ d]  b4
-	\cesure
 	a16[ b a g] g4
 		\endBar
 		\stemOff c'4 b c
@@ -377,13 +375,13 @@
 	r8 g  g8[ d']  d4 \cesure
 	\times 2/3 { c8[ b c] }
 	d8[\( e\)] d4 
-	r8 b  \times 2/3 { c8[ d e] }
+	r8 b \times 2/3 { c8[ d e] }
 	\times 2/3 { d4\( c8\) }
 	\times 2/3 { c8[\( d\) c] } g4
 	r8 g g8[\( d'\)] \times 2/3 { d4\( d8\) }
 	\times 2/3 { c8[ b c] } d4
-	\ifIndent
-	r8 b \times 2/3 { c8[ d e] }
+	r8 b \ifIndent
+	 \times 2/3 { c8[ d e] }
 	\times 2/3 { d8[\( c\) d] }
 	\times 2/3 { c4\( c8\) }
 	\times 2/3 { c8[ c c] }
@@ -401,7 +399,7 @@
 	Ho -- san- _ -- na au Fils de Da -- "vid !"
 	Bé -- ni soit ce -- lui- _ -- _qui vient au nom du Seign -- eur -_!
 	Ho -- san- _ -- na au plus haut des "cieux !" 
-	\markup { \citation #"(Za 9)  " } "" "[Ton 7]"
+	\markup { \citation #"(cf. Mt 21)  " } "" "[Ton 7]"
 	}
 	\header {
 		titre = "DIMANCHE DES RAMEAUX"
@@ -415,7 +413,7 @@
 		\times 2/3 { c8[\( d\) f] } e4 \cesure
 		\times 2/3 { e4\( e8\) } \cesure
 		\times 2/3 { e8[ f g] }
-		\times 2/3 { a4\( g8\) } 
+		a8[ g]
 		f8[ f]   d4 \cesure
 		f8[ a] 
 		bes16[\( a\) g a]
@@ -582,7 +580,7 @@
 	Ma chair re -- po -- se dans la paix, 
 	car tu ne peux a -- ban -- don -- ner, Sei -- gneur, mon âme aux En -- fers,
 	ni lais -- ser ton a -- mi voir la cor -- rup -- tion. 
-		\markup { \citation #"(Ac 2)  " } "" "[Ton 7]"
+		\markup { \citation #"(Ps 15)  " } "" "[Ton 7]"
 	}
 	\header {
 		titre = "SAMEDI SAINT"
