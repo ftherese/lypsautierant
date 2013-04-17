@@ -1,7 +1,7 @@
 \version "2.14.0"
 
-#(set-default-paper-size "a4")
-% 'landscape
+#(set-default-paper-size "a5"'landscape)
+% 
 
 \paper {
   %	annotate-spacing = ##t

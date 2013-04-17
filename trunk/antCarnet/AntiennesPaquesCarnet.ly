@@ -8,7 +8,7 @@
 \score {\relative f'  { 
 		d16[\( a'\) a a]
 		\times 2/3 { a8[ g a] }
-		b8[ g] \times 2/3 { a4_\(\cesure b8\) }
+		b8[ g] \times 2/3 { a4_\(\cesure \override Stem #'neutral-direction = #up b8\) }
 		c8[ d] b[ g]
 		a16[\( a\) b c]  a4 \cesure \ifIndent
 		\times 2/3 { d8[ d c] }  d8[\cesure c]
@@ -95,7 +95,7 @@
 		\ifIndent
 		\times 2/3 { d8[ c b] }
 		a8[ a] \times 2/3 { b8[ c b] }
-		\times 2/3 { b4_\( a8\) } \cesure
+		\times 2/3 {\override Stem #'neutral-direction = #up b4_\( a8\) } \cesure
 		e'16[ c d b]
 		\times 2/3 { c8[ c c] }
 		c8[ a]   a8[ b]
@@ -239,7 +239,7 @@
 		\times 2/3 { g4\( g8\) } \cesure
 		f8[ e] \times 2/3 { d8[\( d\) \cesureTresBasse d] }
 		\times 2/3 { f8[\( d\) c] } d4 \cesure
-		f16[ g a\( g\)] g4
+		c16[ d f\( d\)] d4
 		\endBar
 		\stemOff c4 d f 
 		\endBar 
@@ -250,10 +250,10 @@
 	 me con -- naît et que je con -- nais le Pè -- "re ;" et pour el -- les, 
 	 je don -- ne ma vie. Al -- le -- lu - ia. 
 	\markup { \citation #"(Jn 10)  " } "" "[Ton 2]"
-	} }
+	} 
 	\header {
 		titres = \markup \ant #'g "I 401" "" }
-
+}
 
 \label #'h
 \score {\relative f'  { 
@@ -288,14 +288,14 @@
 	\times 2/3 { r8_\( d[ d]\) }
 	a'8[ bes]  a4  r8 g
 	f8[ g]  a8[ bes]  a4
-	r8 g
+	r8 g \pespace
 	\times 2/3 { f8[ g d] }  f4 \cesure
 	\times 2/3 { g8[ a bes] } 
 	\times 2/3 { a8[ g bes] }  a4 \cesure \ifIndent
 	d,8[ d] 
 	\times 2/3 { g8[ f e] } 
 	\times 2/3 { f4\( d8\) }
-	e8[ d]  d4
+	e8[ d]  d4 \pespace
 	\times 2/3 { r8_\( f[ g]\) }
 	\times 2/3 { a8[\( g f]\) } g4
 		\endBar \espace\espace
@@ -358,7 +358,7 @@
 	}
 	\addlyrics {\set stanza = #"(C) "
 	Je vous donne un com -- man -- de -- ment nou -- veau, dit le Sei -- gneur.
-	Com -- me je vous ai ai -- més, ai -- mez- -- vous les uns les au- _ -- tres.
+	Com -- me je vous ai ai -- més, ai -- mez -- vous les uns les au- _ -- tres.
 	Al -- le -- lu - "ia !" 
 	\markup { \citation #"(Jn 13)  " } "" "[Ton 8]"
 	 } }
@@ -376,7 +376,7 @@
 	f8[ d] d4  \cesure
 	\times 2/3 { g8[ \cesureBasse a f] }
 	a8[ c] 
-	\times 2/3 { b4_\( g8\) } \cesure
+	\times 2/3 { \override Stem #'neutral-direction = #up b4_\( g8\) } \cesure
 	\times 2/3 { c8[ c c] }
 	c8[ c]
 	\ifIndent 
@@ -421,7 +421,7 @@
 	\times 2/3 { f8[ e d] }
 	\times 2/3 { f8[ g g] }
 	\times 2/3 { g8[ a c] }
-	\times 2/3 { c4_\( a8\) } \cesure 
+	\times 2/3 { \stemUp	 c4_\( a8\) } \cesure 
 	\times 2/3 { c8[ b a] }
 	g8[ g]  a8[\( b\)] a4  \cesure 
 	g8[ a16\( b\)] a4 a8 r
@@ -484,7 +484,7 @@
 	
 	a16[\( g\) a b]
 	a8[\( a]\) 
-	\times 2/3 { b8[ c b] }
+	\times 2/3 { b8[ c\( b]\) }
 	g8[\( a\)] g4
 	\cesure
 	a8[ c] a4
@@ -497,10 +497,10 @@
 	}
 	\addlyrics {
 		\set stanza = #"1." 
-		«_Ne me re -- tiens pas, Ma -- rie_», dit - _le Sei -- gneur, 
-		«_mais va- -- t-en vers mes frè -- res et dis- -- leur_: 
+		Ne me re -- tiens pas, Ma -- rie, dit - _le Sei -- gneur, 
+		mais va- -- t-en vers mes frè -- res et dis- -- leur_: 
 		je mon -- te vers mon Pè -- re et vo -- tre Pè- _ -- re, 
-		vers mon Dieu et vo -- tre Dieu._» Al - le -- lu -- ia_! 
+		vers mon Dieu et vo -- tre Dieu. Al - le -- lu -- ia_! 
 	\markup { \citation #"(Jn 20)  " } "" "[Ton 8]"
 		}
 	\header {
@@ -575,7 +575,7 @@
 		de -- meu -- rons é -- veil -- lés dans la pri -- è -- re, 
 		et at -- ten -- dons la for -- ce d'en haut, 
 		car il va ve -- nir, l'au -- tre Con -- so -- la -- teur, se -- lon ta pro -- mes -- se, ô Christ. 
-		Il il -- lu -- mi -- ne les coeurs et fait jail -- lir des sour -- ces d'eau vi -- ve_; 
+		Il il -- lu -- mi -- ne les cœurs et fait jail -- lir des sour -- ces d'eau vi -- ve_; 
 		comme un feu, il se ré -- pand sur tou -- te chair 
 		et re -- nou -- vel -- le la fa -- ce de la ter -- re.
 		}	
@@ -611,7 +611,7 @@
 	\cesure
 	a8[ b] a4
 	\pespace \cesure \pespace \pespace
-	\times 2/3 { c8[\( d\) b] } \times 2/3 { g8[\( a\) b] } a4
+	\times 2/3 { c8[\( d\) b] } \times 2/3 { g8[\( a b]\) } a4
 	\endBar
 	\stemOff c'4 d e
 	\endBar
@@ -640,15 +640,15 @@
 	d8[\( d\)]
 	\cesure
 	\times 2/3 { e8[ \cesure f g] }
-	\times 2/3 { f8[ e d] } d4
+	\times 2/3 { f8[ e d] } d4\ifIndent
 	r8 f g16[ \cesure  f f g]
 	\times 2/3 { g8[\( f\) e] }
-	\ifIndent
+	
 	\times 2/3 { d8[\( d\) \cesureBasse c] } d8[ e]
 	\times 2/3 { d8[\cesure f e] }
 	\times 2/3 { d8[\cesure d d] }
 	\times 2/3 { d8[ d e] } c8[ a] a4
-	\pespace \cesure \pespace \pespace
+	\pespace \cesure \pespace \break
 	c16[ d e\( d\)] d4	
 	\endBar
 	\stemOff d4 d d
@@ -689,16 +689,17 @@
 	\endBar	}
 	
 	\addlyrics {
-		\set stanza = #"(C) 1." Je leur ai fait con -- naî -- tre ton nom, 
+		\set stanza = #"1." Je leur ai fait con -- naî -- tre ton nom, 
 		Pè -- re, et je le fe -- rai con -- naître en -- co -- re, 
 		pour que l'a -- mour dont tu m'as ai -- mé soit en eux, 
 		et que moi, je sois en eux. Al -- le -- lu - ia. 
 	\markup { \citation #"(Jn 17)  " } "" "[Ton 6]"}
 	\header {
-		titres = \markup \ant #'t "I 702" "" }
+		titres = \markup \ant #'t "I 702 (C)" "" }
 }
 
-\label #'u
+\markup { \citation #" " } 
+
 \score { \relative c''  {
 	g8[\( g\)]
 	\cesure
@@ -730,8 +731,7 @@
 		com -- me toi tu es en moi et moi en toi. 
 		Ain -- "si " le mon -- de con -- naî -- tra que tu m'as en -- vo -- yé. Al -- le -- lu - - ia. 
 	\markup { \citation #"(Jn 17)  " } "" "[Ton 8]"}
-	\header {
-		titres = \markup \ant #'u "I 703" "" }
+
 }
 
 
@@ -750,7 +750,7 @@
 	\ifIndent
 	bes16[ g f\( g\)] d4
 		\pespace \cesure \pespace
-	\times 2/3 { f8[ f f] } f8[ f]
+	\times 2/3 { f8[ f\( f]\) } f8[ f]
 	\times 2/3 { d8[ e d] } c4
 		\pespace \cesure \pespace
 	d16[ e f\( d\)] d4
@@ -767,7 +767,7 @@
 		titre = "PENTECOTE"
 		titres = \markup \ant #'v "I 800" "" }
 }
-
+\markup { \citation #" " } 
 \label #'w
 \score { \relative d'  { \key f \major 
 	r8 c16[ d] d8.[ f16] f16[ e d d]
@@ -796,8 +796,7 @@
 		et les en -- voie pro -- cla -- mer les lou -- an -- ges de Dieu. Al - le - lu -- ia_!  ""
 		_ _ "[Ton 1   " "ou    Per.]" 
 	}
-	\header {
-		titres = \markup \ant #'w "I 801" "" }
+
 }
 
 \label #'x
@@ -839,8 +838,7 @@
 		Il nous fait pro -- cla -- mer les mer -- veil -- les de Dieu. 
 		Al -- le -- lu - ia. ""
 		_ "[Ton 8]"}
-	\header {
-		titres = \markup \ant #'x "I 802" "" }
+
 }
 
 

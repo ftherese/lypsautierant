@@ -22,7 +22,7 @@
 \score {\relative f'  { 
 		r8 c'16[ c]
 		\times 2/3 { c8[ d\( b]\) } c4 \cesure
-		\times 2/3 { b8[ a g] } a4
+		\times 2/3 { b8[ a g] } a4 \pespace
 		\times 2/3 { r8\( c[ c]\) }
 		c8[ c]
 		\times 2/3 { d8[\( d\)\cesure b] }
@@ -46,7 +46,7 @@
 		d16[ f e c]
 		a8[ b] c8[ a] a4 \ifIndent
 		c16[ d e c]
-		b4\( a8\) r8
+		b4\( \stemDown a8\) r8
 		\endBar
 		\stemOff d'4 d d
 		\endBar 
@@ -61,7 +61,7 @@
 		titres = \markup \ant #'c "J 110" "Antiennes" }
 } 
 
-\label #'d
+
 \score {\relative f'  { 
 		\times 2/3 { r8_\( g[ g]\) }
 		\times 2/3 { g8[ c b] }
@@ -77,7 +77,7 @@
 		d8[ g,]  a8[ c]
 		\times 2/3 { c8[ c d] }
 		\times 2/3 { c8[ a a] } f8[ a] g4
-		r8 a c4 r8 c
+		\pespace r8 a c4 \pespace r8 c
 		\times 2/3 { c8[ b c] }
 		\ifIndent
 		\times 2/3 { d8[ c a] } g4
@@ -97,8 +97,7 @@
 	Al - le -- lu - - ia.
 	\markup { \citation #"(Mt 28)  " } "" "[Ton 8]"
 	}
-	\header {
-		titres = \markup \ant #'d "J 120" "" }
+
 } 
 
 
@@ -148,7 +147,7 @@
 	\markup { \citation #"(Jn 6)  " } "" "[Ton 2]"
 	}
 	\header {
-		titres = \markup \ant #'f "J 210" "Antiennes" }
+		titres = \markup \ant #'f "J 210" "Antienne" }
 } 
 
 
@@ -193,7 +192,7 @@
 		titres = \markup \ant #'h "J 310" "Antiennes" }
 } 
 
-\label #'i
+
 \score {\relative f'  { 
 		r16 f16[ a c]
 		\times 2/3 { c4\(\cesure c8\) }
@@ -201,15 +200,15 @@
 		\times 2/3 { c8[ c d] } c16[ b g a]
 		\times 2/3 { a4\(\cesure a8\) }
 		\times 2/3 { g8[\cesure g c] }
-		c8[\( c\)]
+		\ifIndent c8[\( c\)]
 		\times 2/3 { c8[ e d] } c4
-		\ifIndent
+		\pespace
 		r16 c16[ d c]
 		b8[ a]		
 		a8[\cesureBasse f16 g]
 		\times 2/3 { bes8[ a bes] } g8[\( c\)] c4
 		\cesure
-		\times 2/3 { c8[ c d] } c8[ g]
+		\times 2/3 { c8[ c d] } c8[ g] \ifIndent
 		\times 2/3 { a8[\( g\) f] } f4
 		\endBar
 		\noBreak
@@ -222,18 +221,15 @@
 	de -- ve -- nez mes di -- sci- _ -- ples, car je suis doux et hum -- ble de cœur.
 	\markup { \citation #"(Mt 11)  " } "" "[Ton 5]"
 	}
-	\header {
-		titres = \markup \ant #'i "J 320" "" }
 } 
 
 
 
 \label #'j	
 \score {\relative f'  { \key f \major
-		r8 d f4
-		g8[ a]  e4
-		\times 2/3 { d8[ f g] }
-		bes8[ bes] g4
+		r8 f8 \times 2/3 { f8[ f d] }
+		\slurDashed f4( \times 2/3 { a8[) a g] }
+		a8[ g] f4
 		f8[ a] c8[ bes] a4
 		bes8[ a] g4
 		
@@ -242,9 +238,9 @@
 		\endBar 
 	}
 	\addlyrics {
-			Ma -- rie re -- te -- nait tous les é -- vé -- ne -- ments 
+			Ma -- rie re -- te -- nait tous ces é -- vé -- ne -- ments 
 			et les mé -- di -- tait dans son cœur.
-			\markup { \citation #"(Lc 2)  " } "" "[Ton 1]"
+			\markup { \citation #"(Lc 2)  " } "" "[Ton 6]"
 	}
 	\header {
 		titre = "LE COEUR IMMACULÉ DE MARIE"

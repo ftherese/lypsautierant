@@ -29,7 +29,7 @@
 		\times 2/3 { a8[ g a] } a4
 		\times 2/3 { r8_\( g[ a]\) }
 		g8[ f]
-		\times 2/3 { a8[\( b\) c] } g4
+		\times 2/3 { a8[\( b\) c] } g4 \pespace
 		\times 2/3 { r8_\( f[ g]\) } a8[ a]
 		\times 2/3 { g8[\( g\) a] } g8[ f]
 		\ifIndent
@@ -69,7 +69,7 @@
 \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
 \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
 \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
-\markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" } \markup { "" }
+ \markup { "" } \markup { "" } \markup { "" }
 
 
 \label #'d
@@ -132,52 +132,53 @@
 		\stemOff g4 a4 c4
 		\endBar 
 	}
-	\addlyrics {
+	\addlyrics {\set stanza = #"1. "
 		Le Ver -- be "s'est" fait chair, et il a de -- meu -- ré par -- mi nous,  
 		nous av -- ons con -- tem -- plé sa gloi - - "re ;" 
 		Al - le - lu -- ia, al - le -- lu -- "ia !"
 		\markup { \citation #"(Jn 1)  " } "" "[Ton 8]"
 	}
 	\header {
-		titre = "OCTAVE DE LA NATIVITÉ"
+		titre = "OCTAVE DE LA NATIVITÉ ET DEUXIEME DIMANCHE APRES NOEL"
 		titres = \markup \ant #'e "G 120" "" }
 } 
 
 
 
-%{
+
 \label #'f
 \score {\relative f'  {
 	\key f \major
-		r8. f16
-		f16[\( f\) g e]
-		\times 2/3 { f8[ e d] }
-		\times 2/3 { e8[ d c] }
-		\times 2/3 { d8[ e f] } d4
-		r8 f16[ g]
-		a16[ a g bes] \ifIndent
-		\times 2/3 { a4\( a8\) } \cesure
-		\times 2/3 { f8[ g a] }
-		a8[ bes]
-		a16[ g f e]
-		f8[ d] c8[ d] d4
-		
+		r8 c'8 a8[\( a\)]  g8[ f]  a4 \cesure\pespace
+		a16[ bes c d]
+		\times 2/3 { c8[ c d] }
+		c16[\( c\) bes c]  a4
+		\times 2/3 { r8\( bes[ d]\) }
+		\times 2/3 { d8[ d f] }  e8[ d]
+		\times 2/3 { c4\( c8\) }
+		\ifIndent
+		r8 a16[ bes]
+		c8[\( d]\) c4 \cesure\pespace
+		\times 2/3 { f8[ e f] }
+		\times 2/3 { d4\( c8\) } \cesure\pespace
+		\times 2/3 { bes8[ a bes] } \times 2/3 { g4\( a8\) } \pespace
+		\times 2/3 { r8\( bes[ c]\) }
+		d8[\( c\)] a4
 		\endBar
-		\stemOff f4 g4 a4
+		\stemOff f4 a4 c4
 		\endBar 
 	}
-	\addlyrics {
-		Le Ve -- rbe "s'est" fait chair et il a de -- meu -- ré par -- mi "nous ;" 
-		à  tous ceux qui le re -- çoi -- vent, il a don -- né pou -- voir de de -- ve -- nir enf -- ants de Dieu.
-		\markup { \citation #"(Jn 1)  " } "" "[Ton 1]"
+	\addlyrics {\set stanza = #"2. "
+		Le Ve -- rbe "s'est" fait chair, il a é -- ta -- bli sa de -- meu -- re par -- mi "nous ;" 
+		nous a -- vons con -- tem -- plé sa gloi -- re. Al -- le -- lu- _ ia, al -- le -- lu -- ia-, _ al -- le -- lu -- ia-, _ al -- le -- lu- _ "ia !"
+		\markup { \citation #"(Jn 1)  " } "" "[Ton 5]"
 
 	}
-	\header {
-		titre = "DEUXIEME DIMANCHE DE NOEL"
-		titres = \markup \ant #'f "G 200" "" }
-} 
 
-%}
+
+
+
+}
 
 \label #'g	
 \score {\relative f'  {
@@ -199,12 +200,12 @@
 	\addlyrics {
 		A Bet -- hlé -- em, les ber -- gers vin -- rent en hâ -- te, 
 		ils tro -- uvè -- rent Mar -- ie et Jo- _ -- seph, 
-		et le nou -- veau- -- né, le Sau -- veur, cou -- ché dans un -- e crè- _ -- che.
+		et le nou -- veau -- né, le Sau -- veur, cou -- ché dans un -- e crè- _ -- che.
 		\markup { \citation #"(Lc 2)  " } "" "[Ton 7]"
 	}
 	\header {
 		titre = "LA SAINTE FAMILLE"
-		titres = \markup \ant #'g "G 300" "Benedictus" }
+		titres = \markup \ant #'g "G 200" "Benedictus" }
 } 
 
 \label #'h
@@ -230,7 +231,7 @@
 		\markup { \citation #"(Mt 2)  " } "" "[Ton 8]"
 	}
 	\header {
-		titres = \markup \ant #'h "G 301" "Magnificat" }
+		titres = \markup \ant #'h "G 201" "Magnificat" }
 } 
 
 
@@ -261,7 +262,7 @@
 	 	}
 	\header {
 		titre = "SAINTE MARIE, MERE DE DIEU (1er janvier)"
-		titres = \markup \ant #'i "G 400" "Benedictus" }
+		titres = \markup \ant #'i "G 300" "Benedictus" }
 }
 
 
@@ -292,7 +293,7 @@
 		\markup { \citation #"(St Augustin)  " }""_ "[Ton 6]"
 	}
 	\header {
-		titres = \markup \ant #'j "G 401" "Magnificat" }
+		titres = \markup \ant #'j "G 301" "Magnificat" }
 } 
 
 
@@ -329,7 +330,7 @@
 	}
 	\header {
 		titre = "EPIPHANIE DU SEIGNEUR"
-		titres = \markup \ant #'k "G 500" "Benedictus" }
+		titres = \markup \ant #'k "G 400" "Benedictus" }
 }
 
 \label #'l
@@ -358,7 +359,7 @@
 		\markup { \citation #"(Mt 2)  " } "" "[Ton 8]"
 	}
 	\header {
-		titres = \markup \ant #'l "G 501" "Magnificat" }
+		titres = \markup \ant #'l "G 401" "Magnificat" }
 } 
 
 
@@ -390,7 +391,7 @@
 	}
 	\header {
 		titre = "BAPTEME DU SEIGNEUR"
-		titres = \markup \ant #'m "G 600" "Benedictus" }
+		titres = \markup \ant #'m "G 500" "Benedictus" }
 }
 
 	
@@ -450,7 +451,7 @@
 		\markup { \citation #"(Jn 1)  " } "" "[Ton 4]"
 	}
 	\header {
-		titres = \markup \ant #'o "G 601" "Magnificat" }
+		titres = \markup \ant #'o "G 501" "Magnificat" }
 }
 
 

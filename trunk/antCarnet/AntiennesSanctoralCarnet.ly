@@ -1500,7 +1500,7 @@
 		\pespace\cesure	\pespace\pespace	
 		f8[ d]
 		\times 2/3 { d8[  c d] }
-		\times 2/3 { e8[\( f\) \pespace\cesureTresBasse\pespace d] } c8[ d] a4\( a8\) 
+		\times 2/3 { e8[\( f\) \pespace\cesureTresBasse\pespace d] } c8[ d] a4^\( a8\) 
 		\pespace\pespace r8
 		d8[ e] f8[ a] \ifIndent g8[\( g\)] 
 		\times 2/3 { f8[\pespace\cesureBasse \pespace e d] }
