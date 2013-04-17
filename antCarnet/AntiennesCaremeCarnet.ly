@@ -22,7 +22,7 @@
 		\endBar 
 	}
 	\addlyrics {
-		Re -- ve -- nez au Seig -- neur de tout vo -- tre cœur, car il est ten -- dre- _ -- sse 
+		Re -- ve -- nez au Seig -- neur de tout vo -- tre cœur, car il est ten -- dres- _ -- se 
 		et mi -- sé -- ri -- cor- -- \skip 1 \skip 1 de, lent à  la co -- lè -- re et plein d'a -- mour -.
 		\markup { \citation #"(Jl 2)  " } "" "[Ton 8]" 
 	}
@@ -50,12 +50,12 @@
 		a16[ a b a] 
 		\times 2/3 { a8[ g a] } a8[\( g\)]
 		g8[ a] c8[ b]
-		g4 
+		g4 \pespace
 		r8 e8
 		e8[ g]
 		\ifIndent
 		a8[ a]
-		\times 2/3 { a8[\( b\) a] } g4
+		\times 2/3 { a8[\( b\) a] } g4 \pespace
 		\times 2/3 { r8\( a[ c]\) }
 		\times 2/3 { b8[ g a] }
 		a8[ g] g4
@@ -123,7 +123,7 @@
 		d4 \cesure 
 		\times 2/3 { c8[ d f] }
 		e8[ f] e8[ e]
-		d4\( d8\)  r
+		d4\( d8\) \pespace r
 		c8[ a]
 		\times 2/3 { c8[\( d\) e] }
 		\times 2/3 { d4\( \cesure c8\) }
@@ -212,7 +212,7 @@
 	\ifIndent
 	\times 2/3 { f8[\( f\) f] }
 	
-	f8[\( g\)] f4
+	f8[\( g\)] f4 \pespace
 	\times 2/3 { r8_\( d[ d]\) } e4
 	f16[ e c e] d16[ d f g]
 	f8[\( d\)] d4 \cesure
@@ -228,7 +228,7 @@
 	\addlyrics { \set stanza = #"(A) "
 	Je suis ve -- nu en ce mon -- de pour que les a -- veu -- gles voient, dit le Sei -- gneur.
 	Je suis la Lu -- miè -- re du mon- _ -- de.
-	Qui me suit ne mar -- che -- ra pas dans les té -- nè - bres 
+	Qui me suit ne mar -- che -- ra pas dans les té -- nè- _ -- bres 
 	mais il au -- ra la lu -- miè -- re de- _ -- _la Vie. 
 	\markup { \citation #"(Jn 8-9)  " } "" "[Ton 2]"
 	}
@@ -243,12 +243,12 @@
 	\times 2/3 { g4\( g8\) } \cesure
 	\times 2/3 { g8[ a c] } 
 	c8[ d] e8[ c]
-	\times 2/3 { c4_\( a8\) } \cesure
+	\times 2/3 { c4\(\stemDown  a8\) } \cesure
 	\times 2/3 { c8[ b c] } 
-	\times 2/3 { d8[\( c\) a] }
+	\times 2/3 { d8[\( c\) a] }\stemUp
 	a8[ g] g4
 	\ifIndent
-	g16[\( a\) b\( b\)] a4	
+	g16[ a b\( b\)] a4	
 	a8[ b] g8[ e]
 	\times 2/3 { e8[ g a] } 
 	a8[\( b\)] a4
@@ -374,10 +374,10 @@
 \score {\relative f'  { 
 	r8 g  g8[ d']  d4 \cesure
 	\times 2/3 { c8[ b c] }
-	d8[\( e\)] d4 
+	d8[\( e\)] d4 \pespace
 	r8 b \times 2/3 { c8[ d e] }
 	\times 2/3 { d4\( c8\) }
-	\times 2/3 { c8[\( d\) c] } g4
+	\times 2/3 { c8[\( d\) c] } g4\pespace
 	r8 g g8[\( d'\)] \times 2/3 { d4\( d8\) }
 	\times 2/3 { c8[ b c] } d4
 	r8 b \ifIndent
@@ -394,7 +394,7 @@
 		\endBar 
 	}
 	\addlyrics { 
-	Ré -- jou -- is- -- toi, Jé -- ru -- sa -- le- _ -- m_!
+	Ré -- jou -- is- -- toi, Jé -- ru -- sa -- lem- _ ! 
 	Voi -- ci que ton Roi "s'a" -- van -- ce vers "toi !"
 	Ho -- san- _ -- na au Fils de Da -- "vid !"
 	Bé -- ni soit ce -- lui- _ -- _qui vient au nom du Seign -- eur -_!
@@ -486,7 +486,7 @@
 		\times 2/3 { g8[ a\( c]\) }
 		\times 2/3 { c8[ c b] }
 		\times 2/3 { a4\( a8\) }
-		c8[\( a\)]  g8[ bes]  a4  \cesure
+		c8[\( a\)]  g8[ bes]  a4  \cesure \ifIndent
 		d,16[ a' g b] a4
 		\ifIndent
 		\times 2/3 { r8\( c[ b]\) }
@@ -494,7 +494,7 @@
 		\times 2/3 { g8[ a b] }
 		c8[ b]  a4
 		\times 2/3 { a8[ a d,] }  a'8[\( g\)]
-		\times 2/3 { f8[ g a] }  e4
+		\times 2/3 { f8[ g a] }  e4 \ifIndent
 		\times 2/3 { f8[ g a] }  
 		bes8[\( g\)]  a8[\( bes\)] \espace a4
 		\endBar
@@ -507,7 +507,7 @@
 	" av" -- "ec " vous " ava" -- nt- _ -- _de souf -- "frir ;"
 	car je vous le dis, jam -- ais plus- _ -- _je ne la man -- ge -- rai 
 	jus -- "qu'à " ce "qu'el" -- le soit ac -- com -- plie 
-	dans le Roy -- au -- me de- _ -- Dieu.
+	dans le Roy -- au -- me "de- " _ -- Dieu.
 		\markup { \citation #"(Lc 22)  " } "" "[Ton 1]"
 	}
 	\header {

@@ -287,7 +287,7 @@
 		r8 c
 		d16[\( d\) g, a]
 		\times 2/3 { f8[\( g\) a] }
-		\times 2/3 { c4\( c8\) }
+		\times 2/3 { c4\( c8\) } \pespace
 		r8 c c8[ c]
 		\times 2/3 { e8[\( d\) c] }
 		\times 2/3 { c8[\( c\) c] } c8[ c]
@@ -305,7 +305,7 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(A) "
-		Vous ê -- tes la lu -- miè -- re de mon -- de. 
+		Vous ê -- tes la lu -- miè -- re du mon -- de. 
 		Que bri -- lle vo -- tre lu -- miè -- re de -- vant les hom -- mes, 
 		a -- fin qu'ils voient vos bon -- nes oeu -- vres et 
 		glo -- ri -- fient vo -- tre Pè -- re qui est dans les cieux. 
@@ -344,9 +344,8 @@
 	\relative a'  {
 		\key f \major
 		a8[ g] a8[\( a\)]\pespace
-		\times 2/3 { r8\( c[ bes]\) } c16[ c c c]
+		\times 2/3 { r8\(\pespace c[ bes]\) } c16[ c c c]
 		\times 2/3 { c8[\( c\) c] } bes8[ g] a4
-		
 		r8. f16 f16[ f f d]\ifIndent
 		\times 2/3 { f8[\( f\) f] }
 		\times 2/3 { f8[ g a] } a8[\( a\)]
@@ -374,7 +373,7 @@
 		\times 2/3 { g8[ c b] } a8[ b]
 		\times 2/3 { c8[ a g] } g4
 		\cesure
-		\times 2/3 { f8[ g a] } g4
+		\times 2/3 { f8[ g a] } g4\pespace
 		r8 f a4
 		\cesure
 		\times 2/3 { c8[ b c] }
@@ -584,7 +583,7 @@
 	\relative c''	{
 		r8. b16
 		\times 2/5 {c16[d e d d]}
-		\slurDashed d4 ( e8[) f]
+		\slurDashed d4 ( e8[)\( f]\)
 		e8[\( d\)]
 		\times 2/6 { c16[ c c c d c] } c4\pespace\pespace
 		\times 2/3 { r8\( d[ d]\) }
@@ -758,7 +757,7 @@
 	\relative f'	{
 		\key f \major
 		\times 2/3 { r8_\( a[ a]\) }
-		a8[ g] f8[ d] f8[\( f\)]
+		a8[ g] f8[ d] f8[\( f\)] \pespace
 		\times 2/3 { r8_\( f[ g]\) } a8[\( a\)]
 		\times 2/3 { c8[ c bes] } a4
 		\times 2/3 { r8_\( d,[ e]\) }
@@ -821,7 +820,7 @@
 		\times 2/3 { d8[\( d\)\cesure c] }
 		
 		b16[ a b c]
-		\times 2/3 { b4_\( g8\) }
+		\times 2/3 {\override Stem #'neutral-direction = #up  b4_\( g8\) }
 		\pespace \cesure \pespace\pespace
 		b16[ b c b] a8[ c]
 		\times 2/3 { d8[ d d] } d8[ e]
@@ -869,9 +868,9 @@
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
-		«_Qui est ma mè -- re_? Qui sont mes frè -- res_?_» 
-		dit le Sei -- gneur. «_Ce -- lui qui fait la vo -- lon -- té de Dieu, 
-		ce -- lui- -- là est mon frè -- re, ma sœur et ma mè -- re._» 
+		Qui est ma mè -- re_? Qui sont mes frè -- res_?
+		dit le Sei -- gneur. Ce -- lui qui fait la vo -- lon -- té de Dieu, 
+		ce -- lui- -- là est mon frè -- re, ma sœur et ma mè -- re.
 	\markup { \citation #"(Mc 3)  " } "" "[Ton 1]"
 	}
 	\header {
@@ -883,7 +882,7 @@
 	\relative a'	{
 		r8 f a8[ a]
 		a16[\( a\) g a]
-		c8[ c] d8[ c] a8[\( a\)]
+		c8[ c] d8[ c] a8[\( a\)] \pespace
 		r8 a
 		\times 2/3 { c8[ c d] }
 		\times 2/3 { e8[ e c] } a4
@@ -927,7 +926,7 @@
 		r8 a d8[\cesure d16 d]
 		d16[ d e d]
 		\times 2/3 { c8[\( c\) d] }
-		\times 2/3 { c8[ f f] }
+		\times 2/3 { c8[ f f] } \pespace
 		\times 2/3 { f4\( e8\) }
 		\times 2/3 { r8_\( c[ d]\) }
 		\times 2/3 { d8[ d g] } f8[\( f\)]
@@ -994,7 +993,7 @@
 		Le Roy -- au -- me des cieux est sem -- bla -- ble à
 		un hom -- me qui jet -- te du grain dans son champ.
 		Nuit et jour, il ne sait com -- ment, d'el -- le- -- mê -- me 
-		la ter -- re pro -- duit du fruit, d'a -- bord l'her -- - -- be, 
+		la ter -- re pro -- duit du fruit, d'a -- bord l'her- -- _ be, 
 		puis l'é -- pi, " en" -- fin du blé plein l'é -- pi. 
 	\markup { \citation #"(Mc 4)  " } "" "[Ton 8]"
 	}
@@ -1108,7 +1107,7 @@
 		\times 2/3 { c4\( c8\) }
 		r8 c
 		\times 2/3 { c8[\( c\) c] }
-		\times 2/3 { c8[ d c] }
+		\times 2/3 { c8[ d\( c]\) }
 		\ifIndent
 		\slurDashed a4( \times 2/3 { f8[) g a] } g8[\( f\)] g4
 		\cesure
@@ -1313,7 +1312,7 @@
 		\times 2/3 { f8[ f f] }
 		\ifIndent
 		\times 2/3 { f8[ f f] }
-		\times 2/3 { f8[ g bes] } a4
+		\times 2/3 { f8[\( g\) bes] } a4
 		\pespace \pespace r8 c
 		c16[\cesure c c c]
 		\times 2/3 { c8[ bes g] }
@@ -1423,7 +1422,7 @@
 		r8 g g8[ a]
 		\ifIndent
 		\slurDashed c4( c8[) c]
-		\times 2/3 { c8[\( d\) e] } c4
+		\times 2/3 { c8[\( d\) e] } c4 \pespace
 		\cesure
 		\times 2/3 { a8[ a a] }
 		a8[\( a\)]
@@ -1746,7 +1745,7 @@
 		d16[ d e d]
 		\times 2/3 { c8[\( b\)\cesure b] }
 		c16[ e f d]
-		\times 2/3 { c4_\( a8\) }
+		\times 2/3 {\stemUp c4_\( a8\) }
 		\cesure
 		\ifIndent
 		\times 2/3 { a8[ a b] }
@@ -1983,7 +1982,7 @@
 	\relative f'  {
 		\key f \major
 		r8 c d8[\cesureBasse a']
-		\times 2/3 { bes4_\( a8\) }
+		\times 2/3 {\override Stem #'neutral-direction = #up  bes4_\( a8\) }
 		r8 a16[ c]
 		a16[\( a\) a g] g4
 		r8 f g8[ a] a4
@@ -2006,7 +2005,7 @@
 		«_Pour vous, qui suis -- -je_?_» Si -- mon -- -Pier -- re 
 		ré -- pon -- dit_: «_Tu es le Christ, le Fils du Dieu vi -- vant_!_» 
 		Jé -- sus lui dé -- cla -- ra_: «_Tu es Pier -- re et sur ce 
-		roc je bâ -- ti -- rai mon Eg -- li - se._» 
+		roc je bâ -- ti -- rai mon Eg -- "li- " -- _ se._» 
 	\markup { \citation #"(Mt 16)  " } "" "[Ton 1]"
 	}
 	\header {
@@ -2109,7 +2108,7 @@
 		Ce -- lui qui veut sau -- ver sa vie la per -- dra,
 		mais qui per -- dra sa vie à cau -- se de moi la trou -- ve -- ra. 
 		Que sert à l'hom -- me de ga -- gner le monde en -- tier s'il 
-		vient à per -- dre son â - me. 
+		vient à per -- dre son "â- " -- _ me. 
 	\markup { \citation #"(Mt 16)  " } "" "[Ton 1]"
 	} 
 	\header {
@@ -2168,7 +2167,7 @@
 		c8[ a] a4
 		\cesure
 		g8[ b]
-		\times 2/3 { c4_\( a8\) }
+		\times 2/3 {\stemUp  c4_\( a8\) }
 		\cesure
 		\ifIndent
 		\times 2/3 { g8[ g g] }
@@ -2199,10 +2198,10 @@
 	\relative f'  {
 		\key f \major
 		r8 f
-		\times 2/3 { a8[ a bes] }
+		\times 2/3 { a8[ a\( bes]\) }
 		a8[ g] a8[\( a\)]
 		\times 2/3 { g8[ f e] }
-		\times 2/3 { d8[ d f] }
+		\times 2/3 { d8[ d\( f]\) }
 		g8[\( g\)]
 		\cesure
 		\times 2/3 { a8[ c c] }
@@ -2339,7 +2338,7 @@
 		\times 2/3 { c8[ d e] } c4
 		\cesure
 		a16[ a a a]
-		c16[ c c a] g4 \pespace\pespace
+		c16[ c c a] g4 \pespace
 		\times 2/3 { f8[ g a] } a4
 		\cesure
 		c8[ d]
@@ -2460,7 +2459,7 @@
 	\addlyrics {\set stanza = #"(C) "
 		Si vous n'a -- vez pas é -- té fi -- dè -- les pour de l'ar -- gent, 
 		qui vous con -- fie -- ra le bien vé -- ri -- ta -- ble_? 
-		Si vous n'a -- vez pas é -- té fi -- dè -- les pour le 
+		Si vous n'a -- vez pas " é" -- "té " fi -- dè -- les pour le 
 		bien é -- tran -- ger, le vô -- tre, qui vous le don -- ne -- ra_? 
 	\markup { \citation #"(Lc 16)  " } "" _ "[Ton 6   " "ou   Per.]"
 	}
@@ -2542,7 +2541,7 @@
 \label #'bv
 \score {
 	\relative a'  {
-		g16[ c c c] c8[ d] c8[\( c\)]
+		g16[ c c\( c]\) c8[ d] c8[\( c\)]
 		\times 2/3 { c8[ b c] } a8[\( g\)]
 		r8 f f8[ g]
 		a16[ c d e]
@@ -2574,7 +2573,7 @@
 	\relative c''  {
 		\times 2/3 { r8_\( a[ a]\) }
 		\times 2/3 { a8[ g a] }
-		\slurDashed b4( b16[) c b g] e8[\( e\)]\pespace\pespace
+		\slurDashed \override Stem #'neutral-direction = #up  b4( b16[) c b g] e8[\( e\)]\pespace\pespace
 		r8 a a8[\( a\)]
 		\times 2/3 { g8[ a b] }
 		c8[ c]\ifIndent c8[ b]
@@ -2713,7 +2712,7 @@
 		f4
 		\cesure
 		g16[ a g f]
-		\slurDashed a4( \times 2/3 { a8[) bes g] }
+		\slurDashed a4( \times 2/3 { a8[) bes\( g]\) }
 		f8[ f] d8[\( d\)]
 		\cesure
 		\ifIndent
@@ -2783,7 +2782,7 @@
 		r8 d
 		\times 2/3 { d8[  d d] }
 		\times 2/3 { d8[ c d] }
-		\times 2/3 { e8[ f e] } d4
+		\times 2/3 { e8[ f e] } d4 \pespace
 		\times 2/3 { r8_\( f[ g]\) }
 		\times 2/3 { g8[ f g] }
 		f8[ d] d4
@@ -2881,7 +2880,7 @@
 		r8 a
 		\times 2/3 { a8[ c d] } d4\pespace\pespace
 		\times 2/3 { r8_\( d[ f]\) }
-		\times 2/3 { d8[ c d] }
+		\times 2/3 { d8[ c\( d]\) }
 		\times 2/3 { d8[ f g] }
 		\times 2/3 { f8[\( e\) d] } d4
 		\pespace\cesure\pespace
@@ -2889,9 +2888,9 @@
 		\times 2/3 { f8[ d f] } e8[ d]
 		\ifIndent
 		\times 2/3 { d4\( c8\) } d8[ c]
-		\times 2/3 { a4\(\pespace\cesureTresBasse\pespace a8\) }
-		\times 2/3 { a8[\( a\) c] }
-		d8[\( c]\) \times 2/3 { c4\(\pespace\cesureTresBasse\pespace d8\) }
+		\times 2/3 { a4^\( \pespace\cesureBasse\pespace a8\) }
+		\times 2/3 { a8[^\( a\) c] }
+		d8[\( c]\) \times 2/3 { c4\(\pespace\cesureBasse\pespace d8\) }
 		\times 2/3 { f8[ f g] } f4
 		d8[ e]
 		\times 2/3 { c8[\( d\) f] } f8[\( f\)]
@@ -3029,7 +3028,7 @@
 		\times 2/3 { a8[ c d] } d8[\( d\)]
 		\cesure
 		d16[ d f d]
-		\times 2/3 { d4\( c8\) }
+		\times 2/3 { d4\( c8\) }\pespace
 		r8 d
 		f8[ f] f8[ g]
 		f8.[\cesureBasse f16]
@@ -3037,7 +3036,7 @@
 		a8[ f] f8[\( f\)]
 		\ifIndent
 		f8[ f]
-		\times 2/3 { f8[\( d\) e] } d8[\( d\)]
+		\times 2/3 { f8[\( d\) e] } d8[\( d\)]\pespace
 		r8 f
 		\times 2/3 { g8[ f d] }
 		f16[ f f e]

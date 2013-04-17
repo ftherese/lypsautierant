@@ -41,7 +41,7 @@
 		Le Christ - _nous est né -, ve -- nez, a -- do -- rons -- -le -.
 	}
 } 
-
+\markup { "" } \markup { "" }
 \label #'b
 \score {\relative f'  { 
 		
@@ -65,7 +65,7 @@
 	\header {
 		titres = \markup \ant #'b "" "Octave de Noël et deuxième dimanche" }
 }
- 
+\markup { "" } \markup { "" } 
 \label #'c
 \score {\relative f'  { 
 		r8 g8
@@ -83,7 +83,7 @@
 	\header {
 		titres = \markup \ant #'c "" "La Sainte Famille" }
 }
-	
+\markup { "" } \markup { "" }	
 \label #'d
 \score {\relative f'  { 
 	\key f \major
@@ -91,7 +91,7 @@
 		f16[  d c f e]
 		\times 2/3 { f8[ g f] }
 		\times 2/3 { e8[\( g\) a] }
-		bes4
+		\stemUp	bes4
 		\times 2/3 { r8_\( g[ a]\) }
 		f8[ e] d8[ f] 
 		\times 2/3 { e8[ f d] }
@@ -106,7 +106,7 @@
 	\header {
 		titres = \markup \ant #'d "" "Sainte Marie, Mère de Dieu (1er janvier)" }	
 }
-
+\markup { "" } \markup { "" }
 \label #'e
 \score {\relative f'  { 
 		r8. d16 
@@ -125,7 +125,7 @@
 	\header {
 		titres = \markup \ant #'e "" "Epiphanie du Seigneur" }	
 }
-
+\markup { "" } \markup { "" }
 \label #'f
 \score {\relative f'  { \key f \major
 		\times 2/3 { r8_\( d[ d]\) }
