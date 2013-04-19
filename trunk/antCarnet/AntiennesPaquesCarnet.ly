@@ -508,7 +508,7 @@
 		titres = \markup \ant #'o "I 650" "" }
 }
 
-\label #'p
+
 \score { \relative f'  { 
 	\key f \major
 	\times 2/3 { f8[\( f\) g] } a8[ bes] a8.[ \cesure a16]
@@ -535,8 +535,7 @@
 		Al -- le -- lu - ia.
 	\markup { \citation #"(Ac 1)  " } "" _ "[Ton 1   " "ou   Per.]"
 		}
-	\header {
-		titres = \markup \ant #'p "I 651" "" }
+
 }
 
 
