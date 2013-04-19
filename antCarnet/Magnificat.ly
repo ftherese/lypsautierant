@@ -1026,8 +1026,9 @@ evenHeaderMarkup = \markup
 		\pespace
 		\pespace
 		r16 c16[ c b] c16[ a g g] a4
+		\pespace\pespace
 		\barre
-		\ifIndent
+		\break
 		% de la promesse...
 		r16 g16[ a c] c8[\( c\)] c8[ c16 d] c8[\( c\)]
 		\pespace

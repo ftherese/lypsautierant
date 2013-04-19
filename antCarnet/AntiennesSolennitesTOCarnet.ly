@@ -227,8 +227,8 @@
 
 \label #'j	
 \score {\relative f'  { \key f \major
-		r8 f8 \times 2/3 { f8[ f d] }
-		\slurDashed f4( \times 2/3 { a8[) a g] }
+		r8 d8 \times 2/3 { f8[ f g] }
+		\slurDashed a4( \times 2/3 { g8[) g g] }
 		a8[ g] f4
 		f8[ a] c8[ bes] a4
 		bes8[ a] g4
