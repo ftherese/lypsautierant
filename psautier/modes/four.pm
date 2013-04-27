@@ -125,7 +125,7 @@ sub a_prime {
    push(@a,$syl);
   }
  }
- $a[$#a] = '\\mi{'.$a[$#a].'}';
+# $a[$#a] = '\\mi{'.$a[$#a].'}';
  my $r = join(" ",reverse @a);
  $r =~ s/ -- //g;
  return $r;
