@@ -74,6 +74,7 @@ sub a {
    push(@a,$syl);
   }
  }
+ $a[$#a] = '\\pl{'.$a[$#a].'}';
  my $r = join(" ",reverse @a);
  $r =~ s/ -- //g;
  return $r;

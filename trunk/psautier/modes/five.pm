@@ -83,7 +83,7 @@ sub b {
    if (($c == 3)||($c == 6)){
     push(@a,'\\pl{'.$syl.'}');
    }
-   elsif (($c == 2)||($c == 4)){
+   elsif (($c == 2)||($c == 5)){
     push(@a,'\\mi{'.$syl.'}');
    }
    else{
