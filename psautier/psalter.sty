@@ -3,27 +3,47 @@
 \usepackage{verse}
 \usepackage{setspace}
 
-\setlength{\vleftskip}{10pt}
-\setlength{\vrightskip}{10pt}
-\setlength{\parskip}{1ex}
-\setlength{\topmargin}{0in}
-\setlength{\oddsidemargin}{0in}
-\setlength{\evensidemargin}{0in}
-\setlength{\textheight}{9in}
-\setlength{\textwidth}{6.25in}
-\setlength{\headwidth}{6.25in}
+%\setlength{\vleftskip}{10pt}
+%\setlength{\vrightskip}{10pt}
+%\setlength{\parskip}{1ex}
+%\setlength{\topmargin}{0in}
+%\setlength{\oddsidemargin}{0in}
+%\setlength{\evensidemargin}{0in}
+%\setlength{\textheight}{9in}
+%\setlength{\textwidth}{6.25in}
+%\setlength{\headwidth}{6.25in}
 
-\newcommand{\flagflex}[1]{\hskip\vrightskip\llap{\smash\tiny#1}\hskip\vrightskip\ignorespaces}
+\newcommand{\flagflex}[1]{\hskip\vrightskip\llap{\raisebox{.5ex}{\small#1}}\hskip\vrightskip\ignorespaces}
 
-\def\pl#1{\oalign{\smash{#1}\cr\hfil$\scriptscriptstyle+$\hfil\cr}}
+\newcommand\pl[2][25000sp]{\oalign{\smash{#2}\cr\noalign{\vskip#1}\hfil$\scriptscriptstyle\!+\!$\hfil\cr}}
+%\def\pl#1{\oalign{\smash{#1}\cr\hfil$\scriptscriptstyle\!+\!$\hfil\cr}}
 %\def\pl#1{\leavevmode\setbox0\hbox{#1}\setbox1\hbox to \wd0{\hss\raise1.5ex\hbox{\tiny{+}}\hss}{\vtop{\box0\box1}}}
 %\def\pl#1{$\smash{\underset{\text{\tiny{+}}}{\smash{\text{#1}}}}$}
 %\def\pl#1{$\underset{\text{\tiny +}}{\text{#1}}$}
 %\def\pl#1{$\stackrel{\hbox{#1}}{\hbox{\tiny +}}$}
 %\def\pl#1{$\displaystyle{\mathop{\mbox{\smash {#1}}}_{\scriptscriptstyle +}}$} 
 
+\newcommand\mi[2][25000sp]{\oalign{\smash{#2}\cr\noalign{\vskip#1}\hfil$\scriptscriptstyle\!-\!$\hfil\cr}}
+%\def\mi#1{\oalign{\smash{#1}\cr\hfil$\scriptscriptstyle\!-\!$\hfil\cr}}
 %\def\mi#1{\leavevmode\setbox0\hbox{#1}\setbox1\hbox to \wd0{\hss\raise1.5ex\hbox{\tiny{--}}\hss}{\vtop{\box0\box1}}}
 %\def\mi#1{$\underset{\text{--}}{\smash{\text{#1}}}$}
 %\def\mi#1{$\underset{\text{--}}{\text{#1}}$}
 %\def\mi#1{$\displaystyle{\mathop{\mbox{\smash {#1}}}_{\scriptscriptstyle -}}$} 
-\def\mi#1{\oalign{\smash{#1}\cr\hfil$\scriptscriptstyle-$\hfil\cr}}
+
+\newcommand\bv[1][]{\def\tmp{#1}\@bv}
+\newcommand\@bv[2][\z@]{%
+\typeout{[[\tmp]][[#1]][[#2]]}%
+  \ifx\tmp\@empty
+   \textbf{#2}%
+  \else
+  \setbox0\hbox{\tmp#2}%
+  \setbox2\hbox{\tmp\textbf{#2}}%
+  \tmp\kern\dimexpr(\wd0-\wd2)/2-#1\relax\textbf{#2}%
+  \fi}
+
+
+\def\kernfix#1#2{%
+  \setbox0\hbox{#1\kern\z@#2}%
+  \setbox2\hbox{#1#2}%
+  \kern\dimexpr\wd2-\wd0\relax}
+
