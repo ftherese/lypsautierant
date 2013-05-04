@@ -48,7 +48,7 @@ foreach my $line (@lines){
     $lilyfile = $1;}
 #  print '\poemtitle{'.$line." mode ".$ARGV[1]."}\\nopagebreak\n";
 #  print '\begin{changemargin}{-40pt}{0pt}'."\n";
-  print '\lilypondfile[noindent]{../2.14/p'.$lilyfile.'.ly}'."\n";
+  print '\lilypondfile[noindent]{../en-US/p'.$lilyfile.'.ly}'."\n";
 #  print '\end{changemargin}'."\n";
   print '\settowidth{\versewidth}{'.$length.'}'."\n";
   print '\begin{flushleft}'."\n".'\begin{verse}[\versewidth]'."\n";
@@ -69,7 +69,7 @@ foreach my $line (@lines){
    if ($line =~ /^\d/) {
     my @l = split(" ",$line);
     my $verse = shift(@l);
-    print "\\flagverse\{\\scriptsize \{ $verse \}\} ";
+    print "\\flagverse\{\\raisebox\{1ex\}\{\\tiny \{ $verse \}\}\} ";
     $line = join(" ",@l);
    }
    if ((($lines[$counter+2] =~ /[.?"!]$/)||($lines[$counter+3] =~ /^$/)) && ($plines % 2 == 1)){
@@ -89,7 +89,7 @@ foreach my $line (@lines){
  }
  $counter++;
 }
-my $line = "Now and for ev -- er. A -- men";
+my $line = "Nów and for év -- er. A -- mén";
 my $temp = eval qq~modes::~ . $ARGV[1] . '::' . $ARGV[$alt] . qq~(\$line);~;
 print $temp . '\\\\'."!\n";
 print '\end{verse}'."\n".'\end{flushleft}'."\n";

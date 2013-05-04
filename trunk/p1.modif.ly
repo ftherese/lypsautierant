@@ -1,6 +1,6 @@
 ﻿\version "2.10.0"
 \include "definitions.ly"
-\markup { Psaume 1}
+\markup { Psaume 1 }
 
 
 \relative c'' {
@@ -81,7 +81,8 @@
 		Je suis la Voie, dit le Sei -- gneur. " Al" -- le -- lu -- "ia !" _ 
 
 		\markup { \citation #"Jn 14" } }
-}	
 
 
+
+}
 \version "2.10.0"  % necessary for upgrading to future LilyPond versions.
