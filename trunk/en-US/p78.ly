@@ -9,7 +9,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T } }
 		
 		c8 d[ f] f[\( f\)] 
 		\pespace
@@ -31,7 +31,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T Adv. } }
 		
 		\times 2/3 {c8[ d c]} f[ e] \times 2/3 {f[ g f] } f4\pespace \times 2/3 { r8_\( f[ f\)] } \times 2/3 {e[\( c\) d] } d4
 
@@ -50,7 +50,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Noël T.P. } }
+		\set Staff.instrumentName = \markup{ \left-column { Chr. Easter } }
 		
 		c8 d[ f] f[\( f\)] e16[ f g f] f4
 		\cesure \pespace f16[ f f f] \times 2/3 { f8[ e  c] } d4
@@ -72,7 +72,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { Car. } }
 		
 		f8[ e] f[ g] \times 2/3 {f4\(  f8\) } f[ f] f[ f] 
 		\slurDashed

@@ -7,7 +7,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T } }
 		f8
 		\times 2/3 { g8[\( a\) a] }
 		a16[ bes a a]
@@ -17,9 +17,9 @@
 	}
 
 	\addlyrics {
-		Fais lui -- re ta face et nous ser -- ons sau -- "vés !"
-
- 		\markup { \citation #"Ps 79" } }
+May we see bet -- ter times!
+LO -- RD, show us the light of your face!
+ 		\markup { \citation #"Ps 4:7" } }
 	
 	
 }
@@ -27,7 +27,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T Car. } }
 		
 		f8 g[ a] 
 		\times 2/3 { g[ bes a] } g[\( a\)]
@@ -40,8 +40,9 @@
 	}
 
 	\addlyrics {
-		Jé -- sus gra -- vit la mon -- ta -- gne, le soir ve -- nu il pri -- ait seul.
- 		\markup { \citation #"Mt 14" } }
+He went up on the moun -- tain by him -- self to pray. When it was
+eve -- ning he was there a -- lone.
+ 		\markup { \citation #"Mt 14:23" } }
 	
 	
 }
@@ -49,7 +50,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
 		
 		\times 2/3 { f8[ g a] } 
 		a[ \pespace \cesure \pespace bes]
@@ -61,9 +62,8 @@
 	}
 
 	\addlyrics {
-		Ré -- jou -- is --  -toi, com -- blée de grâ -- ce, le Sei -- gneur est a -- vec toi. 
-
- 		\markup { \citation #"Lc 1" } }
+Hail, fa -- vored one! The Lord is with you.
+ 		\markup { \citation #"Lk 1:28" } }
 	
 	
 }
@@ -71,7 +71,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		
 		f8
 		g[ a]
@@ -96,7 +96,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \left-column { Easter } }
 		
 		\times 2/3 { f8[ g a] } 
 		\times 2/3 { a8[ a g] }

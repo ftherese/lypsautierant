@@ -8,7 +8,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T } }
 		
 		\times 2/3 {f8[ g a]} a[ bes] a[ g] a4 r8 a
 		\slurDashed
@@ -32,7 +32,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T Car. } }
 		
 		r8 a16[ a] a[ a a\( a\)] g8[\( g\)]
 		\cesure \pespace\times 2/3 {f8[ g a]} 
@@ -58,7 +58,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Av. Noël } }
+		\set Staff.instrumentName = \markup{ \left-column { Adv. Chr. } }
 		\times 2/3 { r8_\( f[ g]\) } \times 2/3 { a[ a a] }
 		g16[ bes a g]  a4 \cesure \pespace
 		\times 2/3 { a8[ a a] }
@@ -79,7 +79,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \left-column { Easter } }
 		
 		f8 g[ a] g[ bes] a[ g] a4 
 		\pespace

@@ -7,7 +7,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T } }
 		r8. f16
 		f8[\( f16\) f]
 		f[ e f g]
@@ -27,7 +27,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T } }
 		f16[ f f f]
 		e8[ f]
 		g[ g]
@@ -52,7 +52,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { Adv. Car. } }
 		\times 2/3 { c8 d c }
 		\times 2/3 { f4\( f8\) }
 		e16[\( f\) g f]
@@ -68,7 +68,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		\times 2/3 { r8_\( c d\) }
 		\times 2/3 { c[ c f] }
 		\times 2/3 { e f g }
@@ -91,7 +91,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \left-column { Easter } }
 		\times 2/3 { r8_\( c d_\) }
 		c4
 		\cesure \pespace

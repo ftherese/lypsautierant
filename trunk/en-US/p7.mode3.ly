@@ -7,7 +7,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T } }
 		\times 2/3 { r8_\( g a\) }
 		\slurDashed
 		c4(
@@ -35,7 +35,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël} }
+		\set Staff.instrumentName = \markup{ \left-column { O.T Chr.} }
 		 g8
 		a[ c]
 		d16[ c b a]
@@ -60,7 +60,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
 		r8 g16[ a16] c4 d16[ c b a] c4 
 		\pespace
 		r8 c16[ c] 
@@ -83,7 +83,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { Car.  } }
+		\set Staff.instrumentName = \markup{ \left-column { Car.  } }
 		g8 a[\( c\)] \times 2/3 { c[ c d] } c16[ c b a] c4 \cesure \pespace c16[\( c\) c a] c8[ c] 
 		\override Stem #'neutral-direction = #up
 		b4\( a8\) r 
@@ -104,7 +104,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \left-column { Easter } }
 		g16[ a c c] d8[ c] c4
 		c16[\( c\) c a]
 		\times 2/3 { c8[ c b] }

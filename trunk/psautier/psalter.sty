@@ -2,6 +2,7 @@
 \usepackage{amsmath}
 \usepackage{verse}
 \usepackage{setspace}
+\usepackage{bm}
 
 %\setlength{\vleftskip}{10pt}
 %\setlength{\vrightskip}{10pt}
@@ -12,10 +13,17 @@
 %\setlength{\textheight}{9in}
 %\setlength{\textwidth}{6.25in}
 %\setlength{\headwidth}{6.25in}
+\DeclareMathSizes{10}{8}{5}{5}
 
-\newcommand{\flagflex}[1]{\hskip\vrightskip\llap{\raisebox{.5ex}{\small#1}}\hskip\vrightskip\ignorespaces}
+\newcommand{\flagflex}[1]{\hskip\vrightskip\llap{\raisebox{0ex}{\footnotesize#1}}\hskip\vrightskip\ignorespaces}
 
-\newcommand\pl[2][25000sp]{\oalign{\smash{#2}\cr\noalign{\vskip#1}\hfil$\scriptscriptstyle\!+\!$\hfil\cr}}
+\newcommand\pl[2][50000sp]{\oalign{\smash{#2}\cr\noalign{\vskip#1}\hfil$\!{\scriptscriptstyle\bm{+}}\!$\hfil\cr}}
+
+\newcommand\mi[2][50000sp]{\oalign{\smash{#2}\cr\noalign{\vskip#1}\hfil$\!{\scriptstyle\bm{-}}\!$\hfil\cr}}
+
+\def\preLilyPondExample{\begin{adjustwidth}{-1cm}{}}
+\def\postLilyPondExample{\end{adjustwidth}}
+
 %\def\pl#1{\oalign{\smash{#1}\cr\hfil$\scriptscriptstyle\!+\!$\hfil\cr}}
 %\def\pl#1{\leavevmode\setbox0\hbox{#1}\setbox1\hbox to \wd0{\hss\raise1.5ex\hbox{\tiny{+}}\hss}{\vtop{\box0\box1}}}
 %\def\pl#1{$\smash{\underset{\text{\tiny{+}}}{\smash{\text{#1}}}}$}
@@ -23,7 +31,6 @@
 %\def\pl#1{$\stackrel{\hbox{#1}}{\hbox{\tiny +}}$}
 %\def\pl#1{$\displaystyle{\mathop{\mbox{\smash {#1}}}_{\scriptscriptstyle +}}$} 
 
-\newcommand\mi[2][25000sp]{\oalign{\smash{#2}\cr\noalign{\vskip#1}\hfil$\scriptscriptstyle\!-\!$\hfil\cr}}
 %\def\mi#1{\oalign{\smash{#1}\cr\hfil$\scriptscriptstyle\!-\!$\hfil\cr}}
 %\def\mi#1{\leavevmode\setbox0\hbox{#1}\setbox1\hbox to \wd0{\hss\raise1.5ex\hbox{\tiny{--}}\hss}{\vtop{\box0\box1}}}
 %\def\mi#1{$\underset{\text{--}}{\smash{\text{#1}}}$}
@@ -46,4 +53,20 @@
   \setbox0\hbox{#1\kern\z@#2}%
   \setbox2\hbox{#1#2}%
   \kern\dimexpr\wd2-\wd0\relax}
+
+\newlength\fake@f
+\newlength\fake@c
+\def\fakesc#1{%
+  \begingroup%
+  \xdef\fake@name{\csname\curr@fontshape/\f@size\endcsname}%
+  \fontsize{\fontdimen8\fake@name}{\baselineskip}\selectfont%
+  \uppercase{#1}%
+  \endgroup%
+}
+
+\newcommand\textline[4][t]{%
+  \par\smallskip\noindent\parbox[#1]{.333\textwidth}{\raggedright#2}%
+  \parbox[#1]{.333\textwidth}{\centering#3}%
+  \parbox[#1]{.333\textwidth}{\raggedleft{#4}}\par\smallskip%
+}
 

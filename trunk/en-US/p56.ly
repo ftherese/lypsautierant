@@ -7,7 +7,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn	\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T } }
 		f8 \times 2/3 { g[\( a\) a] } 
 		\times 2/3 { a[  g bes] }  \times 2/3 { a[ a a] } 
 		\times 2/3 { a8 g a }
@@ -24,7 +24,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T Car. } }
 		\times 2/3 { f8 g a }
 		a[\( a\)]
 		a16[\( a\) g bes]
@@ -48,7 +48,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
 		\times 2/3 { r8_\( f g\) }
 		a[ g] bes[ a] a4  
 r8  a16[ a]  a16[\( a\) a a]
@@ -68,7 +68,7 @@ r8  a16[ a]  a16[\( a\) a a]
 \relative a' { 
 	\new Staff {
 		\cadenzaOn	\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		f16[\( g\) a a]
 		\times 2/3 { bes8 a g }
 		\times 2/3 { a4\( \cesure\pespace  a8\) }
@@ -90,7 +90,7 @@ r8  a16[ a]  a16[\( a\) a a]
 \relative a' { 
 	\new Staff {
 		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \left-column { Easter } }
 		f8
 		g[ a]
 		\override Stem #'neutral-direction = #up
