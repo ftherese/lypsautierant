@@ -7,7 +7,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {T.O. Av.} }
+		\set Staff.instrumentName = \markup{ \left-column {O.T Adv.} }
 		
 		
 		\times 2/3 { r8_\( g[ c\)] } \times 2/3 { b[ c  d] } \times 2/3 { f[ e  d] } \times 2/3 { d4\(  e8\) } 
@@ -28,7 +28,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T Car. } }
 		
 		\times 2/3 { r8_\( g[ c\)] } \times 2/3 { b[ c  d] } \times 2/3 { f[ e  d] } \times 2/3 { d4\(   e8\) } 
 		\pespace
@@ -49,7 +49,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {Noël T.P.} }
+		\set Staff.instrumentName = \markup{ \left-column {Chr. Easter} }
 		
 		\times 2/3 {g8[ c\( b\)]} c16[ d d f] \times 2/3 {e8[ e d]} \times 2/3 { d4\(   e8\) } 
 		\indentLine r8. \espall d16 d[\( e\) d d c] c8[ b] a4

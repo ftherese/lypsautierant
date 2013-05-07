@@ -8,7 +8,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
 		\times 2/3 { r8_\( c d\) }
 		\times 2/3 { c[ c f] }
 		f16[ \cesuretresbasse \pespace e f g]
@@ -25,14 +25,15 @@
 	}
 
 	\addlyrics {
-		Ce -- lui -- -ci est mon Fils, mon bien -- -ai -- mé, en lui, j'ai mis tou -- te ma comp -- lai -- san -- ce. 
-		\markup { \citation #"Mt 3" } 
+And a voice came from the hea -- vens, say -- ing, “This is my be -- lo -- ved Son, with whom I
+am well pleased.”
+		\markup { \citation #"Mt 3:17" } 
 	}
 }
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. T.P. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T Easter } }
 		\times 2/3 { r8_\( c d\) }
 		c4
 		\cesure \pespace
@@ -55,15 +56,15 @@
 	}
 
 	\addlyrics {
-		Le vain -- queur, je lui don -- ne -- rai pou -- voir sur les na -- tions, a -- vec un scep -- tre de fer, il les mè -- ne -- ra. " (Al" -- le -- lu -- "ia !)"
-		\markup { \citation #"Ap 2" } 
+		“To the vic -- tor, I will give au -- tho -- ri -- ty o -- ver the na -- tions. He will rule them with an i -- ron rod. " (Al" -- le -- lu -- "ia!)"
+		\markup { \citation #"Ap 2:26-27" } 
 	}
 }
 
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
 		f8[\( f\)]
 		\times 2/3 { e8 f g }
 		\times 2/3 { f4\( f8\) }
@@ -73,14 +74,14 @@
 		\endBar
 	}
 	\addlyrics {
-		L'ê -- tre saint qui naî -- tra se -- ra ap -- pe -- lé Fils de Dieu. 
-		\markup { \citation #"Lc 1" }
+		He will be great and will be called Son of the Most High.
+		\markup { \citation #"Lk 1:32" }
 	}
 }
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { Car. } }
 		c16[ d c f]
 		\times 2/3 { f8 e f }
 		g[ f]
@@ -92,8 +93,9 @@
 	}
 
 	\addlyrics {
-		Ne fal -- lait -- -il pas que le Christ souf -- frît pour ent -- rer dans sa gloi -- re.
-		\markup { \citation #"Lc 24" } 
+Was it not ne -- ces -- sa -- ry that the Mes -- si -- ah should suf -- fer these things and en -- ter in -- to
+his glo -- ry?
+		\markup { \citation #"Lk 24:26" } 
 	}
 }
 

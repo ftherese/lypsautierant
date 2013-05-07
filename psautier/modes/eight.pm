@@ -45,7 +45,7 @@ sub flex {
  }
  my $r = join(" ",reverse @a);
  $r =~ s/ -- //g;
- $r .= '\\flagflex{+}';
+ $r .= '\\flagflex{\\dag}';
  return $r;
 }
 

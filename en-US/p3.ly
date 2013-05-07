@@ -8,7 +8,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T } }
 		r16 f[ g a]
 		a[ a a g]
 		\times 2/3 { bes8 a g }
@@ -23,7 +23,8 @@
 		\endBar
 	}
 	\addlyrics {
-		En -- se -- ve -- lis a -- vec le Christ dans la mort, nous vi -- vons a -- vec lui d'un -- e vie nou -- vel -- le. 
+	We were in -- deed bu -- ried with him through bap -- tism in -- to death, so that we too might live
+in new -- ness of life.
 	%{"(Al" -- le -- lu -- ia "!)" %}
 		\markup { \citation #"Rm 6" }
 	}
@@ -35,7 +36,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. T.P. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T Easter } }
 		f8
 		g[ a]
 		\override Stem #'neutral-direction = #up
@@ -53,17 +54,18 @@
 		\endBar
 	}
 	\addlyrics {
-		Ô toi qui dors, é -- veil -- le- -- toi, re -- lè -- ve- -- toi d'en -- tre les morts. "( Al" -- le -- lu -- "ia !)" _ _ 
-		\markup { \citation #"Ep 5" }
+		A -- wake, O slee -- per,
+and a -- rise from the dead "(Al" -- le -- lu -- "ia!)" _ _ 
+		\markup { \citation #"Eph 5:14" }
 	}
 }
-
+
 
 \relative f' { 
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Av. Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { Adv. Car. } }
 		f8
 		g16[ a a a]
 		a8[\( a\)] \pespace
@@ -78,8 +80,8 @@
 		\endBar
 	}
 	\addlyrics {
-		Vi -- vez dans la pri -- è -- re et les sup -- pli -- ca -- tions, à tout mo -- ment, pri -- ez dans l'Es -- prit.
-		\markup { \citation #"Ep 6" }
+With all prayer and sup -- pli -- ca -- tion, pray at ev -- ery op -- por -- tu -- ni -- ty in the Spi -- rit.
+		\markup { \citation #"Ep 6:18" }
 	}
 }
 
@@ -88,7 +90,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		\times 2/3 { f8[ g a] }
 		\times 2/3 { a[ g\( bes ]\) }
 		a[\( g\)]
@@ -100,8 +102,9 @@
 		\endBar
 	}
 	\addlyrics {
-		Je vous an -- nonce u -- ne gran -- de "joie :" au -- jour -- d'hui vous est né un Sau -- veur.
-		\markup { \citation #"Lc 2" }
+I proc -- laim to you good
+news of great joy: to -- day a sa -- vior has been born for you.
+		\markup { \citation #"Lk 2:10-11" }
 	}
 }
 

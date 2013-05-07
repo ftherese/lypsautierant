@@ -5,7 +5,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { Car. } }
 		c8[\( c\)] \cesure\pespace
 		c16[ c c c]
 		c8[ d]  c8[\( c\)] \pespace 

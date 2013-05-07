@@ -6,7 +6,7 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Noël } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T Chr. } }
 		
 		c16[ d c f]
 		\slurDashed
@@ -32,7 +32,7 @@
 	\new Staff {
 		\cadenzaOn
 	
-		\set Staff.instrumentName = \markup{ \center-column { T.O. T.P. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T Easter } }
 		r16 c[ d f] f[\( f\) f g] f8[\( f\)] \pespace \times 2/3 { r8_\( f[ f\)] } f[ f] e[ c] \times 2/3 { d4\( d8\) }
 		\barre \pespace\times 2/3 { r8_\( f[ e\)] } c[\( d\)] d4
 		
@@ -51,7 +51,7 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { Adv. Car. } }
 		c16[ d c f]
 		f8[\( f\)]
 		\times 2/3 { f[ f f] }
