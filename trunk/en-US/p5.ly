@@ -22,9 +22,8 @@
 		\endBar
 	}
 	\addlyrics {
-		Les dis -- cip -- les se rap -- pe -- lè -- rent qu'il est éc -- "rit :" Le zè -- le pour ta mai -- son me dé -- vo -- re -- ra.
-
-		\markup { \citation #"Jn 2" }
+His dis -- ci -- ples re -- called the words of scrip -- ture, “Zeal for your house will con -- sume me.”
+		\markup { \citation #"Jn 2:17" }
 	}
 }
 \relative f' { 
@@ -39,8 +38,8 @@
 		\endBar
 	}
 	\addlyrics {
-		Par le Christ, nous a -- vons acc -- ès aup -- rès du Pè -- re.
-		\markup { \citation #"Ep 2" }
+	Through him we have ac -- cess in one Spi -- rit to the Fa -- ther.
+		\markup { \citation #"Eph 2" }
 	}
 }
 \relative f' { 
@@ -57,8 +56,14 @@
 		\endBar
 	}
 	\addlyrics {
-		Voi -- ci le temps de ré -- com -- pen -- ser ceux qui crai -- gnent ton nom.
-		\markup { \citation #"Ap 11" }
+%but 
+Your wrath has come, and 
+the time % for the dead to be judged,
+%and 
+to re -- com -- pense %your ser -- vants, the prop -- hets,
+%and the ho -- ly ones and 
+those who fear your name.
+		\markup { \citation #"Rev 11:18" }
 	}
 }
 
@@ -77,8 +82,8 @@
 		\endBar
 	}
 	\addlyrics {
-		Les ber -- gers se di -- rent entre "eux :" Al -- lons jus -- qu'à Beth -- lé -- em.
-		\markup { \citation #"Lc 2" }
+The shep -- herds said to one a -- no -- ther, “Let us go, then, to Be -- thle -- hem.”
+		\markup { \citation #"Lk 2:15" }
 	}
 }
 
@@ -105,8 +110,11 @@
 		\endBar
 	}
 	\addlyrics {
-		Ay -- ant ap -- prê -- té les a -- ro -- ma -- tes, el -- les al -- lè -- rent de grand ma -- tin au tom -- beau. Al -- le -- lu -- "ia !"
-		\markup { \citation #"Lc 24" }
+Some wo -- men from our group %, ho -- wever, have as -- toun -- ded us: they 
+were at the tomb ear -- ly in the mor -- ning.
+%23 and did not find his bo -- dy; 
+Al -- le -- lu -- "ia !"
+		\markup { \citation #"Lk 24:22" }
 	}
 }
 
