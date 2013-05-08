@@ -87,8 +87,9 @@ Hail, fa -- vored one! The Lord is with you.
 	}
 
 	\addlyrics {
-		Mes yeux ont vu ton sa -- lut que tu as pré -- pa -- ré à la fa -- ce des peu -- ples. 
- 		\markup { \citation #"Lc 2" } }
+My eyes have seen your sal -- va -- tion,
+which you pre -- pared in sight of all the peo -- ples.
+ 		\markup { \citation #"Lk 2:30-31" } }
 	
 	
 }
@@ -110,8 +111,9 @@ Hail, fa -- vored one! The Lord is with you.
 	}
 
 	\addlyrics {
-		Pour son a -- mi le Sei -- gneur fait mer -- vei -- lle, il l'a res -- su -- sci -- té d'en -- tre les morts. " Al" -- le -- lu -- "ia !"
- 		\markup { \citation #"Cf. Ps 4" } }
+		 Know that the Lord works won -- ders for his faith -- ful one;
+the Lord hears when I call out to him. " Al" -- le -- lu -- "ia !"
+ 		\markup { \citation #"Cf. Ps 4:4" } }
 	
 	
 }
