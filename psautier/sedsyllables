@@ -119,6 +119,8 @@ s/\<ho -- pes\>/hopes/g;
 s/\<hó -- pes\>/hópes/g;
 s/\<sc -- hemes\>/schemes/g;
 s/\<sc -- hémes\>/schémes/g;
+s/\<Ch -- rist\>/Christ/g;
+s/\<Ch -- ríst\>/Chríst/g;
 s/\<co -- vetous\>/co -- ve -- tous/g;
 s/\<có -- vetous\>/có -- ve -- tous/g;
 s/\<ínte -- rest\>/ín -- terest/g;
