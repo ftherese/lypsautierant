@@ -9,6 +9,7 @@
 echo "\documentclass[11pt,twoside,a5paper]{memoir}" > newPsalter.tex;
 #echo "\setpapersize{custom}{148mm}{210mm}" > newPsalter.tex;
 echo "\usepackage{verse}" >> newPsalter.tex;
+echo "\usepackage{../psaltertitle}" >> newPsalter.tex;
 echo "\usepackage{xunicode}" >> newPsalter.tex;
 echo "\usepackage{fontspec}" >> newPsalter.tex;
 echo "\usepackage{xltxtra}" >> newPsalter.tex;
@@ -30,6 +31,10 @@ echo "\semiisopage[10]" >> newPsalter.tex;
 echo "\checkandfixthelayout" >> newPsalter.tex;
 echo "\nouppercaseheads" >> newPsalter.tex;
 echo "\begin{document}" >> newPsalter.tex;
+echo "\pagestyle{empty}" >> newPsalter.tex;
+echo "\titleWH" >> newPsalter.tex;
+echo "\clearpage" >> newPsalter.tex;
+echo "\setcounter{page}{1}" >> newPsalter.tex;
 echo "\makepagestyle{psalter}" >> newPsalter.tex;
 echo "\makeoddhead{psalter}{\textcolor{red}{\leftmark}}{}{}" >> newPsalter.tex;
 echo "\makeevenhead{psalter}{}{}{\textcolor{red}{\rightmark}}" >> newPsalter.tex;
@@ -42,6 +47,6 @@ echo "\pagestyle{psalter}" >> newPsalter.tex;
 echo "\renewcommand*{\poemtitlemark}[1]{\markboth{#1}{#1}}" >> newPsalter.tex;
 echo "\renewcommand*{\PoemTitlefont}{\centering\scshape\Large}" >> newPsalter.tex;
 
-for i in `ls Psalm*|grep Psalm00[1-5]`; do export psalm=$(echo $i|sed 's/Psalm0*\([1-9][0-9]*[AB]*\)\.tex/\1/g;'); echo "\PoemTitle[ps. $psalm]{\textline[t]{\hfill}{$(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~/markup/){printf $2}}')}{$(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~ /markup/){printf $4}}')}}" >> newPsalter.tex; echo "\input{`basename $i .tex`}" >> newPsalter.tex; done
+for i in `ls Psalm*|grep Psalm00[1-5]`; do export psalm=$(echo $i|sed 's/Psalm0*\([1-9][0-9]*[AB]*\)\.tex/\1/g;'); echo "\needspace{4\baselineskip}" >> newPsalter.tex; echo "\PoemTitle[ps. $psalm]{\textline[t]{\hfill}{$(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~/markup/){printf $2}}')}{$(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~ /markup/){printf $4}}')}}" >> newPsalter.tex; echo "\input{`basename $i .tex`}" >> newPsalter.tex; done
 
 echo "\end{document}" >> newPsalter.tex;
