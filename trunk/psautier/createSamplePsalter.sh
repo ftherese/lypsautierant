@@ -14,7 +14,7 @@ echo "\usepackage{xunicode}" >> newPsalter.tex;
 echo "\usepackage{fontspec}" >> newPsalter.tex;
 echo "\usepackage{xltxtra}" >> newPsalter.tex;
 echo "\setmainfont[Mapping=tex-text,Numbers=OldStyle]{Adobe Jenson Pro}" >> newPsalter.tex;
-echo "\usepackage{psalter}" >> newPsalter.tex;
+echo "\usepackage{../psalter}" >> newPsalter.tex;
 echo "\semiisopage[10]" >> newPsalter.tex;
 #echo "\setstocksize{210mm}{148mm}" >> newPsalter.tex;
 #echo "\settrimmedsize{195mm}{125mm}{*}" >> newPsalter.tex;
