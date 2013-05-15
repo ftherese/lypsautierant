@@ -82,14 +82,15 @@
 ./modes.pl "revisedGrailPsalter/Psalm\ 79" two a b | sed -f sedaccents > Psalm078.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 80" three a b | sed -f sedaccents > Psalm079.tex;
 
-echo "\documentclass[10pt,twoside,a5paper]{memoir}" > newPsalter.tex;
+echo "\documentclass[12pt,twoside,a5paper]{memoir}" > newPsalter.tex;
 echo "\usepackage{verse}" >> newPsalter.tex;
-echo "\usepackage{psalter}" >> newPsalter.tex;
+echo "\usepackage{../psaltertitle}" >> newPsalter.tex;
 echo "\usepackage{xunicode}" >> newPsalter.tex;
 echo "\usepackage{fontspec}" >> newPsalter.tex;
 echo "\usepackage{xltxtra}" >> newPsalter.tex;
-echo "\setmainfont[Mapping=tex-text,Numbers=OldStyle]{Warnock Pro}" >> newPsalter.tex;
-echo "\semiisopage[12]" >> newPsalter.tex;
+echo "\setmainfont[Mapping=tex-text,Numbers=OldStyle]{Adobe Jenson Pro}" >> newPsalter.tex;
+echo "\usepackage{../psalter}"  >> newPsalter.tex;
+echo "\semiisopage[8]" >> newPsalter.tex;
 #echo "\setstocksize{210mm}{148mm}" >> newPsalter.tex;
 #echo "\settrimmedsize{195mm}{125mm}{*}" >> newPsalter.tex;
 #echo "\setlength{\trimtop}{0pt}" >> newPsalter.tex;
@@ -105,18 +106,22 @@ echo "\semiisopage[12]" >> newPsalter.tex;
 echo "\checkandfixthelayout" >> newPsalter.tex;
 echo "\nouppercaseheads" >> newPsalter.tex;
 echo "\begin{document}" >> newPsalter.tex;
+echo "\pagestyle{empty}" >> newPsalter.tex;
+echo "\titleWH" >> newPsalter.tex;
+echo "\clearpage" >> newPsalter.tex;
+echo "\setcounter{page}{1}" >> newPsalter.tex;
 echo "\makepagestyle{psalter}" >> newPsalter.tex;
-echo "\makeevenhead{psalter}{\leftmark}{}{}" >> newPsalter.tex;
-echo "\makeoddhead{psalter}{}{}{\rightmark}" >> newPsalter.tex;
-echo "\makeevenfoot{psalter}{\thepage}{}{}" >> newPsalter.tex;
-echo "\makeoddfoot{psalter}{}{}{\thepage}" >> newPsalter.tex;
+echo "\makeoddhead{psalter}{\textcolor{red}{\leftmark}}{}{}" >> newPsalter.tex;
+echo "\makeevenhead{psalter}{}{}{\textcolor{red}{\rightmark}}" >> newPsalter.tex;
+echo "\makeoddfoot{psalter}{\textcolor{red}{\thepage}}{}{}" >> newPsalter.tex;
+echo "\makeevenfoot{psalter}{}{}{\textcolor{red}{\thepage}}" >> newPsalter.tex;
 #echo "\makepsmarks{psalter}{" >> newPsalter.tex;
 #echo "\createmark{poemtitle}{both}{nonumber}{}{}}" >> newPsalter.tex;
 echo "\PlainPoemTitle" >> newPsalter.tex;
 echo "\pagestyle{psalter}" >> newPsalter.tex;
 echo "\renewcommand*{\poemtitlemark}[1]{\markboth{#1}{#1}}" >> newPsalter.tex;
-echo "\renewcommand*{\PoemTitlefont}{\normalfont\small}" >> newPsalter.tex;
-for i in `ls Psalm*|grep Psalm*[0-9]`; do export psalm=$(echo $i|sed 's/Psalm0*\([1-9][0-9]*[AB]*\)\.tex/\1/g;'); echo "\PoemTitle[ps. $psalm]{\hskip 1.4cm $(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~/markup/){printf $2}}')\hskip 2.5cm $(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~ /markup/){printf $4}}')}" >> newPsalter.tex; echo "\input{`basename $i .tex`}" >> newPsalter.tex; done
+echo "\renewcommand*{\PoemTitlefont}{\centering\scshape\large}" >> newPsalter.tex;
+for i in `ls Psalm*|grep Psalm*[0-9]`; do export psalm=$(echo $i|sed 's/Psalm0*\([1-9][0-9]*[AB]*\)\.tex/\1/g;'); echo "\needspace{3\baselineskip}" >> newPsalter.tex; echo "\PoemTitle[ps. $psalm]{\textline[t]{\hfill}{$(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~/markup/){printf $2}}')}{$(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~ /markup/){printf $4}}')}}" >> newPsalter.tex; echo "\input{`basename $i .tex`}" >> newPsalter.tex; done
 
 echo "\end{document}" >> newPsalter.tex;
 #echo "\documentclass[10pt,letterpaper,twoside]{report}" > newPsalter1-49.tex;

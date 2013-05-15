@@ -6,7 +6,7 @@
 ./modes.pl "revisedGrailPsalter/Psalm\ 4" six a b | sed -f sedaccents > Psalm004.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 5" one a_prime b_prime | sed -f sedaccents > Psalm005.tex;
 
-echo "\documentclass[11pt,twoside,a5paper]{memoir}" > newPsalter.tex;
+echo "\documentclass[12pt,twoside,a5paper]{memoir}" > newPsalter.tex;
 #echo "\setpapersize{custom}{148mm}{210mm}" > newPsalter.tex;
 echo "\usepackage{verse}" >> newPsalter.tex;
 echo "\usepackage{../psaltertitle}" >> newPsalter.tex;
@@ -15,7 +15,7 @@ echo "\usepackage{fontspec}" >> newPsalter.tex;
 echo "\usepackage{xltxtra}" >> newPsalter.tex;
 echo "\setmainfont[Mapping=tex-text,Numbers=OldStyle]{Adobe Jenson Pro}" >> newPsalter.tex;
 echo "\usepackage{../psalter}" >> newPsalter.tex;
-echo "\semiisopage[10]" >> newPsalter.tex;
+echo "\semiisopage[8]" >> newPsalter.tex;
 #echo "\setstocksize{210mm}{148mm}" >> newPsalter.tex;
 #echo "\settrimmedsize{195mm}{125mm}{*}" >> newPsalter.tex;
 #echo "\setlength{\trimtop}{0pt}" >> newPsalter.tex;
