@@ -2,7 +2,7 @@
 \usepackage{amsmath}
 \usepackage{verse}
 \usepackage{setspace}
-\usepackage{bm}
+\RequirePackage{fix-cm}
 
 %\setlength{\vleftskip}{10pt}
 %\setlength{\vrightskip}{10pt}
@@ -13,13 +13,15 @@
 %\setlength{\textheight}{9in}
 %\setlength{\textwidth}{6.25in}
 %\setlength{\headwidth}{6.25in}
-\DeclareMathSizes{10}{8}{5}{5}
+%\DeclareMathSizes{12}{10}{5}{5}
 
-\newcommand{\flagflex}[1]{\hskip\vrightskip\llap{\raisebox{0ex}{\footnotesize#1}}\hskip\vrightskip\ignorespaces}
+\newcommand{\flagflex}[1]{\hskip\vrightskip\llap{\raisebox{.5ex}{\fontsize{5pt}{5pt}\fontencoding{T1}\selectfont#1}}\hskip\vrightskip\ignorespaces}
 
-\newcommand\pl[2][50000sp]{\oalign{\smash{#2}\cr\noalign{\vskip#1}\hfil$\!{\scriptscriptstyle\bm{+}}\!$\hfil\cr}}
+\newcommand\pl[2][0sp]{\oalign{\smash{#2}\cr\noalign{\vskip#1}\hfil\fontsize{5pt}{5pt}\fontencoding{T1}\selectfont{\textbf{+}}\hfil\cr}}
+%\newcommand\pl[2][50000sp]{\oalign{\smash{#2}\cr\noalign{\vskip#1}\hfil$\!{\textbf{\scriptscriptsize+}}\!$\hfil\cr}}
 
-\newcommand\mi[2][50000sp]{\oalign{\smash{#2}\cr\noalign{\vskip#1}\hfil$\!{\scriptscriptstyle\bm{-}}\!$\hfil\cr}}
+\newcommand\mi[2][0sp]{\oalign{\smash{#2}\cr\noalign{\vskip#1}\hfil\fontsize{5pt}{5pt}\fontencoding{OMS}\selectfont\char0\hfil\cr}}
+%\newcommand\mi[2][50000sp]{\oalign{\smash{#2}\cr\noalign{\vskip#1}\hfil$\!{\scriptstyle{\bm{-}}}\!$\hfil\cr}}
 
 \def\preLilyPondExample{\begin{adjustwidth}{-1cm}{}}
 \def\postLilyPondExample{\end{adjustwidth}}

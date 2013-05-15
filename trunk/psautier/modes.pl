@@ -24,9 +24,10 @@ if(opendir(LIB, $lP)){
 
 my $source = $ARGV[0];
 
-my $length = `awk \'\{ if (length(\$0) > max) \{max = length(\$0); maxline = \$0\} \} END \{ print maxline \}\' $source`;
+#my $length = `awk \'\{ if (length(\$0) > max) \{max = length(\$0); maxline = \$0\} \} END \{ print maxline \}\' $source|sed \'y/[áéíóúÁÉÍÓÚ]/[aeiouAEIOU]/\'`;
+my $length = `awk \'\{ cnt += length(\$0) \} END \{ print cnt / NR \}\' $source|sed \'y/[áéíóúÁÉÍÓÚ]/[aeiouAEIOU]/\'`;
 chomp ($length);
-$length = unac_string($length);
+$length=$length/2;
 
 my @lines = `sed -e \'2,\$\{\' -f sedsyllables -e \'}\' $source`;
 my $lilyfile;
@@ -50,8 +51,8 @@ foreach my $line (@lines){
 #  print '\begin{changemargin}{-40pt}{0pt}'."\n";
   print '\lilypondfile[noindent]{../en-US/p'.$lilyfile.'.ly}'."\n";
 #  print '\end{changemargin}'."\n";
-  print '\settowidth{\versewidth}{'.$length.'}'."\n";
-  print '\begin{flushleft}'."\n".'\begin{verse}[\versewidth]'."\n";
+#  print '\settowidth{\versewidth}{'.$length.'em}'."\n";
+  print '\begin{flushleft}'."\n".'\begin{verse}['.$length.'em]'."\n";
  }
  elsif ($counter >= 1){
   if ( ( $line =~ /^$/ ) && ( $lines[($counter+1)] !~ /^$/ ) ){
