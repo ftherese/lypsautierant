@@ -403,7 +403,7 @@
 	}
 	\header {
 		titre = "DIMANCHE DES RAMEAUX"
-		titres = \markup \ant #'m "H 610" "" }
+		titres = \markup \ant #'m "H 600" "" }
 } 
 
 
@@ -421,7 +421,7 @@
 		\times 2/3 { f8[\( g\) d] }
 		\ifIndent
 		\times 2/3 { c4\( d8\) }
-		d8[ a']  bes8[ g] 
+		d8[ a']  bes!8[ g] 
 		f8[\( e\)] e4
 		\endBar
 		\stemOff  a4 a a
@@ -436,7 +436,7 @@
 	}
 	\header {
 		titre = "PREMIERS JOURS DE LA SEMAINE SAINTE"
-		titres = \markup \ant #'n "H 620" "" }
+		titres = \markup \ant #'n "H 610" "" }
 } 
 
 \label #'o
@@ -473,7 +473,7 @@
 		\markup { \citation #"(Jn 12)  " } "" "[Ton 8]"
 	}
 	\header {
-		titres = \markup \ant #'o "H 621" "" }
+		titres = \markup \ant #'o "H 611" "" }
 } 
 
 
@@ -512,7 +512,7 @@
 	}
 	\header {
 		titre = "JEUDI SAINT"
-		titres = \markup \ant #'p "H 710" "" }
+		titres = \markup \ant #'p "H 620" "" }
 }
 
 
@@ -554,7 +554,7 @@
 	}
 	\header {
 		titre = "VENDREDI SAINT"
-		titres = \markup \ant #'q "H 810" "" }
+		titres = \markup \ant #'q "H 630" "" }
 } 	
 
 
@@ -584,7 +584,7 @@
 	}
 	\header {
 		titre = "SAMEDI SAINT"
-		titres = \markup \ant #'r "H 910" "" }
+		titres = \markup \ant #'r "H 640" "" }
 }
 
 

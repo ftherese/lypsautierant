@@ -2618,13 +2618,13 @@
 		g8[ f]
 		g4\( e8\) r8
 		\endBar
-		\stemOff c4 d f
+		\stemOff a4 a a
 		\endBar 
 	}
 	\addlyrics {\set stanza = #"(B) "
 		Lais -- sez les en -- fants ve -- nir à moi_; ne les em -- pê -- chez pas, 
 		le Roy -- au -- me de Dieu est à ceux qui leur res -- sem -- blent. 
-	\markup { \citation #"(Mc 10)  " } "" "[Ton 2]"
+	\markup { \citation #"(Mc 10)  " } "" "[Ton 4]"
 	}
 	\header {
 		titres = \markup \ant #'bx "K 271" "" }
