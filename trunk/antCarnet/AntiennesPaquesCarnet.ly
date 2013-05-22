@@ -307,7 +307,7 @@
 	Je suis le Che -- min, la Vé -- ri -- té et la Vie.
 	Nul ne vient vers le Pè -- re que par moi.
 	Al -- le -- lu - - "ia !" 
-	\markup { \citation #"(Jn 14)  " } "" _ "[Ton 6   " "ou   Per.]"
+	\markup { \citation #"(Jn 14)  " } "" _ "[Ton 1   " "ou   Per.]"
 	} 
 	\header {
 		titre = "CINQUIEME DIMANCHE DE PAQUES"
@@ -424,7 +424,7 @@
 	\times 2/3 { \stemUp	 c4_\( a8\) } \cesure 
 	\times 2/3 { c8[ b a] }
 	g8[ g]  a8[\( b\)] a4  \cesure 
-	g8[ a16\( b\)] a4 a8 r
+	g8[ a16\( b\)] a4\( a8\) r
 		\endBar
 		\noBreak
 		\stemOff f4 g a
@@ -513,8 +513,8 @@
 	\key f \major
 	\times 2/3 { f8[\( f\) g] } a8[ bes] a8.[ \cesure a16]
 	\times 2/3 { a8[ a g] }
-	\times 2/3 { a8[ a c] }
-	\times 2/3 { bes8[ a g] }a4
+	\times 2/3 { a16[ a c bes] }
+	 a8[ g] a4
 	r8 d,
 	\times 2/3 { d8[ d d] } d8[ d]
 	\times 2/3 { d8[ f a] } g8.[\cesureBasse f16]

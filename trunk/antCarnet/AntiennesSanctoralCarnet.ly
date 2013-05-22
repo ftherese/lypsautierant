@@ -1448,8 +1448,8 @@
 \score {
 	\relative c''  {
 		r8 g
-		\times 2/3 { f8[\( f\) a] } c8[ b] g8[ a] g8[ a]
-		g8[\( f\)] f8[ a] c8[ b] c8[ a]		
+		\times 2/3 { f8[\( f\) a] } c8[ b] g8[ a] a8[ g]
+		a8[\( g\)] f8[ a] c8[ b] c8[ a]		
 		\times 2/3 { g8[\( g\) g] } f8[ a] g4\( g8\) r8
 		\endBar
 		\noBreak
@@ -1501,7 +1501,7 @@
 		f8[ d]
 		\times 2/3 { d8[  c d] }
 		\times 2/3 { e8[\( f\) \pespace\cesureTresBasse\pespace d] } c8[ d] a4^\( a8\) 
-		\pespace\pespace r8
+		\pespace \cesure\pespace 
 		d8[ e] f8[ a] \ifIndent g8[\( g\)] 
 		\times 2/3 { f8[\pespace\cesureBasse \pespace e d] }
 		\times 2/3 { c8[\( d\) e] }
