@@ -3,38 +3,43 @@
 
 
 %SANCTORAL
-%{
+
+
 
 \label #'a
 \score {
 	\relative f'  {
-		\key f \major
-		r8 a bes8[ a] a4
-		\cesure
+		%\key f \major
+		a8 bes8[ a] a4
+		\cesure \espace
 		d,8[\( f\)] g4
-		\cesure
+		\cesure \espace
 		a8[\( a\)]
-		\cesure
+		\cesure \espace
 		\times 2/3 { b8[ b b] }
-		\times 2/3 { g4\( g8\) } a8[ b] a4
-		\cesure
-		d,8[ c] d8[ f] f8[ f] g4
-		\cesure
+		\times 2/3 { g4\( g8\) } a8[ b!] a4
+		\cesure \pespace
+		d,8[ c] d8[ f]
 		\ifIndent
+		f8[ f] g4
+		\cesure \espace
+		
 		a8[ a]
 		\times 2/3 { a4\( a8\) } bes8[ a] a4
+		\espace
 		r8. d,16 f16[\cesureTresBasse d c\( d\) ]
 		\times 2/3 { f8[ f f] }
-		\times 2/3 { f8[ f f] } d8[\( d16\)\cesureTresBasse f] g16[ a a a]
-		\times 2/3 { a4\( a8\) }
+		\times 2/3 { f8[ f f] }
+		d8[\( d16\)\cesureTresBasse f]
 		\ifIndent
-		\times 2/3 { a8[ a bes] }
-		
+		g16[ a a a]
+		\times 2/3 { a4\( a8\) }
+		\times 2/3 { a8[ a bes!] }
 		a4
-		\cesure
+		\cesure \espace
 		\times 2/3 { g8[ g g] } g8[\( a\)]
 		\times 2/3 { d,8[ c d] }
-		\times 2/3 { f8[\( f\) g] } a8[ bes] a4
+		\times 2/3 { f8[\( f\) g] } a8[ bes!] a4
 		\endBar
 	}
 	\addlyrics {
@@ -52,22 +57,36 @@
 }
 
 
+
 \label #'b
 \score {
 	\relative f'  {
-		\key f \major
 		r8 f16[ g] a16[ a g\( bes\)] a4
 		\cesure
 		\espace
 		f16[ f e f] d8.[ d16] d16[\( d\) f a] g4
 		\endBar
 	}
-	\addlyrics {
+	\addlyrics { \set stanza = #"1."
 		Ren -- dons gloire à no -- tre Dieu_: il _a con -- ver -- ti _l'a -- pô -- tre des na -- tions.
 	}
 	\header {
 		titre =  "CONVERSION DE SAINT PAUL (25 janvier)"
-		titres = \markup \ant #'b "" "Invitatoire" }
+		titres = \markup \ant #'b "" "Invitatoire lequel gardons-nous ? je ne me souviens pas." }
+}
+
+
+\score {
+	\relative f'  {
+		r8 f16[ f] g16[ f f\( d\)] d4
+		\cesure
+		\espace
+		c16[ d f g] f8.[ f16] f16[\( f\) a bes] g4
+		\endBar
+	}
+	\addlyrics { \set stanza = #"2."
+		Ren -- dons gloire à no -- tre Dieu_: il _a con -- ver -- ti _l'a -- pô -- tre des na -- tions.
+	}
 }
 
 \label #'c
@@ -76,13 +95,13 @@
 		r8 e,16[ g] a16[ c c c] a8[ a]
 		\times 2/3 { g8[\( g\)\cesureBasse a] }
 		\times 2/3 { c8[ c c] } c8[\( c\)]
-		\cesure
+		\cesure \espace
 		c16[ c b c] a4
 		\cesure
 		\ifIndent
 		\times 2/3 { f8[ g a] }		
 		c8[ c] d8[ d] a4
-		\cesure
+		\cesure \espace
 		\times 2/3 { a8[ g\( a]\) }
 		\times 2/3 { f8[ f f] }
 		\times 2/3 { e8[\( e\) f] }
@@ -93,11 +112,11 @@
 	}
 	\addlyrics { \set stanza = #"1."
 		Je t'en -- voie vers les na -- tions pa -- ïen -- nes _a -- fin qu'elles ob -- tien -- nent, par la foi en moi,
-		la ré -- mis -- sion de leurs pé -- chés et u -- ne part d'hé -- ri -- ta -- ge a -- vec les saints. ""
-		_ "[Ton 3]"
+		la ré -- mis -- sion de leurs pé -- chés et u -- ne part d'hé -- ri -- ta -- ge a -- vec les saints.
+		\markup { \citation #"(...)   " } "" "[Ton 3]"
 	}
 	\header {
-		titres = \markup \ant #'c "" "Antiennes" }
+		titres = \markup \ant #'c "" "Antiennes faire un choix ou non ?" }
 }
 
 
@@ -108,13 +127,13 @@
 		r8 d16[ d] c16[ f g f] g8[ a]
 		\times 2/3 { a8[\( a\)\cesure a] }
 		\times 2/3 { c8[ c a] } b8[\( a\)]
-		\cesure
+		\cesure \espace
 		g16[ f e f] d4
 		\cesure
 		\ifIndent
 		\times 2/3 { e8[ f g] }
 		g8[ f] f8[ f] d4
-		\cesure
+		\cesure \espace
 		\times 2/3 { d8[ f\( g]\) }
 		\times 2/3 { f8[ g g] }
 		\times 2/3 { a8[\( a\) f] }
@@ -125,18 +144,21 @@
 	}
 	\addlyrics { \set stanza = #"2. "
 		Je t'en -- voie vers les na -- tions pa -- ïen -- nes _a -- fin qu'elles ob -- tien -- nent, par la foi en moi,
-		la ré -- mis -- sion de leurs pé -- chés et u -- ne part d'hé -- ri -- ta -- ge a -- vec les saints. ""
-		_ "[Ton 1]" 
+		la ré -- mis -- sion de leurs pé -- chés et u -- ne part d'hé -- ri -- ta -- ge a -- vec les saints.
+		\markup { \citation #"(...)   " } "" "[Ton 1]" 
 	}
 }
+
 
 
 \score {
 	\relative c''  {
 		\times 2/3 { r8_\( g[ g]\) } g4
 		\espace
-		g16[ b c d] d16[\( d\) d d] d8[ e] b4 \cesure		
-		\times 2/3 { c8[ d d] } c4		
+		g16[ b c d] d16[\( d\) d d] d8[ e] b4
+		\cesure \espace		
+		\times 2/3 { c8[ d d] } c4	
+		\espace
 		e8[ d]
 		\times 2/3 { f8[ e d] } d8[\( d\)]
 		c8[ c] a8[ c] b4
@@ -161,15 +183,16 @@
 }
 
 
+
 \label #'d
 \score {
 	\relative c''  {
-		r8  g b8[ c]
+		g8 b8[ c]
 		\times 2/3 { d8[ d d] } c8[ e] d8[\( d\)]
-		\cesure
+		\cesure \espace
 		c8[ d]
 		\times 2/3 { b8[ a b] }
-		g8.[\cesureBasse g16] b16[ c d e] d4
+		g8.[\cesureBasse \espace g16] b16[ c d e] d4
 		\endBar
 	}
 	\addlyrics {
@@ -216,8 +239,9 @@
 		\markup { \citation #"(Lc 2)  " } "" "[Ton 6]"
 	}
 	\header {
-		titres = \markup \ant #'e "" "Antienne" }
+		titres = \markup \ant #'e "" "Antienne (à maintenir ?)" }
 }
+
 
 
 \score {
@@ -257,7 +281,8 @@
 		\times 2/3 { c,8[ d d] } f4
 		\times 2/3 { f8[ g f] }
 		\times 2/3 { f8[ g a] }
-		\times 2/3 { g4\( f8\) }		
+		\times 2/3 { g4\( f8\) }
+		\espace		
 		d8[ f] f16[\( f\) f g] f4
 		\ifIndent
 		\times 2/3 { f8[ g a] }
@@ -274,61 +299,39 @@
 }
 
 
+\markup { "Mettre les deux antiennes en latin ?" }
+
+
+
 \label #'f
 \score {
 	\relative c''  {
-		r8 g c8[ b] c16[ d e d] d8[ c]
+		g8 c8[ b] c16[ d e d] d8[ c]
 		\times 2/3 { e8[ f e] }
 		\times 2/3 { d8[ c b] }
-		a8[\cesureBasse g] c8[\cesure d] c8[ b] g4
+		a8[\cesureBasse \espace g] c8[\cesure \espace d] c8[ b] g4
 		\endBar
 	}
 	\addlyrics {
 		Le Christ Sei -- gneur qui a dai -- gné pas -- sé pour le fils de Jo -- seph, ve -- nez, a -- do -- rons -- -le.
 	}
 	\header {
-		titre =  "FETES DE SAINT JOSEPH (19 mars et 1er mai)"
-		titres = \markup \ant #'f "" "Invitatoire 19 mars" }
+		titre =  "FETES DE SAINT JOSEPH (19 mars)"
+		titres = \markup \ant #'f "" "Invitatoire" }
 }
 
-\label #'g
-\score {
-	\relative f'  {
-		\key f \major
-		r8 d f8[ g]
-		\times 2/3 { f8[\cesureBasse g a] } g4
-		\cesure
-		\times 2/3 { g8[ a g] } bes8[ a]
-		\times 2/3 { g8[ f e] }
-		f16[ d e c] d4
-		\ifIndent
-		r8 f g8[ f] bes8[ a] g4
-		\cesure
-		\times 2/3 { f8[ g a] }
-		\times 2/3 { f8[ e d] }
-		f8[ g] a4
-		\times 2/3 { g8[ a g] }
-		g4\( f8\) r8
-		\endBar
-	}
-	\addlyrics {
-		Le Roi des rois, le Sei -- gneur, qui a dai -- gné pas -- ser pour le fils du char -- pen -- tier,
-		ve -- nez, a -- do -- rons -- -le. Al - - le - - lu - - - - -  ia  -.
-	}
-	\header {
-		titres = \markup \ant #'g "" "Invitatoire 1er mai" }
-}
+
 
 \label #'h
 \score {
 	\relative c''  {
 		r8 c b4
-		\cesure
+		\cesure \espace
 		\times 2/3 { c8[ a c] } d4
-		\cesure
+		\cesure \espace
 		b8[ g] b8[ c]
 		\times 2/3 { a8[\( a\) a] }
-		\times 2/3 { a4_\(\cesure c8\) }
+		\times 2/3 { a4_\(\cesure \espace c8\) }
 		\times 2/3 { d8[ e d] }
 		\times 2/3 { d4\( d8\) }
 		\espace
@@ -339,7 +342,7 @@
 		\espace
 		\times 2/3 { r8_\( g[ g]\) }
 		g8[ d'] d8[ e]
-		d8.[\cesure a16] c16[ c b c]
+		d8.[\cesure \espace a16] c16[ c b c]
 		\ifIndent
 		\times 2/3 { d4\( c8\) }
 		\times 2/3 { a8[ b g] } g4
@@ -354,7 +357,7 @@
 	}
 	\addlyrics {
 		Jo -- seph, fils de Da -- vid, ne crains pas de pren -- dre chez toi, Ma -- rie ton é -- pou -- se_;
-		l'en -- fant qui est en -- gen -- dré en el -- le vient de l'Es -- prit- -- Saint_;
+		l'en -- fant qui est en -- gen -- dré en el -- "le " -- vient de l'Es -- prit- -- Saint_;
 		elle met -- tra au monde un fils, au -- quel tu don -- ne -- ras le nom de Jé -- sus. 
 		\once \override LyricText #'self-alignment-X = #1 "(T.P.  Al" - - le_ -- _lu - - - "ia !)"
 		\markup { \citation #"(Mt 1)  " } "" "[Ton 7]"
@@ -364,6 +367,24 @@
 }
 
 
+
+
+\label #'hy
+\score {
+	\relative c''  {
+		a4 a a	
+		\endBar
+	}
+	\addlyrics {
+		Le Ver -- be 
+	}
+	\header {
+		titre =  "SOLENNITE DE L'ANNONCIATION (25 mars)"
+		titres = \markup \ant #'hy "" "Invitatoire à composer" }
+}
+
+
+\label #'hz
 \score {
 	\relative c''  {
 		f,8[ g] a8[\( c\)] a8[\cesureBasse g] g4
@@ -401,10 +422,13 @@
 		\markup { \citation #"(Lc 1)  " } "" "[Ton 8]"
 	}
 	\header {
-		titre =  "SOLENNITE DE L'ANNONCIATION (25 mars)" }
+		titres = \markup \ant #'hz "" "Antienne"}
 }
 
 
+
+
+\label #'ia
 \score {
 	\relative c''  {
 		a8[ c]
@@ -413,7 +437,7 @@
 		\cesure
 		\times 2/3 { e8[ g f] } e16[ f e d]
 		\times 2/3 { g8[\( a\) g] }
-		\times 2/3 { g4_\(\cesure c8\) }
+		\times 2/3 { g4_\(\cesure \stemUp c8\) }
 		\times 2/3 { b8[ a b] }
 		\times 2/3 { a4\( g8\) }
 		\cesure
@@ -424,12 +448,12 @@
 		\times 2/3 { c8[ a c] }
 		\times 2/3 { b8[ a g] }
 		\times 2/3 { a4\( a8\) }
-		\cesure
+		\cesure \espace
 		\times 2/3 { d,8[ e f] }
 		\times 2/3 { g4\( f8\) }
 		a8[ g] g4
 		\barre
-		\ifIndent
+		\break
 		e8[ g]
 		\times 2/3 { a8[ f e] } g4
 		\endBar
@@ -445,11 +469,11 @@
 		_ "[Ton 3]"
 	}
 	\header {
-		titre =  "SAINT LOUIS MARIE GRIGNION DE MONTFORT (28 avril)" }
-
+		titre =  "SAINT LOUIS MARIE GRIGNION DE MONTFORT (28 avril)"
+		titres = \markup \ant #'ia "" "(Antienne (à garder ?) (des doublets ont été supprimés ?)"}
 }
 
-
+\label #'ib
 \score {
 	\relative c''  {
 		\times 2/3 { e,8[ f e] }
@@ -485,8 +509,56 @@
 		_ "[Ton 3]"
 	}
 	\header {
-		titre =  "SAINTE CATHERINE DE SIENNE (29 avril)" }
+		titre =  "SAINTE CATHERINE DE SIENNE (29 avril)"
+		titres = \markup \ant #'ib "" "(Antienne à garder ?) (des doublets ont été supprimés ?)"}
 }
+
+
+
+
+\label #'g
+\score {
+	\relative f'  {
+		\key f \major
+		r8 d f8[ g]
+		\times 2/3 { f8[\cesureBasse g a] } g4
+		\cesure
+		\times 2/3 { g8[ a g] } bes8[ a]
+		\times 2/3 { g8[ f e] }
+		f16[ d e c] d4
+		\ifIndent
+		r8 f g8[ f] bes8[ a] g4
+		\cesure
+		\times 2/3 { f8[ g a] }
+		\times 2/3 { f8[ e d] }
+		f8[ g] a4
+		\times 2/3 { g8[ a g] }
+		g4\( f8\) r8
+		\endBar
+	}
+	\addlyrics {
+		Le Roi des rois, le Sei -- gneur, qui a dai -- gné pas -- ser pour le fils du char -- pen -- tier,
+		ve -- nez, a -- do -- rons -- -le. Al - - le - - lu - - - - -  ia  -.
+	}
+	\header {
+		titres = \markup \ant #'g "SAINT JOSEPH TRAVAILLEUR (1er mai)" "Invitatoire à revoir" }
+}
+
+\markup { \fontsize #-1 "              Antienne   "  \fontsize #0 "Cf. 19 mars ou G 201 ?" }
+
+
+
+
+
+\markup {
+	\fill-line { "SAINT JEAN, LE THEOLOGIEN (8 mai)" }
+}
+\markup { \fontsize #-1 "              Invitatoire   "  \fontsize #0 "Cf. 19 mars ?" }
+\markup { \fontsize #-1 "              Antienne     "  \fontsize #0 "Cf. H 200 + Alleluia ?" }
+
+
+\markup { " " } \markup { " " } \markup { " " } \markup { " " }
+
 
 
 \label #'i
@@ -496,7 +568,7 @@
 		\times 2/3 { f8[ d c] } d8[ f]
 		\times 2/3 { e8[ f d] }
 		\times 2/3 { e8[\( f\) g] } e4
-		\cesure
+		\cesure \espace
 		\times 2/3 { r8_\( g[ a]\) }
 		bes8[ a] f8[\cesureTresBasse e]
 		\times 2/3 { g8[ e d] }
@@ -509,8 +581,11 @@
 	}
 	\header {
 		titre =  "VISITATION DE LA VIERGE MARIE (31 mai)"
-		titres = \markup \ant #'i "" "Invitatoire" }
+		titres = \markup \ant #'i "" "Invitatoire à unifier avec les autres invit de la VM" }
 }
+
+
+
 
 \label #'j
 \score {
@@ -526,8 +601,8 @@
 		\ifIndent
 		\times 2/3 { c8[ d b] }
 		\times 2/3 { b8[\( b\) c] } a8[ g]
-		\times 2/3 { g4_\( b8\) }
-		\times 2/3 { c8[\( c\) a] } g4\( g8\) r8		
+		\times 2/3 { g4_\( \stemUp b8\) }
+		\times 2/3 { \stemNeutral c8[\( c\) a] } g4\( g8\) r8		
 		\barre
 		\pespace
 		f8[ g16\( a\)] g4\( g8\) r8
@@ -546,19 +621,21 @@
 		titres = \markup \ant #'j "" "Antienne" }
 }
 
+
+
 \label #'k
 \score {
 	\relative c''  {
 		\times 2/3 { r8_\( g[ a]\) } c8[ c]
 		b16[\cesure a c b] a16[ g a g]
-		e8[\cesure c'] c8[ a] b8[ a] g4		
+		e8[\cesureBasse c'] c8[ a] b8[ a] g4		
 		\endBar
 	}
 	\addlyrics {
 		Le Sei -- gneur Jé -- sus que Jean Bap -- tiste a dé -- si -- gné, ve -- nez, a -- do -- rons -- -le.
 	}
 		\header {
-		titre =  "NATIVITE DE SAINT JEAN-BAPTISTE"
+		titre =  "NATIVITE DE SAINT JEAN-BAPTISTE (24 juin)"
 		titres = \markup \ant #'k "" "Invitatoire" }
 }
 
@@ -589,6 +666,10 @@
 		titres = \markup \ant #'l "" "Antienne" }
 }
 
+\markup { \fontsize #-1 "              Autre Antienne ?     "  \fontsize #0 "Cf. K 42 ?" }
+
+
+
 
 \label #'m
 \score {
@@ -604,14 +685,14 @@
 	}
 	\header {
 		titre =  "SAINT PIERRE ET SAINT PAUL (29 juin)"
-		titres = \markup \ant #'m "" "Invitatoire" }
+		titres = \markup \ant #'m "" "Invitatoire à supprimer car au commun ?" }
 }
 
 \label #'n
 \score {
 	\relative d'  {
 		\times 2/3 { d8[ d d] } e8[ f] g4		
-		\cesure
+		\cesure \espace
 		\times 2/3 { a8[ bes g] } f8[ e] f8[\( g\)] f8[\( e\)] d4
 		\cesure
 		\ifIndent
@@ -628,9 +709,18 @@
 		\markup { \citation #"(Mt 19)  " } "" "[Ton 2]"
 	}
 	\header {
-		titres = \markup \ant #'n "" "Antienne" }
+		titres = \markup \ant #'n "" "Antienne à mettre au commun et composer une autre antienne" }
 
 }
+
+
+
+\markup {
+	\fill-line { "SAINTE MARIE MADELEINE (22 juillet)" }
+}
+\markup { \fontsize #-1 "              Antienne     "  \fontsize #0 "Cf. I 650 ?" }
+
+
 
 \label #'o
 \score {
@@ -657,8 +747,8 @@
 		_ "[Ton 7]"
 	}
 	\header {
-		titre =  "SAINTE MARIE MADELEINE (22 juillet)"
-		titres = \markup \ant #'o "" "Benedictus" }
+		titre =  " "
+		titres = \markup \ant #'o "" "Benedictus Antienne à supprimer" }
 }
 
 \label #'p
@@ -704,8 +794,9 @@
 		_ "[Ton 8]"
 	}
 	\header {
-		titres = \markup \ant #'p "" "Magnificat" }
+		titres = \markup \ant #'p "" "Magnificat antienne à supprimer" }
 }
+
 
 
 \label #'q
@@ -759,7 +850,7 @@
 	\addlyrics {
 		Sur la mon -- ta -- gne, Jé -- sus fut trans -- fi -- gu -- ré de -- vant eux.
 		Son vi -- sa -- ge res -- plen -- dit com -- me le so -- leil,
-		et ses vê -- te -- ments de -- vin -- rent blancs com -- me la lu -- miè- _ -- re.
+		et ses vê -- te -- ments de -- vin -- rent blancs com -- me la lum -- iè- _ -- re.
 		De la nu -- ée vint u -- ne voix qui di -- sait_:
 		«_Ce -- lui -- -ci est mon Fils bien -- -ai -- mé, é -- cou -- tez- -- le._»
 		\markup { \citation #"(Mt 17)  " } "" "[Ton 1]"
@@ -768,11 +859,20 @@
 		titres = \markup \ant #'r "" "Antienne" }
 }
 
+
+
+\markup {
+	\fill-line { "SAINT DOMINIQUE (8 août)" }
+}
+\markup { \fontsize #-1 "              Antienne     "  \fontsize #0 "Faire un renvoi à S 101 ???" }
+
+\markup { " " } \markup { " " } \markup { " " } \markup { " " }
+
 \label #'s
 \score {
 	\relative d'  {
 		\times 2/3 { r8_\( f[ g]\) }
-		\times 2/3 { g4\(\cesure a8\) }
+		\times 2/3 { g4\(\cesure \espace a8\) }
 		\times 2/3 { a8[\( b\) c] }
 		\slurDashed c4(
 		\times 2/3 { b8)[ a g] }
@@ -797,15 +897,17 @@
 \score {
 	\relative d'  {
 		\times 2/5 {g16[\( a\) a a a]} f8[\( a\)]
-		\times 2/3 { g4\(\cesure a8\) } c16[ c c c] c4
-		\cesure
+		\times 2/3 { g4\(\cesure \espace a8\) } c16[ c c c] c4
+		\cesure \espace
 		c8[ c]
 		\times 2/3 { c8[ e d] }
 		\times 2/3 { c8[ g a] } g4
 		\ifIndent
 		\times 2/3 { r8_\( g[ a]\) }
 		\times 2/3 { c8[ b c] }
-		\times 2/3 { c4\( c8\) } r8 a c8[\( c\)]
+		\times 2/3 { c4\( c8\) }
+		\espace
+		r8 a c8[\( c\)]
 		\times 2/3 { c8[ d a] } g4		
 		\endBar
 		\stemOff g4 a c
@@ -822,6 +924,7 @@
 }
 
 
+
 \score {
 	\relative c''  {
 		\times 2/3 { r8_\( g[ a]\) } c8[\( c\)] c8[ d]
@@ -833,11 +936,14 @@
 		\espace
 		\times 2/3 { c8[ d c] }
 		\times 2/3 { c8[ g a] }
-		\times 2/3 { g4\(\cesure \espace a8\) } c8[\( c\)] d8[ e] d4
-		\cesure
+		\times 2/3 { g4\(\cesure \espace a8\) }
+		c8[\( c\)]
 		\ifIndent
-		\times 2/3 { c8[ a g] } f8[\( a\)] g4
+		\times 2/3 { d8[\( e\) d] } d4
 		\cesure
+		\espace
+		\times 2/3 { c8[ a g] } f8[\( a\)] g4
+		\cesure \espace
 		\times 2/3 { g8[\( c\) c] } c8[\( c\)]
 		\times 2/3 { c8[ a g] } a8[\( g\)] g4		
 		\endBar
@@ -846,12 +952,20 @@
 	}
 	\addlyrics {
 		Un grand si -- gne ap -- pa -- rut dans le ciel_: u -- ne fem -- me, en -- ve -- lop -- pée du so -- leil,
-		la lu -- ne sous les pieds, et sur sa tê- _ -- te, u -- ne cou -- ron -- ne de douze _é -- toi- _ -- les.
+		la lu -- ne sous- " " les pieds, et sur sa tê- _ -- te, u -- ne cou -- ron -- ne de douz -- "e ét" -- oi- _ -- les.
 		\markup { \citation #"(Ap 12)  " } "" "[Ton 8]"
 	}
 	\header {
 		titre =  "LA VIERGE MARIE REINE (22 août)" }
 }
+
+
+\markup {
+	\fill-line { "MARTYRE DE SAINT JEAN BAPTISTE (29 août)" }
+}
+\markup { \fontsize #-1 "              Antienne     "  \fontsize #0 "Faire un renvoi au 24 juin ???" }
+
+
 
 
 \score {
@@ -887,6 +1001,8 @@
 		titre =  "LA NATIVITE DE LA VIERGE MARIE (8 septembre)" }
 }
 
+
+
 \label #'u
 \score { \transpose e d {
 	\relative d'  {
@@ -899,21 +1015,23 @@
 		\endBar
 	}
 	\addlyrics {
-		Ve -- nez, a -- do -- rons le Sei -- gneur no -- tre Roi é -- le -- vé sur la croix_!
+		Ve -- nez, a -- do -- rons le Sei -- gneur no -- tre Roi él -- ev -- é sur la croix_!
 	}}
 	\header {
 		titre =  "FETE DE LA CROIX GLORIEUSE (14 septembre)"
-		titres = \markup \ant #'u "" "Invitatoire" }
+		titres = \markup \ant #'u "" "Invitatoire à refaire avons-nous dit ?" }
 }
 
 \label #'v
 \score { \transpose c g {
 	\relative d'  {
 		\times 2/3 { c8[ f e] }
-		\times 2/3 { f8[ f f] } f8[ d] e8[ d] c8[\( c\)] r8 c
+		\times 2/3 { f8[ f f] } f8[ d] e8[ d] c8[\( c\)]
+		\espace
+		r8 c
 		\times 2/3 { d8[ d d] }
 		\times 2/3 { d8[ e f] } d4
-		\cesure
+		\cesure \espace
 		\times 2/3 { c8[ c c] } f8[ e]	\ifIndent	
 		\times 2/3 { f8[ a bes] }
 		
@@ -923,7 +1041,7 @@
 		\endBar
 	}
 	\addlyrics {
-		Quand vous au -- rez é -- le -- vé le Fils de l'hom -- me, 
+		Quand vou -- "s au" -- re -- "z é" -- le -- vé le Fils de l'hom -- me, 
 		_a -- lors vous sau -- rez que je suis_: 
 		j'at -- ti -- re -- rai à moi tous les hom -- mes. 
 		\markup { \citation #"(Jn 8-12)  " } "" "[Ton 8]"
@@ -932,11 +1050,15 @@
 		titres = \markup \ant #'v "" "Antienne" }
 }
 
+
+
+
 \label #'w
 \score { 
 	\relative d'  {
 		r16 d16[ c d] f8[ g]
 		\times 2/3 { f8[ g a] } g4
+		\espace
 		\times 2/3 { r8_\( g[ d]\) }
 		\times 2/3 { g8[ f e] } a8[ f] d4\( d8\) r8				
 		\endBar
@@ -947,7 +1069,7 @@
 	}
 	\header {
 		titre =  "NOTRE DAME DES DOULEURS (15 septembre)"
-		titres = \markup \ant #'w "" "Invitatoires" }
+		titres = \markup \ant #'w "" "Invitatoires (c'est le 2ème que nous gardons, semble-t-il) " }
 }
 
 \score {
@@ -955,6 +1077,7 @@
 		r8 d c[ d] 
 		\times 2/3 { d4\( f8\) }
 		\times 2/3 { g8[ f e] } d4
+		\espace
 		\times 2/3 { r8_\( f[ g]\) }
 		\times 2/3 { a8[ bes a] }
 		g[ f] e4\( d8\) r8
@@ -973,6 +1096,7 @@
 		\times 2/3 { d8[ a' bes] }
 		\times 2/3 { a8[ a a] }
 		\times 2/3 { a8[ g f] } a8[ a] bes8[\( a\)] a4
+		\espace
 		r8 a c8[ d] a8[\( a\)] f8[ g]
 		a16[\( a\) g a] c16[\( c\) b c] a4
 		\ifIndent
@@ -995,12 +1119,14 @@
 }
 
 
+
 \label #'y
 \score {
 	\relative c''  {
 		\times 2/3 { r8_\( g[ a]\) }
 		\times 2/3 { c8[\( b\) c] }
 		\times 2/3 { d4\( c8\) }
+		\espace
 		r8 e d8[\cesure c16 b]
 		\times 2/3 { g8[ a b] } a4
 		\endBar
@@ -1017,7 +1143,7 @@
 \score {
 	\relative c''  {
 		\times 2/3 { r8_\( g[ d]\) } f8[ g] a8[ g] g4
-		\cesure a8[ c]
+		\cesure \espace a8[ c]
 		\times 2/3 { c8[\( b\) a] }
 		\times 2/3 { g4\( g8\) }
 		\times 2/3 { e8[ g f] }
@@ -1033,52 +1159,52 @@
 		\markup { \citation #"(Jn 1)  " } "" "[Ton 8]"
 	}
 	\header {
-		titres = \markup \ant #'z "" "Benedictus" }
+		titres = \markup \ant #'z "" "Antienne 1" }
 }
+
 
 
 \label #'aa
 \score {
 	\relative c''  {
-		d8[\( c\)] b8[ d] e8[\( d\)] g,4
-		\cesure
-		a8[\( a\)] a8[ d] c8[ b] g4
+		r8. g16 \times 2/3 { a8[ c d] } e16[\( e\) e d]
+		c16[\( c\) c c] c16[ c c c] \times 2/3 { d8[\( c\) a] } g4
 		\cesure \espace
-		\times 2/3 { c8[ b c] }
-		\times 2/3 { d8[ c d] } e8[\( d\)]
-		\pespace
-		r8 e f8[ g] d8[\( e\)] d4
+		\times 2/3 { g8[ d' f] }
 		\ifIndent
-		r8 d
-		\times 2/3 { e8[ c a] }
-		\times 2/3 { b8[\( c\) \espace a] } g8[ f] f4
-		\cesure
-		\pespace
-		\times 2/3 { g8[\( a\) a] } g4\( g8\) r8
+		e8[ \espace c16 a] g8[ a] b4
+		\cesure \espace
+		\times 2/3 { d8[\( d\) e] } c8[ c]
+		d16[\( c\) b a] c4
 		\endBar
-		\stemOff c'4 b c
+		\stemOff c4 b c
 		\endBar
 	}
 	\addlyrics {
-		An -- ges et Arc -- han- _ -- ges, Trô -- nes et Do -- mi -- na -- tions,
-		Prin -- ci -- pau -- tés et Puis -- san -- ces, Ver -- tus cé -- les- _ -- tes,
-		lou -- ez le Sei -- gneur -- - _du haut des cieux, Al - le -- lu -- ia. ""
-		_ "[Ton 7]"
+		A -- vec les sept an -- ges qui se tien -- nen -- "t à" ja -- mais
+		de -- vant la gloi -- re de Dieu,
+		bé -- nis -- sez- -- le et chan -- tez son Nom_;
+		fai -- tes con -- naître aux hom -- mes ses ac -- tions.
+		\markup { \citation #"(Tb 12)  " } "" "[Ton 7]"
 	}
 	\header {
 		titre =  ""
-		titres = \markup \ant #'aa "" "Magnificat" }
+		titres = \markup \ant #'aa "" "Antienne 2" }
 }
 
 
+
+\label #'aaa
 \score {
 	\relative c''  {
 		g8[\cesureBasse \espace g16 a] g8[ f] g16[\( g\) a b] a8[\( a\)]
 		\cesure \pespace
 		\times 2/3 { c8[ c\( c]\) } c16[\( c\) d c]
 		\times 2/3 { b4\(\cesureBasse \espace c8\) }
+		
+		d16[ d d d]
 		\ifIndent
-		d16[ d d d] f8[ e] d4
+		f8[ e] d4
 		\cesure \espace
 		g8[ g]
 		\times 2/3 { e8[ g f] }
@@ -1096,65 +1222,24 @@
 		_ "[Ton 7]"
 	}
 	\header {
-		titre =  "SAINTE THERESE DE L'ENFANT JESUS (1er octobre)" }
+		titre =  "SAINTE THERESE DE L'ENFANT JESUS (1er octobre)"
+		titres = \markup \ant #'aaa "" "Antienne 1"}
 }
 
-\markup { \column { "SAINTS ANGES GARDIENS (2 octobre)"
-	"     Voir au 29 septembre"
-\line { "ou bien" }
+\markup { \fontsize #-1 "              Antienne 2     "  \fontsize #0 "Faire un renvoi à K 140 ???" }
+
+
+
+
+
+
+\markup {
+	\fill-line { "SAINTS ANGES GARDIENS (2 octobre)" }
 }
-}
+\markup { \fontsize #-1 " "  \fontsize #0 "Invitatoire Cf. 29 septembre" }
 
 
 \label #'ab
-\score {
-	\relative c''  {
-		\times 2/5 { g16[\( a\) c a g]} f8.[ g16] a16[ a a g] g4
-		c8[ a] c8[\( c\)] g8[ b]
-		\times 2/3 { c8[\( d\) c] }
-		\ifIndent
-		a8[ f] g4
-		\endBar
-		\stemOff g4 a c
-		\endBar
-	}
-	\addlyrics {
-		L'an -- ge qui me par -- lait re -- vint et m'é -- veil -- la
-		comme un hom -- me qu'on é -- veil -- le de son som -- meil. ""
-		_ "[Ton 8]"
-	}
-	\header {
-		titre =  "SAINTS ANGES GARDIENS (2 octobre)"
-		titres = \markup \ant #'ab "" "Benedictus" }
-}
-
-
-
-\label #'ac
-\score {
-	\relative c''  {
-		r8 g c8[\( c\)]
-		\cesure \espace b8[ a] g4
-		\cesure \espace
-		\times 2/3 { a8[ g f] } g16[ a g a] f8[\cesureBasse \espace g]
-		f16[ a b c]
-		\ifIndent
-		b8[ a] g8.[ e16]		
-		f16[ g a a] g4
-		\endBar
-		\stemOff g4 a c
-		\endBar
-	}
-	\addlyrics {
-		Saints an -- ges, nos gar -- diens, dé -- fen -- dez- -- nous dans le com -- bat,
-		de peur que nous ne suc -- com -- bions au Jour du Ju -- ge -- ment. ""
-		_ "[Ton 8]"
-	}
-	\header {
-		titres = \markup \ant #'ac "" "Magnificat" }
-}
-
-
 \score {
 	\relative c''  {
 		r8 g b8[ a] c8[ b] g8[\( a\)] a4
@@ -1173,8 +1258,11 @@
 		\markup { \citation #"(Lc 2)  " } "" "[Ton 8]"
 	}
 	\header {
-		titre =  "NOTRE DAME DU ROSAIRE (7 octobre)" }
+		titre =  "NOTRE DAME DU ROSAIRE (7 octobre)"
+		titres = \markup \ant #'ab "" "Pourquoi renvoyer à J 410 et ne pas garder cette antienne ?"}
 }
+
+
 
 \label #'ad
 \score {
@@ -1221,7 +1309,8 @@
 		r8 f f8[ g] e8[\( f\)]		
 		g8[\( f\)] f4
 		\cesure \espace
-		a8[ c] g8[\( f\)] f8[ f] d4		
+		a8[ c] g8[\( f\)]
+		\times 2/3 { f8[\( g\) f] } d4
 		\endBar
 		\stemOff f4 g a
 		\endBar
@@ -1230,7 +1319,7 @@
 		Je vis u -- ne foule im -- men -- se, que nul ne pou -- vait dé -- nom -- brer,
 		de tou -- tes na -- tions, ra -- ces, peu -- ples et lan- _ -- gues.
 		Ils se te -- naient de -- bout de -- vant le trô -- ne et de -- vant l'A -- gneau,
-		vê -- tus de ro -- bes blan- _ -- ches, et des pal -- mes à la main.
+		vê -- tus de ro -- bes blan- _ -- ches, et des pal -- mes à- _ la main.
 		\markup { \citation #"(Ap 7)  " } "" "[Ton 1]"
 	}
 	\header {
@@ -1242,6 +1331,7 @@
 	\relative c''  {
 		g8[\( g\)] c8[ a] g8\([ g16\) f] g16[ a a g] g4
 		\cesure \espace a16[ c d\( c\)] c4
+		\espace
 		\times 2/3 { r8\( d[ c]\) }
 		\times 2/3 { b8[ c d] }
 		\times 2/3 { c8[ c a] }
@@ -1249,15 +1339,15 @@
 		\cesure
 		\ifIndent
 		\times 2/3 { f8[ g a] } g4
-		\cesure
+		\cesure \espace
 		\times 2/3 { a8[\( c\) b] } c4
-		\espace r8 c
+		\pespace r8 c
 		\times 2/3 { c8[ d c] } c4
 		\espace
 		\times 2/3 { r8_\( b[ a]\) } g8[ a] g4
 		\ifIndent
 		r8a c8[ c] c8[\( c\)] b8[ c] a4
-		\cesure \espace
+		\cesure \pespace \pespace
 		f16[ g a\( g\)] g4
 		\cesure \espace
 		c16[ b c\( a\)] g4
@@ -1269,7 +1359,7 @@
 		U -- ne foule im -- men -- se cla -- mait à plei -- ne voix_: «_Al -- le -- lu- _ -- ia_!
 		Il a pris pos -- ses -- sion de son Rè -- gne, le Sei -- gneur Dieu, Maî -- tre de tout_!
 		Soy -- ons dans la joie, ren -- dons gloire à Dieu_:
-		_voi -- là les No -- ces de l'A -- gneau_!_» Al -- le -- lu- _ -- ia_! Al -- le -- lu - ia_!
+		_voi -- là les No -- ces de l'A -- gneau_!_» " Al" -- le -- lu- _ -- ia_! Al -- le -- lu - ia_!
 		\markup { \citation #"(Ap 19)  " } "" "[Ton 8]"
 	}
 	\header {
@@ -1277,12 +1367,13 @@
 }
 
 
+
 \label #'ag
 \score {
 	\relative c'  {
 			\times 2/3 { f8[ f f] }
 			\times 2/3 { g8[ a g] } f4
-			\cesure
+			\cesure \espace
 			\times 2/3 { d8[ f g] } f4
 		\endBar
 	}
@@ -1294,9 +1385,6 @@
 		titres = \markup \ant #'ag "" "Invitatoire" }
 }                       	
                        	                       	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	%%  Remettre la mélodie originelle de cette antienne ! fr Raph. %%
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \label #'ah
 \score {
@@ -1310,7 +1398,8 @@
 		\cesure
 		\ifIndent
 		\times 2/3 { d,8[ a' a] }
-		\times 2/3 { g4\( f8\) } \times 2/3 { g8[\( a\) g] } e8[\( e\)] \cesure
+		\times 2/3 { g4\( f8\) } \times 2/3 { g8[\( a\) g] } e8[\( e\)]
+		\cesure \espace
 		a8[ g]
 		\times 2/3 { f8[\( f\) f] } d8[ f] g8[\( f\)] e4		
 		\endBar
@@ -1318,8 +1407,8 @@
 		\endBar
 	}
 	\addlyrics {
-		Heu -- reux ceux qui sont morts dans le Sei -- gneur -- -_;
-		dès main -- te -- nant, dit -- - _l'Es -- prit, qu'ils se re -- po -- sent de -- - leurs pei -- nes,
+		Heu -- reux ceux qui sont morts dans le Sei -- gneur- _;
+		dès main -- te -- nant, dit- _ l'Es -- prit, qu'ils se re -- po -- sent de- _ leurs pei -- nes,
 		car leurs oeu -- vres les ac -- com -- pa- _ -- gnent
 		\markup { \citation #"(Ap 14)  " } "" "[Ton 4]"
 	}
@@ -1328,6 +1417,19 @@
 }
 
 
+
+
+\label #'aha
+\score {
+	\relative c'  {
+		s
+	}
+	\header {
+		titre =  "PRESENTATION DE LA VIERGE MARIE (21 novembre)"
+		titres = \markup \ant #'aha "" "Invitatoire à composer ?" }
+}
+
+\label #'ahb
 \score {
 	\relative d'  { \key f\major
 		d16[\( d\) a' g] a4
@@ -1354,15 +1456,16 @@
 		\endBar
 	}
 	\addlyrics {
-		Quit -- te ton pa -- ys, ta pa -- ren -- té et la mai -- son de ton pè -- - -- re,
+		Quit -- te ton pa -- ys, ta pa -- ren -- té et la mai -- son de ton pè- _ re,
 		pour le pa -- ys que je te mon -- tre -- rai.
 		Je fe -- rai de toi u -- ne gran -- de na -- tion et je te bé -- ni -- rai.
 		En toi se -- ront bé -- nies tou -- tes les fa -- mil -- les de la ter -- re.
 		\markup { \citation #"(Gn 12)  " } "" "[Ton 1]"
 	}
 	\header {
-		titre =  "PRESENTATION DE LA VIERGE MARIE (21 novembre)" }
+		titres = \markup \ant #'ahb "" "Antienne"}
 }
+
 
 
 \label #'ai
@@ -1381,12 +1484,12 @@
 	}
 	\addlyrics {
 		En cé -- lé -- brant l'Im -- ma -- cu -- lée Con -- ce -- ption de la Vie -- rge Ma -- rie,
-		a -- dor -- ons le Christ son Fils le Sei -- gneur -.
+		a -- dor -- ons le Christ son Fils le Sei -- gneur- _.
 		 
 	}
 	\header {
 		titre =  "L'IMMACULEE CONCEPTION DE LA VIERGE MARIE (8 décembre)"
-		titres = \markup \ant #'ai "" "Invitatoire" }
+		titres = \markup \ant #'ai "" "Invitatoire qui n'est pas le D 001-5" }
 }
 
 \label #'aj
@@ -1425,7 +1528,8 @@
 	\header {
 		titres = \markup \ant #'aj "" "Antienne" }
 }
-%}
+
+
 
 \label #'ak
 \score {
@@ -1545,6 +1649,7 @@
 		titres = \markup \ant #'ao "" "Invitatoire" }
 }
 
+
 \label #'ap
 \score {
 	\relative f'  {
@@ -1572,4 +1677,6 @@
 	\header {
 		titres = \markup \ant #'ap "" "Antienne" }
 }
+
+
 
