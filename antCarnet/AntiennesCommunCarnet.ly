@@ -17,6 +17,13 @@
 	   (basic-distance . 5)	 %5	% et le système qui le suit.
 	   (minimum-distance . 5)%5
 	   (stretchability . 0))%0
+	   last-bottom-spacing =
+	#'((padding . 1) %1
+	   (minimum-distance . 1) 
+	   (stretchability . 0) %0
+	   (basic-distance . 1))
+	   %ragged-bottom = ##t
+	   %ragged-last-bottom = ##t
 
 }
 
