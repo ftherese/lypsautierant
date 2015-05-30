@@ -735,11 +735,9 @@
 		titres = \markup \ant #'dd "O 103" " " }
 }
 
-\markup { \line { " O 101 " }}
 
-\score { 
-		\new Voice = sop <<
-		%\key f \major
+\label #'de
+\score {
 		{ \relative f' { \cadenzaOn \stemOff
 		\hideNotes s1 a\breve
 		\bar " "
@@ -750,19 +748,18 @@
 		g\breve
 		\bar "|." }}
 		
-	\new Lyrics \lyricsto "sop" \lyricmode {
+	\addlyrics {
 		\once \override LyricText #'self-alignment-X = #LEFT "Ceux qui viennent de la grande épreuve ont lavé leurs robes dans le sang de l'Agneau :"
 		\once \override LyricText #'self-alignment-X = #LEFT "jour et nuit ils servent dans le Temple de Dieu,"
 		\once \override LyricText #'self-alignment-X = #LEFT "et Celui qui siège sur le Trône étendra sur eux sa tente."
 	  }
- 	  >>
+	  \header {
+		titres = \markup \ant #'de "O 1--" " " }
 }
 
-\markup { \line { " O 102 " }}
 
-\score { 
-		\new Voice = sop <<
-		%\key f \major
+\label #'df
+\score {
 		{ \relative f' { \cadenzaOn \stemOff
 		\hideNotes s1 a\breve
 		\bar " "
@@ -773,12 +770,13 @@
 		g\breve
 		\bar "|." }}
 		
-	\new Lyrics \lyricsto "sop" \lyricmode {
+	\addlyrics {
 		\once \override LyricText #'self-alignment-X = #LEFT "Au vainqueur, je donnerai de la manne cachée,"
 		\once \override LyricText #'self-alignment-X = #LEFT "je lui donnerai aussi un caillou blanc portant gravé"
 		\once \override LyricText #'self-alignment-X = #LEFT "un nom nouveau que nul ne connaît, hormis celui qui le reçoit."
 	  }
- 	  >>
+	  \header {
+		titres = \markup \ant #'df "O 1--" " " }
 }
 
 
