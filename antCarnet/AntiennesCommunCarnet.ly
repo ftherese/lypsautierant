@@ -1,5 +1,39 @@
-﻿\version "2.14.0"
+﻿\version "2.18.2"
 \include "DefinitionsAntiennesCarnet.ly"
+
+%#(set-default-paper-size "a4"'landscape)
+
+
+
+
+\paper {
+		markup-markup-spacing =		% variable redéfinie pour mettre de l'espace entre le \markup et les titres
+	#'((padding . 1.5)%1
+	   (basic-distance . 1)%0.5
+	   (minimum-distance . 1)
+	   (stretchability . 0))
+		markup-system-spacing =		% ajouté par fr Raf
+	#'((padding . 1.5)	%0.5	% détermine l’espacement entre un titre ou un markup de premier niveau,
+	   (basic-distance . 5)	 %5	% et le système qui le suit.
+	   (minimum-distance . 5)%5
+	   (stretchability . 0))%0
+
+}
+
+%{
+
+\layout {
+\context {
+\Staff
+\override VerticalAxisGroup #'default-staff-staff-spacing = #'(stretchability . 0)
+\override VerticalAxisGroup #'staff-staff-spacing = #' (stretchability .0)
+\override VerticalAxisGroup #'nonstaff-nonstaff-spacing = #' (stretchability .0)
+\override VerticalAxisGroup #'nonstaff-relatedstaff-spacing = #' (stretchability . 0)
+\override VerticalAxisGroup #' nonstaff-unrelatedstaff-spacing = #' (stretchability .0)
+}
+}
+
+%}
 
 
 \layout {
@@ -13,12 +47,15 @@
 }
 
 
+%%%%%%%%%%%
+%%COMMUNS%%
+%%%%%%%%%%%
 
-%COMMUNS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%VIERGE MARIE  Nous ne le laissons tel qu'il est dans le carnet de chant%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%VIERGE MARIE
-
-
+%{
 
 \label #'aa
 \score {
@@ -28,12 +65,12 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"1."
+		\set stanza = #"       1."
 		Le Christ est né de la Vier -- ge Ma -- rie_: ve -- nez, a -- do -- rons -- -le.
 	}
 	\header {
 		titre =  "COMMUN DE LA VIERGE MARIE"
-		titres = \markup \ant #'aa "D 001" "Invitatoires" }
+		titres = \markup \ant #'aa "D 001" "Antiennes d'invitatoires" }
 }
 
 \score {
@@ -71,6 +108,7 @@
 }
 
 
+
 \score {
 	\relative c'' {
 		\times 2/3 { r8\( c[ c]\) }
@@ -86,8 +124,32 @@
 		il est né de la Vier -- ge Ma -- rie.
 	}
 }
+
+
 		
-\markup { "Quelles antiennes mettre ? " }
+\label #'aaaa
+\score {
+	\relative f'  {
+		r16 f16[ f f] f16[ d c f]
+		\times 2/3 { e8[ f g] }
+		\times 2/3 { f8[ e g] }
+		\times 2/3 { a8[\( bes\) g] } a4
+		\cesure
+		\ifIndent
+		\times 2/3 { r8_\( f[ e]\) } d8[ c] d8[ \cesureBasse \espace f] e4 \cesure \espace
+		\times 2/3 { e8[\( f\) d] } d4
+		\endBar	
+	}
+	\addlyrics {
+		\set stanza = #"     5."
+		En cé -- lé -- brant l'Im -- ma -- cu -- lée Con -- ce -- ption de la Vie -- rge Ma -- rie,
+		a -- dor -- ons son Fils, le Christ, no -- tre Sei -- gneur.
+		 
+	}
+	\header {
+		%titre =  "L'IMMACULEE CONCEPTION DE LA VIERGE MARIE (8 décembre)"
+		titres = \markup \ant #'aaaa "" "Immaculée Conception 8 décembre" }
+}
 
 
 
@@ -99,12 +161,15 @@
 
 \pageBreak
 
+%}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%INVITATOIRES DES COMMUNS%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\markup { \fill-line { " " "INVITATOIRES DES COMMUNS" "M 001"}}
 
-%DEDICACE
-
-\label #'ba
+\label #'aaa
 \score {
 	\relative c'' {
 		\times 2/3 { c8[ d e] } a,8[ a]
@@ -118,9 +183,281 @@
 		E -- poux de l'E -- gli -- se.
 	}
 	\header {
-		titre =  "COMMUN DE LA DEDICACE"
-		titres = \markup \ant #'ba "M 001" "Invitatoire" }
+		titre =  " "
+		titres = \markup \ant #'aaa " " "Commun de la dédicace" }
 }
+
+
+\label #'aab
+\score {
+	\relative c'' {
+		g8 a4 \times 2/3 { c8[ b c] } d4\(
+		\times 2/3 { c4\)\(\cesure \espace e8\) }
+		d8[ c] b8[ g] a4
+		\endBar
+	}
+	\addlyrics {
+		\set stanza = #"        1."
+		Le Christ, Roi des a -- pô -- tres, ve -- nez, a -- do -- rons -- -le.
+	}
+	\header {
+		%titre =  " "
+		titres = \markup \ant #'aab " " "Commun des apôtres" }
+}
+
+\score {
+	\relative f' {
+		\times 2/3 { d8[ f f] } f8[ \cesureBasse \espace f] g8[ f] f4 \cesure \espace
+		f16[ f f f] \times 2/3 { g8[ a bes] } g8[\( f\)]
+		\times 2/3 { f8[ g f] }
+		\times 2/3 { f4\( f8\) } 
+		\barre \espace
+		f16[\( g\) a g] \times 2/3 { g4\( f8\) }
+		\endBar
+	}
+	\addlyrics {
+	\set stanza = #"        2."
+		Nous te lou -- ons, Sei -- gneur Jé -- sus,
+		toi qui as fon -- dé ton E -- gli -- se sur les a -- pô -- tres.
+		"(Al" - le -- lu -- ia -- "- !)"
+	}
+}
+
+
+\label #'aac
+\score {
+	\relative f' {
+		%\key f \major
+		f8[ g] \times 2/3 { a4\(\cesure \espace a8\) }
+		\times 2/3 { a8[ a b] } \times 2/3 { g8[ g f] }
+		\times 2/3 { a4\( a8\) }
+		\espace r8 a c8[ d] a
+		\endBar
+	}
+	\addlyrics {
+		Jé -- sus Christ, Pa -- role é -- ter -- nel -- le du Pè -- re,
+		lou -- ange à toi_!
+	}
+	\header {
+		%titre =  " "
+		titres = \markup \ant #'aac " " "Commun des évangélistes" }
+}
+
+\pageBreak
+
+\markup { "M 002" }
+
+
+\label #'aad
+\score {
+	\relative c'' {
+		e8 d8[ e] a,4 \cesure \espace
+		\times 2/3 { g8[ a c] } d4 \cesure \espace
+		\times 2/3 { c8[ e d] } d4
+		\barre \espace
+		\stemUp
+		\times 2/3 { r8_\( c[ a]\) } b8[\( a\)] a4
+		\endBar
+	}
+	\addlyrics {
+		\set stanza = #"        1."
+		Sei -- gneur Jé -- sus, Roi des mar -- tyrs, nous t'a -- do -- rons.
+		"(Al" -- le -- lu- "" "ia !)"
+	}
+	\header {
+		%titre =  " "
+		titres = \markup \ant #'aad " " "Commun des martyrs" }
+}
+
+
+\score {
+	\relative c'' {
+		\times 2/3 { r8\( c[ c]\) } \times 2/3 { c4\(\cesure \espace c8\) }
+		\times 2/3 { c8[ b c] } \times 2/3 { a4\(\cesure\espace e8\) }
+		g16[ \cesure a c c] a4
+		\barre \espace
+		g16[ a c\( b\)] b4
+		\endBar
+	}
+	\addlyrics {
+		\set stanza = #"       2."
+		Le Sei -- gneur, le Roi des mar -- tyrs, ve -- nez, a -- do -- rons -- -le.
+		"(Al" -- le -- lu- "" "ia !)"
+	}
+}
+
+\label #'aae
+\score {
+	\relative c'' {
+		c16[ c c c] c8[ \cesure \espace c16 c] b8[ c]
+		\times 2/3 { a8[\( a\) \cesureBasse \espace e] }
+		g16[ a c c] a4
+		\barre \espace
+		g16[ a c\( b\)] b4
+		\endBar
+	}
+	\addlyrics {
+		\set stanza = #"        1."
+		Le Sei -- gneur Jé -- sus, le té -- moin fi -- dè -- le, ve -- nez,
+		a -- do -- rons -- -le.
+		"(Al" -- le -- lu- "" "ia !)"
+	}
+	\header {
+		%titre =  " "
+		titres = \markup \ant #'aae " " "Commun des pasteurs" }
+}
+
+
+\score {
+	\relative c'' {
+		g8 c8[ b] c8[ \cesure \espace a] g8[ f] g4 \cesure \espace
+		\times 2/3 { a8[\( a\) c] } \slurDashed d4(
+		\times 2/3 { e8[) d c] } \times 2/3 { a4\( a8\) }
+		\barre \espace
+		g16[ a c\( b\)] a4
+		\endBar
+	}
+	\addlyrics {
+		\set stanza = #"        2."
+		Lou -- ange à toi, Sei -- gneur Jé -- sus,
+		no -- tre pas -- teur et no -- tre gui -- de.
+		"(Al" -- le -- lu- "" "ia !)"
+	}
+}
+
+
+\label #'aaf
+\score {
+	\relative c'' {
+		a4 \times 2/3 { c8[ c c] } \times 2/5 {c16[\( c\) c d e]}
+		c8[\( c16\) \cesure \espace a]
+		\times 2/3 { g8[ \cesureBasse \espace f g] } \times 2/3 { a8[ a c] } a4
+		\barre \espace
+		g16[ a g\( f\)] g4
+		\endBar
+	}	
+	\addlyrics {
+		\set stanza = #"        1."
+		Ve -- nez à la sour -- ce de la sa -- ges -- se,
+		ve -- nez, ad -- or -- ons le Sei -- gneur.
+		"(Al" -- le -- lu- "" "ia !)"
+	}
+	\header {
+		%titre =  " "
+		titres = \markup \ant #'aaf " " "Commun des docteurs" }
+}
+
+\pageBreak
+
+\markup { \fill-line { " " " " "M 003"}}
+
+
+\score {
+	\relative c'' {
+		\times 2/3 { r8\( e[ e]\) } \times 2/3 { e4\(\cesure \pespace e8\) }
+		\times 2/3 { e8[ e d] } \times 2/3 { e8[\( e\) c] } b8[\( b\)]
+		 \cesure \espace
+		 \times 2/3 { e,8[ e a] } g8[ a] e4		
+		\endBar
+	}
+	\addlyrics {
+		\set stanza = #"2."
+		Jé -- sus- -- Christ, Sa -- gess -- e_é -- ter -- nel -- le du Pè -- re,
+		gloire et lou -- ange à toi_!
+	}
+}
+
+
+
+
+\label #'aag
+\score {
+	\relative c' {
+		d8 \times 2/3 { d8[ \cesureBasse \espace f f] } d8[ c] 
+		c16[ \cesureBasse \espace f a a] g8[ d] f8[ e] d4
+		\endBar
+	}
+	\addlyrics {
+		Ve -- nez, a -- do -- rons le Christ, o -- bé -- is -- sant jus -- qu'à la mort_!
+	}
+	
+	\header {	
+		%titre =  " "
+		titres = \markup \ant #'aag " " "Commun des religieux" }
+}
+
+\label #'aah
+\score {
+	\relative c' {
+		\stemUp
+		d8 a'16[ a b g]
+		\times 2/3 { a4_\(\cesure \pespace c8\) } c4
+		\cesure \espace
+		\times 2/3 { a8[ b g] } a4
+		\barre \espace
+		\times 2/3 { r8_\( g[ a]\) } b8[\( a\)] a4
+		\endBar
+	}
+	\addlyrics {
+		Voi -- ci l'E -- poux qui vient_!
+		Ve -- nez, a -- do -- rons- -- le_!
+		"(Al" -- le -- lu- "" "ia !)"
+	}
+	\header {
+		%titre =  " "
+		titres = \markup \ant #'aah " " "Commun des religieuses et des vierges" }
+}
+
+
+\label #'aai
+\score {
+	\relative c'' {
+		c8 c8[ c] c8[\( c\)] b8[ c] a4
+		\pespace
+		\times 2/3 { r8_\( e[ g]\) } a4
+		\cesure \pespace
+		\times 2/3 { a8[ c c] } a4
+		\endBar
+	}	
+	\addlyrics {
+		\set stanza = #"        1."
+		Ta gloire é -- cla -- te dans les saints,
+		Sei -- gneur Dieu, nous t'a -- do -- rons.
+	}
+	\header {
+		%titre =  " "
+		titres = \markup \ant #'aai " " "Commun des saints et des saintes" }
+}
+
+
+\score {
+	\relative c'' {
+		e16 e16[ e d e] c8[ \cesure \espace b] a4 
+		\cesure \espace
+		\times 2/3 { g8[ a c] } d16[ d c d] b4
+		\barre \espace
+		g16[ a b\( a\)] a4
+		\endBar
+	}
+	\addlyrics {
+		\set stanza = #"        2."
+		C'est toi que nous chan -- tons, Sei -- gneur,
+		en cé -- lé -- brant ton ser -- vi -- teur.
+		"(Al" -- le -- lu- "" "ia !)"
+	}
+}
+
+
+\pageBreak
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%COMMUN DE LA DEDICACE%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
 	
 
 \label #'bb
@@ -139,22 +476,24 @@
 		\times 2/3 { a8[ c d] } \times 2/3 { c8[\( c\) c] }
 		a8[ g] a4\( a8\) r8
 		\endBar
-		\stemOff g4 a c s1 f,4 a c
+		\stemOff g4 a c
 		\endBar
 	}
 	\addlyrics {
+		\set stanza = #"1."
 		Je les con -- dui -- rai vers ma sain -- te mon -- ta -- gne, dit le Sei -- gneur.
 		Je les ren -- drai heu -- reux dans ma mai -- son de pr -- iè -- re.
 		Leurs sa -- cri -- fi -- ces se -- ront a -- gré -- és sur mon au -- tel,
 		car ma mai -- son s'ap -- pel -- le -- ra_:
 		mai -- son de pr -- iè -- re pour tous les peu -- ples.
-		\markup { \citation #"(Is 36)  " } "" "[Ton 8 " ""  _  "" " ou Ton 5?]"
+		\markup { \citation #"(Is 36)  " } "" "[Ton 8]"
 	}
 	\header {
-		titres = \markup \ant #'bb "M 100" "Antienne 1" }
+		titre =  "COMMUN DE LA DEDICACE"
+		titres = \markup \ant #'bb "M 100" "Antiennes" }
 }
 
-\label #'bc
+
 \score {
 	\relative c'' {
 		\times 2/6 { g16[\( g\) \cesureBasse g g b c] }
@@ -182,6 +521,7 @@
 		\endBar
 	}
 	\addlyrics {
+		\set stanza = #"       2."
 		Frè -- res, ne sa -- vez- -- vous pas que vous ê -- tes le tem -- ple de Dieu,
 		et que son Es -- prit ha -- bite en vous_?
 		Si quel -- qu'un dé -- truit le tem -- ple de Dieu,
@@ -189,71 +529,18 @@
 		car le tem -- ple de Dieu est sa -- cré, et ce tem -- ple, c'est vous.
 		\markup { \citation #"(1Co 3)  " } "" "[Ton 7]"
 	}
-	\header {
-		titres = \markup \ant #'bc "M 200" "Antienne 2" }
 }
 		
 
-%\pageBreak
+\pageBreak
 
 
-%COMMUN DES APÔTRES
-
-\label #'ca
-\score {
-	\relative c'' {
-		g8 a4 \times 2/3 { c8[ b c] } d4\(
-		\times 2/3 { c4\)\(\cesure \espace e8\) }
-		d8[ c] b8[ g] a4
-		\endBar
-	}
-	\addlyrics {
-		\set stanza = #"       1."
-		Le Christ, Roi des a -- pô -- tres, ve -- nez, a -- do -- rons -- -le.
-	}
-	\header {
-		titre =  "COMMUN DES APÔTRES"
-		titres = \markup \ant #'ca "N 001" "Invitatoire apôtres" }
-}
-
-\score {
-	\relative f' {
-		\times 2/3 { d8[ f f] } f8[ \cesureBasse \espace f] g8[ f] f4 \cesure \espace
-		f16[ f f f] \times 2/3 { g8[ a bes] } g8[\( f\)]
-		\times 2/3 { f8[ g f] }
-		\times 2/3 { f4\( f8\) } 
-		\barre \espace
-		f16[\( g\) a g] \times 2/3 { g4\( f8\) }
-		\endBar
-	}
-	\addlyrics {
-	\set stanza = #"2."
-		Nous te lou -- ons, Sei -- gneur Jé -- sus,
-		toi qui as fon -- dé ton E -- gli -- se sur les a -- pô -- tres.
-		"(Al" - le -- lu -- ia -- "- !)"
-	}
-}
+%%%%%%%%%%%%%%%%%%%%%%
+%%COMMUN DES APÔTRES%%
+%%%%%%%%%%%%%%%%%%%%%%
 
 
 
-
-\label #'caa
-\score {
-	\relative f' {
-		%\key f \major
-		f8[ g] \times 2/3 { a4\(\cesure \espace a8\) }
-		\times 2/3 { a8[ a b] } \times 2/3 { g8[ g f] }
-		\times 2/3 { a4\( a8\) }
-		\espace r8 a c8[ d] a
-		\endBar
-	}
-	\addlyrics {
-		Jé -- sus Christ, Pa -- role é -- ter -- nel -- le du Pè -- re,
-		lou -- ange à toi_!
-	}
-	\header {
-		titres = \markup \ant #'caa " " "Invitatoire évangélistes" }
-}
 
 
 
@@ -264,8 +551,8 @@
 		\times 2/3 { g8[ a d] }
 		\times 2/3 { c8[\( c\) b] } \times 2/3 { c4\( b8\) } \cesure \espace
 		\times 2/3 { c8[ c c] } c8[ a] g4
-		\times 2/3 { f8[ a a] } c8[ g] 
-		\ifIndent
+		\times 2/3 { f8[ a a] } c8[ g]	
+		\ifIndent			
 		f8[\( a\)] g8[\( g\)] \cesure
 		g16[ a c c] c8[ a]
 		\times 2/3 { c8[\( c\) c] }
@@ -279,50 +566,18 @@
 		
 	}
 	\addlyrics {
+		\set stanza = #"1."
 		Quand le Fils de l'hom -- me siè -- ge -- ra sur son trô -- ne de gloi -- re,
 		vous qui m'a -- vez sui -- vi,
 		vous siè -- ge -- rez sur dou -- ze trô -- nes,
 		et vous ju -- ge -- rez les dou -- ze tri -- bus d'Is -- ra -- ël.
 		"(Al" -- le -- lu - - ia -- "- !)"
-		\markup { \citation #"(Mt 19))  " } "" "[Ton 3 ou 8?]"
+		\markup { \citation #"(Mt 19))  " } "" "[Ton 3]"
 	}
 	\header {
-		titres = \markup \ant #'cb "N 100" "Antienne apôtres 1" }
+		titre =  "COMMUN DES APÔTRES"
+		titres = \markup \ant #'cb "N 100" "Antiennes" }
 }
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%ANTIENNE SUIVANTE%%%%%%%%%%%%%
-%%%%%%%%%ANTIENNE ACTUELLE DU 29 JUIN%%%%%%%%
-%%%%%%%%%A AJOUTER AU COMMUN ????????%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\label #'cba
-\score {
-	\relative d'  {
-		\times 2/3 { d8[ d d] } e8[ f] g4		
-		\cesure \espace
-		\times 2/3 { a8[ bes g] } f8[ e] f8[\( g\)] f8[\( e\)] d4
-		\cesure
-		\ifIndent
-		\times 2/3 { c8[\( d\) f] } f8[ d]		
-		\times 2/3 { d8[\( e\) f] }
-		\times 2/3 { g8[ f e] } c4\( d8\) r8
-		\endBar \pespace
-		\stemOff c4 d f
-		\endBar
-	}
-	\addlyrics {
-		Vous qui m'a -- vez sui -- vi, vous siè -- ge -- rez sur dou -- ze trô- _ -- nes,
-		pour- _ -- _ju -- ger les dou -- ze tri -- bus d'Is -- ra -- ël -.
-		\markup { \citation #"(Mt 19)  " } "" "[Ton 2]"
-	}
-	\header {
-		titres = \markup \ant #'cba "N 101" "Antienne apôtres 2" }
-
-}
-
 
 
 
@@ -347,6 +602,7 @@
 		\endBar
 	}
 	\addlyrics {
+		\set stanza = #"       2."
 		Ce n'est pas vous qui m'a -- vez choi -- si,
 		mais c'est moi qui vous ai choi -- sis
 		et vous ai é -- ta -- blis
@@ -356,7 +612,7 @@
 		\markup { \citation #"(Jn 15)" } "" "[Ton 4]"
 	}
 	\header {
-		titres = \markup \ant #'cc "N 102" "Antienne apôtres 3" }
+		titres = \markup \ant #'cc "N 102" " " }
 }
 
 
@@ -384,6 +640,7 @@
 		\endBar
 	}
 	\addlyrics {
+		\set stanza = #"       3."
 		Al -- lez, de tou -- tes les na -- tions fai -- tes des di -- sci -- ples,
 		les ba -- pti -- sant au nom du Pè -- re et du Fils et du Saint Es -- prit,
 		leur en -- sei -- gnant à gar -- der
@@ -392,101 +649,58 @@
 		\markup { \citation #"(Mt 28)   " } "" "[Ton 5]"
 	}
 	\header {
-		titres = \markup \ant #'cd "N 103" "Antienne apôtres 4" }
+		titres = \markup \ant #'cd "N 103" " " }
 }
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Antienne N104 ci dessous :%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%Il semble vraiment que ce soit plutôt une antienne en deuxième mode transposé%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%car on antonne instinctivement : fa sol si bémol%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ELle est sûrement à transposer%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \label #'ce
 \score {
 	\relative f' {
-		\key f \major
-		f16 \times 2/5 {g16[bes bes bes bes]} bes4
+		c16 \times 2/5 {d16[f f f f]} f4
 		\cesure \espace
-		\times 2/3 { a8[ g f] } f4 d16[ d d f]
-		\times 2/3 { g8[ g a] } g8[\( g\)]
+		\times 2/3 { e8[ d c] } c4 a16[ a a c]
+		\times 2/3 { d8[ d e] } d8[\( d\)]
 		\cesure \espace
-		
-		bes16[ bes bes bes]
 		\ifIndent
-		\times 2/3 { bes8[ bes bes] } \times 2/3 { bes8[ a g] }
-		g16[\( g\) g f] a16[ f g a] g8[\( g\)]
-		\times 2/3 { f8[ f f] } \times 2/3 { f8[ a bes] } g4
+		f16[ f f f]
+		\times 2/3 {f8[ f f] } \times 2/3 { f8[ e d] }
+		d16[\( d\) d c] e16[ c d e] d8[\( d\)]
+		\times 2/3 { c8[ c c] } \times 2/3 { c8[ e f] } d4
 		\barre
 		\break
-		\times 2/3 { r8_\( a[ g]\) } a8[\( f\)] f4
+		\times 2/3 { r8_\( e[ d]\) } e8[\( c\)] c4
 		\endBar  \espace
-		\stemOff f4 g a
+		\stemOff c4 d f
 		\endBar
 	}
 	\addlyrics {
+		%\set stanza = #"       4."
 		La Vie s'est ma -- ni -- fes -- tée_:
 		nous l'a -- vons vue et nous en ren -- dons té -- moi -- gna -- ge_:
 		nous vous an -- non -- çons cet -- te Vie é -- ter -- nel -- le
 		qui é -- tait au -- près du Pè -- re
 		et qui nous est ap -- pa -- rue.
 		"(Al" -- le -- lu- "" "ia !)"
-		\markup { \citation #"(1Jn 1)   " } "" "[Ton 1]"
+		\markup { \citation #"(1Jn 1)   " } "" "[Ton 2]"
 	}
 	\header {
-		titres = \markup \ant #'ce "N 104" "Antienne évangélistes  Mettre cette ant en 2ème mode ?" }
+		titres = \markup \ant #'ce "N 104" "Pour les évangélistes" }
 }
 
 
 
-%\pageBreak
+\pageBreak
 
 
-%COMMUN DES MARTYRS
+%%%%%%%%%%%%%%%%%%%%%%
+%%COMMUN DES MARTYRS%%
+%%%%%%%%%%%%%%%%%%%%%%
 
 
-\label #'da
-\score {
-	\relative c'' {
-		e8 d8[ e] a,4 \cesure \espace
-		\times 2/3 { g8[ a c] } d4 \cesure \espace
-		\times 2/3 { c8[ e d] } d4
-		\barre \espace
-		\stemUp
-		\times 2/3 { r8_\( c[ a]\) } b8[\( a\)] a4
-		\endBar
-	}
-	\addlyrics {
-		\set stanza = #"1."
-		Sei -- gneur Jé -- sus, Roi des mar -- tyrs, nous t'a -- do -- rons.
-		"(Al" -- le -- lu- "" "ia !)"
-	}
-	\header {
-		titre =  "COMMUN DES MARTYRS"
-		titres = \markup \ant #'da "O 001" "Invitatoire" }
-}
 
 
-\score {
-	\relative c'' {
-		\times 2/3 { r8\( c[ c]\) } \times 2/3 { c4\(\cesure \espace c8\) }
-		\times 2/3 { c8[ b c] } \times 2/3 { a4\(\cesure\espace e8\) }
-		g16[ \cesure a c c] a4
-		\barre \espace
-		g16[ a c\( b\)] b4
-		\endBar
-	}
-	\addlyrics {
-		\set stanza = #"2."
-		Le Sei -- gneur, le Roi des mar -- tyrs, ve -- nez, a -- do -- rons -- -le.
-		"(Al" -- le -- lu- "" "ia !)"
-	}
-}
 
-
-\markup { " O 101 et O 102 à réécrire " }
 
 
 \label #'dd
@@ -509,97 +723,86 @@
 		\endBar
 	}
 	\addlyrics {
+		\set stanza = #"       1."
 		Ils se ré -- jou -- is -- sent dans les cieux,
 		les saints qui ont sui -- vi les tra -- ces du Christ_:
 		et par -- ce qu'ils ont ré -- pan -- du leur sang pour son a -- mour,
 		ils sont dans l'al -- lé -- gres -- se a -- vec Lui pour l'é -- ter -- ni -- té.		
-		\markup { \citation #"(   )" } "" "[Ton 1]"
+		\markup { \citation #"(MR)" } "" "[Ton 1]"
 	}
 	\header {
-		titres = \markup \ant #'dd "O 103" "Antienne 3" }
+		titre =  "COMMUN DES MARTYRS"
+		titres = \markup \ant #'dd "O 103" " " }
+}
+
+\markup { \line { " O 101 " }}
+
+\score { 
+		\new Voice = sop <<
+		%\key f \major
+		{ \relative f' { \cadenzaOn \stemOff
+		\hideNotes s1 a\breve
+		\bar " "
+		\break
+		g\breve
+		\bar " "
+		\break
+		g\breve
+		\bar "|." }}
+		
+	\new Lyrics \lyricsto "sop" \lyricmode {
+		\once \override LyricText #'self-alignment-X = #LEFT "Ceux qui viennent de la grande épreuve ont lavé leurs robes dans le sang de l'Agneau :"
+		\once \override LyricText #'self-alignment-X = #LEFT "jour et nuit ils servent dans le Temple de Dieu,"
+		\once \override LyricText #'self-alignment-X = #LEFT "et Celui qui siège sur le Trône étendra sur eux sa tente."
+	  }
+ 	  >>
+}
+
+\markup { \line { " O 102 " }}
+
+\score { 
+		\new Voice = sop <<
+		%\key f \major
+		{ \relative f' { \cadenzaOn \stemOff
+		\hideNotes s1 a\breve
+		\bar " "
+		\break
+		g\breve
+		\bar " "
+		\break
+		g\breve
+		\bar "|." }}
+		
+	\new Lyrics \lyricsto "sop" \lyricmode {
+		\once \override LyricText #'self-alignment-X = #LEFT "Au vainqueur, je donnerai de la manne cachée,"
+		\once \override LyricText #'self-alignment-X = #LEFT "je lui donnerai aussi un caillou blanc portant gravé"
+		\once \override LyricText #'self-alignment-X = #LEFT "un nom nouveau que nul ne connaît, hormis celui qui le reçoit."
+	  }
+ 	  >>
 }
 
 
 
-%\pageBreak
+
+\pageBreak
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%%COMMUN DES PASTEURS%%
+%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
-%COMMUN DES PASTEURS
-
-
-\label #'ea
-\score {
-	\relative c'' {
-		c16[ c c c] c8[ \cesure \espace c16 c] b8[ c]
-		\times 2/3 { a8[\( a\) \cesureBasse \espace e] }
-		g16[ a c c] a4
-		\barre \espace
-		g16[ a c\( b\)] b4
-		\endBar
-	}
-	\addlyrics {
-		\set stanza = #"1."
-		Le Sei -- gneur Jé -- sus, le té -- moin fi -- dè -- le, ve -- nez,
-		a -- do -- rons -- -le.
-		"(Al" -- le -- lu- "" "ia !)"
-	}
-	\header {
-		titre =  "COMMUN DES PASTEURS"
-		titres = \markup \ant #'ea "P 001" "Invitatoires" }
-}
-
-
-\score {
-	\relative c'' {
-		g8 c8[ b] c8[ \cesure \espace a] g8[ f] g4 \cesure \espace
-		\times 2/3 { a8[\( a\) c] } \slurDashed d4(
-		\times 2/3 { e8[) d c] } \times 2/3 { a4\( a8\) }
-		\barre \espace
-		g16[ a c\( b\)] a4
-		\endBar
-	}
-	\addlyrics {
-		\set stanza = #"2."
-		Lou -- ange à toi, Sei -- gneur Jé -- sus,
-		no -- tre pas -- teur et no -- tre gui -- de.
-		"(Al" -- le -- lu- "" "ia !)"
-	}
-}
+\markup { \fill-line { "COMMUN DES PASTEURS"}}
 
 
 
-
-\label #'eb
-\score {
-	\relative f' {
-		\key f \major
-		a8 a16[\( a\) a c] \times 2/3 { a8[\( bes\) c] } a8[\( a\)]
-		\espace
-		r8. f16 \times 2/5 {f16[\( f\) f g a]}
-		\times 2/3 { g8[\( g\) g] } bes8[ c]
-		\times 2/3 { a8[\( a\) a] } \times 2/3 { a8[ a g] }
-		\ifIndent
-		a8[ f] e8[\( e\)]
-		\pespace		
-		\times 2/6 { d16[ e f g g\( g\)] }
-		\times 2/3 { g8[\( g\) g] } \times 2/3 { c8[ bes a] } a4
-		\endBar \pespace
-		\stemOff a4 a a
-		\endBar
-	}
-	\addlyrics {
-		Vous ê -- tes la lu -- miè -- re du mon -- de.
-		Que bril -- le vo -- tre lu -- miè -- re de -- vant les hom -- mes
-		a -- fin qu'en voy -- ant vos oeu -- vres,
-		ils glo -- ri -- fient vo -- tre Pè -- re qui est dans les cieux.
-		\markup { \citation #"(Mt...)" } "" "[Ton Per.]"
-	}
-	\header {
-		titres = \markup \ant #'eb "P 100 (T101)" "Antienne 1" }
-}
 	
-\markup { \fontsize #-1 "              Antienne 2  "  \fontsize #0 "Cf. I 400" }
+\markup { \column { \fontsize #-1 "              Antiennes  "
+	\line {	\fontsize #0 "1. Cf. T 101" \fontsize #-1 "(Vous êtes la lumière du monde)" }
+	\line {	\fontsize #0 "2. Cf. I 401" \fontsize #-1 "(Je suis le bon Pasteur)"	}
+	\line { " " }}
+}
 
 
 
@@ -608,46 +811,12 @@
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%
+%%COMMUN DES DOCTEURS%%
+%%%%%%%%%%%%%%%%%%%%%%%
 
-%COMMUN DES DOCTEURS
 
 
-
-\label #'fa
-\score {
-	\relative c'' {
-		a4 \times 2/3 { c8[ c c] } \times 2/5 {c16[\( c\) c d e]}
-		c8[\( c16\) \cesure \espace a]
-		\times 2/3 { g8[ \cesureBasse \espace f g] } \times 2/3 { a8[ a c] } a4
-		\barre \espace
-		g16[ a g\( f\)] g4
-		\endBar
-	}	
-	\addlyrics {
-		\set stanza = #"        1."
-		Ve -- nez à la sour -- ce de la sa -- ges -- se,
-		ve -- nez, ad -- or -- ons le Sei -- gneur.
-		"(Al" -- le -- lu- "" "ia !)"
-	}
-	\header {
-		titre =  "COMMUN DES DOCTEURS"
-		titres = \markup \ant #'fa "Q 001" "Invitatoires" }
-}
-
-\score {
-	\relative c'' {
-		\times 2/3 { r8\( e[ e]\) } \times 2/3 { e4\(\cesure \pespace e8\) }
-		\times 2/3 { e8[ e d] } \times 2/3 { e8[\( e\) c] } b8[\( b\)]
-		 \cesure \espace
-		 \times 2/3 { e,8[ e a] } g8[ a] e4		
-		\endBar
-	}
-	\addlyrics {
-		\set stanza = #"2."
-		Jé -- sus- -- Christ, Sa -- gess -- e_é -- ter -- nel -- le du Pè -- re,
-		gloire et lou -- ange à toi_!
-	}
-}
 
 
 \label #'fb
@@ -674,99 +843,70 @@
 		\endBar
 	}
 	\addlyrics {
+		\set stanza = #"       1."
 		Je fe -- rai lui -- re la do -- ctr -- ine com -- me l'au -- ro -- re,
 		je por -- te -- rai au loin sa lu -- miè -- re.
 		Je la ré -- pan -- drai comm -- e_u -- ne pro -- phé -- tie
 		et la trans -- met -- trai aux gé -- né -- ra -- tions fu -- tu -- res.
 		Voy -- ez_: ce n'est pas pour moi seul que j'ai pei -- né,
 		mais pour tous ceux qui cher -- chent la vé -- ri -- té.
-		\markup { \citation #"(  )" } "" "[Ton 8?]"
+		\markup { \citation #"(Si ?)" } "" "[Ton 8]"
 	}
 	\header {
-		titres = \markup \ant #'fb "Q 100" "Antienne 1 sur quel mode?" }
-}
-
-\markup { \fontsize #-1 "              Antienne 2  "  \fontsize #0 "Cf. H 400 ???" }
-
-\markup { \fontsize #-1 "              Antienne 3  "  \fontsize #0 "Cf. 28 janvier ???" }
-
-
-%\pageBreak
-
-
-
-
-%COMMUN DES RELIGIEUX, RELIGIEUSES, VIERGES
-
-
-\label #'ga
-\score {
-	\relative c' {
-		d8 \times 2/3 { d8[ \cesureBasse \espace f f] } d8[ c] 
-		c16[ \cesureBasse \espace f a a] g8[ d] f8[ e] d4
-		\endBar
-	}
-	\addlyrics {
-		Ve -- nez, a -- do -- rons le Christ, o -- bé -- is -- sant jus -- qu'à la mort_!
-	}
-	
-	\header {
-		titre =  "COMMUN DES RELIGIEUX, RELIGIEUSES, VIERGES"
-		titres = \markup \ant #'ga "S 001" "Invitatoire religieux" }
+		titre =  "COMMUN DES DOCTEURS"
+		titres = \markup \ant #'fb "Q 100" "Antiennes " }
 }
 
 
-\label #'gaa
-\score {
-	\relative c' {
-		\stemUp
-		d8 a'16[ a b g]
-		\times 2/3 { a4_\(\cesure \pespace c8\) } c4
-		\cesure \espace
-		\times 2/3 { a8[ b g] } a4
-		\barre \espace
-		\times 2/3 { r8_\( g[ a]\) } b8[\( a\)] a4
-		\endBar
-	}
-	\addlyrics {
-		Voi -- ci l'E -- poux qui vient_!
-		Ve -- nez, a -- do -- rons- -- le_!
-		"(Al" -- le -- lu- "" "ia !)"
-	}
-	\header {
-		titres = \markup \ant #'gaa " " "Invitatoire religieuses et saintes" }
+\markup { \column { %\fontsize #-1 "     "
+	\line {	\fontsize #0 "2. Cf. H 400" \fontsize #-1 "(Je suis venu en ce monde)" }
+	\line {	\fontsize #0 "3. Cf. 28 janvier" \fontsize #-1 "(J'ai prié, et l'intelligence m'a été donnée)"	}}
 }
+
+
+
+
+\pageBreak
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%COMMUN DES RELIGIEUX, RELIGIEUSES, VIERGES%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 
 
 \label #'gb
 \score {
-	\relative c'' {
-		a8 a4 \cesure \espace
-		\times 2/3 { g8[ a b] } a4 \cesure \espace
-		\times 2/5 {c16[d e e e]} e8[ e] e4 \cesure \espace
-		d16[ c b a] a8[\( a\)]
-		\times 2/7 { a16[ a b c\( c\) \bar "" \break c c] }
+	\relative c' {		
+		d8 d4 \cesure \espace
+		\times 2/3 { c8[ d e] } d4 \cesure \espace
+		\times 2/5 { f16[g a a a]} a8[ a] a4 \cesure \espace
+		g16[ f e d] d8[\( d\)]
+		\times 2/7 { d16[ d e f\( f\) \bar "" \break f f] }
 		%\ifIndent
 		%c16[ c]
-		c8[\( c\)] \espace		
-		\times 2/3 { c8[ d c] } c16[ \cesure \espace  a g a]
-		\times 2/3 { c8[ b a] } \stemUp \times 2/3 { a4\(\cesure \espace c8\) }
-		\times 2/3 { c8[ a g] } a4\( a8\) r8
+		f8[\( f\)] \espace		
+		\times 2/3 { f8[ g f] } f16[ \cesureBasse \espace  d c d]
+		\times 2/3 { f8[ e d] } \stemUp \times 2/3 { d4\(\cesure \espace f8\) }
+		\times 2/3 { f8[ d c] } d4\( d8\) r8
 		\endBar \espace
-		\stemOff g4 a c
+		\stemOff c4 d f
 		\endBar
 	}
 	\addlyrics {
+		\set stanza = #"       1."
 		Vrai -- ment, dit le Sei -- gneur,
 		nul n'au -- ra tout lai -- ssé pour moi,
 		et pour l'E -- van -- gi -- le,
 		qu'il ne re -- çoi -- ve le cen -- tu -- ple, dès main -- te -- nant,
 		et dans le monde à ve -- nir, la vie é -- ter -- nel -- le.
-		\markup { \citation #"(Mc 10)" } "" "[Ton 8?]"
+		\markup { \citation #"(Mc 10)" } "" "[Ton 2]"
 	}
 	\header {
-		titres = \markup \ant #'gb "S 101" "Antienne 1  Mettre cette ant en 2ème mode en transposant ?" }
+		titre =  "COMMUN DES RELIGIEUX, RELIGIEUSES, VIERGES"
+		titres = \markup \ant #'gb "S 101" "Antiennes" }
 }
 
 
@@ -790,6 +930,7 @@
 		\endBar
 	}
 	\addlyrics {
+		\set stanza = #"       2."
 		Le che -- min des ju -- stes est lu -- miè -- re d'au -- ro -- re,
 		dont l'é -- clat res -- plen -- dit jus -- qu'au jour.
 		La cein -- ture aux reins, leurs lam -- pes all -- um -- ées,
@@ -797,58 +938,57 @@
 		\markup { \citation #"(   )" } "" "[Ton 3]"
 	}
 	\header {
-		titres = \markup \ant #'gd "S 103" "Antienne 2" }
+		titres = \markup \ant #'gd "S 103" " " }
 }
 
-\markup { \fontsize #-1 "              Antienne 3  "  \fontsize #0 "Cf. K 101 ???" }
-
-\markup { \fontsize #-1 "              Antienne 4  "  \fontsize #0 "Cf. K 281 ???" }
-
-
-%\pageBreak
-
-
+\markup { \column { %\fontsize #-1 "     "
+	\line {	\fontsize #0 "3. Cf. K 281" \fontsize #-1 "(Une seule chose te manque)" }
+	\line { \fontsize #-5  "   " }
+	\line { \fontsize #-1 "          Religieuses et vierges" }
+	\line {	\fontsize #0 "4. Cf. K 320" \fontsize #-1 "(Au milieu de la nuit)"	}}
+}
 
 
-%COMMUN DES SAINTS
+
+\pageBreak
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%COMMUN DES SAINTS ET DES SAINTES%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \label #'ha
 \score {
-	\relative c'' {
-		c8 c8[ c] c8[\( c\)] b8[ c] a4
-		\pespace
-		\times 2/3 { r8_\( e[ g]\) } a4
-		\cesure \pespace
-		\times 2/3 { a8[ c c] } a4
+	\relative f' {
+		\key f \major
+		a8 a16[\( a\) a c] \times 2/3 { a8[\( bes\) c] } a8[\( a\)]
+		\espace
+		r8. f16 \times 2/5 {f16[\( f\) f g a]}
+		\times 2/3 { g8[\( g\) g] } bes8[ c]
+		\times 2/3 { a8[\( a\) a] } \times 2/3 { a8[ a g] }
+		\ifIndent
+		a8[ f] e8[\( e\)]
+		\pespace		
+		\times 2/6 { d16[ e f g g\( g\)] }
+		\times 2/3 { g8[\( g\) g] } \times 2/3 { c8[ bes a] } a4
+		\endBar \pespace
+		\stemOff a4 a a
 		\endBar
-	}	
+	}
 	\addlyrics {
-		\set stanza = #"        1."
-		Ta gloire é -- cla -- te dans les saints,
-		Sei -- gneur Dieu, nous t'a -- do -- rons.
+		Vous ê -- tes la lu -- miè -- re du mon -- de.
+		Que bril -- le vo -- tre lu -- miè -- re de -- vant les hom -- mes
+		a -- fin qu'en voy -- ant vos oeu -- vres,
+		ils glo -- ri -- fient vo -- tre Pè -- re qui est dans les cieux.
+		\markup { \citation #"(Mt...)" } "" "[Ton Per.]"
 	}
 	\header {
-		titre =  "COMMUN DES SAINTS"
-		titres = \markup \ant #'ha "T 001" "Invitatoires" }
+		titre =  "COMMUN DES SAINTS ET DES SAINTES"
+		titres = \markup \ant #'ha "T 101" "Antiennes" }
 }
 
 
-\score {
-	\relative c'' {
-		e16 e16[ e d e] c8[ \cesure \espace b] a4 
-		\cesure \espace
-		\times 2/3 { g8[ a c] } d16[ d c d] b4
-		\barre \espace
-		g16[ a b\( a\)] a4
-		\endBar
-	}
-	\addlyrics {
-		\set stanza = #" 2."
-		C'est toi que nous chan -- tons, Sei -- gneur,
-		en cé -- lé -- brant ton ser -- vi -- teur.
-		"(Al" -- le -- lu- "" "ia !)"
-	}
-}
 
 
 \label #'hb
@@ -873,10 +1013,11 @@
 		Bien -- heu -- reux les pau -- vres, bien -- heu -- reux les doux_:
 		ils ob -- tien -- dront la ter -- re pro -- mi -- se.
 		Bien -- heu -- reux les coeurs purs_: ils ver -- ront Dieu.
-		\markup { \citation #"(Mt 5)" } "" "[Ton 3 ou 8??]"
+		\markup { \citation #"(Mt 5)" } "" "[Ton 8]"
 	}
 	\header {
-		titres = \markup \ant #'hb "T 102" "Antienne 1 préciser le mode" }
+		%titre =  "COMMUN DES SAINTS ET DES SAINTES"
+		titres = \markup \ant #'hb "T 102" " " }
 }
 
 
@@ -899,13 +1040,11 @@
 		La crai -- nte du Sei -- gneur est sour -- ce de sa -- ges -- se,
 		bie -- "n a" -- vi -- sés tous ceux qui s'y tien -- nent.
 		Sa lou -- an -- ge de -- meure à ja -- mais.
-		\markup { \citation #"(Ps 110)" } "" "[Ton 3 ou 8??]"
+		\markup { \citation #"(Ps 110)" } "" "[Ton 3]"
 	}
 	\header {
-		titres = \markup \ant #'hc "T 104" "Antienne 2 préciser le mode" }
+		titres = \markup \ant #'hc "T 104" " " }
 }
-
-
 
 
 
@@ -931,10 +1070,10 @@
 		je les ai mé -- pri -- sés pour l'a -- mour
 		de mon Sei -- gneur Jé -- sus Christ.
 		Al -- le -- lu - - ia- _!
-		\markup { \citation #"(...)" } "" "[Ton 4 ou ?]"
+		\markup { \citation #"(...)" } "" "[Ton 3]"
 	}
 	\header {
-		titres = \markup \ant #'hd "T 105" "Antienne 3 préciser le mode ?" }
+		titres = \markup \ant #'hd "T 105" " " }
 }
 
 

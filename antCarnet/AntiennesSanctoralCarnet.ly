@@ -6,6 +6,22 @@
 
 
 
+
+\paper {
+		markup-markup-spacing =		% variable redéfinie pour mettre de l'espace entre le \markup et les titres
+	#'((padding . 1.5)%1
+	   (basic-distance . 1)%0.5
+	   (minimum-distance . 1)
+	   (stretchability . 0))
+		markup-system-spacing =		% ajouté par fr Raf
+	#'((padding . 1.5)	%0.5	% détermine l’espacement entre un titre ou un markup de premier niveau,
+	   (basic-distance . 5)	 %5	% et le système qui le suit.
+	   (minimum-distance . 5)%5
+	   (stretchability . 0))%0
+
+}
+
+
 \label #'a
 \score {
 	\relative f'  {
