@@ -1,0 +1,4 @@
+#!/bin/bash
+
+curl www.usccb.org/bible/$1/$2 |grep -A$4 ">$3</span>"|sed 's/<sup>.<\/sup>//g;s/<span class="bcv">\([0-9]*\)<\/span>/\1 /g' |html2text|sed -f ../psautier/sedsyllables;
+#curl www.usccb.org/bible/$1/$2 |grep -A$4 ">$3</span>"|sed 's/<sup>.<\/sup>//g;' |html2text|sed -f ../psautier/sedsyllables;
