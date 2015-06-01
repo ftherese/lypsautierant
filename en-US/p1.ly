@@ -1,6 +1,6 @@
 ﻿\version "2.14.0"
 \include "definitions.ly"
-%\markup { \hspace #-10 \fill-line { "Psalm 1" "Mode 7" \null \null } } 
+%\markup { \hspace #-10 \fill-line { "Psalm 1" "Mode 3" \null \null } } 
 \noPageBreak
 
 
