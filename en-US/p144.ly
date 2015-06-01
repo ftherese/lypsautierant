@@ -9,7 +9,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { O.T } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		\times 2/3 { r8_\( g a\) }
 		\times 2/3 { g[ c c] }
 		c4
@@ -28,7 +28,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { O.T Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
 		\times 2/3 { r8_\( g a\) }
 		\times 2/3 { g[\( c\) \cesure  \pespace b] }
 		c4

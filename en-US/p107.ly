@@ -10,7 +10,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { O.T } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		r8  c16[ d]
 		c16[\( f\) e f]
 		g16[ g\( g\) g]
@@ -28,7 +28,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { O.T Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
 		\times 2/3 { c8 d c }
 		\slurDashed
 		f4(

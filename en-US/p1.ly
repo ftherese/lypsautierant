@@ -10,7 +10,7 @@
 		
 		\set Staff.instrumentName = \markup{ 
 			\left-column { 
-				O.T 
+				O.T. 
 				Adv. 
 			} 
 		}
@@ -30,7 +30,7 @@ it.”
  	\relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { O.T Chr. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
 		
 		g8 \times 2/3 { a[ c d] } c[ c] c16[ \cesure \pespace c b a] c4  \pespace
 		\times 2/3 { c8[\( a\) c] }
@@ -50,7 +50,7 @@ bear much fruit
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
 		r8 g16[ a] c[ c c d] c[ c b\( a\)] c4 
 		 \times 2/3 { r8\( c[ c\)] }

@@ -33,7 +33,7 @@ am well pleased.”
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { O.T Easter } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. Easter } }
 		\times 2/3 { r8_\( c d\) }
 		c4
 		\cesure \pespace
@@ -81,7 +81,7 @@ am well pleased.”
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		c16[ d c f]
 		\times 2/3 { f8 e f }
 		g[ f]

@@ -7,7 +7,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \left-column { O.T } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		f8
 		\times 2/3 { g[ a\( a\)] }
 		\times 2/3 { a\( g\) bes }
@@ -27,7 +27,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \left-column { O.T } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		\times 2/3 { f8[ g a] }
 		\times 2/3 { a8[ g bes] }
 		a4 \cesure \pespace a8[ a a]
@@ -79,7 +79,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn 		\key f \major
-		\set Staff.instrumentName = \markup{ \left-column { Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		f8
 		\times 2/3 { g[ a a] }
 		\times 2/3 { a4\( \pespace a8\) }

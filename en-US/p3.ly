@@ -8,7 +8,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \left-column { O.T } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		r16 f[ g a]
 		a[ a a g]
 		\times 2/3 { bes8 a g }
@@ -36,7 +36,7 @@ in new -- ness of life.
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \left-column { O.T Easter } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. Easter } }
 		f8
 		g[ a]
 		\override Stem #'neutral-direction = #up
@@ -65,7 +65,7 @@ and a -- rise from the dead "(Al" -- le -- lu -- "ia!)" _ _
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \left-column { Adv. Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { Adv. Lent } }
 		f8
 		g16[ a a a]
 		a8[\( a\)] \pespace
@@ -81,7 +81,7 @@ and a -- rise from the dead "(Al" -- le -- lu -- "ia!)" _ _
 	}
 	\addlyrics {
 With all prayer and sup -- pli -- ca -- tion, pray at ev -- ery op -- por -- tu -- ni -- ty in the Spi -- rit.
-		\markup { \citation #"Ep 6:18" }
+		\markup { \citation #"Eph 6:18" }
 	}
 }
 

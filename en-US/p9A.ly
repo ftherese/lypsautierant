@@ -7,7 +7,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { O.T Chr. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
 		
 		r8. \espall	 c16 b8.[ c16] d[\( f\) e d] 
 		\times 2/3 { e4\( \pespace\cesure\pespace d8\) }
@@ -30,7 +30,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { O.T Easter } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. Easter } }
 		
 		g8 c[ \cesure\pespace b] c[ d] d16[ f e\( d\)] e4 
 		\indentLine 
@@ -74,7 +74,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
 		\times 2/3 { r8_\( g[ c\)] }
 		b[ c] \times 2/3 { d4\(  f8\) } \times 2/3 {e[\( e\) d] } e[\( e\)] 

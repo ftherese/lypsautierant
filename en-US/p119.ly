@@ -7,7 +7,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { O.T } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		a8
 		g[ a]
 		\slurDashed
@@ -30,7 +30,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { O.T Chr. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
 		a16
 		a[ a g a]
 		b8[ a]
@@ -73,7 +73,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { Car. Easter } }
+		\set Staff.instrumentName = \markup{ \left-column { Lent Easter } }
 		\times 2/3 { r8_\( a g\) }
 		\times 2/3 { a[ b a] }
 		a4

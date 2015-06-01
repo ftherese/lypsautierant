@@ -6,7 +6,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column {  O.T } }
+		\set Staff.instrumentName = \markup{ \left-column {  O.T. } }
 		
 		\times 2/3 { f8[ a c] }  
 		c[ d]
@@ -25,7 +25,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { O.T Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
 		f8[ a]
 		c[ c]
 		d[ d]

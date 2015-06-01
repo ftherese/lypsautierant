@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+﻿version "2.14.0"
  \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 6" "Mode 4" \null \null } }
@@ -10,7 +10,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \left-column { O.T } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		\times 2/3 { r8_\( a g\) }
 		\times 2/3 { a4\( a8\) }
 		\times 2/3 { g[ a b] } 
@@ -35,7 +35,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \left-column { O.T  Adv. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T.  Adv. } }
 		\times 2/3 { a8 a g }
 		a4
 		\cesure \pespace
@@ -91,7 +91,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \left-column { Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		a8
 		g[ a]
 		a16[ g a b]

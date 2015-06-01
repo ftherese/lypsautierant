@@ -8,7 +8,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \left-column { O.T  } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T.  } }
 		
 		\times 2/3 { r8_\( a[ g\)] } bes[ a] g[\( a\)]
 		\pespace r a \times 2/3 { a[ a  a] }
@@ -30,7 +30,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \left-column { O.T Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
 		
 		\times 2/3 {g8[ bes a]} \times 2/3 {g[\( a\) \cesurebasse \pespace \pespace a] } \times 2/3 {g8[\( a\) f] } f4
 

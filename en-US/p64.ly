@@ -11,7 +11,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \left-column { O.T } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		g8
 		\times 2/3 { a[ c d] }  \times 2/3 { c[ c c] }
 		b[\( a\)] c[\( c\)] \cesure \pespace
@@ -30,7 +30,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \left-column { O.T Chr. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
 		g16[ a c c] 
 		c[\( c\) d c]
 		\times 2/3 { c8 b a }
@@ -85,7 +85,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \left-column { Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		c8[\( d\)]
 		c4  \cesure \pespace c8[ a] c[\( b\)]
 		a4

@@ -7,7 +7,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \left-column { O.T } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		\times 2/3 { r8_\( f g\) }
 		a[\( a\)] 
 		\times 2/3 { a8 a g }
@@ -30,7 +30,7 @@ His dis -- ci -- ples re -- called the words of scrip -- ture, “Zeal for your 
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \left-column { O.T Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
 		f8[ g]
 		a4  \cesure \pespace
 		a16[ bes a g]  a16[ g g f]

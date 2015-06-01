@@ -8,7 +8,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \left-column { O.T } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		\times 2/3 { g8[ a c] }
 		\times 2/3 { c8[ d c] }
 		\times 2/3 { c8[\( b\) a] }
@@ -27,7 +27,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \left-column { O.T Chr. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
 		\times 2/3 { c8[ c c] }
 		c8[ d]
 		\times 2/3 { c8[ b a] }
@@ -68,7 +68,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \left-column { Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		\times 2/3 { g8 a c}
 		d[ c]
 		\times 2/3 { c b a }

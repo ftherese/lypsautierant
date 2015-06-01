@@ -5,7 +5,7 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { O.T } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		f8 a[ c]  
 		\times 2/3 { c[\( c\) d] } 
 		\times 2/3 { c4\( c8\) }
@@ -25,7 +25,7 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { O.T Adv. } }
+		\set Staff.instrumentName = \markup{ \left-column { O.T. Adv. } }
 		
 		f16[ a c c] 
 		\times 2/3 { c8[ d d] }
@@ -51,7 +51,7 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column { Car. } }
+		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
 		c'8 c4
 		c16[ c c d] \times 2/3 { b8[ b c] }
