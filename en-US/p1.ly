@@ -48,7 +48,7 @@ bear much fruit
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
-		r8 g16[ a]  c[ c c] c[ c c\( c\)] d4 
+		r8 g8[ a]  c16[ c c] c[ c c\( c\)] d4 
 		 \times 2/3 { r8 \( c[ c\)] }
 		\times 2/3 { c4\(  c8\) } c8(c\) c] [ b] a4 c8 \cesureall \ifIndent 
 		c c c c a c c b a
