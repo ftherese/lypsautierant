@@ -30,9 +30,8 @@ it.
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
 		
-		g8 \times 2/3 { a[ c d] } c[ c] c16[ \cesure \pespace c b a] c4  \pespace
-		\times 2/3 { c8[\( a\) c] }
-		c[ b] a4
+		r8 g8 \times 2/3 { a[ c d] } c[ c] c4   ( c8 ) b[ a] \stemUp c4(  \pespace
+		   a8)  c[ b]  a4
 		
 
 		
@@ -49,10 +48,10 @@ bear much fruit
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
-		
-		r8 g16[ a] c[ c c d] c[ c b\( a\)] c4 
-		 \times 2/3 { r8\( c[ c\)] }
-		\times 2/3 { c4\(  c8\) } c[\( a\) c] c[ b] a4
+		r8 g16[ a]  c[ c c] c[ c c\( c\)] d4 
+		 \times 2/3 { r8 \( c[ c\)] }
+		\times 2/3 { c4\(  c8\) } c8(c\) c] [ b] a4 c8 \cesureall \ifIndent 
+		c c c c a c c b a
 
 		
 		
@@ -70,8 +69,7 @@ dies, it re -- mains just a grain of wheat; but if it dies, it pro -- du -- ces 
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column{Easter  }}
 		
-		g8 a[ c]
-		d16[ \cesure \pespace c b a] c4 
+		g8[ a] c[ d8] c4 (c8) b[ a] c4 
 		\pespace
 		\cesureall \pespace
 		\times 2/3 { a8[ c c] }
