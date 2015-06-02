@@ -45,9 +45,9 @@
 ./modes.pl "revisedGrailPsalter/Psalm\ 43" three a b | sed -f sedaccents > Psalm042.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 44" peregrinus a b | sed -f sedaccents > Psalm043.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 45" eight a_prime b | sed -f sedaccents > Psalm044.tex;
-./modes.pl "revisedGrailPsalter/Psalm\ 46" five a_prime b | sed -f sedaccents > Psalm045.tex;
-./modes.pl "revisedGrailPsalter/Psalm\ 47" two a_prime b | sed -f sedaccents > Psalm046.tex;
-./modes.pl "revisedGrailPsalter/Psalm\ 48" five a_prime b | sed -f sedaccents > Psalm047.tex;
+./modes.pl "revisedGrailPsalter/Psalm\ 46" four a_prime b_prime | sed -f sedaccents > Psalm045.tex;
+./modes.pl "revisedGrailPsalter/Psalm\ 47" five a_prime b | sed -f sedaccents > Psalm046.tex;
+./modes.pl "revisedGrailPsalter/Psalm\ 48" two a_prime b | sed -f sedaccents > Psalm047.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 49" four a_prime b_prime | sed -f sedaccents > Psalm048.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 50" one a_prime b_prime | sed -f sedaccents > Psalm049.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 51" eight a_dprime b | sed -f sedaccents > Psalm050.tex;
