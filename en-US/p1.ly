@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup { \hspace #-10 \fill-line { "Psalm 1" "Mode 3" \null \null } } 
 \noPageBreak
@@ -14,17 +14,15 @@
 				Adv. 
 			} 
 		}
-		g8 \times 2/3 { a[ c d] } c16[\( c\) c c] 
-		\times 2/3 { c8[\( b\) a]} 
-		c8[ \pespace \cesure \pespace c16 c]
-		a[\( c\) c b]
-		 a4
+		g8[ a c] d8[ c] c[  c] 
+		b8[ a] c4  r8 a8[ c8] \stemUp b4
+		( a8)
 	 
 		\endBar
 	 }
 	 \addlyrics {
-		He rep -- lied, “Ra -- ther, blessed are those who hear the word of God and ob -- serve
-it.” 
+		Bless -- ed are those who hear the word of God and ob -- serve
+it. 
 		 \markup { \citation #"Cf. Lk 11:28" } }
 	 }
  	\relative c'' { 
