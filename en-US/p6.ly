@@ -28,7 +28,8 @@
 	\addlyrics {
 		
 		Main -- te -- nant mon âme est trou -- "blée ;" Pè -- re, sau -- ve- -- moi de cette heu -- re.
-		\markup { \citation #"Jn 12" } }
+		% “I am trou -- bled now. Yet what should I say? ‘Father, save me from this hour’? But it was for this purpose that I came to this hour.
+		\markup { \citation #"Jn 12:27" } }
 }
 
 \relative a' { 
@@ -51,7 +52,8 @@
 	\addlyrics {
 		
 		Ma -- ra -- na -- "tha !" Viens, Sei -- gneur Jé -- sus.
-		\markup { \citation #"Ap 22" } }
+		%The one who gives this tes -- ti -- mony says, “Yes, I am com -- ing soon.” A -- men! Come, Lord Je -- sus!
+		\markup { \citation #"Ap 22:20" } }
 }
 
 
@@ -84,7 +86,9 @@
 		
 		Pè -- re, je te rends grâ -- ce d'ac -- cueil -- lir ma pri -- è -- re,
 		je sais que tu m'e -- xau -- ces tou -- jours. " Al" -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Jn 11" } }
+		%So they took a -- way the stone. And Je -- sus raised his eyes and said, “Fa -- ther, I thank you for hear -- ing me.
+		%I know that you al -- ways hear me; but be -- cause of the crowd here I have said this, that they may be -- lieve that you sent me.”
+		\markup { \citation #"Jn 11:41-42" } }
 }
 
 \relative a' { 
@@ -109,6 +113,7 @@
 	\addlyrics {
 		
 		Mon âme est triste à  en mou -- rir, de -- meu -- rez et veil -- lez a -- vec moi.
-		\markup { \citation #"Mt 26" } }
+		%Then he said to them, “My soul is sor -- row -- ful e -- ven to death. Re -- main here and keep watch with me.”
+		\markup { \citation #"Mt 26:38" } }
 }
 
