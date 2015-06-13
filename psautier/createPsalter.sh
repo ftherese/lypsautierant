@@ -115,15 +115,17 @@
 ./modes.pl "revisedGrailPsalter/Psalm\ 111" seven a b_prime | sed -f sedaccents > Psalm0110.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 112" eight a b | sed -f sedaccents > Psalm0111.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 113" peregrinus a b | sed -f sedaccents > Psalm0112.tex;
-./modes.pl "revisedGrailPsalter/Psalm\ 114" two b a | sed -f sedaccents > Psalm0113.tex;
-#our 113 is the grail's 114 and 115 put together
+# Our 113 (A and B) is the grail's 114 and 115 put together separated by '*' with no new antiphons/header:
+./modes.pl "revisedGrailPsalter/Psalm\ 114" two b a | sed -f sedaccents > Psalm0113A.tex;
+#     * * *
+./modes.pl "revisedGrailPsalter/Psalm\ 115" two a_prime b | sed -f sedaccents > Psalm0113B.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 116A" four b a_prime | sed -f sedaccents > Psalm0114.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 116B" eight a_dprime b | sed -f sedaccents > Psalm0115.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 117" seven a b | sed -f sedaccents > Psalm0116.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 118" five a_prime b | sed -f sedaccents > Psalm0117.tex;
-./modes.pl "revisedGrailPsalter/Psalm\ 11900" one b a | sed -f sedaccents > Psalm0118.tex;
-./modes.pl "revisedGrailPsalter/Psalm\ 11901" three a b | sed -f sedaccents > Psalm0118.tex;
-./modes.pl "revisedGrailPsalter/Psalm\ 11902" two a b | sed -f sedaccents > Psalm0118.tex;
+./modes.pl "revisedGrailPsalter/Psalm\ 119.1-8" one b a | sed -f sedaccents > Psalm0118.01.tex;
+./modes.pl "revisedGrailPsalter/Psalm\ 119.9-16" three a b | sed -f sedaccents > Psalm0118.02.tex;
+./modes.pl "revisedGrailPsalter/Psalm\ 119.17-24" two a b | sed -f sedaccents > Psalm0118.03.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 11903" four a_prime b_prime | sed -f sedaccents > Psalm0118.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 11904" five a_prime b | sed -f sedaccents > Psalm0118.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 11905" six b a_prime | sed -f sedaccents > Psalm0118.tex;
