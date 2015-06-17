@@ -9,24 +9,13 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
-		\times 2/3 { r8_\( c d\) }
-		\times 2/3 { c[ c f] }
-		f16[ \cesuretresbasse \pespace e f g]
-		f4
-		\pespace
-		\ifIndent
-		r8 f
-		f[ f]
-		f16[ f\( f\) f]
-		e8[ c]
-		d4\( d8\) r
+		 {r8_\( c d\)}  f[ e] f[ g8]   f4 r8 f f[  e8 c] d d4
 		
 		\endBar
 	}
 
 	\addlyrics {
-And a voice came from the hea -- vens, say -- ing, “This is my be -- lo -- ved Son, with whom I
-am well pleased.”
+This is my be -- lo -- ved Son, with whom I am well pleased.
 		\markup { \citation #"Mt 3:17" } 
 	}
 }
