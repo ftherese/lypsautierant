@@ -9,21 +9,18 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		r16 f[ g a]
-		a[ a a g]
-		\times 2/3 { bes8 a g }
-		a4 \pespace
-		\ifIndent
-		\times 2/3 { r8_\( a[ a]\) }
-		\times 2/3 { a[ a a] }
-		\times 2/3 { a[ a\( a\)] }
-		g[ g]
-		f4\( d8\) r
+		f8 g a
+		a a a a
+		  a a
+		bes a a g a4\cesure  a
+		a[ a\( a\)]
+		a a a a g g f d
+		
 
 		\endBar
 	}
 	\addlyrics {
-	We were in -- deed bu -- ried with him through bap -- tism in -- to death, so that we too might live
+	We were in -- deed bu -- ried with him through bap -- ti -- sm in -- to death, so that we too might live
 in new -- ness of life.
 	%{"(Al" -- le -- lu -- ia "!)" %}
 		\markup { \citation #"Rm 6" }
