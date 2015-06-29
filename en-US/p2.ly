@@ -24,19 +24,19 @@ This is my be -- lo -- ved Son, with whom I am well pleased.
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Easter } }
 		\times 2/3 { r8_\( c d\) }
-		c4
+		c8
 		\cesure \pespace
-		c16[ f f f]
+		c8[ c f f]
 		f8[ f]
-		f16[ e f g]
+		f8[ f f e]
 		f4
 		
 		\indentLine
-		r16 f[ f f]
+		g[ f f]
 		\times 2/3 { f8\( f\) f }
 		f4
 		\cesure \pespace
-		f16[ e c d]
+		e8[  c d]
 		d4  \pespace
 		\barre \pespace
 		\times 2/3 { f8 g a }
@@ -54,12 +54,9 @@ This is my be -- lo -- ved Son, with whom I am well pleased.
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
-		f8[\( f\)]
-		\times 2/3 { e8 f g }
-		\times 2/3 { f4\( f8\) }
-		\times 2/3 { f8[ f f] }
-		\times 2/3 { e8 c d }
-		d4
+		f8[ f  f8] f8[ e] 
+		 f8[ g]
+		f4 r8 f8 f8[e8] c[ d ]
 		\endBar
 	}
 	\addlyrics {
@@ -71,12 +68,11 @@ This is my be -- lo -- ved Son, with whom I am well pleased.
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
-		c16[ d c f]
-		\times 2/3 { f8 e f }
-		g[ f]
-		f4 \pespace
-		\times 2/3 { r8_\( f f\) }
-		\times 2/3 { f[ e c] }
+		c[ d  f]
+	         f8 f f f 
+		f[ f]
+		f8
+		f  f f  e f g f4 \indentLine f f f f e c 
 		d4\( d8\) r
 		\endBar
 	}
