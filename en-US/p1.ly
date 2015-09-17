@@ -40,7 +40,7 @@ it.
 	}
 
 	\addlyrics {
-Who -- e -- ver re -- mains in me and I in him will
+Who -- ev -- er re -- mains in me and I in him will
 bear much fruit
 		\markup { \citation #"Jn 15:5" } }
 }		
@@ -80,11 +80,10 @@ dies, it re -- mains just a grain of wheat; but if it dies, it pro -- du -- ces 
 	}
 
 	\addlyrics {
-		Je -- sus said to him, “I am the way” " Al" -- le -- lu -- "ia !" _ 
+		Je -- sus said to him, “I am the way” "Al" -- le -- lu -- ia! _ 
 
 		\markup { \citation #"Jn 14" } }
 
 
 
 }
-\version "2.14.0"  % necessary for upgrading to future LilyPond versions.
