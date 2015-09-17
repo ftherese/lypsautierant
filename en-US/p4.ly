@@ -8,7 +8,7 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		f8 g a g bes a a a a a g a f f 
+		f8[ g a] g[ bes] a4 a4\( \pespace r8\) a16[ a a]  g8 [a f] f4 
 		\endBar
 	}
 
