@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT  3}
 
@@ -10,7 +10,7 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-column { T.O.  Av. } }
-		c16 c[\( c\) c a] \times 2/3 { c8 c b } a4
+		c16 c[\( c\) c a] \times 2/3 [ c8 c b ] a4
 		
 		\endBar
 	}
