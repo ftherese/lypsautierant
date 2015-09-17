@@ -80,9 +80,9 @@ dies, it re -- mains just a grain of wheat; but if it dies, it pro -- du -- ces 
 	}
 
 	\addlyrics {
-		Je -- sus said to him, “I am the way” "Al" -- le -- lu -- ia! _ 
+		Je -- sus said to him, “I am the way.” Al -- le -- lu -- ia! _ 
 
-		\markup { \citation #"Jn 14" } }
+		\markup { \citation #"Jn 14:6" } }
 
 
 
