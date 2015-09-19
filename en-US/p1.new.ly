@@ -15,7 +15,7 @@
 			} 
 		}
 		g8[ a c] d8[ c] c[  c] 
-		b8[ a] c4  r8 a8[ c8] b a4
+		b8[ a] c4  r8 a8[ c8] \stemUp b4( a8)
 	 
 		\endBar
 	 }
