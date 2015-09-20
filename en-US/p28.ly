@@ -6,8 +6,8 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column {O.T.  }
-		\times 2/3 { r8_\( g[ a]\) }
+		\set Staff.instrumentName = \markup{ \left-column {O.T.  }}
+		r8_\( g[ a]\)
 		\times 2/3 { g[ c c] }
 		c16[\( c\)\cesure \pespace b c] d8[ c] c4 
 		\indentLine \times 2/3 { r8\( c[ c]\) }

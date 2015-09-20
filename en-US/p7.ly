@@ -23,7 +23,7 @@
 	\addlyrics {
 		Bien -- heure -- ux ceux qui ont faim et soif de la jus -- ti -- ce, ils se -- ront ras -- sa -- siés.
 		%Bless -- ed are they who hun -- ger and thirst for right -- eous -- ness, for they will be sa -- tis -- fied.
-		%\markup { \citation #"Mt 5:6" } }
+		\markup { \citation #"Mt 5:6" } }
 
 }
 \relative d' { 

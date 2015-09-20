@@ -8,7 +8,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \left-column { O.T.  }
+		\set Staff.instrumentName = \markup{ \left-column { O.T.  } }
 		r16 g[ a c] c[ c d c] b8[ a] c4 r8 c16[ c]  c16[\( a\) c c] \stemDown b4\( a8\) r8
 
 		

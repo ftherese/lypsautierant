@@ -5,7 +5,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \left-column {O.T.  }
+		\set Staff.instrumentName = \markup{ \left-column {O.T. }}
 		
 		r8 c16[ c] c[\( c\) c c] \times 2/3 { b8[ c  a] } g4\( g8\) r 
 		
