@@ -1,6 +1,6 @@
 ﻿\version "2.14.0"
  \include "definitions.ly"
- \markup { \hspace #10 \fill-line { "Psalm 88 A" "Mode 1" \null \null }  }
+% \markup { \hspace #10 \fill-line { "Psalm 88 A" "Mode 1" \null \null }  }
 \noPageBreak
 
 
@@ -28,7 +28,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \left-column {O.T.  }
+		\set Staff.instrumentName = \markup{ \left-column {O.T.  } }
 		
 		\times 2/3 {f8[ g a]} a[ a16\( g\)] bes[\( a\) g a] a4 
 		\cesure \pespace \times 2/3 {a8[ a a]} \times 2/3 { a[ a  a] } g16[
