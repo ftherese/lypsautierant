@@ -1,7 +1,7 @@
 \version "2.16.0"
 
-#(set-default-paper-size "a5" 'landscape)
-
+#(set-default-paper-size "half letter"'landscape )
+%'landscape
 
 \paper {
   %	annotate-spacing = ##t
@@ -92,7 +92,7 @@
 }   
 
 \header {
-      tagline = "Communauté Saint Jean 2013"
+      tagline = "Congregation of Saint John 2015"
 }
 
 
@@ -174,7 +174,7 @@
 	
 	\context {
 		\Lyrics
-		\override LyricText #'font-name = #"Gentium"
+		\override LyricText #'font-name = #"Adobe Caslon Pro"
 		\override LyricText #'font-size = #0.8
 		%\override LyricText #'word-space = #1.8
 		%\override LyricSpace #'minimum-distance = #0.5
