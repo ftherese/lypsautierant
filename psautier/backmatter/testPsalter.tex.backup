@@ -1,0 +1,92 @@
+\documentclass[12pt,twoside,a5paper]{memoir}
+\usepackage{verse}
+\usepackage{../psaltertitle}
+\usepackage{xunicode}
+\usepackage{fontspec}
+\usepackage{xltxtra}
+\setmainfont[Mapping=tex-text,Numbers=OldStyle]{Adobe Jenson Pro}
+\usepackage{../psalter}
+\semiisopage[8]
+\checkandfixthelayout
+\nouppercaseheads
+\usepackage{graphics}
+\setsecnumformat{}
+\begin{document}
+\pagestyle{empty}
+\titleWH
+\clearpage
+\setcounter{page}{1}
+\makepagestyle{psalter}
+\makeoddhead{psalter}{\textcolor{red}{\leftmark}}{}{}
+\makeevenhead{psalter}{}{}{\textcolor{red}{\rightmark}}
+\makeoddfoot{psalter}{\textcolor{red}{\thepage}}{}{}
+\makeevenfoot{psalter}{}{}{\textcolor{red}{\thepage}}
+\PlainPoemTitle
+\pagestyle{psalter}
+\renewcommand*{\poemtitlemark}[1]{\markboth{#1}{#1}}
+\renewcommand*{\PoemTitlefont}{\centering\scshape\large}
+\renewcommand*{\parttitlefont}{\huge\bfseries\MakeUppercase}
+\renewcommand*{\chaptitlefont}{\huge\bfseries\MakeUppercase}
+\needspace{3\baselineskip}
+\PoemTitle[ps. 1]{\textline[t]{\hfill}{Psalm 1}{Mode 3}}
+\input{Psalm001.tex}
+\clearpage
+\pagestyle{empty}
+\newleadpage*{ot}{
+  \vspace*{\fill}
+  \begin{center}
+    \huge\bfseries\MakeUppercase{Old Testament Canticles}
+  \end{center}
+  \vfill
+}
+\clearpage
+\newleadpage*{nt}{
+  \vspace*{\fill}
+  \begin{center}
+    \huge\bfseries\MakeUppercase{New Testament Canticles}
+  \end{center}
+  \vfill
+}
+\clearpage
+\makepagestyle{backmatter}
+\makeoddhead{backmatter}{\leftmark}{}{}
+\makeheadrule{backmatter}{\textwidth}{\normalrulethickness}
+\makeevenhead{backmatter}{}{}{\rightmark}
+\makeoddfoot{backmatter}{\thepage}{}{}
+\makeevenfoot{backmatter}{}{}{\thepage}
+\makepsmarks {backmatter}{
+  \uppercaseheads
+  \createmark {part}{both}{nonumber}{\parttitle}{. \ }
+  \createmark {chapter}{right}{nonumber}{}{. \ }
+  \createmark {section}{right}{nonumber}{}{. \ }
+}
+\makeatother
+\aliaspagestyle{part}{empty}
+\aliaspagestyle{chapter}{empty}
+\clearpage
+\pagestyle{backmatter}
+\renewcommand{\printpartname}{}
+\renewcommand{\printpartnum}{}
+\part{Proper of Seasons}
+\chapter*[Advent]{Advent}
+\clearpage
+\input{../seasons/advent.tex}
+\chapter*[Christmas]{Christmas}
+\clearpage
+\input{../seasons/christmas.tex}
+\chapter*[Lent]{Lent}
+\clearpage
+\chapter*[Holy Week]{Holy Week}
+\clearpage
+\chapter*[After Pentecost]{After Pentecost}
+\clearpage
+\chapter*[Ordinary Time]{Ordinary Time}
+\clearpage
+\section*{Week One}
+\section*{Week Two}
+\section*{Week Three}
+\section*{Week Four}
+\section*{Prayers}
+\part*{Proper of the Saints}
+\part*{Common}
+\end{document}
