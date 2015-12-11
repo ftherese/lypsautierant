@@ -28,7 +28,7 @@
 }
 
 \header {
-      tagline = "Communauté Saint Jean 2015"
+      tagline = "Communauté Saint Jean 2016"
 }
 
 %{
@@ -847,9 +847,9 @@
 	
 \markup { \column {
 	\raise #1
-	\line { \fontsize #0 "Autres Antiennes" \fontsize #-5 "(j'ai fais la même mise en forme que pour les docteurs, religieux etc...)" }
-	\line {	\fontsize #0 "       1. I 401" \fontsize #-1 "(Je suis le bon Pasteur)" }
-	\line {	\fontsize #0 "       2. K 192" \fontsize #-1 "(Heureux les serviteurs)" }
+	\line { " " " " " " \fontsize #-1 "       Autres Antiennes" \fontsize #-5 "(j'ai fais la même mise en forme que pour les docteurs, religieux etc...)" }
+	\line { " " " " " " " " " " " " " "	\fontsize #0 "       1. I 401" \fontsize #-1 "(Je suis le bon Pasteur)" }
+	\line { " " " " " " " " " " " " " " \fontsize #0 "       2. K 192" \fontsize #-1 "(Heureux les serviteurs)" }
 	}
 }
 
@@ -908,9 +908,9 @@
 
 \markup { \column {
 	\raise #1
-	\line { \fontsize #0 "Autres Antiennes" }
-	\line {	\fontsize #0 "       1. H 400" \fontsize #-1 "(Je suis venu en ce monde)" }
-	\line {	\fontsize #0 "       2. Antienne du 28 janvier" \fontsize #-1 "(J'ai prié, et l'intelligence m'a été donnée)"	}}
+	\line { " " " " " " \fontsize #-1 "        Autres Antiennes" }
+	\line { " " " " " " " " " " " " " "	\fontsize #0 "       1. H 400" \fontsize #-1 "(Je suis venu en ce monde)" }
+	\line { " " " " " " " " " " " " " "	\fontsize #0 "       2. Antienne du 28 janvier" \fontsize #-1 "(J'ai prié, et l'intelligence m'a été donnée)"	}}
 }
 
 
@@ -993,12 +993,12 @@
 
 \markup { \column {
 	\raise #1
-	\line { \fontsize #0 "Autres Antiennes" }
+	\line { " " " " " " \fontsize #-1 "Autres Antiennes" }
 	\raise #1
-	\line {	\fontsize #0 "       1. K 281" \fontsize #-1 "(Une seule chose te manque)" }
+	\line { " " " " " " " " " " " " " "	\fontsize #0 "       1. K 281" \fontsize #-1 "(Une seule chose te manque)" }
 	%\line { \fontsize #-5  "   " }
-	\line { \fontsize #0 "Pour les Religieuses et les Vierges" }
-	\line {	\fontsize #0 "       2. K 320" \fontsize #-1 "(Au milieu de la nuit)"	}}
+	\line { " " " " " " \fontsize #-1 "Pour les Religieuses et les Vierges" }
+	\line { " " " " " " " " " " " " " "	\fontsize #0 "       2. K 320" \fontsize #-1 "(Au milieu de la nuit)"	}}
 }
 
 \pageBreak
