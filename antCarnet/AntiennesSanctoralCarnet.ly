@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "DefinitionsAntiennesCarnet.ly"
 
 
@@ -311,7 +311,7 @@
 		\bar "|." }}
 		
 	\addlyrics {
-		\once \override LyricText #'self-alignment-X = #LEFT "Mes yeux ont vu ton salut que tu as préparé à la face des peuples,"
+		\once \override LyricText #'self-alignment-X = #LEFT "Mes yeux ont vu ton salut que tu prépares à la face des peuples,"
 		\once \override LyricText #'self-alignment-X = #LEFT "lumière pour éclairer les nations et gloire d'Israël, ton peuple. (Lc 2)"
 	  }
 	  \header {
