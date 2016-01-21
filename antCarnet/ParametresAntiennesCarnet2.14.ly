@@ -8,8 +8,8 @@
 	two-sided = ##t
 	inner-margin = 25\mm
 	outer-margin = 10\mm
-	top-margin = 6\mm
-	bottom-margin = 6\mm
+	top-margin = 7\mm %6mm
+	bottom-margin = 5\mm %6mm
 	print-page-number = ##f
 	markup-markup-spacing =		% variable redéfinie pour mettre de l'espace entre le \markup et les titres
 	#'((padding . 1)
