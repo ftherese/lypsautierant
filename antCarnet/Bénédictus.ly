@@ -252,12 +252,11 @@
 		\ifIndent a8[\( a16\) bes] a16[\( a\) g a] a4
 		\times 2/3 { r8_\( a[ a]\) }
 		\times 2/3 { a8[\( a\) a] } a16[ g f g] g8[ f] d4
-		\pespace
-		\barre
-		\pespace
-		\pespace
+		s2
+		\bar "|"
+		\break
 		% gloire...
-		\ifIndent r8 a'16[ a] a8.[ \cesure a16] a16[ \cesure a a g] g4
+		r8 a'16[ a] a8.[ \cesure a16] a16[ \cesure a a g] g4
 		\ifIndent r16 f16[ g a] 
 		\times 2/3 { a8[ \cesure bes a] }
 		\times 2/3 { a8[ g a] } \times 2/3 { a8[ a a] } \times 2/3 { a8[\( a\) g] }

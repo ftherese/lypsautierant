@@ -1,4 +1,4 @@
-\version "2.14.0"
+\version "2.14.2"
  %{ the following command allows you to indent any given line by invoking "\indentLine" %}
 
 %fonctions propres au psautier
@@ -7,6 +7,7 @@ ifIndent = {
 %	pour faire un break et un indentLine si necessaire
 	s8
 	\bar " "
+	%\break
 
 %	ces lignes font une tabulation
 %	\overrideProperty 
@@ -189,8 +190,10 @@ endBar = {
 	\once \override Score.SpacingSpanner #'spacing-increment = #0.5
 	\once \override NoteHead #'transparent = ##t
 	\once \override Stem #'transparent = ##t
+	%\hideNotes
 	e16
 	\bar "|."
+	%\unHideNotes
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

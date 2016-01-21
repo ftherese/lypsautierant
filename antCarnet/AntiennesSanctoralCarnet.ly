@@ -1,4 +1,4 @@
-\version "2.14.0"
+\version "2.16.2"
 \include "DefinitionsAntiennesCarnet.ly"
 
 
@@ -163,7 +163,7 @@
 	\addlyrics { \set stanza = #"1."
 		Je t'en -- voie vers les na -- tions pa -- ïen -- nes _a -- fin qu'elles ob -- tien -- nent, par la foi en moi,
 		la ré -- mis -- sion de leurs pé -- chés et u -- ne part d'hé -- ri -- ta -- ge a -- vec les saints.
-		\markup { \citation #"(Ac 26)   " } "" "[Ton 8]"
+		\markup { \citation #"(Ac 26)" } "   [Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'c "" "Antienne" }
@@ -195,7 +195,7 @@
 	\addlyrics { \set stanza = #"2. "
 		Je t'en -- voie vers les na -- tions pa -- ïen -- nes _a -- fin qu'elles ob -- tien -- nent, par la foi en moi,
 		la ré -- mis -- sion de leurs pé -- chés et u -- ne part d'hé -- ri -- ta -- ge a -- vec les saints.
-		\markup { \citation #"(...)   " } "" "[Ton 1]" 
+		\markup { \citation #"(...)" } "   [Ton 1]" 
 	}
 }
 
@@ -226,7 +226,7 @@
 		J'ai pri -- é et l'in -- tel -- li -- gen -- ce m'a é -- té don -- née.
 		J'ai sup -- pli -- é et l'es -- prit de Sa -- ges -- se est ve -- nu en moi.
 		Je l'ai pré -- fé -- rée à la lu -- miè -- re car son é -- clat ne con -- naît point de re -- pos.
-		\markup { \citation #"(Sg 7)  " } "" "[Ton 7]"
+		\markup { \citation #"(Sg 7)" } "   [Ton 7]"
 		}
 	\header {
 		titre =  "SAINT THOMAS D'AQUIN (28 janvier)" }
@@ -288,7 +288,7 @@
 		tu peux lais -- ser s'en al -- ler ton ser -- vi -- teur en paix, se -- lon ta pa -- ro -- le.
 		Car mes yeux ont vu ton sa -- lut que tu pré -- pa -- res à la fa -- ce des peu -- ples,
 		lu -- miè -- re pour é -- clai -- rer les na -- tions et gloi -- re d'Is -- ra -- ël, ton peu -- ple.
-		\markup { \citation #"(Lc 2)  " } "" "[Ton 6]"
+		\markup { \citation #"(Lc 2)" } "   [Ton 6]"
 	}
 	\header {
 		titres = \markup \ant #'e "" "Antienne (à maintenir ?)" }
@@ -345,7 +345,7 @@
 	\addlyrics { \set stanza = #"1. "
 		J'ai pri -- é pour toi, Si -- mon, " af" -- "in " que ta foi ne som -- bre pas.
 		Et toi, quand tu se -- ras re -- ve -- nu, af -- fer -- mis tes frè -- res.
-		\markup { \citation #"(Lc 22)  " } "" "[Ton 2]"
+		\markup { \citation #"(Lc 22)" } "   [Ton 2]"
 	}
 	\header {
 		titre =  "CHAIRE DE SAINT PIERRE (22 février)" }
@@ -369,10 +369,10 @@
 		\stemOff f4 g a
 		\endBar
 	}
-	\addlyrics { \set stanza = #"2. "
+	\addlyrics { \set stanza = #"   2. "
 		Tu es Pier -- re, et sur ce roc je bâ -- ti -- rai mon E -- gli -- se
 		et les por -- tes de l'en -- fer ne tien -- dront pas contre el -- le.
-		\markup { \citation #"(Mt 16)  " } "" "[Ton 6]"
+		\markup { \citation #"(Mt 16)" } "   [Ton 6]"
 	}
 }
 
@@ -437,7 +437,7 @@
 		l'en -- fant qui est en -- gen -- dré en el -- "le " -- vient de l'Es -- prit- -- Saint_;
 		elle met -- tra au monde un fils, au -- quel tu don -- ne -- ras le nom de Jé -- sus. 
 		\once \override LyricText #'self-alignment-X = #1 "(T.P.  Al" - - le_ -- _lu - - - "ia !)"
-		\markup { \citation #"(Mt 1)  " } "" "[Ton 7]"
+		\markup { \citation #"(Mt 1)" } "   [Ton 7]"
 	}
 	\header {
 		titres = \markup \ant #'h "" "Antienne" }
@@ -508,7 +508,7 @@
 		_Voi -- ci que tu vas con -- ce -- voir et en -- fan -- ter un fils_; 
 		tu lui don- _ -- ne -- ras le nom de Jé -- sus. 
 		\once \override LyricText #'self-alignment-X = #1 "(T.P.  Al" - - le_ -- _lu - - - "ia !)"
-		\markup { \citation #"(Lc 1)  " } "" "[Ton 8]"
+		\markup { \citation #"(Lc 1)" } "   [Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'hz "" "Antienne"}
@@ -554,8 +554,8 @@
 		O très ai -- mable et a -- do -- ra -- ble Jé -- sus, vrai Dieu et vrai hom -- me,
 		Fils u -- ni -- que du Père é -- ter -- nel et de Ma -- rie tou -- jours Vier -- ge_!
 		Nous t'a -- do -- rons pro -- fon -- dé -- ment.
-		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" | le -- lu - - "ia !)" ""
-		_ "[Ton 3]"
+		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" | le -- lu - - "ia !)" 
+		_ "   [Ton 3]"
 	}
 	\header {
 		titre =  "SAINT LOUIS MARIE GRIGNION DE MONTFORT (28 avril)"
@@ -594,8 +594,8 @@
 		O é -- ter -- nel -- le Tri -- ni -- té, tu es le feu qui dis -- si -- pe tou -- te froi -- deur
 		et tu é -- clai -- res les es -- prits de ta lu -- miè -- re,
 		cet -- te lu -- miè -- re par la -- quel -- le tu m'as fait con -- naî -- tre ta vé -- ri -- té.____
-		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" -- le -- lu - - "ia !)" ""
-		_ "[Ton 3]"
+		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" -- le -- lu - - "ia !)"
+		_ "   [Ton 3]"
 	}
 	\header {
 		titre =  "SAINTE CATHERINE DE SIENNE (29 avril)"
@@ -692,7 +692,7 @@
 		Dieu, per -- son -- ne ne l'a ja -- mais vu, mais le Fils- _ -- _qui est dans le sein du Pè -- re, 
 		lui, nous "l'a" ré -- vé -- "lé ;" et nous a -- vons vu la gloi- -- \skip 1 \skip 1 re qu'il tient de son Pè -- re, 
 		com -- me Fils u -- ni -- que, plein de grâ -- ce et de vé -- ri -- té. Al - le -- lu -- ia- _!
-		\markup { \citation #"(Jn 1)  " } "" _ "[Ton 1   " "ou   Per.]"
+		\markup { \citation #"(Jn 1)" } " " " " "[Ton 1   " "ou   Per.]"
 	}
 	\header {
 		%titre = "SAINT JEAN, LE THÉOLOGIEN"
@@ -761,7 +761,7 @@
 		el -- le s'é -- cri -- a d'u -- ne voix for -- te_:
 		«_D'où me vient cet hon -- neur que la mè -- re de mon Sei -- gneur me ren -- de vi -- si -- te_?_» 
 		\once \override LyricText #'self-alignment-X = #1 "(T.P. Al" -- le - lu -- "ia !)"
-		\markup { \citation #"(Lc 1)  " } "" "[Ton 8]"
+		\markup { \citation #"(Lc 1)" } "   [Ton 8]"
 		
 	}
 	\header {
@@ -809,7 +809,7 @@
 		Cet en -- fant mar -- che -- ra de -- vant le Sei -- gneur 
 		dans l'Es -- prit et la puis -- san -- ce d'E -- lie
 		_af -- in de pré -- pa -- rer à Dieu un peu -- ple par -- fait.
-		\markup { \citation #"(Lc 1)  " } "" "[Ton 8]"
+		\markup { \citation #"(Lc 1)" } "   [Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'l "" "Antienne" }
@@ -863,7 +863,7 @@
 	\addlyrics {
 		Vous qui m'a -- vez sui -- vi, vous siè -- ge -- rez sur dou -- ze trô- _ -- nes,
 		pour- _ -- _ju -- ger les dou -- ze tri -- bus d'Is -- ra -- ël -.
-		\markup { \citation #"(Mt 19)  " } "" "[Ton 2]"
+		\markup { \citation #"(Mt 19)" } "   [Ton 2]"
 	}
 	\header {
 		titres = \markup \ant #'n "" "Antienne" }
@@ -898,7 +898,7 @@
 		mais va- -- t-en vers mes frè -- res et dis- -- leur_: 
 		je mon -- te vers mon Pè -- re et vo -- tre Pè- _ -- re, 
 		vers mon Dieu et vo -- tre Dieu.
-	\markup { \citation #"(Jn 20)  " } "" "[Ton 8]"
+	\markup { \citation #"(Jn 20)" } "   [Ton 8]"
 		}
 	\header {
 		titre = "SAINTE MARIE MADELEINE (22 juillet)"
@@ -933,8 +933,8 @@
 	}
 	\addlyrics {
 		Ma -- rie ver -- sa du par -- fum sur les pieds de Jé -- sus,
-		qu'elle e -- ssu -- ya de ses che -- veux, et la mai -- son fut rem -- plie par l'o -- deur du par -- fum. ""
-		_ "[Ton 7]"
+		qu'elle e -- ssu -- ya de ses che -- veux, et la mai -- son fut rem -- plie par l'o -- deur du par -- fum. 
+		_ "   [Ton 7]"
 	}
 	\header {
 		titre =  " "
@@ -980,8 +980,8 @@
 		U -- ne fem -- me bien con -- nue dans la vil- _ -- le pour sa vie de dé -- bau -- che,
 		ap -- por -- ta un fla -- con d'al -- bât -- re rem -- pli de par -- fum et,
 		se te -- nant der -- riè -- re Jé -- sus, près de ses pieds,
-		el -- le se mit à les ar -- ro -- ser de ses lar- _ -- mes, et à les es -- su -- yer de ses che -- veux. ""
-		_ "[Ton 8]"
+		el -- le se mit à les ar -- ro -- ser de ses lar- _ -- mes, et à les es -- su -- yer de ses che -- veux.
+		_ "   [Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'p "" "Magnificat antienne à supprimer" }
@@ -1045,7 +1045,7 @@
 		et ses vê -- te -- ments de -- vin -- rent blancs com -- me la lum -- iè- _ -- re.
 		De la nu -- ée vint u -- ne voix qui di -- sait_:
 		«_Ce -- lui -- -ci est mon Fils bien -- -ai -- mé, é -- cou -- tez- -- le._»
-		\markup { \citation #"(Mt 17)  " } "" "[Ton 1]"
+		\markup { \citation #"(Mt 17)" } "   [Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'r "" "Antienne" }
@@ -1111,7 +1111,7 @@
 		Tou -- te res -- plen -- dis -- san- _ -- te, pa -- rée de tis -- sus d'or,
 		la prin -- cesse est me -- née vers le roi_;
 		par -- mi joie et li -- es -- se, elle en -- tre dans son pa -- lais.
-		\markup { \citation #"(Ps 44)  " } "" "[Ton 8]"
+		\markup { \citation #"(Ps 44)" } "   [Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'t "" "Antienne" }
@@ -1147,7 +1147,7 @@
 	\addlyrics {
 		Un grand si -- gne ap -- pa -- rut dans le ciel_: u -- ne fem -- me, en -- ve -- lop -- pée du so -- leil,
 		la lu -- ne sous- " " les pieds, et sur sa tê- _ -- te, u -- ne cou -- ron -- ne de douz -- "e ét" -- oi- _ -- les.
-		\markup { \citation #"(Ap 12)  " } "" "[Ton 8]"
+		\markup { \citation #"(Ap 12)" } "   [Ton 8]"
 	}
 	\header {
 		titre =  "LA VIERGE MARIE REINE (22 août)" }
@@ -1195,7 +1195,7 @@
 		Vier -- ge Sain- _ -- te, le Sei -- gneur t'a cré -- ée, pré -- mi -- ces de son oeu -- vre,
 		tou -- te bel -- le et sans tâche au -- cu -- ne,
 		comme un jar -- din bien clos, u -- ne sour -- ce scel -- lée.
-		\markup { \citation #"(Pr 8)  " } "" "[Ton 1]"
+		\markup { \citation #"(Pr 8)" } "   [Ton 1]"
 
 	}
 	\header {
@@ -1245,7 +1245,7 @@
 		Quand vou -- "s au" -- re -- "z é" -- le -- vé le Fils de l'hom -- me, 
 		_a -- lors vous sau -- rez que je suis_: 
 		j'at -- ti -- re -- rai à moi tous les hom -- mes. 
-		\markup { \citation #"(Jn 8-12)  " } "" "[Ton 8]"
+		\markup { \citation #"(Jn 8-12)" } "   [Ton 8]"
 	}}
 	\header {
 		titres = \markup \ant #'v "" "Antienne" }
@@ -1300,7 +1300,7 @@
 		Près de la croix de Jé -- sus se te -- nait sa mè- _ -- re. 
 		_Voy -- ant sa mè -- re et près d'el -- le le dis -- ci -- ple qu'il ai -- mait,
 		Jé -- sus lui dit_: «_Fem -- me, voi -- ci ton fils._»
-		\markup { \citation #"(Jn 19)  " } "" "[Ton 1]"
+		\markup { \citation #"(Jn 19)" } "   [Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'x "" "Antienne" }
@@ -1344,7 +1344,7 @@
 	\addlyrics {
 		Vous ver -- rez les cieux ou -- verts, et les an -- ges de Dieu
 		mon -- ter et des -- cendre au des -- sus du Fils de l'hom -- me.
-		\markup { \citation #"(Jn 1)  " } "" "[Ton 8]"
+		\markup { \citation #"(Jn 1)" } "   [Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'z "" "Antienne" }
@@ -1373,7 +1373,7 @@
 		de -- vant la gloi -- re de Dieu,
 		bé -- nis -- sez- -- le et chan -- tez son Nom_;
 		fai -- tes con -- naître aux hom -- mes ses ac -- tions.
-		\markup { \citation #"(Tb 12)  " } "" "[Ton 7]"
+		\markup { \citation #"(Tb 12)" } "   [Ton 7]"
 	}
 	\header {
 		titre =  ""
@@ -1457,7 +1457,7 @@
 	\addlyrics {
 		Ma -- rie gar -- dait fi -- dè -- le -- ment tous ces sou -- ve -- nirs,
 		et les mé -- di -- tait dans son coeur.
-		\markup { \citation #"(Lc 2)  " } "" "[Ton 8]"
+		\markup { \citation #"(Lc 2)" } "   [Ton 8]"
 	}
 	\header {
 		titre =  ""
@@ -1483,7 +1483,7 @@
 	\addlyrics {
 			Ma -- rie re -- te -- nait tous ces é -- vé -- ne -- ments 
 			et les mé -- di -- tait dans son cœur.
-			\markup { \citation #"(Lc 2)  " } "" "[Ton 6]"
+			\markup { \citation #"(Lc 2)" } "   [Ton 6]"
 	}
 	\header {
 		titre = "NOTRE DAME DU ROSAIRE (7 octobre)"
@@ -1550,7 +1550,7 @@
 		de tou -- tes na -- tions, ra -- ces, peu -- ples et lan- _ -- gues.
 		Ils se te -- naient de -- bout de -- vant le trô -- ne et de -- vant l'A -- gneau,
 		vê -- tus de ro -- bes blan- _ -- ches, et des pal -- mes à- _ la main.
-		\markup { \citation #"(Ap 7)  " } "" "[Ton 1]"
+		\markup { \citation #"(Ap 7)" } "   [Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'ae "" "Benedictus" }
@@ -1590,7 +1590,7 @@
 		Il a pris pos -- ses -- sion de son Rè -- gne, le Sei -- gneur Dieu, Maî -- tre de tout_!
 		Soy -- ons dans la joie, ren -- dons gloire à Dieu_:
 		_voi -- là les No -- ces de l'A -- gneau_!_» " Al" -- le -- lu- _ -- ia_! Al -- le -- lu - ia_!
-		\markup { \citation #"(Ap 19)  " } "" "[Ton 8]"
+		\markup { \citation #"(Ap 19)" } "   [Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'af "" "Magnificat" }
@@ -1640,7 +1640,7 @@
 		Heu -- reux ceux qui sont morts dans le Sei -- gneur- _;
 		dès main -- te -- nant, dit- _ l'Es -- prit, qu'ils se re -- po -- sent de- _ leurs pei -- nes,
 		car leurs oeu -- vres les ac -- com -- pa- _ -- gnent.
-		\markup { \citation #"(Ap 14)  " } "" "[Ton 4]"
+		\markup { \citation #"(Ap 14)" } "   [Ton 4]"
 	}
 	\header {
 		titres = \markup \ant #'ah "" "Antienne" }
@@ -1679,7 +1679,7 @@
 		pour le pa -- ys que je te mon -- tre -- rai.
 		Je fe -- rai de toi u -- ne gran -- de na -- tion et je te bé -- ni -- rai.
 		En toi se -- ront bé -- nies tou -- tes les fa -- mil -- les de la ter -- re.
-		\markup { \citation #"(Gn 12)  " } "" "[Ton 1]"
+		\markup { \citation #"(Gn 12)" } "   [Ton 1]"
 	}
 	\header {
 		titre =  "PRÉSENTATION DE LA VIERGE MARIE (21 novembre)"
@@ -1720,7 +1720,7 @@
 		plus que tou -- tes les fem -- mes de la ter -- re_;
 		et bé -- ni le Sei -- gneur Dieu, Cré -- a -- teur du ciel et de la ter -- re,
 		qui t'a con -- dui -- te pour frap -- per à la tê -- te le chef de nos en -- ne -- mis.
-		\markup { \citation #"(Jud 13)  " } "" "[Ton 3]"
+		\markup { \citation #"(Jud 13)" } "   [Ton 3]"
 	}
 	\header {
 		titre =  "L'IMMACULEE CONCEPTION DE LA VIERGE MARIE (8 décembre)"
@@ -1753,16 +1753,19 @@
 		r8 g
 		\times 2/3 { f8[\( f\) a] } c8[ b] g8[ a] a8[ g]
 		a8[\( g\)] f8[ a] c8[ b] c8[ a]		
-		\times 2/3 { g8[\( g\) g] } f8[ a] g4\( g8\) r8
+		\times 2/3 { g8[\( g\) g] } f8[ a]
+		s4 \bar ""
+		\break
+		g4\( g8\) r8
 		\endBar
-		\noBreak
+		%\noBreak
 		\stemOff g4 a c
 		\endBar
 	}
 	\addlyrics {
 		E -- tien -- ne rem -- pli de grâce et de puis -- san -- ce 
 		o -- pé -- rait de grands pro -- di -- ges par -- mi le peu -- ple. 
-		\markup { \citation #"(Ac 6)  " } "" "[Ton 8]"		
+		\markup { \citation #"(Ac 6)" } "   [Ton 8]"		
 	}
 	\header {
 		titres = \markup \ant #'al "" "Antienne" }
@@ -1822,7 +1825,7 @@
 		«_Voi -- ci ta mè -- re._»
 		Et de -- puis cette heu -- re- -- là, 
 		le dis -- ci -- ple la prit chez lui.
-		\markup { \citation #"(Jn 19)  " } "" "[Ton 1]"
+		\markup { \citation #"(Jn 19)" } "   [Ton 1]"
 	} 
 	\header {
 		titres = \markup \ant #'an "" "Antienne" }
@@ -1871,7 +1874,7 @@
 	\addlyrics {
 		Le Ver -- be s'est fait chair et il a de -- meu -- ré par -- mi nous_; 
 		à tous ceux qui le re -- çoi -- vent, il a don -- né pou -- voir de de -- ve -- nir en -- fant de Dieu. 
-		\markup { \citation #"(Jn 1)  " } "" "[Ton 1]"
+		\markup { \citation #"(Jn 1)" } "   [Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'ap "" "Antienne" }

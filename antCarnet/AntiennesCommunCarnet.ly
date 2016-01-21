@@ -1,4 +1,4 @@
-﻿\version "2.18.2"
+\version "2.18.2"
 \include "DefinitionsAntiennesCarnet.ly"
 
 %#(set-default-paper-size "a4"'landscape)
@@ -232,7 +232,7 @@
 		\endBar
 	}
 	\addlyrics {
-	\set stanza = #"        2."
+	\set stanza = #" 2."
 		Nous te lou -- ons, Sei -- gneur Jé -- sus,
 		toi qui as fon -- dé ton E -- gli -- se sur les a -- pô -- tres.
 		"(Al" - le -- lu -- ia -- "- !)"
@@ -274,7 +274,7 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"        1."
+		\set stanza = #"    1."
 		Sei -- gneur Jé -- sus, Roi des mar -- tyrs, nous t'a -- do -- rons.
 		"(Al" -- le -- lu- "" "ia !)"
 	}
@@ -290,11 +290,11 @@
 		\times 2/3 { c8[ b c] } \times 2/3 { a4\(\cesure\espace e8\) }
 		g16[ \cesure a c c] a4
 		\barre \espace
-		g16[ a c\( b\)] b4
+		g16[ a c\( b\)] \stemUp b4
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"       2."
+		\set stanza = #"     2."
 		Le Sei -- gneur, le Roi des mar -- tyrs, ve -- nez, a -- do -- rons -- -le.
 		"(Al" -- le -- lu- "" "ia !)"
 	}
@@ -311,7 +311,7 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"        1."
+		\set stanza = #"    1."
 		Le Sei -- gneur Jé -- sus, le té -- moin fi -- dè -- le, ve -- nez,
 		a -- do -- rons -- -le.
 		"(Al" -- le -- lu- "" "ia !)"
@@ -332,7 +332,7 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"        2."
+		\set stanza = #"    2."
 		Lou -- ange à toi, Sei -- gneur Jé -- sus,
 		no -- tre pas -- teur et no -- tre gui -- de.
 		"(Al" -- le -- lu- "" "ia !)"
@@ -351,7 +351,7 @@
 		\endBar
 	}	
 	\addlyrics {
-		\set stanza = #"        1."
+		\set stanza = #"          1."
 		Ve -- nez à la sour -- ce de la sa -- ges -- se,
 		ve -- nez, ad -- or -- ons le Sei -- gneur.
 		"(Al" -- le -- lu- "" "ia !)"
@@ -452,7 +452,7 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"        2."
+		\set stanza = #" 2."
 		C'est toi que nous chan -- tons, Sei -- gneur,
 		en cé -- lé -- brant ton ser -- vi -- teur.
 		"(Al" -- le -- lu- "" "ia !)"
@@ -497,7 +497,7 @@
 		Leurs sa -- cri -- fi -- ces se -- ront a -- gré -- és sur mon au -- tel,
 		car ma mai -- son s'ap -- pel -- le -- ra_:
 		mai -- son de pr -- iè -- re pour tous les peu -- ples.
-		\markup { \citation #"(Is 36)  " } "" "[Ton 8]"
+		\markup { \citation #"(Is 36)" } "     [Ton 8]"
 	}
 	\header {
 		titre =  "COMMUN DE LA DEDICACE"
@@ -538,7 +538,7 @@
 		Si quel -- qu'un dé -- truit le tem -- ple de Dieu,
 		Dieu le dé -- trui -- ra_:
 		car le tem -- ple de Dieu est sa -- cré, et ce tem -- ple, c'est vous.
-		\markup { \citation #"(1Co 3)  " } "" "[Ton 7]"
+		\markup { \citation #"(1Co 3)" } "    [Ton 7]"
 	}
 	\header {
 		%titre =  "COMMUN DE LA DEDICACE"
@@ -584,7 +584,7 @@
 		vous siè -- ge -- rez sur dou -- ze trô -- nes,
 		et vous ju -- ge -- rez les dou -- ze tri -- bus d'Is -- ra -- ël.
 		"(Al" -- le -- lu - - ia -- "- !)"
-		\markup { \citation #"(Mt 19)  " } "" "[Ton 3]"
+		\markup { \citation #"(Mt 19)" } "    [Ton 3]"
 	}
 	\header {
 		titre =  "COMMUN DES APÔTRES"
@@ -620,7 +620,7 @@
 		pour que vous al -- liez et por -- tiez du fruit
 		et que vo -- tre fruit de -- meu -- re.
 		"(Al" -- le -- lu- "" "ia !)"
-		\markup { \citation #"(Jn 15)   " } "" "[Ton 4]"
+		\markup { \citation #"(Jn 15)" } "    [Ton 4]"
 	}
 	\header {
 		titres = \markup \ant #'cc "N 102" " " }
@@ -656,7 +656,7 @@
 		leur en -- sei -- gnant à gar -- der
 		tout ce que je vous ai com -- man -- dé.
 		"(Al" -- le -- lu- "" "ia !)"
-		\markup { \citation #"(Mt 28)   " } "" "[Ton 5]"
+		\markup { \citation #"(Mt 28)" } "   [Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'cd "N 103" " " }
@@ -691,7 +691,7 @@
 		qui é -- tait au -- près du Pè -- re
 		et qui nous est ap -- pa -- rue.
 		"(Al" -- le -- lu- "" "ia !)"
-		\markup { \citation #"(1Jn 1)   " } "" "[Ton 8]"
+		\markup { \citation #"(1Jn 1)" } "   [Ton 8]"
 	}
 	\header {
 		titres = \markup \ant #'ce "N 104" "Pour les évangélistes" }
@@ -737,7 +737,7 @@
 		les saints qui ont sui -- vi les tra -- ces du Christ_:
 		et par -- ce qu'ils ont ré -- pan -- du leur sang pour son a -- mour,
 		ils sont dans l'al -- lé -- gres -- se a -- vec Lui pour l'é -- ter -- ni -- té.		
-		\markup { \citation #"(MR) " } "" "[Ton 1]"
+		\markup { \citation #"(MR)" } "   [Ton 1]"
 	}
 	\header {
 		titre =  "COMMUN DES MARTYRS"
@@ -835,9 +835,9 @@
 		\bar "|." }}
 		
 	\addlyrics {
-		\once \override LyricText #'self-alignment-X = #LEFT "« Avance au large, et jetez vos filets pour la pêche. »"
-		\once \override LyricText #'self-alignment-X = #LEFT "« Maître, nous avons peiné toute la nuit sans rien prendre ;"
-		\once \override LyricText #'self-alignment-X = #LEFT "mais, sur ta parole, je vais jeter les filets. » (Lc 5)"
+		\once \override LyricText #'self-alignment-X = #LEFT "« Avance au large, et jetez vos filets pour la pêche. »"
+		\once \override LyricText #'self-alignment-X = #LEFT "« Maître, nous avons peiné toute la nuit sans rien prendre ;"
+		\once \override LyricText #'self-alignment-X = #LEFT "mais, sur ta parole, je vais jeter les filets. » (Lc 5)"
 	  }
 	\header {
 		%titre =  "COMMUN DES PASTEURS"
@@ -885,8 +885,9 @@
 		\ifIndent
 		\times 2/3 { a8[ g f] } g16[ g g a] g4
 		\times 2/3 { d8[ e f] } \times 2/3 { g4\( g8\) }
-		\times 2/3 { g8[\( g\) g] } a8[ g] g4		
-		\endBar \espace
+		\times 2/3 { g8[\( g\) g] } a8[ g] g4
+		\endBar %\espace
+		\noBreak
 		\stemOff g4 a c
 		\endBar
 	}
@@ -898,7 +899,7 @@
 		et la trans -- met -- trai aux gé -- né -- ra -- tions fu -- tu -- res.
 		Voy -- ez_: ce n'est pas pour moi seul que j'ai pei -- né,
 		mais pour tous ceux qui cher -- chent la vé -- ri -- té.
-		\markup { \citation #"(Si 24)   " } "" "[Ton 8]"
+		\markup { \citation #"(Si 24)" } "   [Ton 8]"
 	}
 	\header {
 		titre =  "COMMUN DES DOCTEURS"
@@ -941,7 +942,8 @@
 		\times 2/3 { f8[ g f] } f16[ \cesureBasse \espace  d c d]
 		\times 2/3 { f8[ e d] } \stemUp \times 2/3 { d4\(\cesure \espace f8\) }
 		\times 2/3 { f8[ d c] } d4\( d8\) r8
-		\endBar \espace
+		\endBar
+		\noBreak
 		\stemOff c4 d f
 		\endBar
 	}
@@ -952,7 +954,7 @@
 		et pour l'E -- van -- gi -- le,
 		qu'il ne re -- çoi -- ve le cen -- tu -- ple, dès main -- te -- nant,
 		et dans le monde à ve -- nir, la vie é -- ter -- nel -- le.
-		\markup { \citation #"(Mc 10)   " } "" "[Ton 2]"
+		\markup { \citation #"(Mc 10)" } "    [Ton 2]"
 	}
 	\header {
 		titre =  "COMMUN DES RELIGIEUX, RELIGIEUSES, VIERGES"
@@ -975,7 +977,7 @@
 		\espace \pespace
 		\times 2/3 { r8_\( a[ b]\) } \times 2/3 { c8[ c c] }
 		\times 2/3 { a8[\( g\) b] } c4\( c8\) r8
-		\endBar \espace
+		\endBar
 		\stemOff g,4 a c
 		\endBar
 	}
@@ -985,7 +987,7 @@
 		dont l'é -- clat res -- plen -- dit jus -- qu'au jour.
 		La cein -- ture aux reins, leurs lam -- pes all -- um -- ées,
 		ils veil -- laient dans l'at -- ten -- te du Maî -- tre.
-		\markup { \citation #"(Pr 4 ; Lc 12)  " } "" "[Ton 3]"
+		\markup { \citation #"(Pr 4 ; Lc 12)" } "    [Ton 3]"
 	}
 	\header {
 		titres = \markup \ant #'gd "S 103" " " }
@@ -1024,7 +1026,7 @@
 		\pespace		
 		\times 2/6 { d16[ e f g g\( g\)] }
 		\times 2/3 { g8[\( g\) g] } \times 2/3 { c8[ bes a] } a4
-		\endBar \pespace
+		\endBar
 		\stemOff a4 a a
 		\endBar
 	}
@@ -1033,7 +1035,7 @@
 		Que bril -- le vo -- tre lu -- miè -- re de -- vant les hom -- mes
 		a -- fin qu'en voy -- ant vos oeu -- vres,
 		ils glo -- ri -- fient vo -- tre Pè -- re qui est dans les cieux.
-		\markup { \citation #"(Mt 5)   " } "" "[Ton Per.]"
+		\markup { \citation #"(Mt 5)" } "    [Ton Per.]"
 	}
 	\header {
 		titre =  "COMMUN DES SAINTS ET DES SAINTES"
@@ -1057,7 +1059,7 @@
 		\times 2/3 { c8[ a g] } a4
 		\cesure \espace
 		\times 2/3 { a8[ c a] } g4
-		\endBar \espace
+		\endBar
 		\stemOff g4 a c
 		\endBar
 	}
@@ -1065,7 +1067,7 @@
 		Bien -- heu -- reux les pau -- vres, bien -- heu -- reux les doux_:
 		ils ob -- tien -- dront la ter -- re pro -- mi -- se.
 		Bien -- heu -- reux les coeurs purs_: ils ver -- ront Dieu.
-		\markup { \citation #"(Mt 5)   " } "" "[Ton 8]"
+		\markup { \citation #"(Mt 5)" } "    [Ton 8]"
 	}
 	\header {
 		%titre =  "COMMUN DES SAINTS ET DES SAINTES"
@@ -1086,7 +1088,7 @@
 		\ifIndent
 		\times 2/3 { r8_\( g[ a]\) } \times 2/3 { c8[\( c\) e] }
 		\times 2/3 { d8[ c b] } c4
-		\endBar \espace
+		\endBar
 		\stemOff g,4 a c
 		\endBar
 	}
@@ -1094,7 +1096,7 @@
 		La crai -- nte du Sei -- gneur est sour -- ce de sa -- ges -- se,
 		bie -- "n a" -- vi -- sés tous ceux qui s'y tien -- nent.
 		Sa lou -- an -- ge de -- meure à ja -- mais.
-		\markup { \citation #"(Ps 110)   " } "" "[Ton 3]"
+		\markup { \citation #"(Ps 110)" } "    [Ton 3]"
 	}
 	\header {
 		titres = \markup \ant #'hc "T 104" " " }
@@ -1115,7 +1117,7 @@
 		\times 2/3 { b8[ b a] } a8[  \cesure \espace c16 a]
 		\times 2/3 { d8[ c b] } \stemUp a4_\( b8\) r8		
 		\endBar \espace
-		\stemOff a,4 g a
+		\stemOff g,4 a c
 		\endBar
 	}
 	\addlyrics {
@@ -1124,7 +1126,7 @@
 		je les ai mé -- pri -- sés pour l'a -- mour
 		de mon Sei -- gneur Jé -- sus Christ.
 		Al -- le -- lu - - ia- _!
-		\markup { \citation #"(...)   " } "" "[Ton 3]"
+		\markup { \citation #"(...)" } "    [Ton 3]"
 	}
 	\header {
 		titres = \markup \ant #'hd "T 105" " " }
