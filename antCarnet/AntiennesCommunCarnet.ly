@@ -307,7 +307,7 @@
 		\times 2/3 { a8[\( a\) \cesureBasse \espace e] }
 		g16[ a c c] a4
 		\barre \espace
-		g16[ a c\( b\)] b4
+		g16[ a c\( b\)] \stemUp b4
 		\endBar
 	}
 	\addlyrics {
@@ -514,7 +514,7 @@
 		\cesure \espace
 		c16[ c a g] a16[ a c d] d4
 		\cesure
-		\ifIndent
+		\ifIndent \noPageBreak
 		\times 2/6 { f16[ f f d c a] }
 		\times 2/3 { a8[\( a\) a] } g4
 		\cesure
@@ -526,7 +526,7 @@
 		\times 2/3 { c8[\( c\) c] }
 		\times 2/3 { c8[ a g] } a4
 		\cesure
-		\ifIndent
+		\ifIndent \noPageBreak
 		c8[ c] \times 2/3 { c8[\( c\) \cesure d] } c4
 		\endBar
 		\stemOff c4 b c
@@ -546,7 +546,7 @@
 }
 		
 
-\pageBreak
+%\pageBreak
 \markup { "" }
 \pageBreak
 
@@ -722,12 +722,12 @@
 		\times 2/3 { e8[\( d\) e] } d4 \cesure \espace
 		\slurDashed d( \times 2/3 { a'8[)\( a\) e] }
 		\ifIndent
-		\times 2/3 { f8[ g a] }		
+		\times 2/3 { f8[ g a] }
 		bes8[ g] \slurDashed a4(
 		\times 2/3 { g8[) g a] } c4 \cesure \espace
 		\times 2/3 { a8[ a a] } f8[ g] a16[\( g\) a bes]
 		\times 2/3 { a8[ g a] } f8[ f] e4
-		\endBar
+		\endBar %\noBreak
 		\stemOff f4 g a
 		\endBar
 	}
@@ -745,48 +745,66 @@
 }
 
 
-\label #'de
-\score {
-		{ \relative f' { \cadenzaOn \stemOff
-		\hideNotes s1 a\breve
-		\bar " "
-		\break
-		g\breve
-		\bar " "
-		\break
-		g\breve
-		\bar "|." }}
-		
-	\addlyrics {
-		\once \override LyricText #'self-alignment-X = #LEFT "Ceux qui viennent de la grande épreuve ont lavé leurs robes dans le sang de l'Agneau :"
-		\once \override LyricText #'self-alignment-X = #LEFT "jour et nuit ils servent dans le Temple de Dieu,"
-		\once \override LyricText #'self-alignment-X = #LEFT "et Celui qui siège sur le Trône étendra sur eux sa tente. (Ap...)"
-	  }
-	  \header {
-		titres = \markup \ant #'de "O 105" " " }
-}
-
-
 \label #'df
 \score {
-		{ \relative f' { \cadenzaOn \stemOff
-		\hideNotes s1 a\breve
-		\bar " "
-		\break
-		g\breve
-		\bar " "
-		\break
-		g\breve
-		\bar "|." }}
+  { \relative f'
+    {
+      \key f \major
+      \times 2/3 { r8_\( f[ g]\) } a4
+      \times 2/3 { a8[ a a] } \times 2/3 { a8[ a a] } \times 2/3 { a8[\( a\) bes] } a4
+      \cesure \espace
+      g16[ g g g g g] g16[ g a f] d4
+      \ifIndent
+      r8 d8 d8[ e] f16[ f g f]
+      \times 2/3 { e4\( \cesure c8\) } \times 2/3 { c8[ c d] } 
+      \times 2/3 { e4\( e8\) } d8[ e] f16[ f d c] d4
+      \endBar
+      \noBreak
+      \stemOff f4 g a
+      \endBar
+    }}
 		
 	\addlyrics {
-		\once \override LyricText #'self-alignment-X = #LEFT "Au vainqueur, je donnerai de la manne cachée,"
-		\once \override LyricText #'self-alignment-X = #LEFT "je lui donnerai aussi un caillou blanc portant gravé un"
-		\once \override LyricText #'self-alignment-X = #LEFT "nom nouveau que nul ne connaît, hormis celui qui le reçoit. (Ap 2)"
+		Au vain -- queur, je don -- ne -- rai de la man -- ne cac -- hée,
+		je lui don -- ne -- rai aus -- si un cail -- lou blanc por -- tant gra -- vé un
+		nom nou -- veau que nul ne con -- naît, hor -- mis ce -- lui qui le re -- çoit.
+		\markup { \citation #"(Ap 2)" } "     [Ton 1]"
 	  }
 	  \header {
-		titres = \markup \ant #'df "O 106" " " }
+		titres = \markup \ant #'df "O 105" " " }
 }
+
+
+\label #'de
+\score {
+  { \relative f'
+    {
+      g8[ f] g16[\( a\) c b] a8[ g] a8[\( g\)]
+      g8[ c] b8[ c] d16[\( d\) e d]  \times 2/3 { c8[ c c] } d4
+      \cesure \espace
+      \ifIndent
+      d8[ c] \times 2/3 { d4\( e8\) } f16[\( f\) f e] \times 2/3 { d8[\( d\) c] } d4
+      \cesure \espace
+      b8[ c] d8[ c] a16[\( a\) a b] g8[\( g\)]
+      \ifIndent
+      f8[ g] a8[ c] c8[ b] g4\( g8\) r8
+      \endBar
+      \stemOff c'4 b c
+      \endBar
+    }}
+		
+	\addlyrics {
+		Ceux qui vien -- nent de la grande é -- preu -- ve ont la -- vé leurs ro -- bes dans le sang de l'Ag -- neau_:
+		jour et nuit ils ser -- vent dans le Tem -- ple de Dieu,
+		et Ce -- lui qui siè -- ge sur le Trô -- ne ét -- en -- dra sur eux sa ten -- te.
+		\markup { \citation #"(Ap 7)" } "     [Ton 7]"
+	  }
+	  \header {
+		titres = \markup \ant #'de "O 106" " " }
+}
+
+
+
 
 
 
@@ -801,53 +819,72 @@
 
 \label #'ea
 \score {
-		{ \relative f' { \cadenzaOn \stemOff
-		\hideNotes s1 a\breve
-		\bar " "
-		\break
-		g\breve
-		\bar " "
-		\break
-		g\breve
-		\bar "|." }}
+  { \relative f'
+    { 
+      r8 e16[ g] a16[ a a a] \times 2/3 { a4\( a8\) }
+      \cesure \espace
+      a16[ a a a] g8[ a] g8[ f] e4
+      \espace \espace
+      r8 g16[ a] c8[ c]
+      \ifIndent
+      \times 2/3 { c8[\( e\) d] } c8[ b] a4
+      \espace
+      r8 c16[ d] e16[ e e e] d8[ c] b8[ c] a4
+      \endBar
+      \noBreak
+      \stemOff g4 a c
+      \endBar
+    }}
 		
 	\addlyrics {
-		\once \override LyricText #'self-alignment-X = #LEFT "La moisson est abondante, mais les ouvriers sont peu nombreux."
-		\once \override LyricText #'self-alignment-X = #LEFT "Priez donc le maître de la moisson d'envoy-"
-		\once \override LyricText #'self-alignment-X = #LEFT "er des ouvriers pour sa moisson. (Mt 9)"
+		La mois -- son est a -- bon -- dan -- te, mais les ou -- vri -- ers sont peu nom -- breux.
+		Pri -- ez donc le maî -- tre de la mois -- son
+		d'en -- voy -- er des ou -- vri -- ers pour sa mois -- son.
+		\markup { \citation #"(Mt 9)" } "   [Ton 3]"
 	  }
 	\header {
 		titre =  "COMMUN DES PASTEURS"
-		titres = \markup \ant #'ea "P 100" " " }
+		titres = \markup \ant #'ea "P 102" " " }
 }
 
 
 \label #'eb
 \score {
-		{ \relative f' { \cadenzaOn \stemOff
-		\hideNotes s1 a\breve
-		\bar " "
-		\break
-		g\breve
-		\bar " "
-		\break
-		g\breve
-		\bar "|." }}
+  { \relative f'
+    {
+      d8 a'8[ g] \times 2/3 { a4\( a8\) }
+      \pespace
+      \times 2/3 { r8_\( g[ g]\) } \times 2/3 { g8[ g a] } \times 2/3 { f8[ e f] } \times 2/3 { d4\( d8\) }
+      \cesure
+      \times 2/3 { d4\( d8\) } \cesure      
+      d16[ d d e] f16[ f\( e\) f]
+      \ifIndent
+      g8[ g16 f] \times 2/3 { e4\( e8\) }
+      \cesure \espace
+      f4 \cesure \times 2/3 { d8[ c d] } e8[\( e\)]
+      \cesure
+      \times 2/3 { e8[ e f] } \times 2/3 { g8[ a g] } a4
+      \endBar
+      \noBreak
+      \stemOff f4 g a
+      \endBar
+    }}
 		
 	\addlyrics {
-		\once \override LyricText #'self-alignment-X = #LEFT "« Avance au large, et jetez vos filets pour la pêche. »"
-		\once \override LyricText #'self-alignment-X = #LEFT "« Maître, nous avons peiné toute la nuit sans rien prendre ;"
-		\once \override LyricText #'self-alignment-X = #LEFT "mais, sur ta parole, je vais jeter les filets. » (Lc 5)"
+		«_Av -- ance au lar -- ge, et je -- tez vos fil -- ets pour la pê -- che._»
+		«_Maî -- tre, nous av -- ons pei -- né tou -- te la nuit sans rien pren -- dre_;
+		mais, sur ta pa -- ro -- le, je vais je -- ter les fi -- lets._»
+		\markup { \citation #"(Mt 9)" } "   [Ton 1 ?]"		
 	  }
 	\header {
 		%titre =  "COMMUN DES PASTEURS"
-		titres = \markup \ant #'eb "P 101" " " }
+		titres = \markup \ant #'eb "P 103" " " }
 }
 
 	
 \markup { \column {
 	\raise #1
-	\line { " " " " " " \fontsize #-1 "       Autres Antiennes" \fontsize #-5 "(j'ai fais la même mise en forme que pour les docteurs, religieux etc...)" }
+	\line { " " " " " " \fontsize #-1 "       Autres Antiennes" }
 	\line { " " " " " " " " " " " " " "	\fontsize #0 "       1. I 401" \fontsize #-1 "(Je suis le bon Pasteur)" }
 	\line { " " " " " " " " " " " " " " \fontsize #0 "       2. K 192" \fontsize #-1 "(Heureux les serviteurs)" }
 	}
@@ -916,8 +953,8 @@
 
 
 \pageBreak
-\markup { " " }
-\pageBreak
+%\markup { " " }
+%\pageBreak
 
 
 
