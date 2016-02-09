@@ -300,19 +300,26 @@
 
 \label #'e
 \score {
-		{ \relative f' { \cadenzaOn \stemOff
-		\hideNotes s1 a\breve
-		\bar " "
-		%\break
-		%g\breve
-		%\bar " "
-		\break
-		g\breve
-		\bar "|." }}
+  { \relative f'
+    {
+      r8 f e8[ f] \times 2/3 { g8[ f e] } d4
+      \times 2/3 { d8[ f g] } \times 2/3 { a8[ a a] } \times 2/3 { c8[\( a\) g] }
+      \times 2/3 { a4\( a8\) }
+      \espace
+      r8 d,8 a'8[\( a\)]
+      \ifIndent
+      \times 2/3 { a8[ a a] } \times 2/3 { c8[ c d] }
+      
+      a8.[ \espace g16] a16[\( a\) f g] f8[ \cesureBasse \pespace e] d4\( d8\) r8
+      \endBar
+      \stemOff f4 g a
+      \endBar
+    }}
 		
 	\addlyrics {
-		\once \override LyricText #'self-alignment-X = #LEFT "Mes yeux ont vu ton salut que tu prépares à la face des peuples,"
-		\once \override LyricText #'self-alignment-X = #LEFT "lumière pour éclairer les nations et gloire d'Israël, ton peuple. (Lc 2)"
+		Mes yeux ont vu ton sa -- lut que tu pré -- pare -- "s à" la fa -- "ce d" -- es peu -- ples,
+		lu -- miè -- re pour éc -- lai -- rer les nat -- ions et glo -- ire d'Is -- ra -- ël, ton peu -- ple.
+		\markup { \citation #"(Lc 2)" } "     [Ton 1]"
 	  }
 	  \header {
 		titres = \markup \ant #'e " " "Antienne" }
@@ -447,19 +454,17 @@
 
 \label #'hy
 \score {
-		{ \relative f' { \cadenzaOn \stemOff
-		\hideNotes s1 a\breve
-		%\bar " "
-		%\break
-		%g\breve
-		%\bar " "
-		%\break
-		%g\breve
-		\bar "|." }}
+		{ \relative f' {
+		  \times 2/3 { r8_\( f[ g]\) } a8[ a]
+		  \times 2/3 { g8[\( f\) e] } f4
+		  \times 2/3 { f8[ d g] } \times 2/3 { a8[ a a] }
+		  \times 2/3 { c8[ a g] } a4
+		  \endBar
+		}}
 		
 	\addlyrics {
-		\once \override LyricText #'self-alignment-X = #LEFT "Adorons le Verbe de Dieu qui s'est fait chair dans le sein de Marie."
-		%\once \override LyricText #'self-alignment-X = #LEFT "lumière pour éclairer les nations et gloire d'Israël, ton peuple. (Lc 2)"
+	  Ad -- or -- ons le Ver -- be de Dieu
+	  qui s'est fait chair dans le sein de Ma -- rie.
 	  }
 	  \header {
 	  	titre =  "ANNONCIATION DU SEIGNEUR (25 mars)"  
@@ -635,13 +640,13 @@
 
 \markup { \column {
 	%\raise #1
-	\line { " " " " " " \fontsize #-1 "       Antiennes" \fontsize #-5 "(j'ai fait la même mise en forme que pour les communs)" }
+	\line { " " " " " " \fontsize #-1 "       Antiennes" }
 	\line { " " " " " " " " " " " " " " \fontsize #0 "       1. G 201" \fontsize #-1 "(Joseph prit avec lui)" }
 	\line { " " " " " " " " " " " " " "	\fontsize #0 "       2. Antienne du 19 mars" \fontsize #-1 "(Joseph, fils de David)" }
 	}
 }
 
-
+\markup { " "} \markup { " "} \markup { " "} \markup { " "}
 
 
 \label #'h
@@ -815,6 +820,8 @@
 		titres = \markup \ant #'l "" "Antienne" }
 }
 
+
+
 \markup { \column {
 	%\raise #1
 	\line { " " " " " " \fontsize #-1 "       Autre Antienne :" \fontsize #0 "K 42" \fontsize #-1 "(Je fais de toi en ce jour)" }
@@ -824,7 +831,7 @@
 }
 
 
-
+\markup { " " } \markup { " " } \markup { " " } \markup { " " }
 
 
 
@@ -1153,13 +1160,13 @@
 		titre =  "LA VIERGE MARIE REINE (22 août)" }
 }
 
-\pageTurn
+%\pageTurn
 
 \markup { 
 	\fill-line { "MARTYRE DE SAINT JEAN BAPTISTE (29 août)" }
 }
 
-\markup { \raise #-3 \column {
+\markup { \raise #0 \column {
 	%\raise #1
 	\line { " " " " " " \fontsize #-1 "       Invitatoire :" \fontsize #0 "L 004" }
 	\line { " " " " " " \fontsize #-1 "       Antienne : " \fontsize #0 "K 42" \fontsize #-1 "(Je fais de toi en ce jour)" }
@@ -1167,7 +1174,7 @@
 	}
 }
 
-\markup { " " } \markup { " " } \markup { " " } \markup { " " }
+\markup { " " } \markup { " " } %\markup { " " } \markup { " " }
 
 \score {
 	\relative f'  { \key f\major
@@ -1202,7 +1209,7 @@
 		titre =  "LA NATIVITE DE LA VIERGE MARIE (8 septembre)" }
 }
 
-
+\noPageBreak
 
 \label #'u
 \score { \transpose e d {
@@ -1416,7 +1423,7 @@
 }
 
 
-\markup { \raise #-3 \column {
+\markup { \raise #0 \column {
 	%\raise #1
 	\line { " " " " " " \fontsize #-1 "       Autre Antienne :" \fontsize #0 "K 140" \fontsize #-1 "(Je te rends grâce, Père)" }
 	%\line { " " " " " " \fontsize #-1 "       Antienne : " \fontsize #0 "K 42" \fontsize #-2 "(Je fais de toi en ce jour)" }
@@ -1425,7 +1432,7 @@
 }
 
 
-\pageTurn
+\markup { " " } \markup { " " } \markup { " " } \markup { " " }
 
 \markup {
 	\fill-line { "SAINTS ANGES GARDIENS (2 octobre)" }
@@ -1555,6 +1562,9 @@
 	\header {
 		titres = \markup \ant #'ae "" "Benedictus" }
 }
+
+
+
 
 \label #'af
 \score {
