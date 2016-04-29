@@ -30,11 +30,8 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
-		f8
-		f8[ f]
-		f16[ e f g] f4
-		f16[ f e c]
-		d4\( d8\) r8
+		c8 d[ f] f[ f] f4_( \cesure 
+		f8[) e c] d4
 		
 		
 		
@@ -42,8 +39,9 @@
 	}
 
 	\addlyrics {
-		Ce -- lui qui fait la vé -- rit -- é vient à la lu -- miè -- re. 
-		\markup { \citation #"Jn 3" } }
+		% Ce -- lui qui fait la vé -- rit -- é vient à la lu -- miè -- re.
+		Who -- ev -- er lives the truth comes to the light.
+		\markup { \citation #"Jn 3:21" } }
 }
 \relative d' { 
 	\new Staff {
