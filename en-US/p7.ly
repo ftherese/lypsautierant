@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 7" "Mode 3" \null \null }   }
@@ -12,7 +12,7 @@
 		\times 2/3 { r8_\( c[ d]\) }
 		c16[ c f f]
 		f8[ f]
-		f16[ e f g]
+		e16[ f g f]
 		f8[\( f\)] \pespace
 		\times 2/3 { r8_\( f[ f]\) }
 		\times 2/3 { e8[ c d] } d4
@@ -21,8 +21,8 @@
 	}
 
 	\addlyrics {
-		Bien -- heure -- ux ceux qui ont faim et soif de la jus -- ti -- ce, ils se -- ront ras -- sa -- siés.
-		%Bless -- ed are they who hun -- ger and thirst for right -- eous -- ness, for they will be sa -- tis -- fied.
+		%Bien -- heure -- ux ceux qui ont faim et soif de la jus -- ti -- ce, ils se -- ront ras -- sa -- siés.
+		Bles -- sed are they who hun -- ger and thirst for righ -- teous -- ness, for they will be sa -- tis -- fied.
 		\markup { \citation #"Mt 5:6" } }
 
 }
