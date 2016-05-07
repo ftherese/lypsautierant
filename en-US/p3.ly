@@ -9,14 +9,12 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		f8 g a
-		a a a a
-		  a a
-		bes a a g a4\cesure  a
-		a[ a\( a\)]
-		a a a a g g f d
+		f8[ g] a8[ a] a8[ a a] a4_\( a8\) g8[ bes bes] a8[ g] a4 \pespace \cesure \ifIndent
+	        a8[ a a] 
+	        a4_\( a8\) a8[ a]  
+		\times 2/3 {g8[ g f]} 
+		d4
 		
-
 		\endBar
 	}
 	\addlyrics {
@@ -35,21 +33,16 @@ in new -- ness of life.
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Easter } }
 		f8
-		g[ a]
-		\override Stem #'neutral-direction = #up
-		\times 2/3 { a4\( \pespace \cesure  \pespace bes8\) }
-		a[\( g\)]
-		a4
-		\espace
-		r16 a[ a\( a\)]
-		a[ g\( g\) f] 
+		g[ a bes] a4 \cesure
+		a8[ a]
+		g[ g f] 
 		d4
 		\barre
 		\times 2/3 { f8 g a }
 		bes[\( g]
 		a4\)
 		\endBar
-	}
+	} 
 	\addlyrics {
 		A -- wake, O slee -- per,
 and a -- rise from the dead "(Al" -- le -- lu -- "ia!)" _ _ 
@@ -63,16 +56,10 @@ and a -- rise from the dead "(Al" -- le -- lu -- "ia!)" _ _
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Adv. Lent } }
-		f8
-		g16[ a a a]
-		a8[\( a\)] \pespace
-		\times 2/3 { a a bes }
-		a[ g]
-		a4 \pespace
-		
-		r16 a[ a a]
-		\times 2/3 { a4\( \cesure a8\) }
-		\times 2/3 { g[ g f] }
+		a16[ a a a]
+		a8[ a] g[ g] \pespace \cesure \pespace
+		\times 2/3 { f16[ g a a]}
+		bes8[ a] g[ a] a4_\( \pespace  \cesure g8\)[ g f]
 		d4
 		\endBar
 	}
@@ -88,13 +75,12 @@ With all prayer and sup -- pli -- ca -- tion, pray at ev -- ery op -- por -- tu 
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
-		\times 2/3 { f8[ g a] }
-		\times 2/3 { a[ g\( bes ]\) }
-		a[\( g\)]
-		a4 \pespace
-		\times 2/3 { r8_\( a[ a]\) }
+		r8 f8[ g] a[ a] 
+		a[ g] 
+		\times 2/3 {bes8[ a g]}
+		a4 \pespace \cesure
 		\times 2/3 { a8[ a a] }
-		\times 2/3 { g[ g f] }
+		a16[ a a g] g8[ f] 
 		d4
 		\endBar
 	}
