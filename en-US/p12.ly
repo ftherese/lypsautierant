@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 12" "Mode 7" \null \null } }
@@ -20,9 +20,10 @@
 	}
 
 	\addlyrics {
-		Que le Dieu de l'es -- pé -- ran -- - -- ce vous com -- ble de sa joie.
+		% Que le Dieu de l'es -- pé -- ran -- - -- ce vous com -- ble de sa joie.
+		May the God of hope fill you with all joy and peace in be -- liev -- ing, so that you may a -- bound in hope by the pow -- er of the hol -- y Spir -- it.
 		
-		\markup { \citation #"Rm 15" } }
+		\markup { \citation #"Rm 15:13" } }
 	
 	
 }
@@ -37,6 +38,8 @@
 		\endBar
 	}	\addlyrics {
 		Que le Sei -- gneur tou -- rne vers vous son vi -- sa -- ge et vous ap -- por -- te la paix.
+		%The Lord let his face shine upon you, and be gracious to you! The Lord look upon you kindly and give you peace! (25-26??)
+
 		\markup { \citation #"Nb 6"}
 	}
 }
