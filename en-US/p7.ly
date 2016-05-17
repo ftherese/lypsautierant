@@ -60,7 +60,7 @@
 
 	\addlyrics {
 		Crai -- gnez Dieu et glo -- ri -- fiez- -- "le :" voi -- ci l'heu -- re de son ju -- ge -- ment.
-		% He said in a loud voice, “Fear God and give him glory, for his time has come to sit in judgment. Worship him who made heaven and earth and sea and springs of water.”
+		% He said in a loud voice, “Fear God and give him glor -- y, for his time has come to sit in judg -- ment. Wor  -- ship him who made heav -- en and earth and sea and springs of wat -- er.”
 		\markup { \citation #"Rv 14:7" } }
 	
 }
@@ -81,7 +81,7 @@
 
 	\addlyrics {
 		Le Pè -- re lui a don -- né le ju -- ge -- ment, par -- ce qu'il est Fils de l'hom -- me.
-		% And he gave him power to exercise judgment, because he is the Son of Man.
+		% And he gave him pow -- er to ex -- er -- cise judg -- ment, be -- cause he is the Son of Man.
 		\markup { \citation #"Jn 5:27" } }
 }
 
@@ -105,7 +105,8 @@
 
 	\addlyrics {
 		Il est é -- ta -- bli par Dieu ju -- ge des vi -- vants et des morts. " Al" -- le -- lu -- "ia !"
-		\markup { \citation #"Ac 10" } }
+		% He comm -- is -- sioned us to preach to the peop -- le and test -- if -- y that he is the one ap -- point -- ed by God as judge of the liv -- ing and the dead. " Al" -- le -- lu -- "ia !"
+		\markup { \citation #"Acts 10:42" } }
 	
 	
 }

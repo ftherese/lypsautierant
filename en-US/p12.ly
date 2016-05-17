@@ -20,10 +20,10 @@
 	}
 
 	\addlyrics {
-		% Que le Dieu de l'es -- pé -- ran -- - -- ce vous com -- ble de sa joie.
-		May the God of hope fill you with all joy and peace in be -- liev -- ing, so that you may a -- bound in hope by the pow -- er of the hol -- y Spir -- it.
+		Que le Dieu de l'es -- pé -- ran -- - -- ce vous com -- ble de sa joie.
+		% May the God of hope fill you with all joy and peace in be -- liev -- ing, so that you may a -- bound in hope by the pow -- er of the hol -- y Spir -- it.
 		
-		\markup { \citation #"Rm 15:13" } }
+		\markup { \citation #"Rom 15:13" } }
 	
 	
 }
@@ -38,9 +38,9 @@
 		\endBar
 	}	\addlyrics {
 		Que le Sei -- gneur tou -- rne vers vous son vi -- sa -- ge et vous ap -- por -- te la paix.
-		%The Lord let his face shine upon you, and be gracious to you! The Lord look upon you kindly and give you peace! (25-26??)
+		%The Lord let his face shine up -- on you, and be gra -- cious to you! The Lord look up -- on you kind -- ly and give you peace! (25-26??)
 
-		\markup { \citation #"Nb 6"}
+		\markup { \citation #"Nm 6"}
 	}
 }
 
@@ -52,8 +52,9 @@
 \times 2/3 { d8[ d d] } d16[ d d e] d16[\( d\) c c] b4\( \stemDown a8\) r8 
  \endBar
 	}	\addlyrics {
-		L'as -- tre "d'en-ha" -- ut vient nous vi -- si -- ter pour éc -- lai -- rer ceux qui ha -- bi -- tent les té -- nè -- bres. 
-		\markup { \citation #"Lc 2"}
+		L'as -- tre "d'en-ha" -- ut vient nous vi -- si -- ter pour éc -- lai -- rer ceux qui ha -- bi -- tent les té -- nè -- bres.
+		% be -- cause of the ten -- der mer -- cy of our God by which the day -- break from on high will vis -- it us to shine on those who sit in dark -- ness and death’s sha -- dow, to guide our feet in -- to the path of peace. (?Lk 1:78-79?)
+		\markup { \citation #"Lc 2??"}
 	}
 }
 
@@ -72,7 +73,8 @@
 		\endBar
 	}	\addlyrics {
 		Si nous souf -- frons a -- vec lui, a -- vec lui nous rég -- ne -- rons.
-		\markup { \citation #"Cf. 2 Tm 2"}
+		% If we per -- se -- vere we shall al -- so reign with him.
+		\markup { \citation #"Cf. 2 Tm 2:12"}
 	}
 }
 \relative c'' { 
@@ -98,7 +100,8 @@
 		\endBar
 	}	\addlyrics {
 		Res -- sus -- cit -- é d'en -- tre les morts, le Christ n'est plus as -- ser -- vi à la mort. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Rm 6"}
+		% We know that Christ, raised from the dead, dies no more; death no longer has power over him. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Rom 6:9"}
 	}
 }
 

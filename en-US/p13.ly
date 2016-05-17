@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 13" "Mode 2" \null \null } }
@@ -22,7 +22,8 @@
 
 	\addlyrics {
 		Je suis ve -- nu sau -- ver non pas les jus -- tes mais les pé -- cheurs.
-		\markup { \citation #"Mc 2" } 
+		% I did not come to call the righ -- teous but sin -- ners.
+		\markup { \citation #"Mk 2:17" } 
 	}
 }
 \relative d' { 
@@ -44,7 +45,8 @@
 
 	\addlyrics {
 		La grâ -- ce de Dieu s'est ma -- ni -- fes -- tée, nous en -- sei -- gnant à re -- non -- cer au pé -- ché.
-		\markup { \citation #"Tt 2" } 
+		% For the grace of God has ap -- peared, sa -- ving all and train -- ing us to re -- ject god -- less ways and world -- ly de -- sires and to live tem -- per -- ate -- ly, just -- ly, and de -- vout -- ly in this age.
+		\markup { \citation #"Ti 2:11-12" } 
 	}
 }
 \relative d' { 
@@ -57,6 +59,7 @@
 
 	\addlyrics {
 		Sei -- gneur mon Dieu, en toi j'ai mon ab -- ri.
+		%
 		\markup { \citation #"Ps 7" } 
 	}
 }
@@ -82,7 +85,8 @@
 
 	\addlyrics {
 		Le pé -- ché a ré -- gné dans la mort, la grâ -- ce rè -- gne pour la vie é -- ter -- nel -- le. Al -- le -- lu -- "ia !"
-		\markup { \citation #"Rm 5" } 
+		% so that, as sin reigned in death, grace al -- so might reign through jus -- ti -- fi -- ca -- tion for e -- ter -- nal life through Je -- sus Christ our Lord. Al -- le -- lu -- "ia !"
+		\markup { \citation #"Rom 5:21" } 
 	}
 }
 

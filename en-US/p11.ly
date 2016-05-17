@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 11" "Mode Peregrinus" \null \null } }
 \noPageBreak
@@ -22,7 +22,8 @@
 
 	\addlyrics {
 		Sanc -- ti -- fie- -- les dans la vé -- ri -- "té :" ta pa -- role est vé -- ri -- té.
- 		\markup { \citation #"Jn 17" } }
+		% Con -- se -- crate them in the truth. Your word is truth.
+ 		\markup { \citation #"Jn 17:17" } }
 	
 	
 }
@@ -47,7 +48,8 @@
 
 	\addlyrics {
 		Heu -- reux les per -- sé -- cu -- tés pour la jus -- ti -- ce, car le Ro -- yau -- me des cieux est à eux. 
- 		\markup { \citation #"Mt 5" } }
+		% Bless -- ed are they who are per -- se -- cu -- ted for the sake of righ -- teous -- ness, for theirs is the king -- dom of heav -- en.
+ 		\markup { \citation #"Mt 5:10" } }
 	
 	
 }
@@ -68,7 +70,7 @@
 
 	\addlyrics {
 		Aux pau -- vres que nous som -- - -- mes, le Pè -- re daigne en -- vo -- yer son Fils.
- 		\markup { \citation #"St Augustin" } }
+ 		\markup { \citation #"St Augustine" } }
 	
 	
 }
@@ -98,7 +100,8 @@
 
 	\addlyrics {
 		Vi -- vante est la pa -- ro -- le de Dieu, plus in -- ci -- si -- ve qu'un glai -- ve. " Al" -- le -- lu -- "ia !"
- 		\markup { \citation #"He 4" } }
+		% The word of God is liv -- ing and e -- ffec -- tive, sharp -- er than an -- y two-edged sword. " Al" -- le -- lu -- "ia !"
+ 		\markup { \citation #"Heb 4:12" } }
 	
 	
 }

@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 10" "Mode 8" \null \null } }
 \noPageBreak
@@ -15,8 +15,9 @@ c[\( c\)] \pespace \cesure  \pespace \times 2/3 { c[ c c] } c16[ b c a] g4\( g8\
 	}
 
 	\addlyrics {
-		Le Sei -- gneur a les yeux sur les jus -- tes et tend l'o -- reille à leur pri -- è -- re. 
-		\markup { \citation #"1 P 3" } }
+		Le Sei -- gneur a les yeux sur les jus -- tes et tend l'o -- reille à leur pri -- è -- re.
+		% For the eyes of the Lord are on the righ -- teous and his ears turned to their prayer.
+		\markup { \citation #"1 Pt 3:12" } }
 }	
 
 \relative c'' { 
@@ -36,7 +37,8 @@ c[\( c\)] \pespace \cesure  \pespace \times 2/3 { c[ c c] } c16[ b c a] g4\( g8\
 
 	\addlyrics {
 		Bien -- heu -- reux les cœurs purs, ils ver -- ront Dieu.
-		\markup { \citation #"Mt 5" } }
+		% Bless -- ed are the clean of heart, for they will see God.
+		\markup { \citation #"Mt 5:8" } }
 }
 \relative c'' { 
 	\new Staff {
@@ -56,7 +58,8 @@ c[\( c\)] \pespace \cesure  \pespace \times 2/3 { c[ c c] } c16[ b c a] g4\( g8\
 
 	\addlyrics {
 		Qui m'a vu a vu le Pè -- - -- re. Al -- le -- lu -- ia, al -- le -- lu -- "ia !"
-		\markup { \citation #"Jn 14" } }
+		% Who -- ev -- er has seen me has seen the Fa -- ther. Al -- le -- lu -- ia, al -- le -- lu -- "ia !"
+		\markup { \citation #"Jn 14:9" } }
 }
 
 	
@@ -79,6 +82,7 @@ c[\( c\)] \pespace \cesure  \pespace \times 2/3 { c[ c c] } c16[ b c a] g4\( g8\
 
 	\addlyrics {
 		Bien -- heu -- reux les as -- soif -- fés de jus -- ti -- ce, ils se -- ront ras -- sa -- siés.
-		\markup { \citation #"Mt 5" } }
+		% Bless -- ed are they who hun -- ger and thirst for righ -- teous -- ness, for they will be sa -- tis -- fied.
+		\markup { \citation #"Mt 5:6" } }
 }
 

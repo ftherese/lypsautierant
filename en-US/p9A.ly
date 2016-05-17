@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 %\markup { \hspace #10 \fill-line { "Psalm 9 A" "Mode 7" \null \null } }
 \noPageBreak
@@ -23,7 +23,8 @@
 
 	\addlyrics {
 		Mon âme e -- xal -- te le Sei -- gneur e -- xul -- te mon esp -- rit en Dieu mon Sau -- veur.
-		\markup { \citation #"Lc 1"}
+		% My soul pro -- claims the great -- ness of the Lord; my spir -- it re -- joi -- ces in God my sav -- ior.
+		\markup { \citation #"Lk 1:46-47"}
  }
 }
 
@@ -45,8 +46,9 @@
 	}
 
 	\addlyrics {
-		Sa -- lut, puis -- sance et gloire à  no -- tre Dieu, ils sont jus -- tes et vrais, ses ju -- ge -- ments. "(Al" -- le -- lu -- - -- "ia !)"
-		\markup { \citation #"Ap 19" } }
+		Sa -- lut, puis -- sance et gloire à  no -- tre Dieu, ils sont jus -- tes et vrais, ses ju -- ge -- ments. "(Al" -- le -- lu -- - -- "ia !)"
+		% Sal -- va -- tion, glor -- y, and might be -- long to our God, for true and just are his judg -- ments. "(Al" -- le -- lu -- - -- "ia !)"
+		\markup { \citation #"Rv 19:1-2" } }
 }
 
 \relative c'' { 
@@ -68,7 +70,8 @@
 
 	\addlyrics {
 		Bien -- heu -- reux les pau -- vres, le Ro -- yau -- me des cieux leur ap -- par -- tient.
-		\markup { \citation #"Mt 5" } }
+		% Bless -- ed are the poor in spir -- it, for theirs is the king -- dom of hea -- ven.
+		\markup { \citation #"Mt 5:3" } }
 }
 
 \relative c'' { 
@@ -90,6 +93,7 @@
 
 	\addlyrics {
 		Le Sei -- gneur "s'est" fait re -- fu -- ge du pau -- vre dans l'é -- preuve et la dé -- tres -- se.
-		\markup { \citation #"Is 25" } }
+		% For you have been a re -- fuge to the poor, a re -- fuge to the need -- y in their dis -- tress.
+		\markup { \citation #"Is 25:4" } }
 }
 

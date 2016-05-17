@@ -86,7 +86,7 @@ With all prayer and sup -- pli -- ca -- tion, pray at ev -- ery op -- por -- tu 
 	}
 	\addlyrics {
 I pro -- claim to you good
-news of great joy: to -- day a sa -- vior has been born for you.(?? NABRE?)
+news of great joy: to -- day a sa -- vior has been born for you.
 		\markup { \citation #"Lk 2:10-11" }
 	}
 }
