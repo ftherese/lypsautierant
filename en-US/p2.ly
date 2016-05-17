@@ -29,8 +29,8 @@ This is my be -- lo -- ved Son, with whom I am well pleased.
 	}
 
 	\addlyrics {
-		“To the vic -- tor, I will give au -- tho -- ri -- ty o -- ver the na -- tions. He will rule them with an i -- ron rod. " (Al" -- le -- lu -- "ia!)"
-		\markup { \citation #"Ap 2:26-27" } 
+		To the vic -- tor, I will give au -- tho -- ri -- ty o -- ver the na -- tions. He will rule them with an i -- ron rod. " (Al" -- le -- lu -- "ia!)"
+		\markup { \citation #"Rv 2:26-27" } 
 	}
 }
 

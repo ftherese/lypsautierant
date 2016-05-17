@@ -98,7 +98,7 @@
 		\endBar
 	}	\addlyrics {
 		Un mo -- ment ab -- ais -- sé au- -- des -- sous des an -- ges, tu l'as cou -- ron -- né de gloire et d'hon -- neur.
-		% You made him for a lit -- tle while lo -- wer than the an -- gels; you crowned him with glo -- ry and hon --  or.
+		% You made him for a lit -- tle while low -- er than the an -- gels; you crowned him with glo -- ry and hon --  or.
 		\markup { \citation #"Heb 2:7"}
 	}
 }

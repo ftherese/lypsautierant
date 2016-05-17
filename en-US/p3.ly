@@ -21,7 +21,7 @@
 	We were in -- deed bu -- ried with him through bap -- ti -- sm in -- to death, so that we too might live
 in new -- ness of life.
 	%{"(Al" -- le -- lu -- ia "!)" %}
-		\markup { \citation #"Rm 6" }
+		\markup { \citation #"Rom 6:4" }
 	}
 }
 
@@ -45,7 +45,7 @@ in new -- ness of life.
 	} 
 	\addlyrics {
 		A -- wake, O slee -- per,
-and a -- rise from the dead "(Al" -- le -- lu -- "ia!)" _ _ 
+and a -- rise from the dead. "(Al" -- le -- lu -- "ia!)" _ _ 
 		\markup { \citation #"Eph 5:14" }
 	}
 }
@@ -85,8 +85,8 @@ With all prayer and sup -- pli -- ca -- tion, pray at ev -- ery op -- por -- tu 
 		\endBar
 	}
 	\addlyrics {
-I proc -- laim to you good
-news of great joy: to -- day a sa -- vior has been born for you.
+I pro -- claim to you good
+news of great joy: to -- day a sa -- vior has been born for you.(?? NABRE?)
 		\markup { \citation #"Lk 2:10-11" }
 	}
 }

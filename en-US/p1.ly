@@ -22,7 +22,7 @@
 	 }
 	 \addlyrics {
 		Bless -- ed are those who hear the word of God and ob -- serve
-it. 
+it.(cf French???) 
 		 \markup { \citation #"Cf. Lk 11:28" } }
 	 }
  	\relative c'' { 
@@ -41,7 +41,7 @@ it.
 
 	\addlyrics {
 Who -- ev -- er re -- mains in me and I in him will
-bear much fruit
+bear much fruit.
 		\markup { \citation #"Jn 15:5" } }
 }		
 \relative c'' { 
@@ -80,7 +80,7 @@ dies, it re -- mains just a grain of wheat; but if it dies, it pro -- du -- ces 
 	}
 
 	\addlyrics {
-		Je -- sus said to him, “I am the way.” Al -- le -- lu -- ia! _ 
+		Je -- sus said to him, “I am the way.” (cf French?) Al -- le -- lu -- ia! _ 
 
 		\markup { \citation #"Jn 14:6" } }
 

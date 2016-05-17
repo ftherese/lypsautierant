@@ -40,7 +40,7 @@
 
 	\addlyrics {
 		% Ce -- lui qui fait la vé -- rit -- é vient à la lu -- miè -- re.
-		Who -- ev -- er lives the truth comes to the light.
+		But whoever lives the truth comes to the light, so that his works may be clearly seen as done in God.
 		\markup { \citation #"Jn 3:21" } }
 }
 \relative d' { 
@@ -60,7 +60,8 @@
 
 	\addlyrics {
 		Crai -- gnez Dieu et glo -- ri -- fiez- -- "le :" voi -- ci l'heu -- re de son ju -- ge -- ment.
-		\markup { \citation #"Ap 14" } }
+		% He said in a loud voice, “Fear God and give him glory, for his time has come to sit in judgment. Worship him who made heaven and earth and sea and springs of water.”
+		\markup { \citation #"Rv 14:7" } }
 	
 }
 \relative d' { 
@@ -80,7 +81,8 @@
 
 	\addlyrics {
 		Le Pè -- re lui a don -- né le ju -- ge -- ment, par -- ce qu'il est Fils de l'hom -- me.
-		\markup { \citation #"Jn 5" } }
+		% And he gave him power to exercise judgment, because he is the Son of Man.
+		\markup { \citation #"Jn 5:27" } }
 }
 
 

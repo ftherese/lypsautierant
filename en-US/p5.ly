@@ -38,8 +38,8 @@ His dis -- ci -- ples re -- called the words of scrip -- ture, “Zeal for your 
 		\endBar
 	}
 	\addlyrics {
-	Through him we have ac -- cess in one Spi -- rit to the Fa -- ther.
-		\markup { \citation #"Eph 2" }
+	Through him we both have ac -- cess in one Spir -- it to the Fa -- ther.
+		\markup { \citation #"Eph 2:18" }
 	}
 }
 \relative f' { 
@@ -63,7 +63,7 @@ the time % for the dead to be judged,
 to re -- com -- pense %your ser -- vants, the prop -- hets,
 %and the ho -- ly ones and 
 those who fear your name.
-		\markup { \citation #"Rev 11:18" }
+		\markup { \citation #"Rv 11:18" }
 	}
 }
 
@@ -110,11 +110,9 @@ The shep -- herds said to one a -- no -- ther, “Let us go, then, to Be -- thle
 		\endBar
 	}
 	\addlyrics {
-Some wo -- men from our group %, ho -- wever, have as -- toun -- ded us: they 
-were at the tomb ear -- ly in the mor -- ning.
-%23 and did not find his bo -- dy; 
+%At daybreak on the first day of the week they took the spices they had prepared and went to the tomb. 
 Al -- le -- lu -- "ia !"
-		\markup { \citation #"Lk 24:22" }
+		\markup { \citation #"Lk 24:1" }
 	}
 }
 

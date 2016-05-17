@@ -13,9 +13,8 @@
 	}
 
 	\addlyrics {
-May we see bet -- ter times!
-LORD, show us the light of your face!
- 		\markup { \citation #"Ps 4:7" } }
+%Lord God of hosts, re -- store us; light up your face and we shall be saved.
+ 		\markup { \citation #"Ps ???79/80:20" } }
 	
 	
 }
@@ -80,7 +79,7 @@ which you pre -- pared in sight of all the peo -- ples.
 
 	\addlyrics {
 		 Know that the Lord works won -- ders for his faith -- ful one;
-the Lord hears when I call out to him. " Al" -- le -- lu -- "ia !"
+the Lord hears when I call out to him.??French " Al" -- le -- lu -- "ia !"
  		\markup { \citation #"Cf. Ps 4:4" } }
 	
 	
