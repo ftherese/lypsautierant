@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 15" "Mode 4" \null \null } }
 \noPageBreak
@@ -22,7 +22,8 @@
 
 	\addlyrics {
 		Tel se -- ra l'hé -- ri -- ta -- ge du vain -- queur, je lui don -- ne -- rai de la sour -- ce d'eau vi -- ve.
-		\markup { \citation #"Ap 21" } 
+		%To the thirs -- ty I will give a gift from the spring of life-giv -- ing wa -- ter. The vic -- tor will in -- her -- it these gifts, and I shall be his God, and he will be my son. 
+		\markup { \citation #"Rv 21:6-7????" } 
 	}
 }
 \relative a' { 
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		Vous a -- vez cru en la for -- ce de Dieu qui a re -- ssus -- cit -- "é " le Christ.
-		\markup { \citation #"Col 2" } 
+		%You were bur -- ied with him in bap -- tism, in which you were al -- so raised with him through faith in the pow -- er of God, who raised him from the dead.
+		\markup { \citation #"Col 2:12" } 
 	}
 }
 
@@ -56,7 +58,8 @@
 
 	\addlyrics {
 		Pré -- pa -- rez le che -- min du Sei -- gneur, ren -- dez droits ses sen -- tiers.
-		\markup { \citation #"Lc 3" } 
+		%Prepare the way of the Lord, make straight his paths.
+		\markup { \citation #"Lk 3:4" } 
 	}
 }
 \relative a' { 
@@ -72,7 +75,8 @@
 
 	\addlyrics {
 		Dieu a don -- né son Fils u -- ni -- que. " A" -- lle -- lu -- "ia !"
-		\markup { \citation #"Jn 3" } 
+		%For God so loved the world that he gave his on -- ly Son, so that everyone who believes in him might not perish but might have eternal life. " A" -- lle -- lu -- "ia !"
+		\markup { \citation #"Jn 3:16" } 
 	}
 }
 
@@ -97,7 +101,8 @@
 
 	\addlyrics {
 		Ce -- lui qui croit en moi, mê -- me s'il meurt viv -- ra.
-		\markup { \citation #"Jn 11" } 
+		%Who -- ev -- er be -- lieves in me, ev -- en if he dies, will live.
+		\markup { \citation #"Jn 11:25" } 
 	}
 }
 
@@ -123,7 +128,8 @@
 
 	\addlyrics {
 		Dieu a res -- sus -- ci -- té Jé -- sus, il ne l'a pas a -- ban -- don -- né aux en -- fers. Al -- le -- lu -- "ia !" _ _
-		\markup { \citation #"Ac 2" } 
+		%But God raised him up, re -- leas -- ing him from the throes of death, be -- cause it was im -- poss -- ible for him to be held by it.  Al -- le -- lu -- "ia !" _ _
+		\markup { \citation #"Acts 2:24" } 
 	}
 }
 

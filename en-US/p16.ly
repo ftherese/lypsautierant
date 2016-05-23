@@ -16,8 +16,8 @@
 
 	\addlyrics {
 		Le Christ s'est sou -- mis en tout, il a é -- té e -- xau -- cé.
-		%
-		\markup { \citation #"He 5" } 
+		%In the days when he was in the flesh, he offered prayers and supplications with loud cries and tears to the one who was able to save him from death,[e] and he was heard because of his reverence.
+		\markup { \citation #"Heb 5:7" } 
 	}
 	
 	
@@ -44,7 +44,8 @@
 
 	\addlyrics {
 		Tel est le grand prê -- tre qu'il nous fal -- lait, saint, in -- no -- cent et sé -- pa -- ré des pé -- cheurs.
-		\markup { \citation #"He 7" }
+		%It was fit -- ting that we should have such a high priest: ho -- ly, in -- no -- cent, un -- de -- filed, sep - ar -- ated from sin -- ners, high -- er than the hea --vens.
+		\markup { \citation #"Heb 7:26" }
 	}
 	
 	
@@ -75,7 +76,8 @@
 
 	\addlyrics {
 		Les ser -- vi -- teurs de Dieu l'a -- do -- re -- ront, ils ver -- ront sa fa -- ce. "(Al" -- le -- lu -- _ "ia !)" _ 
-		\markup { \citation #"Ap 22" } 
+		% The throne of God and of the Lamb will be in it, and his ser -- vants will wor -- ship him. They will look up -- on his face,and his name will be on their fore -- heads.
+		\markup { \citation #"Rv 22:3-4" } 
 	}
 	
 	
@@ -98,7 +100,8 @@
 
 	\addlyrics {
 		Si "quelqu'" -- un gar -- de ma pa -- ro -- le, il ne ve -- rra ja -- mais la mort.
-		\markup { \citation #"Jn 8" } 
+		%Who -- ev -- er keeps my word will ne -- ver see death.
+		\markup { \citation #"Jn 8:51" } 
 	}
 	
 	

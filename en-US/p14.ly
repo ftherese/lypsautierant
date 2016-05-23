@@ -47,7 +47,8 @@
 
 	\addlyrics {
 		Qui en -- tend ma pa -- role et la met en pra -- ti -- que a bâ -- ti sa mai -- son sur le roc.
- 		\markup { \citation #"Mt 7" } }
+		%Every -- one who list -- ens to these words of mine and acts on them will be like a wise man who built his house on rock. 
+ 		\markup { \citation #"Mt 7:24" } }
 }	
 
 \relative a' { 
@@ -71,7 +72,8 @@
 
 	\addlyrics {
 		Le Fils de l'hom -- me vien -- dra dans la gloi -- re de son Pè -- re, et il ren -- dra à cha -- cun se -- lon ses œu -- vres.
- 		\markup { \citation #"Mt 16" } }
+		%For the Son of Man will come with his an -- gels in his Fa -- ther’s glo -- ry, and then he will re -- pay every -- one ac -- cord -- ing to his con -- duct. 
+ 		\markup { \citation #"Mt 16:27" } }
 }	
 \relative a' { 
 	\new Staff {
@@ -91,7 +93,8 @@
 
 	\addlyrics {
 		Ce -- lui qui de -- meu -- re dans l'a -- mour de -- meure en Dieu et Dieu en lui.
- 		\markup { \citation #"1 Jn 3" } }
+		%Those who keep his com -- mand -- ments re -- main in him, and he in them, and the way we know that he remains in us is from the Spirit that he gave us.
+ 		\markup { \citation #"1 Jn 3:24" } }
 	
 	
 }
@@ -121,7 +124,8 @@
 
 	\addlyrics {
 		Ce -- lui qui siè -- ge sur le trô -- ne é -- ten -- dra sur eux sa ten -- te. Al -- le -- lu -- - -- "ia !"
- 		\markup { \citation #"Ap 7" } }
+		%The one who sits on the throne will shel -- ter them.  Al -- le -- lu -- - -- "ia !"
+ 		\markup { \citation #"Rv 7:15" } }
 }
 
 
