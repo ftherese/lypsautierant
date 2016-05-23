@@ -45,7 +45,8 @@
 
 	\addlyrics {
 		Je suis Roi, je suis ve -- nu dans le mon -- de pour ren -- dre té -- moi -- gna -- "ge à" la vé -- ri -- té.
- 		\markup { \citation #"Jn 18" } }
+ 		%“You say I am a king. For this I was born and for this I came in -- to the world, to tes -- ti -- fy to the truth.
+ 		\markup { \citation #"Jn 18:27" } }
 	
 	
 }
@@ -67,7 +68,8 @@
 
 	\addlyrics {
 		Voi -- ci ve -- nir le roi de gloi -- re, il vient sau -- ver son peu -- ple.
- 		\markup { \citation #"Cf. Ps 23" } }
+ 		%Who is this king of glory? The Lord, strong and mighty, the Lord, mighty in war. Lift up your heads, O gates; rise up, you ancient portals, that the king of glory may enter. Who is this king of glory? The Lord of hosts, he is the king of glory.
+ 		\markup { \citation #"Cf. Ps 23:8-10" } }
 	
 	
 }
@@ -87,7 +89,8 @@
 
 	\addlyrics {
 		Voi -- "ci," "j'ai" ou -- vert de -- vant toi un -- e por -- te que nul ne peut fer -- mer.
- 		\markup { \citation #"Ap 3" } }
+ 		%I know your works (be -- hold, I have left an o -- pen door be -- fore you, which no one can close).
+ 		\markup { \citation #"Rv 3:8" } }
 }
 
 \relative c'' { 
@@ -107,7 +110,8 @@
 
 	\addlyrics {
 		"Moi," je suis la Por -- te. Si quel -- qu'un en -- tre par "moi," il se -- ra sau -- vé. Al -- le -- lu -- "ia !"
- 		\markup { \citation #"Jn 10" } }
+ 		%I am the gate. Who -- ev -- er en -- ters through me will be saved, and will come in and go out and find pas -- ture.
+ 		\markup { \citation #"Jn 10:9" } }
 	
 	
 }
