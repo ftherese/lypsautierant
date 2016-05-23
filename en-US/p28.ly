@@ -17,7 +17,8 @@
 
 	\addlyrics {
 		A la voix de l'ar -- chan -- ge, à l'ap -- pel de Dieu, le Sei -- gneur lui- -- mê -- me des -- cen -- dra du ciel.
- 		\markup { \citation #"1 Th 4" } }
+ 		%For the Lord him -- self, with a word of com -- mand, with the voice of an arch -- an -- gel and with the trum -- pet of God, will come down from heav -- en, and the dead in Christ will rise first.
+ 		\markup { \citation #"1 Thes 4:16" } }
 	
 	
 }
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		U -- ne voix ve -- nue des cieux di -- "sait : " Ce -- lui- -- ci est mon Fils bien- -- ai -- mé.
- 		\markup { \citation #"Mt 3" } }
+ 		%And a voice came from the heav -- ens, say -- ing, “This is my be -- lov -- ed Son, with whom I am well pleased.”
+ 		\markup { \citation #"Mt 3:17" } }
 	
 	
 }
@@ -67,7 +69,8 @@
 
 	\addlyrics {
 		Dès que ta voix a fra -- ppé mes o -- reil -- les, l'en -- fant a bon -- di d'al -- lé -- gresse en mon sein.
- 		\markup { \citation #"Lc 1" } }
+ 		%For at the mo -- ment the sound of your greet -- ing reached my ears, the in -- fant in my womb leaped for joy.
+ 		\markup { \citation #"Lk 1:44" } }
 	
 	
 }
@@ -86,7 +89,8 @@
 
 	\addlyrics {
 		L'a -- mi de l'Ép -- oux est ra -- vi de joie à la voix de l'É -- poux.
- 		\markup { \citation # "Jn 3" } }
+ 		%The one who has the bride is the bride -- groom; the best man, who stands and lis -- tens to him, re -- joic -- es great -- ly at the bride -- groom’s voice.
+ 		\markup { \citation # "Jn 3:29" } }
 	
 	
 }
@@ -106,7 +110,8 @@
 
 	\addlyrics {
 		Du ciel vint u -- ne "voix :" Je l'ai glo -- ri -- fié. " Al" -- le -- lu -- "ia !"
- 		\markup { \citation # "Jn 12" } }
+ 		%Then a voice came from heav -- en, “I have glor -- i -- fied it and will glor -- i -- fy it a -- gain.
+ 		\markup { \citation # "Jn 12:28" } }
 	
 	
 }
