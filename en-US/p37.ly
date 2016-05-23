@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 37" "Mode 2" \null \null }  }
@@ -18,7 +18,8 @@
 
 	\addlyrics {
 		Si no -- tre cœur nous con -- dam -- ne, Dieu est plus grand que no -- tre cœur.
-		\markup { \citation #"1 Jn 3" } }
+		%In what -- e -- ver our hearts con -- demn, for God is great -- er than our hearts and knows ev -- ery -- thing.
+		\markup { \citation #"1 Jn 3:20" } }
 	
 	
 }
@@ -37,7 +38,8 @@
 
 	\addlyrics {
 		Con -- so -- lez, con -- so -- lez mon peu -- - -- ple, cri -- ez- -- lui que sa faute est ex -- piée.
-		\markup { \citation #"Is 40" } }
+		%Com -- fort, give com -- fort to my peo -- ple, says your God. Speak to the heart of Jerusalem, and pro -- claim to her that her service has ended, that her guilt is ex -- pi -- a -- ted.
+		\markup { \citation #"Is 40:1-2" } }
 	
 	
 }
@@ -54,8 +56,9 @@
 	}
 
 	\addlyrics {
-		Ve -- nez à  moi, vous qui plo -- yez sous le far -- deau, je vous don -- ner -- ai le re -- pos.
-		\markup { \citation #"Mt 11" } }
+		Ve -- nez à  moi, vous qui plo -- yez sous le far -- deau, je vous don -- ner -- ai le re -- pos.
+		%Come to me, all you who la -- bor and are bur -- dened, and I will give you rest.
+		\markup { \citation #"Mt 11:28" } }
 	
 	
 }
@@ -74,7 +77,8 @@
 
 	\addlyrics {
 		Dans ses ble -- ssu -- res nous trou -- vons la gué -- ri -- son.
-		\markup { \citation #"Is 53" } }
+		%By his wounds we were healed.
+		\markup { \citation #"Is 53:5" } }
 	
 	
 }
@@ -93,7 +97,8 @@
 
 	\addlyrics {
 		Il a por -- té nos péc -- hés dans son corps pour que nous vi -- vions pour la jus -- ti -- ce. Al -- le -- lu -- "ia !"_ _
-		\markup { \citation #"1 P 2" } }
+		%He him -- self bore our sins in his bo -- dy upon the cross, so that, free from sin, we might live for right -- eous -- ness.  Al -- le -- lu -- "ia !"_ _
+		\markup { \citation #"1 Pt 2:24" } }
 	
 	
 }

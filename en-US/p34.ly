@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 34" "Mode 1" \null \null } }
@@ -22,7 +22,8 @@
 
 	\addlyrics {
 		Al -- "lez !" Je vous envo -- ie com -- me des a -- gneaux au mi -- lieu des loups.
- 		\markup { \citation #"Lc 10" } }
+ 		%Go on your way; be -- hold, I am send -- ing you like lambs among wolves.
+ 		\markup { \citation #"Lk 10:3" } }
 	
 	
 }
@@ -43,7 +44,8 @@
 
 	\addlyrics {
 		Ac -- cu -- sé par les An -- ciens, Jés -- us ne ré -- pon -- dit rien.
- 		\markup { \citation #"Mt 27" } }
+ 		%And when he was ac -- cused by the chief priests and el -- ders, he made no an -- swer. 
+ 		\markup { \citation #"Mt 27:12" } }
 	
 	
 }
@@ -61,7 +63,8 @@
 
 	\addlyrics {
 		Pè -- re, je sais que tu m'e -- xau -- ces touj -- ours.
- 		\markup { \citation #"Jn 11" } }
+ 		%Fa -- ther, I thank you for hear -- ing me. I know that you al -- ways hear me.
+ 		\markup { \citation #"Jn 11:41-42" } }
 	
 	
 }
@@ -79,7 +82,8 @@
 
 	\addlyrics {
 		Lè -- ve- -- toi, prends l'en -- fant et sa mè -- re et fuis en É -- gy -- pte.
- 		\markup { \citation #"Mt 2" } }
+ 		%Rise, take the child and his mo -- ther, flee to Egypt.
+ 		\markup { \citation #"Mt 2:13" } }
 	
 	
 }
@@ -99,8 +103,9 @@
 	}
 
 	\addlyrics {
-		Mon -- tre- -- toi fi -- dè -- le jus -- qu'à  la mort et je te don -- ne -- rai la cou -- ron -- ne de vie.
- 		\markup { \citation #"Ap 2" } }
+		Mon -- tre- -- toi fi -- dè -- le jus -- qu'à  la mort et je te don -- ne -- rai la cou -- ron -- ne de vie.
+ 		%Re -- main faith -- ful un -- til death, and I will give you the crown of life.
+ 		\markup { \citation #"Rev 2:10" } }
 	
 	
 }
@@ -117,7 +122,8 @@
 
 	\addlyrics {
 		Voi -- ci mai -- nte -- nant le sa -- lut, la puis -- sanc -- "e et" la ro -- yau -- té de no -- tre Dieu. A -- lle -- lu -- "ia !"
- 		\markup { \citation #"Ap 12" } }
+ 		%Now have sal -- va -- tion and po -- wer come, and the king -- dom of our God. A -- lle -- lu -- "ia !"
+ 		\markup { \citation #"Rev 12:10" } }
 	
 	
 }

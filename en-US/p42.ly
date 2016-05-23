@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 42" "Mode 3" \null \null } }
 \noPageBreak
@@ -20,8 +20,8 @@
 
 	\addlyrics {
 		Que vo -- tre cœur ne se trou -- ble "pas !" Vous cro -- yez en Dieu, cro -- yez aus -- si en moi.
-		
-		\markup { \citation #"Jn 14" } }
+		%Do not let your hearts be troub -- led. You have faith in God; have faith also in me.
+		\markup { \citation #"Jn 14:1" } }
 	
 	
 }
@@ -43,8 +43,8 @@
 
 	\addlyrics {
 		Que Dieu vous comb -- le de joie et de paix dans la foi.
-		
-		\markup { \citation #"Rm 15" } }
+		%May the God of hope fill you with all joy and peace in be -- lie -- ving.
+		\markup { \citation #"Rom 15:13" } }
 	
 	
 }
@@ -63,7 +63,8 @@
 	\addlyrics {
 		
 		Je pri -- erai le Pè -- re et il vous don -- ne -- ra un au -- tre Pa -- rac -- let.
-		\markup { \citation #"Jn 14" } }
+		%I will ask the Fa -- ther, and he will give you another Ad -- vo -- cate.
+		\markup { \citation #"Jn 14:15" } }
 	
 	
 }
@@ -99,8 +100,8 @@
 	\addlyrics {
 		
 		À cau -- se de la peine é -- prou -- vée par son â -- me, mon ser -- vi -- teur ver -- ra la lu -- miè -- re. "Al" -- le -- lu -- - -- "ia !"
-		
-		\markup { \citation #"Is 53" } }
+		% Be -- cause of his an -- guish he shall see the light. "Al" -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Is 53:11" } }
 	
 	
 }

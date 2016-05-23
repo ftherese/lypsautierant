@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 32" "Mode 5" \null \null } }
 \noPageBreak
@@ -18,7 +18,8 @@
 	}
 	\addlyrics {
 		Dieu de mi -- sé -- ri -- cor -- de, par ta pa -- ro -- le tu fis l'u -- ni -- vers.
-		\markup { \citation #"Sg 9" } 
+		%Lord of mer -- cy,you who have made all things by your word.
+		\markup { \citation #"Wis 9:1" } 
 	}
 }
 
@@ -38,7 +39,8 @@
 	}
 	\addlyrics {
 		Si quel -- qu'un est dans le Christ, c'est u -- ne cré -- a -- tu -- re nou -- vel -- le.
-		\markup { \citation #"2 Co 5" } 
+		%So who -- e -- ver is in Christ is a new cre -- a -- tion.
+		\markup { \citation #"2 Cor 5:17" } 
 	}
 } 
 \relative a' { 
@@ -51,7 +53,8 @@ c16[ c c c] c8[ c16 c] d16[\( b\) b c] a4
 	}
 	\addlyrics {
 		At -- ten -- dons la bien -- heu -- reuse es -- pé -- ran -- ce et l'a -- ppa -- ri -- tion de la glo -- ire de Jé -- sus.
-		\markup { \citation #"Tt 2" } 
+		%We a -- wait the bles -- sed hope, the ap -- pea -- rance of the glo -- ry of the great God and of our sa -- vior Je -- sus Christ.
+		\markup { \citation #"Ti 2:13" } 
 	}
 }
 
@@ -69,7 +72,8 @@ c16[ c c c] c8[ c16 c] d16[\( b\) b c] a4
 	}
 	\addlyrics {
 		Le Verbe ét -- ait dans le mon -- de et le mon -- de fut par lui.
-		\markup { \citation #"Jn 1" } 
+		%He was in the world, and the world came to be through him.
+		\markup { \citation #"Jn 1:10" } 
 	}
 }
 
@@ -91,7 +95,8 @@ c16[ c c c] c8[ c16 c] d16[\( b\) b c] a4
 	}
 	\addlyrics {
 		Tout est de lui, et par lui, et pour lui. A -- "men !"  "Al" -- le -- lu -- "ia !"
-		\markup { \citation #"Rm 11" } 
+		%For from him and through him and for him are all things. To him be glo -- ry for -- ev -- er. A -- "men !"  "Al" -- le -- lu -- "ia !"
+		\markup { \citation #"Rom 11:36" } 
 	}
 }
 

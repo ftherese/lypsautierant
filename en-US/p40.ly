@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 40" "Mode 6" \null \null }  }
 \noPageBreak
@@ -22,7 +22,8 @@
 	}
 	\addlyrics {
 		Heu -- reux les per -- sé -- cu -- tés pour la jus -- ti -- ce, le Ro -- yau -- me des cieux est à eux.
-		\markup { \citation #"Mt 5" }
+		%Bles -- sed are they who are per -- se -- cu -- ted for the sake of right -- eous -- ness, for theirs is the king -- dom of hea -- ven.
+		\markup { \citation #"Mt 5:10" }
 	}
 }
 \relative f' { 
@@ -39,7 +40,8 @@
 	}
 	\addlyrics {
 		Jé -- sus -- Christ, no -- tre Sei -- gneur, s'est fait pau -- vre, pour nous en -- ri -- chir par sa pau -- vre -- té.
-		\markup { \citation #"2 Co 8" }
+		%For your sake he be -- came poor al -- though he was rich, so that by his po -- ver -- ty you might be -- come rich.
+		\markup { \citation #"2 Cor 8:9" }
 	}
 }
 
@@ -56,7 +58,8 @@
 	}
 	\addlyrics {
 		Le Seig -- neur nous sau -- ve de nos en -- ne -- mis et de la main de ceux qui nous ha -- ïs -- sent.
-		\markup { \citation #"Lc 1" }
+		%Blessed be the Lord... he promised through the mouth of his holy prophets from of old: sal -- va -- tion from our e -- ne -- mies and from the hand of all who hate us.
+		\markup { \citation #"Lk 1:71" }
 	}
 }
 
@@ -73,7 +76,8 @@
 	}
 	\addlyrics {
 		Ton Ré -- dem -- pteur a eu pi -- tié de toi. Al -- le -- lu -- "ia !"
-		\markup { \citation #"Is 54" }
+		%But with en -- dur -- ing love I take pi -- ty on you, says the Lord, your re -- deem --er. Al -- le -- lu -- "ia !"
+		\markup { \citation #"Is 54:8" }
 	}
 }
 
@@ -98,7 +102,8 @@
 	}
 	\addlyrics {
 		Ce -- lui que vous a -- vez fait mou -- rir, Dieu l'a res -- sus -- ci -- té. Al -- le -- lu -- "ia !" _ _
-		\markup { \citation #"Ac 2" }
+		% This man, delivered up by the set plan and foreknowledge of God, you killed, using lawless men to crucify him. But God raised him up.Al -- le -- lu -- "ia !" _ _
+		\markup { \citation #"Acts 2:23-24" }
 	}
 }
 

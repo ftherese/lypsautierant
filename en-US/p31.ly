@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 31" "Mode 1" \null \null } }
 \noPageBreak
@@ -21,7 +21,8 @@
 	}
 	\addlyrics {
 		Voi -- ci l'A -- gneau de Dieu qui en -- lè -- ve le pé -- ché du mon -- de.
-		\markup { \citation #"Jn 1" }
+		%Be -- hold, the Lamb of God, who takes a -- way the sin of the world.
+		\markup { \citation #"Jn 1:29" }
 	}
 }
 \relative f' { 
@@ -43,7 +44,8 @@
 	}
 	\addlyrics {
 		Au -- jour -- d'hui li -- bé -- rés du pé -- ché et sou -- mis à Dieu, vous fru -- "ctifi" --  ez pour la sain -- te -- té.
-		\markup { \citation #"Rm 6" }
+		%But now that you have been freed from sin and have be -- come slaves of God, the be -- ne -- fit that you have leads to sanc -- ti -- fi -- ca -- tion, and its end is et -- er -- nal life.
+		\markup { \citation #"Rom 6:22" }
 	}
 }
 \relative f' { 
@@ -66,7 +68,8 @@
 	}
 	\addlyrics {
 		Tu l'ap -- pel -- le -- ras Jé -- sus car c'est lui qui sau -- ve -- ra son peu -- ple de ses pé -- chés.
-		\markup { \citation #"Mt 1" }
+		%You are to name him Je -- sus, be -- cause he will save his peo -- ple from their sins.
+		\markup { \citation #"Mt 1:21" }
 	}
 }
 \relative f' { 
@@ -91,7 +94,8 @@
 	}
 	\addlyrics {
 		Je me lè -- ve -- rai et j'i -- rai dire à mon Pè -- "re :" Pè -- re, j'ai "péch" -- é con -- tre le ciel et con -- tre toi.
-		\markup { \citation #"Lc 15" }
+		%I shall get up and go to my fa -- ther and I shall say to him, “Fa -- ther, I have sinned a -- gainst hea -- ven and a -- gainst you.
+		\markup { \citation #"Lk 15:18" }
 	}
 }
 
@@ -114,7 +118,8 @@
 	}
 	\addlyrics {
 		Al -- le -- lu -- "ia !" Il nous aime et nous a dé -- li -- és de nos pé -- chés par son sang.
-		\markup { \citation #"Ap 1" }
+		%Al -- le -- lu -- "ia !" To him who loves us and has freed us from our sins by his blood.
+		\markup { \citation #"Rev 1:5" }
 	}
 }
 

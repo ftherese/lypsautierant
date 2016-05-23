@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 41" "Mode 1" \null \null }  }
@@ -19,7 +19,8 @@
 
 	\addlyrics {
 		Ne t'ai- -- je pas dit que si tu crois, tu ver -- ras la gloi -- re de "Dieu ?"
- 		\markup { \citation #"Jn 11" } }
+ 		%Did I not tell you that if you be -- lieve you will see the glo -- ry of God?
+ 		\markup { \citation #"Jn 11:40" } }
 	
 	
 }
@@ -40,8 +41,9 @@
 	}
 
 	\addlyrics {
-		Si quel -- qu'un a soif, qu'il vienne à  moi, et qu'il boi -- ve, ce -- lui qui croit en moi.
- 		\markup { \citation #"Jn 7"} }
+		Si quel -- qu'un a soif, qu'il vienne à  moi, et qu'il boi -- ve, ce -- lui qui croit en moi.
+ 		% Let an -- y -- one who thirsts come to me and drink. Whoever believes in me...
+ 		\markup { \citation #"Jn 7:37-38"} }
 	
 	
 }
@@ -61,7 +63,8 @@
 
 	\addlyrics {
 		Dieu es -- sui -- era tou -- te lar -- me de leurs yeux.
- 		\markup { \citation #"Ap 7"} }
+ 		%God will wipe a -- way ev -- ery tear from their eyes.
+ 		\markup { \citation #"Rev 7:17"} }
 	
 	
 }
@@ -86,7 +89,8 @@
 	\addlyrics {
 		Pour que fût ac -- com -- plie l'Éc -- ri -- tu -- re,
 		Jé -- sus "dit :" J'ai "soif !"
- 		\markup { \citation #"Jn 19" } }
+		%In or -- der that the scrip -- ture might be ful -- filled, Je -- sus said, “I thirst.”
+ 		\markup { \citation #"Jn 19:28" } }
 	
 	
 }
@@ -111,7 +115,8 @@
 
 	\addlyrics {
 		J'ai trou -- vé ce -- lui que mon cœur ai -- me, je "l'ai" sai -- si et ne le lâ -- che -- rai "pas. " Al -- le -- lu -- - -- "ia !"
- 		\markup { \citation #"Ct 3"} }
+ 		%I found him whom my soul loves.I held him and would not let him go. Al -- le -- lu -- - -- "ia !"
+ 		\markup { \citation #"Sg 3:4"} }
 	
 	
 }

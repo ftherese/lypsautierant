@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 39" "Mode 4" \null \null }  }
@@ -22,7 +22,8 @@
 
 	\addlyrics {
 		Il est bon de pu -- bli -- er a -- vec éc -- lat les œu -- vres de no -- tre Dieu.
-		\markup { \citation #"Tb 12" } 
+		%Pro -- claim be -- fore all with due hon -- or the deeds of God.
+		\markup { \citation #"Tb 12:6" } 
 	}
 }
 
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		Me voi -- ci, Seig -- neur, pour fai -- re ta vo -- lon -- té.
-		\markup { \citation #"He 10" } 
+		%Be -- hold, I come to do your will, O God.
+		\markup { \citation #"Heb 10:7" } 
 	}
 }
 
@@ -58,7 +60,8 @@
 
 	\addlyrics {
 		Il nous a fait con -- naî -- tre le mys -- tè -- re de sa vo -- lon -- té.
-		\markup { \citation #"Ep 1" } 
+		%He has made known to us the my -- ste -- ry of his will.
+		\markup { \citation #"Eph 1:9" } 
 	}
 }
 \relative f' { 
@@ -77,7 +80,8 @@
 
 	\addlyrics {
 		Je suis ve -- nu dans le mon -- de pour ren -- dre té -- moig -- nag -- "e à" la vé -- ri -- té.
-		\markup { \citation #"Jn 18" } 
+		%For this I was born and for this I came in -- to the world, to tes -- ti -- fy to the truth.
+		\markup { \citation #"Jn 18:37" } 
 	}
 }
 \relative f' { 
@@ -94,7 +98,8 @@
 
 	\addlyrics {
 		A -- yant of -- fert un u -- ni -- que sa -- cri -- fi -- ce, le Christ s'est as -- sis à la droi -- te de Dieu. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"He 10" } 
+		But this one of -- fered one sa -- cri -- fice for sins, and took his seat fo --re -- ver at the right hand of God. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Heb 10:12" } 
 	}
 }
 
