@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 20" "Mode 4" \null \null } }
@@ -27,7 +27,8 @@
 	\addlyrics {
 		
 		Un nom est ins -- crit sur son man -- "teau :" Roi des rois et Sei -- gneur des sei -- gneurs. 
-		\markup { \citation #"Ap 19" } }
+		%He has a name writ -- ten on his cloak and on his thigh, “King of kings and Lord of lords.”
+		\markup { \citation #"Rv 19:16" } }
 }
 
 \relative a' { 
@@ -54,7 +55,8 @@
 	\addlyrics {
 		
 		Al -- le -- lu -- "ia !" Il a pris pos -- ses -- sion de son rè -- gne, le Sei -- gneur Dieu, maî -- tre de tout.
-		\markup { \citation #"Ap 19" } }
+		%Al -- le -- lu -- ia! The Lord has e -- stab -- lished his reign, [our] God, the al -- migh -- ty.
+		\markup { \citation #"Rv 19:6" } }
 }
 
 
@@ -83,7 +85,8 @@
 	\addlyrics {
 		
 		Ré -- jou -- is- -- toi, com -- blée de grâ -- - -- ce, le Seign -- eur est a -- vec toi.
-		\markup { \citation #"Lc 1" } }
+		%Hail, fa -- vored one! The Lord is with you.
+		\markup { \citation #"Lk 1:28" } }
 }
 
 \relative a' { 
@@ -108,7 +111,8 @@
 
 	\addlyrics {
 		
-		Je veux que là  où je suis, ceux que tu m'a don -- nés soient a -- vec moi.
-		\markup { \citation #"Jn 17" } }
+		Je veux que là  où je suis, ceux que tu m'a don -- nés soient a -- vec moi.
+		%I wish that where I am they al -- so may be with me.
+		\markup { \citation #"Jn 17:24" } }
 }
 
