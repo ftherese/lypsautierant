@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 51" "Mode 8" \null \null } }
@@ -14,7 +14,8 @@
 		\endBar
 	}	\addlyrics {
 		Ce -- lui qui fait le bien ap -- par -- tient à "Dieu ;" ce -- lui qui fait le mal n'a pas vu Dieu.
-		\markup { \citation #"3 Jn"}
+		%Who -- ev -- er does what is good is of God; who -- ev -- er does what is ev -- il has ne -- ver seen God.
+		\markup { \citation #"3 Jn 11"}
 	}
 }
 
@@ -35,7 +36,8 @@
 		\endBar
 	}	\addlyrics {
 		Ce -- lui qui se glo -- ri -- fie, qu'il se glo -- ri -- fie dans le Seig -- "neur !" "(Al" -- le -- lu -- - -- "ia !)"
-		\markup { \citation #"1 Co 1"}
+		%Who -- ev -- er boasts, should boast in the Lord. "(Al" -- le -- lu -- - -- "ia !)"
+		\markup { \citation #"1 Cor 1:31"}
 	}
 }
 \relative c'' { 
@@ -74,7 +76,8 @@
 		\endBar
 	}	\addlyrics {
 		Dieu a en -- vo -- yé son Fils dans le mon -- de, pour que le mon -- de soit sau -- vé.
-		\markup { \citation #"Jn 3"}
+		%For God did not send his Son in -- to the world to con -- demn the world, but that the world might be saved through him.
+		\markup { \citation #"Jn 3:17"}
 	}
 }
 \relative c'' { 
@@ -95,7 +98,8 @@
 		\endBar
 	}	\addlyrics {
 		Qui ne de -- meu -- re pas en moi, est je -- té deho -- rs com -- me le sar -- ment.
-		\markup { \citation #"Jn 15"}
+		%An -- y -- one who does not re -- main in me will be thrown out like a branch and wi -- ther; people will gather them and throw them into a fire and they will be burned.
+		\markup { \citation #"Jn 15:6"}
 	}
 }
 

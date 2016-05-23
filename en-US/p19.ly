@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 19" "Mode 3" \null \null }  }
 \noPageBreak
@@ -14,7 +14,8 @@
 		\endBar
 	}	\addlyrics {
 		Ce -- lui qui mon -- te le che -- val blanc juge et fait la guerre av -- ec jus -- ti -- ce.
-		\markup { \citation #"Ap 19"}
+		%Then I saw the hea -- vens o -- pened, and there was a white horse; its ri -- der was [called] “Faith -- ful and True.” He judges and wages war in right -- eous -- ness. 
+		\markup { \citation #"Rv 19:11"}
 	}
 }
 
@@ -35,7 +36,8 @@
 		\endBar
 	}	\addlyrics {
 		Ce que vous de -- man -- de -- rez en mon nom, je le fe -- rai.
-		\markup { \citation #"Jn 14"}
+		%Whatever you ask in my name, I will do.
+		\markup { \citation #"Jn 14:13"}
 	}
 }
 
@@ -59,7 +61,8 @@
 		\endBar
 	}	\addlyrics {
 		Ma -- rie ton é -- pouse en -- fan -- te -- ra  un fils et tu  l'ap -- pel -- le -- ras du nom de Jé -- sus.
-		\markup { \citation #"Mt 1"}
+		%She will bear a son and you are to name him Je -- sus.
+		\markup { \citation #"Mt 1:21"}
 	}
 }
 
@@ -77,7 +80,8 @@
 		\endBar
 	}	\addlyrics {
 		Quand j'é -- tais av -- ec eux, je les gar -- dais dans ton nom que tu m'as don -- né.
-		\markup { \citation #"Jn 17"}
+		%When I was with them I pro -- tec -- ted them in your name that you gave me.
+		\markup { \citation #"Jn 17:12"}
 	}
 }
 
@@ -92,6 +96,7 @@
 		\endBar
 	}	\addlyrics {
 		Mai -- nte -- nant je le "sais :" le Seign -- eur don -- ne la vic -- toi -- "re à" son "Christ !" " Al" -- le -- lu -- "ia !"
-		\markup { \citation #"Ps 19"}
+		%Now I know the Lord gives vict -- or -- y to his a -- noin -- ted. " Al" -- le -- lu -- "ia !"
+		\markup { \citation #"Ps 19/20??:7"}
 	}
 }

@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup { psaume 50 - 7° mode}
@@ -21,7 +21,8 @@
 		\endBar
 	}	\addlyrics {
 		Seig -- neur, si tu le veux, tu peux me pu -- ri -- fier.
-		\markup { \citation #"Mc 1"}
+		%If you wish, you can make me clean.
+		\markup { \citation #"Mk 1:40"}
 	}
 }
 \relative c'' { 
@@ -39,7 +40,8 @@
 		\endBar
 	}	\addlyrics {
 		Je vous don --  ne -- rai un cœur de chair, je met -- trai en vous mon es -- prit.
-		\markup { \citation #"Ez 36"}
+		%I will give you a new heart, and a new spirit I will put within you. I will remove the heart of stone from your flesh and give you a heart of flesh. 27 I will put my spirit within you so that you walk in my statutes, observe my ordinances, and keep them.
+		\markup { \citation #"Ez 36:26-27??"}
 	}
 }
 \relative c'' { 
@@ -54,7 +56,8 @@
 		\endBar
 	}	\addlyrics {
 		Jé -- sus, Fils de Da -- vid, aie pi -- tié de "moi !"
-		\markup { \citation #"Mc 10"}
+		%Je -- sus, son of Da -- vid, have pi -- ty on me.
+		\markup { \citation #"Mk 10:47"}
 	}
 }
 \relative c'' { 
@@ -72,6 +75,7 @@
 		\endBar
 	}	\addlyrics {
 		Jé -- sus -- Christ nous a la -- vés de nos pé -- chés par son sang. Al -- le -- lu -- "ia !" _
-		\markup { \citation #"Ap 1"}
+		%and from Jesus Christ, the faithful witness, the firstborn of the dead and ruler of the kings of the earth. To him who loves us and has freed us from our sins by his blood. Al -- le -- lu -- "ia !" _
+		\markup { \citation #"Rv 1:5"}
 	}
 }

@@ -19,8 +19,8 @@
 
 	\addlyrics {
 		Te -- nez fer -- me le bou -- cli -- er de la foi.
-		%
-		\markup { \citation #"Ep 6" } }
+		%In all circumstances, hold faith as a shield, to quench all [the] flaming arrows of the evil one.
+		\markup { \citation #"Eph 6:16" } }
 	
 	
 
@@ -41,7 +41,8 @@
 
 	\addlyrics {
 		Ton Dieu est un feu dé -- vo -- rant, un Dieu ja -- loux.
-		\markup { \citation #"Dt 4" } }
+		%Your God is a consuming fire, a jealous God.
+		\markup { \citation #"Dt 4:24" } }
 	
 	
 }
@@ -57,8 +58,9 @@
 	}
 
 	\addlyrics {
-		Dieu a tant ai -- mé le mon -- de qu'il a don -- né son Fils u -- ni -- que. 
-		\markup { \citation #"Jn 3" } }
+		Dieu a tant ai -- mé le mon -- de qu'il a don -- né son Fils u -- ni -- que.
+		%God so loved the world that he gave his on -- ly Son.
+		\markup { \citation #"Jn 3:16" } }
 	
 	
 }
@@ -74,7 +76,8 @@
 
 	\addlyrics {
 		Re -- vê -- tez l'a -- rmu -- re de Dieu pour te -- nir con -- tre le dia -- ble.
-		\markup { \citation #"Ep 6" } }
+		%Put on the ar -- mor of God so that you may be ab -- le to stand firm a -- gainst the tac -- tics of the de -- vil.
+		\markup { \citation #"Eph 6:11" } }
 	
 	
 }
@@ -97,7 +100,8 @@
 
 	\addlyrics {
 		Si nous mar -- chons dans la lu -- miè -- re, le sang de Jé -- sus nous pu -- ri -- fie de tout pé -- ché. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"1 Jn 1" } }
+		%But if we walk in the light as he is in the light, then we have fellowship with one another, and the blood of his Son Je -- sus cleans -- es us from all sin. Al -- le -- lu -- - -- "ia !" 
+		\markup { \citation #"1 Jn 1:7" } }
 	
 	
 }

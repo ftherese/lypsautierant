@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup { psaume 50 - 1° mode}
@@ -18,7 +18,8 @@
 		\endBar
 	}	\addlyrics {
 		Seig -- neur, si tu le veux, tu peux me pu -- ri -- fier.
-		\markup { \citation #"Mc 1"}
+		%If you wish, you can make me clean.
+		\markup { \citation #"Mk 1:40"}
 	}
 }
 \relative a' { 
@@ -37,7 +38,8 @@
 		\endBar
 	}	\addlyrics {
 		Je vous don --  ne -- rai un cœur de chair, je met -- trai en vous mon es -- prit.
-		\markup { \citation #"Ez 36"}
+		%I will give you a new heart, and a new spirit I will put within you. I will remove the heart of stone from your flesh and give you a heart of flesh. 27 I will put my spirit within you so that you walk in my statutes, observe my ordinances, and keep them.
+		\markup { \citation #"Ez 36:26-27??"}
 	}
 }
 \relative a' { 
@@ -53,7 +55,8 @@
 		\endBar
 	}	\addlyrics {
 		Jé -- sus, Fils de Da -- vid, aie pi -- tié de "moi !"
-		\markup { \citation #"Mc 10"}
+		%Je -- sus, son of Da -- vid, have pi -- ty on me.
+		\markup { \citation #"Mk 10:47"}
 	}
 }
 \relative a' { 
@@ -71,7 +74,8 @@
 		
 		\endBar
 	}	\addlyrics {
-		Le sang de Jé -- sus nous pu -- ri -- fie de tout pé -- ché. "(Al" -- le -- lu -- "ia !)" 
-		\markup { \citation #"1 Jn 1"}
+		Le sang de Jé -- sus nous pu -- ri -- fie de tout pé -- ché. "(Al" -- le -- lu -- "ia !)"
+		%The blood of his Son Jesus cleans -- es us from all sin."(Al" -- le -- lu -- "ia !)" 
+		\markup { \citation #"1 Jn 1:7"}
 	}
 }

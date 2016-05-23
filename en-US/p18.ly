@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 18" "Mode 8" \null \null } }
 \noPageBreak
@@ -14,7 +14,8 @@
 
 	\addlyrics {
 		Je vous donne un com -- man -- de -- ment nou -- "veau :" ai -- mez- -- vous les uns les aut -- res.
- 		\markup { \citation #"Jn 13" } }
+		%I give you a new com -- mand -- ment: love one a -- noth -- er.
+ 		\markup { \citation #"Jn 13:34" } }
 	
 	
 }
@@ -40,7 +41,8 @@
 
 	\addlyrics {
 		Le Verbe est la lu -- miè -- re vé -- ri -- ta -- ble qui vient dans le monde é -- clai -- rer tout hom -- me.
- 		\markup { \citation #"Jn 1" } }
+		%The true light, which en -- light -- ens every -- one, was com -- ing in -- to the world.
+ 		\markup { \citation #"Jn 1:9" } }
 	
 	
 }
@@ -57,7 +59,8 @@
 
 	\addlyrics {
 		Le "Christ," sol -- eil lev -- "ant," vient nous vi -- si -- ter.
- 		\markup { \citation #"Lc 1" } }
+		%because of the tender mercy of our God by which the day -- break from on high will vis -- it us.
+ 		\markup { \citation #"Lk 1:78" } }
 	
 	
 }
@@ -83,7 +86,8 @@
 
 	\addlyrics {
 		S'ils a -- vaient con -- nu la sa -- ges -- se de Dieu, ils n'au -- raient pas cru -- ci -- fié le Sei -- gneur de la gloi -- re.
- 		\markup { \citation #"1 Co 2" } }
+		%If they had known it, they would not have crucified the Lord of glory.
+ 		\markup { \citation #"1 Cor 2:8" } }
 	
 	
 }
@@ -111,7 +115,8 @@
 
 	\addlyrics {
 		Ton É -- poux est ton Cré -- a -- teur, Al -- le -- lu -- "ia !" Ton Ré -- demp -- teur, c'est le Dieu de tou -- te la ter -- re.
- 		\markup { \citation #"Is 54" } }
+		%For your hus -- band is your Mak -- er, Al -- le -- lu -- "ia !" the Lord of hosts is his name,Your re -- deem -- er, the Ho -- ly One of Is -- ra -- el, called God of all the earth.
+ 		\markup { \citation #"Is 54:5" } }
 	
 	
 }

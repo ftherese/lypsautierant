@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 52" "Mode 1" \null \null } }
 \noPageBreak
@@ -24,7 +24,8 @@
 	}
 	\addlyrics {
 		Là où a -- bon -- de le pé -- ché, su -- ra -- bon -- de la grâ -- ce.
-		\markup { \citation #"Rm 5" }
+		%Where sin increased, grace overflowed all the more.
+		\markup { \citation #"Rom 5:20" }
 	}
 }
 \relative f' { 
@@ -47,7 +48,8 @@
 	}
 	\addlyrics {
 		Le Fils de l'hom -- me, quand il vien -- dra, trou -- ve -- ra -- -t-il la foi sur ter -- "re ?"
-		\markup { \citation #"Lc 18" }
+		%When the Son of Man comes, will he find faith on earth?
+		\markup { \citation #"Lk 18:8" }
 	}
 }
 
