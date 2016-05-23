@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 16" "Mode 5" \null \null } }
 \noPageBreak
@@ -16,6 +16,7 @@
 
 	\addlyrics {
 		Le Christ s'est sou -- mis en tout, il a é -- té e -- xau -- cé.
+		%
 		\markup { \citation #"He 5" } 
 	}
 	
