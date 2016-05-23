@@ -21,7 +21,8 @@
 
 	\addlyrics {
 		Ne fal -- lait- -- il pas que le Mes -- sie souf -- frît pour en -- trer dans sa gloi -- "re ?"
- 		\markup { \citation #"Lc 24" } }
+ 		%Was it not ne -- ces -- sary that the Mes -- si -- ah should suf -- fer these things and en -- ter in -- to his glo -- ry?
+ 		\markup { \citation #"Lk 24:26" } }
 	
 	
 }
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		Jé -- sus cri -- a d'u -- ne voix for -- "te :"  Mon Dieu, mon Dieu, pour -- quoi m'as -- -tu a -- ban -- don -- "né ?"
- 		\markup { \citation #"Mt 27" } }
+ 		%“My God, my God, why have you for -- sa -- ken me?”
+ 		\markup { \citation #"Mt 27:46" } }
 	
 	
 }
@@ -67,7 +69,8 @@
 
 	\addlyrics {
 		Il vient il -- lu -- min -- er ceux qui de -- meu -- rent dans les té -- nè -- bres et l'om -- bre de la mort.
- 		\markup { \citation #"Lc 1" } }
+ 		%be -- cause of the ten -- der mer -- cy of our God by which the day -- break from on high will vi -- sit us to shine on those who sit in dark -- ness and death’s sha -- dow, to guide our feet in -- to the path of peace.
+    \markup { \citation #"Lk 1:78:79" } }
 	
 	
 }
@@ -89,7 +92,8 @@
 
 	\addlyrics {
 		Je suis av -- ec vous tous les jours jus -- qu'à la fin du mon -- de. Al -- le -- lu -- "ia !"
- 		\markup { \citation #"Mt 28" } }
+ 		%And be -- hold, I am with you al -- ways, un -- til the end of the age. Al -- le -- lu -- "ia !"
+ 		\markup { \citation #"Mt 28:20" } }
 	
 	
 }
