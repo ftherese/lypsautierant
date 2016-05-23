@@ -18,7 +18,8 @@
 
 	\addlyrics {
 		Ce -- lui qui son -- de les cœurs con -- naît le dé -- sir de "l'Es" -- prit.
-		\markup { \citation #"Rm 8" } }
+		%And the one who sear -- ches hearts knows what is the in -- ten -- tion of the Spir -- it, be -- cause it in -- ter -- cedes for the ho -- ly ones a -- ccord -- ing to God’s will.
+		\markup { \citation #"Rom 8:27" } }
 	
 }
 
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		Dieu nous a é -- lus dans le Christ pour ê -- tre saints et im -- ma -- cu -- lés.
-		\markup { \citation #"Ep 1" } }
+		%Bles -- sed be the God and Fa -- ther of our Lord Je -- sus Christ, who has blessed us in Christ with ev -- er -- y spi -- rit -- ual bless -- ing in the heav -- ens, as he chose us in him, be -- fore the foun -- da -- tion of the world, to be ho -- ly and with -- out blem -- ish be -- fore him. 
+		\markup { \citation #"Eph 1:3-4" } }
 	
 	
 }
@@ -62,7 +64,8 @@
 
 	\addlyrics {
 		Mar -- chez tant que vous av -- ez la lu -- miè -- re.
-		\markup { \citation #"Jn 12" } }
+		% Walk while you have the light, so that dark -- ness may not o -- ver -- come you. 
+		\markup { \citation #"Jn 12:35" } }
 	
 	
 }
@@ -79,7 +82,8 @@
 
 	\addlyrics {
 		March -- "e en" ma pré -- senc -- "e et" sois par -- fait. " Al" -- le -- lu -- "ia !"
-		\markup { \citation #"Gn 17" } }
+		%Walk in my pre -- sence and be blame -- less. 
+		\markup { \citation #"Gn 17:1" } }
 	
 	
 }
@@ -98,7 +102,8 @@
 
 	\addlyrics {
 		Sei -- gneur, tu sais tout, tu sais bien que je t'ai -- me. " Al" -- le -- lu -- "ia !"
-		\markup { \citation #"Jn 21" } }
+		%“Lord, you know ev -- er -- y -- thing; you know that I love you.” 
+		\markup { \citation #"Jn 21:17" } }
 	
 	
 }
