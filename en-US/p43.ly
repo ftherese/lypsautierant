@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 43" "Mode Peregrinus" \null \null } }
 \noPageBreak
@@ -19,7 +19,8 @@
 
 	\addlyrics {
 		Ceux que j'ai -- me, je les se -- monce et les cor -- ri -- ge.
- 		\markup { \citation #"Ap 3" } }
+ 		%Those whom I love, I re -- prove and chas -- tise.
+ 		\markup { \citation #"Rev 3:19" } }
 	
 	
 }
@@ -36,7 +37,8 @@
 
 	\addlyrics {
 		Nous som -- mes les grands vainq -- ueurs par ce -- lui qui nous a ai -- més.
- 		\markup { \citation #"Rm 8" } }
+ 		%In all these things we con -- quer o -- ver -- whel -- ming -- ly through him who loved us.
+ 		\markup { \citation #"Rom 8:37" } }
 	
 	
 }
@@ -56,7 +58,8 @@
 
 	\addlyrics {
 		Voi -- ci le mo -- ment de com -- men -- cer le ju -- ge -- ment par la mai -- son de Dieu.
- 		\markup { \citation #"1 P 4" } }
+ 		%For it is time for the judg -- ment to be -- gin with the house -- hold of God.
+ 		\markup { \citation #"1 Pt 4:17" } }
 	
 	
 }
@@ -81,7 +84,8 @@
 
 	\addlyrics {
 		Un en -- fant nous est "né ;" le pou -- voir re -- po -- se sur ses é -- pau -- les.
- 		\markup { \citation #"Is 9" } }
+ 		%For a child is born to us, a son is given to us; u -- pon his shoul -- der do -- mi -- nion rests.
+ 		\markup { \citation #"Is 9:5" } }
 }
 
 \relative a' { 
@@ -99,7 +103,8 @@
 
 	\addlyrics {
 		Pro -- ste -- rnée de -- vant lui, la fem -- me di -- "sait :" Sei -- gneur, viens à mon sec -- ours.
- 		\markup { \citation #"Mt 15" } }
+ 		%But the woman came and did him ho -- mage, sa -- ying, “Lord, help me.”
+ 		\markup { \citation #"Mt 15:25" } }
 	
 	
 }
@@ -128,7 +133,8 @@
 	\addlyrics {
 		Heu -- reux ê -- tes-v -- ous si l'on vous in -- sul -- te pour le nom du Christ, car l'Es -- prit de gloi -- re re -- po -- se sur vous.  
 		Al -- le -- lu -- - -- "ia !"
- 		\markup { \citation #"1 P 4" } }
+ 		%If you are in -- sul -- ted for the name of Christ, bles -- sed are you, for the Spi -- rit of glo -- ry and of God rests upon you. Al -- le -- lu -- - -- "ia !"
+ 		\markup { \citation #"1 Pt 4:14" } }
 	
 	
 }

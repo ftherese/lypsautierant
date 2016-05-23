@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 45" "Mode 4" \null \null } }
@@ -20,7 +20,8 @@
 
 	\addlyrics {
 		Dieu lui- -- mê -- - -- me se -- ra a -- vec les hom -- mes.
-		\markup { \citation #"Ap 21" } 
+		%God him -- self will always be with them.
+		\markup { \citation #"Rev 21:3" } 
 	}
 }
 
@@ -42,7 +43,8 @@
 
 	\addlyrics {
 		Le fleu -- ve de vie jail -- lis -- sait du trô -- ne de Dieu. "(Al" -- le -- lu -- "ia !)"
-		\markup { \citation #"Ap 22" } 
+		% Then the angel showed me the ri -- ver of life-gi -- ving wa -- ter, sparkling like crystal, flow -- ing from the throne of God. "(Al" -- le -- lu -- "ia !)" 
+		\markup { \citation #"Rev 22:1" } 
 	}
 }
 
@@ -64,7 +66,8 @@
 
 	\addlyrics {
 		La Vierge en -- fan -- te -- ra un fils, on lui don -- ne -- ra le nom d'Em -- ma -- nu -- el.
-		\markup { \citation #"Mt 1" } 
+		%Behold, the vir -- gin shall be with child and bear a son, and they shall name him Em -- ma -- nu -- el.
+		\markup { \citation #"Mt 1:23" } 
 	}
 }
 
@@ -83,7 +86,8 @@
 
 	\addlyrics {
 		De -- vant sa fa -- ce s'en -- fuient le ciel et la ter -- re.
-		\markup { \citation #"Ap 20" } 
+		%The earth and the sky fled from his pre -- sence.
+		\markup { \citation #"Rev 20:11" } 
 	}
 }
 

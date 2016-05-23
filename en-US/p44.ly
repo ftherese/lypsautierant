@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 44" "Mode 8" \null \null } }
 \noPageBreak
@@ -16,7 +16,8 @@
 
 	\addlyrics {
 		Tous les â -- ges me di -- ront bien -- heu -- reu -- se.
- 		\markup { \citation #"Lc 1" } }
+ 		%From now on will all ages call me bles -- sed.
+ 		\markup { \citation #"Lk 1:48" } }
 	
 	
 }
@@ -36,7 +37,8 @@
 
 	\addlyrics {
 		Le Christ a ai -- mé l'Ég -- li -- se et s'est li -- vré pour el -- le, a -- fin de la sanc -- ti -- fier.
- 		\markup { \citation #"Ep 5" } }
+ 		%Christ loved the church and han -- ded him -- self o -- ver for her to sanc -- ti -- fy her.
+ 		\markup { \citation #"Eph 5:25-26" } }
 	
 	
 }
@@ -56,8 +58,9 @@
 	}
 
 	\addlyrics {
-		Voi -- ci l'É -- poux qui vient, sor -- tez à  sa ren -- con -- "tre. " "(Al" -- le -- lu -- "ia !)" _ _
- 		\markup { \citation #"Mt 25" } }
+		Voi -- ci l'É -- poux qui vient, sor -- tez à  sa ren -- con -- "tre. " "(Al" -- le -- lu -- "ia !)" _ _
+ 		%Be -- hold, the bride -- groom! Come out to meet him! "(Al" -- le -- lu -- "ia !)" _ _
+ 		\markup { \citation #"Mt 25:6" } }
 	
 	
 
@@ -82,7 +85,8 @@
 
 	\addlyrics {
 		Il s'ap -- pel -- le Fi -- dèle et "Vrai ;" il juge et fait la guerre a -- vec jus -- ti -- ce.
- 		\markup { \citation #"Ap 19" } }
+ 		%Its rider was [called] “Faithful and True.” He judges and wages war in righ -- teous -- ness. 
+ 		\markup { \citation #"Rev 19:11" } }
 	
 	
 }
@@ -107,7 +111,8 @@
 
 	\addlyrics {
 		Voi -- ci les no -- ces de l'Ag -- neau, et pour lui son é -- pouse a re -- vê -- tu sa pa -- ru -- "re. " "(Al" -- le -- lu -- "ia !)"
- 		\markup { \citation #"Ap 19" } }
+ 		%The wed -- ding day of the Lamb has come, his bride has made her -- self rea -- dy.
+ 		\markup { \citation #"Rev 19:7" } }
 	
 	
 }
