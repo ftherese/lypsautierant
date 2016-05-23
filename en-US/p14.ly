@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 14" "Mode 8" \null \null } }
@@ -24,7 +24,8 @@
 
 	\addlyrics {
 		Ce -- lui qui fait la vo -- lon -- té de mon Pè -- re en -- tre -- ra dans le Ro -- yau -- me des cieux.
- 		\markup { \citation #"Mt 7" } }
+		%Not everyone who says to me, ‘Lord, Lord,’ will en -- ter the king -- dom of hea -- ven, but on -- ly the one who does the will of my Fa -- ther in hea -- ven. 
+ 		\markup { \citation #"Mt 7:21" } }
 }
 \relative a' { 
 	\new Staff {
