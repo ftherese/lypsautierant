@@ -23,6 +23,7 @@
 
 	\addlyrics {
 		Il s'hu -- mi -- lia jus -- qu'à  la mort, auss -- i Dieu l'a- -- t-il e -- xal -- té.
+ 		
  		\markup { \citation #"Ph 2" } }
 	
 	
@@ -50,7 +51,8 @@
 
 	\addlyrics {
 		Main -- te -- nant vous ê -- tes tris -- tes, mais de nou -- veau je vous -- - ver -- rai et vo -- tre cœur se -- ra dans la joie.
- 		\markup { \citation #"Jn 16" } }
+ 		%So you al -- so are now in an -- guish. But I will see you a -- gain, and your hearts will re -- joice, and no one will take your joy a -- way from you. 
+ 		\markup { \citation #"Jn 16:22" } }
 	
 	
 }
@@ -69,7 +71,8 @@
 
 	\addlyrics {
 		Il rel -- ève Is -- ra -- ël son ser -- vi -- teur, il se sou -- vient de son am -- our.
- 		\markup { \citation #"Lc 1" } }
+ 		%He has helped Is -- ra -- el his ser -- vant, re -- mem -- ber -- ing his mer -- cy,
+ 		\markup { \citation #"Lc 1:54" } }
 	
 	
 }
