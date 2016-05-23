@@ -17,7 +17,8 @@
 
 	\addlyrics {
 		Nous met -- tons tout no -- tre cœur à te sui -- vre et à cher -- cher ta fa -- ce.
- 		\markup { \citation #"Dt 3" } }
+ 		%Yet when you seek the Lord, your God, from there, you shall in -- deed find him if you search af -- ter him with all your heart and soul.
+ 		\markup { \citation #"Dt 4:29" } }
 	
 	
 }
@@ -42,7 +43,8 @@
 
 	\addlyrics {
 		Si Dieu est pour nous, qui se -- ra con -- tre "nous ?"
- 		\markup { \citation #"Rm 8" } }
+ 		%If God is for us, who can be a -- gainst us?
+ 		\markup { \citation #"Rom 8:31" } }
 	
 	
 }
@@ -62,7 +64,8 @@
 
 	\addlyrics {
 		Nous vou -- lons voir Jé -- sus.
- 		\markup { \citation #"Jn 12" } }
+ 		%“Sir, we would like to see Je -- sus.”
+ 		\markup { \citation #"Jn 12:21" } }
 	
 	
 }
@@ -88,7 +91,8 @@
 
 	\addlyrics {
 		Je suis la lu -- miè -- re du mon -- - -- de, qui me suit au -- ra la lu -- miè -- re de la vie. 
- 		\markup { \citation #"Jn 8" } }
+ 		“I am the light of the world. Who -- ev -- er fol -- lows me will not walk in dark -- ness, but will have the light of life.”
+ 		\markup { \citation #"Jn 8:12" } }
 	
 	
 }
