@@ -68,7 +68,8 @@
 	}
 	\addlyrics {
 		Si tu dé -- chi -- rais "les ci" -- eux et des  -- cen -- "dais !"
-		\markup { \citation #"Is 63" }
+		%Oh, that you would rend the hea -- vens and come down.
+		\markup { \citation #"Is 63:19" }
 	}
 }
 \relative f' { 
@@ -91,7 +92,8 @@
 	}
 	\addlyrics {
 		C'est bien par grâ -- ce que vous ê -- tes sau -- vés. "Al" -- le -- lu -- "ia !" _ _
-		\markup { \citation #"Ep 2" }
+		%By grace you have been saved. "Al" -- le -- lu -- "ia !" _ _
+		\markup { \citation #"Eph 2:5" }
 	}
 }
 
@@ -114,7 +116,8 @@
 	}
 	\addlyrics {
 		Le Seig -- neur pa -- tiente en -- vers vous, car il veut que tous par -- vien -- nent au re -- pen -- tir. 
-		\markup { \citation #"2 P 3" }
+		%The Lord does not de -- lay his pro -- mise, as some re -- gard “de -- lay,” but he is pa -- tient with you, not wish -- ing that an -- y should per -- ish but that all should come to re -- pen --tance.
+		\markup { \citation #"2 Pt 3:9" }
 	}
 }
 

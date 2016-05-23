@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 55" "Mode 3" \null \null } }
@@ -19,7 +19,8 @@
 	\addlyrics {
 		
 		Ne crai -- gnez rien de ceux qui tuent le corps, mais ne peu -- vent tu -- er l'â -- me
-		\markup { \citation #"Mt 10" } }
+		%Do not be a -- fraid of those who kill the bo -- dy but can -- not kill the soul.
+		\markup { \citation #"Mt 10:28" } }
 	
 	
 }
@@ -40,7 +41,8 @@
 	\addlyrics {
 		
 		Je ne suis pas seul, car le Père est a -- vec moi
-		\markup { \citation #"Jn 16" } }
+		%I am not a -- lone, be -- cause the Fa -- ther is with me.
+		\markup { \citation #"Jn 16:32" } }
 	
 	
 }
@@ -59,8 +61,9 @@
 
 	\addlyrics {
 		
-		Tu mar -- che -- ras à  la fa -- ce du Sei -- gneur pour pré -- pa -- rer ses voies.
-		\markup { \citation #"Lc 1" } }
+		Tu mar -- che -- ras à  la fa -- ce du Sei -- gneur pour pré -- pa -- rer ses voies.
+		%You will go be -- fore the Lord to pre -- pare his ways.
+		\markup { \citation #"Lk 1:76" } }
 	
 	
 }
@@ -84,7 +87,8 @@
 	\addlyrics {
 		
 		Dieu es -- suie -- ra tou -- te lar -- me de leurs yeux. " Al" -- le -- lu -- "ia !" _
-		\markup { \citation #"Ap 21" } }
+		%He will wipe every tear from their eyes. " Al" -- le -- lu -- "ia !" _
+		\markup { \citation #"Rv 21:4" } }
 	
 	
 }

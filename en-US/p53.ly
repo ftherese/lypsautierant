@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 53" "Mode 2" \null \null }  }
 \noPageBreak
@@ -22,7 +22,8 @@
 	\addlyrics {
 		
 		La sup -- pli -- ca -- tion du jus -- te a -- git a -- vec beau -- coup de puis -- san -- ce.
-		\markup { \citation #"Jc 5" } 
+		%The fer -- vent pray -- er of a righ -- teous per -- son is ver -- y pow -- er -- ful.
+		\markup { \citation #"Jas 5:16" } 
 	}
 }
 
@@ -42,7 +43,8 @@
 
 	\addlyrics {
 		Dieu ne fe -- rait- -- il pas jus -- tice à ses é -- lus, qui crient vers lui jour et "nuit ?" 
-		\markup { \citation #"Lc 18" } 
+		%Will not God then secure the rights of his chosen ones who call out to him day and night? 
+		\markup { \citation #"Lk 18:7" } 
 	}
 }
 
@@ -61,7 +63,8 @@
 
 	\addlyrics {
 		Il m'a en -- vo -- yé pro -- cla -- mer aux capti -- fs la dé -- li -- vran -- ce.
-		\markup { \citation #"Lc 4" } 
+		%He has sent me to pro -- claim li -- ber -- ty to cap -- tives.
+		\markup { \citation #"Lk 4:18" } 
 	}
 }
 
@@ -83,7 +86,8 @@
 
 	\addlyrics {
 		Ma vie, nul ne la prend, mais c'est moi qui la don -- ne.
-		\markup { \citation #"Jn 10" } 
+		%No one takes it from me, but I lay it down on my own. 
+		\markup { \citation #"Jn 10:18" } 
 	}
 }
 
@@ -99,7 +103,8 @@
 
 	\addlyrics {
 		Jé -- sus ten -- dit la main à Pierre et le sai -- sit. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Mt 14" } 
+		%Je -- sus stretched out his hand and caught him. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Mt 14:31" } 
 	}
 }
 
