@@ -8,13 +8,13 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		f8[ g a] g[ bes] a4 a4\( \pespace r8\) a16[ a a]  g8 [a f] f4 
+		 a8[a a] a4 cesure a8 g8 [a f] f4 
 		\endBar
 	}
 
 	\addlyrics {
-%Lord God of hosts, re -- store us; light up your face and we shall be saved.
- 		\markup { \citation #"Ps ???79/80:20" } }
+          Light up your face and we shall be saved.
+ 		\markup { \citation # "Ps 79/80:20" } }
 	
 	
 }
@@ -23,12 +23,12 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
-		f8 g a a a a a a g bes a g a \indentLine a a a a a a g a f f 
+		f8[ g a] a[ a a] a[ a] a[ a] g[ bes] a4 \indentLine a a a a a a g a f f 
 		\endBar
 	}
 
 	\addlyrics {
-Je -- sus  went up on the moun -- tain by him -- self to pray. When it was
+    Je -- sus  went up on the moun -- tain by him -- self to pray.When it was
 eve -- ning he was there a -- lone.
  		\markup { \citation #"Mt 14:23" } }
 	

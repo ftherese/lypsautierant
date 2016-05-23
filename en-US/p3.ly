@@ -38,7 +38,7 @@ in new -- ness of life.
 		g[ g f] 
 		d4
 		\barre
-		\times 2/3 { f8 g a }
+		\times 2/3 { f8[ g a] }
 		bes[\( g]
 		a4\)
 		\endBar

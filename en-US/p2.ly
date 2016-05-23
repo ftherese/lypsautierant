@@ -23,7 +23,7 @@ This is my be -- lo -- ved Son, with whom I am well pleased.
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Easter } }
-		{r8_\( c[ d]\)} c8[ c] \pespace r8  c8[ f] f[ f8] f[ f f] f[ e f] \indentLine g[ f] r8 f[ f8] f[ f] f[ e] c[ d] d4  \pespace
+		{r8_\( c[ d]\)} c8[ c] \pespace r8  c8[ f] f[ f8] f[ f f] f[ e f] g[ f] \ifIndent r8 f[ f8] f[ f] f[ e] c[ d] d4  \pespace
 		\barre \pespace r8 f8[ g] a g4
 		\endBar
 	}

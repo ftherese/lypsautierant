@@ -74,15 +74,13 @@ dies, it re -- mains just a grain of wheat; but if it dies, it pro -- du -- ces 
 		\cesureall \pespace
 		\times 2/3 { a8[ c c] }
 		\stemDown b4\( a8\) r
-		
-		
 		\endBar
 	}
 
 	\addlyrics {
-		Je -- sus said to him, “I am the way.” (cf French?) Al -- le -- lu -- ia! _ 
+		Je -- sus said to him, “I am the way.”  Al -- le -- lu -- ia! _ 
 
-		\markup { \citation #"Jn 14:6" } }
+		\markup { \citation #" Cf. Jn 14:6" } }
 
 
 
