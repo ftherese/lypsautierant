@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 17" "Mode 2" \null \null }  }
@@ -19,6 +19,7 @@
 
 	\addlyrics {
 		Te -- nez fer -- me le bou -- cli -- er de la foi.
+		%
 		\markup { \citation #"Ep 6" } }
 	
 	
