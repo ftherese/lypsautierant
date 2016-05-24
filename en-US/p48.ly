@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 48" "Mode 5" \null \null } }
@@ -19,7 +19,8 @@
 	}
 	\addlyrics {
 		Que sert à l'hom -- me de ga -- gner l'u -- ni -- "vers ?"
-		\markup { \citation #"Lc 9" } 
+		%What pro -- fit is there for one to gain the whole world yet lose or for -- feit him -- self?
+		\markup { \citation #"Lk 9:25" } 
 	}
 }
 \relative a' { 
@@ -40,7 +41,8 @@
 	}
 	\addlyrics {
 		Heu -- reux les pau -- vres, le Ro -- yau -- me de Dieu est à eux.
-		\markup { \citation #"Lc 6" } 
+		%Bles -- sed are you who are poor, for the king -- dom of God is yours.
+		\markup { \citation #"Lk 6:20" } 
 	}
 }
 
@@ -62,7 +64,8 @@
 	}
 	\addlyrics {
 		Dieu n'a-t -- -il pas choi -- si les pau -- vres pour les faire hé -- ri -- tiers du Ro -- yau -- "me ?" "(Al" -- le -- lu -- "ia !)"
-		\markup { \citation #"Jc 2" } 
+		%Did not God choose those who are poor in the world to be rich in faith and heirs of the king -- dom? "(Al" -- le -- lu -- "ia !)"
+		\markup { \citation #"Jas 2:5" } 
 	}
 }
 
@@ -77,7 +80,8 @@
 	}
 	\addlyrics {
 		Où est ton tré -- sor, là aus -- si se -- ra ton cœur. 
-		\markup { \citation #"Mt 6" } 
+		%For where your trea -- sure is, there also will your heart be.
+		\markup { \citation #"Mt 6:21" } 
 	}
 }
 \relative a' { 
@@ -96,6 +100,7 @@
 	}
 	\addlyrics {
 		Il est dif -- fi -- ci -- le pour le ri -- che d'en -- trer dans le Ro -- yau -- me.
-		\markup { \citation #"Mt 19" } 
+		%Amen, I say to you, it will be hard for one who is rich to en -- ter the king -- dom of hea -- ven. 
+		\markup { \citation #"Mt 19:23" } 
 	}
 }

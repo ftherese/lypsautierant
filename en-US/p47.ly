@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 47" "Mode 2" \null \null } }
@@ -21,7 +21,8 @@
 
 	\addlyrics {
 		D'u -- ne hau -- te mon -- ta -- gne, l'an -- ge me mon -- tra la ci -- té sain -- te.
-		\markup { \citation #"Ap 21" }
+		% He took me in spi -- rit to a great, high moun -- tain and showed me the ho -- ly ci -- ty.
+		\markup { \citation #"Rev 21:10" }
 	}
 }
 \relative d' { 
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		Voi -- ci l'A -- gneau, de -- bout sur la mon -- ta -- gne de Si -- on.
-		\markup { \citation #"Ap 14" }
+		%Then I looked and there was the Lamb stan -- ding on Mount Zi -- on.
+		\markup { \citation #"Rev 14:1" }
 	}
 }
 \relative d' { 
@@ -58,7 +60,8 @@
 
 	\addlyrics {
 		Nous at -- ten -- dons la ci -- té que Dieu bâ -- tit. 
-		\markup { \citation #"He 11" }
+		%He was look -- ing for -- ward to the ci -- ty with foun -- da -- tions, whose architect and ma -- ker is God.
+		\markup { \citation #"Heb 11:1o" }
 	}
 }
 \relative d' { 
@@ -75,7 +78,8 @@
 
 	\addlyrics {
 		Elle en -- fan -- ta son fils pre -- mier -- -né, l'en -- ve -- lo -- ppa de lan -- ges et le cou -- cha dans un -- e crè -- che. 
-		\markup { \citation #"Lc 2" }
+		%She gave birth to her first -- born son. She wrapped him in swad -- dling clothes and laid him in a man -- ger.
+		\markup { \citation #"Lk 2:7" }
 	}
 }
 
@@ -104,7 +108,8 @@
 
 	\addlyrics {
 		Il me mon -- tra la Ci -- té sain -- te, Jé -- ru -- sa -- lem, a -- vec en el -- le la gloi -- re de Dieu. Al -- le -- lu -- "ia !"
-		\markup { \citation #"Ap 21" }
+		%He... showed me the ho -- ly ci -- ty Je -- ru -- sa -- lem co -- ming down out of hea -- ven from God. It gleamed with the splen -- dor of God. Al -- le -- lu -- "ia !"
+		\markup { \citation #"Rev 21:10-11" }
 	}
 }
 

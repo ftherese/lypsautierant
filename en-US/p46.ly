@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 46" "Mode 5" \null \null } }
@@ -21,7 +21,8 @@
 	}
 	\addlyrics {
 		Jé -- sus -- Christ est mon -- té au ciel, il siège à la droi -- te de Dieu.
-		\markup { \citation #"1 P 3" } 
+		%Je -- sus Christ, who has gone into hea -- ven and is at the right hand of God.
+		\markup { \citation #"1 Pt 3:22" } 
 	}
 }
 \relative a' { 
@@ -43,7 +44,8 @@
 	}
 	\addlyrics {
 		Il a pris pos -- ses -- sion de son rè -- gne, le Sei -- gneur not -- re Dieu. "(Al" -- le -- lu -- "ia !)" _
-		\markup { \citation #"Ap 11" } 
+		%The Lord has es -- tab -- lished his reign,[our] God, the al -- migh -- ty."(Al" -- le -- lu -- "ia !)" _
+		\markup { \citation #"Rev 19:6" } 
 	}
 }
 \relative a' { 
@@ -63,7 +65,8 @@
 	}
 	\addlyrics {
 		Bé -- ni soit ce -- lui qui vient, le Roi, au nom du Sei -- "gneur !"
-		\markup { \citation #"Lc 19" } 
+		%Bles -- sed is the king who comes in the name of the Lord.
+		\markup { \citation #"Lk 19:38" } 
 	}
 }
 \relative a' { 
@@ -81,7 +84,8 @@
 	}
 	\addlyrics {
 		Les rois de la ter -- re lui ap -- por -- tent leur gloi -- re.
-		\markup { \citation #"Ap 21" } 
+		%To it the kings of the earth will bring their trea -- sure.
+		\markup { \citation #"Rev 21:24" } 
 	}
 }
 
@@ -102,6 +106,7 @@
 	}
 	\addlyrics {
 		É -- le -- vé de ter -- re, Sei -- gneur, tu at -- tires à toi tous les hom -- mes.
-		\markup { \citation #"Cf. Jn 12" } 
+		%When I am lif -- ted up from the earth, I will draw ev -- ery -- one to my -- self.
+		\markup { \citation #"Cf. Jn 12:32" } 
 	}
 }

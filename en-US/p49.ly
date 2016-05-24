@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 49" "Mode 4" \null \null } }
@@ -20,7 +20,8 @@
 
 	\addlyrics {
 		Tu ra -- che -- tas pour Dieu, au prix de ton sang, des hom -- mes de tou -- te ra -- ce, lan -- gue, peup -- "le et" nat -- ion.
-		\markup { \citation #"Ap 5" } 
+		%With your blood you pur -- chased for God those from ev -- ery tribe and tongue, peo -- ple and na -- tion.
+		\markup { \citation #"Rev 5:9" } 
 	}
 }
 
@@ -40,7 +41,8 @@
 
 	\addlyrics {
 		C'est l'a -- mour qui me plaît, et non le sa -- cri -- fi -- ce.
-		\markup { \citation #"Os 6" } 
+		%It is loy -- al -- ty that I de -- sire, not sac -- ri -- fice,
+		\markup { \citation #"Hos 6:6" } 
 	}
 }
 
@@ -62,7 +64,8 @@
 
 	\addlyrics {
 		Of -- frons à Dieu un sa -- cri -- fi -- ce de lou -- an -- "ge !" " Al" -- le -- lu -- "ia !" 
-		\markup { \citation #"He 13" } 
+		%Let us con -- ti -- nu -- al -- ly of -- fer God a sac -- ri -- fice of praise. " Al" -- le -- lu -- "ia !" 
+		\markup { \citation #"Heb 13:15" } 
 	}
 }
 
@@ -84,6 +87,7 @@
 
 	\addlyrics {
 		Le Christ fut im -- mo -- lé, nous ra -- che -- tant pour Dieu par son sang.
-		\markup { \citation #"Ap 5" } 
+		%You were slain and with your blood you pur -- chased for God those from every tribe and tongue, people and nation.
+		\markup { \citation #"Rev 5:9" } 
 	}
 }
