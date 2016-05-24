@@ -72,3 +72,17 @@
   \parbox[#1]{.333\textwidth}{\raggedleft{#4}}\par\smallskip%
 }
 
+\newsavebox{\versebox}
+\NewEnviron{cverse}{%
+  \setlength{\leftmargini}{0pt}%
+  \begin{lrbox}{\versebox}
+  \begin{varwidth}{\textwidth}
+  \begin{verse}
+  \BODY
+  \end{verse}
+  \end{varwidth}
+  \end{lrbox}%
+  \begin{verse}[\wd\versebox]
+  \BODY
+  \end{verse}
+}

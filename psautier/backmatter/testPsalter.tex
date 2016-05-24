@@ -1,11 +1,12 @@
 \documentclass[12pt,twoside,a5paper]{memoir}
-\usepackage{verse}
+\usepackage{verse,varwidth,environ}
 \usepackage{../psaltertitle}
+\usepackage{../psalter}
 \usepackage{xunicode}
 \usepackage{fontspec}
 \usepackage{xltxtra}
+\usepackage{enumitem}
 \setmainfont[Mapping=tex-text,Numbers=OldStyle]{Adobe Jenson Pro}
-\usepackage{../psalter}
 \semiisopage[8]
 \checkandfixthelayout
 \nouppercaseheads
@@ -70,16 +71,34 @@
 \part{Proper of Seasons}
 \chapter*[Advent]{Advent}
 \clearpage
-\input{../seasons/advent.tex}
+\input{../seasons/advent/advent}
+\input{../seasons/advent/sunday}
+\input{../seasons/advent/monday}
+\input{../seasons/advent/tuesday}
+\input{../seasons/advent/wednesday}
+\pagebreak
+\input{../seasons/advent/thursday}
+\input{../seasons/advent/friday}
+\input{../seasons/advent/saturday}
 \chapter*[Christmas]{Christmas}
 \clearpage
-\input{../seasons/christmas.tex}
+\input{../seasons/christmas/christmas}
+\input{../seasons/christmas/dec25}
+\input{../seasons/christmas/holyfamily}
+\input{../seasons/christmas/dec26-28}
+\input{../seasons/christmas/dec29-31}
+\input{../seasons/christmas/motherofgod}
+\input{../seasons/christmas/secondsundayafterchristmas}
+\input{../seasons/christmas/jan2-epiphany}
+\input{../seasons/christmas/epiphany}
+\input{../seasons/christmas/afterepiphany}
+\input{../seasons/christmas/baptism}
 \chapter*[Lent]{Lent}
 \clearpage
-\input{../seasons/lent.tex}
+\input{../seasons/lent/lent.tex}
 \chapter*[Easter]{Easter}
 \clearpage
-\input{../seasons/easter.tex}
+\input{../seasons/easter/easter.tex}
 %\chapter*[Holy Week]{Holy Week}
 %\clearpage
 %\input{../seasons/lent.tex}
@@ -87,7 +106,7 @@
 %\clearpage
 \chapter*[Ordinary Time]{Ordinary Time}
 \clearpage
-\input{../seasons/ordinaryTime.tex}
+\input{../seasons/ordinaryTime/ordinaryTime.tex}
 \section*{Week One}
 \section*{Week Two}
 \section*{Week Three}

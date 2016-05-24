@@ -7,7 +7,7 @@
 ./modes.pl "revisedGrailPsalter/Psalm\ 5" one a_prime b_prime | sed -f sedaccents > Psalm005.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 6" four a b | sed -f sedaccents > Psalm006.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 7" three a b | sed -f sedaccents > Psalm007.tex;
-./modes.pl "revisedGrailPsalter/Psalm\ 8" seven a b | sed -f sedaccents | sed -f sedaccents > Psalm008.tex;
+./modes.pl "revisedGrailPsalter/Psalm\ 8" seven a b | sed -f sedaccents > Psalm008.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 9" seven b_prime a | sed -f sedaccents > Psalm009A.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 10" seven a b_prime | sed -f sedaccents > Psalm009B.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 11" eight a_dprime b | sed -f sedaccents > Psalm010.tex;
