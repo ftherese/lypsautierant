@@ -20,7 +20,8 @@
 
 	\addlyrics {
 		Mi -- ka -- ël et ses an -- ges fai -- saient la guerre au dra -- gon.
-		\markup { \citation #"Ap 12" } 
+		%Mi -- chael and his an -- gels batt -- led a -- gainst the dra -- gon. 
+		\markup { \citation #"Rv 12:7" } 
 	}
 }
 \relative a' { 
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		Je vous ai don -- né pou -- voir de fou -- ler la puis -- san -- ce de l'en -- ne -- mi.
-		\markup { \citation #"Lc 10" } 
+		%Be -- hold, I have gi -- ven you the pow -- er ‘to tread u -- pon ser -- pents’ and scor -- pions and u -- pon the full force of the en -- e -- my and noth -- ing will harm you.
+		\markup { \citation #"Lk 10:19" } 
 	}
 }
 \relative a' { 
@@ -63,7 +65,8 @@
 
 	\addlyrics {
 		Ne crai -- gnez pas, il a plu à vo -- tre Pèr -- e de vous don -- ner le Ro -- yau -- me.
-		\markup { \citation #"Lc 12" } 
+		% Do not be a -- fraid an -- y lon -- ger, lit -- tle flock, for your Fa -- ther is pleased to give you the king -- dom.
+		\markup { \citation #"Lk 12:32" } 
 	}
 }
 
@@ -91,7 +94,8 @@
 
 	\addlyrics {
 		Je l'ai glo -- ri -- fié et de nou -- veau le glo -- ri -- fie -- rai. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Jn 12" } 
+		% “I have glor -- i -- fied it and will glor -- i -- fy it a -- gain.” Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Jn 12:28" } 
 	}
 }
 
