@@ -26,7 +26,8 @@
 
 	\addlyrics {
 		Au com -- men -- cem -- ent, Seig -- neur, tu fon -- das la ter -- re, et les cieux sont l'ou -- vra -- ge de tes mains. 
-		\markup { \citation #"He 1" } 
+		%At the be -- ginn -- ing, O Lord, you e -- stab -- lished the earth, and the heav -- ens are the works of your hands.
+		\markup { \citation #"Heb 10" } 
 	}
 }
 
@@ -46,7 +47,8 @@
 
 	\addlyrics {
 		Par l'ob -- la -- tion du corps de Jé -- sus, nous som -- mes sanc -- ti -- fiés.
-		\markup { \citation #"He 10" } 
+		%By this “will,” we have been con -- se -- crat -- ed through the off -- er -- ing of the bo -- dy of Je -- sus Christ once for all.
+		\markup { \citation #"Heb 10:10" } 
 	}
 }
 
@@ -65,7 +67,8 @@
 
 	\addlyrics {
 		Oui, mon re -- tour est pro -- "che !" Am -- "en !" Viens, Sei -- gneur Jé -- sus.
-		\markup { \citation #"Cf. Ap 22" } 
+		%Yes, I am com -- ing soon.” A -- men! Come, Lord Je -- sus!
+		\markup { \citation #"Cf. Rv 22:20" } 
 	}
 }
 
@@ -83,7 +86,8 @@
 
 	\addlyrics {
 		Gloi -- - -- "re à D" -- ieu au plus haut des cieux.
-		\markup { \citation #"Lc 2" } 
+		%Glor -- y to God in the high -- est.
+		\markup { \citation #"Lk 2:14" } 
 	}
 }
 
@@ -112,7 +116,8 @@
 
 	\addlyrics {
 		Ils chan -- taient de -- vant le trô -- ne un can -- ti -- que nou -- veau. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Ap 14" } }
+		%They were sing -- ing [what seemed to be] a new hymn be -- fore the throne Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Ap 14:3" } }
 	
 	
 }
