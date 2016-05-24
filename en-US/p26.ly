@@ -117,7 +117,8 @@
 
 	\addlyrics {
 		Il au -- ra sa de -- meure a -- vec "eux ;" ils se -- ront son peu -- ple et lui se -- ra leur Dieu. " Al" -- le -- lu -- - -- "ia !"
- 		\markup { \citation #"Ap 21" } }
+ 		%“Be -- hold, God’s dwell -- ing is with the hu -- man race. He will dwell with them and they will be his peo -- ple and God him -- self will al -- ways be with them [as their God]. " Al" -- le -- lu -- - -- "ia !"
+ 		\markup { \citation #"Rv 21:3" } }
 	
 	
 }
