@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 
@@ -16,7 +16,8 @@
 	}
 	\addlyrics {
 		Le Pè -- re nous a ar -- ra -- chés au pou -- voir des té -- nèb -- res.
-		\markup { \citation #"Col 1" }
+		%He de -- liv -- ered us from the pow -- er of dark -- ness and transferred us to the kingdom of his beloved Son.
+		\markup { \citation #"Col 1:13" }
 	}
 }
 
@@ -39,7 +40,8 @@
 	}
 	\addlyrics {
 		 Votre ad -- ver -- sai -- re rô -- de comme un lion ru -- gis -- "sant ;" ré -- sis -- tez- -- lui, fer -- mes dans la foi.
-		\markup { \citation #"1 P 5" }
+		 %Be sober and vigilant. Your op -- pon -- ent the de -- vil is prow -- ling a -- round like a roar -- ing li -- on looking for [someone] to devour. Re -- sist him, stead -- fast in faith, knowing that your fellow believers throughout the world undergo the same sufferings.
+		\markup { \citation #"1 Pt 5:8-9" }
 	}
 }
 
@@ -59,7 +61,8 @@ r8  a16[ a]  a16[\( a\) a a]
 	}
 	\addlyrics {
 		 L'Es -- prit Saint vien -- dra sur toi, la puis -- san -- ce du Très- -- Haut te pren -- dra sous son om -- bre.
-		\markup { \citation #"Lc 1" }
+		 %The ho -- ly Spir -- it will come up -- on you, and the pow -- er of the Most High will ov -- er -- sha -- dow you.
+		\markup { \citation #"Lk 1:35" }
 	}
 }
 
@@ -81,7 +84,8 @@ r8  a16[ a]  a16[\( a\) a a]
 	}
 	\addlyrics {
 		L'an -- ge s'ap -- pro -- cha des ber -- gers, la gloi -- re du Seign -- eur les en -- ve -- lop -- pa de sa clar -- té.
-		\markup { \citation #"Lc 2" }
+		%The an -- gel of the Lord ap -- peared to them and the glo -- ry of the Lord shone a -- round them.
+		\markup { \citation #"Lk 2:9" }
 	}
 }
 
@@ -108,7 +112,8 @@ r8  a16[ a]  a16[\( a\) a a]
 	}
 	\addlyrics {
 		 Ô toi qui dors, é -- veil -- le- -- "toi ;" re -- lè -- ve- -- toi d'en -- tre les morts. Al -- le -- lu -- "ia !"
-		\markup { \citation #"Ep 5" }
+		 %A -- wake, O sleep -- er, and a -- rise from the dead. Al -- le -- lu -- "ia !"
+		\markup { \citation #"Eph 5:14" }
 	}
 }
 

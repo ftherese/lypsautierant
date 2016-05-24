@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 
@@ -26,7 +26,8 @@
 	\addlyrics {
 		
 		Moi, je vous "dis :" ai -- mez vos en -- ne -- mis, et pri -- ez pour ceux qui vous per -- sé -- cu -- tent.
-		\markup { \citation #"Lc 6" } }
+		%But to you who hear I say, love your en -- em -- ies, do good to those who hate you, bless those who curse you, pray for those who mis -- treat you.
+		\markup { \citation #"Lk 6:27-28" } }
 	
 	
 }
@@ -48,7 +49,8 @@
 	\addlyrics {
 		
 		Il rô -- de, votre ad -- ver -- sai -- re le dia -- ble, cher -- chant qui dé -- vo -- rer.
-		\markup { \citation #"1 P 5" } }
+		%Your op -- pon -- ent the de -- vil is prow -- ling a -- round like a roar -- ing li -- on look -- ing for [someone] to de -- vour.
+		\markup { \citation #"1 Pt 5:8" } }
 	
 	
 }
@@ -68,7 +70,8 @@
 	\addlyrics {
 		
 		Ses yeux, un -- e fla -- mme de feu, et sur lui est éc -- rit un nom qu'il est seul à con -- naî -- tre.
-		\markup { \citation #"Ap 19" } }
+		%His eyes were [like] a fier -- y flame, and on his head were many diadems. He had a name in -- scribed that no one knows ex -- cept him -- self. 
+		\markup { \citation #"Rv 19:12" } }
 	
 	
 }
@@ -91,7 +94,8 @@
 	\addlyrics {
 		
 		Jé -- sus vint, les portes ét -- ant clo -- ses, et il ét -- ait là au mil -- ieu d'eux. Al -- le -- lu -- "ia !"
-		\markup { \citation #"Jn 20" } }
+		%On the eve -- ning of that first day of the week, when the doors were locked, where the dis -- cip -- les were, for fear of the Jews, Je -- sus came and stood in their midst and said to them, “Peace be with you.” Al -- le -- lu -- "ia !" 
+		\markup { \citation #"Jn 20:19" } }
 	
 	
 }

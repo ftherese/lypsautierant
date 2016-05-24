@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 57" "Mode 4" \null \null } }
@@ -24,7 +24,8 @@
 
 	\addlyrics {
 		Ces -- sez de ju -- ger sur l'ap -- pa -- ren -- ce, mais ju -- gez se -- lon la jus -- ti -- ce.
-		\markup { \citation #"Jn 7" } 
+		%Stop judg -- ing by ap -- pear -- anc -- es, but judge just -- ly.
+		\markup { \citation #"Jn 7:24" } 
 	}
 }
 
@@ -45,7 +46,8 @@
 
 	\addlyrics {
 		Ne ju -- gez pas a -- vant le temps, lais -- sez ve -- nir le Sei -- gneur.
-		\markup { \citation #"1 Co 4" } 
+		%Do not make an -- y judg -- ment be -- fore the ap -- point -- ed time, un -- til the Lord comes.
+		\markup { \citation #"1 Cor 4:5" } 
 	}
 }
 
@@ -66,7 +68,8 @@
 
 	\addlyrics {
 		Mon ju -- ge -- ment sur -- gir -- a com -- me la lu -- miè -- re. " Al" -- le -- lu -- "ia !" _
-		\markup { \citation #"Os 6" } 
+		%My judg -- ment shines forth like the light. " Al" -- le -- lu -- "ia !" _
+		\markup { \citation #"Hos 6:5" } 
 	}
 }
 
@@ -86,7 +89,8 @@
 
 	\addlyrics {
 		Le Christ souf -- frant s'en re -- met -- tait à ce -- lui qui juge a -- vec jus -- ti -- ce.
-		\markup { \citation #"1 P 2" } 
+		%When he was insulted, he returned no insult; when he suf -- fered, he did not threaten; instead, he hand -- ed him -- self ov -- er to the one who judg -- es just -- ly.
+		\markup { \citation #"1 Pt 2:23" } 
 	}
 }
 

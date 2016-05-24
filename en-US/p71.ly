@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 
@@ -18,7 +18,8 @@
 		\endBar
 	}	\addlyrics {
 		C'est toi le Fils de Dieu, le Roi d'Is -- ra -- ël.
-		\markup { \citation #"Jn 1"}
+		%You are the Son of God; you are the King of Is -- ra -- el.
+		\markup { \citation #"Jn 1:49"}
 	}
 }
 
@@ -36,7 +37,8 @@
 
 	}	\addlyrics {
 		Dieu n'a- -- t-il pas cho -- isi les pau -- vres se -- lon le mon -- de pour en fai -- re des hé -- rit -- iers du Ro -- yau -- "me ?"
-		\markup { \citation #"Jc 2"}
+		%Did not God choose those who are poor in the world to be rich in faith and heirs of the king -- dom that he pro -- mised to those who love him? 
+		\markup { \citation #"Jas 2:5"}
 	}
 }
 
@@ -56,7 +58,8 @@
 		\endBar
 	}	\addlyrics {
 		Cieux, ré -- pan -- dez vo -- tre ro -- sée et que la ter -- re pro -- dui -- se le sa -- lut.
-		\markup { \citation #"Is 45"}
+		%Let justice descend, you hea -- vens, like dew from a -- bove, like gentle rain let the clouds drop it down. Let the earth open and sal -- va -- tion bud forth; let righteousness spring up with them!
+		\markup { \citation #"Is 45:8"}
 	}
 }
 \relative c'' { 
@@ -72,7 +75,8 @@
 		\endBar
 	}	\addlyrics {
 		Ils lui of -- fri -- rent l'or, l'en -- cens et la myr -- - -- rhe.
-		\markup { \citation #"Mt 2"}
+		%Then they opened their treasures and off -- ered him gifts of gold, frank -- in -- cense, and myrrh. 
+		\markup { \citation #"Mt 2:11"}
 	}
 }
 
@@ -89,7 +93,8 @@
 		\stemDown b4\( a8\) r8
 		\endBar
 	}	\addlyrics {
-		La bon -- ne nou -- velle est an -- non -- cée aux pau -- "vres !" Al -- le -- lu -- "ia !" _ 
-		\markup { \citation #"Lc 7"}
+		La bon -- ne nou -- velle est an -- non -- cée aux pau -- "vres !" Al -- le -- lu -- "ia !" _
+		%The poor have the good news pro -- claimed to them. Al -- le -- lu -- "ia !" _
+		\markup { \citation #"Lk 7:22"}
 	}
 }

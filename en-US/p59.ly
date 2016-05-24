@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 59" "Mode 1" \null \null } }
@@ -25,7 +25,8 @@
 	}
 	\addlyrics {
 		Dieu n'a pas re -- je -- té le peu -- ple, que d'a -- vance il a dis -- cer -- né.
-		\markup { \citation #"Rm 11" }
+		%God has not re -- ject -- ed his peop -- le whom he fore -- knew.
+		\markup { \citation #"Rom 11:2" }
 	}
 }
 \relative f' { 
@@ -42,7 +43,8 @@
 	}
 	\addlyrics {
 		Bé -- ni soit le Seig -- "neur :"  il a vi -- si -- té et dé -- li -- vré son peu -- "ple !"
-		\markup { \citation #"Lc 1" }
+		%Bless -- ed be the Lord, the God of Is -- ra -- el, for he has vis -- it -- ed and brought re -- demp -- tion to his peop -- le.
+		\markup { \citation #"Lk 1:68" }
 	}
 }
 
@@ -64,7 +66,8 @@
 	}
 	\addlyrics {
 		En ces jours qui sont les der -- niers, Dieu nous a par -- lé par son Fils.
-		\markup { \citation #"He 1" }
+		%/In these last days, he spoke to us through a son.
+		\markup { \citation #"Heb 1:2" }
 	}
 }
 \relative f' { 
@@ -84,7 +87,8 @@
 	}
 	\addlyrics {
 		Le Fils de l'homme est ve -- nu cher -- cher et sau -- ver ce qui é -- tait per -- du.
-		\markup { \citation #"Lc 19" }
+		%The Son of Man has come to seek and to save what was lost.
+		\markup { \citation #"Lk 19:10" }
 	}
 }
 
@@ -109,6 +113,7 @@
 	}
 	\addlyrics {
 		Seig -- neur des seig -- neurs et Roi des rois, l'Ag -- neau a rem -- por -- té la vic -- toi -- re. Al -- le -- lu -- "ia !"
-		\markup { \citation #"Cf. Ap 17" }
+		%Al -- le -- lu -- "ia !"
+		\markup { \citation #"Cf. Rv 17" }
 	}
 }

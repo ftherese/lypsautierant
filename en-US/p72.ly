@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 
@@ -18,7 +18,8 @@
 
 	\addlyrics {
 		J'ai ac -- cep -- té de tout per -- dre, pour ga -- gner le Christ.
- 		\markup { \citation #"Ph 3" } }
+		%For his sake I have ac -- cept -- ed the loss of all things and I consider them so much rubbish, that I may gain Christ.
+ 		\markup { \citation #"Phi 3:8" } }
 	
 	
 }
@@ -37,7 +38,8 @@
 
 	\addlyrics {
 		Ap -- pro -- chons- -- nous d'un cœur sin -- cè -- re, dans la plé -- ni -- tu -- de de la foi.
- 		\markup { \citation #"He 11" } }
+		%Let us ap -- proach with a sin -- cere heart and in ab -- so -- lute trust.
+ 		\markup { \citation #"Heb 11?[10:22]" } }
 	
 	
 }
