@@ -32,9 +32,10 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \left-column { O.T.  Adv. } }
+		\espace
 		\times 2/3 { a8 a g }
 		a4
-		\cesure \pespace
+		\pespace\cesure \pespace
 		b8[\cesurebasse \pespace g8]
 		e8[ e8]
 		
@@ -57,16 +58,12 @@
 		
 		\set Staff.instrumentName = \markup{ \left-column { Chr. Easter } }
 		a8[\( a\)] 
-		\cesure \pespace
-		\times 2/3 { a a g }
-		a16[\( a\) a a]
-		\times 2/3 { g8 a b }
-		a[\( a\)]
+		\pespace\cesure
+		\times 2/3  r8 a a[g a] b[ a] a4
 		\indentLine
-		r8. a16 
-		a16[ a b a]
-		\times 2/3 { g8\( g\) f }
-		e4
+		r8 \pespace 
+		a8 a8[ b a]
+		g8[ g] f4\( e8\)
 		\pespace
 		\times 2/3 { r8_\( g a\) }
 		b[\( a\)]
@@ -78,10 +75,10 @@
 
 	\addlyrics {
 		
-		Pè -- re, je te rends grâ -- ce d'ac -- cueil -- lir ma pri -- è -- re,
-		je sais que tu m'e -- xau -- ces tou -- jours. " Al" -- le -- lu -- - -- "ia !"
-		%“Fa -- ther, I thank you for hear -- ing me.
-		%I know that you al -- ways hear me. " Al" -- le -- lu -- - -- "ia !"
+		%Pè -- re, je te rends grâ -- ce d'ac -- cueil -- lir ma pri -- è -- re,
+		%je sais que tu m'e -- xau -- ces tou -- jours. " Al" -- le -- lu -- - -- "ia !"
+		“Fa -- ther, I thank you for hear -- ing me.
+		I know that you al -- ways hear me. " Al" -- le -- lu -- - -- "ia !"
 		\markup { \citation #"Jn 11:41-42" } }
 }
 
@@ -91,12 +88,11 @@
 		
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		a8
-		g[ a]
-		a16[ g a b]
-		a4 \pespace
-		\times 2/3 { r8_\( a a\) }
-		\times 2/3 { a[ b a] }
-		\times 2/3 { g[ g f] }
+		g[ a] a8[ a  g] a[ b a]
+		a4 \espace
+		\times 2/3 { r8_\( \pespace a[ a]\) }
+		\times 2/3 {a[ b a] }
+		\times 2/3 { g[ f] }
 		e4
 		
 		
@@ -106,8 +102,8 @@
 
 	\addlyrics {
 		
-		Mon âme est triste à  en mou -- rir, de -- meu -- rez et veil -- lez a -- vec moi.
-		%Then he said to them, “My soul is sor -- row -- ful e -- ven to death. Re -- main here and keep watch with me.”
+		%Mon âme est triste à  en mou -- rir, de -- meu -- rez et veil -- lez a -- vec moi.
+	“My soul is sor -- row -- ful e -- ven to death. Re -- main here and keep watch with me.”
 		\markup { \citation #"Mt 26:38" } }
 }
 

@@ -8,16 +8,13 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		g8
-		\times 2/3 { c[\( b\) c] }
-		\times 2/3 { d\( d\) f }
-		\times 2/3 { e4\( \cesure e8\)  }
-		d16[ c c b] 
-		a4
+		
+		\times 2/3 { c8 b[ c] }
+		d[\( d]\) d4\( \cesurebasse d8\) f[ e] e8[ d] e4\( e8\)
 		\endBar
 	}	\addlyrics {
-		Nous som -- mes l'ouv -- ra -- ge de Dieu, cré -- és en Jé -- sus Christ.
-		% For we are his hand -- i -- work, cre -- at -- ed in Christ Je -- sus for the good works that God has pre -- pared in ad -- vance, that we should live in them.
+		%Nous som -- mes l'ouv -- ra -- ge de Dieu, cré -- és en Jé -- sus Christ.
+		 We are his hand -- i -- work, cre -- at -- ed in Christ Je -- sus.
 		\markup { \citation #"Eph 2:10"}
 	}
 }
@@ -25,23 +22,21 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Easter } }
-		\times 2/3 { c8 b c }
-		\times 2/3 { d[ d f] }
-		e4
+		\times 2/3 { c8[ b c] }
+		\times 2/3 { d[ f] }
+		e[ d] e4 
 		\cesure \pespace
-		\times 2/3 { d8 d d }
-		e16[\( d\) d c]
-		\stemDown
-		b4\( a8\) r
+		\times 2/3 { d8 d[ d d]}
+		d8[ e d] d[ c] c8[b] a4 
 		\stemNeutral
-		\barre \pespace
-		\times 2/3 { c8 d e }
+		\pespace \barre 
+		\times 2/3 { c8[ d e] }
 		f[\( d]
 		e4\)
 		\endBar
 	}	\addlyrics {
-		Il a tout mis sous ses pieds. Il l'a fait tê -- te de l'Ég -- li -- se.  "(Al" -- le -- lu -- "ia !)" _ _
-		% And he put all things be -- neath his feet and gave him as head o -- ver all things to the church. "(Al" -- le -- lu -- "ia !)" _ _
+		%Il a tout mis sous ses pieds. Il l'a fait tê -- te de l'Ég -- li -- se.  "(Al" -- le -- lu -- "ia !)" _ _
+		He put all things be -- neath his feet and gave him as head o -- ver all things to the church. "(Al" -- le -- lu -- "ia !)" _ _
 		\markup { \citation #"Eph 1:22"}
 	}
 }

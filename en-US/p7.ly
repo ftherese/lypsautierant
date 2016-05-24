@@ -9,13 +9,13 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		\times 2/3 { r8_\( c[ d]\) }
-		c16[ c f f]
-		f8[ f]
+		c8[d c] 
+		c4_\(  f8\) 
+		f8[ f f]
 		e16[ f g f]
-		f8[\( f\)] \pespace
-		\times 2/3 { r8_\( f[ f]\) }
-		\times 2/3 { e8[ c d] } d4
+		f4 \pespace
+		\times 2/3 { r8 f f[ f e] }
+		\times 2/3 { c[ d] } d4
 		
 		\endBar
 	}
