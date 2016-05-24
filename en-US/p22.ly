@@ -129,7 +129,7 @@
 	\addlyrics {
 		
 		Voi -- ci, j'ai pré -- pa -- ré un fes -- tin, ve -- nez aux no -- ces de mon fils. Al -- le -- lu -- "ia !"
-		“The king -- dom of hea -- ven may be li -- kened to a king who gave a wed -- ding feast for his son. He dis -- patched his ser -- vants to sum -- mon the in -- vi -- ted guests to the feast, but they re -- fused to come. A se -- cond time he sent o -- ther ser -- vants, say -- ing, ‘Tell those in -- vi -- ted: “Be -- hold, I have pre -- pared my ban -- quet, my calves and fat -- tened cat -- tle are killed, and ev -- er -- y -- thing is rea -- dy; come to the feast.”’
+		“The king -- dom of hea -- ven may be li -- kened to a king who gave a wed -- ding feast for his son. He dis -- patched his ser -- vants to sum -- mon the in -- vi -- ted guests to the feast, but they re -- fused to come. A se -- cond time he sent o -- ther ser -- vants, say -- ing, ‘Tell those in -- vi -- ted: “Be -- hold, I have pre -- pared my ban -- quet, my calves and fat -- tened cat -- tle are killed, and ev -- er -- y -- thing is rea -- dy; come to the feast.”’ Al -- le -- lu -- "ia !"
 		\markup { \citation #"Mt 22:2-4" } }
 }
 
