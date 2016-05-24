@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 %\markup { \hspace #-10 \fill-line { "Psalm 83" "Mode Peregrinus" \null \null } }
 \noPageBreak
@@ -15,7 +15,8 @@
 
 	\addlyrics {
 		Nom -- breu -- ses les de -- meu -- - -- res dans la mai -- son de mon Pè -- re.
- 		\markup { \citation #"Jn 14" } }
+ 		%In my Fa -- ther’s house there are ma -- ny dwel -- ling pla -- ces.
+ 		\markup { \citation #"Jn 14:2" } }
 	
 	
 }
@@ -35,7 +36,8 @@
 
 	\addlyrics {
 		Ils de -- meu -- rè -- rent au -- près de lui ce jour -- -là
- 		\markup { \citation #"Jn 1" } }
+ 		%They stayed with him that day.
+ 		\markup { \citation #"Jn 1:39" } }
 	
 	
 }
@@ -51,7 +53,8 @@
 
 	\addlyrics {
 		Vous de -- meu -- re -- rez dans le Fils et dans le Pè -- re.
- 		\markup { \citation #"1 Jn 2" } }
+ 		%You will re -- main in the Son and in the Fa -- ther.
+ 		\markup { \citation #"1 Jn 2:24" } }
 	
 	
 }
@@ -70,7 +73,8 @@
 
 	\addlyrics {
 		El -- le ne s'é -- loig -- nait pas du Tem -- ple, ser -- vant Dieu jour et nuit dans la pri -- èr -- e.
- 		\markup { \citation #"Lc 2" } }
+ 		%She never left the tem -- ple, but wor -- shiped night and day with fas -- ting and prayer.
+ 		\markup { \citation #"Lk 2:37" } }
 	
 }
 
@@ -91,7 +95,8 @@
 
 	\addlyrics {
 		L'eau que je lui don -- ne -- rai en lui se -- ra sour -- ce jai -- llis -- san -- te. Al -- le -- lu -- - -- "ia !"
- 		\markup { \citation #"Jn 4" } }
+ 		%The wa -- ter I shall give will be -- come in him a spring of wa -- ter well -- ing up to et -- er -- nal life.Al -- le -- lu -- - -- "ia !"
+ 		\markup { \citation #"Jn 4:14" } }
 	
 	
 }

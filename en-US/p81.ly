@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 %\markup { \hspace #-10 \fill-line { "Psalm 81" "Mode 8" \null \null } }
 \noPageBreak
@@ -25,7 +25,8 @@
 
 	\addlyrics {
 		La lu -- mière est ve -- nue dans le mon -- - -- de, les hommes ont pré -- fé -- ré les té -- nè -- bres.
- 		\markup { \citation #"Jn 3" } }
+ 		%The light came in -- to the world, but peo -- ple pre -- ferred dark -- ness to light.
+ 		\markup { \citation #"Jn 3:19" } }
 	
 	
 }
@@ -48,7 +49,8 @@
 
 	\addlyrics {
 		Mon ju -- ge -- ment est vé -- ri -- di -- que, car j'ai av -- ec moi le Pè -- re qui m'a en -- vo -- yé.
- 		\markup { \citation #"Jn 8" } }
+ 		%My judg -- ment is va -- lid, be -- cause I am not a -- lone, but it is I and the Fa -- ther who sent me.
+ 		\markup { \citation #"Jn 8:16" } }
 	
 	
 }
@@ -69,7 +71,8 @@
 
 	\addlyrics {
 		Il se -- ra grand, on l'ap -- pe -- lle -- ra Fils du Très- -- Haut.
- 		\markup { \citation #"Lc 1" } }
+ 		%He will be great and will be called Son of the Most High.
+ 		\markup { \citation #"Lk 1:32" } }
 	
 	      
 }
@@ -90,7 +93,8 @@
 
 	\addlyrics {
 		Ces -- sez de ju -- ger sur l'ap -- pa -- ren -- ce, ju -- gez se -- lon la jus -- ti -- ce.
- 		\markup { \citation #"Jn 7" } }
+ 		%Stop jud -- ging by ap -- pear -- an -- ces, but judge just -- ly.
+ 		\markup { \citation #"Jn 7:24" } }
 	
 	
 }
@@ -117,7 +121,8 @@
 
 	\addlyrics {
 		Toi seul, Sei -- gneur, ju -- ge -- ras les vi -- vants et les morts. Al -- le -- lu -- - -- "ia !"
- 		\markup { \citation #"Cf. 2 Tm 4" } }
+ 		%I charge you in the presence of God and of Christ Jesus, who will judge the li -- ving and the dead. Al -- le -- lu -- - -- "ia !"
+ 		\markup { \citation #"Cf. 2 Tm 4:1" } }
 	
 	
 }

@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 %\markup { \hspace #-10 \fill-line { "Psalm 80" "Mode 7" \null \null }  }
 \noPageBreak
@@ -18,7 +18,8 @@
 
 	\addlyrics {
 		Ce -- lui qui est de la vé -- ri -- té, é -- cou -- te ma voix.
-		\markup { \citation #"Jn 18" } }
+		%Ev -- ery -- one who be -- longs to the truth lis -- tens to my voice.
+		\markup { \citation #"Jn 18:37" } }
 	
 	
 }
@@ -37,7 +38,8 @@
 
 	\addlyrics {
 		É -- coute, Is -- ra -- ël, le Sei -- gneur no -- tre Dieu est l'u -- ni -- que.
-		\markup { \citation #"Mc 12" } }
+		%Hear, O Is -- ra -- el! The Lord our God is Lord a -- lone!
+		\markup { \citation #"Mk 12:29" } }
 	
 	
 }
@@ -55,7 +57,8 @@
 
 	\addlyrics {
 		Si quel -- qu'un é -- cou -- te ma voix, j'en -- tre -- rai, je pren -- drai mon re -- pas a -- vec lui.
-		\markup { \citation #"Ap 3" } }
+		%If a -- ny -- one hears my voice and o -- pens the door, [then] I will en -- ter his house and dine with him, and he with me.
+		\markup { \citation #"Rev 3:20" } }
 	
 	
 }
@@ -75,7 +78,8 @@
 
 	\addlyrics {
 		Heu -- reux qui é -- cou -- te la pa -- ro -- le de Dieu et qui l'ob -- ser -- ve.
-		\markup { \citation #"Lc 11" } }
+		%Bles -- sed are those who hear the word of God and ob -- serve it.
+		\markup { \citation #"Lk 11:28" } }
 	
 	
 }
@@ -95,7 +99,8 @@
 
 	\addlyrics {
 		Mon joug est ai -- sé et mon far -- deau lé -- ger. Al -- le -- lu -- "ia !" _
-		\markup { \citation #"Mt 11" } }
+		%My yoke is ea -- sy, and my bur -- den light. Al -- le -- lu -- "ia !" _
+		\markup { \citation #"Mt 11:30" } }
 	
 	
 }

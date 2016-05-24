@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 %\markup { \hspace #-10 \fill-line { "Psalm 82" "Mode 3" \null \null } }
 \noPageBreak
@@ -18,8 +18,10 @@
 	\addlyrics {
 		
 		Que tou -- te lan -- gue pro -- cla -- "me :" Jé -- sus Christ est Sei -- gneur.
-		\markup { \citation #"Ph 2" } }
+		%That... ev -- ery tongue con -- fess that Je -- sus Christ is Lord.
+		\markup { \citation #"Phil 2:11" } }
 	
+	Rm 9
 	
 }
 \relative c'' { 
@@ -38,7 +40,8 @@
 	\addlyrics {
 		
 		Jé -- sus Christ est au des -- sus de tout, Dieu bé -- ni é -- ter -- nel -- le -- "ment !"
-		\markup { \citation #"Rm 9" } }
+		%God who is over all be blessed forever. Amen.
+		\markup { \citation #"Rom 9:5" } }
 	
 	
 }
@@ -54,7 +57,8 @@
 	\addlyrics {
 		
 		Pè -- re, que ton rè -- gne vien -- "ne !"
-		\markup { \citation #"Lc 11" } }
+		%Fa -- ther, hallowed be your name, your king -- dom come.
+		\markup { \citation #"Lk 11:2" } }
 	
 	
 }
@@ -82,7 +86,8 @@
 
 	\addlyrics {
 		Tu as pris ton im -- men -- se puis -- san -- ce pour é -- ta -- blir ton rè -- gne. Al -- le -- lu -- ia ! _ 
-		\markup { \citation #"Ap 11" } }
+		%You have as -- sumed your great power and have es -- tab -- lished your reign. Al -- le -- lu -- ia ! _ 
+		\markup { \citation #"Rev 11:17" } }
 	
 	
 
