@@ -15,7 +15,8 @@
 
 	\addlyrics {
 		Ve -- nez à  moi, vous tous qui pei -- nez. 
- 		\markup { \citation #"Mt 11" } }
+ 		%Come to me, all you who la -- bor and are bur -- dened
+ 		\markup { \citation #"Mt 11:28" } }
 	
 	
 }
@@ -34,7 +35,8 @@
 
 	\addlyrics {
 		Sau -- ve- -- nous, Sei -- gneur, nous pé -- ris -- "sons !"
- 		\markup { \citation #"Mt 8" } }
+ 		% “Lord, save us! We are per -- ish -- ing!” 
+ 		\markup { \citation #"Mt 8:25" } }
 	
 	
 }
@@ -59,7 +61,8 @@
 
 	\addlyrics {
 		Ce -- lui qui doit ve -- nir ne tar -- de -- ra pas.
- 		\markup { \citation #"He 10" } }
+ 		%He who is to come shall come; he shall not de -- lay.
+ 		\markup { \citation #"Heb 10:37" } }
 	
 	
 }
@@ -81,7 +84,8 @@
 
 	\addlyrics {
 		Al -- le -- lu -- ia, al -- le -- lu -- - -- "ia !" L'Es -- prit et l'É -- pou -- se di -- "sent :" "Viens !"
- 		\markup { \citation #"Ap 22" } }
+ 		Al -- le -- lu -- ia, al -- le -- lu -- - -- "ia !" The Spir -- it and the bride say, “Come.” 
+ 		\markup { \citation #"Rv 22:17" } }
 	
 	
 }
