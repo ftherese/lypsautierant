@@ -14,7 +14,8 @@
 	}
 	\addlyrics {
 		Je vis comme un Fils d'hom -- me, sa voix est com -- me cel -- le des gran -- des eaux.
-		\markup { \citation #"Ap 1" } 
+		%I saw sev -- en gold lamp -- stands and in the midst of the lamp -- stands one like a son of man, wear -- ing an an -- kle-length robe, with a gold sash a -- round his chest.
+		\markup { \citation #"Rv 1:12-13" } 
 	}
 }
 \relative a' { 
@@ -34,7 +35,8 @@
 	}
 	\addlyrics {
 		Telle est sa ma -- jes -- té, telle aus -- si sa mi -- sé -- ri -- cor -- de.
-		\markup { \citation #"Si 2" } 
+		%For e -- qual to his ma -- je -- sty is his mer -- cy;
+		\markup { \citation #"Sir 2:18" } 
 	}
 }
 
@@ -51,7 +53,8 @@
 	}
 	\addlyrics {
 		Le Fils de l'hom -- me siè -- ge -- ra sur son trô -- ne de gloi -- re.
-		\markup { \citation #"Mt 19" } 
+		%When the Son of Man is seat -- ed on his throne of glo -- ry
+		\markup { \citation #"Mt 19:28" } 
 	}
 }
 \relative a' { 
@@ -68,7 +71,8 @@
 	}
 	\addlyrics {
 		Pè -- re, que ta vo -- lon -- té soit fai -- te sur la ter -- re comme au ciel.
-		\markup { \citation #"Mt 6" } 
+		%Our Fa -- ther in heav -- en, hall -- owed be your name, your king -- dom come, your will be done, on earth as in heav -- en.
+		\markup { \citation #"Mt 6:9-10" } 
 	}
 }
 \relative a' { 
@@ -85,6 +89,7 @@
 	}
 	\addlyrics {
 		Il rè -- gne, le Sei -- gneur, not -- re Dieu Tout- -- Puis -- sant. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Ap 19" } 
+		%The Lord has e -- stab -- lished his reign, [our] God, the al -- migh -- ty. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Rv 19:6" } 
 	}
 }
