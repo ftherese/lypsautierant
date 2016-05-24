@@ -23,8 +23,8 @@
 
 	\addlyrics {
 		Il s'hu -- mi -- lia jus -- qu'à  la mort, auss -- i Dieu l'a- -- t-il e -- xal -- té.
- 		
- 		\markup { \citation #"Ph 2" } }
+ 		%he hum -- bled him -- self, be -- com -- ing o -- be -- dient to death, e -- ven death on a cross. Be -- cause of this, God great -- ly ex -- alt -- ed him.
+ 		\markup { \citation #"Phil 2:8-9" } }
 	
 	
 }
@@ -71,7 +71,7 @@
 
 	\addlyrics {
 		Il rel -- ève Is -- ra -- ël son ser -- vi -- teur, il se sou -- vient de son am -- our.
- 		%He has helped Is -- ra -- el his ser -- vant, re -- mem -- ber -- ing his mer -- cy,
+ 		%He has helped Is -- ra -- el his ser -- vant, re -- mem -- ber -- ing his mer -- cy.
  		\markup { \citation #"Lc 1:54" } }
 	
 	
@@ -95,7 +95,8 @@
 
 	\addlyrics {
 		Pour -- quoi cher -- cher par -- mi les morts " ce" -- lui qui est vi -- "vant ?" Al -- le -- lu -- "ia !"
- 		\markup { \citation #"Lc 24" } }
+ 		%Why do you seek the li -- ving one a -- mong the dead?
+ 		\markup { \citation #"Lk 24:5" } }
 	
 	
 }
