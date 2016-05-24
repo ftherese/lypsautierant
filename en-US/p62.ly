@@ -22,7 +22,7 @@
 	}
 	\addlyrics {
 		Mon -- tre nous le Pè -- re, et ce -- la nous suf -- fit. "(Al" -- le -- lu -- "ia !)" _ _
-		%“Ma -- ster, show us the Fa -- ther, and that will be e -- nough for us.” 
+		%“Ma -- ster, show us the Fa -- ther, and that will be e -- nough for us.” "(Al" -- le -- lu -- "ia !)"
 		\markup { \citation #"Jn 14:8" }
 	}
 }
