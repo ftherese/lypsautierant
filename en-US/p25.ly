@@ -82,7 +82,7 @@
 
 	\addlyrics {
 		March -- "e en" ma pré -- senc -- "e et" sois par -- fait. " Al" -- le -- lu -- "ia !"
-		%Walk in my pre -- sence and be blame -- less. 
+		%Walk in my pre -- sence and be blame -- less. " Al" -- le -- lu -- "ia !"
 		\markup { \citation #"Gn 17:1" } }
 	
 	
