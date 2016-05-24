@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 106" "Mode 5" \null \null }  }
 \noPageBreak
@@ -21,7 +21,8 @@
 	}
 	\addlyrics {
 		Quel est ce -- lui- -- "ci ?" Mê -- me les vents et la mer lui o -- bé -- is -- "sent !"
-		\markup { \citation #"Mt 8" } 
+		%What sort of man is this, whom even the winds and the sea o -- bey?
+		\markup { \citation #"Mt 8:27" } 
 	}
 }
 \relative a' { 
@@ -39,7 +40,8 @@
 	}
 	\addlyrics {
 		J'ai é -- té dé -- li -- vré de la gueu -- le du lion.
-		\markup { \citation #"2 Tm 4" } 
+		%I was res -- cued from the li -- on’s mouth.
+		\markup { \citation #"2 Tm 4:17" } 
 	}
 }
 \relative a' { 
@@ -57,7 +59,8 @@
 	}
 	\addlyrics {
 		Il en -- ver -- ra ses an -- ges pour ras -- semb -- ler ses é -- lus des qua -- tre vents.
-		\markup { \citation #"Mc 13" } 
+		%He will send out the an -- gels and ga -- ther [his] e -- lect from the four winds.
+		\markup { \citation #"Mk 13:27" } 
 	}
 }
 
@@ -81,6 +84,7 @@
 	}
 	\addlyrics {
 		Dieu l'a res -- sus -- ci -- té, le dé -- li -- vrant des dou -- leurs de la mort. Al -- le -- lu -- "ia !" 
-		\markup { \citation #"Ac 2" } 
+		%God raised him up, re -- lea -- sing him from the throes of death. Al -- le -- lu -- "ia !" 
+		\markup { \citation #"Acts 2:24" } 
 	}
 }

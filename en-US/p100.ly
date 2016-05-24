@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 100" "Mode 4" \null \null } }
 \noPageBreak
@@ -21,7 +21,8 @@
 
 	\addlyrics {
 		Le Pè -- re ne ju -- ge per -- son -- "ne ;" au Fils il a don -- né le ju -- gem -- ent.
-		\markup { \citation #"Jn 5" } 
+		%Nor does the Fat -- her judge a -- ny -- one, but he has gi -- ven all judg -- ment to his Son.
+		\markup { \citation #"Jn 5:22" } 
 	}
 }
 
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		So -- yez par -- faits com -- me vo -- tre Pè -- re cé -- leste est par -- fait.
-		\markup { \citation #"Mt 5" } 
+		% So be per -- fect, just as your hea -- ven -- ly Fa -- ther is per -- fect.
+		\markup { \citation #"Mt 5:48" } 
 	}
 }
 
@@ -63,7 +65,8 @@
 
 	\addlyrics {
 		Voy -- ant Jé -- sus ve -- nir vers lui, il "dit :" Voi -- ci l'Ag -- neau de Dieu.
-		\markup { \citation #"Jn 1" } 
+		%The next day he saw Je -- sus com -- ing toward him and said, “Be -- hold, the Lamb of God.
+		\markup { \citation #"Jn 1:29" } 
 	}
 }
 
@@ -88,7 +91,8 @@
 
 	\addlyrics {
 		Ce qui plaît à mon Pè -- re, dit le Sei -- gneur, je le fais tou -- jours.
-		\markup { \citation #"Jn 8" } 
+		%I al -- ways do what is plea -- sing to him.
+		\markup { \citation #"Jn 8:29" } 
 	}
 }
 
@@ -114,7 +118,8 @@
 
 	\addlyrics {
 		Il a ren -- du par -- faits pour tou -- jours ceux qu'il sanc -- ti -- fie. Al -- le -- lu -- "ia !" _ _
-		\markup { \citation #"He 10" } 
+		% He has made per -- fect for -- e -- ver those who are be -- ing con -- se -- cra -- ted. Al -- le -- lu -- "ia !" _ _
+		\markup { \citation #"Heb 10:14" } 
 	}
 }
 

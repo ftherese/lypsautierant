@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 103" "Mode 1" \null \null }  }
 \noPageBreak
@@ -20,7 +20,8 @@
 
 	\addlyrics {
 		En -- voie, Sei -- gneur, ton Es -- prit qui re -- nou -- vel -- le la fa -- ce de la ter -- - -- re.
- 		\markup { \citation #"Cf. Ps 103" } }
+ 		%Send forth your spi -- rit, they are cre -- a -- ted and you re -- new the face of the earth.
+ 		\markup { \citation #"Cf. Ps 103:30" } }
 	
 	
 }
@@ -40,8 +41,9 @@
 	}
 
 	\addlyrics {
-		La cré -- a -- tion en at -- ten -- - -- te as -- pire à  la ré -- vé -- la -- tion des fils de Dieu.
- 		\markup { \citation #"Rm 8" } }
+		La cré -- a -- tion en at -- ten -- - -- te as -- pire à  la ré -- vé -- la -- tion des fils de Dieu.
+ 		%For cre -- a -- tion a -- waits with ea -- ger ex -- pec -- ta -- tion the re -- ve -- la -- tion of the chil -- dren of God.
+ 		\markup { \citation #"Rm 8:19" } }
 	
 	
 }
@@ -62,7 +64,8 @@
 
 	\addlyrics {
 		Grandes et mer -- vei -- lleu -- ses tes œu -- vres, Sei -- "gneur !" " Al" -- le -- lu -- "ia !" _
- 		\markup { \citation #"Ap 15" } }
+ 		%Great and won -- der -- ful are your works, Lord God al -- migh -- ty. " Al" -- le -- lu -- "ia !" _
+ 		\markup { \citation #"Rev 15:3" } }
 	
 	
 }
@@ -83,7 +86,8 @@
 
 	\addlyrics {
 		La cré -- a -- tion tout en -- tiè -- re gé -- mit dans les dou -- leurs de l'en -- fan -- te -- ment.
- 		\markup { \citation #"Rm 8" } }
+ 		%All cre -- a -- tion is groan -- ing in la -- bor pains e -- ven un -- til now.
+ 		\markup { \citation #"Rom 8:22" } }
 	
 	
 }

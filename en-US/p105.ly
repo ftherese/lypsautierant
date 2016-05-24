@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 105" "Mode 1" \null \null }  }
 \noPageBreak
@@ -19,7 +19,8 @@
 
 	\addlyrics {
 		Dieu a ti -- ré d'en -- tre les pa -- ïens un peu -- ple qui por -- te son nom.
- 		\markup { \citation #"Ac 15" } }
+ 		%God first concerned himself with ac -- quiring from a -- mong the Gen -- tiles a peo -- ple for his name.
+ 		\markup { \citation #"Acts 15:14" } }
 	
 	
 }
@@ -38,7 +39,8 @@
 
 	\addlyrics {
 		Ce -- lui qui a pro -- mis est fi -- dè -- - -- le.
- 		\markup { \citation #"He 10" } }
+ 		%He who made the pro -- mise is trust -- wor -- thy.
+ 		\markup { \citation #"Heb 10:23" } }
 	
 	
 }
@@ -58,7 +60,8 @@
 
 	\addlyrics {
 		Les dons et l'ap -- pel de Dieu sont sans re -- pen -- tan -- ce.
- 		\markup { \citation #"Rm 11" } }
+ 		%For the gifts and the call of God are ir -- re -- vo -- ca -- ble.
+ 		\markup { \citation #"Rom 11:29" } }
 	
 	
 }
@@ -78,7 +81,8 @@
 
 	\addlyrics {
 		Il nous a par -- don -- né tou -- tes nos fau -- tes.
- 		\markup { \citation #"Col 2" } }
+ 		%He brought you to life along with him, ha -- ving for -- gi -- ven us all our trans -- gres -- sions.
+ 		\markup { \citation #"Col 2:13" } }
 	
 	
 }
@@ -99,8 +103,9 @@
 	}
 
 	\addlyrics {
-		Vous a -- vez é -- té ap -- pe -- lés à  la li -- ber -- té. Al -- le -- lu -- - -- "ia !"
- 		\markup { \citation #"Ga 5" } }
+		Vous a -- vez é -- té ap -- pe -- lés à  la li -- ber -- té. Al -- le -- lu -- - -- "ia !"
+ 		%For you were called for free -- dom. Al -- le -- lu -- - -- "ia !"
+ 		\markup { \citation #"Gal 5:13" } }
 	
 	
 }

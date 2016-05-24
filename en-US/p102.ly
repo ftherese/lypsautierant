@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 102" "Mode 7" \null \null } }
 \noPageBreak
@@ -22,7 +22,8 @@
 		\endBar
 	}	\addlyrics {
 		Com -- me le Pè -- re m'a ai -- mé, moi aus -- si, je vous ai ai -- més.
-		\markup { \citation #"Jn 15"}
+		%As the Fa -- ther loves me, so I al -- so love you. 
+		\markup { \citation #"Jn 15:9"}
 	}
 }
 \relative c'' { 
@@ -38,7 +39,8 @@
 		\endBar
 	}	\addlyrics {
 		À vous, mi -- sé -- ri -- cor -- de, paix et cha -- ri -- té en ab -- on -- dan -- ce.
-		\markup { \citation #"Jude"}
+		%May mer -- cy, peace, and love be yours in a -- bun -- dance.
+		\markup { \citation #"Jude 1:2"}
 	}
 }
 
@@ -59,7 +61,8 @@
 		\endBar
 	}	\addlyrics {
 		Vous con -- naî -- trez l'amo -- ur du Christ qui sur -- pas -- se tou -- te con -- naiss -- an -- - -- ce. 
-		\markup { \citation #"Ep 3"}
+		%[For this reason I kneel before the Father, from whom every family in heaven and on earth is named, that he may grant you...] to know the love of Christ that sur -- pas -- ses know -- ledge.
+		\markup { \citation #"Eph 3:19"}
 	}
 }
 \relative c'' { 
@@ -77,7 +80,8 @@
 		\endBar
 	}	\addlyrics {
 		Vo -- yez quel grand am -- our le Pè -- re nous a don -- né. Al -- le -- lu -- "ia !" -- _
-		\markup { \citation #"1 Jn 3"}
+		%See what love the Fa -- ther has be -- stowed on us. Al -- le -- lu -- "ia !" -- _
+		\markup { \citation #"1 Jn 3:1"}
 	}
 }
 \relative c'' { 
@@ -93,7 +97,8 @@
 		\endBar
 	}	\addlyrics {
 		Le Fils de l'homme a pou -- voir de re -- met -- tre les pé -- chés.
-		\markup { \citation #"Lc 5"}
+		%The Son of Man has aut -- ho -- ri -- ty on earth to for -- give sins.
+		\markup { \citation #"Lk 5:24"}
 	}
 }
 

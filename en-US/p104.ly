@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 104" "Mode 6" \null \null }  }
 \noPageBreak
@@ -21,7 +21,8 @@
 		\endBar
 	}	\addlyrics {
 		Vous êtes u -- ne ra -- ce choi -- sie, un sa -- cer -- do -- ce ro -- yal, u -- ne na -- tion sain -- te.
-		\markup { \citation #"1 P 2"}
+		%You are a cho -- sen race, a ro -- yal priest -- hood, a ho -- ly na -- tion, a peo -- ple of his own.
+		\markup { \citation #"1 Pt 2:9"}
 	}
 }
 \relative a' { 
@@ -38,7 +39,8 @@
 		\endBar
 	}	\addlyrics {
 		Ils sont les fils d'Is -- ra -- ël, ay -- ant pour eux l'a -- dop -- tion, la gloire et les al -- lian -- ces.
-		\markup { \citation #"Rm 9"}
+		%They are Is -- ra -- e -- lites; theirs the a -- dop -- tion, the glo -- ry, the co -- ve -- nants.
+		\markup { \citation #"Rom 9:4"}
 	}
 }
 
@@ -57,7 +59,8 @@
 		\endBar
 	}	\addlyrics {
 		Telle est la pro -- mes -- se que lui- -- mê -- me vous a fai -- "te :" la vie é -- ter -- nel -- le. "(Al" -- le -- lui -- "a !)"
-		\markup { \citation #"1 Jn 2"}
+		%This is the pro -- mise that he made us: e -- ter -- nal life. "(Al" -- le -- lui -- "a !)"
+		\markup { \citation #"1 Jn 2:25"}
 	}
 }
 \relative a' { 
@@ -72,7 +75,8 @@
 		\endBar
 	}	\addlyrics {
 		Comme il l'a -- vait pro -- mis, Dieu a sus -- ci -- té pour Is -- ra -- ël un Sau -- veur.
-		\markup { \citation #"Ac 13"}
+		%God, ac -- cor -- ding to his pro -- mise, has brought to Is -- ra -- el a sa -- vior, Jesus.
+		\markup { \citation #"Acts 13:23"}
 	}
 }
 
@@ -91,6 +95,7 @@
 		\endBar
 	}	\addlyrics {
 		Le Christ s'est li -- vré a -- fin de pu -- ri -- fier un peu -- ple qui lui ap -- par -- tien -- ne.
-		\markup { \citation #"Tt 2"}
+		%Jesus Christ, who gave him -- self for us to deliver us from all lawlessness and to cleanse for him -- self a peo -- ple as his own.
+		\markup { \citation #"Ti 2:14"}
 	}
 }

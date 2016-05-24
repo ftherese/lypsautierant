@@ -41,7 +41,7 @@
 	\addlyrics {
 		Goû -- tez et vo -- yez comme est bon le Sei -- "gneur !" " (Al" -- le -- lu -- "ia !)"
 		%Taste and see that the Lord is good.
-		\markup { \citation #"Ps 34:9" } 
+		\markup { \citation #"Ps 33:9" } 
 	}
 }
 \relative a' { 
