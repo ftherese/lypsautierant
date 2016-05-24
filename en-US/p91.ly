@@ -20,7 +20,8 @@
 
 	\addlyrics {
 		Quand le blé est mon -- té en é -- pi, l'iv -- raie est ap -- pa -- rue aus -- si.
- 		\markup { \citation #"Mt 13" } }
+ 		%When the crop grew and bore fruit, the weeds ap -- peared as well. 
+ 		\markup { \citation #"Mt 13:26" } }
 	
 	
 }
@@ -40,7 +41,8 @@
 
 	\addlyrics {
 		Le lan -- ga -- ge de la croix est fo -- lie pour ceux qui se per -- dent.
- 		\markup { \citation #"1 Co 1" } }
+ 		%The mes -- sage of the cross is fool -- ish -- ness to those who are per -- ish -- ing,
+ 		\markup { \citation #"1 Cor 1:18" } }
 	
 	
 }
@@ -66,7 +68,8 @@
 
 	\addlyrics {
 		Qui en -- tend la Pa -- role et la com -- prend, ce -- lui-l -- à  por -- te du fruit.
- 		\markup { \citation #"Mt 13" } }
+ 		%The one who hears the word and un -- der -- stands it, who in -- deed bears fruit.
+ 		\markup { \citation #"Mt 13:23" } }
 	
 	
 }
@@ -87,7 +90,8 @@
 
 	\addlyrics {
 		La gloi -- re de mon Pè -- re, c'est que vous don -- niez beau -- coup de fruit. "(Al" -- le -- lu -- "ia !)"
- 		\markup { \citation #"Jn 15" } }
+ 		%By this is my Fa -- ther glor -- i -- fied, that you bear much fruit "(Al" -- le -- lu -- "ia !)"
+ 		\markup { \citation #"Jn 15:8" } }
 	
 	
 }
