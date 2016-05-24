@@ -87,7 +87,7 @@
 	}
 	\addlyrics {
 		 L'es -- pé -- ran -- ce ne dé -- çoit pas, al -- le -- lu -- "ia !" car l'a -- mour de Dieu a é -- té ré -- pan -- du dans nos cœurs.
-		%hope does not dis -- a -- ppoint, be -- cause the love of God has been poured out in -- to our hearts through the ho -- ly Spir -- it that has been gi -- ven to us. 
+		%hope does not dis -- a -- ppoint, al -- le -- lu -- "ia !" be -- cause the love of God has been poured out in -- to our hearts through the ho -- ly Spir -- it that has been gi -- ven to us. 
 		\markup { \citation #"Rom 5:5" }
 	}
 }
