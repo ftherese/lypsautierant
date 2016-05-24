@@ -26,7 +26,8 @@
 	\addlyrics {
 		
 		Que le Sei -- gneur con -- so -- le vos cœurs et les af -- fer -- mis -- se. 
-		\markup { \citation #"2 Th 2" } }
+		%May our Lord Je -- sus Christ him -- self and God our Fa -- ther, who has loved us and giv -- en us ev -- er -- last -- ing en -- cour -- age -- ment and good hope through his grace, en -- cour -- age your hearts and strength -- en them in ev -- er -- y good deed and word.
+		\markup { \citation #"2 Th 2:16" } }
 	
 	
 }
@@ -47,7 +48,8 @@
 
 	\addlyrics {
 		Sur les ha -- bit -- ants du pa -- ys de la mort, un -- e lu -- miè -- re s'est le -- vée.
-		\markup { \citation #"Mt 4" } }
+		%On those dwell -- ing in a land o -- ver -- shad -- owed by death light has a -- ris -- en.
+		\markup { \citation #"Mt 4:16" } }
 	
 	
 }
@@ -75,7 +77,8 @@
 
 	\addlyrics {
 		Jus -- ques à quand, Maî -- tre saint et vé -- ri -- di -- que, tar -- de  -- ras- -- tu à fai -- re jus -- ti -- "ce ?"
-		\markup { \citation #"Ap 6" } }
+		%“How long will it be, ho -- ly and true ma -- ster, be -- fore you sit in judg -- ment and a -- venge our blood on the in -- ha -- bi -- tants of the earth?”
+		\markup { \citation #"Rv 6:10" } }
 	
 	
 }
@@ -99,7 +102,8 @@
 
 	\addlyrics {
 		Mai -- nte -- nant le Pri -- nce de ce mon -- de va êt -- re je -- té de -- hors.
-		\markup { \citation #"Jn 12" } }
+		%Now is the time of judg -- ment on this world; now the ru -- ler of this world will be driv -- en out. 
+		\markup { \citation #"Jn 12:31" } }
 	
 	
 }
@@ -130,7 +134,8 @@
 	\addlyrics {
 		
 		Nous a -- vons un a -- vo -- cat au -- près du Pè -- "re :" Jé -- sus Christ le jus -- te. "Al" -- le -- lu -- "ia !" _ _
-		\markup { \citation #"1 Jn 2" } }
+		%We have an Ad -- vo -- cate with the Fa -- ther, Je -- sus Christ the righ -- teous one "Al" -- le -- lu -- "ia !"
+		\markup { \citation #"1 Jn 2:" } }
 	
 	
 }
