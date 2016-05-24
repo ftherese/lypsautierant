@@ -22,7 +22,8 @@
 	}
 	\addlyrics {
 		Mon -- tre nous le Pè -- re, et ce -- la nous suf -- fit. "(Al" -- le -- lu -- "ia !)" _ _
-		\markup { \citation #"Jn 14" }
+		%“Ma -- ster, show us the Fa -- ther, and that will be e -- nough for us.” 
+		\markup { \citation #"Jn 14:8" }
 	}
 }
 
@@ -40,7 +41,8 @@
 	}
 	\addlyrics {
 		Le dis -- ci -- ple que Jé -- sus ai -- mait se trou -- vait à ta -- ble tout con -- tre Jé -- sus.
-		\markup { \citation #"Jn 13" }
+		%One of his di -- sci -- ples, the one whom Je -- sus loved, was re -- clin -- ing at Je -- sus’ side.
+		\markup { \citation #"Jn 13:23" }
 	}
 }
 
@@ -64,7 +66,8 @@
 	}
 	\addlyrics {
 		Que l'hom -- me de dé -- sir re -- çoi -- ve l'eau de la vie, gra -- tui -- te -- ment.
-		\markup { \citation #"Ap 22" }
+		%Let the one who thirsts come for -- ward, and the one who wants it re -- ceive the gift of life-giv -- ing wa -- ter.
+		\markup { \citation #"Rv 22:17" }
 	}
 }
  
@@ -86,7 +89,8 @@
 	}
 	\addlyrics {
 		Nous a -- vons vu se le --  ver son é -- toi -- "le ;" nous som -- mes ve -- nus l'a -- do -- rer.
-		\markup { \citation #"Mt 2" }
+		%We saw his star at its ri -- sing and have come to do him hom -- age.
+		\markup { \citation #"Mt 2:2" }
 	}
 }
 
@@ -109,7 +113,8 @@
 	}
 	\addlyrics {
 		Pour que fût ac -- com -- plie l'Éc -- ri -- tu -- re, Jé -- sus "dit :" J'ai "soif !"
-		\markup { \citation #"Jn 19" }
+		%Af -- ter this, a -- ware that ev -- er -- y -- thing was now fin -- ished, in or -- der that the scrip -- ture might be ful -- filled, Je -- sus said, “I thirst.”
+		\markup { \citation #"Jn 19:28" }
 	}
 }
 
@@ -132,7 +137,8 @@
 	}
 	\addlyrics {
 		Fem -- me, pour -- quoi pleu -- res- -- "tu ?" Qui cher -- ches-  -- "tu ?" Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Jn 20" }
+		%“Wom -- an, why are you weep -- ing? Whom are you look -- ing for?” Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Jn 20:15" }
 	}
 }
 
