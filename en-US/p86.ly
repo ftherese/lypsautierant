@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 86" "Mode 2" \null \null } }
 \noPageBreak
@@ -20,7 +20,8 @@
 
 	\addlyrics {
 		Tout hom -- me qui aime est né de Dieu et il con -- naît Dieu.
-		\markup { \citation #"1 Jn 4" } 
+		%Ev -- ery  -- one who loves is be -- got -- ten by God and knows God.
+		\markup { \citation #"1 Jn 4:7" } 
 	}
 }
 
@@ -46,7 +47,8 @@
 
 	\addlyrics {
 		La Jé -- ru -- sa -- lem d'en haut est lib -- re, c'est el -- le not -- re mè -- re. 
-		\markup { \citation #"Ga 4" } %{?Al -- le -- lu -- ia "!" -- ?%}
+		%The Je -- ru -- sa -- lem a -- bove is free -- born, and she is our mo -- ther.
+		\markup { \citation #"Gal 4:26" } %{?Al -- le -- lu -- ia "!" -- ?%}
 	}
 }
 \relative d' { 
@@ -62,7 +64,8 @@
 
 	\addlyrics {
 		No -- tre ci -- té se trou -- ve dans les cieux.
-		\markup { \citation #"Ph 3" } 
+		%Our ci -- ti -- zen -- ship is in hea -- ven.
+		\markup { \citation #"Phil 3:20" } 
 	}
 }
 \relative d' { 
@@ -82,7 +85,8 @@
 
 	\addlyrics {
 		Au -- jour -- d'hui vous est né un Sau -- veur dans la ci -- té de Da -- vid.
-		\markup { \citation #"Lc 2" } 
+		%To -- day in the ci -- ty of Da -- vid a sa -- vior has been born for you who is Mes -- si -- ah and Lord.
+		\markup { \citation #"Lk 2:11" } 
 	}
 }
 
@@ -110,7 +114,8 @@
 
 	\addlyrics {
 		Le vain -- queur, je gra -- ve -- rai sur lui le nom de la ci -- té de mon Dieu. Al -- le -- lu -- "ia !" _ _
-		\markup { \citation #"Ap 3" } 
+		%The victor... On him I will in -- scribe the name of my God and the name of the ci -- ty of my God. Al -- le -- lu -- "ia !" _ _
+		\markup { \citation #"Rev 3:12" } 
 	}
 }
 

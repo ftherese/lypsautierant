@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 %\markup { \hspace #-10 \fill-line { "Psalm 84" "Mode 5" \null \null } }
 \noPageBreak
@@ -21,7 +21,8 @@
 	\addlyrics {
 		
 		Je vous lai -- sse la paix, je vous don -- ne ma paix.
-		\markup { \citation #"Jn 14" } }
+		%Peace I leave with you; my peace I give to you.
+		\markup { \citation #"Jn 14:27" } }
 	
 	
 }
@@ -40,7 +41,8 @@
 	\addlyrics {
 		
 		Ce sa -- lut ne vient pas de vous, il est un don de Dieu.
-		\markup { \citation #"Ep 2" } }
+		%By grace you have been saved through faith, and this is not from you; it is the gift of God.
+		\markup { \citation #"Eph 2:8" } }
 	
 	
 }
@@ -61,7 +63,8 @@
 	\addlyrics {
 		
 		Bé -- nie es- -- tu et bé -- ni le fruit de ton sein.
-		\markup { \citation #"Lc 1" } }
+		%Most bles -- sed are you among wo -- men, and bles -- sed is the fruit of your womb.
+		\markup { \citation #"Lk 1:42" } }
 	
 	
 }
@@ -80,7 +83,8 @@
 	\addlyrics {
 		
 		Un fruit de jus -- tice est se -- mé dans la paix.
-		\markup { \citation #"Jc 3" } }
+		%The fruit of righ -- teous -- ness is sown in peace for those who cul -- ti -- vate peace.
+		\markup { \citation #"Jas 3:18" } }
 	
 	
 }
@@ -103,7 +107,8 @@
 	\addlyrics {
 		
 		Je leur ai do -- nné la gloi -- - -- re que tu m'as don -- née. "Al" -- le -- lu -- ia " !" _
-		\markup { \citation #"Jn 17" } }
+		%And I have gi -- ven them the glo -- ry you gave me. "Al" -- le -- lu -- ia " !" _
+		\markup { \citation #"Jn 17:22" } }
 	
 	
 }

@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 % \markup { \hspace #10 \fill-line { "Psalm 88 A" "Mode 1" \null \null }  }
 \noPageBreak
@@ -20,7 +20,8 @@
 
 	\addlyrics {
 		Ho -- sa -- nn -- a au Fils de Da -- "vid !"
- 		\markup { \citation #"Mt 21" } }
+ 		%Ho -- san -- na to the Son of Da -- vid.
+ 		\markup { \citation #"Mt 21:9" } }
 	
 	
 }
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		Il nous sus -- cite u -- ne for -- ce de sa -- lut dans la mai -- son de Da -- vid, son ser -- vi -- teur.
- 		\markup { \citation #"Lc 1" } }
+ 		%He has raised up a horn for our sal -- va -- tion wit -- hin the house of Da -- vid his ser -- vant.
+ 		\markup { \citation #"Lk 1:69" } }
 	
 	
 }
@@ -61,7 +63,8 @@
 
 	\addlyrics {
 		Il de -- vien -- dra un trô -- ne de gloi -- - -- re pour la mai -- son de son Pè -- re.
- 		\markup { \citation #"Is 22" } }
+ 		%I will fix him as a peg in a firm place, a seat of ho -- nor for his an -- ces -- tral house.
+ 		\markup { \citation #"Is 22:23" } }
 	
 	
 }
@@ -82,7 +85,8 @@
 
 	\addlyrics {
 		Voi -- ci ve -- nir ton roi, mon -- té sur un pe -- tit d'â -- ne -- sse.
- 		\markup { \citation #"Jn 12" } }
+ 		%See, your king comes, sea -- ted upon an as -- s’s colt.
+ 		\markup { \citation #"Jn 12:15" } }
 	
 	
 }
@@ -103,7 +107,8 @@
 
 	\addlyrics {
 		Le Sei -- gneur m'a con -- sa -- cré par l'onc -- tion. Al -- le -- lu -- "ia !" _
- 		\markup { \citation #"Lc 4" } }
+ 		%The Spi -- rit of the Lord is u -- pon me, be -- cause he has a -- noin -- ted me. Al -- le -- lu -- "ia !" _
+ 		\markup { \citation #"Lk 4:18" } }
 	
 	
 }

@@ -18,7 +18,8 @@
 
 	\addlyrics {
 		Il est Sei -- gneur et Christ, ce -- lui que vous a -- vez cru -- ci -- fié.
-		\markup { \citation #"Ac 2" } }
+		%God has made him both Lord and Mes -- si -- ah, this Je -- sus whom you cru -- ci -- fied.
+		\markup { \citation #"Acts 2:36" } }
 	
 	
 }
@@ -36,7 +37,8 @@
 
 	\addlyrics {
 		Nul ne con -- naît ce qui est en Dieu, si -- non l'Es -- prit de Dieu.
-		\markup { \citation #"1 Co 2" } }
+		%No one knows what per -- tains to God ex -- cept the Spi -- rit of God.
+		\markup { \citation #"1 Cor 2:11" } }
 	
 	
 }
@@ -55,7 +57,8 @@
 
 	\addlyrics {
 		Il est l'i -- ma -- ge du Dieu in -- vi -- si -- ble, Pre -- mier- -- né de tou -- te cr -- éa -- tu -- re.
-		\markup { \citation #"Col 1" } }
+		%He is the i -- mage of the in -- vi -- si -- ble God, the first -- born of all cre -- a -- tion.
+		\markup { \citation #"Col 1:15" } }
 	
 	
 }
@@ -73,7 +76,8 @@
 
 	\addlyrics {
 		Il n'a pas é -- par -- gné son pro -- pre Fils, il l'a li -- vré pour nous.
-		\markup { \citation #"Rm 8" } }
+		%He who did not spare his own Son but han -- ded him o -- ver for us all...
+		\markup { \citation #"Rom 8:32" } }
 	
 	
 }
@@ -92,7 +96,8 @@
 
 	\addlyrics {
 		De son cô -- té sor -- tit du sang et de l'eau. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Jn 19" } }
+		%One soldier thrust his lance into his side, and im -- me -- diate -- ly blood and wa -- ter flowed out. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Jn 19:34" } }
 	
 	
 }

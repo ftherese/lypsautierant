@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 87" "Mode 6" \null \null }  }
 \noPageBreak
@@ -19,7 +19,8 @@
 
 	\addlyrics {
 		Voi -- ci l'heure où vous se -- rez dis -- per -- sés me lais -- sant seul.
- 		\markup { \citation #"Jn 16" } }
+ 		%Be -- hold, the hour is co -- ming and has ar -- rived when each of you will be scat -- tered to his own home and you will leave me a -- lone. 
+ 		\markup { \citation #"Jn 16:32" } }
 	
 	
 }
@@ -40,7 +41,8 @@
 
 	\addlyrics {
 		C'est pour nous que le Mes -- sie a souf -- fert, il nous a mar -- qué le che -- min. "(Al" -- le -- lu -- "ia !)" _ _
- 		\markup { \citation #"1 P 2" } }
+ 		%Christ also suf -- fered for you, lea -- ving you an ex -- am -- ple that you should fol -- low in his foot -- steps. "(Al" -- le -- lu -- "ia !)" _ _
+ 		\markup { \citation #"1 Pt 2:21" } }
 	
 	
 }
@@ -62,7 +64,8 @@
 
 	\addlyrics {
 		Com -- "me u" -- "n vo" -- leur dans la nuit, ain -- si vient le jour du Sei -- gneur.
- 		\markup { \citation #"1 Th 5" } }
+ 		%The day of the Lord will come like a thief at night.
+ 		\markup { \citation #"1 Thes 5:2" } }
 	
 	
 }
@@ -83,7 +86,8 @@
 
 	\addlyrics {
 		Les té -- nè -- bres s'en vont et déj -- "à b" -- ri -- lle la vraie lu -- miè -- re.
- 		\markup { \citation #"1 Jn 2" } }
+ 		%The dark -- ness is pas -- sing a -- way, and the true light is al -- rea -- dy shi -- ning.
+ 		\markup { \citation #"1 Jn 2:8" } }
 	
 	
 }
@@ -102,7 +106,8 @@
 
 	\addlyrics {
 		Jé -- sus sor -- tit, por -- tant la cou -- ron -- ne d'é -- pi -- nes et le man -- teau de pour -- pre.
- 		\markup { \citation #"Jn 19" } }
+ 		%Je -- sus came out, wea -- ring the crown of thorns and the pur -- ple cloak.
+ 		\markup { \citation #"Jn 19:5" } }
 	
 	
 }

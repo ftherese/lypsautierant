@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup {psaume 88a }
 
@@ -19,7 +19,8 @@
 
 	\addlyrics {
 		Ho -- san -- - -- na au Fils de Da -- "vid !"
- 		\markup { \citation #"Mt 21" } }
+ 		%Ho -- san -- na to the Son of Da -- vid!
+ 		\markup { \citation #"Mt 21:9" } }
 	
 	
 }

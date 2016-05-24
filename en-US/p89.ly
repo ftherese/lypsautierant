@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 89" "Mode 8" \null \null } }
 \noPageBreak
@@ -21,7 +21,8 @@
 
 	\addlyrics {
 		La lu -- miè -- re bri -- lle dans les té -- nè -- bres et les té -- nè -- bres ne l'ont pas ar -- rê -- tée.
- 		\markup { \citation #"Jn 1" } }
+ 		%The light shines in the dark -- ness, and the dark -- ness has not o -- ver -- come it.
+ 		\markup { \citation #"Jn 1:5" } }
 	
 	
 }
@@ -37,7 +38,8 @@
 
 	\addlyrics {
 		Il vie -- ndra, le jour du Sei -- gneur, comme un vol -- eur.
- 		\markup { \citation #"2 P 3" } }
+ 		%The day of the Lord will come like a thief.
+ 		\markup { \citation #"2 Pt 3:10" } }
 	
 	
 }
@@ -55,7 +57,8 @@
 
 	\addlyrics {
 		Au com -- men -- ce -- ment é -- tait le Ver -- - -- be.
- 		\markup { \citation #"Jn 1" } }
+ 		%In the be -- gin -- ning was the Word.
+ 		\markup { \citation #"Jn 1:1" } }
 	
 	
 }
@@ -83,7 +86,8 @@
 
 	\addlyrics {
 		Dieu dit à A -- "dam :" Tu es pous -- siè -- re et tu re -- tour -- ne -- ras à la pous -- siè -- - -- re.
- 		\markup { \citation #"Gn 3" } }
+ 		%To the man he said: You are dust, and to dust you shall re -- turn.
+ 		\markup { \citation #"Gn 3:17,19" } }
 	
 	
 }
@@ -107,7 +111,8 @@
 
 	\addlyrics {
 		Sa mi -- sé -- ri -- cor -- de s'é -- tend d'âge en " â" -- - -- ge. "Al" -- le -- lu -- - -- "ia !"
- 		\markup { \citation #"Lc 1" } }
+ 		%His mer -- cy is from age to age. "Al" -- le -- lu -- - -- "ia !"
+ 		\markup { \citation #"Lk 1:50" } }
 	
-	
+	.
 }
