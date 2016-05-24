@@ -1,0 +1,63 @@
+#s/.*/\\begin\{center\}\\normalsize\{\\uppercase\{&\}\}\\\\/
+#			s/.*/\\footnotesize\{&\}\\end\{center\}/
+#			h
+#			d
+/PSALMODY\|Psalmody/,/^$/ {
+	/PSALMODY\|Psalmody/{
+		s/PSALMODY\|Psalmody/\\noindent\\small\{\\uppercase\{&\}\\\\\}/;
+	}
+	/PSALMODY\|Psalmody\|READING/!{
+		/^$/!{
+			s/-/--/g
+			s/.*/\\uppercase\{&\}\\vspace\{0.5em\}\\\\/
+		}
+	}
+}
+
+/MONDAY\|TUESDAY\|WEDNESDAY\|THURSDAY\|FRIDAY\|SATURDAY/ {
+	i\
+	\\begin\{center\}
+	a\
+	\\end\{center\}
+	s/.*/\\normalsize &/
+}
+/INVITATORY/a\\\begin{center}
+/INVITATORY/,/^$/ {
+ /INVITATORY/{
+	s/.*/\\small\{\\uppercase\{INVITATORY:\}\}\\normalsize/
+ }
+ /INVITATORY/!{
+  /^$/!{
+	s/\(.*\)/\\textit\{\1\\\\\}/;
+  }
+ }
+ /^$/{
+	s/$/\\end\{center\}/
+ }
+}
+
+#	s/PRAYER:/\\noindent\\small\{\\uppercase\{&\}\}\\begin\{description\}\[labelindent=\\parindent, leftmargin=\*\]/
+	s/PRAYER:/\\noindent\\small\{\\uppercase\{&\}\}/
+	s/\(BENEDICTUS:\|MAGNIFICAT:\)\(.*\)/\\noindent\\small\{\\uppercase\{\1\}\}\2\\\\/;
+	s/LAUDS\|.*VESPERS\|VIGILS/\\begin\{flushleft\}\\normalsize\{\\uppercase\{&\\\\\}\}\\end\{flushleft\}/;
+/SEXT/,/^-/ {
+	/SEXT/ {
+		s/.*/\\begin\{flushleft\}\\normalsize\{\\uppercase\{&\\\\}\}\\end\{flushleft\}/;
+	}
+#	/PSALMODY\|SEXT\|Ps\|READING\|^$\|^-/ !{
+#		s/.*/\\begin\{center\}\\textit\{&\\\\/
+#	}
+	/^-/ {
+		s/.*/&\}\\end\{center\}/
+	}
+}
+	s/\(READING:\)\(.*[0-9]\)\s\(.*\)/\\noindent\\small\{\\uppercase\{\1\}\}\2 \\textbf\{\3\\\\\}/;
+	s/\(HYMN\)\( [pP]\. ?\)/\\small\{\\uppercase\{\1\} p. \\pageref\{lent:firstHymn\}-\\pageref\{lent:lastHymn\}\\\\\}/;
+#	$!{
+#		H
+#		d
+#	}
+#	$ {
+#		x
+#	}
+#}

@@ -1,0 +1,41 @@
+s/\(.*Season.*\)/\\begin\{center\}\\noindent\\textsc\{\\small\{\1\\\\\}\}\\end\{center\}/;
+/Hymn\>/,/Amen/ { 
+/Hymn\>/{                                             # if line matches Hymn
+s/.*/\\noindent\\small\{\\uppercase\{&\}\}\\normalsize/       # replace as required
+h                                                   # copy over the hold space
+s/.*/\\begin\{verse\}/                              # replace with \begin{verse}
+H                                                   # append to hold space
+d                                                   # delete the line
+}
+/Amen/!{                                            # if line doesn't match Amen 
+/^$/!{                                              # and if line is not empty
+s/$/\\\\/                                           # add trailing \\
+}
+H                                                   # append to hold space
+d                                                   # then delete line
+}
+//{                                                 # if line matches Amen
+s/$/\\\\!/                                          # add trailing \\!
+H                                                   # append to hold space
+s/.*/\\end\{verse\}/                                # replace with \end{verse}
+H                                                   # append to hold space
+s/.*//                                              # empty pattern space
+x                                                   # exchange buffers
+s/\n\n/!&/g                                         # add ! at end of each para
+}
+}
+#/Amen/ s/Amen./Amen.\n\\end{verse}/
+#/INVITATORY/a\\\begin{center}
+#/INVITATORY/,/^$/ {
+# /INVITATORY/{
+#	s/.*/\\small\{\\uppercase\{INVITATORY:\}\}\\normalsize/
+# }
+# /INVITATORY/!{
+#  /^$/!{
+#	s/\(.*\)/\\textit\{\1\\\\\}/;
+#  }
+# }
+# /^$/{
+#	s/$/\\end\{center\}/
+# }
+#}
