@@ -110,7 +110,7 @@
 
 	\addlyrics {
 		Du ciel vint u -- ne "voix :" Je l'ai glo -- ri -- fié. " Al" -- le -- lu -- "ia !"
- 		%Then a voice came from heav -- en, “I have glor -- i -- fied it and will glor -- i -- fy it a -- gain.
+ 		%Then a voice came from heav -- en, “I have glor -- i -- fied it and will glor -- i -- fy it a -- gain. " Al" -- le -- lu -- "ia !"
  		\markup { \citation # "Jn 12:28" } }
 	
 	
