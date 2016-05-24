@@ -95,7 +95,7 @@
 
 	\addlyrics {
 		Pour -- quoi cher -- cher par -- mi les morts " ce" -- lui qui est vi -- "vant ?" Al -- le -- lu -- "ia !"
- 		%Why do you seek the li -- ving one a -- mong the dead?
+ 		%Why do you seek the li -- ving one a -- mong the dead? Al -- le -- lu -- "ia !"
  		\markup { \citation #"Lk 24:5" } }
 	
 	
