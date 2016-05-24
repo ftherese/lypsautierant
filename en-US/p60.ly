@@ -23,7 +23,8 @@
 	\addlyrics {
 		
 		Les oi -- seaux "du ci" -- el ont des a -- bris, le Fils de l'hom -- me n'a pas où re -- po -- ser sa tê -- te.
-		\markup { \citation #"Mt 8" } }
+		%Je -- sus an -- swered him, “Fox -- es have dens and birds of the sky have nests, but the Son of Man has no -- where to rest his head.”
+		\markup { \citation #"Mt 8:20" } }
 	
 	
 }
@@ -44,7 +45,8 @@
 	\addlyrics {
 		
 		Ce -- lui qui siè -- ge sur le trô -- ne é -- ten -- dra sur eux sa ten -- te. "(Al" -- le -- lu -- - -- "ia !)"
-		\markup { \citation #"Ap 7" } }
+		%The one who sits on the throne will shel -- ter them.
+		\markup { \citation #"Rv 7:15" } }
 	
 	
 }
@@ -64,7 +66,8 @@
 	\addlyrics {
 		
 		Telle est l'a -- ssu -- ran -- ce que nous av -- ons aup -- rès de "lui :" il nous é -- cou -- te.
-		\markup { \citation #"1 Jn 5" } }
+		%And we have this con -- fi -- dence in him, that if we ask any -- thing a -- ccord -- ing to his will, he hears us.
+		\markup { \citation #"1 Jn 5:14" } }
 	
 	
 }
