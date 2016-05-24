@@ -45,7 +45,7 @@
 	\addlyrics {
 		
 		Ce -- lui qui siè -- ge sur le trô -- ne é -- ten -- dra sur eux sa ten -- te. "(Al" -- le -- lu -- - -- "ia !)"
-		%The one who sits on the throne will shel -- ter them.
+		%The one who sits on the throne will shel -- ter them. "(Al" -- le -- lu -- - -- "ia !)"
 		\markup { \citation #"Rv 7:15" } }
 	
 	
