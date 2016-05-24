@@ -22,7 +22,8 @@
 	}
 	\addlyrics {
 		Ain -- si l'a vou -- lu sa bon -- té, à la lou -- an -- ge de gloi -- re de sa grâ -- ce.
-		\markup { \citation #"Ep 1" } 
+		%In a -- ccord with the fa -- vor of his will, for the praise of the glor -- y of his grace that he grant -- ed us in the be -- lov -- ed.
+		\markup { \citation #"Eph 1:5-6" } 
 	}
 }
 \relative a' { 
@@ -42,7 +43,8 @@
 	}
 	\addlyrics {
 		Son vi -- sage é -- tait com -- me le so -- leil quand il bril -- le dans tout son é -- clat.
-		\markup { \citation #"Ap 1" } 
+		%His face shone like the sun at its bright -- est.
+		\markup { \citation #"Rv 1:16" } 
 	}
 }
 \relative a' { 
@@ -60,7 +62,8 @@
 	}
 	\addlyrics {
 		Que le Seign -- eur fa -- sse res -- plen -- dir sur vous son vi -- sa -- ge et vous ac -- cor -- de sa grâ -- ce.
-		\markup { \citation #"Nb 6" } 
+		%The Lord let his face shine up -- on you, and be gra -- cious to you!
+		\markup { \citation #"Nm 6:25" } 
 	}
 }
 
@@ -77,7 +80,8 @@
 	}
 	\addlyrics {
 		Dans l'ac -- tion de grâ -- ces, pri -- ez et supp -- li -- ez pour pré -- sen -- ter à Dieu vos de -- man -- des.
-		\markup { \citation #"Ph 4" }
+		%Have no an -- xi -- e -- ty at all, but in ev -- er -- y -- thing, by prayer and pe -- ti -- tion, with thanks -- giv -- ing, make your re -- quests known to God.
+		\markup { \citation #"Phil 4:6" }
 	}
 }
 \relative a' { 
@@ -102,7 +106,8 @@
 	}
 	\addlyrics {
 		J'en -- ten -- dis com -- me la ru -- meur d'u -- ne foule im -- men -- se qui di -- "sait :" Al -- le -- lu -- ia, al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Ap 19" } 
+		%Af -- ter this I heard what soun -- ded like the loud voice of a great mul -- ti -- tude in heav -- en, say -- ing: Al -- le -- lu -- ia, al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Rv 19:1" } 
 	}
 }
 
