@@ -18,7 +18,8 @@
 
 	\addlyrics {
 		Il paît son trou -- peau par -- mi les lys.
-		\markup { \citation #"Ct 2" } }
+		%My lov -- er be -- longs to me and I to him; he feeds a -- mong the lil -- ies.
+		\markup { \citation #"Sg 2:16" } }
 	
 	
 }
@@ -40,7 +41,8 @@
 
 	\addlyrics {
 		Les viei -- llards a -- do -- rent ce -- lui qui vit dans les siè -- cles. "(Al" -- le -- lu -- "ia !)" _ _ 
-		\markup { \citation #"Ap 4" } }
+		%The twen -- ty-four el -- ders fall down be -- fore the one who sits on the throne and wor -- ship him, who lives for -- ev -- er and ev -- er.  "(Al" -- le -- lu -- "ia !)"
+		\markup { \citation #"Rv 4:10" } }
 	
 	
 }
