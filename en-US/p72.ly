@@ -59,7 +59,8 @@
 
 	\addlyrics {
 		March -- ez tant que vous av -- ez la lu -- miè -- re.
- 		\markup { \citation #"Jn 12" } }
+		%Walk while you have the light.
+ 		\markup { \citation #"Jn 12:35" } }
 	
 	
 }
@@ -79,7 +80,8 @@
 
 	\addlyrics {
 		J'ai pri -- é pour toi, a -- fin que ta foi ne dé -- fail -- le pas.
- 		\markup { \citation #"Lc 22" } }
+		%I have prayed that your own faith may not fail.
+ 		\markup { \citation #"Lk 22:32" } }
 	
 	
 }
@@ -102,7 +104,8 @@
 
 	\addlyrics {
 		Pè -- re, je leur ai don -- né la gloi -- - -- re que tu m'as don -- née. Al -- le -- lu -- - -- "ia !"
- 		\markup { \citation #"Jn 17" } }
+		%I have giv -- en them the glor -- y you gave me. Al -- le -- lu -- - -- "ia !"
+ 		\markup { \citation #"Jn 17:22" } }
 	
 	
 }

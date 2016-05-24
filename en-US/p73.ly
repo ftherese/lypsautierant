@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 73" "Mode 8" \null \null } }
@@ -17,8 +17,9 @@
 	}
 
 	\addlyrics {
-		Jus -- ques à  quand tar -- de -- ras- -- tu à  fai -- re jus -- ti -- "ce ?"
-		\markup { \citation #"Ap 6" } }
+		Jus -- ques à  quand tar -- de -- ras- -- tu à  fai -- re jus -- ti -- "ce ?"
+		%They cried out in a loud voice, “How long will it be, holy and true master, be -- fore you sit in judg -- ment and avenge our blood on the inhabitants of the earth?”
+		\markup { \citation #"Rv 6:10" } }
 	
 	
 }
@@ -38,7 +39,8 @@
 
 	\addlyrics {
 		Il ava -- it ju -- ré à no -- tre père Ab -- ra -- ham qu'il nous dé -- liv -- rer -- ait des mains de l'e -- nne -- mi.
-		\markup { \citation #"Lc 1" } }
+		%and of the oath he swore to Abraham our father,and to grant us that, rescued from the hand of enemies, without fear we might worship him. 
+		\markup { \citation #"Lk 1:73-74" } }
 	
 	
 }
@@ -56,8 +58,9 @@
 	}
 
 	\addlyrics {
-		Le Fils de l'homme est li -- vré aux mains des hom -- mes. 
-		\markup { \citation #"Mc 9" } }
+		Le Fils de l'homme est li -- vré aux mains des hom -- mes.
+		%The Son of Man is to be hand -- ed o -- ver to men.
+		\markup { \citation #"Mk 9:31" } }
 	
 	
 }
@@ -80,7 +83,8 @@
 
 	\addlyrics {
 		Dé -- trui -- sez ce tem -- ple, en trois jours je le re -- lè -- ve -- rai. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Jn 2" } }
+		%Des -- troy this tem -- ple and in three days I will raise it up. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Jn 2:19" } }
 	
 	
 }

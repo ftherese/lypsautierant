@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #10 \fill-line { "Psalm 77 A" "Mode 1" \null \null } }
 \noPageBreak
@@ -22,7 +22,8 @@
 
 	\addlyrics {
 		Je pro -- fé -- re -- rai des cho -- ses ca -- chées de -- puis la fon -- da -- tion du mon -- de.
- 		\markup { \citation #"Mt 13" } }
+		%I will an -- nounce what has lain hid -- den from the foun -- da -- tion [of the world].
+ 		\markup { \citation #"Mt 13:35" } }
 	
 	
 }
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		Le pain de Dieu qui des -- cend du ciel don -- ne la vie au mon -- de.
- 		\markup { \citation #"Jn 6" } }
+		%The bread of God is that which comes down from hea -- ven and gives life to the world.
+ 		\markup { \citation #"Jn 6:33" } }
 	
 	
 }
@@ -59,8 +61,9 @@
 	}
 
 	\addlyrics {
-		Ils bu -- vaient à  un ro -- cher spi -- ri -- tu -- el, ce ro -- cher é -- tait le Christ.
- 		\markup { \citation #"1 Co 10" } }
+		Ils bu -- vaient à  un ro -- cher spi -- ri -- tu -- el, ce ro -- cher é -- tait le Christ.
+		%and all drank the same spir -- it -- ual drink, for they drank from a spir -- it -- ual rock that fol -- lowed them, and the rock was the Christ.
+ 		\markup { \citation #"1 Cor 10:4" } }
 	
 	
 }
@@ -85,7 +88,8 @@
 
 	\addlyrics {
 		En Mo -- ï -- se, nos pères ont é -- té bap -- ti -- sés, dans la nu -- ée et dans la mer. Al -- le -- lu -- - -- "ia !"
- 		\markup { \citation #"1 Co 10" } }
+		%All of them were baptized into Moses in the cloud and in the sea. Al -- le -- lu -- - -- "ia !"
+ 		\markup { \citation #"1 Cor 10:2" } }
 	
 	
 }

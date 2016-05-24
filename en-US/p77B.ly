@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #10 \fill-line { "Psalm 77 B" "Mode 6" \null \null } }
 \noPageBreak
@@ -20,7 +20,8 @@
 
 	\addlyrics {
 		Il nous a fait re -- vivre a -- vec lui, nous par -- don -- nant nos fau -- "tes !"
- 		\markup { \citation #"Col 2" } }
+		%He brought you to life a -- long with him, hav -- ing for -- giv -- en us all our trans -- gre -- ssions. 
+ 		\markup { \citation #"Col 2:13" } }
 	
 	
 }
@@ -40,7 +41,8 @@
 
 	\addlyrics {
 		Je re -- lè -- ve -- rai la ten -- te de Da -- vid.
- 		\markup { \citation #"Ac 15" } }
+		%Af -- ter this I shall re -- turn and re -- build the fall -- en hut of Da -- vid.
+ 		\markup { \citation #"Acts 15:16" } }
 	
 	
 }
@@ -61,7 +63,8 @@
 
 	\addlyrics {
 		Il est é -- "crit :" Tu ne ten -- te -- ras pas le Sei -- gneur ton Dieu.
- 		\markup { \citation #"Mt 4" } }
+		%A -- gain it is writ -- ten, ‘You shall not put the Lord, your God, to the test.'
+ 		\markup { \citation #"Mt 4:7" } }
 	
 	
 }
@@ -87,7 +90,8 @@
 
 	\addlyrics {
 		Sei -- gneur, Dieu tout- -- puis -- sant, vé -- ri -- di -- ques et jus -- tes, tes ju -- ge -- "ments !" Al -- le -- lu -- - -- "ia !"
- 		\markup { \citation #"Ap 16" } }
+		%Yes, Lord God al -- might -- y, your judg -- ments are true and just. Al -- le -- lu -- - -- "ia !"
+ 		\markup { \citation #"Rv 16:7" } }
 	
 	
 }

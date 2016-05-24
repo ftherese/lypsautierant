@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 75" "Mode 5" \null \null } }
@@ -17,7 +17,8 @@
 	}
 	\addlyrics {
 		Ce -- lui qui siè -- ge sur le trô -- ne ét -- en -- dra sur eux sa ten -- te.
-		\markup { \citation #"Ap 7" }
+		%The one who sits on the throne will shel -- ter them.
+		\markup { \citation #"Rv 7:15" }
 	}
 }
 
@@ -42,7 +43,8 @@
 	}
 	\addlyrics {
 		Dé -- plo -- yant la for -- ce de son bras, il dis -- per -- se les su -- per -- bes. "(Al" -- le -- lu -- "ia !)" _ _
-		\markup { \citation #"Lc 1" }
+		%He has shown might with his arm, dis -- persed the ar -- ro -- gant of mind and heart. "(Al" -- le -- lu -- "ia !)" _ _
+		\markup { \citation #"Lk 1:51" }
 	}
 }
 \relative a' { 
@@ -61,7 +63,8 @@
 	}
 	\addlyrics {
 		On ver -- ra ve -- nir le Fils de l'hom -- me sur les nu -- ées du ciel.
-		\markup { \citation #"Mt 24" }
+		%They will see the Son of Man com -- ing up -- on the clouds of hea -- ven with power and great glory.
+		\markup { \citation #"Mt 24:30" }
 	}
 }
 
@@ -80,7 +83,8 @@
 	}
 	\addlyrics {
 		Le Ver -- be s'est fait chair, il a dres -- sé sa  ten -- te par -- mi nous.
-		\markup { \citation #"Jn 1" }
+		%The Word be -- came flesh and made his dwell -- ing a -- mong us.
+		\markup { \citation #"Jn 1:14" }
 	}
 }
 
@@ -99,6 +103,7 @@
 	}
 	\addlyrics {
 		Dieu ne nous a pas ré -- ser -- vés pour la co -- lè -- re mais pour le sa -- lut.
-		\markup { \citation #"1 Th 5" }
+		%God did not des -- tine us for wrath, but to gain sal -- va -- tion through our Lord Je -- sus Christ.
+		\markup { \citation #"1 Thes 5:9" }
 	}
 }

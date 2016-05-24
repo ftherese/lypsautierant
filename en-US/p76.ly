@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 
@@ -29,7 +29,8 @@
 	\addlyrics {
 		
 		Hom -- me de peu de foi, pour -- quoi as- -- tu dou -- "té ?"
-		\markup { \citation #"Mt 14" } }
+		%O you of lit -- tle faith, why did you doubt?
+		\markup { \citation #"Mt 14:31" } }
 	
 	
 }
@@ -51,7 +52,8 @@
 	\addlyrics {
 		
 		Bé -- ni soit Dieu, le Pè -- re des mi -- sé -- ri -- cor -- des.
-		\markup { \citation #"2 Co 1" } }
+		%Bless -- ed be the God and Fa-- ther of our Lord Jesus Christ, the Fa -- ther of com -- pa -- ssion and God of all en -- courage -- ment.
+		\markup { \citation #"2 Cor 1:3" } }
 	
 	
 }
@@ -70,7 +72,8 @@
 	\addlyrics {
 		
 		Sans ret -- ard, le Sei -- gneur ac -- com -- pli -- ra sa pa -- ro -- le sur la te -- rre.
-		\markup { \citation #"Rm 9" } }
+		%for de -- ci -- sive -- ly and quick -- ly will the Lord ex -- e -- cute sen --tence up -- on the earth.
+		\markup { \citation #"Rom 9:28" } }
 	
 	
 }
@@ -90,7 +93,8 @@
 	\addlyrics {
 		
 		Jé -- sus vint vers eux en mar -- chant sur la mer.
-		\markup { \citation #"Mc 6" } }
+		%He came to -- ward them walk -- ing on the sea.
+		\markup { \citation #"Mk 6:48" } }
 	
 	
 }
@@ -117,6 +121,7 @@
 
 	\addlyrics {
 		Jé -- sus Christ est le mê -- me, hi -- er, au -- jour -- d'hui et à ja -- mais. Al -- le -- lu -- "ia !" _ _
-		\markup { \citation #"He 13" } }
+		%Je -- sus Christ is the same yes -- ter -- day, today, and for -- ev -- er. Al -- le -- lu -- "ia !" _ _
+		\markup { \citation #"Heb 13:8" } }
 }
 

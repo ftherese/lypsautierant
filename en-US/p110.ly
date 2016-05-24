@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 110" "Mode 7" \null \null } }
 \noPageBreak
@@ -22,7 +22,8 @@
 
 	\addlyrics {
 		Ma chair est la vraie nour -- ri -- tu -- re et mon sang, la vraie bois -- son.
-		\markup { \citation #"Jn 6" } }
+		%For my flesh is true food, and my blood is true drink.
+		\markup { \citation #"Jn 6:55" } }
 	
 	
 }
@@ -41,8 +42,9 @@
 	}
 
 	\addlyrics {
-		Ils ét -- aient fi -- dèles à la co -- mmu -- nion fra -- ter -- ne -- lle, à la fra -- ction du pain et aux pri -- èr -- es. 
-		\markup { \citation #"Ac 2" } }
+		Ils ét -- aient fi -- dèles à la co -- mmu -- nion fra -- ter -- ne -- lle, à la fra -- ction du pain et aux pri -- èr -- es.
+		%They de -- vo -- ted them -- selves to the teach -- ing of the apost -- les and to the comm -- u -- nal life, to the break -- ing of the bread and to the prayers.
+		\markup { \citation #"Acts 2:42" } }
 	
 	
 }
@@ -59,7 +61,8 @@
 
 	\addlyrics {
 		Il se sou -- vient de son al -- lian -- ce sain -- te.
-		\markup { \citation #"Lc 1" } }
+		%to show mer -- cy to our fa -- thers and to be mind -- ful of his ho -- ly cov -- e -- nant.
+		\markup { \citation #"Lk 1:72" } }
 	
 	
 }
@@ -79,7 +82,8 @@
 
 	\addlyrics {
 		Il nous faut tra -- vai -- ller aux œu -- vres de ce -- lui qui m'a en -- vo -- yé.
-		\markup { \citation #"Jn 9" } }
+		%We have to do the works of the one who sent me while it is day. 
+		\markup { \citation #"Jn 9:4" } }
 	
 	
 }
@@ -107,7 +111,8 @@
 
 	\addlyrics {
 		C'est là l'œu -- vre du Seig -- neur, u -- ne mer -- veille à nos yeux. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Mc 12" } }
+		%By the Lord has this been done, and it is won -- der -- ful in our eyes. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Mk 12:11" } }
 	
 	
 }

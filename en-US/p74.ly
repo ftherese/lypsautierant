@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 74" "Mode 4" \null \null } }
@@ -23,7 +23,8 @@
 
 	\addlyrics {
 		Qui s'é -- lè -- ve se -- ra a -- bais -- sé, qui s'a -- bais -- se se -- ra é -- le -- vé.
-		\markup { \citation #"Lc 14" } 
+		%For eve -- ry -- one who exalts him -- self will be humb -- led, but the one who hum -- bles him -- self will be ex -- alt -- ed.
+		\markup { \citation #"Lk 14:11" } 
 	}
 }
 
@@ -44,7 +45,8 @@
 
 	\addlyrics {
 		Il ren -- ver -- se les puis -- sants de leurs trô -- nes, il é -- lè -- ve les hum -- bles.
-		\markup { \citation #"Lc 1" } 
+		%He has thrown down the rul -- ers from their thrones but lif -- ted up the low -- ly.
+		\markup { \citation #"Lk 1:52" } 
 	}
 }
 
@@ -69,7 +71,8 @@
 
 	\addlyrics {
 		Ils ver -- ront sa fa -- ce, et son nom se -- ra sur leurs fronts. "Al" -- le -- lu -- "ia !" _ _
-		\markup { \citation #"Ap 22" } 
+		%They will look up -- on his face, and his name will be on their fore -- heads. "Al" -- le -- lu -- "ia !" _ _
+		\markup { \citation #"Rv 22:4" } 
 	}
 }
 
@@ -90,7 +93,8 @@
 
 	\addlyrics {
 		Un seul est ju -- ge, ce -- lui qui peut sau -- ver.
-		\markup { \citation #"Jc 4" } 
+		%There is one law -- giv -- er and judge who is ab -- le to save or to des -- troy. 
+		\markup { \citation #"Jas 4:12" } 
 	}
 }
 

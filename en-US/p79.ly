@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 79" "Mode 3" \null \null } }
 \noPageBreak
@@ -19,7 +19,8 @@
 	\addlyrics {
 		
 		Je m'en vais et re -- vien -- drai vers vous.
-		\markup { \citation #"Jn 14" } }
+		%And if I go and prepare a place for you, I will come back a -- gain and take you to my -- self, so that where I am you also may be.
+		\markup { \citation #"Jn 14:3" } }
 	
 	
 }
@@ -39,7 +40,8 @@
 	\addlyrics {
 		
 		Qui de -- meure en moi, por -- te beau -- coup de fruit.
-		\markup { \citation #"Jn 15" } }
+		%Who -- ev -- er re -- mains in me and I in him will bear much fruit.
+		\markup { \citation #"Jn 15:5" } }
 	
 	
 }
@@ -65,7 +67,8 @@
 	\addlyrics {
 		
 		De toi sor -- ti -- ra le chef qui fe -- ra paî -- tre mon peuple Is -- ra -- ël.
-		\markup { \citation #"Mt 2" } }
+		%From you shall come a rul -- er, who is to shep -- herd my peop -- le Is -- ra -- el.
+		\markup { \citation #"Mt 2:6" } }
 	
 	
 }
@@ -85,7 +88,8 @@
 	\addlyrics {
 		
 		Son vi -- sa -- ge res -- plen -- dit com -- me le so -- leil. Al -- le -- lu -- "ia !" _
-		\markup { \citation #"Mt 17" } }
+		%His face shone like the sun. Al -- le -- lu -- "ia !" _
+		\markup { \citation #"Mt 17:2" } }
 	
 	
 }

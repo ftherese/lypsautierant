@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 78" "Mode 2" \null \null } }
@@ -22,7 +22,8 @@
 
 	\addlyrics {
 		Vo -- yant la vil -- le, Jé -- sus pleu -- ra sur el -- le.
- 		\markup { \citation #"Lc 19" } }
+		%As he drew near, he saw the cit -- y and wept o -- ver it.
+ 		\markup { \citation #"Lk 19:41" } }
 	
 	
 }
@@ -42,7 +43,8 @@
 
 	\addlyrics {
 		Si tu a -- vais con -- nu en ce jour, le mes -- sa -- ge de "paix !"
- 		\markup { \citation #"Lc 19" } }
+		%If this day you on -- ly knew what makes for peace—but now it is hidden from your eyes.
+ 		\markup { \citation #"Lk 19:42" } }
 	
 	
 }
@@ -62,8 +64,9 @@
 	}
 
 	\addlyrics {
-		Le Dieu fi -- dè -- le vous af -- fer -- mi -- ra et vous gar -- de -- ra de tout mal. "(Al" -- le -- lu -- "ia !)" 
- 		\markup { \citation #"2 Th 3" } }
+		Le Dieu fi -- dè -- le vous af -- fer -- mi -- ra et vous gar -- de -- ra de tout mal. "(Al" -- le -- lu -- "ia !)"
+		%But the Lord is faith -- ful; he will streng -- then you and guard you from the ev -- il one. "(Al" -- le -- lu -- "ia !)"
+ 		\markup { \citation #"2 Thes 3:3" } }
 	
 	
 }
@@ -85,7 +88,8 @@
 
 	\addlyrics {
 		Con -- ver -- tis -- sez-  -- vous a -- fin que vos péch -- és soient ef -- fa -- cés.
- 		\markup { \citation #"Ac 3" } }
+		%Re -- pent, there -- fore, and be con -- ver -- ted, that your sins may be wiped a -- way.
+ 		\markup { \citation #"Acts 3:19" } }
 	
 	
 }
