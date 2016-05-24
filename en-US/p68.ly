@@ -22,7 +22,8 @@
 
 	\addlyrics {
 		C'est pour vous que le Christ a souf -- fert, a -- fin que vous sui -- viez ses tra -- ces.
-		\markup { \citation #"1 P 2" } }
+		%For to this you have been call -- ed, be -- cause Christ also suf -- fered for you, leav -- ing you an ex -- ample that you should fol -- low in his foot -- steps.
+		\markup { \citation #"1 P 2:21" } }
 	
 	
 }
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		Pè -- re, sau -- ve- -- moi de cette heu -- re, mais c'est pour cette heu -- re que je suis ve -- nu.
-		\markup { \citation #"Jn 12" } }
+		%‘Fa -- ther, save me from this hour’? But it was for this pur -- pose that I came to this hour. 
+		\markup { \citation #"Jn 12:27" } }
 	
 	
 }
@@ -60,7 +62,8 @@
 
 	\addlyrics {
 		C'est main -- te -- nant le mo -- ment fa -- vo -- ra -- ble, c'est main -- te -- nant le jour du sa -- lut.
-		\markup { \citation #"2 Co 6" } }
+		%Be -- hold, now is a ver -- y ac -- cep -- ta -- ble time; be -- hold, now is the day of sal -- va -- tion. 
+		\markup { \citation #"2 Cor 6:2" } }
 	
 	
 }
@@ -80,7 +83,8 @@
 
 	\addlyrics {
 		Re -- le -- vez- -- vous, n'a -- yez pas "peur !" Al -- le -- lu -- ia, al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Mt 17" } }
+		% Rise, and do not be a -- fraid. Al -- le -- lu -- ia, al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Mt 17:7" } }
 	
 	
 }
