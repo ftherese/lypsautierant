@@ -23,7 +23,8 @@
 	}
 	\addlyrics {
 		Je vais bien -- tôt ve -- nir à toi pour les com -- battre a -- vec l'é -- pée de ma bou -- che.
-		\markup { \citation #"Ap 22" }
+		%There -- fore, re -- pent. Other -- wise, I will come to you quick -- ly and wage war a -- gainst them with the sword of my mouth.
+		\markup { \citation #"Rv 2:16" }
 	}
 }
 
@@ -45,7 +46,8 @@
 	}
 	\addlyrics {
 		Ils se re -- ti -- rè -- rent en com -- men -- çant par les an -- ciens et Jé -- sus res -- ta seul a -- vec la fem -- me.
-		\markup { \citation #"Jn 8" }
+		%They went a -- way one by one, be -- ginn -- ing with the el -- ders. So he was left a -- lone with the wo -- man be -- fore him. 
+		\markup { \citation #"Jn 8:9" }
 	}
 }
 
@@ -67,7 +69,8 @@
 	}
 	\addlyrics {
 		Par cet en -- fant se -- ront dé -- voi -- lées les pen -- sées sec -- rè -- tes des cœurs.
-		\markup { \citation #"Lc 2" }
+		%“Be -- hold, this child is des -- tined for the fall and rise of ma -- ny in Is -- ra -- el, and to be a sign that will be con -- tra -- dict -- ed (and you your -- self a sword will pierce) so that the thoughts of ma -- ny hearts may be re -- vealed.”
+		\markup { \citation #"Lk 2:34-35" }
 	}
 }
 \relative f' { 
@@ -85,7 +88,8 @@
 	}
 	\addlyrics {
 		Ils re -- gar -- de -- ront ce -- lui qu'ils ont trans -- per -- cé.
-		\markup { \citation #"Jn 19" }
+		%“They will look up -- on him whom they have pierced.”
+		\markup { \citation #"Jn 19:37" }
 	}
 }
 
@@ -110,7 +114,8 @@
 	}
 	\addlyrics {
 		Je suis ce -- lui qui scru -- te les reins et les "cœurs ;" et je vous ren -- drai à cha -- cun se -- lon vos œu -- vres. Al -- le -- lu -- "ia !"
-		\markup { \citation #"Ap 2" }
+		%I am the sear -- cher of hearts and minds and that I will give each of you what your works de -- serve. Al -- le -- lu -- "ia !"
+		\markup { \citation #"Rv 2:23" }
 	}
 }
 
