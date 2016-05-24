@@ -17,7 +17,8 @@
 
 	\addlyrics {
 		De -- man -- dez et vous re -- cev -- rez, af -- in que vo -- "tre jo" -- ie soit en plé -- ni -- tu -- de.
-		\markup { \citation #"Jn 16" } 
+		%Ask and you will re -- ceive, so that your joy may be com -- plete.
+		\markup { \citation #"Jn 16:24" } 
 	}
 }
  
@@ -40,7 +41,8 @@
 
 	\addlyrics {
 		La Sa -- ges -- se leur fit tra -- ver -- ser la mer Rou -- "ge ;" elle en -- glou -- tit leurs en -- ne -- mis.
-		\markup { \citation #"Sg 10" } 
+		%She took them a -- cross the Red Sea and brought them through the deep wa -- ters. Their en -- e -- mies she over -- whelmed, and churned them up from the bot -- tom of the depths.
+		\markup { \citation #"Wis 10:18-19" } 
 	}
 }
 
@@ -61,7 +63,8 @@
 
 	\addlyrics {
 		Les ber -- gers glo -- ri -- fiaient Dieu pour tout ce qu'ils a -- vaient vu.
-		\markup { \citation #"Lc 2" } 
+		%Then the shep -- herds re -- turned, glor -- i -- fy -- ing and prais -- ing God for all they had heard and seen, just as it had been told to them.
+		\markup { \citation #"Lk 2:20" } 
 	}
 }
 
@@ -83,7 +86,8 @@
 
 	\addlyrics {
 		Les viv -- ants ren -- dront gloire à ce -- lui qui trô -- - -- ne, et les viei -- llards se pro -- ste -- rne -- ront dev -- ant lui. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Rm 6" } 
+		%All the an -- gels stood a -- round the throne and a -- round the el -- ders and the four liv -- ing crea -- tures. They pro -- strat -- ed them -- selves be -- fore the throne, wor -- shiped God, Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Rv 6:11" } 
 	}
 }
 
