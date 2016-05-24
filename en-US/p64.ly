@@ -22,7 +22,8 @@
 
 	\addlyrics {
 		Du grain est tom -- bé dans la bon -- ne ter -- re et a pro -- duit du fruit.
-		\markup { \citation #"Lc 8" } }
+		%And some seed fell on good soil, and when it grew, it pro -- duced fruit a hun -- dred -- fold.”
+		\markup { \citation #"Lk 8:8" } }
 	
 	
 }
@@ -48,7 +49,8 @@
 	\addlyrics {
 		
 		De sa plé -- ni -- tu -- de nous a -- vons tous re -- çu, et grâ -- ce sur grâ -- ce.
-		\markup { \citation #"Jn 1" } }
+		%From his full -- ness we have all re -- ceiv -- ed, grace in place of grace.
+		\markup { \citation #"Jn 1:16" } }
 	
 	
 }
@@ -75,7 +77,8 @@
 	\addlyrics {
 		
 		Le voi -- "ci !" Il vient, bon -- dis -- sant sur les mon -- ta -- gnes, sau -- tant sur les col -- li -- "nes !"
-		\markup { \citation #"Ct 2" } }
+		%The sound of my lov -- er! here he comes spring -- ing a -- cross the moun -- tains, leap -- ing a -- cross the hills.
+		\markup { \citation #"Sg 2:8" } }
 	
 	
 }
@@ -98,7 +101,8 @@
 	\addlyrics {
 		
 		Maî -- - -- tre, où de -- meu -- res- -- "tu ?"
-		\markup { \citation #"Jn 1" } }
+		%“Rab -- bi” (which trans -- lat -- ed means Teach -- er), “where are you stay -- ing?”
+		\markup { \citation #"Jn 1:38" } }
 	
 	
 }
@@ -119,6 +123,7 @@
 
 	\addlyrics {
 		Par les mains des a -- pôt -- res, il se fai -- sait de nomb -- reux sig -- nes par -- mi le peu -- ple. Al -- le -- lu -- - -- "ia !"	
-		\markup { \citation #"Ac 5" } }
+		%Ma -- ny signs and won -- ders were done a -- mong the peo -- ple at the hands of the a -- postles. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Ac 5:12" } }
 		
 }
