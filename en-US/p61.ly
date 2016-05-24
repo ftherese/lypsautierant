@@ -112,7 +112,7 @@
 		\endBar
 	}	\addlyrics {
 		Ce ro -- cher, c'é -- tait le Christ. Al -- le -- lu -- - -- "ia !"
-		%The rock was the Christ.
+		%The rock was the Christ. Al -- le -- lu -- - -- "ia !"
 		\markup { \citation #"1 Cor 10:4"}
 	}
 }
