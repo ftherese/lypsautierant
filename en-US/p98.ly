@@ -23,7 +23,8 @@
 	}
 	\addlyrics {
 		 Saint, Saint, Saint le Sei -- gneur Dieu, Maî -- tre de "tout !"
-		\markup { \citation #"Ap 4" }
+		%Ho -- ly, ho -- ly, ho -- ly is the Lord God al -- migh -- ty.
+		\markup { \citation #"Rv 4:" }
 	}
 }
 
@@ -40,7 +41,8 @@
 	}
 	\addlyrics {
 		Nous cro -- yons, et nous av -- ons re -- con -- nu que tu es le saint de Dieu. 
-		\markup { \citation #"Jn 6" }
+		%We have come to be -- lieve and are con -- vinced that you are the Ho -- ly One of God.
+		\markup { \citation #"Jn 6:69" }
 	}
 }
 \relative a' { 
@@ -61,7 +63,8 @@
 	}
 	\addlyrics {
 		 La ro -- yau -- té du mon -- - -- de est à no -- tre Seign -- eur et à son Christ.
-		\markup { \citation #"Ap 11" }
+		%The king -- dom of the world now be -- longs to our Lord and to his A -- noin -- ted.
+		\markup { \citation #"Rv 11:15" }
 	}
 }
 
@@ -79,7 +82,8 @@
 	}
 	\addlyrics {
 		Dieu l'a ex -- al -- té af -- in qu'au nom de Jé -- sus tout ge -- nou flé -- chi -- sse.
-		\markup { \citation #"Ph 2" }
+		%Be -- cause of this, God great -- ly ex -- al -- ted him and be -- stowed on him the name that is a -- bove ev -- er -- y name, that at the name of Je -- sus ev -- er -- y knee should bend.
+		\markup { \citation #"Phil 2:9-10" }
 	}
 }
 
@@ -101,6 +105,7 @@
 	}
 	\addlyrics {
 		 E -- xal -- té par la droi -- te de Dieu, il a re -- çu du Pè -- re l'Es -- prit Saint. Al -- le -- lu -- "ia !" _ _
-		\markup { \citation #"Ac 2" }
+		%Ex -- al -- ted at the right hand of God, he re -- ceived the prom -- ise of the ho -- ly Spir -- it from the Fa -- ther. Al -- le -- lu -- "ia !"
+		\markup { \citation #"Acts 2:33" }
 	}
 }
