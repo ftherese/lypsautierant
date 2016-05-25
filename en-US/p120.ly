@@ -18,7 +18,8 @@
 	}
 	\addlyrics {
 		 Le Sei -- gneur est mon se -- cours, je ne crai -- ndrai pas. 
-		\markup { \citation #"He 13" }
+		%The Lord is my hel -- per, [and] I will not be a -- fraid.
+		\markup { \citation #"Heb 13:6" }
 	}
 }
 
@@ -38,7 +39,8 @@
 	}
 	\addlyrics {
 		 J'ai veil -- lé et au -- cun d'eux ne s'est per -- du.
-		\markup { \citation #"Jn 17" }
+		%I guar -- ded them, and none of them was lost ex -- cept the son of de -- struc -- tion.
+		\markup { \citation #"Jn 17:12" }
 	}
 }
 \relative a' { 
@@ -59,7 +61,8 @@
 	}
 	\addlyrics {
 		 Ils n'au -- ront plus be -- soin de la lu -- miè -- re du so -- leil, le Sei -- gneur les il -- lu -- mi -- ne -- ra.
-		\markup { \citation #"Ap 22" }
+		%Night will be no more, nor will they need light from lamp or sun, for the Lord God shall give them light, and they shall reign for -- ev -- er and ev -- er.
+		\markup { \citation #"Rv 22:5" }
 	}
 }
 \relative a' { 
@@ -81,7 +84,8 @@
 
 	\addlyrics {
 		Il s'hu -- mi -- lia jus -- qu'à  la mort, auss -- i Dieu l'a- -- t-il e -- xal -- té. Al -- le -- lu -- "ia !" _ _
- 		\markup { \citation #"Ph 2" } }
+ 		%He hum -- bled him -- self, be -- com -- ing o -- be -- dient to death, ev -- en death on a cross. Be -- cause of this, God great -- ly ex -- al -- ted him. Al -- le -- lu -- "ia !"
+ 		\markup { \citation #"Phil 2:8-9" } }
 	
 	
 }
