@@ -15,7 +15,8 @@
 	}
 	\addlyrics {
 		Je suis la Ré -- sur -- rec -- tion. Qui croit en moi, mê -- me s'il meurt, vi -- vra.
-		\markup { \citation #"Jn 11" }
+		%“I am the re -- sur -- rec -- tion and the life; who -- ev -- er be -- lieves in me, ev -- en if he dies, will live.
+		\markup { \citation #"Jn 11:25" }
 	}
 }
 \relative a' { 
@@ -31,7 +32,8 @@
 	}
 	\addlyrics {
 		 Nous som -- mes pas -- sés de la mort à la vie.
-		\markup { \citation #"1 Jn 3" }
+		%We know that we have passed from death to life.
+		\markup { \citation #"1 Jn 3:14" }
 	}
 }
 \relative a' { 
@@ -50,7 +52,8 @@
 	}
 	\addlyrics {
 		Dieu nous a don -- né la vie é -- ter -- nel -- le. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"1 Jn 5" }
+		%God gave us e -- ter -- nal life. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"1 Jn 5:11" }
 	}
 }
 
@@ -70,6 +73,7 @@
 	}
 	\addlyrics {
 		 Le Christ est res -- sus -- ci -- té d'en -- tre les morts. Al -- le -- lu -- "ia !" _ _
-		\markup { \citation #"Mt 28" }
+		%He has been raised from the dead. Al -- le -- lu -- "ia !"
+		\markup { \citation #"Mt 28:7" }
 	}
 }
