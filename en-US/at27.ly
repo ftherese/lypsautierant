@@ -15,7 +15,8 @@
 	}
 	\addlyrics {
 		Sei -- gneur, vers qui pour -- rions -- -nous al -- "ler ?"		
-		\markup { \citation #"Jn 6" } 
+		%Mas -- ter, to whom shall we go? 
+		\markup { \citation #"Jn 6:68" } 
 	}
 }
 
@@ -33,7 +34,8 @@
 	}
 	\addlyrics {
 		Je suis le Che -- min, la Vé -- ri -- té et la Vie.
-		\markup { \citation #"Jn 14" } 
+		%I am the way and the truth and the life. 
+		\markup { \citation #"Jn 14:6" } 
 	}
 }
 
@@ -52,7 +54,8 @@
 	}
 	\addlyrics {
 		Nous sav -- ons que c'est vrai -- ment lui le Sau -- veur du mon -- de.
-		\markup { \citation #"Jn 4" } 
+		%We know that this is tru -- ly the sav -- ior of the world.”
+		\markup { \citation #"Jn 4:42" } 
 	}
 }
 \relative d' { 
@@ -68,7 +71,8 @@
 	}
 	\addlyrics {
 		Moi, c'est ou -- ver -- te -- ment que j'ai par -- lé au mon -- de.
-		\markup { \citation #"Jn 18" } 
+		%I have spo -- ken pub -- lic -- ly to the world. 
+		\markup { \citation #"Jn 18:20" } 
 	}
 }
 \relative d' { 
@@ -83,6 +87,7 @@
 	}
 	\addlyrics {
 		Tour -- nez- -- vous vers le Dieu viv -- ant. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Ac 14" } 
+		%Turn from these i -- dols to the li -- ving God. Al -- le -- lu -- - -- "ia !
+		\markup { \citation #"Acts 14:15" } 
 	}
 }
