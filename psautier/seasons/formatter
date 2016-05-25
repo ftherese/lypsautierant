@@ -16,9 +16,9 @@
 
 /MONDAY\|TUESDAY\|WEDNESDAY\|THURSDAY\|FRIDAY\|SATURDAY/ {
 	i\
-	\\begin\{center\}
+\\begin\{center\}
 	a\
-	\\end\{center\}
+\\end\{center\}
 	s/.*/\\normalsize &/
 }
 /INVITATORY/a\\\begin{center}

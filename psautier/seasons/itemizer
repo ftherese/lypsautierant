@@ -1,0 +1,32 @@
+/BENEDICTUS\|PRAYERS\|MAGNIFICAT/,/^$/{
+	/BENEDICTUS\|PRAYERS\|MAGNIFICAT/ {
+		s/.*/\\noindent\\small &/;
+		a\
+\\begin\{description\}\[labelindent=\\parindent, leftmargin=\*\]
+	}
+	/^$\|BENEDICTUS\|PRAYERS\|MAGNIFICAT/ !{
+		s/\([^:]*:\)\(.*\)/\\item \[\1\] \2/
+	}
+	/^$/{
+		i\
+\\end\{description\}
+	}
+	${
+		a\
+\\end\{description\}
+	}
+}
+/READING/,/^$/ {
+	/READING/{
+		s/.*/\\noindent\\small &/
+		a\
+\\begin\{description\}\[labelindent=\\parindent, leftmargin=\*\]
+	}
+	/^$\|READING/ !{
+		s/\([^:]*:\)\(.*[0-9][abcd]\?\)\(.*\)/\\item \[\1\] \2 \\textbf\{\3\\\\\}/
+	}
+	/^$/{
+		i\
+\\end\{description\}
+	}
+}
