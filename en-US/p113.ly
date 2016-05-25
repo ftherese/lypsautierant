@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 113" "Mode 2" \null \null } }
 \noPageBreak
@@ -22,7 +22,8 @@
 
 	\addlyrics {
 		Jé -- sus fut bap -- ti -- sé "par Je" -- an dans le Jour -- dain.
-		\markup { \citation #"Mc 1" } 
+		%Je -- sus came from Nazareth of Galilee and was bap -- tized in the Jor -- dan by John.
+		\markup { \citation #"Mk 1:9" } 
 	}
 }
 \relative d' { 
@@ -40,7 +41,8 @@
 
 	\addlyrics {
 		Je suis ve -- nu pour qu'on ait la vie, et qu'on l'ait en ab -- on -- dan -- ce.
-		\markup { \citation #"Jn 10" } 
+		%I came so that they might have life and have it more ab -- un -- dant -- ly.
+		\markup { \citation #"Jn 10:10" } 
 	}
 }
 \relative d' { 
@@ -59,7 +61,8 @@
 
 	\addlyrics {
 		Tout ra -- vin se -- ra com -- blé et tou -- te mon -- tagne ab -- ais -- sée.
-		\markup { \citation #"Lc 3" } 
+		%Eve -- ry val -- ley shall be filled and eve -- ry moun -- tain and hill shall be made low.
+		\markup { \citation #"Lk 3:5" } 
 	}
 }
 
@@ -79,7 +82,8 @@
 
 	\addlyrics {
 		En toi se -- ront bé -- nies tou -- tes les fa -- mil -- les de la ter -- re.
-		\markup { \citation #"Ac 3" } 
+		%In your off-- spring all the fam -- i -- lies of the earth shall be bless -- ed.
+		\markup { \citation #"Acts 3:25" } 
 	}
 }
 
@@ -98,7 +102,8 @@ r8
 
 	\addlyrics {
 		Pet -- its enf -- ants, pre -- nez garde aux i -- do -- les.
-		\markup { \citation #"1 Jn 5" } 
+		%Chil -- dren, be on your guard against i -- dols
+		\markup { \citation #"1 Jn 5:21" } 
 	}
 }
 
@@ -124,6 +129,8 @@ r8
 	}
 
 	\addlyrics {
-		Bap -- ti -- sés en Jé -- sus Christ, c'est dans sa mort que nous a -- vons é -- té bap -- ti -- sés. " Al" -- le -- lu -- "ia !" 		\markup { \citation #"Rm 6" } 
+		Bap -- ti -- sés en Jé -- sus Christ, c'est dans sa mort que nous a -- vons é -- té bap -- ti -- sés. " Al" -- le -- lu -- "ia !" 
+		%Or are you unaware that we who were bap -- tized in -- to Christ Je -- sus were bap -- tized in -- to his death? " Al" -- le -- lu -- "ia !" 
+		\markup { \citation #"Rom 6:3" } 
 	}
 }

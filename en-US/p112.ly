@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 112" "Mode Peregrinus" \null \null } }
 \noPageBreak
@@ -19,7 +19,8 @@
 
 	\addlyrics {
 		Ce que vous de -- man -- de -- rez en mon nom, je le fe -- rai.
- 		\markup { \citation #"Jn 14" } }
+		%And whatever you ask in my name, I will do, so that the Father may be glorified in the Son. 14 If you ask anything of me in my name, I will do it.
+ 		\markup { \citation #"Jn 14:13?14?" } }
 }
 \relative a' { 
 	\new Staff {
@@ -37,7 +38,8 @@
 
 	\addlyrics {
 		Le nom de no -- tre Sei -- gneur Jé -- sus se -- ra glo -- ri -- fié en vous, et vous en lui.
- 		\markup { \citation #"2 Th 1" } }
+		%that the name of our Lord Je -- sus may be glo -- ri -- fied in you, and you in him, in accord with the grace of our God and Lord Jesus Christ.
+ 		\markup { \citation #"2 Thes 1:12" } }
 }
 \relative a' { 
 	\new Staff {
@@ -59,7 +61,8 @@
 
 	\addlyrics {
 		Il s'est pen -- ché sur son hum -- ble ser -- van -- te, dé -- sor -- mais tous les â -- ges me di -- ront bien -- heu -- reu -- se.
- 		\markup { \citation #"Lc 1" } }
+		%He has looked up -- on his hand -- maid’s low -- li -- ness; be -- hold, from now on will all ages call me bless -- ed.
+ 		\markup { \citation #"Lk 1:48" } }
 }
 
 
@@ -82,7 +85,8 @@
 
 	\addlyrics {
 		Jé -- sus ne re -- tint pas ja -- lou -- se -- ment le rang qui l'é -- ga -- lait à Dieu. " Al" -- le -- lui -- "a !"
- 		\markup { \citation #"Ph 2" } }
+		%Who, though he was in the form of God, did not re -- gard e -- qual -- it -- y with God some -- thing to be grasped. " Al" -- le -- lui -- "a !"
+ 		\markup { \citation #"Phil 2:6" } }
 }
 \relative a' { 
 	\new Staff {
@@ -100,7 +104,8 @@
 
 	\addlyrics {
 		Moi non plus, je ne te con -- dam -- ne pas. Va, et dé -- sor -- mais, ne pè -- che plus.
- 		\markup { \citation #"Jn 8" } }
+		%Nei -- ther do I con -- demn you. Go, [and] from now on do not sin any more.
+ 		\markup { \citation #"Jn 8:11" } }
 }
 \relative a' { 
 	\new Staff {
@@ -122,6 +127,7 @@
 	}
 
 	\addlyrics {
-		Des -- cen -- du jus -- qu'à  nous, Jé -- sus monte au plus haut des cieux. " Al" -- le -- lu -- - -- "ia !"
- 		\markup { \citation #"Ep 4" } }
+		Des -- cen -- du jus -- qu'à  nous, Jé -- sus monte au plus haut des cieux. " Al" -- le -- lu -- - -- "ia !"
+		%The one who de -- scend -- ed is al -- so the one who a -- scend -- ed far a -- bove all the hea -- vens. " Al" -- le -- lu -- - -- "ia !"
+ 		\markup { \citation #"Eph 4:10" } }
 }

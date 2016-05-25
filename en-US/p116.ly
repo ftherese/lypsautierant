@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 116" "Mode 7" \null \null } }
 \noPageBreak
@@ -15,7 +15,8 @@
 		\endBar
 	}	\addlyrics {
 		Nous av -- ons re -- co -- nnu l'a -- mour que Dieu a pour nous et nous y av -- ons cru.
-		\markup { \citation #"1 Jn 4"}
+		%We have come to know and to be -- lieve in the love God has for us.
+		\markup { \citation #"1 Jn 4:16"}
 	}
 }
 
@@ -30,7 +31,8 @@
 		\endBar
 	}	\addlyrics {
 		Il se sou -- vient de son a -- mour.
-		\markup { \citation #"Lc 1"}
+		%He has helped Israel his servant, re -- mem -- ber -- ing his mer -- cy.
+		\markup { \citation #"Lk 1:54???"}
 	}
 }
 \relative c'' { 
@@ -44,8 +46,9 @@
 		d4
 		\endBar
 	}	\addlyrics {
-		Il est ve -- nu chez les siens. Al -- le -- lu -- "ia !"  
-		\markup { \citation #"Jn 1"}
+		Il est ve -- nu chez les siens. Al -- le -- lu -- "ia !" 
+		%He came to what was his own. Al -- le -- lu -- "ia !"
+		\markup { \citation #"Jn 1:11"}
 	}
 }
 \relative c'' { 
@@ -60,7 +63,8 @@
 		\endBar
 	}	\addlyrics {
 		Au -- cu -- ne cré -- a -- tu -- re ne pou -- rra nous sé -- pa -- rer de l'a -- mour de Dieu.
-		\markup { \citation #"Rm 8"}
+		%nor any oth -- er crea -- ture will be ab -- le to se -- par -- ate us from the love of God.
+		\markup { \citation #"Rom 8"}
 	}
 }
 
@@ -79,6 +83,7 @@
 		\endBar
 	}	\addlyrics {
 		Il a res -- sus -- ci -- té Jé -- sus, le Christ. Al -- le -- lu -- "ia !"  _
-		\markup { \citation #"Ac 2"}
+		%God raised this Je -- sus. Al -- le -- lu -- "ia !"  _
+		\markup { \citation #"Acts 2:32"}
 	}
 }

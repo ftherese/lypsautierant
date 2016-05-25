@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 114" "Mode 4" \null \null } }
 \noPageBreak
@@ -19,7 +19,8 @@
 
 	\addlyrics {
 		Ce que vous de -- man -- de -- rez au Pè -- re, il vous le do -- nne -- ra en mon nom.
-		\markup { \citation #"Jn 16" } 
+		%what -- ev -- er you ask the Fa -- ther in my name he will give you.
+		\markup { \citation #"Jn 16:23" } 
 	}
 }
 
@@ -38,7 +39,8 @@
 
 	\addlyrics {
 		Il  nous a ar -- ra -- chés à l'em -- pi -- re des té -- nè -- bres.
-		\markup { \citation #"Col 1" } 
+		%He de -- li -- vered us from the pow -- er of dark -- ness.
+		\markup { \citation #"Col 1:13" } 
 	}
 }
 
@@ -59,7 +61,8 @@
 
 	\addlyrics {
 		Le Père a en -- vo -- yé son Fils com -- me Sau -- veur du mon -- de.
-		\markup { \citation #"1 Jn 4" } 
+		%The Fa -- ther sent his Son as sa -- vior of the world.
+		\markup { \citation #"1 Jn 4:14" } 
 	}
 }
 \relative a' { 
@@ -78,6 +81,7 @@
 
 	\addlyrics {
 		Nous, les cro -- yants, nous ent -- rons dans son re -- pos. Al -- le -- lu -- "ia !" _
-		\markup { \citation #"He 4" } 
+		%We who believed enter into [that] rest. Al -- le -- lu -- "ia !" _
+		\markup { \citation #"Heb 4:3" } 
 	}
 }

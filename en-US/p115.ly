@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 115" "Mode 8" \null \null } }
 \noPageBreak
@@ -19,7 +19,8 @@
 
 	\addlyrics {
 		Pre -- nant u -- ne cou -- pe, Jé -- sus ren -- dit grâ -- - -- ce.
- 		\markup { \citation #"Mc 14" } }
+		%Then he took a cup, gave thanks, and gave it to them, and they all drank from it.
+ 		\markup { \citation #"Mk 14:23" } }
 	
 	
 }
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		Ma -- rie dit à l'an -- "ge :" Voi -- ci la ser -- van -- te du Seig -- neur.
-		\markup { \citation #"Lc 1" } 
+		%Mar -- y said, “Be -- hold, I am the hand -- maid of the Lord."
+		\markup { \citation #"Lk 1:38" } 
 	}
 }
 \relative a' { 
@@ -56,10 +58,10 @@
 		
 		\endBar
 	}
-
 	\addlyrics {
 		Voi -- ci mon ser -- vi -- teur que j'ai choi -- si.
- 		\markup { \citation #"Mt 12" } }
+		%Be -- hold, my ser -- vant whom I have chos -- en.
+ 		\markup { \citation #"Mt 12:18" } }
 	
 	
 }
@@ -75,7 +77,8 @@
 
 	\addlyrics {
 		Le Christ, no -- tre Pâ -- que, a é -- té im -- mo -- lé.
- 		\markup { \citation #"1 Co 5" } }
+		%Our pa -- schal lamb, Christ, has been sa -- cri -- ficed.
+ 		\markup { \citation #"1 Cor 5:7" } }
 	
 	
 }
@@ -95,7 +98,8 @@
 
 	\addlyrics {
 		Le Dieu de nos pères a glo -- ri -- fié son ser -- vi -- teur Jé -- sus. Al -- le -- lu -- "ia !" _ _
- 		\markup { \citation #"Ac 3" } }
+		%The God of our an -- ces -- tors, has glor -- i -- fied his ser -- vant Je -- sus. Al -- le -- lu -- "ia !" _ _
+ 		\markup { \citation #"Acts 3:13" } }
 	
 	
 }

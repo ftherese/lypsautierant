@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 111" "Mode 8" \null \null } }
 \noPageBreak
@@ -19,7 +19,8 @@
 
 	\addlyrics {
 		Com -- me s'il voy -- ait l'in -- vi -- si -- ble, il ten -- ait fe -- rme.
- 		\markup { \citation #"He 11" } }
+		%By faith he left E -- gypt, not fear -- ing the king’s fur -- y, for he per -- sev -- ered as if see -- ing the one who is in -- vis -- ible.
+ 		\markup { \citation #"Heb 11:27" } }
 }
 \relative a' { 
 	\new Staff {
@@ -39,7 +40,8 @@
 
 	\addlyrics {
 		Vous ê -- tes la lu -- miè -- re du mon -- de, vous ê -- tes le sel de la ter -- re.
- 		\markup { \citation #"Mt 5" } }
+		%You are the salt of the earth. But if salt loses its taste, with what can it be seasoned? It is no longer good for anything but to be thrown out and trampled underfoot. You are the light of the world. A city set on a mountain cannot be hidden.
+ 		\markup { \citation #"Mt 5:13-14" } }
 }
 \relative a' { 
 	\new Staff {
@@ -58,7 +60,8 @@
 
 	\addlyrics {
 		Sois sans crain -- te, Ma -- rie, tu as trou -- vé grâce au -- près de Dieu.
- 		\markup { \citation #"Lc 1" } }
+		%Do not be a -- fraid, Mar -- y, for you have found fa -- vor with God.
+ 		\markup { \citation #"Lk 1:30" } }
 }
 \relative a' { 
 	\new Staff {
@@ -74,7 +77,8 @@
 
 	\addlyrics {
 		Le fruit de la lu -- miè -- re est bon -- té, jus -- tice et vé -- ri -- té.
- 		\markup { \citation #"Ep 5" } }
+		%Light pro -- duc -- es eve -- ry kind of good -- ness and righ -- teous -- ness and truth.
+ 		\markup { \citation #"Eph 5:9" } }
 }
 \relative a' { 
 	\new Staff {
@@ -101,5 +105,6 @@
 
 	\addlyrics {
 		Vous ê -- tes lu -- miè -- re dans le Seig -- neur, vi -- vez en en -- fants de lu -- miè -- re. "(Al" -- le -- lu -- - -- "ia !)"
- 		\markup { \citation #"Ep 5" } }
+		%You were once darkness, but now you are light in the Lord. Live as chil -- dren of light. "(Al" -- le -- lu -- - -- "ia !)"
+ 		\markup { \citation #"Eph 5:8" } }
 }
