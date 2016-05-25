@@ -8,15 +8,15 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		\times 2/3 { r8_\( g[ a]\) }
-		\times 2/3 { g[ c b] } \times 2/3 { c[ d d] }
-c[\( c\)] \pespace \cesure  \pespace \times 2/3 { c[ c c] } c16[ b c a] g4\( g8\) r8
+		\times 2/3 { r8 g a[ g c] c16[ c b c] d8[ c]}
+		\cesure  \pespace
+		r8\( \pespace c[ c]\) b[ c] a[ g] g4
 		\endBar
 	}
 
 	\addlyrics {
-		Le Sei -- gneur a les yeux sur les jus -- tes et tend l'o -- reille à leur pri -- è -- re.
-		% For the eyes of the Lord are on the righ -- teous and his ears turned to their prayer.
+		%Le Sei -- gneur a les yeux sur les jus -- tes et tend l'o -- reille à leur pri -- è -- re.
+		The eyes of the Lord are on the righ -- teous and his ears turned to their prayer.
 		\markup { \citation #"1 Pt 3:12" } }
 }	
 
@@ -25,10 +25,8 @@ c[\( c\)] \pespace \cesure  \pespace \times 2/3 { c[ c c] } c16[ b c a] g4\( g8\
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {O.T. Adv.} }
 		
-		\times 2/3 { r8_\( g[ a\)] }
-		\times 2/3 { c[ d c] }
-		c4 \pespace \cesure \pespace
-		\times 2/3 {b8[ c a]} g4
+		\times 2/3 { g16[ a c c] d8[ c] }
+		c4\( \pespace \cesurebasse \pespace c8\) b[ c a] g4
 
 		
 		
@@ -36,8 +34,8 @@ c[\( c\)] \pespace \cesure  \pespace \times 2/3 { c[ c c] } c16[ b c a] g4\( g8\
 	}
 
 	\addlyrics {
-		Bien -- heu -- reux les cœurs purs, ils ver -- ront Dieu.
-		% Bless -- ed are the clean of heart, for they will see God.
+		%Bien -- heu -- reux les cœurs purs, ils ver -- ront Dieu.
+		Bless -- ed are the clean of heart, for they will see God.
 		\markup { \citation #"Mt 5:8" } }
 }
 \relative c'' { 
