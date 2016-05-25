@@ -17,7 +17,8 @@
 
 	\addlyrics {
 		Pè -- re saint, gar -- de- -- les dans ton Nom. 
-		\markup { \citation #"Jn 17" } 
+		%Ho -- ly Fa -- ther, keep them in your name.
+		\markup { \citation #"Jn 17:11" } 
 	}
 }
  
@@ -39,7 +40,8 @@
 
 	\addlyrics {
 		L'Es -- prit vient au sec -- ours de no -- tre fai -- ble -- sse. 
-		\markup { \citation #"Rm 8" } 
+		%The Spir -- it too comes to the aid of our weak -- ness.
+		\markup { \citation #"Rom 8:26" } 
 	}
 }
 \relative f' { 
@@ -55,7 +57,8 @@
 	}
 	\addlyrics {
 		Ne crains pas, je suis av -- ec toi.
-		\markup { \citation #"Ac 18" }
+		%Do not be a -- fraid. Go on speak -- ing, and do not be si -- lent, for I am with you.
+		\markup { \citation #"Acts 18:9-10" }
 	}
 }
 
@@ -76,7 +79,8 @@
 	}
 	\addlyrics {
 		Heu -- reux ê -- tes- -- vous si l'on vous in -- sul -- te pour le nom du Christ.
-		\markup { \citation #"1 P 4" }
+		%If you are in -- sul -- ted for the name of Christ, bless -- ed are you.
+		\markup { \citation #"1 Pt 4:14" }
 	}
 }
 
@@ -102,7 +106,8 @@
 	}
 	\addlyrics {
 		La cré -- a -- tion en -- tre -- ra dans la glo -- rieu -- se li -- ber -- té des en -- fants de Dieu. "Al" -- le -- lu -- "ia !" _ _
-		\markup { \citation #"Rm 8" }
+		%For cre -- a -- tion a -- waits with ea -- ger ex -- pec -- ta -- tion the re -- ve -- la -- tion of the chil -- dren of God. "Al" -- le -- lu -- "ia !"
+		\markup { \citation #"Rom 8:14" }
 	}
 }
 
