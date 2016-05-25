@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 130" "Mode 8" \null \null } }
 \noPageBreak
@@ -19,7 +19,8 @@
 		\endBar
 	}	\addlyrics {
 		Jé -- sus dit au dis -- ci -- "ple :" Voi -- ci " ta" " mè" -- re.
-		\markup { \citation #"Jn 19"}
+		%Then he said to the dis -- ci -- ple, “Be -- hold, your mot -- her.”
+		\markup { \citation #"Jn 19:27"}
 	}
 }
 \relative c'' { 
@@ -38,7 +39,8 @@
 		\endBar
 	}	\addlyrics {
 		Pè -- re, ce que tu as ca -- ché aux sages et aux sa -- vants, tu l'as ré -- vé -- lé aux tout -- -pe -- tits.
-		\markup { \citation #"Mt 11"}
+		%Fa -- ther ... al -- though you have hid -- den these things from the wise and the lear -- ned you have re -- vealed them to the child -- like. 
+		\markup { \citation #"Mt 11:25"}
 	}
 }
 \relative c'' { 
@@ -54,7 +56,8 @@
 		\endBar
 	}	\addlyrics {
 		Fais si -- len -- - -- ce, éc -- ou -- te, Is -- ra -- ël.
-		\markup { \citation #"Dt 27"}
+		%Be si -- lent, Is -- ra -- el, and lis -- ten! 
+		\markup { \citation #"Dt 27:9"}
 	}
 }
 
@@ -71,7 +74,8 @@
 		\endBar
 	}	\addlyrics {
 		Ven -- ez à moi, car je suis doux et hum -- ble de cœur.
-		\markup { \citation #"Mt 11"}
+		%Come to me ... for I am meek and hum -- ble of heart.
+		\markup { \citation #"Mt 11:28-29"}
 	}
 }
 \relative c'' { 
@@ -85,6 +89,7 @@
 		\endBar
 	}	\addlyrics {
 		"La pa" -- ix soit av -- ec vous. Al -- le -- lu -- ia, al -- le -- lui -- "a !"
-		\markup { \citation #"Jn 20"}
+		%Peace be with you. Al -- le -- lu -- ia, al -- le -- lui -- "a !"
+		\markup { \citation #"Jn 20:19"}
 	}
 }

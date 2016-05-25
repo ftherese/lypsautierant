@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 133" "Mode 6" \null \null } }
 \noPageBreak
@@ -21,7 +21,8 @@
 
 	\addlyrics {
 		Ne sav -- iez- -- vous pas que je dois êt -- re dans la mai -- son de mon Pè -- "re ?"
- 		\markup { \citation #"Lc 2" } }
+ 		%Did you not know that I must be in my Fat -- her’s house?
+ 		\markup { \citation #"Lk 2:49" } }
 	
 	
 }
@@ -38,8 +39,9 @@
 	}
 
 	\addlyrics {
-		Dans la mon -- ta -- gne, Jé -- sus pas -- sait la nuit à  pri -- er Dieu.
-		\markup { \citation #"Lc 6" }
+		Dans la mon -- ta -- gne, Jé -- sus pas -- sait la nuit à  pri -- er Dieu.
+		%He de -- par -- ted to the moun -- tain to pray, and he spent the night in prayer to God.
+		\markup { \citation #"Lk 6:12" }
  	}
 	
 	
@@ -60,7 +62,8 @@
 
 	\addlyrics {
 		La nuit est a -- van -- cée, le jour est pro -- che.
-		\markup { \citation #"Rm 13" }
+		%The night is ad -- vanced, the day is at hand.
+		\markup { \citation #"Rom 13:12" }
  	}
 	
 	
@@ -82,7 +85,8 @@
 
 	\addlyrics {
 		Sy -- mé -- on le re -- çut dans ses bras et bé -- nit Dieu.
-		\markup { \citation #"Lc 2" }
+		%[Simeon] took him in -- to his arms and blessed God.
+		\markup { \citation #"Lk 2:28" }
  	}
 	
 	
@@ -111,7 +115,8 @@
 
 	\addlyrics {
 		Quand deux ou trois sont ré -- u -- nis en mon nom, je suis au mi -- lieu d'eux. Al -- le -- lu -- "ia !" _ _
-		\markup { \citation #"Mt 18" }
+		%Where two or three are gat -- hered to -- get -- her in my name, there am I in the midst of them. Al -- le -- lu -- "ia !" _ _
+		\markup { \citation #"Mt 18:20" }
  	}
 	
 	

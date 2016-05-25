@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 132" "Mode 3" \null \null } }
 \noPageBreak
@@ -18,7 +18,8 @@
 	\addlyrics {
 		
 		Ai -- mons nous les uns les au -- tres, car l'a -- mour vient de Dieu.
-		\markup { \citation #"1 Jn 4" } }
+		%Be -- loved, let us love one a -- not -- her, be -- cause love is of God.
+		\markup { \citation #"1 Jn 4:7" } }
 	
 	
 }
@@ -31,7 +32,8 @@
 	}
 	\addlyrics {
 		Ton nom est une hui -- le qui s'é -- pan -- che.
-		\markup { \citation #"Ct 1" } }
+		%Your name is a flow -- ing per -- fume.
+		\markup { \citation #"Sg 1:3" } }
 	}
 
 \relative c'' { 
@@ -51,7 +53,8 @@
 	\addlyrics {
 		
 		L'a -- mour de Dieu a é -- té ré -- pan -- du dans nos cœurs par l'Es -- prit Saint.
-		\markup { \citation #"Rm 5" } }
+		%The love of God has been poured out in -- to our hearts through the ho -- ly Spi -- rit. 
+		\markup { \citation #"Rom 5:5" } }
 	
 	
 }
@@ -78,7 +81,8 @@
 	\addlyrics {
 		
 		Ce -- lui qui ai -- me son frè -- re de -- meu -- re dans la lu -- miè -- re. 
-		\markup { \citation #"1 Jn 2" } }
+		%Who -- ever loves his brot -- her re -- mains in the light.
+		\markup { \citation #"1 Jn 2:10" } }
 	
 }
 
@@ -103,7 +107,8 @@
 	\addlyrics {
 		
 		La mul -- ti -- tu -- de des cro -- yants a -- vait un seul cœur et u -- ne seule â -- me. Al -- le -- lu -- "ia !"
-		\markup { \citation #"Ac 4" } }
+		%The com -- mu -- ni -- ty of be -- lie -- vers was of one heart and mind. Al -- le -- lu -- "ia !"
+		\markup { \citation #"Acts 4:32" } }
 	
 	
 }

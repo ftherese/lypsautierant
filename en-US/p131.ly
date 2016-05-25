@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 131" "Mode 1" \null \null } }
 \noPageBreak
@@ -16,7 +16,8 @@
 	}
 	\addlyrics {
 		Voi -- ci la de -- meu -- re de Dieu av -- ec les hom -- mes.
-		\markup { \citation #"Ap 21" }
+		%Be -- hold, God’s dwel -- ling is with the hu -- man race.
+		\markup { \citation #"Rev 21:3" }
 	}
 }
 
@@ -41,7 +42,8 @@
 	}
 	\addlyrics {
 		Il a rem -- por -- té la vic -- toi -- re, le re -- je -- ton de Da -- vid. "(Al" -- le -- lu -- ia -- " !)" _ 
-		\markup { \citation #"Ap 5" }
+		%The lion of the tribe of Judah, the root of David, has tri -- umphed. "(Al" -- le -- lu -- ia -- " !)" _ 
+		\markup { \citation #"Rev 5:5" }
 	}
 }
 
@@ -64,7 +66,8 @@
 	}
 	\addlyrics {
 		Bé -- ni soit le Ro -- yau -- me qui vient de no -- tre pè -- re Da -- vid.
-		\markup { \citation #"Mc 11" }
+		%Bles -- sed is the king -- dom of our fat -- her Da -- vid that is to come!
+		\markup { \citation #"Mk 11:10" }
 	}
 }
 
@@ -85,7 +88,8 @@
 	}
 	\addlyrics {
 		Le Fils de l'hom -- me n'a pas de lieu où re -- po -- ser la tê -- te.
-		\markup { \citation #"Mt 8" }
+		%The Son of Man has no -- where to rest his head.
+		\markup { \citation #"Mt 8:20" }
 	}
 }
 

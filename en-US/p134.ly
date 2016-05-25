@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 134" "Mode 7" \null \null }  }
 \noPageBreak
@@ -24,7 +24,8 @@
 		\endBar
 	}	\addlyrics {
 		Pre -- mier- -- né de tou -- te cré -- a -- tu -- re, en lui tout fut cré -- é dans le ciel et sur la ter -- re.
-		\markup { \citation #"Col 1"}
+		%The first -- born of all cre -- a -- tion. For in him were cre -- a -- ted all things in hea -- ven and on earth.
+		\markup { \citation #"Col 1:15-16"}
 	}
 }
 
@@ -44,7 +45,8 @@
 		\endBar
 	}	\addlyrics {
 		Ce n'est pas vous qui m'a -- vez choi -- si, mais c'est moi qui vous ai choi -- sis.
-		\markup { \citation #"Jn 15"}
+		%It was not you who chose me, but I who chose you.
+		\markup { \citation #"Jn 15:16"}
 	}
 }
 
@@ -59,7 +61,8 @@
 		\endBar
 	}	\addlyrics {
 		Ce -- lui qui vient d'en haut est au -- -des -- sus de tous.
-		\markup { \citation #"Jn 3"}
+		%The one who comes from a -- bove is a -- bove all. 
+		\markup { \citation #"Jn 3:31"}
 	}
 }
 \relative c'' { 
@@ -77,7 +80,8 @@
 		\endBar
 	}	\addlyrics {
 		El -- le lou -- ait Dieu et par -- lait de l'en -- fant à tous ceux qui at -- ten -- daient la dé -- liv -- ran -- ce d'Is -- ra -- ël.
-		\markup { \citation #"Lc 2"}
+		%She gave thanks to God and spoke a -- bout the child to all who were a -- wai -- ting the re -- demp -- tion of Je -- ru -- sa -- lem.
+		\markup { \citation #"Lk 2:38"}
 	}
 }
 \relative c'' { 
@@ -95,7 +99,8 @@
 		\endBar
 	}	\addlyrics {
 		Le Sei -- gneur n'ha -- bi -- te pas dans des tem -- ples faits de main d'hom -- me.
-		\markup { \citation #"Ac 17"}
+		%The Lord of hea -- ven and earth, does not dwell in sanc -- tu -- a -- ries made by hu -- man hands.
+		\markup { \citation #"Acts 17:24"}
 	}
 }
 
@@ -114,7 +119,8 @@
 		\endBar
 	}	\addlyrics {
 		Dieu lui a don -- né le Nom qui est au -- -des -- sus de tout nom. Al -- le -- lu -- "ia !" _
-		\markup { \citation #"Ph 2"}
+		%God great -- ly ex -- al -- ted him and be -- stowed on him the name that is a -- bove ev -- ery name.
+		\markup { \citation #"Phil 2:9"}
 	}
 }
 
