@@ -17,7 +17,8 @@
 
 	\addlyrics {
 		La ci -- té sain -- te des -- cend d'au -- près de Dieu, pa -- rée comme une é -- pou -- se.
-		\markup { \citation #"Ap 21" } }
+		%I al -- so saw the ho -- ly ci -- ty, a new Je -- ru -- sa -- lem, com -- ing down out of heav -- en from God, pre -- pared as a bride a -- dorned for her hus -- band.
+		\markup { \citation #"Rv 21:2" } }
 	
 	
 }
@@ -36,7 +37,8 @@
 
 	\addlyrics {
 		Je veux ha -- bit -- er au mi -- lieu de Jé -- ru -- sa -- lem.
-		\markup { \citation #"Za 8" } }
+		%I will dwell with -- in Jer -- us -- a -- lem.
+		\markup { \citation #"Zec 8:3" } }
 	
 	
 }
