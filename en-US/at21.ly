@@ -20,7 +20,8 @@
 
 	\addlyrics {
 		Nous av -- ons mis notre es -- pé -- ran -- ce dans le Dieu vi -- vant. "(Al" -- le -- lu -- - -- "ia !)"
-		\markup { \citation #"1 Tm 4" }
+		%We have set our hope on the li -- ving God. "(Al" -- le -- lu -- - -- "ia !)"
+		\markup { \citation #"1 Tm 4:10" }
 	}
 }
 
@@ -47,7 +48,8 @@
 
 	\addlyrics {
 		Le Christ ap -- pa -- raî -- tra à ceux qui l'at -- ten -- dent pour leur don -- ner le sa -- lut. "(Al" -- le -- lu -- - -- "ia !)"
-		\markup { \citation #"He 9" }
+		%Christ will a -- ppear a se -- cond time, not to take a -- way sin but to bring sal -- va -- tion to those who ea -- ger -- ly a -- wait him. "(Al" -- le -- lu -- - -- "ia !)"
+		\markup { \citation #"Heb 9:28" }
 	}
 }
 
