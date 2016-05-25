@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 139" "Mode 4" \null \null } }
 \noPageBreak
@@ -21,7 +21,8 @@
 
 	\addlyrics {
 		La tri -- bu -- la -- tion d'un mo -- ment nous pré -- pare u -- ne gloire é -- ter -- nel -- le. 
-		\markup { \citation #"2 Co 4" } 
+		%For this mo -- men -- ta -- ry light af -- flic -- tion is pro -- du -- cing for us an e -- ter -- nal weight of glo -- ry. 
+		\markup { \citation #"2 Cor 4:7" } 
 	}
 }
 
@@ -42,7 +43,8 @@
 
 	\addlyrics {
 		Le Fils de l'hom -- me se -- ra li -- vré aux mains des pé -- cheurs.
-		\markup { \citation #"Mt 26" } 
+		%The Son of Man is to be han -- ded o -- ver to sin -- ners.
+		\markup { \citation #"Mt 26:45" } 
 	}
 }
 
@@ -67,7 +69,8 @@
 
 	\addlyrics {
 		Nous vo -- yons à prése -- nt d'u -- ne ma -- nière obs -- cu -- re, a -- lors  ce se -- ra face à fa -- ce.
-		\markup { \citation #"1 Co 13" } 
+		%At pre -- sent we see in -- dis -- tinct -- ly, as in a mir -- ror, but then face to face. 
+		\markup { \citation #"1 Cor 13:12" } 
 	}
 }
 
@@ -84,7 +87,8 @@
 
 	\addlyrics {
 		Pè -- re, glo -- ri -- fie ton "Nom !" Al -- le -- lu -- "ia !" _
-		\markup { \citation #"Jn 12" } 
+		%Fa -- ther, glor -- i -- fy your name. Al -- le -- lu -- "ia !" _
+		\markup { \citation #"Jn 12:28" } 
 	}
 }
 

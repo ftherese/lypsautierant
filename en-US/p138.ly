@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 138" "Mode 8" \null \null }  }
 \noPageBreak
@@ -21,7 +21,8 @@
 		\endBar
 	}	\addlyrics {
 		Tu es di -- gne de pren -- dre le li -- vre et d'en ou -- vrir les sceaux.
-		\markup { \citation #"Ap 5"}
+		%Wor -- thy are you to re -- ceive the scroll and to break o -- pen its seals.
+		\markup { \citation #"Rev 5:9"}
 	}
 }
 
@@ -37,7 +38,8 @@
 		\endBar
 	}	\addlyrics {
 		Sei -- gneur, tu sais tout, tu sais bien que je t'ai -- me.
-		\markup { \citation #"Jn 21"}
+		%Lord, you know ev -- ery -- thing; you know that I love you.
+		\markup { \citation #"Jn 21:17"}
 	}
 }
 \relative c'' { 
@@ -51,7 +53,8 @@
 		\endBar
 	}	\addlyrics {
 		Qui a con -- nu la pen -- sée du Sei -- "gneur ?"
-		\markup { \citation #"Rm 11"}
+		%For who has known the mind of the Lord?
+		\markup { \citation #"Rom 11:34"}
 	}
 }
 \relative c'' { 
@@ -69,7 +72,8 @@
 		\endBar
 	}	\addlyrics {
 		Tu m'as fa -- çon -- né un corps, al -- ors j'ai "dit :" Voi -- ci, je viens pour fai -- re ta vo -- lon -- té.
-		\markup { \citation #"He 10"}
+		%A bo -- dy you pre -- pared for me ... Then I said ... "Be -- hold, I come to do your will, O God."
+		\markup { \citation #"Heb 10:6-7"}
 	}
 }
 \relative c'' { 
@@ -86,7 +90,8 @@
 		\endBar
 	}	\addlyrics {
 		Dieu est plus grand que no -- tre cœur, et il con -- naît tout.
-		\markup { \citation #"1 Jn 3"}
+		%God is great -- er than our hearts and knows ev -- ery -- thing.
+		\markup { \citation #"1 Jn 3:20"}
 	}
 }
 \relative c'' { 
@@ -104,6 +109,7 @@
 		\endBar
 	}	\addlyrics {
 		Dieu est lu -- miè -- re, en lui point de té -- nè -- bres. Al -- le -- lu -- "ia !"
-		\markup { \citation #"1 Jn 1"}
+		%God is light, and in him there is no dark -- ness at all. Al -- le -- lu -- "ia !"
+		\markup { \citation #"1 Jn 1:5"}
 	}
 }

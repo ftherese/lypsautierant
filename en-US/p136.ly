@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 136" "Mode 3" \null \null } }
 \noPageBreak
@@ -26,7 +26,8 @@
 	}
 	\addlyrics {
 		Heu -- reux, vous qui pleu -- rez main -- te -- nant, car vous vous ré -- jou -- i -- rez.
-		\markup { \citation #"Lc 6" } }
+		%Bles -- sed are you who are now weep -- ing, for you will laugh.
+		\markup { \citation #"Lk 6:21" } }
 }
 
 \relative c'' { 
@@ -45,7 +46,8 @@
 	}
 	\addlyrics {
 		Je vis la ci -- té sai -- nte, la Jé -- ru -- sa -- lem nou -- vel -- le, qui des -- cen -- dait du ciel.
-		\markup { \citation #"Ap 21" } }
+		%I al -- so saw the ho -- ly ci -- ty, a new Je -- ru -- sa -- lem, co -- ming down out of hea -- ven from God.
+		\markup { \citation #"Rev 21:2" } }
 	
 	
 }
@@ -64,7 +66,8 @@
 	}
 	\addlyrics {
 		En lui les nat -- ions mett -- ront leur es -- pé -- ran -- - -- ce.
-		\markup { \citation #"Rm 15" } }
+		%In him shall the Gen -- tiles hope.
+		\markup { \citation #"Rom 15:12" } }
 	
 	
 }
@@ -92,7 +95,8 @@
 	\addlyrics {
 		
 		Chan -- tez et cé -- lé -- brez le Sei -- gneur de tout vot -- re cœur. Al -- le -- lu -- "ia !"
-		\markup { \citation #"Ep 5" } }
+		%[Be filled with the Spirit...] sing -- ing and play -- ing to the Lord in your hearts. Al -- le -- lu -- "ia !"
+		\markup { \citation #"Eph 5:19" } }
 	
 	
 }
@@ -116,7 +120,8 @@
 	\addlyrics {
 		
 		Nous som -- mes en e -- xil loin du Sei -- gneur.
-		\markup { \citation #"2 Co 5" } }
+		%We are a -- way from the Lord. 
+		\markup { \citation #"2 Cor 5:6" } }
 	
 	
 }

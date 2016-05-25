@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 137" "Mode 2" \null \null } }
 \noPageBreak
@@ -19,7 +19,8 @@
 
 	\addlyrics {
 		Les Anc -- iens se pros -- ter -- nè -- rent dev -- ant ce -- lui qui siè -- ge sur le trô -- ne.
-		\markup { \citation #"Ap 4" } 
+		%The twenty-four el -- ders fall down be -- fore the one who sits on the throne.
+		\markup { \citation #"Rev 4:10" } 
 	}
 }
 
@@ -38,7 +39,8 @@
 
 	\addlyrics {
 		Tou -- tes les na -- tions se pros -- ter -- ne -- ront de -- vant toi.
-		\markup { \citation #"Ap 15" } 
+		%All the na -- tions will come and wor -- ship be -- fore you.
+		\markup { \citation #"Rev 15:4" } 
 	}
 }
 
@@ -55,7 +57,8 @@
 
 	\addlyrics {
 		Voi -- ci ce que le Sei -- gneur a fait pour "moi !"
-		\markup { \citation #"Lc 1" } 
+		%So has the Lord done for me.
+		\markup { \citation #"Lk 1:25" } 
 	}
 }
 
@@ -74,7 +77,8 @@
 
 	\addlyrics {
 		Quand je suis fai -- ble, c'est a -- lors que je suis fort.
-		\markup { \citation #"2 Co 12" } 
+		%When I am weak, then I am strong.
+		\markup { \citation #"2 Cor 12:10" } 
 	}
 }
 
@@ -97,6 +101,7 @@
 
 	\addlyrics {
 		Grâ -- ce soit à Dieu pour son in -- ef -- fab -- le "don !" Al -- le -- lu -- "ia !"
-		\markup { \citation #"2 Co 9" } 
+		%Thanks be to God for his in -- de -- scri -- ba -- ble gift! Al -- le -- lu -- "ia !"
+		\markup { \citation #"2 Cor 9:15" } 
 	}
 }

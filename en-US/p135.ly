@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 135" "Mode Peregrinus" \null \null } }
 \noPageBreak
@@ -19,7 +19,8 @@
 
 	\addlyrics {
 		Par la foi, il tra -- ver -- sèr -- ent la mer comme un -- e ter -- re sè -- che.
- 		\markup { \citation #"He 11" } }
+ 		%By faith they crossed the Red Sea as if it were dry land.
+ 		\markup { \citation #"Heb 11:29" } }
 	
 	
 }
@@ -37,7 +38,8 @@
 
 	\addlyrics {
 		En ce -- la nous a -- vons con -- nu l'a -- "mour :" il s'est li -- vré pour nous.
- 		\markup { \citation #"1 Jn 3" } }
+ 		%The way we came to know love was that he laid down his life for us.
+ 		\markup { \citation #"1 Jn 3:16" } }
 	
 	
 }
@@ -55,7 +57,8 @@
 
 	\addlyrics {
 		Dé -- li -- vre- -- nous se -- lon tes œu -- vres mer -- vei -- lleu -- ses.
- 		\markup { \citation #"Dn 3" } }
+ 		%De -- li -- ver us in ac -- cord with your won -- ders.
+ 		\markup { \citation #"Dn 3:43" } }
 	
 	
 }
@@ -77,7 +80,8 @@
 
 	\addlyrics {
 		Je suis le pain viv -- ant des -- cen -- du du ciel. Al -- le -- lu -- "ia !" _
- 		\markup { \citation #"Jn 6" } }
+ 		%I am the li -- ving bread that came down from hea -- ven. Al -- le -- lu -- "ia !" _
+ 		\markup { \citation #"Jn 6:51" } }
 	
 	
 }
@@ -97,7 +101,8 @@
 
 	\addlyrics {
 		De -- meu -- rez dans mon am -- our. Al -- le -- lu -- "ia !" _ 
- 		\markup { \citation #"Jn 15" } }
+ 		%Re -- main in my love. Al -- le -- lu -- "ia !" _ 
+ 		\markup { \citation #"Jn 15:9" } }
 	
 	
 }
