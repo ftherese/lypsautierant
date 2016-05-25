@@ -18,7 +18,8 @@
 	}
 	\addlyrics {
 		 Main -- te -- nant je vais bri -- ser le joug qui pè -- se sur toi.
-		\markup { \citation #"Na 1" }
+		%Now I will break his yoke off of you, and tear off your bonds.
+		\markup { \citation #"Na 1:13" }
 	}
 }
 \relative a' { 
@@ -39,7 +40,8 @@
 	}
 	\addlyrics {
 		Bé -- niss -- ez ceux qui vous per -- sé -- cu -- "tent ;" bé -- nis -- sez, ne mau -- dis -- sez pas.
-		\markup { \citation #"Rm 12" }
+		%Bless those who per -- se -- cute [you], bless and do not curse them.
+		\markup { \citation #"Rom 12:14" }
 	}
 }
 
@@ -58,7 +60,8 @@
 	}
 	\addlyrics {
 		 Jet -- te  la fau -- cil -- le, la mois -- son de la terre est mû -- re.
-		\markup { \citation #"Ap 14" }
+		%Use your si -- ckle the earth’s har -- vest is ful -- ly ripe.
+		\markup { \citation #"Rv 14:15" }
 	}
 }
 
@@ -77,7 +80,8 @@
 	}
 	\addlyrics {
 		Il est ve -- nu chez les siens et les siens ne l'ont pas acc -- uei -- lli. 
-		\markup { \citation #"Jn 1" }
+		%He came to what was his own, but his own peo -- ple did not ac -- cept him.
+		\markup { \citation #"Jn 1:11" }
 	}
 }
 \relative a' { 
@@ -93,6 +97,7 @@
 	}
 	\addlyrics {
 		Dans mon corps, le Christ se -- ra glo -- ri -- fié. Al -- le -- lu -- "ia !"
-		\markup { \citation #"Ph 1" }
+		%Christ will be mag --- ni -- fied in my body Al -- le -- lu -- "ia !"
+		\markup { \citation #"Phil 1:20" }
 	}
 }
