@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 117" "Mode 5" \null \null } }
 \noPageBreak
@@ -23,7 +23,8 @@
 	}
 	\addlyrics {
 		 Jé -- sus, la pier -- re re -- je -- tée, est de -- ve -- nu la pier -- re d'an -- gle.
-		\markup { \citation #"Ac 4" } 
+		 %He is ‘the stone re -- ject -- ed by you, the build -- ers, which has be -- come the cor -- ner -- stone.’
+		\markup { \citation #"Acts 4:11" } 
 	}
 }
 
@@ -43,7 +44,8 @@
 	}
 	\addlyrics {
 		Le Christ a dé -- truit la mort et fait res -- plen -- dir la vie. " Al" -- le -- lu -- "ia !"
-		\markup { \citation #"2 Tm 1" } 
+		%but now made manifest through the appearance of our savior Christ Je -- sus, who des -- troyed death and brought life and immortality to light through the gospel. " Al" -- le -- lu -- "ia !"
+		\markup { \citation #"2 Tm 1:10" } 
 	}
 }
 
@@ -64,7 +66,8 @@
 	}
 	\addlyrics {
 		Ap -- pro -- chez vous de lui, pier -- re vi -- van -- te choi -- sie par Dieu. 
-		\markup { \citation #"1 P 2" } 
+		%Come to him, a liv -- ing stone, re -- ject -- ed by hu -- man be -- ings but cho -- sen and pre -- cious in the sight of God.
+		\markup { \citation #"1 Pt 2:4" } 
 	}
 }
 
@@ -83,6 +86,7 @@
 	}
 	\addlyrics {
 		 Nous a -- vons re -- con -- nu l'a -- mour que Dieu a pour nous. " Al" -- le -- lu -- "ia !"
-		\markup { \citation #"1 Jn 4" } 
+		 %We have come to know and to be -- lieve in the love God has for us. " Al" -- le -- lu -- "ia !"
+		\markup { \citation #"1 Jn 4:16" } 
 	}
 }

@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 119" "Mode 4" \null \null }  }
 \noPageBreak
@@ -23,7 +23,8 @@
 
 	\addlyrics {
 		So -- yez patie -- nts dans les é -- preu -- ves et as -- si -- dus à la pri -- è -- re.
-		\markup { \citation #"Rm 12" } 
+		%Rejoice in hope, en -- dure in a -- fflic -- tion, per -- se -- vere in pray -- er.
+		\markup { \citation #"Rom 12:12" } 
 	}
 }
 
@@ -45,7 +46,8 @@
 
 	\addlyrics {
 		Heu -- reux les ar -- ti -- sans de paix, ils se -- ront ap -- pe -- lés fils de Dieu.
-		\markup { \citation #"Mt 5" } 
+		%Bless -- ed are the peace -- mak -- ers, for they will be called child -- ren of God.
+		\markup { \citation #"Mt 5:9" } 
 	}
 }
 
@@ -63,7 +65,8 @@
 
 	\addlyrics {
 		Le Dieu de la paix se -- ra av -- ec vous.
-		\markup { \citation #"Ph 4" } 
+		%The God of peace will be with you.
+		\markup { \citation #"Phil 4:9" } 
 	}
 }
 
@@ -92,7 +95,8 @@
 
 	\addlyrics {
 		Par le sang de sa croix, le Christ a é -- ta -- bli la paix. "(Al" -- le -- lu -- "ia !)" _ _
-		\markup { \citation #"Col 1" } 
+		%and through him to reconcile all things for him, mak -- ing peace by the blood of his cross [through him], whether those on earth or those in heaven. "(Al" -- le -- lu -- "ia !)" _ _
+		\markup { \citation #"Col 1:20" } 
 	}
 }
 

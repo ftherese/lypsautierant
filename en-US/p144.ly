@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 144" "Mode 8" \null \null } }
 \noPageBreak
@@ -22,7 +22,8 @@
 		\endBar
 	}	\addlyrics {
 		Nous l'a -- vons re -- con -- nu, nous l'a -- vons "cru :" Dieu est A -- mour.
-		\markup { \citation #"1 Jn 4"}
+		%We have come to know and to be -- lieve in the love God has for us.
+		\markup { \citation #"1 Jn 4:16"}
 	}
 }
 \relative c'' { 
@@ -41,7 +42,8 @@
 		\endBar
 	}	\addlyrics {
 		Tu es jus -- te, Sei -- gneur, toi qui es, toi qui é -- tais.
-		\markup { \citation #"Ap 16"}
+		%You are just, O Ho -- ly One, who are and who were.
+		\markup { \citation #"Rv 16:5"}
 	}
 }
 
@@ -56,7 +58,8 @@
 		\endBar
 	}	\addlyrics {
 		Je leur ai fait con -- naî -- tre ton Nom.
-		\markup { \citation #"Jn 17"}
+		%I made known to them your name.
+		\markup { \citation #"Jn 17:26"}
 	}
 }
 \relative c'' { 
@@ -72,6 +75,7 @@
 		\endBar
 	}	\addlyrics {
 		Ce qui est né "de Di" -- eu est vain -- queur du mon -- de. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"1 Jn 5"}
+		%Whoever is begotten by God conquers the world. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"1 Jn 5:4"}
 	}
 }

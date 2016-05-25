@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 141" "Mode 3" \null \null } }
 \noPageBreak
@@ -27,7 +27,8 @@
 	\addlyrics {
 		
 		Tous m'ont a -- ban -- don -- né, le Sei -- gneur, lui, m'a as -- sis -- té.
-		\markup { \citation #"2 Tm 4" } }
+		%At my first defense no one appeared on my behalf, but eve -- ry -- one de -- sert -- ed me. May it not be held against them! 17 But the Lord stood by me and gave me strength.
+		\markup { \citation #"2 Tm 4:16-17" } }
 	
 	
 }
@@ -55,7 +56,8 @@
 	\addlyrics {
 		
 		De pleur, de cri et de pei -- ne, il n'y en au -- ra plus.
-		\markup { \citation #"Ap 21" } }
+		%There shall be no more death or mourn -- ing, wail -- ing or pain.
+		\markup { \citation #"Rv 21:4" } }
 	
 	
 }
@@ -83,7 +85,8 @@
 	\addlyrics {
 		
 		Ma part, c'est le Sei -- "gneur !" dit mon â -- me. Al -- le -- lu -- "ia !" _
-		\markup { \citation #"Lm 3" } }
+		%The Lord is my por -- tion, I tell my -- self. Al -- le -- lu -- "ia !" _
+		\markup { \citation #"Lam 3:24" } }
 }
 	
 
@@ -110,7 +113,8 @@
 
 	\addlyrics {
 		Cri -- ant d'u -- ne voix for -- te, Jé -- sus "dit :" Pè -- re, en tes mains, je re -- mets mon es -- prit.
-		\markup { \citation #"Lc 23" } }
+		%Je -- sus cried out in a loud voice, “Fa -- ther, in -- to your hands I com -- mend my spir -- it.”
+		\markup { \citation #"Lk 23:46" } }
 	
 	
 }

@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 143" "Mode 5" \null \null } }
 \noPageBreak
@@ -19,7 +19,8 @@
 	\addlyrics {
 		
 		Si le Fils vous li -- bè -- re, vous se -- rez vrai -- ment li -- bres.
-		\markup { \citation #"Jn 8" } }
+		%So if a son frees you, then you will tru -- ly be free. 
+		\markup { \citation #"Jn 8:36" } }
 	
 	
 }
@@ -36,7 +37,8 @@
 	\addlyrics {
 		
 		Dieu a vi -- si -- té son peu -- ple.
-		\markup { \citation #"Lc 7" } }
+		%God has vis -- it -- ed his peop -- le.
+		\markup { \citation #"Lk 7:16" } }
 	
 	
 }
@@ -57,7 +59,8 @@
 	\addlyrics {
 		
 		De Si -- on viendr -- a le Li -- bé -- ra -- teur.
-		\markup { \citation #"Rm 11" } }
+		%The de -- liv -- er -- er will come out of Zi -- on.
+		\markup { \citation #"Rom 11:26" } }
 	
 	
 }
@@ -77,7 +80,8 @@
 	\addlyrics {
 		
 		J'ai en -- ten -- du son cri, je suis des -- cen -- du pour le dé -- liv -- rer.
-		\markup { \citation #"Ac 7" } }
+		%I have witnessed the affliction of my people in Egypt and have heard their groan -- ing, and I have come down to res -- cue them.
+		\markup { \citation #"Acts 7:34" } }
 	
 	
 }
@@ -100,7 +104,8 @@
 	\addlyrics {
 		
 		Dieu nous em -- mène en son tri -- om -- phe dans le Christ.  Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"2 Co 2" } }
+		%But thanks be to God, who al -- ways leads us in tri -- umph in Christ. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"2 Cor 2:14" } }
 	
 	
 }

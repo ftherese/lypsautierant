@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 147" "Mode 4" \null \null }  }
 \noPageBreak
@@ -22,7 +22,8 @@
 
 	\addlyrics {
 		Le vent souffle où il veut et tu en -- tends sa voix.
-		\markup { \citation #"Jn 3" } 
+		%The wind blows where it wills, and you can hear the sound it makes. 
+		\markup { \citation #"Jn 3:8" } 
 	}
 }
 \relative a' { 
@@ -39,7 +40,8 @@
 
 	\addlyrics {
 		Ac -- cuei -- llez hum -- ble -- ment la pa -- ro -- le de Dieu se -- mée en vous.
-		\markup { \citation #"Jc 1" } 
+		%Humb -- ly wel -- come the word that has been plant -- ed in you.
+		\markup { \citation #"Jas 1:21" } 
 	}
 }
 
@@ -61,7 +63,8 @@
 
 	\addlyrics {
 		Je te bé -- nis, Pè -- re, de l'a -- voir ré -- vé -- lé aux tout- -- pe -- tits.
-		\markup { \citation #"Mt 11" } 
+		%I give praise to you, Fa -- ther, Lord of heaven and earth, for although you have hidden these things from the wise and the learned you have re -- vealed them to the child -- like.
+		\markup { \citation #"Mt 11:25" } 
 	}
 }
 
@@ -83,7 +86,8 @@
 
 	\addlyrics {
 		Qui me voit, voit ce -- lui qui m'a en -- vo -- yé. Al -- le -- lu -- "ia !" _ _
-		\markup { \citation #"Jn 12" } 
+		%Who -- ev -- er sees me sees the one who sent me. Al -- le -- lu -- "ia !" _ _
+		\markup { \citation #"Jn 12:45" } 
 	}
 }
 
@@ -109,7 +113,8 @@
 
 	\addlyrics {
 		Com -- me le Pè -- re m'a en -- vo -- yé, moi aus -- si je vous en -- voie. Al -- le -- lu -- "ia !" _ _
-		\markup { \citation #"Jn 20" } 
+		%As the Fa -- ther has sent me, so I send you. Al -- le -- lu -- "ia !" _ _
+		\markup { \citation #"Jn 20:21" } 
 	}
 }
 

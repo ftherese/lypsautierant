@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 140" "Mode 6" \null \null } }
 \noPageBreak
@@ -15,7 +15,8 @@
 		\endBar
 	}	\addlyrics {
 		Soy -- ez sages et sob -- res en vue de la pri -- è -- re.
-		\markup { \citation #"1 P 4"}
+		%The end of all things is at hand. Therefore, be ser -- i -- ous and so -- ber for pray -- ers. 
+		\markup { \citation #"1 Pt 4:7"}
 	}
 }
 \relative a' { 
@@ -35,7 +36,8 @@
 		\endBar
 	}	\addlyrics {
 		Heu -- reux qui sup -- por -- te l'ép -- reu -- ve, il re -- ce -- vra la cou -- ron -- ne de vie.
-		\markup { \citation #"Jc 1"}
+		%Bless -- ed is the man who per -- se -- veres in temp -- ta -- tion, for when he has been proved he will re -- ceive the crown of life that he promised to those who love him.
+		\markup { \citation #"Jas 1:12"}
 	}
 }
 \relative a' { 
@@ -53,7 +55,8 @@
 		\endBar
 	}	\addlyrics {
 		L'en -- cens s'é -- le -- va de -- vant Dieu a -- vec les pri -- è -- res des saints. 
-		\markup { \citation #"Ap 8"}
+		%The smoke of the in -- cense a -- long with the pray -- ers of the ho -- ly ones went up be -- fore God.
+		\markup { \citation #"Rv 8:4"}
 	}
 }
 \relative a' { 
@@ -70,6 +73,7 @@
 		\endBar
 	}	\addlyrics {
 		Tous, d'un mê -- me cœur, éta -- ient as -- si -- dus à la pri -- è -- re. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Ac 1"}
+		%All these de -- vot -- ed them -- selves with one a -- ccord to prayer. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Acts 1:14"}
 	}
 }

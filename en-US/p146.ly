@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup { \hspace #-10 \fill-line { "Psalm 146" "Mode 6" \null \null }  }
 \noPageBreak
@@ -22,7 +22,8 @@
 
 	\addlyrics {
 		Par -- cou -- rant les vil -- les, Jé -- sus gué -- riss -- ait tou -- te ma -- la -- die.
- 		\markup { \citation #"Mt 9" } }
+		%Je -- sus went a -- round to all the towns and vill -- ages, teaching in their synagogues, proclaiming the gospel of the kingdom, and cur -- ing eve -- ry dis -- ease and ill -- ness. 
+ 		\markup { \citation #"Mt 9:35" } }
 	
 	
 }
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		Par sa bles -- su -- re nous som -- mes gué -- ris.
- 		\markup { \citation #"1 P 2" } }
+		%By his wounds you have been healed.
+ 		\markup { \citation #"1 Pt 2:24" } }
 	
 	
 }
@@ -64,7 +66,8 @@
 
 	\addlyrics {
 		Vo -- tre Pè -- re cé -- les -- te sait de quoi vous a -- vez be -- soin.
- 		\markup { \citation #"Mt 6" } }
+		%Your heav -- en -- ly Fa -- ther knows that you need them all.
+ 		\markup { \citation #"Mt 6:32" } }
 	
 	
 }
@@ -84,8 +87,9 @@
 	}
 
 	\addlyrics {
-		Sa grâ -- ce dé -- bor -- de jus -- qu'à  nous en toute in -- tel -- li -- gence et sa -- ges -- se. Al -- le -- lu -- "ia !"
- 		\markup { \citation #"Ep 1" } }
+		Sa grâ -- ce dé -- bor -- de jus -- qu'à  nous en toute in -- tel -- li -- gence et sa -- ges -- se. Al -- le -- lu -- "ia !"
+		%In all wisdom and insight, 9 he has made known to us the mystery of his will in accord with his favor that he set forth in him. Al -- le -- lu -- "ia !" 
+ 		\markup { \citation #"Eph 1:8-9" } }
 	
 	
 }

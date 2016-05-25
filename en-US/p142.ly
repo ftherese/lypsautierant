@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 142" "Mode 4" \null \null } }
 \noPageBreak
@@ -19,7 +19,8 @@
 
 	\addlyrics {
 		Jé -- sus "dit :" Aie con -- fian -- ce, ta foi t'a sau -- "vée !"
-		\markup { \citation #"Mt 9" } 
+		%Je -- sus turned around and saw her, and said, “Courage, daughter! Your faith has saved you.”
+		\markup { \citation #"Mt 9:22" } 
 	}
 }
 
@@ -39,7 +40,8 @@
 
 	\addlyrics {
 		Ce -- lui qui croit en lui n'est pas ju -- gé.
-		\markup { \citation #"Jn 3" } 
+		%Who -- ev -- er be -- lieves in him will not be con -- demned.
+		\markup { \citation #"Jn 3:18" } 
 	}
 }
 
@@ -58,7 +60,8 @@
 
 	\addlyrics {
 		Au mil -- ieu de la nuit, un cri re -- ten -- "tit :" Voi -- ci l'Ép -- "oux !"
-		\markup { \citation #"Mt 25" } 
+		%At mid -- night, there was a cry, ‘Be -- hold, the bride -- groom!' 
+		\markup { \citation #"Mt 25:6" } 
 	}
 }
 
@@ -81,7 +84,8 @@
 
 	\addlyrics {
 		A -- yant souf -- fert, le Fils peut ve -- nir en ai -- de à ceux qui sont é -- prou -- vés. 
-		\pespace\markup { \citation #"He 2" } 
+		%Be -- cause he him -- self was test -- ed through what he suff -- er -- ed, he is ab -- le to help those who are be -- ing test -- ed.
+		\pespace\markup { \citation #"Heb 2:18" } 
 	}
 }
 
@@ -110,7 +114,8 @@
 
 	\addlyrics {
 		En vé -- ri -- té, je te le "dis :" au -- jour -- d'hui, tu se -- ras a -- vec moi dans le Pa -- ra -- dis. "(Al" -- le -- lu -- - -- "ia !)"
-		\markup { \citation #"Lc 23" } 
+		%A -- men, I say to you, to -- day you will be with me in Par -- a -- dise. "(Al" -- le -- lu -- - -- "ia !)"
+		\markup { \citation #"Lk 23:43" } 
 	}
 }
 

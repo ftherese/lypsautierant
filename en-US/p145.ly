@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 145" "Mode 7" \null \null }  }
 \noPageBreak
@@ -22,7 +22,8 @@
 		\endBar
 	}	\addlyrics {
 		In -- vi -- tez aux no -- ces tous ceux que vous pou -- rrez trou -- ver.
-		\markup { \citation #"Mt 22"}
+		%In -- vite to the feast whom -- ev -- er you find.
+		\markup { \citation #"Mt 22:9"}
 	}
 }
 \relative c'' { 
@@ -44,7 +45,8 @@
 		\endBar
 	}	\addlyrics {
 		Il m'a en -- vo -- yé por -- ter aux pau -- vres la bon -- ne nou -- vel -- le, an -- non -- cer aux cap -- tifs la dé -- li -- vran -- ce.
-		\markup { \citation #"Lc 4"}
+		%He has an -- oin -- ted me to bring glad tid -- ings to the poor. He has sent me to pro -- claim lib -- er -- ty to cap -- tives and recovery of sight to the blind.
+		\markup { \citation #"Lk 4:18"}
 	}
 }
 
@@ -64,7 +66,8 @@
 	}	\addlyrics {
 		
 		Je ne suis pas ve -- nu pour ju -- ger, mais pour sau -- ver le mon -- de.
-		\markup { \citation #"Jn 12"}
+		%I did not come to con -- demn the world but to save the world.
+		\markup { \citation #"Jn 12:47"}
 	}
 }
 \relative c'' { 
@@ -82,7 +85,8 @@
 		\endBar
 	}	\addlyrics {
 		Il a pris sur lui nos in -- fir -- mi -- tés et s'est char -- gé de nos ma -- la -- dies.
-		\markup { \citation #"Mt 8"}
+		%He took away our infirmities and bore our diseases.
+		\markup { \citation #"Mt 8:17"}
 	}
 }
 \relative c'' { 
@@ -100,7 +104,8 @@
 		\endBar
 	}	\addlyrics {
 		Le Sei -- gneur rég -- ne -- ra pour les siè -- cles des siè -- cles. Al -- le -- lu -- "ia !" _
-		\markup { \citation #"Ap 11"}
+		%The kingdom of the world now belongs to our Lord and to his Anointed, and he will reign for -- ev -- er and ev -- er. Al -- le -- lu -- "ia !" _
+		\markup { \citation #"Rv 11:15"}
 	}
 }
 
