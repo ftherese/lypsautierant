@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT 5 }
 
@@ -19,7 +19,8 @@
 	}
 	\addlyrics {
 		 Con -- dui -- sez- -- vous a -- vec crain -- te pen -- dant le temps de votre e -- xil.
-		\markup { \citation #"1 P 1" }
+		%con -- duct your -- selves with re -- ve -- rence du -- ring the time of your so -- jour -- ning.
+		\markup { \citation #"1 Pt 1:17" }
 	}
 }
 \relative a' { 
@@ -33,7 +34,8 @@
 	}
 	\addlyrics {
 		En toi ser -- ont bén -- ies tou -- tes les nat -- ions.
-		\markup { \citation #"Ga 3" }
+		%Through you shall all the na -- tions be blessed.
+		\markup { \citation #"Gal 3:8" }
 	}
 }
 \relative a' { 
@@ -48,7 +50,8 @@
 	}
 	\addlyrics {
 		Je t'ai ét -- ab -- li lu -- mi -- ère des nat -- ions. Al -- le -- lu --  "ia !"
-		\markup { \citation #"Ac 13" }
+		%I have made you a light to the Gen -- tiles. Al -- le -- lu --  "ia !"
+		\markup { \citation #"Acts 13:47" }
 	}
 }
 
@@ -67,7 +70,8 @@
 	}
 	\addlyrics {
 		 Con -- ver -- tis -- sez- -- vous et cro -- yez à la bon -- ne nou -- vel -- le.
-		\markup { \citation #"Mc 1" }
+		%Re -- pent, and be -- lieve in the gos -- pel.
+		\markup { \citation #"Mk 1:15" }
 	}
 }
 \relative a' { 
@@ -87,6 +91,7 @@
 	}
 	\addlyrics {
 		 Pour -- quoi cher -- cher le Vi -- vant par -- mi les "morts ?" "(Al" -- le -- lu -- - -- "ia !)"
-		\markup { \citation #"Lc 24" }
+		%Why do you seek the li -- ving one a -- mong the dead? "(Al" -- le -- lu -- - -- "ia !)"
+		\markup { \citation #"Lk 24:5" }
 	}
 }

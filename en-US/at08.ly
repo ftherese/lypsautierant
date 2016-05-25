@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT 8 }
 
@@ -17,7 +17,8 @@
 
 	\addlyrics {
 		Le Verbe a de -- meu -- ré par -- mi nous. Al -- le -- lu -- "ia !"
- 		\markup { \citation #"Jn 1" } }
+ 		%And the Word be -- came flesh and made his dwel -- ling a -- mong us. Al -- le -- lu -- "ia !"
+ 		\markup { \citation #"Jn 1:14" } }
 	
 	
 }
@@ -37,7 +38,8 @@
 
 	\addlyrics {
 		Cet -- te coupe est la nou -- velle All -- iance en mon sang. Al -- le -- lu -- - -- "ia !"
- 		\markup { \citation #"1 Co 11" } }
+ 		%This cup is the new co -- ve -- nant in my blood. Al -- le -- lu -- - -- "ia !"
+ 		\markup { \citation #"1 Cor 11:25" } }
 	
 	
 }

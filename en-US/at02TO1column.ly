@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT 2 }
 
@@ -21,6 +21,7 @@
 	}
 	\addlyrics {
 		Le pè -- re cou -- rut se je -- ter à son cou et le cou -- vrit de bai -- sers.	
-		\markup { \citation #"Lc 15" } 
+		%[The fa -- ther] He ran to his son, em -- braced him and kissed him.
+		\markup { \citation #"Lk 15:20" } 
 	}
 }

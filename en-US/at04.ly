@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT  4}
 
@@ -20,7 +20,8 @@
 
 	\addlyrics {
 		À ce -- lui qui siè -- ge sur le trône et à l'A -- gneau, bé -- né -- dic -- tion, hon -- neur et gloi -- re.
-		\markup { \citation #"Ap 5" } 
+		%To the one who sits on the throne and to the Lamb be bles -- sing and ho -- nor, glo -- ry and might.
+		\markup { \citation #"Rev 5:13" } 
 	}
 }
 
@@ -40,7 +41,8 @@
 
 	\addlyrics {
 		Il rè -- gner -- a sur la mai -- son de Ja -- cob.
-		\markup { \citation #"Lc 1" } 
+		%He will rule o_-- ver the house of Ja -- cob.
+		\markup { \citation #"Lk 1:33" } 
 	}
 }
 
@@ -58,7 +60,8 @@
 
 	\addlyrics {
 		Son rè -- gne n'au -- ra pas de fin. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Lc 1" } 
+		%Of his king -- dom there will be no end. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"LK 1:33" } 
 	}
 }
 
@@ -77,7 +80,8 @@
 
 	\addlyrics {
 		Si nous te -- nons fer -- me, a -- vec lui nous rè -- gne -- rons.
-		\markup { \citation #"2 Tm 2" } 
+		%If we per -- se -- vere we shall also reign with him.
+		\markup { \citation #"2 Tm 2:12" } 
 	}
 }
 
@@ -99,6 +103,7 @@
 
 	\addlyrics {
 		Bé -- ni soit le Dieu et Pè -- re de no -- tre Sei -- gneur Jé -- sus Christ. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Ep 1" } 
+		%Bles -- sed be the God and Fa -- ther of our Lord Jesus Christ. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Eph 1:3" } 
 	}
 }

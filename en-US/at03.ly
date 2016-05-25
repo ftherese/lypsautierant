@@ -17,7 +17,8 @@
 
 	\addlyrics {
 		Mon â -- me ma -- gni -- fie le Sei -- gneur.
-		\markup { \citation #"Lc 1" } }
+		%My soul pro -- claims the great -- ness of the Lord.
+		\markup { \citation #"Lk 1:46" } }
 	
 	
 }
@@ -36,7 +37,8 @@
 
 	\addlyrics {
 		Ce qui est faib -- les -- se de Dieu est plus fort que les hom -- mes.
-		\markup { \citation #"1 Co 1" } }
+		%The weak -- ness of God is stron -- ger than hu -- man strength.
+		\markup { \citation #"1 Cor 1:25" } }
 	
 	
 }
@@ -53,7 +55,8 @@
 
 	\addlyrics {
 		Red -- res -- sez- -- vous et re -- le -- vez la tê -- te.
-		\markup { \citation #"Lc 21" } }
+		%Stand e -- rect and raise your heads.
+		\markup { \citation #"Lk 21:28" } }
 	
 	
 }
@@ -80,7 +83,8 @@ d4
 
 	\addlyrics {
 C'est pour vous que Dieu a res -- su -- sci -- té son Ser -- vi -- teur et l'a en -- voy -- é vous bé -- nir. Al -- le -- lui -- "a !"
-		\markup { \citation #"Ac 3" } }
+		%For you first, God raised up his ser -- vant and sent him to bless you. Al -- le -- lui -- "a !"
+		\markup { \citation #"Acts 3:26" } }
 	
 	
 }

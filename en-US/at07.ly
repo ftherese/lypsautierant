@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT 7}
 
@@ -16,7 +16,8 @@
 
 	\addlyrics {
 		Chan -- tez à Dieu par des psaumes et des hym -- nes.
-		\markup { \citation #"Col 3" } }
+		%Singing psalms, hymns, and spiritual songs with gra -- ti -- tude in your hearts to God.
+		\markup { \citation #"Col 3:16" } }
 	
 }
 \relative a' { 
@@ -35,7 +36,8 @@
 
 	\addlyrics {
 		A ton nom, Sei -- gneur, qui ne ren -- drait gloi -- "re !"
-		\markup { \citation #" Ap 15" } }
+		%Who will not fear you, Lord, or glo -- ri -- fy your name?
+		\markup { \citation #" Rev 15:4" } }
 	
 }
 
@@ -55,7 +57,8 @@
 
 	\addlyrics {
 		Bien -- heu -- reu -- se cel -- le qui a "cru !"
-		\markup { \citation #" Lc 1" } }
+		%Bles -- sed are you who be -- lieved.
+		\markup { \citation #" Lk 1:45" } }
 	
 }
 \relative a' { 
@@ -76,7 +79,8 @@
 
 	\addlyrics {
 		Il sou -- ffla sur eux et leur "dit :" Re -- ce -- vez l'Es -- prit Saint. Al -- le -- lui -- "a !"
-		\markup { \citation #"Jn 20" } }
+		%He breathed on them and said to them, “Re -- ceive the ho -- ly Spi -- rit. Al -- le -- lui -- "a !"
+		\markup { \citation #"Jn 20:22" } }
 	
 }
 

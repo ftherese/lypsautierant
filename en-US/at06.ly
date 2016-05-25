@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT  6}
 
@@ -19,7 +19,8 @@
 		\endBar
 	}	\addlyrics {
 		El -- le res -- plen -- dit com -- me pier -- re pré -- cieu -- se, com -- me du jas -- pe cris -- tal -- lin.
-		\markup { \citation #"Ap 21"}
+		%Its ra -- diance was like that of a pre -- cious stone, like jas -- per, clear as cry -- stal.
+		\markup { \citation #"Rev 21:11"}
 	}
 }
 \relative c'' { 
@@ -39,7 +40,8 @@
 		\endBar
 	}	\addlyrics {
 		Les na -- tions mar -- che -- ront à sa lu -- miè -- re et les rois lui ap -- por -- te -- ront leur gloi -- re.
-		\markup { \citation #"Ap 21"}
+		%The na -- tions will walk by its light, and to it the kings of the earth will bring their trea -- sure.
+		\markup { \citation #"Rev 21:24"}
 	}
 }
 
@@ -56,7 +58,8 @@
 		\endBar
 	}	\addlyrics {
 		Voi -- ci que nous mon -- tons à Jé -- ru -- sa -- lem.
-		\markup { \citation #"Mc 10"}
+		%Be -- hold, we are go -- ing up to Je -- ru -- sa -- lem.
+		\markup { \citation #"Mk 10:33"}
 	}
 }
 \relative c'' { 
@@ -77,6 +80,7 @@
 		\endBar
 	}	\addlyrics {
 		La ville est de l'or pur, comme un pur cris -- tal. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Ap 21"}
+		%The ci -- ty was pure gold, clear as glass. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Rev 21:18"}
 	}
 }

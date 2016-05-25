@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT 2 }
 
@@ -21,7 +21,8 @@
 	}
 	\addlyrics {
 		Le pè -- re cou -- rut se je -- ter à ses pieds et le cou -- vrit de bai -- sers.	
-		\markup { \citation #"Lc 15" } 
+		%[The fa -- ther] He ran to his son, em -- braced him and kissed him.
+		\markup { \citation #"Lk 15:20" } 
 	}
 }
 \relative d' { 
@@ -36,7 +37,8 @@
 	}
 	\addlyrics {
 		L'œu -- vre de Dieu, c'est que vous croy -- iez. "(Al" -- le -- lu -- - -- "ia !)"
-		\markup { \citation #"Jn 6" } 
+		%This is the work of God, that you be -- lieve in the one he sent. "(Al" -- le -- lu -- - -- "ia !)"
+		\markup { \citation #"Jn 6:29" } 
 	}
 }
 \relative d' { 
@@ -52,7 +54,8 @@
 	}
 	\addlyrics {
 		Jé -- ru -- sa -- lem, que de fois j'ai dé -- si -- ré ras -- sem -- bler tes enf -- "ants !"	
-		\markup { \citation #" Mt 23" } 
+		%Je -- ru -- sa -- lem ... how ma -- ny times I yearned to ga -- ther your child -- ren to -- ge -- ther!
+		\markup { \citation #" Mt 23:37" } 
 	}
 }
 
@@ -74,7 +77,8 @@ d4 \cesure\pespace
 	}
 	\addlyrics {
 El -- le re -- çut les deux ai -- les du grand ai -- gle pour vo -- ler au dé -- sert. "Al" -- le -- lu -- "ia !"	
-		\markup { \citation #"Ap 12" } 
+		%The wo -- man was gi -- ven the two wings of the great ea -- gle, so that she could fly to her place in the de -- sert. "Al" -- le -- lu -- "ia !"
+		\markup { \citation #"Rev 12:14" } 
 	}
 }
 
