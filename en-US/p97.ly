@@ -18,7 +18,8 @@
 	}	
 		\addlyrics {
 		Dieu s'est acq -- uis un peu -- ple pour la lou -- an -- ge de sa gloi -- re.
-		\markup { \citation #"Ep 1"}
+		%Our in -- her -- i -- tance toward re -- demp -- tion as God’s po -- sses -- sion, to the praise of his glor -- y.
+		\markup { \citation #"Eph 1:9"}
 	}
 }
 \relative a' { 
@@ -34,7 +35,8 @@
 	}	
 		\addlyrics {
 		La vie é -- ter -- ne -- lle, c'est qu'ils te con -- nai -- ssent, toi, le seul vrai Dieu.
-		\markup { \citation #"Jn 17"}
+		%Now this is e -- ter -- nal life, that they should know you, the on -- ly true God.
+		\markup { \citation #"Jn 17:3"}
 	}
 }
 
@@ -52,7 +54,8 @@
 	}	
 		\addlyrics {
 		Éc -- lat -- ez en cris de joie, " A" -- lle -- lu -- - -- "ia !"
-		\markup { \citation #"Ps 97"}
+		%Shout with joy.  A" -- lle -- lu -- - -- "ia !"
+		\markup { \citation #"Ps 97/98:4"}
 	}
 }
 
@@ -69,7 +72,8 @@
 	}	
 		\addlyrics {
 		Le lan -- ga -- ge de la croix est pui -- ssa -- nce de Dieu.
-		\markup { \citation #"1 Co 1"}
+		%The mes -- sage of the cross is fool -- ish -- ness to those who are per -- ish -- ing, but to us who are be -- ing saved it is the pow -- er of God. 
+		\markup { \citation #"1 Cor 1:18"}
 	}
 }
 \relative a' { 
@@ -85,6 +89,7 @@
 	}	
 		\addlyrics {
 		Ré -- jo -- ui -- ssez- -- vous et tre -- ssai -- llez d'al -- lé -- gre -- sse, " Al" -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Lc 6"}
+		%Re -- joice and leap for joy on that day! Al" -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Lk 6:23"}
 	}
 }
