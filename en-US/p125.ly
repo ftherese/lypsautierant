@@ -23,7 +23,8 @@
 
 	\addlyrics {
 		Soy -- ez dans la joie et l'a -- llé -- gre -- sse, car vo -- tre ré -- com -- pen -- se se -- ra gra -- nde dans les cieux.
-		\markup { \citation #"Mt 5" } 
+		%Re -- joice and be glad, for your re -- ward will be great in heav -- en.
+		\markup { \citation #"Mt 5:12" } 
 	}
 }
 \relative d' { 
@@ -40,7 +41,8 @@
 
 	\addlyrics {
 		Vo -- tre tris -- tes -- se se chan -- ge -- ra en joie.
-		\markup { \citation #"Jn 16" } 
+		%Your grief will be -- come joy.
+		\markup { \citation #"Jn 16:20" } 
 	}
 }
 
@@ -61,7 +63,8 @@
 
 	\addlyrics {
 		Le -- vez les yeux, la mois -- son est blan -- - -- che.
-		\markup { \citation #"Jn 4" } 
+		%Look up and see the fields ripe for the har -- vest.
+		\markup { \citation #"Jn 4:35" } 
 	}
 }
 \relative d' { 
@@ -79,7 +82,8 @@
 
 	\addlyrics {
 		Bé -- ni soit le Seig -- neur qui vi -- site et ra -- chè -- te son peu -- ple.
-		\markup { \citation #"Lc 1" } 
+		%Bless -- ed be the Lord, the God of Is -- ra -- el, for he has vi -- si -- ted and brought re -- demp -- tion to his peo -- ple.
+		\markup { \citation #"Lk 1:68" } 
 	}
 }
 
@@ -105,7 +109,8 @@
 
 	\addlyrics {
 		Les a -- pôtres al -- laient tout jo -- yeux d'av -- oir souff -- ert pour le Christ. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Cf. Ac 5" } 
+		%The a -- po -- stles left re -- joic -- ing that they had been found wor -- thy to suf -- fer dis -- honor for the sake of the name. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Cf. Acts 5:41" } 
 	}
 }
 
