@@ -57,7 +57,8 @@
 
 	\addlyrics {
 		Ils l'em -- me -- nè -- rent " à" Jé -- ru -- sa -- lem pour le pré -- sen -- ter au Sei -- gneur.
-		\markup { \citation #"Lc 2" } }
+		%They took him up to Je -- ru -- sa -- lem to pre -- sent him to the Lord.
+		\markup { \citation #"Lk 2:22" } }
 	
 	
 }
@@ -77,7 +78,8 @@
 
 	\addlyrics {
 		Sur le che -- min de Jé -- ru -- sa -- lem, Jé -- sus mar -- chait de -- vant eux.
-		\markup { \citation #"Mc 10" } }
+		%They were on the way, go -- ing up to Je -- ru -- sa -- lem, and Je -- sus went a -- head of them. 
+		\markup { \citation #"Mk 10:32" } }
 	
 	
 }
@@ -99,7 +101,8 @@
 
 	\addlyrics {
 		Ils re -- tour -- nè -- rent à  Jé -- ru -- sa -- lem en gran -- de joie. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Lc 24" } }
+		%They did him hom -- age and then re -- turned to Je -- ru -- sa -- lem with great joy Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Lk 24:52" } }
 	
 	
 }
