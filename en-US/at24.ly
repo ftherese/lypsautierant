@@ -18,7 +18,8 @@
 
 	\addlyrics {
 		Son nom é -- tait "Jean :" il vint pour ren -- dre té -- moi -- gnage à  la lu -- miè -- re. "(Al" -- le -- lu -- "ia !)"
- 		\markup { \citation #"Jn 1" } }
+ 		%A man named John was sent from God. He came for tes -- ti -- mony, to tes -- ti -- fy to the light. "(Al" -- le -- lu -- "ia !)"
+ 		\markup { \citation #"Jn 1:6" } }
 	
 	
 }
@@ -39,7 +40,8 @@
 
 	\addlyrics {
 		La gloi -- re du Sei -- gneur les en -- ve -- lop -- pa de sa clar -- té. "(Al" -- le -- lu -- "ia !)" _ _
- 		\markup { \citation #"Lc 2" } }
+ 		%The glo -- ry of the Lord shone a -- round them. "(Al" -- le -- lu -- "ia !)"
+ 		\markup { \citation #"Lk 2:" } }
 	
 	
 }
