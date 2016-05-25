@@ -20,7 +20,8 @@
 
 	\addlyrics {
 		Sur cet -- te pier -- re, je bâ -- ti -- rai mon É -- gli -- se.
- 		\markup { \citation #"Mt 16" } }
+ 		%You are Pe -- ter, and upon this rock I will build my church.
+ 		\markup { \citation #"Mt 16:18" } }
 	
 	
 }
@@ -40,7 +41,8 @@
 
 	\addlyrics {
 		Près de la croix de Jé -- sus, se te -- nait sa mè -- re.
- 		\markup { \citation #"Jn 19" } }
+ 		%Stand -- ing by the cross of Je -- sus was his mo -- ther.
+ 		\markup { \citation #"Jn 19:25" } }
 	
 	
 }
@@ -60,7 +62,8 @@
 
 	\addlyrics {
 		À l'Is -- ra -- ël de Dieu, paix et mi -- sé -- ri -- cor -- de.
- 		\markup { \citation #" Ga 6 " } }
+ 		%Peace and mer -- cy be to all who fol -- low this rule and to the Is -- ra -- el of God.
+ 		\markup { \citation #" Gal 6:16 " } }
 	
 	
 }
@@ -82,7 +85,8 @@
 
 	\addlyrics {
 		Nous en -- trons en pos -- ses -- sion d'un ro -- yaume in -- é -- bran -- la -- ble. Al -- le -- lu -- "ia !" _ _
- 		\markup { \citation #"He 12" } }
+ 		%We who are re -- ceiv -- ing the un -- shak -- able king -- dom should have gra -- ti -- tude. Al -- le -- lu -- "ia !"
+ 		\markup { \citation #"Heb 12:28" } }
 	
 	
 }
