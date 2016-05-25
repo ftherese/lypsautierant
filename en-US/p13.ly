@@ -9,20 +9,15 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Adv. } }
-		\times 2/3 { c8 d c }
-		c[ f]
-		f4
-		\times 2/3 { e8 f g }
-		f[\( f\)]
-		\cesure\pespace
-		\times 2/3 { f e c }
-		d4
+		\times 2/3 { c8[ d f] f16[ f f f]}
+		\times 2/3 { f[ e c] }
+		d4( d8)
 		\endBar
 	}
 
 	\addlyrics {
-		Je suis ve -- nu sau -- ver non pas les jus -- tes mais les pé -- cheurs.
-		% I did not come to call the righ -- teous but sin -- ners.
+		%Je suis ve -- nu sau -- ver non pas les jus -- tes mais les pé -- cheurs.
+		I did not come to call the righ -- teous but sin -- ners.
 		\markup { \citation #"Mk 2:17" } 
 	}
 }
@@ -44,8 +39,8 @@
 	}
 
 	\addlyrics {
-		La grâ -- ce de Dieu s'est ma -- ni -- fes -- tée, nous en -- sei -- gnant à re -- non -- cer au pé -- ché.
-		% For the grace of God has ap -- peared, sa -- ving all and train -- ing us to re -- ject god -- less ways and world -- ly de -- sires and to live tem -- per -- ate -- ly, just -- ly, and de -- vout -- ly in this age.
+		%La grâ -- ce de Dieu s'est ma -- ni -- fes -- tée, nous en -- sei -- gnant à re -- non -- cer au pé -- ché.
+		The grace of God has ap -- peared, sa -- ving all and train -- ing us to re -- ject god -- less ways.
 		\markup { \citation #"Ti 2:11-12" } 
 	}
 }

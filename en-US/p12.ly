@@ -30,14 +30,16 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		\times 2/3 { g8[ c b] } c16[ d\( d\) f] \times 2/3 { e8[ e d] } e[\( e\)] \cesure \pespace
-\times 2/3 { d[ e d] } \times 2/3 { c[\( c\) b] } a4
+		\times 2/3 {r8  g8 c[ b c] }  d8[[ d d] d16[ d \cesure\pespace d d] f8[ e d] e4 \cesure \pespace
+		d8[ c b] d4 
 
 
 		\endBar
 	}	\addlyrics {
-		Que le Sei -- gneur tou -- rne vers vous son vi -- sa -- ge et vous ap -- por -- te la paix.
+		%Que le Sei -- gneur tou -- rne vers vous son vi -- sa -- ge et vous ap -- por -- te la paix.
 		%The Lord let his face shine up -- on you, and be gra -- cious to you! The Lord look up -- on you kind -- ly and give you peace! (25-26??)
+		The Lord let his face shine up -- on you, and be gra -- cious to you, and give you peace!
+
 
 		\markup { \citation #"Nm 6"}
 	}
@@ -47,13 +49,14 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. Chr. } }
-		\times 2/3 { g8[\( c\) b] } \slurDashed c4( d16[) f e d] e4 \cesure \pespace
-\times 2/3 { d8[ d d] } d16[ d d e] d16[\( d\) c c] b4\( \stemDown a8\) r8 
+		r8 c8 b16[ c d f] e8[ e] d[ e] e4 \cesure \pespace
+\times 2/3 { d8[ d d] } e[ d] c[ c] b4\( \stemDown a8\) 
  \endBar
 	}	\addlyrics {
-		L'as -- tre "d'en-ha" -- ut vient nous vi -- si -- ter pour éc -- lai -- rer ceux qui ha -- bi -- tent les té -- nè -- bres.
+		%L'as -- tre "d'en-ha" -- ut vient nous vi -- si -- ter pour éc -- lai -- rer ceux qui ha -- bi -- tent les té -- nè -- bres.
 		% be -- cause of the ten -- der mer -- cy of our God by which the day -- break from on high will vis -- it us to shine on those who sit in dark -- ness and death’s sha -- dow, to guide our feet in -- to the path of peace. (?Lk 1:78-79?)
-		\markup { \citation #"Lc 2??"}
+		The day -- break from on high will vis -- it us to shine on those who sit in dark -- ness.
+		\markup { \citation #"Lc 1:78-79"}
 	}
 }
 
@@ -61,18 +64,16 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
-		\times 2/3 { d8[ d d] }
-		\times 2/3 { f e d }
+		\times 2/3 { d8[ f] e[ d] }
 		e4
-		\pespace
-		\times 2/3 { r8\( d e\) }
-		d4
-		\times 2/3 { c8 c b }
+		\cesurebasse\pespace
+		\times 2/3 { d8[ e] d[ c]}
+		\times 2/3 { c[ b]}
 		a4
 		\endBar
 	}	\addlyrics {
-		Si nous souf -- frons a -- vec lui, a -- vec lui nous rég -- ne -- rons.
-		% If we per -- se -- vere we shall al -- so reign with him.
+		%Si nous souf -- frons a -- vec lui, a -- vec lui nous rég -- ne -- rons.
+		If we per -- se -- vere we shall al -- so reign with him.
 		\markup { \citation #"Cf. 2 Tm 2:12"}
 	}
 }
@@ -80,26 +81,21 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		\times 2/3 { g8 c b }
-		\slurDashed
-		c4(
-		\times 2/3 { d8)\( d\) f }
-		\times 2/3 { e4\( \pespace\cesure \pespace d8\) }
-		d[ d]
-		
-		\times 2/3 { e d d }
-		\times 2/3 { c[ c b] }
+		c8[ b c] d4
+		\times 2/3 { d8[ d f] }
+		\times 2/3 { e8[ d16 e] e4 \pespace\cesure \pespace }
+		d8[ d] d8[d e]
+		\times 2/3 { d[ c] }
+		\times 2/3 { c[ b] }
 		a4
-		
-\espall
-		\times 2/3 { r
-8\( c b\) }
+		\espall
+		\times 2/3 { r8\( c[ b]\) }
 		c[\( a\)]
 		a4
 		\endBar
 	}	\addlyrics {
-		Res -- sus -- cit -- é d'en -- tre les morts, le Christ n'est plus as -- ser -- vi à la mort. Al -- le -- lu -- - -- "ia !"
-		% We know that Christ, raised from the dead, dies no more; death no longer has power over him. Al -- le -- lu -- - -- "ia !"
+		%Res -- sus -- cit -- é d'en -- tre les morts, le Christ n'est plus as -- ser -- vi à la mort. Al -- le -- lu -- - -- "ia !"
+		We know that Christ, raised from the dead, dies no more; death no long -- er has pow -- er ov -- er him. Al -- le -- lu -- - -- "ia !"
 		\markup { \citation #"Rom 6:9"}
 	}
 }
