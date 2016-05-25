@@ -16,7 +16,8 @@
 		\endBar
 	}	\addlyrics {
 		Cel -- ui qui a soif, je lui don -- ne -- rai de la sou -- rce de vie, gra -- tui -- tem -- ent. "(Al" -- le -- lui -- "a !)"
-		\markup { \citation #"Ap 21"}
+		%To the thir -- sty I will give a gift from the spring of life- -- giv -- ing wa -- ter. "(Al" -- le -- lui -- "a !)"
+		\markup { \citation #"Rv 21:6"}
 	}
 }
 
@@ -42,7 +43,8 @@
 		\endBar
 	}	\addlyrics {
 		Ils vien -- dront nom -- breux, du le -- vant et du cou -- chant, pren -- dre pla -- "ce au" fes -- tin dans le Roy -- au -- me de Dieu. "(Al" -- le -- lu -- - -- "ia !)"
-		\markup { \citation #"Lc 13"}
+		%And peo -- ple will come from the east and the west and from the north and the south and will re -- cline at ta -- ble in the king -- dom of God. "(Al" -- le -- lu -- - -- "ia !)"
+		\markup { \citation #"Lk 13:29"}
 	}
 }
 
