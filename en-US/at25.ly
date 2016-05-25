@@ -15,8 +15,9 @@ g[ g]
 f4\( d8\) r
 		\endBar
 	}	\addlyrics {
-En Dieu sont ca -- chés tous les tré -- sors de la sa -- ges -- se et de la con -- nais -- san -- ce.		
-		\markup { \citation #"Col 2"}
+		En Dieu sont ca -- chés tous les tré -- sors de la sa -- ges -- se et de la con -- nais -- san -- ce.		
+		%For the know -- ledge of the my -- ste -- ry of God, Christ, in whom are hid -- den all the trea -- sures of wis -- dom and know -- ledge.
+		\markup { \citation #"Col 2:2-3"}
 	}
 }
 
@@ -34,7 +35,8 @@ En Dieu sont ca -- chés tous les tré -- sors de la sa -- ges -- se et de la co
 		\endBar
 	}	\addlyrics {
 		Vous êt -- es re -- tour -- nés vers le pas -- teur de vos âm -- es.		
-		\markup { \citation #"1 P 2"}
+		%You have now re -- turned to the shep -- herd and guar -- dian of your souls.
+		\markup { \citation #"1 Pet 2:25"}
 	}
 }
 
@@ -55,8 +57,9 @@ a4
 f4\( d8\) r
 		\endBar
 	}	\addlyrics {
-Voi -- ci que je viens sans tar -- der et j'ap -- porte a -- vec moi le sa -- lai -- re.		
-		\markup { \citation #"Ap 22"}
+		Voi -- ci que je viens sans tar -- der et j'ap -- porte a -- vec moi le sa -- lai -- re.		
+		%Be -- hold, I am com -- ing soon. I bring with me the re -- com -- pense I will give to each a -- ccor -- ding to his deeds. 
+		\markup { \citation #"Rv 22:12"}
 	}
 }
 
@@ -77,8 +80,9 @@ bes[\( g]
 a4\)
 		\endBar
 	}	\addlyrics {
-Jé -- sus dit à Pier -- "re :" Pais mes ag -- neaux. Al -- le -- lui -- "a !" _ _
-		\markup { \citation #"Jn 21"}
+		Jé -- sus dit à Pier -- "re :" Pais mes ag -- neaux. Al -- le -- lui -- "a !" _ _
+		%Feed my lambs.  Al -- le -- lui -- "a !"
+		\markup { \citation #"Jn 21:15"}
 	}
 }
 
