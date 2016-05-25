@@ -18,7 +18,8 @@
 		\endBar
 	}	\addlyrics {
 		Vous de -- vez re -- ce -- voir en hé -- ri -- ta -- ge les bé -- né -- dic -- tions de Dieu.
-		\markup { \citation #"1 P 3"}
+		%That you might in -- her -- it a bless -- ing. 
+		\markup { \citation #"1 Pt 3:9"}
 	}
 }
 \relative c'' { 
@@ -40,7 +41,8 @@
 		\endBar
 	}	\addlyrics {
 		 Heu -- reux les in -- vi -- tés au fes -- tin des no -- ces de l'A -- "gneau !"  "(Al" -- le -- lu -- "ia !)"
-		\markup { \citation #"Ap 19"}
+		%For the wed -- ding day of the Lamb has come. "(Al" -- le -- lu -- "ia !)"
+		\markup { \citation #"Rv 19:7"}
 	}
 }
 \relative c'' { 
@@ -74,7 +76,8 @@
 		\endBar
 	}	\addlyrics {
 		Ils trou -- vèr -- ent Ma -- rie et Jos -- eph, et le nou -- veau -- -né cou -- ché dans u -- ne crè -- che.
-		\markup { \citation #"Lc 2"}
+		%So they went in haste and found Ma -- ry and Jo -- seph, and the in -- fant ly -- ing in the man -- ger.
+		\markup { \citation #"Lk 2:16"}
 	}
 }
 \relative c'' { 
@@ -92,7 +95,8 @@
 		\endBar
 	}	\addlyrics {
 		La Pâ -- que des Juifs ét -- ait pro -- che et Jé -- sus mon -- ta à Jé -- ru -- sa -- lem.
-		\markup { \citation #"Jn 2"}
+		%Since the Pass -- o -- ver of the Jews was near, Je -- sus went up to Je -- ru -- sa -- lem. 
+		\markup { \citation #"Jn 2:13"}
 	}
 }
 
