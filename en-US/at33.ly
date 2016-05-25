@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT  33}
 
@@ -17,6 +17,7 @@
 		\endBar
 	}	\addlyrics {
 		Le tem -- ple de Dieu est sa -- cré, et ce tem -- ple c'est vous. "(Al" -- le -- lui -- "a !)" _ _		
-		\markup { \citation #"1 Co 3"}
+		%The tem -- ple of God, which you are, is ho -- ly. "(Al" -- le -- lui -- "a !)" _ _		
+		\markup { \citation #"1 Cor 3:17"}
 	}
 }

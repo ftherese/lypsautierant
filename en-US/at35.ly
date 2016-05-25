@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 \markup {AT 35  }
 \relative d' { 
@@ -16,7 +16,8 @@
 	}
 	\addlyrics {
 Heur -- eux est l'hom -- me qui met sa foi dans le Sei -- gneur. "(Al" -- le -- lui -- "a !)" _ _		
-		\markup { \citation #"Ps 39" } 
+		%Bles -- sed the man who sets his se -- cu -- ri -- ty in the Lord. "(Al" -- le -- lui -- "a !)" _ _
+		\markup { \citation #"Ps 39:5" } 
 	}
 }
 \relative d' { 
@@ -34,6 +35,7 @@ Heur -- eux est l'hom -- me qui met sa foi dans le Sei -- gneur. "(Al" -- le -- 
 	}
 	\addlyrics {
 Je n'ai rien vou -- lu sav -- oir, sin -- on Jé -- sus Christ cru -- ci -- fié. "(Al" -- le -- lui -- "a !)"		
-		\markup { \citation #"1 Co 2" } 
+		%For I re -- solved to know no -- thing while I was with you ex -- cept Je -- sus Christ, and him cru -- ci -- fied. "(Al" -- le -- lui -- "a !)"
+		\markup { \citation #"1 Cor 2:2" } 
 	}
 }

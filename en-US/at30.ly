@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT 30 }
 
@@ -22,7 +22,8 @@
 	}
 	\addlyrics {
 		Vo -- tre cœur se -- ra dans la "joie ;" et vo -- "tre jo" -- ie, nul ne vous l'en -- lè -- ve -- ra.
-		\markup { \citation #"Jn 16" } 
+		%Your hearts will re -- joice, and no one will take your joy a -- way from you.
+		\markup { \citation #"Jn 16:22" } 
 	}
 }
 
@@ -40,7 +41,8 @@
 	}
 	\addlyrics {
 		Un signe ap -- pa -- rut dans le ciel, un -- e Femme en -- vel -- op -- pée du sol -- eil.
-		\markup { \citation #"Ap 12" } 
+		%A great sign ap -- peared in the sky, a wo -- man clothed with the sun.
+		\markup { \citation #"Rev 12:1" } 
 	}
 }
 
@@ -60,7 +62,8 @@
 	}
 	\addlyrics {
 		Que l'as -- tre du ma -- tin se lè -- ve dans vos cœurs. "(Al" -- le -- lu -- "ia !)" _
-		\markup { \citation #"2 P 1" } 
+		%Until day dawns and the mor -- ning star ri -- ses in your hearts. "(Al" -- le -- lu -- "ia !)" _
+		\markup { \citation #"2 Pt 1:19" } 
 	}
 }
 
@@ -78,7 +81,8 @@
 	}
 	\addlyrics {
 		Qui est cel -- le qui mon -- te du dés -- ert, ap -- pu -- yée sur son bien -- -ai -- "mé ?"
-		\markup { \citation #"Ct 8" } 
+		%Who is this co -- ming up from the de -- sert, lea -- ning u -- pon her lo -- ver?
+		\markup { \citation #"Sg 8:5" } 
 	}
 }
 
@@ -98,6 +102,7 @@
 	}
 	\addlyrics {
 		Viens, que je te mon -- tre la Fi -- an -- cée, l'É -- pou -- se de l'A -- gneau. Al -- le -- lu -- "ia !"
-		\markup { \citation #"Ap 21" } 
+		%Come here. I will show you the bride, the wife of the Lamb. Al -- le -- lu -- "ia !"
+		\markup { \citation #"Rev 21:9" } 
 	}
 }

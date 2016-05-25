@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT  31}
 
@@ -20,7 +20,8 @@
 	}
 	\addlyrics {
 		En lui nous trou -- vons la réd -- emp -- tion par son sang. "(Al" -- le -- lu -- "ia !)" 
-		\markup { \citation #"Ep 1" }
+		%In him we have re -- demp -- tion by his blood. "(Al" -- le -- lu -- "ia !)"
+		\markup { \citation #"Eph 1:7" }
 	}
 }
 
@@ -43,6 +44,7 @@
 	}
 	\addlyrics {
 		 Il est re -- vê -- tu d'un man -- teau trem -- pé dans le sang. "(Al" -- le -- lu -- "ia !)" _ _
-		\markup { \citation #"Ap 19" }
+		%He wore a cloak that had been dipped in blood. "(Al" -- le -- lu -- "ia !)" _ _
+		\markup { \citation #"Rev 19:13" }
 	}
 }

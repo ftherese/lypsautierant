@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT  34}
 
@@ -20,7 +20,8 @@ a16[ a g bes]
 
 	\addlyrics {
 		Si nous con -- fes -- sons nos pé -- chés, lui nous par -- don -- ne.
- 		\markup { \citation #"1 Jn 1" } }
+ 		%If we ack -- now -- ledge our sins, he is faith -- ful and just and will for -- give our sins.
+ 		\markup { \citation #"1 Jn 1:9" } }
 	
 	
 }
@@ -42,7 +43,8 @@ a8
 
 	\addlyrics {
 		Au jour du sa -- lut, je t'ai se -- cou -- ru.
- 		\markup { \citation #" 2 Co 6 " } }
+ 		%)n the day of sal -- va -- tion I helped you.
+ 		\markup { \citation #" 2 Cor 6:2 " } }
 	
 	
 }
@@ -68,7 +70,8 @@ a8 a[ a]
 
 	\addlyrics {
 		Jé -- sus pri -- ait de fa -- çon plus ar -- den -- te, et sa su -- eur de -- vint com -- me du sang.
- 		\markup { \citation #"Lc 22" } }
+ 		%He prayed so fer -- vent -- ly that his sweat be -- came like drops of blood.
+ 		\markup { \citation #"Lk 22:44" } }
 	
 	
 }
@@ -95,7 +98,8 @@ a8 a[ a]
 
 	\addlyrics {
 		Nous le vo -- yons cou -- ron -- né de gloire et d'hon -- neur, car il a souff -- ert la mort. Al -- le -- lu -- "ia !"
- 		\markup { \citation #"He 2" } }
+ 		%We do see Jesus “crowned with glo -- ry and ho -- nor” be -- cause he suf -- fered death. Al -- le -- lu -- "ia !"
+ 		\markup { \citation #"Heb 2:9" } }
 	
 	
 }
