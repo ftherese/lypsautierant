@@ -20,7 +20,8 @@
 	}
 	\addlyrics {
 		Du trô -- ne sor -- tent des é -- clairs, des voix et des ton -- ner -- res.
-		\markup { \citation #"Ap 4" } 
+		%From the throne came fla -- shes of light -- ning, rum -- blings, and peals of thun -- der.
+		\markup { \citation #"Rv 4 4:5" } 
 	}
 }
 \relative a' { 
@@ -37,7 +38,8 @@
 	}
 	\addlyrics {
 		La vie ét -- ait la lu -- miè -- re des hom -- mes.
-		\markup { \citation #"Jn 1" } 
+		%What came to be through him was life, and this life was the light of the hu -- man race.
+		\markup { \citation #"Jn 1:3" } 
 	}
 }
 
@@ -57,7 +59,8 @@
 	}
 	\addlyrics {
 		Mes yeux ont vu ton sa -- lut, lu -- miè -- re pour é -- clai -- rer les na -- tions.
-		\markup { \citation #"Lc 2" } 
+		%For my eyes have seen your sal -- va -- tion, which you pre -- pared in sight of all the peo -- ples, a light for re -- vel -- a -- tion to the Gen -- tiles, and glo -- ry for your peo -- ple Is -- ra -- el.
+		\markup { \citation #"Lk 2:30-32" } 
 	}
 }
 
@@ -75,7 +78,8 @@
 	}
 	\addlyrics {
 		Je flé -- chis les gen -- oux en pré -- sen -- ce du Pè -- re.
-		\markup { \citation #"Ep 3" } 
+		%For this rea -- son I kneel be -- fore the Fa -- ther.
+		\markup { \citation #"Eph 3:14" } 
 	}
 }
 \relative a' { 
@@ -102,6 +106,7 @@
 	}
 	\addlyrics {
 		Tu es mon -- té, Sei -- gneur, au plus haut des cieux, pour don -- ner à l'u -- ni -- vers sa plé -- ni -- tu -- de. " Al" -- le -- lu -- "ia !" 
-		\markup { \citation #"Cf. Ep 4" } 
+		%“He as -- cen -- ded on high and took pri -- son -- ers cap -- tive; he gave gifts to men.” Al" -- le -- lu -- "ia !"
+		\markup { \citation #"Cf. Eph 4:7" } 
 	}
 }
