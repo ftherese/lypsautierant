@@ -26,14 +26,12 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
 		c8
-		\times 2/3 { d[\( c\) f] }
-		\times 2/3 { f e f }
-		g[ f]
-		f4
-		\cesure\pespace
-		\times 2/3 { f8 f f }
-		f16[ f f f]
-		\times 2/3 { e8 c d }
+		\times 2/3 { d4\( c8\) }
+		\times 2/3 {  f[ f f] }
+		e[ f g] f4(\cesure\pespace
+		\times 2/3 {f8) f[ f f] }
+		f[ f]
+		\times 2/3 { e8[ c d] }
 		d4
 		\endBar
 	}
