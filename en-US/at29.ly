@@ -23,7 +23,8 @@
 
 	\addlyrics {
 		Il a fait de nous, pour no -- tre Dieu, un ro -- yau -- me de prê -- tres. "(Al" -- le -- lu -- - -- "ia !)"
-		\markup { \citation #"Ap 5" } 
+		%You made them a king -- dom and priests for our God. "(Al" -- le -- lu -- - -- "ia !)"
+		\markup { \citation #"Rv 5:10" } 
 	}
 }
 
