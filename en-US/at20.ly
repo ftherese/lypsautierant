@@ -18,7 +18,8 @@
 	\endBar}
 	\addlyrics {
 		Vous êtes u -- ne na -- tion sain -- te, un sa -- cer -- do -- ce ro -- yal.
-		\markup { \citation #"1 P 2" } }
+		%But you are “a cho -- sen race, a roy -- al priest -- hood, a ho -- ly na -- tion.
+		\markup { \citation #"1 Pet 2:9" } }
 }
 
 
@@ -40,7 +41,8 @@
 
 	\addlyrics {
 		Que le Dieu de "la pa" -- ix vous sanc -- ti -- fie.
-		\markup { \citation #"1 Th 5" } }
+		%May the God of peace him -- self make you per -- fect -- ly ho -- ly.
+		\markup { \citation #"1 Thes 5:23" } }
 }
 
 \relative c'' { 
@@ -63,7 +65,8 @@
 
 	\addlyrics {
 		Le rè -- gne de Dieu est jus -- ti -- ce, paix et joie dans l'Es -- prit Saint.
-		\markup { \citation #"Rm 14" } }
+		%For the king -- dom of God is not a mat -- ter of food and drink, but of righ -- teous -- ness, peace, and joy in the ho -- ly Spir -- it.
+		\markup { \citation #"Rom 14:17" } }
 }
 
 \relative c'' { 
@@ -89,6 +92,7 @@
 
 	\addlyrics {
 		Le pre -- mier jour de la se -- mai -- ne, dès l'au -- ro -- re, el -- les vin -- rent à  la tom -- be. Al -- le -- lu -- "ia !" _ _
-		\markup { \citation #"Lc 24" } }
+		%But at day -- break on the first day of the week they took the spi -- ces they had pre -- pared and went to the tomb. Al -- le -- lu -- "ia !"
+		\markup { \citation #"Lk 24:1" } }
 }
 
