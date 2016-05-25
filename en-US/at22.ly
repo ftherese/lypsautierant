@@ -14,7 +14,8 @@
 	}
 	\addlyrics {
 		L'am -- our par -- fait ban -- nit la crai -- nte.
-		\markup { \citation #"1 Jn 4" } 
+		%Per -- fect love drives out fear.
+		\markup { \citation #"1 Jn 4:18" } 
 	}
 }
 
@@ -32,7 +33,8 @@
 	}
 	\addlyrics {
 		Jam -- ais leur bou -- che ne con -- nut le men -- son -- ge, ils sont im -- ma -- cu -- lés.
-		\markup { \citation #"Ap 14" } 
+		%On their lips no de -- ceit has been found; they are un -- blem -- ished.
+		\markup { \citation #"Rv 14:5" } 
 	}
 }
 
@@ -48,7 +50,8 @@
 	}
 	\addlyrics {
 		Paix à vous qui êt -- es dans le "Christ !" "Al" -- le -- lu -- "ia !"
-		\markup { \citation #"1 P 5" } 
+		%Peace to all of you who are in Christ.
+		\markup { \citation #"1 Pet 5:14" } 
 	}
 }
 
@@ -70,7 +73,8 @@
 	}
 	\addlyrics {
 		Le pain que je don -- ne -- rai, c'est ma chair pour la vie du mon -- de. 
-		\markup { \citation #"Jn 6" } 
+		%The bread that I will give is my flesh for the life of the world.
+		\markup { \citation #"Jn 6:51" } 
 	}
 }
 \relative a' { 
@@ -87,6 +91,7 @@
 	}
 	\addlyrics {
 		Je suis ve -- nu je -- ter un feu sur la ter -- "re !" "Al" -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Lc 12" } 
+		%I have come to set the earth on fire. "Al" -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Lk 12:49" } 
 	}
 }
