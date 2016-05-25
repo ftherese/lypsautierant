@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 118 XXI-XXII" "Mode 4" \null \null } -21}
 \noPageBreak
@@ -22,7 +22,8 @@
 
 	\addlyrics {
 		Voi -- ci mon com -- man -- de -- "ment :" ai -- mez- -- vous les uns les au -- tres.
-		\markup { \citation #"Jn 15" } 
+		%This is my com -- mand -- ment: love one a -- not -- her as I love you.
+		\markup { \citation #"Jn 15:12" } 
 	}
 }
 
@@ -42,7 +43,8 @@
 
 	\addlyrics {
 		Que la pa -- ro -- le du Christ hab -- ite en vous dans tou -- te sa ri -- ches -- se.
-		\markup { \citation #"Col 3" } 
+		%Let the word of Christ dwell in you rich -- ly.
+		\markup { \citation #"Col 3:16" } 
 	}
 }
 
@@ -63,7 +65,8 @@
 
 	\addlyrics {
 		Sei -- gneur, tu as les pa -- ro -- les de la vie é -- ter -- nel -- le.
-		\markup { \citation #"Jn 6" } 
+		%Mas -- ter, to whom shall we go? You have the words of e -- ter -- nal life.
+		\markup { \citation #"Jn 6:68" } 
 	}
 }
 
@@ -83,7 +86,8 @@
 
 	\addlyrics {
 		Ma nour -- ri -- tu -- re, c'est d'ac -- comp -- lir la vo -- lon -- té de mon Pè -- re.
-		\markup { \citation #"Jn 4" } 
+		%My food is to do the will of the one who sent me.
+		\markup { \citation #"Jn 4:34" } 
 	}
 }
 

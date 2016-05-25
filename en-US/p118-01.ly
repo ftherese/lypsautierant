@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 118 I-II" "Mode 1" \null \null } -1}
 \noPageBreak
@@ -20,7 +20,8 @@
 
 	\addlyrics {
 		Sui -- vez la voie de l'a -- mour.
- 		\markup { \citation #"Ep 5" } }
+ 		%So be imitators of God, as be -- loved child -- ren, and live in love, as Christ loved us.
+ 		\markup { \citation #"Ep 5:1-2" } }
 	
 	
 }
@@ -42,7 +43,8 @@
 
 	\addlyrics {
 		Jus -- tes et droi -- tes sont tes voies, Roi des na -- tions.
- 		\markup { \citation #"Ap 15" } }
+ 		%Just and true are your ways, O king of the na -- tions.
+ 		\markup { \citation #"Rev 15:3" } }
 	
 	
 }
@@ -60,7 +62,8 @@
 
 	\addlyrics {
 		La pa -- role est tout près de toi, sur tes lèvres et dans ton cœur.
- 		\markup { \citation #"Rm 10" } }
+ 		%The word is near you,in your mouth and in your heart.
+ 		\markup { \citation #"R0m 10:8" } }
 	
 	
 }
@@ -79,7 +82,8 @@
 
 	\addlyrics {
 		Vous, vous êt -- es purs grâce à la pa -- ro -- le que je vous ai fait en -- ten -- dre.
- 		\markup { \citation #"Jn 15" } }
+ 		%You are al -- rea -- dy pruned be -- cause of the word that I spoke to you.
+ 		\markup { \citation #"Jn 15:3" } }
 	
 	
 }

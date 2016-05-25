@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 118 IX-X" "Mode 5" \null \null } -9}
 \noPageBreak
@@ -19,7 +19,8 @@
 	}
 	\addlyrics {
 		Qui est de Dieu, en -- tend les pa -- ro -- les de Dieu.
-		\markup { \citation #"Jn 8" } 
+		%Who -- e -- ver be -- longs to God hears the words of God.
+		\markup { \citation #"Jn 8:47" } 
 	}
 }
 \relative a' { 
@@ -38,7 +39,8 @@
 	}
 	\addlyrics {
 		Si vous de -- meu -- rez dans ma pa -- ro -- le, vous êt -- es vrai -- ment mes dis -- ci -- ples et vous con -- naî -- trez la vé -- ri -- té.
-		\markup { \citation #"Jn 8" } 
+		%If you re -- main in my word, you will tru -- ly be my dis -- ciples.
+		\markup { \citation #"Jn 8:31" } 
 	}
 }
 \relative a' { 
@@ -54,7 +56,8 @@
 	}
 	\addlyrics {
 		Ce -- lui qui con -- naît Dieu nous é -- cou -- te.
-		\markup { \citation #"1 Jn 4" } 
+		%A -- ny -- one who knows God lis -- tens to us.
+		\markup { \citation #"1 Jn 4:6" } 
 	}
 }
 \relative a' { 

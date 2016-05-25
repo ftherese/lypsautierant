@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 118 XIX-XX" "Mode 1" \null \null } -19}
 \noPageBreak
@@ -20,7 +20,8 @@
 
 	\addlyrics {
 		Je leur ai don -- né ta Pa -- ro -- - -- le.
- 		\markup { \citation #"Jn 17" } }
+ 		%The words you gave to me I have gi -- ven to them.
+ 		\markup { \citation #"Jn 17:8" } }
 	
 	
 }
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		J'ai gar -- dé les com -- man -- deme -- nts de mon Pè -- re.
- 		\markup { \citation #"Jn 15" } }
+ 		%I have kept my Fat -- her’s com -- mand -- ments.
+ 		\markup { \citation #"Jn 15:10" } }
 	
 	
 }
@@ -59,7 +61,8 @@
 
 	\addlyrics {
 		Il a vou -- lu nous en -- fan -- ter par un -- e pa -- ro -- le de vé -- ri -- té.
- 		\markup { \citation #"Jc 1" } }
+ 		%He willed to give us birth by the word of truth.
+ 		\markup { \citation #"Jas 1:18" } }
 	
 	
 }
@@ -78,7 +81,8 @@
 
 	\addlyrics {
 		La vé -- ri -- té vous ren -- dra li -- bres. Al -- le -- lu -- - -- "ia !"
- 		\markup { \citation #"Jn 8" } }
+ 		%The truth will set you free. Al -- le -- lu -- - -- "ia !"
+ 		\markup { \citation #"Jn 8:32" } }
 	
 	
 }

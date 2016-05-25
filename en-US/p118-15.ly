@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 118 XV-XVI" "Mode 8" \null \null } -15}
 \noPageBreak
@@ -18,7 +18,8 @@
 
 	\addlyrics {
 		Si vous m'ai -- mez, vous gar -- de -- rez mes com -- man -- de -- ments.
- 		\markup { \citation #"Jn 14" } }
+ 		%If you love me, you will keep my com -- mand -- ments.
+ 		\markup { \citation #"Jn 14:15" } }
 	
 	
 }
@@ -37,7 +38,8 @@
 
 	\addlyrics {
 		Ce -- lui qui vit se -- lon la jus -- ti -- ce de Dieu est vrai -- ment né de lui.
- 		\markup { \citation #"1 Jn 2" } }
+ 		%Ev -- ery -- one who acts in righ -- teous -- ness is be -- got -- ten by him.
+ 		\markup { \citation #"1 Jn 2:29" } }
 	
 	
 }
@@ -55,7 +57,8 @@
 
 	\addlyrics {
 		La fin de la loi, c'est le Christ.
- 		\markup { \citation #"Rm 10" } }
+ 		%Christ is the end of the law.
+ 		\markup { \citation #"Rom 10:4" } }
 	
 	
 }
@@ -73,7 +76,8 @@
 
 	\addlyrics {
 		Le jus -- te vi -- vra par sa fi -- dé -- li -- té.
- 		\markup { \citation #"Ha 2" } }
+ 		%The just one who is righ -- teous be -- cause of faith shall live.
+ 		\markup { \citation #"Hb 2:4" } }
 	
 	
 }

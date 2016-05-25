@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 118 III-IV" "Mode 3" \null \null } -3}
 \noPageBreak
@@ -24,7 +24,8 @@
 	\addlyrics {
 		
 		C'est l'Es -- prit qui rend té -- moi -- gna -- ge.
-		\markup { \citation #"1 Jn 5" } }
+		%The Spi -- rit is the one that tes -- ti -- fies.
+		\markup { \citation #"1 Jn 5:6" } }
 	
 	
 }
@@ -46,7 +47,8 @@
 	\addlyrics {
 		
 		Sei -- gneur, dis seu -- lem -- ent un -- e pa -- ro -- le et mon ser -- vi -- teur se -- ra gué -- ri.
-		\markup { \citation #"Mt 8" } }
+		%[Lord...] on -- ly say the word and my ser -- vant will be healed. 
+		\markup { \citation #"Mt 8:8" } }
 	
 	
 }
@@ -69,7 +71,8 @@
 	\addlyrics {
 		
 		Pè -- re, ils ont gar -- dé ta pa -- ro -- le.
-		\markup { \citation #"Jn 17" } }
+		%[Fa -- ther], they have kept your word.
+		\markup { \citation #"Jn 17:6" } }
 	
 	
 }

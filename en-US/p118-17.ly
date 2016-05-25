@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 118 XVII-XVIII" "Mode Peregrinus" \null \null } -17}
 \noPageBreak
@@ -21,7 +21,8 @@
 
 	\addlyrics {
 		Cro -- yez en la lu -- miè -- re, af -- in de de -- ve -- nir des fils de lu -- miè -- re.
- 		\markup { \citation #"Jn 12" } }
+ 		%While you have the light, be -- lieve in the light, so that you may be -- come child -- ren of the light.
+ 		\markup { \citation #"Jn 12:36" } }
 	
 	
 }
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		Le Pè -- re qui m'a en -- vo -- yé me rend té -- moi -- gna -- ge.
- 		\markup { \citation #"Jn 5" } }
+ 		%The Fa -- ther who sent me has tes -- ti -- fied on my be -- half.
+ 		\markup { \citation #"Jn 5:37" } }
 	
 	
 }
@@ -62,7 +64,8 @@
 
 	\addlyrics {
 		Sa mè -- re gar -- dait fi -- dè -- lem -- ent tou -- tes ces choses en son cœur.
- 		\markup { \citation #"Lc 2" } }
+ 		%His mo -- ther kept all these things in her heart.
+ 		\markup { \citation #"Lk 2:51" } }
 	
 	
 }
@@ -83,8 +86,9 @@
 	}
 
 	\addlyrics {
-		Que Dieu vous fas -- se par -- ve -- nir à  la plei -- ne con -- nais -- san -- ce de sa vo -- lon -- té.
- 		\markup { \citation #"Col 1" } }
+		Que Dieu vous fas -- se par -- ve -- nir à  la plei -- ne con -- nais -- san -- ce de sa vo -- lon -- té.
+ 		%We do not cease praying for you and asking that you may be filled with the know -- ledge of his will.
+ 		\markup { \citation #"Col 1:9" } }
 	
 	
 }

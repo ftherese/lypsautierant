@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 118 VII-VIII" "Mode 4" \null \null } -7}
 \noPageBreak
@@ -20,7 +20,8 @@
 
 	\addlyrics {
 		Ce -- lui qui fait la vo -- lon -- té de Dieu de -- meure é -- ter -- nel -- le -- ment.
-		\markup { \citation #"1 Jn 2" } 
+		%who -- e -- ver does the will of God re -- mains for -- e -- ver.
+		\markup { \citation #"1 Jn 2:17" } 
 	}
 }
 
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		Qui se pen -- che sur la loi de li -- ber -- té, trou -- ve son bon -- heur.
-		\markup { \citation #"Jc 1" } 
+		%The one who peers into the per -- fect law of free -- dom and perseveres, and is not a hearer who forgets but a doer who acts, such a one shall be blessed in what he does.
+		\markup { \citation #"Jas 1:25" } 
 	}
 }
 
@@ -60,7 +62,8 @@
 
 	\addlyrics {
 		Tu as gar -- dé ma pa -- ro -- le sans re -- ni -- er mon Nom.
-		\markup { \citation #"Ap 3" } 
+		%You have kept my word and have not de -- nied my name.
+		\markup { \citation #"Rev 3:8" } 
 	}
 }
 \relative a' { 
@@ -79,7 +82,8 @@
 
 	\addlyrics {
 		Dieu nous a do -- nné con -- so -- lat -- ion ét -- er -- ne -- lle et heu -- reuse es -- pé -- ran -- ce.
-		\markup { \citation #"2 Th 2" } 
+		%God our Father, who has loved us and gi -- ven us e -- ver -- las -- ting en -- cou -- rage -- ment and good hope.
+		\markup { \citation #"2 Thes 2:16" } 
 	}
 }
 

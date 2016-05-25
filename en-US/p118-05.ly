@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 118 V-VI" "Mode 2" \null \null } -5}
 \noPageBreak
@@ -17,7 +17,8 @@
 
 	\addlyrics {
 		Si quel -- qu'un m'ai -- me, il gar -- de -- ra ma pa -- ro -- le.
-		\markup { \citation #"Jn 14" } 
+		%Who -- e -- ver loves me will keep my word.
+		\markup { \citation #"Jn 14:23" } 
 	}
 }
 
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		So -- yez sans crain -- te, l'Es -- prit vous en -- sei -- gner -- a ce qu'il faut di -- re.
-		\markup { \citation #"Lc 12" } 
+		%Do not wor -- ry about how or what your defense will be or about what you are to say. For the ho -- ly Spi -- rit will teach you at that moment what you should say.
+		\markup { \citation #"Lk 12:11-12" } 
 	}
 }
 
@@ -58,7 +60,8 @@
 
 	\addlyrics {
 		Mon té -- moi -- gnage est vé -- ri -- di -- que.
-		\markup { \citation #"Jn 8" } 
+		%My tes -- ti -- mo -- ny can be ve -- ri -- fied.
+		\markup { \citation #"Jn 8:14" } 
 	}
 }
 

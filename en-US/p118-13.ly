@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 118 XIII-XIV" "Mode 7" \null \null } -13}
 \noPageBreak
@@ -18,7 +18,8 @@
 		\endBar
 	}	\addlyrics {
 		Tant que vous av -- ez la lu -- miè -- re, cro -- yez en la lu -- miè -- re.
-		\markup { \citation #"Jn 12"}
+		%While you have the light, be -- lieve in the light.
+		\markup { \citation #"Jn 12:36"}
 	}
 }
 \relative c'' { 
@@ -36,7 +37,8 @@
 		\endBar
 	}	\addlyrics {
 		Ils le trou -- vè -- rent dans le Tem -- ple, as -- sis au mi -- lieu des doc -- teurs.
-		\markup { \citation #"Lc 2"}
+		%They found him in the tem -- ple, sit -- ting in the midst of the tea -- chers.
+		\markup { \citation #"Lk 2:46"}
 	}
 }
 \relative c'' { 
@@ -52,7 +54,8 @@
 		\endBar
 	}	\addlyrics {
 		Il vint pour ren -- dre té -- moi -- gna -- ge à la lu -- miè -- re.
-		\markup { \citation #"Jn 1"}
+		%He came for tes -- ti -- mo -- ny, to tes -- ti -- fy to the light.
+		\markup { \citation #"Jn 1:7"}
 	}
 }
 
@@ -70,7 +73,8 @@
 		\endBar
 	}	\addlyrics {
 		Les dis -- ciples en -- ten -- di -- rent ces pa -- ro -- les et sui -- vi -- rent Jés -- us.
-		\markup { \citation #"Jn 1"}
+		%The two dis -- ci -- ples heard what he said and fol -- lowed Je -- sus.
+		\markup { \citation #"Jn 1:37"}
 	}
 }
 \relative c'' { 
