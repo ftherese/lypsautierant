@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 109" "Mode 5" \null \null }  }
 \noPageBreak
@@ -24,7 +24,8 @@
 	}
 	\addlyrics {
 		 Pour nous le Christ est de -- ve -- nu un grand prê -- tre mi -- sé -- ri -- cor -- dieux et fi -- dè -- le.
-		\markup { \citation #"Cf. He 2" } 
+		%He had to be -- come like his brothers in every way, that he might be a mer -- ci -- ful and faith -- ful high priest. 
+		\markup { \citation #"Cf. Heb 2:17" } 
 	}
 }
 
@@ -42,7 +43,8 @@
 	}
 	\addlyrics {
 		Le Seig -- neur a dit à mon Seign -- "eur :" Siège à ma dro -- ite. Al -- le -- lu -- "ia !" _ _
-		\markup { \citation #"Ac 2" } 
+		%The Lord said to my Lord,“Sit at my right hand."  Al -- le -- lu -- "ia !" _ _
+		\markup { \citation #"Acts 2:34" } 
 	}
 }
 \relative a' { 
@@ -56,7 +58,8 @@
 	}
 	\addlyrics {
 		Je se -- rai son Dieu, il se -- ra mon fils.
-		\markup { \citation #"Ap 21" } 
+		%I shall be his God, and he will be my son.
+		\markup { \citation #"Rev 21:7" } 
 	}
 }
 
@@ -78,7 +81,8 @@
 	}
 	\addlyrics {
 		 Tu es mon Fils, moi, au -- jour -- d'hui, je t'ai en -- gen -- dré. Al -- le -- lui -- "a !"
-		\markup { \citation #"He 5" } 
+		%You are my son; this day I have be -- got -- ten you. Al -- le -- lui -- "a !"
+		\markup { \citation #"Heb 5:5" } 
 	}
 }
 
@@ -97,6 +101,7 @@
 	}
 	\addlyrics {
 		Je suis l'É -- toi -- le ra -- di -- eu -- se du ma -- tin. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Ap 22" } 
+		%I am the root and offspring of David, the bright mor -- ning star. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Rev 22:16" } 
 	}
 }

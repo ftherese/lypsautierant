@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 108" "Mode 3" \null \null } }
 \noPageBreak
@@ -18,7 +18,8 @@
 	\addlyrics {
 		
 		Ai -- mez vos en -- ne -- mis, pri -- ez pour vos per -- sé -- cu -- teurs.
-		\markup { \citation #"Mt 5" } }
+		%Love your e -- ne -- mies, and pray for those who per -- se -- cute you.
+		\markup { \citation #"Mt 5:44" } }
 	
 	
 }
@@ -38,7 +39,8 @@
 	\addlyrics {
 		
 		Pè -- re, par -- don -- ne- -- leur, car ils ne sa -- vent ce qu'ils font.
-		\markup { \citation #"Lc 23" } }
+		%Fa -- ther, for -- give them, they know not what they do.
+		\markup { \citation #"Lc 23:34" } }
 	
 	
 }
@@ -58,7 +60,8 @@
 	\addlyrics {
 		
 		Le Sei -- gneur me dé -- li -- vre -- ra, et me sau -- ve -- ra pour son Ro -- yau -- me.
-		\markup { \citation #"2 Tm 4" } }
+		%The Lord will res -- cue me from every evil threat and will bring me safe to his hea -- ven -- ly king -- dom.
+		\markup { \citation #"2 Tm 4:18" } }
 	
 	
 }
@@ -79,7 +82,8 @@
 	\addlyrics {
 		
 		De tou -- tes les per -- sé -- cut -- ions, le Sei -- gneur m'a dé -- li -- vré. " Al" -- le -- lui -- "a !"
-		\markup { \citation #"2 Tm 3" } }
+		%[...persecutions that I endured.] Yet from all these things the Lord de -- li -- vered me. " Al" -- le -- lui -- "a !" 
+		\markup { \citation #"2 Tm 3:11" } }
 	
 	
 }
@@ -101,7 +105,8 @@
 	\addlyrics {
 		
 		Pour nous ra -- che -- ter, le Christ est de -- ve -- nu ma -- lé -- dic -- tion.
-		\markup { \citation #"Ga 3" } }
+		%Christ ran -- somed us from the curse of the law by be -- co -- ming a curse for us.
+		\markup { \citation #"Gal 3:13" } }
 	
 	
 }
