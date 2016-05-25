@@ -18,7 +18,8 @@
 
 	\addlyrics {
 		Dès l'au -- ro -- - -- re, Jé -- sus fut dans le Tem -- ple. 
-		\markup { \citation #"Jn 8" } 
+		%But ear -- ly in the morn -- ing he a -- rrived a -- gain in the tem -- ple area.
+		\markup { \citation #"Jn 8:2" } 
 	}
 }
 
@@ -39,7 +40,8 @@
 
 	\addlyrics {
 		Lui, fi -- dèle et jus -- te, par -- don -- ner -- "a " nos pé -- chés.
-		\markup { \citation #"1 Jn 1" } 
+		%He is faith -- ful and just and will for -- give our sins.
+		\markup { \citation #"1 Jn 1:9" } 
 	}
 }
 
@@ -61,7 +63,8 @@
 
 	\addlyrics {
 		Nous at -- ten -- dons des cieux nou -- veaux, u -- ne  ter -- re nou -- vel -- le.
-		\markup { \citation #"2 P 3" } 
+		%But a -- ccor -- ding to his pro -- mise we a -- wait new hea -- vens and a new earth.
+		\markup { \citation #"2 Pet 3:13" } 
 	}
 }
 \relative a' { 
@@ -82,7 +85,8 @@
 
 	\addlyrics {
 		La grâce et la vé -- ri -- té sont ven -- ues par Jé -- sus Christ. Al -- le -- lu -- "ia !" _
-		\markup { \citation #"Jn 1" } 
+		%Grace and truth came through Je -- sus Christ.  Al -- le -- lu -- "ia !" 
+		\markup { \citation #"Jn 1:17" } 
 	}
 }
 
@@ -112,7 +116,8 @@
 
 	\addlyrics {
 		Ra -- chet -- és d'en -- tre les hom -- mes, ils sui -- vent l'A -- gneau par -- tout où il va. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Ap 14" } 
+		%They have been ran -- somed as the first fruits of the hu -- man race for God and the Lamb. Al -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Rv 14:4" } 
 	}
 }
 
