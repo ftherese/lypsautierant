@@ -20,7 +20,8 @@
 		\endBar
 	}	\addlyrics {
 		Ce -- lui qui a cons -- truit tou -- tes cho -- ses, c'est Dieu.
-		\markup { \citation #"He 3"}
+		%The foun -- der of all is God.
+		\markup { \citation #"Heb 3:4"}
 	}
 }
 \relative c'' { 
@@ -36,7 +37,8 @@
 		\endBar
 	}	\addlyrics {
 		N'é -- veil -- lez pas l'a -- mour a -- vant qu'il le veuil -- le.
-		\markup { \citation #"Ct 8"}
+		%Do not a -- wak -- en or stir up love un -- til it is rea -- dy!
+		\markup { \citation #"Ct 8:4"}
 	}
 }
 \relative c'' { 
@@ -56,7 +58,8 @@
 		\endBar
 	}	\addlyrics {
 		Bé -- nie es- -- tu en -- tre tou -- tes les fem -- mes, et bé -- ni le fruit de tes ent -- rail -- les.
-		\markup { \citation #"Lc 1"}
+		%Most bles -- sed are you a -- mong wo -- men, and bless -- ed is the fruit of your womb. 
+		\markup { \citation #"Lk 1:42"}
 	}
 }
 
@@ -79,7 +82,8 @@
 		\endBar
 	}	\addlyrics {
 		Le tem -- ple dont il par -- lait, c'é -- tait son  corps. "(Al" -- le -- lu -- "ia !)" _ _
-		\markup { \citation #"Jn 2"}
+		%But he was speak -- ing a -- bout the tem -- ple of his bo -- dy. "(Al" -- le -- lu -- "ia !)"
+		\markup { \citation #"Jn 2:21"}
 	}
 }
 
