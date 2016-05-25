@@ -18,7 +18,8 @@
 	}
 	\addlyrics {
 		Tout est cré -- é par lui et pour lui. 
-		\markup { \citation #"Col 1" } 
+		%All things were cre -- a -- ted through him and for him.
+		\markup { \citation #"Col 1:16" } 
 	}
 }
 
@@ -37,7 +38,8 @@
 	}
 	\addlyrics {
 		Mes bre -- bis éc -- ou -- te -- ront ma voix, il y au -- ra un seul trou -- peau, un seul pas -- teur.
-		\markup { \citation #"Jn 10" } 
+		%My sheep hear my voice; I know them, and they fol -- low me.
+		\markup { \citation #"Jn 10:27" } 
 	}
 }
 \relative a' { 
@@ -53,7 +55,8 @@
 	}
 	\addlyrics {
 		Ré -- jou -- is -- sez- -- vous sans ces -- se, ren -- dez grâce en tou -- tes cho -- ses.
-		\markup { \citation #"1 Th 5" } 
+		%In all cir -- cum -- stan -- ces give thanks, for this is the will of God for you in Christ Je -- sus. 
+		\markup { \citation #"1 Thes 5:18" } 
 	}
 }
 \relative a' { 
@@ -75,6 +78,7 @@
 	}
 	\addlyrics {
 		Vi -- vez dans l'ac -- tion de grâ -- ce. "Al" -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Col 3" } 
+		%And be thank -- ful. "Al" -- le -- lu -- - -- "ia !"
+		\markup { \citation #"Col 3:15" } 
 	}
 }
