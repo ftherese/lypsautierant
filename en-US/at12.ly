@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT  12}
 
@@ -18,7 +18,8 @@
 
 	\addlyrics {
 		C'est mon Pè -- re qui vous don -- ne le pain qui vient du ciel. "Al" -- le -- lu -- "ia !"_ 
-		\markup { \citation #"Jn 6" } }
+		%My Fa -- ther gives you the true bread from hea -- ven. "Al" -- le -- lu -- "ia !"_ 
+		\markup { \citation #"Jn 6:32" } }
 	
 	
 }

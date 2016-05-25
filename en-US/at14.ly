@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT  14}
 
@@ -19,7 +19,8 @@
 
 	\addlyrics {
 		A -- mas -- sez- -- vous des tré -- sors dans le ciel. "(Al" -- le -- lu -- - -- "ia !)"
-		\markup { \citation #"Mt 6" } }
+		%Store up trea -- sures in hea -- ven. "(Al" -- le -- lu -- - -- "ia !)"
+		\markup { \citation #"Mt 6:20" } }
 	
 	
 }

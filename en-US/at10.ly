@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT 10 }
 
@@ -19,7 +19,8 @@
 
 	\addlyrics {
 		Le Fils, qui est dans le sein du Pè -- re, lui, nous l'a ré -- vé -- lé. "(Al" -- le -- lu -- "ia !)" _ _
- 		\markup { \citation #"Jn 1" } }
+ 		%The on -- ly Son, God, who is at the Fa -- ther’s side, has re -- vealed him. "(Al" -- le -- lu -- "ia !)" _ _
+ 		\markup { \citation #"Jn 1:18" } }
 	
 	
 }
@@ -41,7 +42,8 @@
 
 	\addlyrics {
 		Nous par -- lons d'u -- ne sa -- ges -- se de Dieu, my -- sté -- rieuse et de -- meu -- rée ca -- chée.
- 		\markup { \citation #" 1 Co 2 " } }
+ 		%We speak God’s wis -- dom, mys -- te -- ri -- ous, hid -- den.
+ 		\markup { \citation #" 1 Cor 2:7 " } }
 	
 	
 }
@@ -65,8 +67,9 @@
 	}
 
 	\addlyrics {
-		Si l'un "de vo" -- us man -- que de sa -- ges -- se, qu'il la de -- mande à  Dieu.
- 		\markup { \citation #"Jc 1" } }
+		Si l'un "de vo" -- us man -- que de sa -- ges -- se, qu'il la de -- mande à  Dieu.
+ 		%If a -- ny of you lacks wis -- dom, he should ask God.
+ 		\markup { \citation #"Jas 1:5" } }
 	
 	
 }
@@ -95,7 +98,8 @@ f8
 
 	\addlyrics {
 		Le Christ est puis -- san -- ce de Dieu et sa -- ges -- se de Dieu. Al -- le -- lu -- "ia !" _ 
- 		\markup { \citation #"1 Co 1" } }
+ 		%Christ the po -- wer of God and the wis -- dom of God. Al -- le -- lu -- "ia !" _ 
+ 		\markup { \citation #"1 Cor 1:24" } }
 	
 	
 }

@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT  16}
 
@@ -23,7 +23,8 @@
 
 	\addlyrics {
 		Comme "un l" -- is en -- tre les char -- dons, telle est ma bien- -- ai -- mée. "(Al" -- le -- lu -- - -- "ia !)"
- 		\markup { \citation #"Ct 2" } }
+ 		%Like a li -- ly among thorns, so is my friend a -- mong wo -- men. "(Al" -- le -- lu -- - -- "ia !)"
+ 		\markup { \citation #"Sg 2:2" } }
 	
 	
 }

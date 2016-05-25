@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT 17 }
 
@@ -6,7 +6,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-column { O.T. } }
 		a16
 		\times 2/5 { a[\( a\) a a a] }
 		\times 2/5 { a[\( g\) bes a g] }
@@ -28,7 +28,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-column { Adv. } }
 		a8[ bes]
 		a4
 		\espace
@@ -47,7 +47,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \center-column { Chr. } }
 		a8 
 		g16[ bes a g]
 		f8[\( f\)] \cesure \pespace 
@@ -65,7 +65,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-column { Lent } }
 		\times 2/3 { r8_\( a[ bes]\) }
 		\times 2/3 { a4\( a8\) }
 		\times 2/3 { a8[ a a] }
@@ -79,14 +79,15 @@
 	}
 	\addlyrics {
 		Ma mai -- son se -- ra ap -- pe -- lée mai -- son de pr -- iè -- re pour tou -- tes les nat -- ions. "(Al" -- le -- lu -- "ia !)"
-		\markup { \citation #"Mc 11" }
+		%My house shall be called a house of prayer for all peo -- ples. "(Al" -- le -- lu -- "ia !)"
+		\markup { \citation #"Mk 11:17" }
 	}
 }
 \relative f' { 
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-column { Easter } }
 		\times 2/3 { r8_\( a[ a]\) }
 		\times 2/3 { a4\( a8\) }
 		\times 2/3 { a8[ g bes] }
@@ -98,7 +99,8 @@
 	}
 	\addlyrics {
 		Dev -- ant lui ser -- ont ras -- semblé -- es tou -- tes les nat -- ions. "Al" -- le -- lu -- "ia !"
-		\markup { \citation #"Mt 25" }
+		%All the na -- tions will be as -- sem -- bled be -- fore him. "Al" -- le -- lu -- "ia !"
+		\markup { \citation #"Mt 25:32" }
 	}
 }		
 

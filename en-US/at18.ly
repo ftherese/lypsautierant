@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT 18 }
 \relative f' { 
@@ -19,7 +19,8 @@
 	}
 	\addlyrics {
 		Croy -- ez en la lu -- miè -- re pour de -- ve -- nir des fils de lu -- miè -- re. "(Al" -- le -- lu -- "ia !)"
-		\markup { \citation #"Jn 12" }
+		%Be -- lieve in the light, so that you may be -- come child -- ren of the light. "(Al" -- le -- lu -- "ia !)"
+		\markup { \citation #"Jn 12:36" }
 	}
 }
 
@@ -41,7 +42,8 @@
 	}
 	\addlyrics {
 		La Vierge en -- fan -- te -- ra un fils, on lui don -- ne -- ra le nom d'E -- mma -- nu -- el. 	"(Al" -- le -- lu -- "ia !)"	
-		\markup { \citation #"Mt 1" }
+		%The vir -- gin shall be with child and bear a son, and they shall name him Em -- ma -- nu -- el. "(Al" -- le -- lu -- "ia !)"
+		\markup { \citation #"Mt 1:23" }
 	}
 }
 

@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT  13}
 \relative a' { 
@@ -20,7 +20,8 @@
 
 	\addlyrics {
 		Tra -- vaille -- z pour la nour -- ri -- tu -- re qui de -- meure en vie é -- ter -- nel -- le.
-		\markup { \citation #"Jn 6" } 
+		%Do not work for food that pe -- rish -- es but for the food that en -- dures for e -- ter -- nal life.
+		\markup { \citation #"Jn 6:27" } 
 	}
 }
 
@@ -47,7 +48,8 @@
 
 	\addlyrics {
 		Il leur ouv -- rit l'espr -- it à l'in -- tel -- li -- gen -- ce des É -- cri -- tu -- res. "(Al" -- le -- lu -- - -- "ia !)"
-		\markup { \citation #"Lc 24" } 
+		%He in -- ter -- pre -- ted to them what re -- ferred to him in all the scrip -- tures. "(Al" -- le -- lu -- - -- "ia !)"
+		\markup { \citation #"Lk 24:27" } 
 	}
 }
 

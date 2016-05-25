@@ -8,7 +8,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
+		\set Staff.instrumentName = \markup{ \center-column { O.T. Lent } }
 		c8
 		\times 2/3 { d8[\( f\) f] }
 		\times 2/3 { f8[ f f] }

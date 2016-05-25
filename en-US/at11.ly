@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT  11}
 
@@ -25,7 +25,8 @@
 
 	\addlyrics {
 		La Sa -- gesse a é -- té jus -- ti -- fiée par tous ses en -- fants. "(Al" -- le -- lu -- "ia !)"
-		\markup { \citation #"Lc 7" } }
+		%Wis -- dom is vin -- di -- ca -- ted by all her child -- ren. "(Al" -- le -- lu -- "ia !)"
+		\markup { \citation #"Lk 7:35" } }
 	
 	
 }
