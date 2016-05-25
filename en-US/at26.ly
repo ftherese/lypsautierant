@@ -13,7 +13,8 @@
 		\endBar
 	}	\addlyrics {
 		Moi, la lu -- miè -- re, je suis ve -- nu dans le mon -- de.
-		\markup { \citation #"Jn 12"}
+		% I came in -- to the world as light.
+		\markup { \citation #"Jn 12:46"}
 	}
 }
 
@@ -33,7 +34,8 @@
 		\endBar
 	}	\addlyrics {
 		En ces jours qui sont les der -- niers, Dieu nous a par -- lé par le Fils.
-		\markup { \citation #"He 1"}
+		%In these last days, he spoke to us through a son.
+		\markup { \citation #"Heb 1:2"}
 	}
 }
 
@@ -50,7 +52,8 @@
 		\endBar
 	}	\addlyrics {
 		J'ai dé -- si -- ré ar -- dem -- ment man -- ger cet -- te pâque av -- ec vous.
-		\markup { \citation #"Lc 22"}
+		%I have ea -- ger -- ly de -- sired to eat this Pass -- ov -- er with you.
+		\markup { \citation #"Lk 22:15"}
 	}
 }
 
@@ -73,6 +76,7 @@
 		\endBar
 	}	\addlyrics {
 		Dieu nous a ap -- pe -- lés des té -- nè -- bres à son ad -- mi -- ra -- ble lu -- miè -- re. "Al" -- le -- lu -- - -- "ia !"
-		\markup { \citation #"1 P 2"}
+		%Of him who called you out of dark -- ness in -- to his won -- der -- ful light. "Al" -- le -- lu -- - -- "ia !"
+		\markup { \citation #"1 Pet 2:9"}
 	}
 }
