@@ -10,10 +10,10 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		\times 2/3 {a8[ bes a]} 
-		\times 2/3 { g[ bes a] }
-		g[ f] f4
-		\cesure \pespace g8[ g] d[ f] f[ e] d4
+		\times 2/3 {a8[ a bes] } 
+		\times 2/3 { a[ g f] }
+		f4
+		\pespace\cesure r8 d f4(\slurDashed e8) d4
 
 		
 		
@@ -21,8 +21,8 @@
 	}
 
 	\addlyrics {
-		Sanc -- ti -- fie- -- les dans la vé -- ri -- "té :" ta pa -- role est vé -- ri -- té.
-		% Con -- se -- crate them in the truth. Your word is truth.
+		%Sanc -- ti -- fie- -- les dans la vé -- ri -- "té :" ta pa -- role est vé -- ri -- té.
+		Con -- se -- crate them in the truth. Your word is truth.
  		\markup { \citation #"Jn 17:17" } }
 	
 	
@@ -34,12 +34,11 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
 		
-		a8 
-		\times 2/5 { bes16[ a a a a] }
-		g[ bes a g] f8[\( f\)]
+		\times 2/5 { a8[ bes a] a8[ a16 a] a[a a a ]}
+		a8[ g] bes[ a] g[ f] f4
 		\cesure 
 		\ifIndent 
-\times 2/3 {g8[ g g]}  \times 2/3 { g[\( g\) d] } \times 2/3 { f[ f e] } d4 
+		r8 g8 g[ g16 g] d8[f f] e4( d8) 
  \endBar
 
 		
@@ -47,8 +46,8 @@
 	}
 
 	\addlyrics {
-		Heu -- reux les per -- sé -- cu -- tés pour la jus -- ti -- ce, car le Ro -- yau -- me des cieux est à eux. 
-		% Bless -- ed are they who are per -- se -- cu -- ted for the sake of righ -- teous -- ness, for theirs is the king -- dom of heav -- en.
+		%Heu -- reux les per -- sé -- cu -- tés pour la jus -- ti -- ce, car le Ro -- yau -- me des cieux est à eux. 
+		Bless -- ed are they who are per -- se -- cu -- ted for the sake of righ -- teous -- ness, for theirs is the king -- dom of heav -- en.
  		\markup { \citation #"Mt 5:10" } }
 	
 	
@@ -83,24 +82,22 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
 		
-		a8 bes[ a] g[ bes] 
-		\times 2/3 { a[\( g\) f] }
-		f4
-		\cesure \pespace \times 2/3 {g8[ g g]} 
-		\times 2/3 { d[\( f\) f] } 
-		e[\( d\)]
+		r8 a a16[ a a a] a[ a bes a] 
+		\times 2/3 { g8[ f] }
+		\indentLine
+		\cesure \pespace \times 2/3 {g8[ g g] } 
+		\times 2/3 { g[ d]  } 
+		f[ e] d4
 		\cesureall\pespace
-		\times 2/3 { f[ g a] }
+		\times 2/3 { f8[ g a] }
 		g4
 
-		
-		
 		\endBar
 	}
 
 	\addlyrics {
-		Vi -- vante est la pa -- ro -- le de Dieu, plus in -- ci -- si -- ve qu'un glai -- ve. " Al" -- le -- lu -- "ia !"
-		% The word of God is liv -- ing and e -- ffec -- tive, sharp -- er than an -- y two-edged sword. " Al" -- le -- lu -- "ia !"
+		%Vi -- vante est la pa -- ro -- le de Dieu, plus in -- ci -- si -- ve qu'un glai -- ve. " Al" -- le -- lu -- "ia !"
+		The word of God is liv -- ing and e -- ffec -- tive, sharp -- er than an -- y two- -- edged sword. " Al" -- le -- lu -- "ia !"
  		\markup { \citation #"Heb 4:12" } }
 	
 	

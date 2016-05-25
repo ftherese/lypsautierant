@@ -10,19 +10,18 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \left-column { O.T.  } }
-		r8 g16[ c]
-		b[ c d f]
-		e8[\( d\)]
-		e8.[ \pespace \cesure \pespace e16]
-		d[\( c\) c b]
-		a4
+		r8 g8[ c]
+		b[ c] 
+		\slurDashed
+		d4( d16) [ d d d] d8.[ f16]
+		e8[ e d] 
+		e4\( e8\) 
 		\endBar
 	}
 
 	\addlyrics {
-		Que le Dieu de l'es -- pé -- ran -- - -- ce vous com -- ble de sa joie.
-		% May the God of hope fill you with all joy and peace in be -- liev -- ing, so that you may a -- bound in hope by the pow -- er of the hol -- y Spir -- it.
-		
+		%Que le Dieu de l'es -- pé -- ran -- - -- ce vous com -- ble de sa joie.
+		May the God of hope fill you with all joy and peace in be -- liev -- ing.
 		\markup { \citation #"Rom 15:13" } }
 	
 	

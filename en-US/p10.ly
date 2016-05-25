@@ -43,9 +43,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {Chr. Easter} }
 		
-		g8[ a] \slurDashed g4( \espall	
-		\times 2/3 { c8[) b c] }
-		d[\( c\)] c4  \pespace \cesure \pespace
+		r8 g a[ g c] c[ b c] d[ c] d( c4)
+		\pespace \cesure \pespace
 		\times 2/3 {c8[ b c]} a4 \pespace \cesure \pespace
 		\times 2/3 {g8[ a g]} g4
 
@@ -55,8 +54,8 @@
 	}
 
 	\addlyrics {
-		Qui m'a vu a vu le Pè -- - -- re. Al -- le -- lu -- ia, al -- le -- lu -- "ia !"
-		% Who -- ev -- er has seen me has seen the Fa -- ther. Al -- le -- lu -- ia, al -- le -- lu -- "ia !"
+		%Qui m'a vu a vu le Pè -- - -- re. Al -- le -- lu -- ia, al -- le -- lu -- "ia !"
+		Who -- ev -- er has seen me has seen the Fa -- ther. Al -- le -- lu -- ia, al -- le -- lu -- "ia !"
 		\markup { \citation #"Jn 14:9" } }
 }
 
@@ -66,21 +65,17 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
-		r8 g16[ a] g[ c b c] 
-		\times 2/3 {d8[ c d]} c[\( c\)] 
-		\pespace
-		\times 2/3 { r\( c[ b\)] }
-		\times 2/3 { c[ a g] }
-		g4
-
-		
-		
+		g8[ a g] c4( c8) c[ b c] 
+		d[ d] c[ d] 
+		c4(\cesurebasse \pespace
+		\times 2/3 { c8) c[ b c] }
+		\times 2/3 { a[ g] } g4
 		\endBar
 	}
 
 	\addlyrics {
-		Bien -- heu -- reux les as -- soif -- fés de jus -- ti -- ce, ils se -- ront ras -- sa -- siés.
-		% Bless -- ed are they who hun -- ger and thirst for righ -- teous -- ness, for they will be sa -- tis -- fied.
+		%Bien -- heu -- reux les as -- soif -- fés de jus -- ti -- ce, ils se -- ront ras -- sa -- siés.
+		Bless -- ed are they who hun -- ger and thirst for righ -- teous -- ness, for they will be sa -- tis -- fied.
 		\markup { \citation #"Mt 5:6" } }
 }
 
