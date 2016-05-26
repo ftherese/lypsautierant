@@ -1,0 +1,240 @@
+s/\&/\\\&/g;
+s/#\([^ )]*\)/\\label\{\1\}/g
+s/@\([^ )]*\)/\\pageref\{\1\}/g
+
+/^Hymn\>/,/Amen/ {
+        /Hymn\>/{                                             # if line matches Hymn
+                s/\(Hymn.*\)/\\noindent\\small\{\\uppercase\{&\}\}\\normalsize/       # replace as required
+                s/\(.*\) \(\\label[^}]*\}\)\(.*\)/\1\3\2/       # replace as required
+                h                                                   # copy over the hold space
+                s/.*/\\begin\{verse\}/                              # replace with \begin{verse}
+                H                                                   # append to hold space
+                d                                                   # delete the line
+        }
+        /Amen/!{                                            # if line doesn't match Amen
+                /^$/!{                                              # and if line is not empty
+                        s/$/\\\\/                                           # add trailing \\
+                }
+                H                                                   # append to hold space
+                d                                                   # then delete line
+        }
+        //{                                                 # if line matches Amen
+                s/$/\\\\!/                                          # add trailing \\!
+                H                                                   # append to hold space
+                s/.*/\\end\{verse\}/                                # replace with \end{verse}
+                H                                                   # append to hold space
+                s/.*//                                              # empty pattern space
+                x                                                   # exchange buffers
+                s/\n\n/!&/g                                         # add ! at end of each para
+        }
+}
+
+/^AUTH/ {
+	s/.*\(-.*\)/\\begin\{flushright\}\\tiny \1\\end\{flushright\}/
+}
+
+s/^\(HYMN\)\(\s*[pP]\.\)\(.*\)/\\hangindent=\\parindent \\small\{\\uppercase\{\1\} p. \3\\\\\}/;
+
+#0,/^$/ {
+#	/Season/ {
+#		s/\(.*Season.*\)/\\begin\{center\}\\noindent\\textsc\{\\small\{\1\\\\\}\}\\end\{center\}/;
+#	}
+#	/Season/!{
+#		1 {
+#			s/.*/\\begin\{center\}\\normalsize &\\\\/
+#		}
+#		/^$/!{
+#			1!{
+#				s/.*/\\footnotesize &\\\\/
+#			}
+#		}
+#		/^$/ {
+#			i\\\end\{center\}
+#		}
+#	}
+#}
+/JANUARY\|FEBRUARY\|MARCH\|APRIL\|MAY\|JUNE\|JULY\|AUGUST\>\|SEPTEMBER\|OCTOBER\|NOVEMBER\|DECEMBER/, /^$/ {
+	/JANUARY\|FEBRUARY\|MARCH\|APRIL\|MAY\|JUNE\|JULY\|AUGUST\>\|SEPTEMBER\|OCTOBER\|NOVEMBER\|DECEMBER/ {
+		s/.*/\\begin\{center\}\\normalsize &\\\\/
+	}
+	/^$/!{
+		/JANUARY\|FEBRUARY\|MARCH\|APRIL\|MAY\|JUNE\|JULY\|AUGUST\>\|SEPTEMBER\|OCTOBER\|NOVEMBER\|DECEMBER/ !{
+			s/.*/\\footnotesize &\\\\/
+		}
+	}
+	/^$/ {
+		i\\\end\{center\}
+	}
+}
+
+s/^LAUDS\|^SEXT\|.*VESPERS\|^VIGILS/\\begin\{flushleft\}\\normalsize &\\\\\\end\{flushleft\}/;
+
+/^INVITATORY/a\\\begin{center}
+/^INVITATORY/,/^$/ {
+ /INVITATORY/{
+	s/.*/\\hangindent=\\parindent \\small\{&\}/
+ }
+ /INVITATORY/!{
+	/:/ {
+		s/\([^:]*:\)\(.*\)/\\end\{center\}\1\\begin\{center\}\\textit\{\2\\\\\}/
+	}
+  /^$\|:/!{
+	s/.*/\\textit\{&\\\\\}/;
+  }
+ }
+ /^$/{
+	i\\\end\{center\}
+ }
+}
+
+
+/^PSALMODY$/,/^$/ {
+	/PSALMODY/{
+		s/PSALMODY/\\hangindent=\\parindent \\small\{&\}/;
+		a\\\begin\{center\}
+		a\\\begin\{tabular\}\{ l l \}
+	}
+	/PSALMODY/!{
+		/^$/!{
+			s/\([^ ]*\s*[^ ]*\)\(.*\)/\1 \& \2\\\\/
+		}
+	}
+	/^$/ {
+		i\\\end\{tabular\}
+		i\\\end\{center\}		
+	}
+}
+
+/^PSALMODY:/ {
+	i\\\hangindent=\\parindent \\small\{PSALMODY:\}\\\\
+	s/-/--/g
+	s/Ps/PS/g
+	s/PSALMODY:\(.*\)/\\hangindent=\\parindent \1\\vspace\{0.5em\}/
+}
+
+/SEXT/, /VESPERS/ {
+	/READING$/,/^$/ {
+		/READING$/ {
+			s/.*/\\hangindent=\\parindent \\small &/
+			a\\\begin\{description\}\[labelindent=\\parindent, leftmargin=\*\]
+		}
+		/READING\|^$/ !{
+			s/\([^:]*:\)\(.*[0-9][abcd]\?\)\(.*\)/\\item \[\1\] \2 \\textbf\{\3\}/
+		}
+		/^$/ {
+			i\\\end\{description\}\n
+		}
+		$ {
+			a\\\end\{description\}\n
+		}
+	}
+	/READING:/,/^$/ {
+		/READING/ {
+			h
+			d
+		}
+		/^$/ !{
+			H
+			d
+		}
+		/^$/ {
+			g
+			s/^\(READING\):\(.*[0-9][abcd]\?\)\s\(.*\)/\\hangindent=\\parindent \\small\{\1\}\2 \\textbf\{\3\}/;
+			a\ 
+		}
+	}
+}
+/SEXT/, /VESPERS/ !{
+	/^READING$/,/^$/ {
+        	/READING$/{
+			s/.*/\\hangindent=\\parindent \\small &/
+			a\\\begin\{description\}\[labelindent=\\parindent, leftmargin=\*\]
+		}
+		/^$\|READING/ !{
+			s/\([^:]*:\)\(.*[0-9][abcd]\?\)\(.*\)/\\item \[\1\] \2 \\textbf\{\3\}/
+		}
+		/^$/{
+	                i\\\end\{description\}
+       		}
+        	$ {
+                	a\\\end\{description\}
+        	}
+	}
+	/READING:/,/^$/ {
+		/READING/ {
+			h
+			d
+		}
+		/^$/ !{
+			H
+			d
+		}
+		/^$/ {
+			g
+			s/^\(READING\):\(.*[0-9][abcd]\?\)\s\(.*\)/\\hangindent=\\parindent \\small\{\1\}\2 \\textbf\{\3\\\\\}/;
+			a\ 
+		}
+	}
+}
+
+
+
+
+/^RESP/,/^$/ {
+	/RESP/ {
+		c\\\begin\{center\}
+	}
+	/^$\|^-\|:/ !{
+		s/.*/\\textit\{&\\\\/
+	}
+	/:/ {
+		s/\([^:]*:\)\(.*\)/\\end\{center\}\1\\begin\{center\}\\textit\{\2\\\\/
+	}
+	/^-/ {
+		s/.*/&\}/
+	}
+	/^$/ {
+		i\\\end\{center\}
+	}
+}
+
+/^BENEDICTUS[^:]*$\|^PRAYER[^:]*$\|^MAGNIFICAT[^:]*$/,/^$/{
+        /BENEDICTUS\|PRAYER\|MAGNIFICAT/ {
+                s/.*/\\hangindent=\\parindent \\small &/;
+		a\\\begin\{description\}\[labelindent=\\parindent, noitemsep, leftmargin=\*\]
+        }
+        /^$\|BENEDICTUS\|PRAYER\|MAGNIFICAT/ !{
+                s/\([^:]*:\)\(.*\)/\\item \[\1\] \2/
+        }
+        /^$/{
+                i\\\end\{description\}
+        }
+        ${
+                a\\\end\{description\}
+        }
+}
+
+#s/\(^BENEDICTUS\|^MAGNIFICAT\):\(.*\)/\\hangindent=\\parindent \\small\{\1 \2\\\\\}/
+
+/\(^PRAYER\|^BENEDICTUS\|^MAGNIFICAT\):/,/^$/ { 
+	/PRAYER\|BENEDICTUS\|MAGNIFICAT/ {
+		h
+		d
+	}
+	/^$/ !{
+		H
+		d
+	}
+	/^$/ {
+		g
+		s/\(PRAYER\|BENEDICTUS\|MAGNIFICAT\):\(.*\)/\\hangindent=\\parindent \\small\{\1 \2\\\\\}/
+		a\ 
+		
+	}
+}
+
+/MONDAY\|TUESDAY\|WEDNESDAY\|THURSDAY\|FRIDAY\|SATURDAY/ {
+	i\\\begin\{center\}
+	a\\\end\{center\}
+	s/.*/\\normalsize &/
+}
