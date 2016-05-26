@@ -4,7 +4,7 @@ INVITATORY
 -Come, let us worship the Lord, the King who is to come.
 -The Lord is close at hand; come, let us worship him.
 
-Hymn I
+Hymn I #advent:firstHymn
 Say to those whose hearts are troubled
 Take courage, you need no longer fear.
 See, it is your God who comes to save you,
@@ -25,7 +25,7 @@ Glory to you, Christ our Savior,
 Glory to you, Spirit of Truth,
 Now and forever more. Amen.
 
-Hymn II
+Hymn II #advent:lastHymn 
 Conditor alme siderum,
 Aeterna lux credentium,
 Christe, redemptor omnium,

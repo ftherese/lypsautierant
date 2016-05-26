@@ -2,7 +2,7 @@ SUNDAYS OF LENT
 
 FIRST VESPERS
 
-HYMN p. ?
+HYMN p. @lent:firstHymn - @lent:lastHymn
 
 PSALMODY
 1st Week	Week I
@@ -31,8 +31,7 @@ Week 5:	By your help, we beseech you, Lord our God, may we walk eagerly in that 
 
 VIGILS
 
-PSALMODY
-OT 34 - OT 38 - OT 37
+PSALMODY: OT 34 - OT 38 - OT 37
 
 LAUDS
 
@@ -59,7 +58,7 @@ Turn your face away from my sins.
 
 SECOND VESPERS
 
-HYMN p. ?
+HYMN p. @lent:firstHymn - @lent:lastHymn
 
 READING
 Week 1-4:  1 Cor 9:24-25  Do you not know that the runners in the stadium all run in the race, but only one wins the prize? Run so as to win. Every athlete exercises discipline in every way. They do it to win a perishable crown, but we an imperishable one.

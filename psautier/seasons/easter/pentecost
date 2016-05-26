@@ -1,7 +1,7 @@
 PENTECOST
 SOLEMNITY
 
-Hymn I
+Hymn I #pentecost:firstHymn
 Veni, creator Spiritus,
 mentes tuorum visita,
 imple superna gratia,
@@ -31,9 +31,9 @@ Per te sciamus da Patrem
 noscamus atque Filium,
 te utriusque Spiritum
 credamus omni tempore. Amen.
-- Attributed to Raban Maur, 9th Century
+AUTH - Attributed to Raban Maur, 9th Century
 
-Hymn II
+Hymn II #pentecost:lastHymn
 Veni Sancte Spiritus,
 Et emitte caelitus
 Lucis tuae radium
@@ -73,7 +73,7 @@ Sacrum septenarium.
 Da virtutus meritum,
 Da salutis exitum,
 Da perenne gaudium. Amen.
-- Attributed to Pope Innocent III
+AUTH - Attributed to Pope Innocent III
 
 FIRST VESPERS
 
@@ -113,6 +113,8 @@ The Holy Spirit shall teach you, alleluia.
 - You will understand all I have taught you, alleluia.
 
 SECOND VESPERS
+
+HYMN p. @pentecost:firstHymn
 
 PSALMODY: Ps 109 - Ps 113 - Ps 44 - NT 12
 

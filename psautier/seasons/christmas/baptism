@@ -3,7 +3,7 @@ FEAST
 
 FIRST VESPERS
 
-Hymn
+Hymn #baptism:hymn
 When Jesus comes to be baptized,
 He leaves the hidden years behind,
 the years of safety and of peace,
@@ -23,16 +23,15 @@ Our everlasting Father, praise,
 with Christ, his well-beloved Son,
 who with the Spirit reigns serene,
 untroubled Trinity in One. Amen.
+AUTH -Hamburg, 1690
 
--Hamburg, 1690
-
-PSALMODY: of First Vespers of the Epiphany, p. ?
+PSALMODY: of First Vespers of the Epiphany, p. @epiphany:firstVespers
 
 READING:   Acts 10:37-38   What has happened all over Judea, beginning in Galilee after the baptism that John preached, how God anointed Jesus of Nazareth with the holy Spirit and power. He went about doing good and healing all those oppressed by the devil, for God was with him.
 
 MAGNIFICAT:	Our Savior came to be baptized, so that through the cleansing waters of baptism he might restore the old man to new life, heal our sinful nature, and clothe us with unfailing holiness.
 
-PRAYER:	Almighty ever-living God, who, when Christ had been baptized in the River Jordan and as the Holy Spirit descended upon him, solemnly declared him your beloved Son, grant that your children by adoption, reborn of water and the Holy Spirit, may always be pleasing to you. Through our Lord JEsus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.
+PRAYER:	Almighty ever-living God, who, when Christ had been baptized in the River Jordan and as the Holy Spirit descended upon him, solemnly declared him your beloved Son, grant that your children by adoption, reborn of water and the Holy Spirit, may always be pleasing to you. Through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever.
 
 VIGILS
 
@@ -61,7 +60,7 @@ This is my servant whom I love.
 
 SECOND VESPERS
 
-HYMN from First Vespers
+HYMN from First Vespers p. @baptism:hymn
 
 PSALMODY: Ps 109 - Ps 113 - Ps 44 - NT 6
 

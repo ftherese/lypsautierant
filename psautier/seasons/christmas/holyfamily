@@ -4,7 +4,7 @@ FEAST
 
 FIRST VESPERS
 
-HYMN p. ?
+HYMN p. @christmas:firstHymn - @christmas:lastHymn
 
 PSALMODY: Ps 112 - Ps 147 - Ps 8 - NT 4
 
@@ -43,7 +43,7 @@ I am a poor man. I have worked since my youth.
 
 SECOND VESPERS
 
-HYMN p. ?
+HYMN p. @christmas:firstHymn - @christmas:lastHymn
 
 PSALMODY: Ps 126 - Ps 127 - Ps 44 - NT 4
 

@@ -28,7 +28,7 @@ All the ends of the earth, alleluia.
 
 VESPERS
 
-HYMN p. ?
+HYMN p. @christmas:firstHymn - @christmas:lastHymn
 
 READING:    Col 1:13-15    He delivered us from the power of darkness and transferred us to the kingdom of his beloved Son, in whom we have redemption, the forgiveness of sins.
 
@@ -60,7 +60,7 @@ All the ends of the earth, alleluia.
 
 VESPERS
 
-HYMN p. ?
+HYMN p. @christmas:firstHymn - @christmas:lastHymn
 
 READING:    1 Jn 1:5b, 7    God is light, and in him there is no darkness at all. But if we walk in the light as he is in the light, then we have fellowship with one another, and the blood of his Son Jesus cleanses us from all sin.
 
@@ -95,7 +95,7 @@ All the ends of the earth, alleluia.
 
 VESPERS
 
-HYMN p. ?
+HYMN p. @christmas:firstHymn - @christmas:lastHymn
 
 READING:    Rom 8:3-4    For what the law, weakened by the flesh, was powerless to do, this God has done: by sending his own Son in the likeness of sinful flesh and for the sake of sin, he condemned sin in the flesh, so that the righteous decree of the law might be fulfilled in us, who live not according to the flesh but according to the spirit.
 
@@ -128,7 +128,7 @@ All the ends of the earth, alleluia.
 
 VESPERS
 
-HYMN p. ?
+HYMN p. @christmas:firstHymn - @christmas:lastHymn
 
 READING:    1 Jn 5:20    We also know that the Son of God has come and has given us discernment to know the one who is true. And we are in the one who is true, in his Son Jesus Christ. He is the true God and eternal life.
 
@@ -156,7 +156,7 @@ All the ends of the earth, alleluia.
 
 VESPERS
 
-HYMN p. ?
+HYMN p. @christmas:firstHymn - @christmas:lastHymn
 
 READING:    Acts 10:37-38    What has happened all over Judea, beginning in Galilee after the baptism that John preached, how God anointed Jesus of Nazareth with the holy Spirit and power. He went about doing good and healing all those oppressed by the devil, for God was with him.
 
@@ -183,3 +183,4 @@ READING:    Is 12:5-6    Sing praise to the LORD for he has done glorious things
 RESP
 All the ends of the earth, alleluia.
 -Have seen the saving power of God, alleluia.
+

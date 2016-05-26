@@ -4,7 +4,9 @@ SOLEMNITY
 
 FIRST VESPERS
 
-HYMN p. ?
+#christmas:nativity
+
+HYMN p. @christmas:firstHymn - @christmas:lastHymn
 
 PSALMODY: Ps 112 - Ps 147 - Ps 8 - NT 5
 
@@ -47,7 +49,7 @@ All the ends of the earth, alleluia.
 
 SECOND VESPERS
 
-HYMN p. ?
+HYMN p. @christmas:firstHymn - @christmas:lastHymn
 
 PSALMODY: Ps 109 - Ps 129 - Ps 84 - NT 6
 

@@ -7,7 +7,7 @@ PSALMODY WEEK II
 INVITATORY
 Come, let us worship Christ the Lord, who for our sake endured temptation and suffering.
 
-Hymn I
+Hymn I #holyweek:firstHymn
 Vexilla regis prodeunt,
 fulget crucis mysterium,
 quo carne carnis conditor
@@ -43,7 +43,7 @@ collaudet omnis spiritus;
 quos per crucis mysterium
 salvas, fove per saecula. Amen.
 
-Hymn II
+Hymn II #holyweek:lastHymn
 The banner of the King advances,
 behold the mystery of the Cross.
 On it, Life suffered death,
@@ -73,12 +73,11 @@ O Trinity, source of salvation,
 be lauded by all the earth,
 you who let us triumph through the Cross
 grant us the fullness of joy. Amen.
-
-- Saint Venance Fortunat (Bishop of Poitiers), 7th century
+AUTH - Saint Venance Fortunat (Bishop of Poitiers), 7th century
 
 FIRST VESPERS
 
-HYMN p. ?
+HYMN p. @holyweek:firstHymn - @holyweek:lastHymn
 
 READING:    1 Pet 1:18-21    
 
@@ -115,7 +114,7 @@ Ours were the sufferings he bore.
 
 SECOND VESPERS
 
-HYMN p. ?
+HYMN p. @holyweek:firstHymn - @holyweek:lastHymn
 
 READING:    Acts 13:26-30    
 

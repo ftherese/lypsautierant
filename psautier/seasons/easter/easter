@@ -3,7 +3,7 @@ EASTER SEASON
 INVITATORY
 The Lord is risen, alleluia.
 
-Hymn I
+Hymn I #easter:firstHymn
 Clothed in shining garments
 for the Lamb's royal wedding feast,
 we who have crossed the Red Sea,
@@ -28,8 +28,7 @@ Glory to you, O Risen Christ,
 you, our true Easter joy,
 glory to your Father and to the Spirit most holy,
 for ever and ever. Amen. Alleluia!
-
-- Ambrosienne
+AUTH - Ambrosienne
 
 Hymn II (transaltion of hymn I)
 Ad cenam Agni providi,
@@ -72,7 +71,7 @@ qui morte victa praenites,
 cum Patre et almo Spiritu,
 in sempiterna saecula. Amen.
 
-Hymn III
+Hymn III #easter:lastHymn
 O death, where is your victory?
 Over you, Christ has triumphed.
 He has unmasked your empire.

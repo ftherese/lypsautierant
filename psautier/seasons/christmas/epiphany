@@ -4,7 +4,7 @@ SOLEMNITY
 
 FIRST VESPERS
 
-Hymn
+Hymn #epiphany:hymn
 All you who seek the Christ,
 Lift your eyes on high and look,
 For a heavenly sign has been raised for you,
@@ -34,9 +34,9 @@ Glory to You, Holy Trinity,
 Father, Son and Holy Spirit
 Light made manifest to man,
 Which shines for all ages. Amen.
--Prudence, 5th century ?
+AUTH -Prudence, 5th century ?
 
-PSALMODY: Ps 134 - Ps 97 - Ps 71 - NT 7
+PSALMODY: Ps 134 - Ps 97 - Ps 71 - NT 7 #epiphany:firstVespers
 
 
 READING:    2 Tim 1:9-10    He saved us and called us to a holy life, not according to our works but according to his own design and the grace bestowed on us in Christ Jesus before time began, but now made manifest through the appearance of our savior Christ Jesus, who destroyed death and brought life and immortality to light through the gospel.
@@ -72,7 +72,7 @@ All nations will see the glory of your holy One.
 
 SECOND VESPERS
 
-HYMN of First Vespers p. ?
+HYMN of First Vespers p. @epiphany:hymn
 
 PSALMODY: Ps 109 - Ps 137 - Ps 44 - NT 11
 
