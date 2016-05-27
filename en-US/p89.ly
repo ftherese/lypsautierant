@@ -114,5 +114,4 @@
  		%His mer -- cy is from age to age. "Al" -- le -- lu -- - -- "ia !"
  		\markup { \citation #"Lk 1:50" } }
 	
-	.
 }

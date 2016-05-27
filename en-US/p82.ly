@@ -21,7 +21,7 @@
 		%That... ev -- ery tongue con -- fess that Je -- sus Christ is Lord.
 		\markup { \citation #"Phil 2:11" } }
 	
-	Rm 9
+	%Rm 9
 	
 }
 \relative c'' { 

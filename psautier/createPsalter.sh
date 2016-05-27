@@ -202,6 +202,9 @@ echo "\usepackage{../psaltertitle}" >> newPsalter.tex;
 echo "\usepackage{xunicode}" >> newPsalter.tex;
 echo "\usepackage{fontspec}" >> newPsalter.tex;
 echo "\usepackage{xltxtra}" >> newPsalter.tex;
+echo "\usepackage{enumitem}" >> newPsalter.tex;
+echo "\usepackage{environ,varwidth}" >> newPsalter.tex;
+echo "\usepackage{graphics}" >> newPsalter.tex;
 echo "\setmainfont[Mapping=tex-text,Numbers=OldStyle]{Adobe Jenson Pro}" >> newPsalter.tex;
 echo "\usepackage{../psalter}"  >> newPsalter.tex;
 echo "\semiisopage[8]" >> newPsalter.tex;
@@ -235,9 +238,134 @@ echo "\PlainPoemTitle" >> newPsalter.tex;
 echo "\pagestyle{psalter}" >> newPsalter.tex;
 echo "\renewcommand*{\poemtitlemark}[1]{\markboth{#1}{#1}}" >> newPsalter.tex;
 echo "\renewcommand*{\PoemTitlefont}{\centering\scshape\large}" >> newPsalter.tex;
+echo "\renewcommand*{\parttitlefont}{\huge\bfseries\MakeUppercase}" >> newPsalter.tex;
+echo "\renewcommand*{\chaptitlefont}{\huge\bfseries\MakeUppercase}" >> newPsalter.tex;
+
 for i in `ls Psalm*|grep Psalm*[0-9]`; do export psalm=$(echo $i|sed 's/Psalm\([0-9]*\)\([AB]*\)\(-*[0-9p]*\)\.tex/\1\2\3/g;s/^0//;s/^0//;'); echo "\needspace{3\baselineskip}" >> newPsalter.tex; echo "\PoemTitle[ps. $psalm]{\textline[t]{\hfill}{$(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~/markup/){printf $2}}')}{$(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~ /markup/){printf $4}}')}}" >> newPsalter.tex; echo "\input{`basename $i .tex`}" >> newPsalter.tex; done
 
+echo "\clearpage" >> newPsalter.tex;
+echo "\pagestyle{empty}" >> newPsalter.tex;
+echo "\newleadpage*{ot}{" >> newPsalter.tex;
+echo "  \vspace*{\fill}" >> newPsalter.tex;
+echo "  \begin{center}" >> newPsalter.tex;
+echo "    \huge\bfseries\MakeUppercase{Old Testament Canticles}" >> newPsalter.tex;
+echo "  \end{center}" >> newPsalter.tex;
+echo "  \vfill" >> newPsalter.tex;
+echo "}" >> newPsalter.tex;
+echo "\clearpage" >> newPsalter.tex;
+echo "\newleadpage*{nt}{" >> newPsalter.tex;
+echo "  \vspace*{\fill}" >> newPsalter.tex;
+echo "  \begin{center}" >> newPsalter.tex;
+echo "    \huge\bfseries\MakeUppercase{New Testament Canticles}" >> newPsalter.tex;
+echo "  \end{center}" >> newPsalter.tex;
+echo "  \vfill" >> newPsalter.tex;
+echo "}" >> newPsalter.tex;
+echo "\clearpage" >> newPsalter.tex;
+echo "\makepagestyle{backmatter}" >> newPsalter.tex;
+echo "\makeoddhead{backmatter}{\leftmark}{}{}" >> newPsalter.tex;
+echo "\makeheadrule{backmatter}{\textwidth}{\normalrulethickness}" >> newPsalter.tex;
+echo "\makeevenhead{backmatter}{}{}{\rightmark}" >> newPsalter.tex;
+echo "\makeoddfoot{backmatter}{\thepage}{}{}" >> newPsalter.tex;
+echo "\makeevenfoot{backmatter}{}{}{\thepage}" >> newPsalter.tex;
+echo "\makepsmarks {backmatter}{" >> newPsalter.tex;
+echo "  \uppercaseheads" >> newPsalter.tex;
+echo "  \createmark {part}{both}{nonumber}{\parttitle}{. \ }" >> newPsalter.tex;
+echo "  \createmark {chapter}{right}{nonumber}{}{. \ }" >> newPsalter.tex;
+echo "  \createmark {section}{right}{nonumber}{}{. \ }" >> newPsalter.tex;
+echo "}" >> newPsalter.tex;
+echo "\makeatother" >> newPsalter.tex;
+echo "\aliaspagestyle{part}{empty}" >> newPsalter.tex;
+echo "\aliaspagestyle{chapter}{empty}" >> newPsalter.tex;
+echo "\clearpage" >> newPsalter.tex;
+echo "\pagestyle{backmatter}" >> newPsalter.tex;
+echo "\renewcommand{\printpartname}{}" >> newPsalter.tex;
+echo "\renewcommand{\printpartnum}{}" >> newPsalter.tex;
+echo "\part{Proper of Seasons}" >> newPsalter.tex;
+echo "\chapter*[Advent]{Advent}" >> newPsalter.tex;
+echo "\clearpage" >> newPsalter.tex;
+echo "\input{../seasons/advent/advent}" >> newPsalter.tex;
+echo "\clearpage" >> newPsalter.tex;
+echo "\input{../seasons/advent/sunday}" >> newPsalter.tex;
+echo "\input{../seasons/advent/monday}" >> newPsalter.tex;
+echo "\input{../seasons/advent/tuesday}" >> newPsalter.tex;
+echo "\input{../seasons/advent/wednesday}" >> newPsalter.tex;
+echo "\input{../seasons/advent/thursday}" >> newPsalter.tex;
+echo "\input{../seasons/advent/friday}" >> newPsalter.tex;
+echo "\input{../seasons/advent/saturday}" >> newPsalter.tex;
+echo "\input{../seasons/advent/dec24}" >> newPsalter.tex;
+echo "\chapter*[Christmas]{Christmas}" >> newPsalter.tex;
+echo "\clearpage" >> newPsalter.tex;
+echo "\input{../seasons/christmas/christmas}" >> newPsalter.tex;
+echo "\input{../seasons/christmas/dec25}" >> newPsalter.tex;
+echo "\input{../seasons/christmas/holyfamily}" >> newPsalter.tex;
+echo "\input{../seasons/christmas/dec26}" >> newPsalter.tex;
+echo "\input{../seasons/christmas/dec27}" >> newPsalter.tex;
+echo "\input{../seasons/christmas/dec28}" >> newPsalter.tex;
+echo "\input{../seasons/christmas/dec29-31}" >> newPsalter.tex;
+echo "\input{../seasons/christmas/dec29}" >> newPsalter.tex;
+echo "\input{../seasons/christmas/dec30}" >> newPsalter.tex;
+echo "\input{../seasons/christmas/dec31}" >> newPsalter.tex;
+echo "\input{../seasons/christmas/motherofgod}" >> newPsalter.tex;
+echo "\input{../seasons/christmas/secondsundayafterchristmas}" >> newPsalter.tex;
+echo "\input{../seasons/christmas/jan2-epiphany}" >> newPsalter.tex;
+echo "\input{../seasons/christmas/epiphany}" >> newPsalter.tex;
+echo "\input{../seasons/christmas/afterepiphany}" >> newPsalter.tex;
+echo "\input{../seasons/christmas/baptism}" >> newPsalter.tex;
+echo "\chapter*[Lent]{Lent}" >> newPsalter.tex;
+echo "\clearpage" >> newPsalter.tex;
+echo "\input{../seasons/lent/lent}" >> newPsalter.tex;
+echo "\input{../seasons/lent/sunday}" >> newPsalter.tex;
+echo "\input{../seasons/lent/monday}" >> newPsalter.tex;
+echo "\input{../seasons/lent/tuesday}" >> newPsalter.tex;
+echo "\input{../seasons/lent/wednesday}" >> newPsalter.tex;
+echo "\input{../seasons/lent/thursday}" >> newPsalter.tex;
+echo "\input{../seasons/lent/friday}" >> newPsalter.tex;
+echo "\input{../seasons/lent/saturday}" >> newPsalter.tex;
+echo "\input{../seasons/lent/palmsunday}" >> newPsalter.tex;
+echo "\input{../seasons/lent/holyweek}" >> newPsalter.tex;
+echo "\input{../seasons/lent/triduum}" >> newPsalter.tex;
+echo "\chapter*[Easter]{Easter}" >> newPsalter.tex;
+echo "\clearpage" >> newPsalter.tex;
+echo "\input{../seasons/easter/easter}" >> newPsalter.tex;
+echo "\clearpage" >> newPsalter.tex;
+echo "\input{../seasons/easter/sunday}" >> newPsalter.tex;
+echo "\input{../seasons/easter/monday}" >> newPsalter.tex;
+echo "\input{../seasons/easter/tuesday}" >> newPsalter.tex;
+echo "\input{../seasons/easter/wednesday}" >> newPsalter.tex;
+echo "\input{../seasons/easter/thursday}" >> newPsalter.tex;
+echo "\input{../seasons/easter/ascension}" >> newPsalter.tex;
+echo "\input{../seasons/easter/friday}" >> newPsalter.tex;
+echo "\input{../seasons/easter/saturday}" >> newPsalter.tex;
+echo "\input{../seasons/easter/pentecost}" >> newPsalter.tex;
+echo "\chapter*[Ordinary Time]{Ordinary Time}" >> newPsalter.tex;
+echo "\clearpage" >> newPsalter.tex;
+echo "%\input{../seasons/ordinaryTime/ordinaryTime.tex}" >> newPsalter.tex;
+echo "\section*{Week One}" >> newPsalter.tex;
+echo "\section*{Week Two}" >> newPsalter.tex;
+echo "\section*{Week Three}" >> newPsalter.tex;
+echo "\section*{Week Four}" >> newPsalter.tex;
+echo "\section*{Prayers}" >> newPsalter.tex;
+echo "\part*{Proper of the Saints}" >> newPsalter.tex;
+
+for i in `seq 1 31`; do echo "\input{../sanctoral/january/$i}" >> newPsalter.tex; done
+for i in `seq 1 29`; do echo "\input{../sanctoral/february/$i}" >> newPsalter.tex; done
+for i in `seq 1 31`; do echo "\input{../sanctoral/march/$i}" >> newPsalter.tex; done
+for i in `seq 1 30`; do echo "\input{../sanctoral/april/$i}" >> newPsalter.tex; done
+for i in `seq 1 31`; do echo "\input{../sanctoral/may/$i}" >> newPsalter.tex; done
+for i in `seq 1 30`; do echo "\input{../sanctoral/june/$i}" >> newPsalter.tex; done
+for i in `seq 1 31`; do echo "\input{../sanctoral/july/$i}" >> newPsalter.tex; done
+for i in `seq 1 31`; do echo "\input{../sanctoral/august/$i}" >> newPsalter.tex; done
+for i in `seq 1 30`; do echo "\input{../sanctoral/september/$i}" >> newPsalter.tex; done
+for i in `seq 1 31`; do echo "\input{../sanctoral/october/$i}" >> newPsalter.tex; done
+for i in `seq 1 30`; do echo "\input{../sanctoral/november/$i}" >> newPsalter.tex; done
+for i in `seq 1 31`; do echo "\input{../sanctoral/december/$i}" >> newPsalter.tex; done
+
+echo "\part*{Common}" >> newPsalter.tex;
+
 echo "\end{document}" >> newPsalter.tex;
+
+
+
 #echo "\documentclass[10pt,letterpaper,twoside]{report}" > newPsalter1-49.tex;
 #echo "\usepackage{verse}" >> newPsalter1-49.tex;
 #echo "\usepackage{psalter}" >> newPsalter1-49.tex;
