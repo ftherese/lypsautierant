@@ -10,21 +10,19 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		\times 2/3 { g8 a g }
-		c16[ c c c]
-		\times 2/3 { b8 c d }
-		c[\( c\)] \pespace
-		r8 c16[ c]
-		c[ c c b]
-		\times 2/3 { c8[\( a\) g] }
-		g4
+		r8 g8 a16[ c c c]
+		c8[ b c] 
+		d8( c4) \pespace
+		r8 c c[ c c]
+		\times 2/3 { b8[ c a] }
+		g4( g8)
 		
 		\endBar
 	}
 
 	\addlyrics {
-		Ce -- lui qui fait la vo -- lon -- té de mon Pè -- re en -- tre -- ra dans le Ro -- yau -- me des cieux.
-		%Not everyone who says to me, ‘Lord, Lord,’ will en -- ter the king -- dom of hea -- ven, but on -- ly the one who does the will of my Fa -- ther in hea -- ven. 
+		%Ce -- lui qui fait la vo -- lon -- té de mon Pè -- re en -- tre -- ra dans le Ro -- yau -- me des cieux.
+		The one who does the will of my Fa -- ther will en -- ter the king -- dom of hea -- ven.
  		\markup { \citation #"Mt 7:21" } }
 }
 \relative a' { 

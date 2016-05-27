@@ -46,14 +46,15 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
-		f8 e[ f]  g8.[ f16]   f16[ f e c] d4
+		f8[  g] \slurDashed f4( e8[) c]
+		d4_\( d8\)
 		\endBar
 	}
 
 	\addlyrics {
-		Sei -- gneur mon Dieu, en toi j'ai mon ab -- ri.
-		%
-		\markup { \citation #"Ps 7" } 
+		%Sei -- gneur mon Dieu, en toi j'ai mon ab -- ri.
+		In you, Lord, I take ref -- uge.
+		\markup { \citation #"Ps 71" } 
 	}
 }
 
