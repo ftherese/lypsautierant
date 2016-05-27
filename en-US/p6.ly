@@ -33,11 +33,10 @@
 		
 		\set Staff.instrumentName = \markup{ \left-column { O.T.  Adv. } }
 		\espace
-		\times 2/3 { a8 a g }
-		a4
+		r8 a\([ g]\) a4
 		\pespace\cesure \pespace
-		b8[\cesurebasse \pespace g8]
-		e8[ e8]
+		a8[\( \pespace b\) \cesurebasse  g8]
+		e4\( e8\)
 		
 		
 		
@@ -47,7 +46,7 @@
 	\addlyrics {
 		
 		%Ma -- ra -- na -- "tha !" Viens, Sei -- gneur Jé -- sus.
-		Ma -- ra -- na -- tha! Come, Lord Je -- sus!
+		A -- _ -- men! Co -- me, Lord Je -- sus!
 		\markup { \citation #"Rv 22:20" } }
 }
 
@@ -64,8 +63,8 @@
 		r8 \pespace 
 		a8 a8[ b a]
 		g8[ g] f4\( e8\)
-		\pespace
-		\times 2/3 { r8_\( g a\) }
+		\pespace s4
+		\times 2/3 { r8_\( g[ a\)] }
 		b[\( a\)]
 		a4
 		

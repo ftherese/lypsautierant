@@ -13,7 +13,7 @@
 		\pespace\cesure\pespace 
 		r8 d8 d[ d d] d[ e d ]
 		\times 2/3 { c[ c] }
-		b4\( \stemDown a4\)
+		\stemUp b4\( a8\)
 		\endBar
 	}
 
@@ -32,7 +32,7 @@
 		g8 c[ b] c[ d d]d4\( d8\) f[ e\( d\)] e4 
 		\indentLine 
 		\times 2/3 { d8[ d e] }
-		d8[ c16 c] b4\( a8\)\pespace
+		d8[ c16 c] \stemUp b4\( a8\)\pespace \stemNeutral
 		\barre \pespace
 		\times 2/3 { r8\( c[ d\)] }
 		e[\( d\)] d4
@@ -55,7 +55,7 @@
 		\pespace
 		\times 2/3 { r d8 d[ d e]  }
 		d8[ c c]
-		b4\( \stemDown a4\)
+		b4\( \stemDown a8\)
 		\endBar
 	}
 
