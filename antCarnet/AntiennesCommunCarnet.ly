@@ -25,6 +25,28 @@
 	   %ragged-bottom = ##t
 	   %ragged-last-bottom = ##t
 
+	   titres-hspace = #8						% pour décaler les titres (arg1 et arg2)
+       scoreTitleMarkup = \markup { \column {
+       	       \on-the-fly #print-all-headers { \bookTitleMarkup \hspace #0 }
+       	       %\fill-line {
+       	       %   \fromproperty #'header:piece
+       	       %   \fromproperty #'header:opus
+       	      % }
+       	       \fill-line { 
+       	       		\line { \fromproperty #'header:titre } }
+       	       		\raise #0					%1.2 j'ai diminué pour augmenter l'espace 1.1
+       	       \fill-line {
+       	          \fromproperty #'header:piece
+       	          \fromproperty #'header:opus
+       	       }
+       	       \fromproperty #'header:titres
+       	       
+       	       }							% titres, (à la place de opus et piece)
+       }
+
+
+
+
 }
 
 \header {
@@ -192,24 +214,28 @@
 		\times 2/3 { a8[ \cesure \espace b d] } c8[ b]
 		\times 2/3 { a4\(\cesure \espace g8\) }
 		\times 2/3 { a8[ a g] } e4\( e8\) r8
+		\barre \espace
+		g16[ a c\( b\)] \stemUp b4
 		\endBar
 	}
 	\addlyrics {
 		Dans la mai -- son de Dieu, a -- do -- rons le Christ,
 		E -- poux de l'E -- gli -- se.
+		"(Al" -- le -- lu- "" "ia !)"
 	}
 	\header {
 		titre =  " "
-		titres = \markup \ant #'aaa "L 001" "Commun de la dédicace" }
+		titres = \markup \ant #'aaa "L 001" "Commun de la Dédicace" }
 }
 
 
 \label #'aab
 \score {
 	\relative c'' {
-		g8 a4 \times 2/3 { c8[ b c] } d4\(
-		\times 2/3 { c4\)\(\cesure \espace e8\) }
-		d8[ c] b8[ g] a4
+		g8 a4 \cesure \times 2/3 { c8[ b c] }
+		\times 2/3 { d4\( c8\) }
+		\pespace r8
+		e d8[ \cesure c] b8[ g] a4
 		\endBar
 	}
 	\addlyrics {
@@ -218,7 +244,7 @@
 	}
 	\header {
 		%titre =  " "
-		titres = \markup \ant #'aab "L 002" "Commun des apôtres" }
+		titres = \markup \ant #'aab "L 002" "Commun des Apôtres" }
 }
 
 \score {
@@ -243,20 +269,23 @@
 \label #'aac
 \score {
 	\relative f' {
-		%\key f \major
+		\key f \major
 		f8[ g] \times 2/3 { a4\(\cesure \espace a8\) }
-		\times 2/3 { a8[ a b] } \times 2/3 { g8[ g f] }
+		\times 2/3 { a8[ a bes] } \times 2/3 { g8[\( g\) f] }
 		\times 2/3 { a4\( a8\) }
 		\espace r8 a c8[ d] a
+		\barre \espace
+		f16[\( g\) a g] \times 2/3 { g4\( f8\) }
 		\endBar
 	}
 	\addlyrics {
 		Jé -- sus Christ, Pa -- role é -- ter -- nel -- le du Pè -- re,
 		lou -- ange à toi_!
+		"(Al" - le -- lu -- ia -- "- !)"
 	}
 	\header {
 		%titre =  " "
-		titres = \markup \ant #'aac "L 003" "Commun des évangélistes" }
+		titres = \markup \ant #'aac "L 003" "Commun des Évangélistes" }
 }
 
 \pageBreak
@@ -280,7 +309,7 @@
 	}
 	\header {
 		%titre =  " "
-		titres = \markup \ant #'aad "L 004" "Commun des martyrs" }
+		titres = \markup \ant #'aad "L 004" "Commun des Martyrs" }
 }
 
 
@@ -305,7 +334,7 @@
 	\relative c'' {
 		c16[ c c c] c8[ \cesure \espace c16 c] b8[ c]
 		\times 2/3 { a8[\( a\) \cesureBasse \espace e] }
-		g16[ a c c] a4
+		g16[ \cesure a c c] a4
 		\barre \espace
 		g16[ a c\( b\)] \stemUp b4
 		\endBar
@@ -318,7 +347,7 @@
 	}
 	\header {
 		%titre =  " "
-		titres = \markup \ant #'aae "L 005" "Commun des pasteurs" }
+		titres = \markup \ant #'aae "L 005" "Commun des Pasteurs" }
 }
 
 
@@ -343,7 +372,7 @@
 \label #'aaf
 \score {
 	\relative c'' {
-		a4 \times 2/3 { c8[ c c] } \times 2/5 {c16[\( c\) c d e]}
+		s8 r8 a8 \times 2/3 { c8[ c c] } \times 2/5 {c16[\( c\) c d e]}
 		c8[\( c16\) \cesure \espace a]
 		\times 2/3 { g8[ \cesureBasse \espace f g] } \times 2/3 { a8[ a c] } a4
 		\barre \espace
@@ -358,7 +387,7 @@
 	}
 	\header {
 		%titre =  " "
-		titres = \markup \ant #'aaf "L 006" "Commun des docteurs" }
+		titres = \markup \ant #'aaf "L 006" "Commun des Docteurs" }
 }
 
 \pageBreak
@@ -385,24 +414,27 @@
 \label #'aag
 \score {
 	\relative c' {
-		d8 \times 2/3 { d8[ \cesureBasse \espace f f] } d8[ c] 
+		r8 d8 \times 2/3 { d8[ \cesureBasse \espace f f] } d8[ c] 
 		c16[ \cesureBasse \espace f a a] g8[ d] f8[ e] d4
+		\barre \espace
+		\times 2/3 { r8_\( f[ g]\) } a8[\( g\)] g4
 		\endBar
 	}
 	\addlyrics {
 		Ve -- nez, a -- do -- rons le Christ, o -- bé -- is -- sant jus -- qu'à la mort_!
+	        "(Al" -- le -- lu- "" "ia !)"
 	}
 	
 	\header {	
 		%titre =  " "
-		titres = \markup \ant #'aag "L 007" "Commun des religieux" }
+		titres = \markup \ant #'aag "L 007" "Commun des Religieux" }
 }
 
 \label #'aah
 \score {
 	\relative c' {
 		\stemUp
-		d8 a'16[ a b g]
+		r8 d8 a'16[ a b! g]
 		\times 2/3 { a4_\(\cesure \pespace c8\) } c4
 		\cesure \espace
 		\times 2/3 { a8[ b g] } a4
@@ -417,28 +449,31 @@
 	}
 	\header {
 		%titre =  " "
-		titres = \markup \ant #'aah "L 008" "Commun des religieuses et des vierges" }
+		titres = \markup \ant #'aah "L 008" "Commun des Religieuses et des Vierges" }
 }
 
 
 \label #'aai
 \score {
 	\relative c'' {
-		c8 c8[ c] c8[\( c\)] b8[ c] a4
+		r8 c8 c8[ c] c8[\( c\)] b8[ c] a4
 		\pespace
 		\times 2/3 { r8_\( e[ g]\) } a4
 		\cesure \pespace
 		\times 2/3 { a8[ c c] } a4
+		\barre \espace
+		g16[ a c\( b\)] \stemUp b4
 		\endBar
 	}	
 	\addlyrics {
 		\set stanza = #"        1."
 		Ta gloire é -- cla -- te dans les saints,
 		Sei -- gneur Dieu, nous t'a -- do -- rons.
+		"(Al" -- le -- lu- "" "ia !)"
 	}
 	\header {
 		%titre =  " "
-		titres = \markup \ant #'aai "L 009" "Commun des saints et des saintes" }
+		titres = \markup \ant #'aai "L 009" "Commun des Saints et des Saintes" }
 }
 
 
@@ -470,7 +505,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%COMMUN DE LA DEDICACE%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
-	
+
+
+
 
 \label #'bb
 \score {
@@ -484,24 +521,30 @@
 		\times 2/3 { g8[ f g] } \times 2/6 {a16[\( a\) c c c bes]}
 		c16[ d e c] c4 \cesure \espace
 		\times 2/3 { c8[ a bes!] } g16[ g g g]
-		\times 2/3 { g4\(\cesure \ifIndent f8\) }
+		\times 2/3 { g4\( \ifIndent f8\) }
 		\times 2/3 { a8[ c d] } \times 2/3 { c8[\( c\) c] }
 		a8[ g] a4\( a8\) r8
+		\barre \espace
+		\times 2/3 { c8[ a g] } g4\( f8\) r8
 		\endBar
-		\stemOff g4 a c
+		\stemOff f4 a c
 		\endBar
 	}
 	\addlyrics {
 		Je les con -- dui -- rai vers ma sain -- te mon -- ta -- gne, dit le Sei -- gneur.
 		Je les ren -- drai heu -- reux dans ma mai -- son de pr -- iè -- re.
 		Leurs sa -- cri -- fi -- ces se -- ront a -- gré -- és sur mon au -- tel,
-		car ma mai -- son s'ap -- pel -- le -- ra_:
-		mai -- son de pr -- iè -- re pour tous les peu -- ples.
-		\markup { \citation #"(Is 36)" } "     [Ton 8]"
+		car ma mai -- son s'ap -- pel -- le -- ra
+		mai -- son de pri -- è -- "re p" -- our tous les peu -- ples.
+		"(Al" -- le -- lu -- ia -- "- !)"
+		\markup { \citation #"(Is 56)" } "     [Ton 5]"
 	}
 	\header {
-		titre =  "COMMUN DE LA DEDICACE"
-		titres = \markup \ant #'bb "M 100" " " }
+		titre =  "COMMUN DE LA DÉDICACE"
+		titres = \markup \ant #'bb "M 100" " "
+		opus = " "
+	
+	}
 }
 
 
@@ -514,7 +557,7 @@
 		\cesure \espace
 		c16[ c a g] a16[ a c d] d4
 		\cesure
-		\ifIndent \noPageBreak
+		\ifIndent %\noPageBreak
 		\times 2/6 { f16[ f f d c a] }
 		\times 2/3 { a8[\( a\) a] } g4
 		\cesure
@@ -538,10 +581,10 @@
 		Si quel -- qu'un dé -- truit le tem -- ple de Dieu,
 		Dieu le dé -- trui -- ra_:
 		car le tem -- ple de Dieu est sa -- cré, et ce tem -- ple, c'est vous.
-		\markup { \citation #"(1Co 3)" } "    [Ton 7]"
+		\markup { \citation #"(1 Co 3)" } "    [Ton 7]"
 	}
 	\header {
-		%titre =  "COMMUN DE LA DEDICACE"
+		%titre =  " "
 		titres = \markup \ant #'bc "M 101" " " }
 }
 		
@@ -572,7 +615,7 @@
 		\times 2/3 { a8[ b g] } g4
 		\barre
 		\times 2/3 { r8_\( g[ a]\) }
-		\times 2/3 { c8[ b c] } a4\( g8\) r8
+		\times 2/3 { c8[\( b c\)] } a4\( g8\) r8
 		\endBar
 		\stemOff g4 a c
 		\endBar
@@ -588,7 +631,7 @@
 	}
 	\header {
 		titre =  "COMMUN DES APÔTRES"
-		titres = \markup \ant #'cb "N 100" "Pour les apôtres" }
+		titres = \markup \ant #'cb "N 100" "Pour les Apôtres" }
 }
 
 
@@ -599,7 +642,7 @@
 	\relative f' {
 		\times 2/3 { e8[ a a] } \times 2/3 { a8[ g a] } b8[ g] a4
 		\cesure \espace
-		f8[ f] \times 2/3 { f8[\( f\) f] } e8[ f]
+		f8[ f] \times 2/3 { f8[ f f] } e8[ f]
 		\times 2/3 { d8[ d e] }		
 		\times 2/3 { f8[ f g] } e4
 		\ifIndent
@@ -631,18 +674,19 @@
 \label #'cd
 \score {
 	\relative f' {
-		f8 a8.[ c16] c16[\( c\) c d]
+		r8 f8 a8.[ \cesure \pespace c16] c16[\( c\) c d]
 		\slurDashed c4( c16[)\( c\) b c] \times 2/3 { a4\( a8\) }
 		\cesure \espace
 		\times 2/3 { c8[ d e] } e8[ e] e8[ e] e8[\( e\)]
-		\cesure \espace
-		d8[ e] a,4 c8[ c]
+		%\cesure \espace
+		d8[ e] a,4
 		\ifIndent
+		c8[ c]
 		d8[ e] d4
 		\cesure \espace		
 		\times 2/3 { c8[ c c] } \times 2/3 { c8[ c c] }
-		a4 \times 2/5 {b16[b b b b]}
-		\times 2/3 { g8[ a g] } a4
+		\stemDown \slurDashed a4( \times 2/5 {b16) [b b b b]}
+		\times 2/3 { g8[ a b] } a4
 		\barre
 		\break
 		c16[ d e\( d\)] d4
@@ -652,7 +696,7 @@
 	}
 	\addlyrics {
 		Al -- lez, de tou -- tes les na -- tions fai -- tes des di -- sci -- ples,
-		les ba -- pti -- sant au nom du Pè -- re et du Fils et du Saint Es -- prit,
+		les ba -- pti -- sant au nom du Pè -- re et du Fils et du Saint- -- Es -- prit,
 		leur en -- sei -- gnant à gar -- der
 		tout ce que je vous ai com -- man -- dé.
 		"(Al" -- le -- lu- "" "ia !)"
@@ -691,10 +735,10 @@
 		qui é -- tait au -- près du Pè -- re
 		et qui nous est ap -- pa -- rue.
 		"(Al" -- le -- lu- "" "ia !)"
-		\markup { \citation #"(1Jn 1)" } "   [Ton 8]"
+		\markup { \citation #"(1 Jn 1)" } "   [Ton 8]"
 	}
 	\header {
-		titres = \markup \ant #'ce "N 104" "Pour les évangélistes" }
+		titres = \markup \ant #'ce "N 104" "Pour les Évangélistes" }
 }
 
 
@@ -706,42 +750,78 @@
 %%COMMUN DES MARTYRS%%
 %%%%%%%%%%%%%%%%%%%%%%
 
-
-
-
-
-
-
 \label #'dd
 \score {
+  { \relative f' {
+      \key f \major
+      f8[ f] f16[\( f\) f f] f8[ d] f8[ f16 g]
+      a8[ bes] g8[\( f\)] f8[ d]
+      \times 2/3 { d8[ e f] } d4
+      \cesure \espace
+      \ifIndent
+      f8[ e] \times 2/3 { d4\( c8\) } c16[\( c\) d f]
+      \times 2/3 { f8[\( f\) f] } f4
+      \cesure \espace
+      f8[ g] a8[ a] a16[\( a\) a g] f16[\( f\) f g]
+      \ifIndent
+      bes8[ bes] bes8[ g] f4\( f8\) r8
+      \endBar
+      \stemOff f4 g a
+      \endBar
+    }
+  }
+	\addlyrics {
+		Ceux qui vien -- nent de la grande é -- preuve ont la -- vé leurs ro -- bes dans le sang de l'Ag -- neau_;
+		jour et nuit ils ser -- vent dans le Tem -- ple de Dieu,
+		et Ce -- lui qui siè -- ge sur le Trô -- ne ét -- en -- dra sur eux sa ten -- te.
+		\markup { \citation #"(Ap 7)" } "     [Ton 6]"
+	  }
+	  \header {
+	        titre =  "COMMUN DES MARTYRS"
+		titres = \markup \ant #'dd "O 101" " " }
+}
+
+
+
+
+
+\label #'de
+\score {
 	\relative f' {
-		\key f \major
+		%\key f \major
 		d8[ d] f8[ f] e8[\( f\)] g8[ a]
 		\times 2/3 { a4\(\cesure \espace e8\) }
 		f8[ g] a8[ f] e8[ f]
-		\times 2/3 { e8[\( d\) e] } d4 \cesure \espace
-		\slurDashed d( \times 2/3 { a'8[)\( a\) e] }
+		\times 2/3 { e8[\( d\) e] } d4 \cesure
 		\ifIndent
+		%\espace
+		\slurDashed d( \times 2/3 { a'8[)\( a\) e] }
+		
 		\times 2/3 { f8[ g a] }
 		bes8[ g] \slurDashed a4(
 		\times 2/3 { g8[) g a] } c4 \cesure \espace
-		\times 2/3 { a8[ a a] } f8[ g] a16[\( g\) a bes]
+		\times 2/3 { a8[ a a] } f8[ g] a16[\( g\) a bes!]
+		\ifIndent
 		\times 2/3 { a8[ g a] } f8[ f] e4
+		\barre %\break
+		\espace s1
+		\times 2/3 { a8[ f d] } e4
 		\endBar %\noBreak
-		\stemOff f4 g a
+		\stemOff a4 g a
 		\endBar
 	}
 	\addlyrics {
 		%\set stanza = #"       1."
 		Ils se ré -- jou -- is -- sent dans les cieux,
-		les saints qui ont sui -- vi les tra -- ces du Christ_:
+		les saints qui ont sui -- vi les tra -- ces du Christ_;
 		et par -- ce qu'ils ont ré -- pan -- du leur sang pour son a -- mour,
-		ils sont dans l'al -- lé -- gres -- se a -- vec Lui pour l'é -- ter -- ni -- té.		
-		\markup { \citation #"(MR)" } "   [Ton 1]"
+		ils sont dans l'al -- lé -- gres -- se a -- vec_ Lui pour l'é -- ter -- ni -- té.
+		"(Al" -- le -- lu "ia !)"
+		\markup { \citation #"(MR)" } """ [Ton 4]"
 	}
 	\header {
-		titre =  "COMMUN DES MARTYRS"
-		titres = \markup \ant #'dd "O 103" " " }
+		%titre =  " "
+		titres = \markup \ant #'de "O 103" " " }
 }
 
 
@@ -756,7 +836,7 @@
       g16[ g g g g g] g16[ g a f] d4
       \ifIndent
       r8 d8 d8[ e] f16[ f g f]
-      \times 2/3 { e4\( \cesure c8\) } \times 2/3 { c8[ c d] } 
+      \times 2/3 { e4\(  c8\) } \times 2/3 { c8[ c d] } 
       \times 2/3 { e4\( e8\) } d8[ e] f16[ f d c] d4
       \endBar
       \noBreak
@@ -768,40 +848,14 @@
 		Au vain -- queur, je don -- ne -- rai de la man -- ne cac -- hée,
 		je lui don -- ne -- rai aus -- si un cail -- lou blanc por -- tant gra -- vé un
 		nom nou -- veau que nul ne con -- naît, hor -- mis ce -- lui qui le re -- çoit.
-		\markup { \citation #"(Ap 2)" } "     [Ton 1]"
+		\markup { \citation #"(Ap 2)" } """ [Ton 1]"
 	  }
 	  \header {
 		titres = \markup \ant #'df "O 105" " " }
 }
 
 
-\label #'de
-\score {
-  { \relative f'
-    {
-      g8[ f] g16[\( a\) c b] a8[ g] a8[\( g\)]
-      g8[ c] b8[ c] d16[\( d\) e d]  \times 2/3 { c8[ c c] } d4
-      \cesure \espace
-      \ifIndent
-      d8[ c] \times 2/3 { d4\( e8\) } f16[\( f\) f e] \times 2/3 { d8[\( d\) c] } d4
-      \cesure \espace
-      b8[ c] d8[ c] a16[\( a\) a b] g8[\( g\)]
-      \ifIndent
-      f8[ g] a8[ c] c8[ b] g4\( g8\) r8
-      \endBar
-      \stemOff c'4 b c
-      \endBar
-    }}
-		
-	\addlyrics {
-		Ceux qui vien -- nent de la grande é -- preu -- ve ont la -- vé leurs ro -- bes dans le sang de l'Ag -- neau_:
-		jour et nuit ils ser -- vent dans le Tem -- ple de Dieu,
-		et Ce -- lui qui siè -- ge sur le Trô -- ne ét -- en -- dra sur eux sa ten -- te.
-		\markup { \citation #"(Ap 7)" } "     [Ton 7]"
-	  }
-	  \header {
-		titres = \markup \ant #'de "O 106" " " }
-}
+
 
 
 
@@ -824,15 +878,18 @@
       r8 e16[ g] a16[ a a a] \times 2/3 { a4\( a8\) }
       \cesure \espace
       a16[ a a a] g8[ a] g8[ f] e4
-      \espace \espace
+      \pespace \pespace
       r8 g16[ a] c8[ c]
+      %\ifIndent
+      \times 2/3 { c8[\( e\) d] }
       \ifIndent
-      \times 2/3 { c8[\( e\) d] } c8[ b] a4
-      \espace
-      r8 c16[ d] e16[ e e e] d8[ c] b8[ c] a4
+      c8[ b]
+      a8[ c16 d] e16[ e e e] d8[ c] b8[ c] a4
+      \barre \espace s1
+      \times 2/3 { r8_\( g[ a]\) } c8[\( a\)] b4
       \endBar
       \noBreak
-      \stemOff g4 a c
+      \stemOff g,4 a c
       \endBar
     }}
 		
@@ -840,6 +897,7 @@
 		La mois -- son est a -- bon -- dan -- te, mais les ou -- vri -- ers sont peu nom -- breux.
 		Pri -- ez donc le maî -- tre de la mois -- son
 		d'en -- voy -- er des ou -- vri -- ers pour sa mois -- son.
+		"(Al" -- le -- lu- " " "ia !)"
 		\markup { \citation #"(Mt 9)" } "   [Ton 3]"
 	  }
 	\header {
@@ -852,7 +910,7 @@
 \score {
   { \relative f'
     {
-      d8 a'8[ g] \times 2/3 { a4\( a8\) }
+      r8 d8 a'8[ g] \times 2/3 { a4\( a8\) }
       \pespace
       \times 2/3 { r8_\( g[ g]\) } \times 2/3 { g8[ g a] } \times 2/3 { f8[ e f] } \times 2/3 { d4\( d8\) }
       \cesure
@@ -874,7 +932,7 @@
 		«_Av -- ance au lar -- ge, et je -- tez vos fil -- ets pour la pê -- che._»
 		«_Maî -- tre, nous av -- ons pei -- né tou -- te la nuit sans rien pren -- dre_;
 		mais, sur ta pa -- ro -- le, je vais je -- ter les fi -- lets._»
-		\markup { \citation #"(Mt 9)" } "   [Ton 1 ?]"		
+		\markup { \citation #"(Mt 9)" } "   [Ton 1]"		
 	  }
 	\header {
 		%titre =  "COMMUN DES PASTEURS"
@@ -885,15 +943,15 @@
 \markup { \column {
 	\raise #1
 	\line { " " " " " " \fontsize #-1 "       Autres Antiennes" }
-	\line { " " " " " " " " " " " " " "	\fontsize #0 "       1. I 401" \fontsize #-1 "(Je suis le bon Pasteur)" }
+	\line { " " " " " " " " " " " " " "	\fontsize #0 "       1. I 401" \fontsize #-1 "(Je suis le Bon Pasteur)" }
 	\line { " " " " " " " " " " " " " " \fontsize #0 "       2. K 192" \fontsize #-1 "(Heureux les serviteurs)" }
 	}
 }
 
 
 \pageBreak
-
-
+\markup { " " }
+\pageBreak
 
 
 %%%%%%%%%%%%%%%%%%%%%%%
@@ -921,8 +979,11 @@
 		r8 g c8[ \cesure b16 c]
 		\ifIndent
 		\times 2/3 { a8[ g f] } g16[ g g a] g4
-		\times 2/3 { d8[ e f] } \times 2/3 { g4\( g8\) }
+		\times 2/3 { d8[ e f] } \times 2/3 { g4( g8) }
 		\times 2/3 { g8[\( g\) g] } a8[ g] g4
+		\barre %\espace s1
+		\break
+		e8[ g] \times 2/3 { a8[\( f e\)] } g4
 		\endBar %\espace
 		\noBreak
 		\stemOff g4 a c
@@ -936,6 +997,7 @@
 		et la trans -- met -- trai aux gé -- né -- ra -- tions fu -- tu -- res.
 		Voy -- ez_: ce n'est pas pour moi seul que j'ai pei -- né,
 		mais pour tous ceux qui cher -- chent la vé -- ri -- té.
+		"(Al" -- le -- lu - - "ia !)"
 		\markup { \citation #"(Si 24)" } "   [Ton 8]"
 	}
 	\header {
@@ -953,8 +1015,8 @@
 
 
 \pageBreak
-%\markup { " " }
-%\pageBreak
+\markup { " " }
+\pageBreak
 
 
 
@@ -968,17 +1030,22 @@
 \label #'gb
 \score {
 	\relative c' {		
-		d8 d4 \cesure \espace
+		r8 d8 d4 \cesure \espace
 		\times 2/3 { c8[ d e] } d4 \cesure \espace
-		\times 2/5 { f16[g a a a]} a8[ a] a4 \cesure \espace
+		\times 2/5 { f16[g a a a]} a8[ a] a4 \espace
 		g16[ f e d] d8[\( d\)]
-		\times 2/7 { d16[ d e f\( f\) \bar "" \break f f] }
+		\ifIndent
+		\times 2/7 { d16[ d e f\( f\) %\bar "" \break
+		             f f] }
 		%\ifIndent
 		%c16[ c]
 		f8[\( f\)] \espace		
-		\times 2/3 { f8[ g f] } f16[ \cesureBasse \espace  d c d]
-		\times 2/3 { f8[ e d] } \stemUp \times 2/3 { d4\(\cesure \espace f8\) }
+		\times 2/3 { f8[ g f] } f16[  \pespace  d c d]
+		\times 2/3 { f8[ e d] } \stemUp \times 2/3 { d4\(  f8\) }
 		\times 2/3 { f8[ d c] } d4\( d8\) r8
+		\barre %s1
+		\break
+		\times 2/3 { c8[ c d] } d4
 		\endBar
 		\noBreak
 		\stemOff c4 d f
@@ -987,10 +1054,11 @@
 	\addlyrics {
 		%\set stanza = #"       1."
 		Vrai -- ment, dit le Sei -- gneur,
-		nul n'au -- ra tout lai -- ssé pour moi,
+		nul n'au -- ra tout lai -- ssé pour moi
 		et pour l'E -- van -- gi -- le,
-		qu'il ne re -- çoi -- ve le cen -- tu -- ple, dès main -- te -- nant,
-		et dans le monde à ve -- nir, la vie é -- ter -- nel -- le.
+		qu'il ne re -- çoi -- ve le cen -- tu -- ple dès main -- te -- nant
+		et, dans le monde à ve -- nir, la vie é -- ter -- nel -- le.
+		"(Al" -- le -- lu -- "ia !)"
 		\markup { \citation #"(Mc 10)" } "    [Ton 2]"
 	}
 	\header {
@@ -1001,36 +1069,43 @@
 
 \label #'gd
 \score {
+  \transpose a d {
+    
 	\relative c'' {
-		\times 2/3 { r8\( a[ e']\) } g8[ e] d16[\( d\) e f]
+	  \key c \major
+		\times 2/3 { r8_\( a[ e']\) } g8[ e] d16[\( d\) e f]
 		\times 2/3 { e8[\( c\) b] } \times 2/3 { \stemUp c4\( a8\) }
 		\cesure \espace \stemNeutral
 		g8[ a] \times 2/3 { c8[ c d] } \times 2/3 { e8[ e d] } e4
-		\cesure \espace		
-		e8[ g] 
+		\cesure \espace
+		e8[ g] e8[ d] 
 		\ifIndent
-		e8[ d] 
 		\times 2/3 { b4\(\cesure c8\) } d16[\( d\) e c] a4
-		\espace \pespace
+		\espace
 		\times 2/3 { r8_\( a[ b]\) } \times 2/3 { c8[ c c] }
 		\times 2/3 { a8[\( g\) b] } c4\( c8\) r8
 		\endBar
-		\stemOff g,4 a c
+		\stemOff c4 d e
 		\endBar
 	}
+  }
 	\addlyrics {
 		%\set stanza = #"       2."
 		Le che -- min des ju -- stes est lu -- miè -- re d'au -- ro -- re,
 		dont l'é -- clat res -- plen -- dit jus -- qu'au jour.
 		La cein -- ture aux reins, leurs lam -- pes all -- um -- ées,
 		ils veil -- laient dans l'at -- ten -- te du Maî -- tre.
-		\markup { \citation #"(Pr 4 ; Lc 12)" } "    [Ton 3]"
+		\markup { \citation #"(Pr 4 ; Lc 12)" } "    [Ton 1]"
 	}
 	\header {
 		titres = \markup \ant #'gd "S 103" " " }
 }
 
 \markup { \column {
+	\raise #1
+	\line { " " }
+	\raise #1
+	\line { " " }
 	\raise #1
 	\line { " " " " " " \fontsize #-1 "Autres Antiennes" }
 	\raise #1
@@ -1053,7 +1128,7 @@
 \score {
 	\relative f' {
 		\key f \major
-		a8 a16[\( a\) a c] \times 2/3 { a8[\( bes\) c] } a8[\( a\)]
+		r8 a8 a16[\( a\) a c] \times 2/3 { a8[\( bes\) c] } a8[\( a\)]
 		\espace
 		r8. f16 \times 2/5 {f16[\( f\) f g a]}
 		\times 2/3 { g8[\( g\) g] } bes8[ c]
@@ -1064,7 +1139,7 @@
 		\times 2/6 { d16[ e f g g\( g\)] }
 		\times 2/3 { g8[\( g\) g] } \times 2/3 { c8[ bes a] } a4
 		\endBar
-		\stemOff a4 a a
+		\stemOff f4 g a
 		\endBar
 	}
 	\addlyrics {
@@ -1072,7 +1147,7 @@
 		Que bril -- le vo -- tre lu -- miè -- re de -- vant les hom -- mes
 		a -- fin qu'en voy -- ant vos oeu -- vres,
 		ils glo -- ri -- fient vo -- tre Pè -- re qui est dans les cieux.
-		\markup { \citation #"(Mt 5)" } "    [Ton Per.]"
+		\markup { \citation #"(Mt 5)" } "    [Ton 6]"
 	}
 	\header {
 		titre =  "COMMUN DES SAINTS ET DES SAINTES"
@@ -1090,7 +1165,7 @@
 		g8[ a] c8[ c] d4
 		\cesure \espace
 		\times 2/3 { e8[ e e] } \times 2/3 { c4\( c8\) }
-		\times 2/3 { c8[ a g] } \times 2/3 { a4\( a8\) }
+		\times 2/3 { c8[\( a\) g] } \times 2/3 { a4\( a8\) }
 		\ifIndent
 		\times 2/3 { r8\( c[ c]\) }
 		\times 2/3 { c8[ a g] } a4
@@ -1117,7 +1192,7 @@
 \label #'hc
 \score {
 	\relative c'' {
-		a8 a16[\( a\) a g] a8[ b] c16[\( d\) c b] a8[\( a\)]
+		r8 a8 a16[\( a\) a g] a8[ b] c16[\( d\) c b] a8[\( a\)]
 		\cesure \espace
 		\times 2/3 { d8[ d d] } d8[ e] \times 2/3 { c8[ c a] }
 		\times 2/3 { b4\( b8\) }
@@ -1143,6 +1218,7 @@
 
 \label #'hd
 \score {
+  \transpose b a {
 	\relative c'' {
 		\times 2/3 { r8_\( b[ a]\) } g16[\( g\) b d]
 		\times 2/3 { a8[\( a\) g] }
@@ -1151,19 +1227,20 @@
 		
 		a16[ a g a]
 		\ifIndent
-		\times 2/3 { b8[ b a] } a8[  \cesure \espace c16 a]
-		\times 2/3 { d8[ c b] } \stemUp a4_\( b8\) r8		
+		\times 2/3 { b8[ b a] } a8[  \cesure \espace c!16 a]
+		\times 2/3 { d8[\( c! b\)] } \stemUp a4_\( b8\) r8		
 		\endBar \espace
-		\stemOff g,4 a c
+		\stemOff g,4 b d
 		\endBar
 	}
+  }
 	\addlyrics {
 		Les roy -- au -- mes de ce mon -- de
 		et tout leur pre -- sti -- ge,
 		je les ai mé -- pri -- sés pour l'a -- mour
 		de mon Sei -- gneur Jé -- sus Christ.
 		Al -- le -- lu - - ia- _!
-		\markup { \citation #"(...)" } "    [Ton 3]"
+		\markup { \citation #"(St Albert le Grand)" } "     [Ton 5]"
 	}
 	\header {
 		titres = \markup \ant #'hd "T 105" " " }
