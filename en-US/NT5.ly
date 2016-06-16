@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {NT 5  }
 
@@ -19,7 +19,8 @@
 	}
 	\addlyrics {
 		Nul n'a de plus grand am -- our que ce -- lui qui don -- ne "sa v" -- ie pour ses am -- is.
-		\markup { \citation #"Jn 15"}
+		%No one has great -- er love than this, to lay down one’s life for one’s friends.
+		\markup { \citation #"Jn 15:13"}
  }
 }
 
@@ -39,7 +40,8 @@
 	}
 	\addlyrics {
 		Je suis au mil -- ieu de vous com -- me cel -- ui qui sert. "(Al" -- le -- lu -- "ia !)" _ _
-		\markup { \citation #"Lc 22"}
+		%I am a -- mong you as the one who serves. "(Al" -- le -- lu -- "ia !)" _ _
+		\markup { \citation #"Lk 22:27"}
  }
 }
 
@@ -58,7 +60,8 @@
 	}
 	\addlyrics {
 		Je se -- rai pour lui un pè -- re, il se -- ra pour moi un fils.
-		\markup { \citation #"He 1"}
+		%I will be a fa -- ther to him, and he shall be a son to me.
+		\markup { \citation #"Heb 1:5"}
  }
 }
 
@@ -80,7 +83,8 @@
 	}
 	\addlyrics {
 		Ay -- ant ai -- mé les siens qui ét -- aient dans le mon -- de, Jés -- us les ai -- ma jus -- qu'à la fin.
-		\markup { \citation #"Jn 13"}
+		%He loved his own in the world and he loved them to the end.
+		\markup { \citation #"Jn 13:1"}
  }
 }
 
@@ -100,7 +104,8 @@
 	}
 	\addlyrics {
 		Dieu l'a fait Seig -- neur et Christ, ce Jé -- sus que vous av -- ez cru -- ci -- fié. Al -- - -- le -- - -- lu -- "ia !"
-		\markup { \citation #"Ac 2"}
+		%God has made him both Lord and Mes -- si -- ah, this Je -- sus whom you cru -- ci -- fied. Al -- - -- le -- - -- lu -- "ia !"
+		\markup { \citation #"Acts 2:36"}
  }
 }
 

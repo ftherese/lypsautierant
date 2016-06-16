@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 150" "Mode 7" \null \null } -7 }
 \noPageBreak
@@ -17,7 +17,8 @@
 		\endBar
 	}	\addlyrics {
 		La mul -- ti -- tu -- de des dis -- cip -- les se mit "à l" -- ou -- "er D" -- "ieu " d'u -- ne voix for -- te.
-		\markup { \citation #"Lc 19"}
+		%The whole mul -- ti -- tude of his dis -- ci -- ples be -- gan to praise God a -- loud with joy for all the mighty deeds they had seen.
+		\markup { \citation #"Lk 19:37"}
 	}
 }
 
@@ -75,7 +76,8 @@
 		\endBar
 	}	\addlyrics {
 		Il pria -- ient et chant -- aient les lou -- an -- ges de Dieu. Al -- le -- lu -- "ia !" _ _
-		\markup { \citation #"Ac 16"}
+		%About midnight, while Paul and Silas were pray -- ing and sing -- ing hymns to God as the prisoners listened, Al -- le -- lu -- "ia !" _ _
+		\markup { \citation #"Acts 16:25"}
 	}
 }
 

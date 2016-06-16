@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 \markup {NT 6 }
 
@@ -16,8 +16,9 @@
 	}
 	\addlyrics {
 		À Dieu la glo -- ire dans l'Égl -- ise et le Christ Jés -- us.
+		%To him be glo -- ry in the church and in Christ Je -- sus.
 		\markup { \citation #"(Rendons)"} 
-		\markup { \citation #"Ep 3"}
+		\markup { \citation #"Eph 3:21"}
  }
 }
 

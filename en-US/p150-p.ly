@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #10 \fill-line { "Psalm 150" "Mode Peregrinus" \null \null } -p }
 
@@ -18,8 +18,9 @@
 	}
 
 	\addlyrics {
-		Chan -- tez à  Dieu de tout vo -- tre "cœur !"
- 		\markup { \citation #"Col 3" } }
+		Chan -- tez à  Dieu de tout vo -- tre "cœur !"
+		%Let the word of Christ dwell in you richly, as in all wisdom you teach and admonish one another, sing -- ing psalms, hymns, and spir --it -- ual songs with gra -- ti -- tude in your hearts to God.
+ 		\markup { \citation #"Col 3:16" } }
 	
 	
 }
@@ -40,7 +41,8 @@
 
 	\addlyrics {
 		Au ciel, u -- ne foule im -- men -- se cla -- "mait :" Al -- le -- lu -- "ia !" _
- 		\markup { \citation #"Ap 19" } }
+		%After this I heard what sounded like the loud voice of a great mul -- ti -- tude in hea -- ven, say -- ing: " Al -- le -- lu -- "ia !" _
+ 		\markup { \citation #"Rv 19:1" } }
 	
 	
 }
@@ -61,7 +63,8 @@
 
 	\addlyrics {
 		La Sa -- gesse a é -- té jus -- ti -- fiée par ses œu -- - -- vres.
- 		\markup { \citation #" Mt 11 " } }
+		%Wis -- dom is vin -- di -- cat -- ed by her works.
+ 		\markup { \citation #" Mt 11:19 " } }
 	
 	
 }
@@ -79,10 +82,12 @@
 
 	\addlyrics {
 		Si mes dis -- cip -- les se tai -- sent, les pie -- rres crie -- ront.
- 		\markup { \citation #"Lc 19" } }
+		% He said in reply, “I tell you, if they keep si -- lent, the stones will cry out!”
+ 		\markup { \citation #"Lk 19:40" } }
 	
 	
 }
+
 
 
 
