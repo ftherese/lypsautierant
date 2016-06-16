@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT 39 }
 \relative c' { 
@@ -24,7 +24,8 @@
 	\addlyrics {
 		
 		Vous vous êtes ap -- pro -- chés de Jé -- sus, mé -- dia -- teur d'une al -- lian -- ce nou -- vel -- le.
-		\markup { \citation #"He 12" } }
+		%You have ap -- proached...Je -- sus, the me -- di -- a -- tor of a new co -- ve -- nant.
+		\markup { \citation #"Heb 12:22-23" } }
 	
 	
 }
@@ -45,7 +46,8 @@ c[\cesure \pespace a] a4
 	\addlyrics {
 		
 		Tu n'as vou -- lu ni sa -- cri -- fi -- ce, ni ob -- la -- tion, a -- lors j'ai "dit :" Voi -- ci, je viens.
-		\markup { \citation #"He 10" } }
+		%Ho -- lo -- causts and sin offe -- rings you took no de -- light in. Then I said, ‘As is written of me in the scroll, Be -- hold, I come to do your will, O God.’
+		\markup { \citation #"Heb 10:6-7" } }
 	
 	
 }
@@ -69,7 +71,8 @@ c[\cesure \pespace a] a4
 	\addlyrics {
 		
 		Off -- rez- -- vous en hos -- tie vi -- van -- te, sain -- te, ag -- ré -- able à Dieu.
-		\markup { \citation #"Rm 12" } }
+		%)f -- fer your bo -- dies as a li -- ving sac -- ri -- fice, ho -- ly and plea -- sing to God.
+		\markup { \citation #"Rom 12:1" } }
 	
 	
 }
@@ -96,7 +99,8 @@ c[\cesure \pespace a] a4
 	\addlyrics {
 		
 		Le Christ est de -- ve -- nu par le sang d'une al -- liance é -- ter -- nel -- le le grand pas -- teur des bre -- bis. Al -- le -- lu -- "ia !"
-		\markup { \citation #"He 13" } }
+		%May the God of peace, who brought up from the dead the great shep -- herd of the sheep by the blood of the e -- ter -- nal co -- ve -- nant, Je -- sus our Lord... Al -- le -- lu -- "ia !"
+		\markup { \citation #"Heb 13:20" } }
 	
 	
 }

@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT 41-7 }
 
@@ -16,7 +16,8 @@
 		\endBar
 	}	\addlyrics {
 		C'est toi, Sei -- gneur, qui cré -- a l'u -- niv -- ers.
-		\markup { \citation #"Ap 4"}
+		%Worthy are you, Lord our God, to receive glory and honor and power, for you created all things.
+		\markup { \citation #"Rev 4:11"}
 	}
 }
 
@@ -31,7 +32,8 @@
 		\endBar
 	}	\addlyrics {
 		Nous av -- ons con -- tem -- plé sa gloi -- re. Al -- le -- lu -- "ia !"
-		\markup { \citation #"Jn 1"}
+		%We saw his glo -- ry. Al -- le -- lu -- "ia !"
+		\markup { \citation #"Jn 1:14"}
 	}
 }
 
@@ -46,7 +48,8 @@
 		\endBar
 	}	\addlyrics {
 		Tou -- te cré -- a -- tu -- re de Dieu est bon -- ne.
-		\markup { \citation #"1 Tm 4"}
+		%Eve -- ry -- thing cre -- a -- ted by God is good.
+		\markup { \citation #"1 Tm 4:4"}
 	}
 }
 \relative c'' { 
@@ -65,6 +68,7 @@
 		\endBar
 	}	\addlyrics {
 		Proc -- la -- mez l'É -- van -- gile à tou -- te la cré -- a -- tion. Al -- le -- lui -- "a !" _
-		\markup { \citation #"Mc 16"}
+		%Pro -- claim the gos -- pel to eve -- ry crea -- ture.Al -- le -- lui -- "a !" _
+		\markup { \citation #"Mk 16:15"}
 	}
 }

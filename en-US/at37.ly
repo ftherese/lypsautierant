@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
 \markup {AT  37}
 
@@ -17,7 +17,8 @@
 
 	\addlyrics {
 Le Fils de l'homme est ve -- nu cher -- cher et sau -- ver ce qui ét -- ait per -- du.	
-		\markup { \citation #"Lc 19" } 
+		%The Son of Man has come to seek and to save what was lost.
+		\markup { \citation #"Lk 19:10" } 
 	}
 }
 
@@ -39,7 +40,8 @@ g4
 
 	\addlyrics {
 La mè -- re de Jé -- sus lui "dit :" Ils n'ont plus de vin.	
-		\markup { \citation #"Jn 2" } 
+		%The mo -- ther of Je -- sus said to him, “They have no wine.”
+		\markup { \citation #"Jn 2:3" } 
 	}
 }
 
