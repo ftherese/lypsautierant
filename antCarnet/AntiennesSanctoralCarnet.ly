@@ -323,6 +323,7 @@
     \espace
     \times 2/3 { r8\( c[ c]\) } \times 2/3 { a8[ c c] } \times 2/3 { c8[ c a] } b4
     \ifIndent
+    \pageBreak
     c16[\( d\) d d] \times 2/3 { d8[\( d\) d] } e8[ c] a4\( a8\) r8 s8
     \barre
     \break
@@ -584,6 +585,7 @@
 	  \times 2/3 { b8[ b c] } a8[ b] \times 2/3 { b4\( c8\) }
 	  \espace
 	  \ifIndent
+	  \pageBreak
 	  r16 c16[ d e] e4 \cesure \pespace
 	  g8[ f] \times 2/3 { d8[ e b] } c8[ d] e8[ d] d8[\( b\)] a4 s8
 	  \barre
@@ -699,7 +701,7 @@
 		titres = \markup \ant #'h "" "Antienne" }
 }
 
-
+\pageBreak
 
 \label #'hy
 \score {
@@ -1048,6 +1050,7 @@
 		d8[ c16 d] f16[ e d b]
 		\times 2/3 { d8[\( e d]\) } c4
 		\ifIndent
+		\pageBreak
 		r8 d c8[ c] c8[ b] a8[ b]
 		\times 2/3 { c4\( b8\) }
 		\times 2/3 { g8[\( g\) a] } g4		
@@ -1133,9 +1136,10 @@
 	a16[\( f\) g a] c4
 	\cesure
 	d8[ c]
-	\times 2/3 { a8[ c c] } b8[\( b\)] c8[ a] g4\ifIndent
+	\times 2/3 { a8[ c c] } b8[\( b\)] c8[ a] g4
+	\ifIndent
+	\pageBreak
 	r8. b16
-	
 	a16[\( g\) a b]
 	a8[\( a]\) 
 	\times 2/3 { b8[ c\( b]\) }
@@ -1374,7 +1378,7 @@
 		titres = \markup \ant #'t "" "Antienne" }
 }
 
-
+\pageBreak
 
 \score {
 	\relative c''  {
@@ -1605,6 +1609,7 @@
     \cesure \pespace
     \times 2/3 { a8[ a a] } a8[ a]
     \ifIndent
+    \pageBreak
     a16[ a a\( c\)] \times 2/3 { b4\( b8\) } s4
     \times 2/3 { r8_\( g[ a]\) } g16[ f g a] \times 2/3 { c8[ c c] } \times 2/3 { c8[ c c] } \times 2/3 { c8[ c c] } b8[\( b\)]
     \ifIndent
@@ -1770,6 +1775,7 @@
 	}
 }
 
+\pageBreak
 
 \markup { \raise #0 \column {
 	\line { " " " " " " \fontsize #-1 "       Autre Antienne :" \fontsize #0 "K 140" \fontsize #-1 "(Je te rends grâce, Père)" }
@@ -1884,6 +1890,7 @@
 		\cesure \espace a8[\( a\)]
 		\cesure
 		\ifIndent
+		\pageBreak
 		\times 2/3 { f8[\( g\) g] }		
 		g8[\( f]\) f4
 		\cesure \espace
@@ -2021,6 +2028,7 @@
 		d16[ d d d] e8[ f] e4
 		\cesure
 		\ifIndent
+		\pageBreak
 		d16[ d f g]
 		\times 2/3 { a8[ a\( a]\) }
 		\times 2/3 { g8[\( f\) g] } e4
