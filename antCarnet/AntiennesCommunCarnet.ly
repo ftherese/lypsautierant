@@ -221,7 +221,7 @@
 	\addlyrics {
 		Dans la mai -- son de Dieu, a -- do -- rons le Christ,
 		E -- poux de l'E -- gli -- se.
-		"(Al" -- le -- lu- "" "ia !)"
+		"(Al" -- le -- lu- _ --  ia_!)
 	}
 	\header {
 		titre =  " "
@@ -232,7 +232,7 @@
 \label #'aab
 \score {
 	\relative c'' {
-		g8 a4 \cesure \times 2/3 { c8[ b c] }
+		r 8g8 a4 \cesure \times 2/3 { c8[ b c] }
 		\times 2/3 { d4\( c8\) }
 		\pespace r8
 		e d8[ \cesure c] b8[ g] a4
@@ -258,7 +258,7 @@
 		\endBar
 	}
 	\addlyrics {
-	\set stanza = #" 2."
+	\set stanza = #"        2."
 		Nous te lou -- ons, Sei -- gneur Jé -- sus,
 		toi qui as fon -- dé ton E -- gli -- se sur les a -- pô -- tres.
 		"(Al" - le -- lu -- ia -- "- !)"
@@ -273,7 +273,7 @@
 		f8[ g] \times 2/3 { a4\(\cesure \espace a8\) }
 		\times 2/3 { a8[ a bes] } \times 2/3 { g8[\( g\) f] }
 		\times 2/3 { a4\( a8\) }
-		\espace r8 a c8[ d] a
+		\espace r8 a c8[ d] a4 s8
 		\barre \espace
 		f16[\( g\) a g] \times 2/3 { g4\( f8\) }
 		\endBar
@@ -294,7 +294,7 @@
 \label #'aad
 \score {
 	\relative c'' {
-		e8 d8[ e] a,4 \cesure \espace
+		r8 e8 d8[ e] a,4 \cesure \espace
 		\times 2/3 { g8[ a c] } d4 \cesure \espace
 		\times 2/3 { c8[ e d] } d4
 		\barre \espace
@@ -303,9 +303,9 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"    1."
+		\set stanza = #"       1."
 		Sei -- gneur Jé -- sus, Roi des mar -- tyrs, nous t'a -- do -- rons.
-		"(Al" -- le -- lu- "" "ia !)"
+		"(Al" -- le -- lu- _ -- ia_!)
 	}
 	\header {
 		%titre =  " "
@@ -325,7 +325,7 @@
 	\addlyrics {
 		\set stanza = #"     2."
 		Le Sei -- gneur, le Roi des mar -- tyrs, ve -- nez, a -- do -- rons -- -le.
-		"(Al" -- le -- lu- "" "ia !)"
+		"(Al" -- le -- lu- _ -- ia_!)
 	}
 }
 
@@ -340,10 +340,10 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"    1."
+		\set stanza = #"        1."
 		Le Sei -- gneur Jé -- sus, le té -- moin fi -- dè -- le, ve -- nez,
 		a -- do -- rons -- -le.
-		"(Al" -- le -- lu- "" "ia !)"
+		"(Al" -- le -- lu- _ -- ia_!)
 	}
 	\header {
 		%titre =  " "
@@ -353,7 +353,7 @@
 
 \score {
 	\relative c'' {
-		g8 c8[ b] c8[ \cesure \espace a] g8[ f] g4 \cesure \espace
+		r8 g8 c8[ b] c8[ \cesure \espace a] g8[ f] g4 \cesure \espace
 		\times 2/3 { a8[\( a\) c] } \slurDashed d4(
 		\times 2/3 { e8[) d c] } \times 2/3 { a4\( a8\) }
 		\barre \espace
@@ -361,10 +361,10 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"    2."
+		\set stanza = #"        2."
 		Lou -- ange à toi, Sei -- gneur Jé -- sus,
 		no -- tre pas -- teur et no -- tre gui -- de.
-		"(Al" -- le -- lu- "" "ia !)"
+		"(Al" -- le -- lu- _ --  ia_!)
 	}
 }
 
@@ -380,10 +380,10 @@
 		\endBar
 	}	
 	\addlyrics {
-		\set stanza = #"          1."
+		\set stanza = #"         1."
 		Ve -- nez à la sour -- ce de la sa -- ges -- se,
 		ve -- nez, ad -- or -- ons le Sei -- gneur.
-		"(Al" -- le -- lu- "" "ia !)"
+		"(Al" -- le -- lu- _ -- ia_!)
 	}
 	\header {
 		%titre =  " "
@@ -402,7 +402,7 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #"2."
+		\set stanza = #"  2."
 		Jé -- sus- -- Christ, Sa -- gess -- e_é -- ter -- nel -- le du Pè -- re,
 		gloire et lou -- ange à toi_!
 	}
@@ -422,7 +422,7 @@
 	}
 	\addlyrics {
 		Ve -- nez, a -- do -- rons le Christ, o -- bé -- is -- sant jus -- qu'à la mort_!
-	        "(Al" -- le -- lu- "" "ia !)"
+	        "(Al" -- le -- lu- _ -- ia_!)
 	}
 	
 	\header {	
@@ -445,7 +445,7 @@
 	\addlyrics {
 		Voi -- ci l'E -- poux qui vient_!
 		Ve -- nez, a -- dor -- ons- -- le_!
-		"(Al" -- le -- lu- "" "ia !)"
+		"(Al" -- le -- lu- _ -- ia_!)
 	}
 	\header {
 		%titre =  " "
@@ -466,10 +466,10 @@
 		\endBar
 	}	
 	\addlyrics {
-		\set stanza = #"        1."
+		\set stanza = #"       1."
 		Ta gloire é -- cla -- te dans les saints,
 		Sei -- gneur Dieu, nous t'a -- do -- rons.
-		"(Al" -- le -- lu- "" "ia !)"
+		"(Al" -- le -- lu- _ -- ia_!)
 	}
 	\header {
 		%titre =  " "
@@ -487,10 +487,10 @@
 		\endBar
 	}
 	\addlyrics {
-		\set stanza = #" 2."
+		\set stanza = #"       2."
 		C'est toi que nous chan -- tons, Sei -- gneur,
 		en cé -- lé -- brant ton ser -- vi -- teur.
-		"(Al" -- le -- lu- "" "ia !)"
+		"(Al" -- le -- lu- _ -- ia_!)
 	}
 }
 
@@ -662,7 +662,7 @@
 		et vous ai é -- ta -- blis
 		pour que vous al -- liez et por -- tiez du fruit
 		et que vo -- tre fruit de -- meu -- re.
-		"(Al" -- le -- lu- "" "ia !)"
+		"(Al" -- le -- lu- _ -- ia_!
 		\markup { \citation #"(Jn 15)" } "    [Ton 4]"
 	}
 	\header {
@@ -699,7 +699,7 @@
 		les ba -- pti -- sant au nom du Pè -- re et du Fils et du Saint- -- Es -- prit,
 		leur en -- sei -- gnant à gar -- der
 		tout ce que je vous ai com -- man -- dé.
-		"(Al" -- le -- lu- "" "ia !)"
+		"(Al" -- le -- lu- _ -- ia_!)
 		\markup { \citation #"(Mt 28)" } "   [Ton 5]"
 	}
 	\header {
@@ -734,7 +734,7 @@
 		nous vous an -- non -- çons cet -- te Vie é -- ter -- nel -- le
 		qui é -- tait au -- près du Pè -- re
 		et qui nous est ap -- pa -- rue.
-		"(Al" -- le -- lu- "" "ia !)"
+		"(Al" -- le -- lu- _ -- ia_!)
 		\markup { \citation #"(1 Jn 1)" } "   [Ton 8]"
 	}
 	\header {
@@ -765,6 +765,11 @@
       f8[ g] a8[ a] a16[\( a\) a g] f16[\( f\) f g]
       \ifIndent
       bes8[ bes] bes8[ g] f4\( f8\) r8
+      \barre %\break
+      \espace s4
+      \times 2/3 { f8[ g a] }
+      \times 2/3 { f8[ e d] }
+      \times 2/3 { f8[ g a] } g4\( f8\) r8
       \endBar
       \stemOff f4 g a
       \endBar
@@ -774,6 +779,7 @@
 		Ceux qui vien -- nent de la grande é -- preuve ont la -- vé leurs ro -- bes dans le sang de l'Ag -- neau_;
 		jour et nuit ils ser -- vent dans le Tem -- ple de Dieu,
 		et Ce -- lui qui siè -- ge sur le Trô -- ne ét -- en -- dra sur eux sa ten -- te.
+		(Al - - le - - lu - - ia -- -_!)
 		\markup { \citation #"(Ap 7)" } "     [Ton 6]"
 	  }
 	  \header {
@@ -802,10 +808,11 @@
 		\times 2/3 { g8[) g a] } c4 \cesure \espace
 		\times 2/3 { a8[ a a] } f8[ g] a16[\( g\) a bes!]
 		\ifIndent
+		\pageBreak
 		\times 2/3 { a8[ g a] } f8[ f] e4
-		\barre %\break
-		\espace s1
-		\times 2/3 { a8[ f d] } e4
+		%\barre %\break
+		%\espace s1
+		%\times 2/3 { a8[ f d] } e4
 		\endBar %\noBreak
 		\stemOff a4 g a
 		\endBar
@@ -815,9 +822,9 @@
 		Ils se ré -- jou -- is -- sent dans les cieux,
 		les saints qui ont sui -- vi les tra -- ces du Christ_;
 		et par -- ce qu'ils ont ré -- pan -- du leur sang pour son a -- mour,
-		ils sont dans l'al -- lé -- gres -- se a -- vec_ Lui pour l'é -- ter -- ni -- té.
-		"(Al" -- le -- lu "ia !)"
-		\markup { \citation #"(MR)" } """ [Ton 4]"
+		ils sont dans l'al -- lé -- gres -- se a -- vec__ Lui pour l'é -- ter -- ni -- té.
+		%"(Al" -- le -- lu "ia !)"
+		\markup { \citation #"(MR)" } "     [Ton 4]"
 	}
 	\header {
 		%titre =  " "
@@ -848,7 +855,7 @@
 		Au vain -- queur, je don -- ne -- rai de la man -- ne cac -- hée,
 		je lui don -- ne -- rai aus -- si un cail -- lou blanc por -- tant gra -- vé un
 		nom nou -- veau que nul ne con -- naît, hor -- mis ce -- lui qui le re -- çoit.
-		\markup { \citation #"(Ap 2)" } """ [Ton 1]"
+		\markup { \citation #"(Ap 2)" } "    [Ton 1]"
 	  }
 	  \header {
 		titres = \markup \ant #'df "O 105" " " }
@@ -898,7 +905,7 @@
 		Pri -- ez donc le maî -- tre de la mois -- son
 		d'en -- voy -- er des ou -- vri -- ers pour sa mois -- son.
 		"(Al" -- le -- lu- " " "ia !)"
-		\markup { \citation #"(Mt 9)" } "   [Ton 3]"
+		\markup { \citation #"(Mt 9)" } "     [Ton 3]"
 	  }
 	\header {
 		titre =  "COMMUN DES PASTEURS"
@@ -932,7 +939,7 @@
 		«_Av -- ance au lar -- ge, et je -- tez vos fil -- ets pour la pê -- che._»
 		«_Maî -- tre, nous av -- ons pei -- né tou -- te la nuit sans rien pren -- dre_;
 		mais, sur ta pa -- ro -- le, je vais je -- ter les fi -- lets._»
-		\markup { \citation #"(Mt 9)" } "   [Ton 1]"		
+		\markup { \citation #"(Lc 5)" } "     [Ton 1]"		
 	  }
 	\header {
 		%titre =  "COMMUN DES PASTEURS"
@@ -997,7 +1004,7 @@
 		et la trans -- met -- trai aux gé -- né -- ra -- tions fu -- tu -- res.
 		Voy -- ez_: ce n'est pas pour moi seul que j'ai pei -- né,
 		mais pour tous ceux qui cher -- chent la vé -- ri -- té.
-		"(Al" -- le -- lu - - "ia !)"
+		"(Al" -- le -- lu - - ia_!)
 		\markup { \citation #"(Si 24)" } "   [Ton 8]"
 	}
 	\header {
@@ -1045,7 +1052,7 @@
 		\times 2/3 { f8[ d c] } d4\( d8\) r8
 		\barre %s1
 		\break
-		\times 2/3 { c8[ c d] } d4
+		\times 2/3 { r8\( c[ d]\) } e8[\( d\)] d4
 		\endBar
 		\noBreak
 		\stemOff c4 d f
@@ -1058,7 +1065,7 @@
 		et pour l'E -- van -- gi -- le,
 		qu'il ne re -- çoi -- ve le cen -- tu -- ple dès main -- te -- nant
 		et, dans le monde à ve -- nir, la vie é -- ter -- nel -- le.
-		"(Al" -- le -- lu -- "ia !)"
+		(Al -- le -- lu- _ -- ia_!)
 		\markup { \citation #"(Mc 10)" } "    [Ton 2]"
 	}
 	\header {
@@ -1171,6 +1178,8 @@
 		\times 2/3 { c8[ a g] } a4
 		\cesure \espace
 		\times 2/3 { a8[ c a] } g4
+		\barre s2
+		\times 2/3 { r8\( c[ b]\) } c8[\( a\)] g4
 		\endBar
 		\stemOff g4 a c
 		\endBar
@@ -1179,6 +1188,7 @@
 		Bien -- heu -- reux les pau -- vres, bien -- heu -- reux les doux_:
 		ils ob -- tien -- dront la ter -- re pro -- mi -- se.
 		Bien -- heu -- reux les coeurs purs_: ils ver -- ront Dieu.
+		(Al -- le -- lu- _ -- ia_!)
 		\markup { \citation #"(Mt 5)" } "    [Ton 8]"
 	}
 	\header {
@@ -1191,6 +1201,7 @@
 
 \label #'hc
 \score {
+        \transpose a d
 	\relative c'' {
 		r8 a8 a16[\( a\) a g] a8[ b] c16[\( d\) c b] a8[\( a\)]
 		\cesure \espace
@@ -1208,7 +1219,7 @@
 		La crai -- nte du Sei -- gneur est sour -- ce de sa -- ges -- se,
 		bie -- "n a" -- vi -- sés tous ceux qui s'y tien -- nent.
 		Sa lou -- an -- ge de -- meure à ja -- mais.
-		\markup { \citation #"(Ps 110)" } "    [Ton 3]"
+		\markup { \citation #"(Ps 110)" } "    [Ton 2]"
 	}
 	\header {
 		titres = \markup \ant #'hc "T 104" " " }

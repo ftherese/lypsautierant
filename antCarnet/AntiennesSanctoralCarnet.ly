@@ -531,7 +531,7 @@
 		\stemOff f4 g a
 		\endBar
 	}
-	\addlyrics { \set stanza = #"   2. "
+	\addlyrics { \set stanza = #"         2. "
 		Tu es Pier -- re, et sur ce roc je bâ -- ti -- rai mon E -- gli -- se
 		et les por -- tes de l'en -- fer ne tien -- dront pas contre el -- le.
 		\markup { \citation #"(Mt 16)" } "   [Ton 6]"
@@ -611,15 +611,15 @@
 	  \set stanza = #"        1. "
 	  _B -- éni soit Jo -- seph, des -- cen -- dant de Da -- vid, fi -- an -- cé à u -- ne vie -- rge de Na -- zar -- eth_;
 	  _b -- éni soit Jo -- seph, qui ap -- prit de l'An -- ge le Nom de Jé -- sus.
-	  Bé -- ni sois -- -tu, hom -- me juste et droit, qui prit chez toi Ma -- rie, ton ép -- ou -- se.
+	  Bé -- ni sois -- -tu, hom -- me juste et droit, qui pris chez toi Ma -- rie, ton ép -- ou -- se.
 	  \set stanza = #"        2. "
 	  _B -- éni soit Jo -- seph qui vint à Bet -- hlé -- em pour le re -- cen -- sem -- ent_;
 	  _b -- éni soit Jo -- seph, qui sau -- va Jé -- sus de la main d'Hé -- ro -- de_;
-	  bé -- ni sois -- -tu, toi qui vint pré -- sen -- ter Jé -- sus au tem- _ -- ple.
+	  bé -- ni sois -- -tu, toi qui vins pré -- sen -- ter Jé -- sus au tem- _ -- ple.
 	  \set stanza = #"        3. "
 	  _B -- éni soit Jo -- seph, qui s'é -- tab -- lit à Na -- za -- reth, av -- ec l'En -- fant Jé -- sus et sa Mè -- re_!
 	  _b -- éni soit Jo -- seph, mo -- dè -- le des tra -- vail -- leurs, qui en -- sei -- gna son mé -- tier à Jé -- sus.
-	  Bé -- ni sois -- -tu, toi qui mé -- ri -- ta d'être ap -- pe -- lé le pè -- re de Jé -- sus. A- _ -- men.
+	  Bé -- ni sois -- -tu, toi qui mé -- rit -- as d'être ap -- pe -- lé le pè -- re de Jé -- sus. A- _ -- men.
 	  
 	}
 	\header {
@@ -673,8 +673,8 @@
 		r8 c a8[ c]
 		\ifIndent
 		\times 2/3 { d8[ b b] } b8[ b] b8[\( b\)] g16[ b c a] g4
-		\cesure
-		\espace
+		%\cesure
+		\espace \pespace
 		\times 2/3 { r8_\( g[ g]\) }
 		g8[ d'] d8[ e]
 		d8.[\cesure \espace a16] c16[ c b c]
@@ -710,12 +710,16 @@
 		  \times 2/3 { g8[\( f\) e] } f4
 		  \times 2/3 { f8[ f g] } \times 2/3 { a8[ a a] }
 		  \times 2/3 { c8[ a g] } a4
+		  \barre s4
+		  \times 2/3 { r8_\( a[ g]\) }
+		  \times 2/3 { c8[ b a] } g4\( a8\) r8		  
 		  \endBar
 		}}
 		
 	\addlyrics {
 	  Ad -- or -- ons le Ver -- be de Dieu
 	  qui s'est fait chair dans le sein de Ma -- rie.
+	  (Al -- le -- lu - - ia- _!)
 	  }
 	  \header {
 	  	titre =  "ANNONCIATION DU SEIGNEUR (25 mars)"  
@@ -893,7 +897,8 @@
 	}
 }
 
-\markup { \column { " " " " }}
+\markup { \column { " " " " }
+          }
 
 
 \label #'h
@@ -915,6 +920,8 @@
 		titre =  "SAINT JEAN, LE THÉOLOGIEN (8 mai)"
 		titres = \markup \ant #'h "" "Invitatoire" }
 }
+
+%}
 
 
 \label #'ha
@@ -944,12 +951,22 @@
 		Dieu, per -- son -- ne ne l'a ja -- mais vu, mais le Fils- _ -- _qui est dans le sein du Pè -- re, 
 		lui, nous "l'a" ré -- vé -- "lé ;" et nous a -- vons vu la gloi- _ _ -- re qu'il tient de son Pè -- re, 
 		com -- me Fils u -- ni -- que, plein de grâ -- ce et de vé -- ri -- té. Al - le - lu -- ia_!
-		\markup { \citation #"(Jn 1)" } """""[Ton 1   " "ou   Per.]"
+		\markup { \citation #"(Jn 1)" } _ _ "[Ton 1   " "ou   Per.]"
 	}
 	\header {
 		%titre = "SAINT JEAN, LE THÉOLOGIEN"
 		titres = \markup \ant #'ha "" "Antienne" }
 } 
+
+
+\markup { \column {
+	\line { " " " " " " \fontsize #-1 "       Autre Antienne :" \fontsize #0 "N 104" \fontsize #-1 "(La Vie s'est manifestée)" }
+	}
+}
+
+\markup { " " } \markup { " " }
+
+
 
 \pageBreak
 
@@ -1117,7 +1134,7 @@
 	}
 	\addlyrics {
 		Vous qui m'a -- vez sui -- vi, vous siè -- ge -- rez sur dou -- ze trô- _ -- nes,
-		pour- _ -- _ju -- ger les dou -- ze tri -- bus d'Is -- ra -- ël -.
+		pour- _ -- _ju -- ger les dou -- ze tri -- bus d'Is -- ra -- ël- _.
 		\markup { \citation #"(Mt 19)" } "   [Ton 2]"
 	}
 	\header {
@@ -1512,7 +1529,7 @@
 		Quand vou -- "s au" -- re -- "z é" -- le -- vé le Fils de l'hom -- me, 
 		_a -- lors vous sau -- rez que je suis_: 
 		j'at -- ti -- re -- rai à moi tous les hom -- mes. 
-		\markup { \citation #"(Jn 8 ;12)" } "   [Ton 8]"
+		\markup { \citation #"(Jn 8 ; 12)" } "   [Ton 8]"
 	}}
 	\header {
 		titres = \markup \ant #'v "" "Antienne" }
@@ -1538,7 +1555,7 @@
 		a -- do -- rons le Sau -- veur du mon -- de_!
 	}
 	\header {
-		titre =  "NOTRE DAME DES DOULEURS (15 septembre)"
+		titre =  "NOTRE-DAME DES DOULEURS (15 septembre)"
 		titres = \markup \ant #'w "" "Invitatoire"
 		opus = " "	
 	}
@@ -1660,7 +1677,7 @@
     
   }
   \header {
-		titre =  "HYMNE POUR LES ANGES (29 septembre et 1er octobre)"
+		titre =  "HYMNE POUR LES ANGES (29 septembre et 2 octobre)"
 		titres = \markup \ant #'yaa " " " "
 	}
 }
@@ -1742,7 +1759,7 @@
 
 
 
-%\label #'aaa
+\label #'aaa
 \score {
 	\relative c''  {
 		g8[\cesureBasse \espace g16 a] g8[ f] g16[\( g\) a b] a8[\( a\)]
@@ -1752,6 +1769,7 @@
 		
 		d16[ d d d]
 		\ifIndent
+		\pageBreak
 		f8[ e] d4
 		\cesure \espace
 		g8[ g]
@@ -1771,11 +1789,11 @@
 	}
 	\header {
 		titre = "SAINTE THÉRÈSE DE L'ENFANT JÉSUS (1er octobre)"
-		%titres = \markup \ant #'aaa "" "Antienne"
+		titres = \markup \ant #'aaa " " " "
 	}
 }
 
-\pageBreak
+%\pageBreak
 
 \markup { \raise #0 \column {
 	\line { " " " " " " \fontsize #-1 "       Autre Antienne :" \fontsize #0 "K 140" \fontsize #-1 "(Je te rends grâce, Père)" }
@@ -1890,7 +1908,7 @@
 		\cesure \espace a8[\( a\)]
 		\cesure
 		\ifIndent
-		\pageBreak
+		%\pageBreak
 		\times 2/3 { f8[\( g\) g] }		
 		g8[\( f]\) f4
 		\cesure \espace
@@ -1960,6 +1978,7 @@
 		titres = \markup \ant #'af "" "Magnificat" }
 }
 
+\pageBreak
 
 
 \label #'ag
@@ -1991,7 +2010,7 @@
 		\cesure \espace
 		\times 2/3 { f8[ d e] } f4
 		\times 2/3 { g8[\(  a\) bes] } a4
-		\cesure
+		%\cesure
 		\ifIndent
 		\times 2/3 { d,8[ a' a] }
 		\times 2/3 { g4\( f8\) } \times 2/3 { g8[\( a\) g] } e8[\( e\)]
@@ -2089,7 +2108,7 @@
 		plus que tou -- tes les fem -- mes de la ter -- re_;
 		et bé -- ni le Sei -- gneur Dieu, Cré -- a -- teur du ciel et de la ter -- re,
 		qui t'a con -- dui -- te pour frap -- per à la tê -- te le chef de nos en -- ne -- mis.
-		\markup { \citation #"(Jdt 13)" } "   [Ton 3]"
+		\markup { \citation #"(Cf. Jdt 13)" } "   [Ton 3]"
 	}
 	\header {
 		titre =  "L'IMMACULÉE CONCEPTION DE LA VIERGE MARIE (8 décembre)"
