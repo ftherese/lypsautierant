@@ -47,7 +47,7 @@
 
 
 \header {
-      tagline = "Communauté Saint Jean 2016"
+      tagline = "Communauté Saint Jean 2017"
 }
 
 
