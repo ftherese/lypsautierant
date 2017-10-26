@@ -59,8 +59,8 @@
 	}
 
 	\addlyrics {
-		Crai -- gnez Dieu et glo -- ri -- fiez- -- "le :" voi -- ci l'heu -- re de son ju -- ge -- ment.
-		% He said in a loud voice, “Fear God and give him glor -- y, for his time has come to sit in judg -- ment. Wor  -- ship him who made heav -- en and earth and sea and springs of wat -- er.”
+		%Crai -- gnez Dieu et glo -- ri -- fiez- -- "le :" voi -- ci l'heu -- re de son ju -- ge -- ment.
+		 He said in a loud voice, “Fear God and give him glor -- y, for his time has come to sit in judg -- ment. Wor  -- ship him who made heav -- en and earth and sea and springs of wat -- er.”
 		\markup { \citation #"Rv 14:7" } }
 	
 }
