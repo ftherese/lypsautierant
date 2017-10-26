@@ -21,8 +21,8 @@
 	}
 
 	\addlyrics {
-		Tel se -- ra l'hé -- ri -- ta -- ge du vain -- queur, je lui don -- ne -- rai de la sour -- ce d'eau vi -- ve.
-		%To the thirs -- ty I will give a gift from the spring of life-giv -- ing wa -- ter. The vic -- tor will in -- her -- it these gifts, and I shall be his God, and he will be my son. 
+		%Tel se -- ra l'hé -- ri -- ta -- ge du vain -- queur, je lui don -- ne -- rai de la sour -- ce d'eau vi -- ve.
+		To the thirs -- ty I will give a gift from the spring of life-giv -- ing wa -- ter. The vic -- tor will in -- her -- it these gifts, and I shall be his God, and he will be my son. 
 		\markup { \citation #"Rv 21:6-7????" } 
 	}
 }
@@ -51,14 +51,14 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
-		\times 2/3 { r8_\( e[ g]\) } \times 2/3 { a[ a a] } \times 2/3 { g[ a b] } a4 
+		r8 e8 g[ a]  a[ g b] g4  a8 b g 
 \times 2/3 { r8_\( a[ a]\) } \times 2/3 { b[ g e] } e4 		
 \endBar
 	}
 
 	\addlyrics {
-		Pré -- pa -- rez le che -- min du Sei -- gneur, ren -- dez droits ses sen -- tiers.
-		%Prepare the way of the Lord, make straight his paths.
+		%Pré -- pa -- rez le che -- min du Sei -- gneur, ren -- dez droits ses sen -- tiers.
+		Pre -- pare the way of the Lord, make straight his paths.
 		\markup { \citation #"Lk 3:4" } 
 	}
 }
