@@ -51,8 +51,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
-		r8 e8 g[ a]  a[ g b] g4  a8 b g 
-\times 2/3 { r8_\( a[ a]\) } \times 2/3 { b[ g e] } e4 		
+		r8 \espace e8 g[ a]  a[ g b] a4 \pespace \cesure \pespace a8 [ b g] e4  		
 \endBar
 	}
 
