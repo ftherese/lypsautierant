@@ -7,16 +7,14 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		f8 \times 2/3 { a[ c c] } c[ d] c4 \cesure  \pespace
-		\times 2/3 { c8[ d b] } 
-		\times 2/3 { b[ c a] } a4
+		f8[ a] c4( d8) b[ b c] a4( a8)
 		\endBar
 		
 	}
 
 	\addlyrics {
-		Le Christ s'est sou -- mis en tout, il a é -- té e -- xau -- cé.
-		%In the days when he was in the flesh, he offered prayers and supplications with loud cries and tears to the one who was able to save him from death,[e] and he was heard because of his reverence.
+		%Le Christ s'est sou -- mis en tout, il a é -- té e -- xau -- cé.
+		He was heard bec -- ause of his reve -- rence.
 		\markup { \citation #"Heb 5:7" } 
 	}
 	
@@ -27,15 +25,12 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
 		
-		f16[ a c c] 
-		\times 2/3 { c8[\( c\) c] } 
-		d[ d] 
-		c4 
-		\cesure \pespace
-		c8[ \cesure \pespace c16 c] 
-		c[ c d b] 
-		\times 2/3 { b8[ c a] }
-		a4
+		r8 f8[ a] c[ c c] 
+		c8[ c] c4  
+		c8[ c d] c4 
+		\cesure \espace \espace
+		c8[ c] \cesure c[ c d]  \cesure
+		b8[ c] a4
 
 		
 		
@@ -43,8 +38,8 @@
 	}
 
 	\addlyrics {
-		Tel est le grand prê -- tre qu'il nous fal -- lait, saint, in -- no -- cent et sé -- pa -- ré des pé -- cheurs.
-		%It was fit -- ting that we should have such a high priest: ho -- ly, in -- no -- cent, un -- de -- filed, sep - ar -- ated from sin -- ners, high -- er than the hea --vens.
+		%Tel est le grand prê -- tre qu'il nous fal -- lait, saint, in -- no -- cent et sé -- pa -- ré des pé -- cheurs.
+		It was fit -- ting that we should have such a high priest: ho -- ly, in -- no -- cent, un -- de -- filed.
 		\markup { \citation #"Heb 7:26" }
 	}
 	
@@ -76,7 +71,7 @@
 
 	\addlyrics {
 		Les ser -- vi -- teurs de Dieu l'a -- do -- re -- ront, ils ver -- ront sa fa -- ce. "(Al" -- le -- lu -- _ "ia !)" _ 
-		% The throne of God and of the Lamb will be in it, and his ser -- vants will wor -- ship him. They will look up -- on his face,and his name will be on their fore -- heads.
+		% His ser -- vants will wor -- ship him. They will look up -- on his face.
 		\markup { \citation #"Rv 22:3-4" } 
 	}
 	
