@@ -9,8 +9,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		 a8[ g] a16[ a a a] 
-		 a8[ a] a4 
-		 a8[ a ] a[ a]  
+		 a8[ a]  
+		 a8[ a16 a ] a8[ a]  
 		g8[ \espace a b]
 		a4( a8)
 		\espace \espace		

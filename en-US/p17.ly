@@ -9,8 +9,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		
-\times 2/3 { r8_\( c[ d]\) } f[\( f\)] \times 2/3 { f[ f f] } \times 2/3 { e[ c d] } d4
+		r8 c d[( f]) g[ f] f4
 
 		
 		
@@ -18,8 +17,8 @@
 	}
 
 	\addlyrics {
-		Te -- nez fer -- me le bou -- cli -- er de la foi.
-		%In all circumstances, hold faith as a shield, to quench all [the] flaming arrows of the evil one.
+		%Te -- nez fer -- me le bou -- cli -- er de la foi.
+		Hold fa -- ith as a shield.
 		\markup { \citation #"Eph 6:16" } }
 	
 	
@@ -30,18 +29,17 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		c8 
-		\times 2/3 { d[ c f] }
-		\times 2/3 { e[ f g] }
+		c8 d[ f] \espace
+		e[ f] g[ f] 
 		f4 
-		\pespace
+		\cesure
 		r8 f e[ c] d4	
 		\endBar
 	}
 
 	\addlyrics {
-		Ton Dieu est un feu dé -- vo -- rant, un Dieu ja -- loux.
-		%Your God is a consuming fire, a jealous God.
+		%Ton Dieu est un feu dé -- vo -- rant, un Dieu ja -- loux.
+		Your God is a con -- su -- ming fire, a jeal -- ous God.
 		\markup { \citation #"Dt 4:24" } }
 	
 	
@@ -53,13 +51,13 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. Chr. } }
 		
-		c8[ d]  c16[ f e f] \times 2/3 { g4\( f8\) }  \times 2/3 { f8[ f f] } f16[ f e c] d4\( d8\) r8
+		c8[ d]  c[ f] f4(\slurDashed f8)[ f] f[ e] c[ d] d8 r8
 		\endBar
 	}
 
 	\addlyrics {
-		Dieu a tant ai -- mé le mon -- de qu'il a don -- né son Fils u -- ni -- que.
-		%God so loved the world that he gave his on -- ly Son.
+		%Dieu a tant ai -- mé le mon -- de qu'il a don -- né son Fils u -- ni -- que.
+		God so loved the world that he gave his on -- ly Son.
 		\markup { \citation #"Jn 3:16" } }
 	
 	

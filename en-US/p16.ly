@@ -51,11 +51,11 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. Easter } }
 		
-		f8 a[ c] c[ c]  c4 
-		\times 2/3 { c8[ d d] }
+		f8 a[ c c] 
+		 c8[ d] 
 		c4 
-		\times 2/3 { r8\( d[ b\)] }
-		b[ c] a[\( a\)] 
+		 r8 c[ c] d[ b] 
+		b[ c] a4 
 		\pespace
 		\barre
 		\times 2/3 { r8_\( a[ g\)] }
@@ -70,8 +70,8 @@
 	}
 
 	\addlyrics {
-		Les ser -- vi -- teurs de Dieu l'a -- do -- re -- ront, ils ver -- ront sa fa -- ce. "(Al" -- le -- lu -- _ "ia !)" _ 
-		% His ser -- vants will wor -- ship him. They will look up -- on his face.
+		% Les ser -- vi -- teurs de Dieu l'a -- do -- re -- ront, ils ver -- ront sa fa -- ce. "(Al" -- le -- lu -- _ "ia !)" _ 
+		His ser -- vants will wor -- ship him. They will look up -- on his face.
 		\markup { \citation #"Rv 22:3-4" } 
 	}
 	
@@ -82,20 +82,16 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
-		\times 2/3 { r8_\( f[ a\)] }
-		\slurDashed
-		c4( c16)[\( c\) d d] c8[\( c\)]
-		\cesure \pespace
-		\times 2/3 { c[ c d] }
-		b[ b] c[ a] a4
+		 r8 f a[ c] d[ d] 
+		 c4( \cesurebasse d8) b[ b c] a4
 		
 		
 		\endBar
 	}
 
 	\addlyrics {
-		Si "quelqu'" -- un gar -- de ma pa -- ro -- le, il ne ve -- rra ja -- mais la mort.
-		%Who -- ev -- er keeps my word will ne -- ver see death.
+		%Si "quelqu'" -- un gar -- de ma pa -- ro -- le, il ne ve -- rra ja -- mais la mort.
+		Who -- ev -- er keeps my word will ne -- ver see death.
 		\markup { \citation #"Jn 8:51" } 
 	}
 	
