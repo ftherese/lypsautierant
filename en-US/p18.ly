@@ -7,14 +7,14 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		\times 2/3 { r8 g[ a] }  \times 2/3 { g[ c c] } c[ b] c[ d] c8[\cesure\pespace c16 c] c8[ b] c[ a] g4\( g8\) r8
+		 r8 g a[ c c]  b[ c] d[ c] \cesure\pespace b8[ c a] g[ g]
 		
 		\endBar
 	}
 
 	\addlyrics {
-		Je vous donne un com -- man -- de -- ment nou -- "veau :" ai -- mez- -- vous les uns les aut -- res.
-		%I give you a new com -- mand -- ment: love one a -- noth -- er.
+		%Je vous donne un com -- man -- de -- ment nou -- "veau :" ai -- mez- -- vous les uns les aut -- res.
+		I give you a new com -- mand -- ment: love one a -- noth -- er.
  		\markup { \citation #"Jn 13:34" } }
 	
 	
@@ -24,15 +24,12 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
 		
-		g8 a[ g] g[ c]
-		c16[\( b\) c d]
-		c8[\( c\)]
-		\pespace
-		r c 
-		\times 2/3 { c[ c c] }
-		\times 2/3 { c[ c b] }
-		c8[ a]
-		g4\( g8\) r
+		g8[ a] g4 g8[ c]  b[ c] d[
+		c] c4
+		\pespace \cesure \pespace 
+		c8[ c c] 
+		b[ c a]
+		g4
 		
 		
 		
@@ -40,8 +37,8 @@
 	}
 
 	\addlyrics {
-		Le Verbe est la lu -- miè -- re vé -- ri -- ta -- ble qui vient dans le monde é -- clai -- rer tout hom -- me.
-		%The true light, which en -- light -- ens every -- one, was com -- ing in -- to the world.
+		%Le Verbe est la lu -- miè -- re vé -- ri -- ta -- ble qui vient dans le monde é -- clai -- rer tout hom -- me.
+		The true light, which en -- light -- ens ev -- ery -- one, was com -- ing in -- to the world.
  		\markup { \citation #"Jn 1:9" } }
 	
 	
@@ -50,16 +47,14 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {Adv.} }
-		g8 a[\cesurebasse\pespace g] g[ c] \times 2/3 { c[\cesure\pespace c b] } c[ a] g4
-		
-		
+		g8 a[ c] d[ c] c4 b8[ c a] g4
 		
 		\endBar
 	}
 
 	\addlyrics {
-		Le "Christ," sol -- eil lev -- "ant," vient nous vi -- si -- ter.
-		%because of the tender mercy of our God by which the day -- break from on high will vis -- it us.
+		%Le "Christ," sol -- eil lev -- "ant," vient nous vi -- si -- ter.
+	        The day -- break from on high will vis -- it us.
  		\markup { \citation #"Lk 1:78" } }
 	
 	
@@ -69,15 +64,12 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {Lent} }
 		
-		g8[ a] g[ g]
-		\times 2/3 { c[ c b] }
-		\times 2/3 { c[\( d\) c] }
+		g8[ a g]
+		c4 c8 
+		b[ c d]  
 		c4 \cesure \pespace \ifIndent
-		\times 2/3 {c8[ c c]} 
-		\times 2/3 { c[ c c] }
-		\times 2/3 { c[ c c] }
-		\times 2/3 { b[ c a] }
-		g4\( g8\) r
+		c16[ c c c] c[ c] c8[ b] c[ a] 
+		g[ g]
 
 		
 		
@@ -85,8 +77,8 @@
 	}
 
 	\addlyrics {
-		S'ils a -- vaient con -- nu la sa -- ges -- se de Dieu, ils n'au -- raient pas cru -- ci -- fié le Sei -- gneur de la gloi -- re.
-		%If they had known it, they would not have crucified the Lord of glory.
+		%S'ils a -- vaient con -- nu la sa -- ges -- se de Dieu, ils n'au -- raient pas cru -- ci -- fié le Sei -- gneur de la gloi -- re.
+		If they had known the wis -- dom of God, they would not have cru -- ci -- fied the Lord of glo -- ry.
  		\markup { \citation #"1 Cor 2:8" } }
 	
 	
@@ -96,17 +88,14 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
 		
-		\times 2/3 { r8_\( g[ a\)] }
-		\times 2/3 { g[ g c] }
-		b[ c] d4 
-		\cesure\pespace
-		\times 2/3 { d8[ c d] }
+		 r8 g a[ 
+		g] c[ 
+		b] c[ d] \cesure \pespace
+		d8[ c d] 
 		c4 \cesure \pespace \indentLine
-		\times 2/3 {c8[ c c]} c4 \cesure \pespace
 		c8[ c]
-		c[ c]
-		\times 2/3 { b[\( c\) a] } 
-		g4\( g8\) r8
+		c[ c] c[ c]
+		b[ c] a[ g] g4
 
 		
 		
@@ -114,8 +103,8 @@
 	}
 
 	\addlyrics {
-		Ton É -- poux est ton Cré -- a -- teur, Al -- le -- lu -- "ia !" Ton Ré -- demp -- teur, c'est le Dieu de tou -- te la ter -- re.
-		%For your hus -- band is your Mak -- er, Al -- le -- lu -- "ia !" the Lord of hosts is his name,Your re -- deem -- er, the Ho -- ly One of Is -- ra -- el, called God of all the earth.
+		%Ton É -- poux est ton Cré -- a -- teur, Al -- le -- lu -- "ia !" Ton Ré -- demp -- teur, c'est le Dieu de tou -- te la ter -- re.
+		Your hus -- band is your Mak -- er, Al -- le -- lu -- "ia !" Your re -- deem -- er is called God of all the earth.
  		\markup { \citation #"Is 54:5" } }
 	
 	
