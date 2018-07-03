@@ -61,9 +61,9 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
-		g a c c c c
-		c c d  c8 b a  c
-		a c b a4		
+		g[ a c] c[ c] \cesure 
+		c[ c] d[ c  c] b[ a] c4 \cesure
+		a8[ c] b[ a]		
 		\endBar
 		
 	}	\addlyrics {
@@ -78,13 +78,12 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		\times 2/3 { r8_\( g[ a]\) } \times 2/3 { c[ d c] } c4 \pespace\times 2/3 { r8\( c[ c]\) } \slurDashed  c4( c16[)\( c\) c a] 		 
-\times 2/3 { c8[ c b] } a4  \cesure
-\times 2/3 {c8[ d c]} c4
+		c[ d] c16[ c c c] c[ c c c] a8[ c] b[ a]  
+		\cesure c8 d c c4
 		\endBar
 	}	\addlyrics {
-		Mai -- nte -- nant je le "sais :" le Seign -- eur don -- ne la vic -- toi -- "re à" son "Christ !" " Al" -- le -- lu -- "ia !"
-		%Now I know the Lord gives vict -- or -- y to his a -- noin -- ted. " Al" -- le -- lu -- "ia !"
+		%Mai -- nte -- nant je le "sais :" le Seign -- eur don -- ne la vic -- toi -- "re à" son "Christ !" " Al" -- le -- lu -- "ia !"
+		Now I know the Lord gives vict -- or -- y to his a -- noin -- ted. " Al" -- le -- lu -- "ia !"
 		\markup { \citation #"Ps 19/20??:7"}
 	}
 }
