@@ -8,13 +8,13 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		 g8 a8[ c] d8[\( c\)] \times 2/3 { c8[ b a] } 
-		c4  c16[ c c c]
-		 c16[ a c c] \stemDown b4\( a8\) r8
+		g8 a16[ c c c] c[ c d c] c8[ b a]  
+		c4 \ifIndent
+		r8 c c8[ c c] c[ c] a[ c] c[  \stemDown b] a4 r8
 		\endBar
 	}	\addlyrics {
-		Ce -- lui qui mon -- te le che -- val blanc juge et fait la guerre av -- ec jus -- ti -- ce.
-		%Then I saw the hea -- vens o -- pened, and there was a white horse; its ri -- der was [called] “Faith -- ful and True.” He judges and wages war in right -- eous -- ness. 
+		%Ce  -- lui qui mon -- te le che -- val blanc juge et fait la guerre av -- ec jus -- ti -- ce.
+		The ri -- der of the white horse was called “Faith -- ful and True.” He judg -- es and wag -- es war in right -- eous -- ness.
 		\markup { \citation #"Rv 19:11"}
 	}
 }
@@ -61,17 +61,14 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
-		\times 2/3 { r8_\( g[ a]\) }
-		\times 2/3 { c8[ c c] } c4 \cesure \pespace
-		\times 2/3 { c8[ c d] }
-		\times 2/3 { c8[ b a] }
-		\times 2/3 { c8[\set stemLeftBeamCount = #1 \set stemRightBeamCount = #2  a16\set stemLeftBeamCount = #2  c] }
-		c8[ b]
-		a4		
+		g a c c c c
+		c c d  c8 b a  c
+		a c b a4		
 		\endBar
+		
 	}	\addlyrics {
-		Quand j'é -- tais av -- ec eux, je les gar -- dais dans ton nom que tu m'as don -- né.
-		%When I was with them I pro -- tec -- ted them in your name that you gave me.
+		%Quand j'é -- tais av -- ec eux, je les gar -- dais dans ton nom que tu m'as don -- né.
+		When I was with them I pro -- tec -- ted them in your name that you gave me.
 		\markup { \citation #"Jn 17:12"}
 	}
 }
