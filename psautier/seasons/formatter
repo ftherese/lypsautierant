@@ -7,7 +7,7 @@ s/@\([^ )]*\)/\\pageref\{\1\}/g
                 s/\(Hymn.*\)/\\noindent\\small\{\\uppercase\{&\}\}\\normalsize/       # replace as required
                 s/\(.*\) \(\\label[^}]*\}\)\(.*\)/\1\3\2/       # replace as required
                 h                                                   # copy over the hold space
-                s/.*/\\begin\{verse\}/                              # replace with \begin{verse}
+                s/.*/\\begin\{cverse\}/                              # replace with \begin{verse}
                 H                                                   # append to hold space
                 d                                                   # delete the line
         }
@@ -21,7 +21,7 @@ s/@\([^ )]*\)/\\pageref\{\1\}/g
         //{                                                 # if line matches Amen
                 s/$/\\\\!/                                          # add trailing \\!
                 H                                                   # append to hold space
-                s/.*/\\end\{verse\}/                                # replace with \end{verse}
+                s/.*/\\end\{cverse\}/                                # replace with \end{verse}
                 H                                                   # append to hold space
                 s/.*//                                              # empty pattern space
                 x                                                   # exchange buffers
