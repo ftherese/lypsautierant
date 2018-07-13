@@ -1,5 +1,5 @@
 % !TEX program = xelatex
-\documentclass[12pt,twoside,a5paper]{memoir}
+\documentclass[extrafontsizes,9pt,twoside]{memoir}
 \usepackage{verse,varwidth,environ}
 \usepackage{../psaltertitle}
 \usepackage{../psalter}
@@ -7,11 +7,16 @@
 \usepackage{fontspec}
 \usepackage{xltxtra}
 \usepackage{enumitem}
-\setmainfont[Mapping=tex-text,Numbers=OldStyle]{Adobe Jenson Pro}
-\semiisopage[8]
+\usepackage{graphics}
+\setmainfont[Mapping=tex-text,Numbers=OldStyle]{Adobe Caslon Pro}
+%\semiisopage[8]
+\setstocksize{5.5in}{4.25in}
+\settrimmedsize{\stockheight}{\stockwidth}{*}
+\settypeblocksize{4.25in}{3.5in}{*}
+\setulmargins{0.6in}{*}{*}
+\setlrmargins{*}{*}{1.618}
 \checkandfixthelayout
 \nouppercaseheads
-\usepackage{graphics}
 \setsecnumformat{}
 \begin{document}
 \pagestyle{empty}
