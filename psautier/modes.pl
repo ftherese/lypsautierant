@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# Usage: modes.pl [rawpsalm] [mode](one, two, etc.) [1st variation](a, a_prime, b, etc.) [2nd variation]
+# Usage: modes.pl [rawpsalm] [family] [mode](one, two, etc.) [1st variation](a, a_prime, b, etc.) [2nd variation]
 
 package modes;
 use Text::Unaccent::PurePerl qw(unac_string);
@@ -11,13 +11,13 @@ our $VERSION = '1.0';
 my $lP;
 my $modCount = 0;
 BEGIN{
- $lP = qq~modes~;
+ $lP = "$ARGV[1]";
 }
 use lib $lP;
 if(opendir(LIB, $lP)){
  foreach my $l (readdir(LIB)){
   unless ($l !~ /^(.*)\.pm$/){
-   eval qq~require modes::~ . $1 . qq~;~;
+   eval qq~require ~ . $ARGV[1] . qq~::~ . $1 . qq~;~;
   }
  }
 }
@@ -34,7 +34,7 @@ my $lilyfile;
 my $counter=0;
 
 my $reallines=1;
-my $alt = 2;
+my $alt = 3;
 my $plines=0;
  
 foreach my $line (@lines){
@@ -47,7 +47,7 @@ foreach my $line (@lines){
     $lilyfile = $1-1;}
   else{
     $lilyfile = $1;}
-#  print '\poemtitle{'.$line." mode ".$ARGV[1]."}\\nopagebreak\n";
+#  print '\poemtitle{'.$line." mode ".$ARGV[2]."}\\nopagebreak\n";
 #  print '\begin{changemargin}{-40pt}{0pt}'."\n";
   print '\lilypondfile[noindent]{../en-US/p'.$lilyfile.'.ly}'."\n";
 #  print '\end{changemargin}'."\n";
@@ -74,14 +74,14 @@ foreach my $line (@lines){
     $line = join(" ",@l);
    }
    if ((($lines[$counter+2] =~ /[.?"!]$/)||($lines[$counter+3] =~ /^$/)) && ($plines % 2 == 1)){
-    $temp = eval qq~modes::~.$ARGV[1].qq~::flex(\$line);~;
+    $temp = eval qq~modes::~.$ARGV[2].qq~::flex(\$line);~;
     print $temp.'\\\\*';$plines=2;}
    elsif (($reallines % 2 == 1)||($counter==1)){
-    $temp = eval qq~modes::~ . $ARGV[1]. qq~::first(\$line);~;
+    $temp = eval qq~modes::~ . $ARGV[2]. qq~::first(\$line);~;
     print $temp .'\\\\*';$reallines++;}
    elsif ($reallines % 2 == 0){
-    $temp = eval qq~modes::~ . $ARGV[1] . '::' . $ARGV[$alt] . qq~(\$line);~;
-    if($alt == 2){$alt=3;}else{$alt=2;}
+    $temp = eval qq~modes::~ . $ARGV[2] . '::' . $ARGV[$alt] . qq~(\$line);~;
+    if($alt == 3){$alt=4;}else{$alt=3;}
     print $temp . '\\\\';$reallines++;}
    if (($lines[($counter+1)] =~ /^$/)&&(scalar @lines != $counter+1)){print "!\n";}
    elsif (scalar @lines == $counter+1){print "*[1em]\n\n";}
@@ -91,6 +91,6 @@ foreach my $line (@lines){
  $counter++;
 }
 my $line = "Nów and for év -- er. A -- mén";
-my $temp = eval qq~modes::~ . $ARGV[1] . '::' . $ARGV[$alt] . qq~(\$line);~;
+my $temp = eval qq~modes::~ . $ARGV[2] . '::' . $ARGV[$alt] . qq~(\$line);~;
 print $temp . '\\\\'."!\n";
 print '\end{verse}'."\n".'\end{flushleft}'."\n";
