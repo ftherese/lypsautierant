@@ -1,7 +1,7 @@
 \version "2.16.0"
 \paper {
 
-	#(set-paper-size "a5" )
+	#(set-paper-size "junior-legal" )
 	system-system-spacing = #'((padding . 2) (basic-distance . 1))
 	page-limit-inter-system-space = ##t
 	page-limit-inter-system-space-factor = #1
