@@ -1,19 +1,32 @@
 package modes::two;
 
 sub first {
- my $c = 1;
+ my $ac = 0;
+ my $sc = 0;
+ my $ec = 0;
+ my $idx = 0;
+ my $mi = 0;
  my @a;
+ my @i;
  my @l = split(' ',shift); 
  while (@l){
   my $syl = pop @l;
+  $idx++;
   if ($syl ne '--'){
-   if ($c == 3){
-    push(@a,'\\pl{'.$syl.'}');
+   $sc++;
+   push (@i, $idx - 1);
+   if ($syl=~tr/áéíóúýÁÉÍÓÚÝ//){
+    $ac++;
+    if ($ac == 1){
+     push(@a, '\\pl{'.$syl.'}');
+    }
+    else {
+     push(@a,$syl);
+    }
    }
    else{
     push(@a,$syl);
    }
-   $c++;
   }
   else{
    push(@a,$syl);
@@ -25,19 +38,28 @@ sub first {
 }
 
 sub flex {
- my $c = 1;
+ my $sc = 0;
+ my $ac = 0;
  my @a;
  my @l = split(' ',shift); 
  while (@l){
   my $syl = pop @l;
   if ($syl ne '--'){
-   if ($c == 2){
-    push(@a,'\\mi{'.$syl.'}');
+   $sc++;
+   if (($syl=~tr/áéíóúýÁÉÍÓÚÝ//)&&($ac == 0)){
+    $ac++;
+    if ($sc != 1){
+     my $fl = $a[0];
+     $a[0] = '\\mi{'.$fl.'}';
+     push(@a,$syl);
+    }
+    else {
+     push(@a, '\\mi{'.$syl.'}'); 
+    }
    }
    else{
     push(@a,$syl);
    }
-   $c++;
   }
   else{
    push(@a,$syl);
@@ -49,96 +71,53 @@ sub flex {
  return $r;
 }
 
-sub a {
- my $c = 1;
+sub d {
+ my $sc = 0;
+ my $ac = 0;
+ my $mc = 0;
+ my $idx = -1;
+ my $final = 0;
+ my @i;
  my @a;
  my @l = split(' ',shift); 
  while (@l){
   my $syl = pop @l;
+  $idx++;
   if ($syl ne '--'){
-   if ($c == 1){
-    push(@a,'\\pl{'.$syl.'}');
+   $sc++;
+   push(@i, $idx);
+   if (($syl=~tr/áéíóúýÁÉÍÓÚÝ//)&&($ac == 0)){
+    $ac++;
+    if ($sc == 1){
+     push(@a, '\\mi{'.$syl.'}');
+     $final++;
+    }
+    else {
+     push(@a, '\\pl{'.$syl.'}');
+    }
+    $mc++;
+   }
+   elsif ($mc == 1 ){
+    if ($final){
+     push(@a,'\\pl{'.$syl.'}');
+    }
+    else {
+     push(@a,'\\mi{'.$syl.'}');
+    }
+    $mc++;
+   }
+   elsif ($mc == 2){
+    if ($final){
+     push(@a,'\\dmi{'.$syl.'}');
+    }
+    else {
+     push(@a,'\\mi{'.$syl.'}');
+    }
+    $mc++
    }
    else{
     push(@a,$syl);
    }
-   $c++;
-  }
-  else{
-   push(@a,$syl);
-  }
- }
- my $r = join(" ",reverse @a);
- $r =~ s/ -- //g;
- return $r;
-}
-
-sub b {
- my $c = 1;
- my @a;
- my @l = split(' ',shift); 
- while (@l){
-  my $syl = pop @l;
-  if ($syl ne '--'){
-   if ($c == 2){
-    push(@a,'\\pl{'.$syl.'}');
-   }
-   elsif (($c == 3)||($c == 4)){
-    push(@a,'\\mi{'.$syl.'}');
-   }
-   else{
-    push(@a,$syl);
-   }
-   $c++;
-  }
-  else{
-   push(@a,$syl);
-  }
- }
- my $r = join(" ",reverse @a);
- $r =~ s/ -- //g;
- return $r;
-}
-
-sub a_prime {
- my $c = 1;
- my @a;
- my @l = split(' ',shift); 
- while (@l){
-  my $syl = pop @l;
-  if ($syl ne '--'){
-   if (($c == 1)||($c == 4)){
-    push(@a,'\\pl{'.$syl.'}');
-   }
-   else{
-    push(@a,$syl);
-   }
-   $c++;
-  }
-  else{
-   push(@a,$syl);
-  }
- }
- $a[$#a] = '\\mi{'.$a[$#a].'}';
- my $r = join(" ",reverse @a);
- $r =~ s/ -- //g;
- return $r;
-}
-
-sub b_prime {
- my $c = 1;
- my @a;
- my @l = split(' ',shift); 
- while (@l){
-  my $syl = pop @l;
-  if ($syl ne '--'){
-   if(($c == 1)||($c == 2)||($c == 3)||($c == 5)){
-    push(@a,'\\mi{'.$syl.'}');
-   }
-   else{
-    push(@a,$syl);
-   }
-   $c++;
   }
   else{
    push(@a,$syl);
