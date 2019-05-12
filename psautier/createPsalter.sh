@@ -1,4 +1,5 @@
 #!/bin/bash
+#Usage createPsalter.sh [mode family: french, gregorian, english] [file name]
 
 ./modes.pl "revisedGrailPsalter/Psalm\ 1" $1 three a b | sed -f sedaccents > Psalm001.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 2" $1 two a_prime b | sed -f sedaccents > Psalm002.tex;
@@ -195,3 +196,19 @@
 ./modes.pl "revisedGrailPsalter/Psalm\ 150" $1 peregrinus a b | sed -f sedaccents > Psalm150-p.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 150" $1 seven a b | sed -f sedaccents > Psalm150-7.tex;
 #two mode options for psalm 150 in french psalter
+
+cat header.tex > $2.tex;
+
+for i in `ls Psalm*|grep Psalm*[0-9]`; do export psalm=$(echo $i|sed 's/Psalm\([0-9]*\)\([AB]*\)\(-*[0-9p]*\)\.tex/\1\2\3/g;s/^0//;s/^0//;'); echo "\needspace{3\baselineskip}" >> $2.tex; echo "\PoemTitle[ps. $psalm]{\textline[t]{\hfill}{$(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~/markup/){printf $2}}')}{$(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~ /markup/){printf $4}}')}}" >> $2.tex; echo "\input{`basename $i .tex`}" >> $2.tex; done
+
+cat end.tex >> $2.tex;
+
+sed -i 's/p9.ly/p9A.ly/' Psalm009A.tex;
+sed -i 's/p9.ly/p9B.ly/' Psalm009B.tex;
+sed -i 's/p77.ly/p77A.ly/' Psalm077A.tex;
+sed -i 's/p77.ly/p77B.ly/' Psalm077B.tex;
+sed -i 's/p88.ly/p88A.ly/' Psalm088A.tex;
+sed -i 's/p88.ly/p88B.ly/' Psalm088B.tex;
+sed -i 's/p115.ly/p114.ly/' Psalm114.tex;
+
+for i in `ls Psalm118*`; do export psalm=$(echo $i|sed 's/Psalm\([0-9]*\)\([AB]*\)\(-*[0-9]*\)\.tex/\1\2\3/g;s/^0//;s/^0//;'); sed -i "s/p118.ly/p$psalm.ly/" Psalm$psalm.tex; done
