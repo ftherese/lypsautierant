@@ -1,0 +1,9 @@
+INSTALL
+1. You need PurePerl: cpan -i Text::Unaccent::PurePerl
+2. Lilypond - http://lilypond.org - testing with the most recent version.  Version 2.16 tested and working.
+3. XeTeX - ubuntu needs texlive-xetex and deps.
+4. Certain fonts are expected to be installed... I hope you have the rights to them...
+5. To test and see that everything is working, run ./createPsalter.sh english test; ./sampleBuildTheBookCommand.sh test test;
+6. If it all executed correctly you should have: test/test.pdf.
+7. If not let me know.  An early error means lilypond is choking, check the right version is being used.
+8. Something isn't working with the new install of Perl, no error is given but no text is produced.
