@@ -6,4 +6,4 @@ INSTALL
 5. To test and see that everything is working, run ./createPsalter.sh english test; ./sampleBuildTheBookCommand.sh test test;
 6. If it all executed correctly you should have: test/test.pdf.
 7. If not let me know.  An early error means lilypond is choking, check the right version is being used.
-8. Something isn't working with the new install of Perl, no error is given but no text is produced.
+8. export PERL_USE_UNSAFE_INC=1; (I'll fix this later.)
