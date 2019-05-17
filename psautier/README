@@ -7,3 +7,4 @@ INSTALL
 6. If it all executed correctly you should have: test/test.pdf.
 7. If not let me know.  An early error means lilypond is choking, check the right version is being used.
 8. export PERL_USE_UNSAFE_INC=1; (I'll fix this later.)
+9. Help fix the accents using vim: https://vi.stackexchange.com/questions/12988/how-to-add-accent-to-letters-in-normal-mode
