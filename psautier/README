@@ -1,4 +1,5 @@
 INSTALL
+a. You need build-essentials. (apt install build-essential)
 1. You need PurePerl: cpan -i Text::Unaccent::PurePerl
 2. Lilypond - http://lilypond.org - testing with the most recent version.  Version 2.16 tested and working.
 3. XeTeX - ubuntu needs texlive-xetex and deps.
