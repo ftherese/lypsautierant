@@ -36,7 +36,7 @@
 ./modes.pl "revisedGrailPsalter/Psalm\ 29" $1 eight a_dprime b | sed -f sedaccents > Psalm028.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 30" $1 six a b | sed -f sedaccents > Psalm029.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 31" $1 six a b | sed -f sedaccents > Psalm030.tex;
-./modes.pl "revisedGrailPsalter/Psalm\ 32" $1 one b_dprime a_prime | sed -f sedaccents > Psalm031.tex;
+./modes.pl "revisedGrailPsalter/Psalm\ 32" $1 one b_prime a_prime | sed -f sedaccents > Psalm031.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 33" $1 five a_prime b | sed -f sedaccents > Psalm032.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 34" $1 five a_prime b | sed -f sedaccents > Psalm033.tex;
 ./modes.pl "revisedGrailPsalter/Psalm\ 35" $1 one a b | sed -f sedaccents > Psalm034.tex;
