@@ -1,5 +1,5 @@
 \version "2.18.0"
-#(set! paper-alist (cons '("half letter" . (cons (* 8.5 in) (* 5.5 in))) paper-alist))
+#(set! paper-alist (cons '("half letter" . (cons (* 5.5 in) (* 8.5 in))) paper-alist))
 \paper {
 
 	#(set-paper-size "half letter" )
@@ -10,8 +10,9 @@
 	score-system-spacing = #'((padding . 1) (basic-distance . 1))
 	obsolete-between-system-padding = #2  system-system-spacing #'padding = #(/ obsolete-between-system-padding staff-space)  score-system-spacing #'padding = #(/ obsolete-between-system-padding staff-space)
 	line-width = 5.5\in
-	left-margin = .5\in
-	short-indent = .6\in
+%	left-margin = 1\in
+	short-indent = 2\in
+	indent = .5\in
 	ragged-right = ##t
 	ragged-last = ##t
 %	annotate-spacing = ##t
