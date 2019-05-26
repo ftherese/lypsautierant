@@ -1,16 +1,17 @@
 \version "2.18.0"
+#(set! paper-alist (cons '("half letter" . (cons (* 8.5 in) (* 5.5 in))) paper-alist))
 \paper {
 
-	#(set-paper-size "junior-legal" )
+	#(set-paper-size "half letter" )
 	system-system-spacing = #'((padding . 2) (basic-distance . 1))
 	page-limit-inter-system-space = ##t
 	page-limit-inter-system-space-factor = #1
 	obsolete-between-system-space = 1\mm  system-system-spacing #'basic-distance = #(/ obsolete-between-system-space staff-space)  score-system-spacing #'basic-distance = #(/ obsolete-between-system-space staff-space)
 	score-system-spacing = #'((padding . 1) (basic-distance . 1))
 	obsolete-between-system-padding = #2  system-system-spacing #'padding = #(/ obsolete-between-system-padding staff-space)  score-system-spacing #'padding = #(/ obsolete-between-system-padding staff-space)
-	line-width = 120\mm
-	left-margin = 5\mm
-	short-indent = 20\mm
+	line-width = 5.5\in
+	left-margin = .5\in
+	short-indent = .6\in
 	ragged-right = ##t
 	ragged-last = ##t
 %	annotate-spacing = ##t
@@ -23,7 +24,7 @@
 }
 
 %{ this is where you can change the staff size %}
-#(set-global-staff-size 12.5)
+#(set-global-staff-size 14)
 #(ly:set-option 'point-and-click #f)
 \layout {
   
