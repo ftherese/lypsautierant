@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rm -rfv test
-./modes.pl "revisedGrailPsalter/Psalm\ 1" english eight a a |sed -f sedaccents > Psalm001.tex;
+./modes.pl "revisedGrailPsalter/Psalm\ 1" english peregrinus a b |sed -f sedaccents > Psalm001.tex;
 ./onePsalm.sh test;
 ./buildOnePsalm.sh test;
 okular test/test.pdf;
