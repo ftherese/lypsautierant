@@ -1,12 +1,13 @@
 INSTALL
 a. You need build-essentials. (apt install build-essential)
 1. You need PurePerl: cpan -i Text::Unaccent::PurePerl
-2. Lilypond - http://lilypond.org - testing with the most recent version.  Version 2.16 tested and working.
+2. Lilypond - http://lilypond.org - version 2.18 current and working.  Version 2.16 also working.
 3. XeTeX - ubuntu needs texlive-xetex and deps.
-4. Certain fonts are expected to be installed... I hope you have the rights to them...
-5. To test and see that everything is working, run ./createPsalter.sh english test; ./sampleBuildTheBookCommand.sh test test;
-6. If it all executed correctly you should have: test/test.pdf.
-7. If not let me know.  An early error means lilypond is choking, check the right version is being used.
-8. export PERL_USE_UNSAFE_INC=1; (I'll fix this later.)
-9. Help fix the accents using vim: https://vi.stackexchange.com/questions/12988/how-to-add-accent-to-letters-in-normal-mode
-10. Install additional fonts for the title page (Ubuntu): https://tex.stackexchange.com/questions/212600/installing-missing-fonts-in-texlive-on-ubuntu
+4. Install svn (apt install subversion) - svn co http://github.com/ftherese/lypsautierant
+5. Certain fonts are expected to be installed... I hope you have the rights to them... (Ubuntu systems: put fonts in ~/.local/share/fonts or /usr/share/fonts, then fc-cache -f -v).
+6. To test and see that everything is working, run ./createPsalter.sh english test; ./sampleBuildTheBookCommand.sh test test;
+7. If it all executed correctly you should have: test/test.pdf.
+8. If not let me know.  An early error means lilypond is choking, check the right version is being used.
+9. export PERL_USE_UNSAFE_INC=1; (I'll fix this later.)
+10. Help fix the accents using vim: https://vi.stackexchange.com/questions/12988/how-to-add-accent-to-letters-in-normal-mode
+11. Install additional fonts for the title page (Ubuntu): https://tex.stackexchange.com/questions/212600/installing-missing-fonts-in-texlive-on-ubuntu
