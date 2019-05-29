@@ -2,8 +2,6 @@
 \include "definitions.ly"
 %\markup { \hspace #-10 \fill-line { "Psalm 1" "Mode 3" \null \null } } 
 \noPageBreak
-
-
 \relative c'' {
 	 \new Staff {
 		\cadenzaOn

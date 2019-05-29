@@ -153,5 +153,7 @@ s/\<bri -- deg -- room\>/bride -- groom/g;
 s/\<brí -- deg -- room\>/bríde -- groom/g;
 s/\<wi -- de-o -- pen\>/wide- -- o -- pen/g;
 s/\<wí -- de-o -- pen\>/wíde- -- o -- pen/g;
+s/\<vin -- dica -- ted\>/vin -- di -- ca -- ted/g;
+s/\<vín -- dica -- ted\>/vín -- di -- ca -- ted/g;
 s/--  --/--/g;
 s/  -- / /g;

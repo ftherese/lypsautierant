@@ -1,8 +1,6 @@
 \version "2.18.0"
  %{ the following command allows you to indent any given line by invoking "\indentLine" %}
 
-
-
 %fonctions propres au psautier
 %(alinéas en cas de rupture de ligne)
 ifIndent = {
@@ -27,6 +25,23 @@ barre = {
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
         \once \override Staff.Clef#'break-visibility = #all-invisible
         \once \override Staff.KeySignature#'break-visibility = #all-invisible 
+}
+
+pecesure = {
+	s8
+	\once \override Staff.BarLine.extra-offset = #'(0 . 2)
+	\once \override Staff.BarLine.bar-extent =  #'(-0.5 . 0.5)
+	\once \override Staff.BarLine.hair-thickness = #.8
+	\once \override Staff.BarLine.thin-kern = #6
+	
+	\bar "|"
+	\overrideProperty 
+     		 	Score.NonMusicalPaperColumn.line-break-system-details
+     		 	#'((X-offset . 25.0))
+%	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
+        \once \override Staff.Clef#'break-visibility = #all-invisible
+        \once \override Staff.KeySignature#'break-visibility = #all-invisible 
+	
 }
 
 cesure = {
