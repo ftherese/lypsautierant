@@ -144,6 +144,8 @@ s/\<any\>/a -- ny/g;
 s/\<ány\>/á -- ny/g;
 s/\<hear -- t’s\>/heart’s/g;
 s/\<héar -- t’s\>/héart’s/g;
+s/\<hy -- mns\>/hymns/g;
+s/\<hý -- mns\>/hýmns/g;
 s/\<ritance\>/ri -- tance/g;
 s/\<ritánce\>/ri -- tánce/g;
 s/\<\(ch[áa]\) -- ri -- \(ot[s]*\)/\1 -- ri\2/g;

@@ -2,7 +2,7 @@
 
 cat header.tex > $1.tex;
 
-for i in `ls Psalm*|grep Psalm001`; do export psalm=$(echo $i|sed 's/Psalm0*\([1-9][0-9]*[AB]*\)\.tex/\1/g;'); echo "\needspace{4\baselineskip}" >> $1.tex; echo "\PoemTitle[ps. $psalm]{\textline[t]{\hfill}{$(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~/markup/){printf $2}}')}{$(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~ /markup/){printf $4}}')}}" >> $1.tex; echo "\input{`basename $i .tex`}" >> $1.tex; done
+for i in `ls Psalm*|grep Psalm150`; do export psalm=$(echo $i|sed 's/Psalm0*\([1-9][0-9]*[AB]*\)\.tex/\1/g;'); echo "\needspace{4\baselineskip}" >> $1.tex; echo "\PoemTitle[ps. $psalm]{\textline[t]{\hfill}{$(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~/markup/){printf $2}}')}{$(head ../en-US/p$psalm.ly |awk -F"\"" '{if ($1 ~ /markup/){printf $4}}')}}" >> $1.tex; echo "\input{`basename $i .tex`}" >> $1.tex; done
 
 #cat end.tex >> $1.tex;
 echo "\end{document}" >> $1.tex;

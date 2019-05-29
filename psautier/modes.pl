@@ -25,7 +25,7 @@ if(opendir(LIB, $lP)){
 my $source = $ARGV[0];
 
 #my $length = `awk \'\{ if (length(\$0) > max) \{max = length(\$0); maxline = \$0\} \} END \{ print maxline \}\' $source|sed \'y/[áéíóúÁÉÍÓÚ]/[aeiouAEIOU]/\'`;
-my $length = `awk \'\{ cnt += length(\$0) \} END \{ print cnt / NR \}\' $source|sed \'y/[áéíóúÁÉÍÓÚ]/[aeiouAEIOU]/\'`;
+my $length = `awk \'\{ cnt += length(\$0) \} END \{ print cnt / NR \}\' $source|sed \'y/[áéíóúýÁÉÍÓÚÝ]/[aeiouyAEIOUY]/\'`;
 chomp ($length);
 $length=$length/2;
 
