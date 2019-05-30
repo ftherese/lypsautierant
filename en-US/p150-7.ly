@@ -8,16 +8,16 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		\times 2/3 { c8[ b c] }
-		d16[\( d\) d d]
-		\times 2/3 { d8[\( d\) f] }
-		e16[ e d e] \slurDashed e4( 
-		\times 2/3 { e8[)\( d\) c] }
-		\stemUp b4\( a8\) r8
+		
+		r8( d[ d)] f[ e e] e[ e  e] d4( e8) \cesure
+		r8( d) d[ e d] c[ b] d4
+		
 		\endBar
 	}	\addlyrics {
-		La mul -- ti -- tu -- de des dis -- cip -- les se mit "à l" -- ou -- "er D" -- "ieu " d'u -- ne voix for -- te.
+		%La mul -- ti -- tu -- de des dis -- cip -- les se mit "à l" -- ou -- "er D" -- "ieu " d'u -- ne voix for -- te.
 		%The whole mul -- ti -- tude of his dis -- ci -- ples be -- gan to praise God a -- loud with joy for all the mighty deeds they had seen.
+		The whole mul -- ti -- tude of his dis -- ci -- ples
+		be -- gan to praise God a -- loud.
 		\markup { \citation #"Lk 19:37"}
 	}
 }
@@ -27,14 +27,14 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Easter } }
-		\times 2/3 { g8 c b }
+		g8[ c b]
 		c[\( d\)]
 		\pespace
-		\times 2/3 { r\( f e\) }
+		r\( f[ e]\)
 		d[\( e\)]
 		e4 \pespace
 		\cesure \pespace
-		\times 2/3 { e8 d c }
+		e8[ d c]
 		\stemUp b4\( a8\) r
 		\endBar
 	}	\addlyrics {
@@ -50,33 +50,29 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {  Adv. Lent} }
-		\times 2/3 { c8[ b c] }
-		d16[ d d f]
-		\times 2/3 { e8[\( e\) d] }
-		\times 2/3 { e4\(\pespace \cesure\pespace d8\) }
-		d16[\( d\) e d]
-		d16[\( c\) c b] a4
+		d8 [d] f[ e d] e4 \cesure
+		r8( d[ d]) d[ e] d[ c b] d4
 		\endBar
 	}	\addlyrics {
-		S'ac -- com -- pag -- nant sur les ci -- tha -- res de Dieu, ils chan -- tent le can -- ti -- que de l'Ag -- neau.
-		\markup { \citation #"Cf. Ap 15"}
+		%S'ac -- com -- pag -- nant sur les ci -- tha -- res de Dieu, ils chan -- tent le can -- ti -- que de l'Ag -- neau.
+		%Then I saw so -- meth -- ing like a sea of glass min -- gled with fire. On the sea of glass were stan -- ding those who had won the vic -- tory o -- ver the beast and its i -- mage and the num -- ber that sig -- ni -- fied its name. They were hol -- ding God -- âs harps, 3 and they sang the song of Mo -- ses, the ser -- vant of God, and the song of the Lamb:
+                They were hol -- ding God's harps, and they sang the song of the Lamb.
+		\markup { \citation #"Cf. Rev. 15:2b-3"}
 	}
 }
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr. Easter } }
-
-		\times 2/3 { r8\( c[ b]\) }
-		\times 2/3 { c8[ d f] }
-		\times 2/3 { e8[\cesure \pespace e d] }
-		\times 2/3 { d8[\( c\) b] } a4 \cesure \pespace
-		\times 2/3 {c8[ d e]} f[\( d] e4\) 
-
+                r8( d[ d]) f[ e e] e[ e] d[ d] e4
+                e8[ d c] \stemUp b4( a8)
+		
 		\endBar
 	}	\addlyrics {
-		Il pria -- ient et chant -- aient les lou -- an -- ges de Dieu. Al -- le -- lu -- "ia !" _ _
+		%Il pria -- ient et chant -- aient les lou -- an -- ges de Dieu. Al -- le -- lu -- "ia !" _ _
 		%About midnight, while Paul and Silas were pray -- ing and sing -- ing hymns to God as the prisoners listened, Al -- le -- lu -- "ia !" _ _
+		They were pray -- ing and sing -- ing hymns to God.
+		Al -- le -- lu -- "ia!" _ _
 		\markup { \citation #"Acts 16:25"}
 	}
 }
