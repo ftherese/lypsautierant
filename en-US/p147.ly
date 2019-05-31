@@ -3,26 +3,19 @@
  \markup { \hspace #-10 \fill-line { "Psalm 147" "Mode 4" \null \null }  }
 \noPageBreak
 
-
-
-
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		\times 2/3 { r8_\( e g\) }
-		\times 2/3 { a[ a a] } 
-		a4
-		\espace
-		\times 2/3 { a8 g a }
-		b[ g] 
-		e4
+		a8 a4 g8[ a b] a4 \cesure
+		a8 a[ a] g[ a] b[ g] e4
 		\endBar
 	}
 
 	\addlyrics {
-		Le vent souffle où il veut et tu en -- tends sa voix.
-		%The wind blows where it wills, and you can hear the sound it makes. 
+		%Le vent souffle où il veut et tu en -- tends sa voix.
+		The wind blows where it wills,
+		and you can hear the sound it makes. 
 		\markup { \citation #"Jn 3:8" } 
 	}
 }
@@ -30,17 +23,14 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
-		\times 2/3 { r8_\( e[ g]\) }
-		\times 2/3 { a8[ a a] }
-		\times 2/3 { a8[ a a] }
-		\times 2/3 { a8[\( a\) a] }
-		g8[ a]  b8[ g] e4
+		a4( a8) g[ a b] a4 \pecesure
+		a8 a[ a] a[ g a] b4
 		\endBar
 	}
 
 	\addlyrics {
-		Ac -- cuei -- llez hum -- ble -- ment la pa -- ro -- le de Dieu se -- mée en vous.
-		%Humb -- ly wel -- come the word that has been plant -- ed in you.
+		%Ac -- cuei -- llez hum -- ble -- ment la pa -- ro -- le de Dieu se -- mée en vous.
+		Humb -- ly wel -- come the word that has been plant -- ed in you.
 		\markup { \citation #"Jas 1:21" } 
 	}
 }
@@ -49,21 +39,16 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
-		\times 2/3 { a8 a a }
-		a4
-		\cesure \pespace
-		g8[\( g\)]
-		\pespace
-		\times 2/3 { r_\( a a\) }
-		\times 2/3 { a[ a a] }
-		a16[ b g e]
-		e4
+		a8[ a] a[ a] g4 a8[( b]) a4 \cesure
+		a8[ a a] a[ a] a[ g a] b4( b8)
 		\endBar
 	}
 
 	\addlyrics {
-		Je te bé -- nis, Pè -- re, de l'a -- voir ré -- vé -- lé aux tout- -- pe -- tits.
+		%Je te bé -- nis, Pè -- re, de l'a -- voir ré -- vé -- lé aux tout- -- pe -- tits.
 		%I give praise to you, Fa -- ther, Lord of heaven and earth, for although you have hidden these things from the wise and the learned you have re -- vealed them to the child -- like.
+		I give praise to you, Fa _ -- ther, 
+		you have re -- vealed these things to the child -- like.
 		\markup { \citation #"Mt 11:25" } 
 	}
 }
@@ -72,21 +57,15 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
-		e8[ g] a4 \pespace
-		a8[ a]
-		\times 2/3 { a8[ g a] }
-		b8[ a] a4 \pespace \cesure\pespace
-		\times 2/3 { b8 d c }
-		b[\( g]
-		a4\)
-		
-		
+		e8 g[ a] a([ g]) g4 \pecesure
+		a8[ g] a[ b] a4( a8) \cesure
+		g8[ a] b4( b8)
 		\endBar
 	}
 
 	\addlyrics {
-		Qui me voit, voit ce -- lui qui m'a en -- vo -- yé. Al -- le -- lu -- "ia !" _ _
-		%Who -- ev -- er sees me sees the one who sent me. Al -- le -- lu -- "ia !" _ _
+		%Qui me voit, voit ce -- lui qui m'a en -- vo -- yé. Al -- le -- lu -- "ia !" _ _
+		Who -- ev -- er se -- es me sees the one who sent me. Al -- le -- lu -- ia!
 		\markup { \citation #"Jn 12:45" } 
 	}
 }
