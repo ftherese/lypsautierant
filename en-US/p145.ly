@@ -1,28 +1,18 @@
 \version "2.14.0"
  \include "definitions.ly"
- \markup { \hspace #-10 \fill-line { "Psalm 145" "Mode 7" \null \null }  }
+ %\markup { \hspace #-10 \fill-line { "Psalm 145" "Mode 7" \null \null }  }
 \noPageBreak
-
-
-
-
-
-
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		\times 2/3 { r8\( c[ b]\) }
-		c8[ d]
-		f8[\( e\)] \pespace
-		r8 d8
-		d16[ e d c ]
-		c8[ b]
-		a4
+		d8 f[ e d] e4( \cesure
+		e8) d[ c b] d4 
 		\endBar
 	}	\addlyrics {
-		In -- vi -- tez aux no -- ces tous ceux que vous pou -- rrez trou -- ver.
-		%In -- vite to the feast whom -- ev -- er you find.
+		%In -- vi -- tez aux no -- ces tous ceux que vous pou -- rrez trou -- ver.
+		In -- vite to the feast
+		whom -- ev -- er you find.
 		\markup { \citation #"Mt 22:9"}
 	}
 }
@@ -30,22 +20,16 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
-		g16[ c b c]
-		d8[ d]
-		d[ d]
-		\times 2/3 { d\( d\) f }
-		\times 2/3 { e[\( e\) d] }
-		e[\( e\)]
-		\pespace
-		\times 2/3 { r\( d d\) }
-		\times 2/3 { d[ d e] }
-		\slurDashed d4( 
-		\times 2/3 { d8) c c }\stemDown
-		b4\( a8\) r
+		d8[ d d] d[ d] c4 \pecesure
+		d8 d[ d] f[ e] d[ d] e4 \cesure
+		r8( d8[ d]) d4 \pecesure e16[ d c b] d4( d8) 
 		\endBar
 	}	\addlyrics {
-		Il m'a en -- vo -- yé por -- ter aux pau -- vres la bon -- ne nou -- vel -- le, an -- non -- cer aux cap -- tifs la dé -- li -- vran -- ce.
+		%Il m'a en -- vo -- yé por -- ter aux pau -- vres la bon -- ne nou -- vel -- le, an -- non -- cer aux cap -- tifs la dé -- li -- vran -- ce.
 		%He has an -- oin -- ted me to bring glad tid -- ings to the poor. He has sent me to pro -- claim lib -- er -- ty to cap -- tives and recovery of sight to the blind.
+		He has a -- noin -- ted me
+		to bring glad ti -- dings to the poor,
+		to pro -- claim li -- ber -- ty to cap -- tives.
 		\markup { \citation #"Lk 4:18"}
 	}
 }
@@ -54,19 +38,13 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
-		\times 2/3 { c8 b c }
-		d[ f]
-		\times 2/3 { e d e }
-		e4
-		\cesure \pespace
-		\times 2/3 { d8[ d e] }
-		d[ c]\stemDown
-		b4\( a8\) r
+		d8 d[ d] f[ e e] d[ d] e4 \cesure
+		r8( e[ d]) c[ b] d4
 		\endBar
 	}	\addlyrics {
 		
-		Je ne suis pas ve -- nu pour ju -- ger, mais pour sau -- ver le mon -- de.
-		%I did not come to con -- demn the world but to save the world.
+		%Je ne suis pas ve -- nu pour ju -- ger, mais pour sau -- ver le mon -- de.
+		I did not come to con -- demn the world but to save the world.
 		\markup { \citation #"Jn 12:47"}
 	}
 }
@@ -74,18 +52,13 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
-		c16[ b c d]
-		\times 2/3 { d8 d f }
-		e[ d]
-		e4 \pespace \pespace
-		\times 2/3 { d8 d e }
-		d8[ d16 c]
-		c8[ b]
-		a4
+		d8[ d d] f[ e e] d[ e e] \cesure
+		e d[ c b] d4( d8)
 		\endBar
 	}	\addlyrics {
-		Il a pris sur lui nos in -- fir -- mi -- tés et s'est char -- gé de nos ma -- la -- dies.
-		%He took away our infirmities and bore our diseases.
+		%Il a pris sur lui nos in -- fir -- mi -- tés et s'est char -- gé de nos ma -- la -- dies.
+		He took a -- way our in -- fir -- mi -- ties
+		and bore our di -- sea -- ses.
 		\markup { \citation #"Mt 8:17"}
 	}
 }
@@ -93,18 +66,14 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		\times 2/3 { r8_\( g c\) }
-		\times 2/3 { b[ c d] }
-		\times 2/3 { d d f }
-		\times 2/3 { e[\( e\) d] }
-		e[\( e\)]
-		\cesureall \pespace
-		\times 2/3 { e d c }\stemDown
-		b4\( a8\) r
+		c8 b[ c] d[ d] f[ e d] e4( e8) \barre
+		e[ d] c([ b)] d4
 		\endBar
 	}	\addlyrics {
-		Le Sei -- gneur rég -- ne -- ra pour les siè -- cles des siè -- cles. Al -- le -- lu -- "ia !" _
+		%Le Sei -- gneur rég -- ne -- ra pour les siè -- cles des siè -- cles. Al -- le -- lu -- "ia !" _
 		%The kingdom of the world now belongs to our Lord and to his Anointed, and he will reign for -- ev -- er and ev -- er. Al -- le -- lu -- "ia !" _
+		The Lord will reign for -- ev -- er and ev -- er. Al -- le -- lu -- _ ia!
+
 		\markup { \citation #"Rv 11:15"}
 	}
 }
