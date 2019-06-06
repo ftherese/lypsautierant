@@ -10,19 +10,13 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		\times 2/3 { r8_\( g a\) }
-		\times 2/3 { g[ c c] }
-		c4
-		\cesure \pespace
-		\times 2/3 { b8[ c d] }
-		c4
-		\cesure\pespace
-		\times 2/3 { b8[ c a] }
-		g4
+		g8[ a] c[ c] c4( b8[ c d]) c4 \cesure
+		c8[ c] c4 b8[ c a] g4
 		\endBar
 	}	\addlyrics {
-		Nous l'a -- vons re -- con -- nu, nous l'a -- vons "cru :" Dieu est A -- mour.
-		%We have come to know and to be -- lieve in the love God has for us.
+		%Nous l'a -- vons re -- con -- nu, nous l'a -- vons "cru :" Dieu est A -- mour.
+		We have come to know and to be -- lieve 
+		in the love God has for us.
 		\markup { \citation #"1 Jn 4:16"}
 	}
 }
@@ -30,19 +24,13 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
-		\times 2/3 { r8_\( g a\) }
-		\times 2/3 { g[\( c\) \cesure  \pespace b] }
-		c4
-		\cesure \pespace
-		c8[ c]
-		
-		b4 \pespace
-		\times 2/3 { c8[ a g] }
-		g4
+		g8[ a] c[ \pecesure d] c[ c] c4 \cesure
+		c8 b[ c a] g4
 		\endBar
 	}	\addlyrics {
-		Tu es jus -- te, Sei -- gneur, toi qui es, toi qui é -- tais.
-		%You are just, O Ho -- ly One, who are and who were.
+		%Tu es jus -- te, Sei -- gneur, toi qui es, toi qui é -- tais.
+		You are just, O Ho -- ly One, 
+		who are and who were.
 		\markup { \citation #"Rv 16:5"}
 	}
 }
@@ -51,14 +39,11 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. Chr. } }
-		\times 2/3 { g8[ a g] }
-		g8[ c]
-		\times 2/3 { b8[\( c\) a] }
-		g4
+		g8[ a] c[ b] c[ a] g4
 		\endBar
 	}	\addlyrics {
-		Je leur ai fait con -- naî -- tre ton Nom.
-		%I made known to them your name.
+		%Je leur ai fait con -- naî -- tre ton Nom.
+		I made known to them your name.
 		\markup { \citation #"Jn 17:26"}
 	}
 }
