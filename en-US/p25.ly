@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 25" "Mode 5" \null \null } }
 \noPageBreak
@@ -6,19 +6,18 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		f8 a[ c]  
-		\times 2/3 { c[\( c\) d] } 
-		\times 2/3 { c4\( c8\) }
-		\times 2/3 { c[ c d] }
-		\times 2/3 { b[ b c] }
-		a4
+		f8 a[ c] c[ c] c4 \pecesure
+		c16[ c c c c] d8[ b b c] a4( a8)
+		
 				
 		\endBar
 	}
 
 	\addlyrics {
-		Ce -- lui qui son -- de les cœurs con -- naît le dé -- sir de "l'Es" -- prit.
+		%Ce -- lui qui son -- de les cœurs con -- naît le dé -- sir de "l'Es" -- prit.
 		%And the one who sear -- ches hearts knows what is the in -- ten -- tion of the Spir -- it, be -- cause it in -- ter -- cedes for the ho -- ly ones a -- ccord -- ing to God’s will.
+                The one who sear -- ches hearts 
+                knows what is the in -- ten -- tion of the Spir -- it.
 		\markup { \citation #"Rom 8:27" } }
 	
 }
