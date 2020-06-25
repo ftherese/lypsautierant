@@ -1,2 +1,2 @@
-\include "parametres.18.ly"
-\include "fonctionspsautier.18.ly"
+\include "parametres.20.ly"
+\include "fonctionspsautier.20.ly"
