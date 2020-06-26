@@ -11,7 +11,7 @@
 	obsolete-between-system-padding = #2  %system-system-spacing #'padding = #(/ obsolete-between-system-padding staff-space)  score-system-spacing #'padding = #(/ obsolete-between-system-padding staff-space)
 	line-width = 5.5\in
 %	left-margin = 1\in
-	short-indent = 2\in
+	short-indent = 1\in
 	indent = .5\in
 	ragged-right = ##t
 	ragged-last = ##t
