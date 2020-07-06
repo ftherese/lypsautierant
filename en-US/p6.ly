@@ -9,15 +9,10 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		\times 2/3 { r8_\( g[ a]\) }
-		\times 2/3 { b[ a] } 
-		a4 \pespace
-		\cesure \pespace
-		a8 a16[ a a a] a16 [a b a]
-		g8[ g f] e4
-		 \endBar
+                a8[ a] a[ a] g4 \cesure
+                r16_( a[ a a]) a8[ a] a16[ a a b] a8[ g f] e4
+\endBar
 	}
 
 	\addlyrics {
@@ -58,11 +53,11 @@
 		\set Staff.instrumentName = \markup{ \left-column { Chr. Easter } }
 		a8[\( a\)] 
 		\pespace\cesure
-		\times 2/3  r8 a a[g a] b[ a] a4
+		\times 2/3 \pespace a a[g a] \stemUp b4_( a8[ a])
 		\indentLine
 		r8 \pespace 
 		a8 a8[ b a]
-		g8[ g] f4\( e8\)
+		g8[ f] e4\( e8\)
 		\pespace s4
 		\times 2/3 { r8_\( g[ a\)] }
 		b[\( a\)]
@@ -87,7 +82,7 @@
 		
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		a8
-		g[ a] a8[ a  g] a[ b a]
+		g[ a] a8[ a  a] g[ a b]
 		a4 \espace
 		\times 2/3 { r8_\( \pespace a[ a]\) }
 		\times 2/3 {a[ b a] }
