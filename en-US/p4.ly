@@ -8,8 +8,8 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		 a8[a a] a4 \cesure a8 g8 [a f] f4 
-		\endBar
+		 bes8[ a g] a4( \cesure a8) a[ g a] f4
+		 \endBar
 	}
 
 	\addlyrics {
@@ -23,12 +23,13 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
-		f8[ g a] a[ a a] a[ a] a[ a] g[ bes] a4 \indentLine a a a a a a g a f f 
+		f8[ g a] a[ a a] a16[ a a a] bes8[( a) g] a4 \cesure 
+		a8[ a a] a[ a] a16[ a g a] f4
 		\endBar
 	}
 
 	\addlyrics {
-    Je -- sus  went up on the moun -- tain by him -- self to pray.When it was
+    Je -- sus  went up on the moun -- tain by him -- self _ to pray. When it was
 eve -- ning he was there a -- lone.
  		\markup { \citation #"Mt 14:23" } }
 	
@@ -39,13 +40,13 @@ eve -- ning he was there a -- lone.
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
-		
-		f8 g a g bes a g a f 
+		a8[( bes]) a[ g] a4( \cesure
+		a8) g[ a] f4( f8)
 		\endBar
 	}
 
 	\addlyrics {
-Hail, fa -- vored one! The Lord is with you.
+Hail, _ fa -- vored one! The Lord is with you.
  		\markup { \citation #"Lk 1:28" } }
 	
 	
@@ -56,7 +57,8 @@ Hail, fa -- vored one! The Lord is with you.
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		
-		f8 g a g bes a g a a a a a a a a g a f f 
+		f8 g[ a] bes[ a g] a4( a16[) \cesure
+		a a a] a8[ a] \ifIndent \pespace a16[ a g a] f4( f8)
 		\endBar
 	}
 
@@ -72,14 +74,14 @@ which you pre -- pared in sight of all the peo -- ples.
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		
-		f8 g a a a a g bes a g a a \indentLine a a a a a  g a f f f  g a g 
+		f8[ g a] a[ a] bes16[ a a g] a8[ a] a4 \cesure \pespace
+		r8_( a[ a]) a16[ a g a] f8[ f] f4  
+		f8[( g) a] g4( g8) 
 		\endBar
 	}
-
 	\addlyrics {
 		 Know that the Lord works won -- ders for his faith -- ful one;
-the Lord hears when I call out to him.??French " Al" -- le -- lu -- "ia !"
+the Lord hears when I call out to him. "Al" - -- le -- lu -- "ia!" %//French??
  		\markup { \citation #"Cf. Ps 4:4" } }
 	
 	
