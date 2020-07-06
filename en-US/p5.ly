@@ -10,10 +10,10 @@
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		\times 2/3 { r8 f[ g] } 
 		\times 2/3 { a8[ a a] }
-		 g[ bes] a[ g] a a4 \ifIndent 
+		 bes[ a] g[ g] a4( a8) \ifIndent 
 		\times 2/3 { a8[ a a] }
-		\times 2/3 { g8[ g] }
-		f[ e] d4
+		g8[ f e]
+		d4( d8)
 
 		\endBar
 	}
@@ -27,10 +27,7 @@ His dis -- ci -- ples re -- called the words of scrip -- ture, “Zeal for your 
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
-		r 8 f8 g16[a a a]a16[a bes a]g8[a] 
-		\cesure \pespace
-		g8[ g] 
-		\times 2/3  f4_\( d8 \)
+		f8[ g a] a[ a] bes16[ a a g] a4( a8) \pespace \cesure \pes r_( g[ f]) d4( d8)
 		\endBar
 	}
 	\addlyrics {
@@ -43,10 +40,9 @@ His dis -- ci -- ples re -- called the words of scrip -- ture, “Zeal for your 
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
-		\times 2/3 { f g16[ a a a] }
-		\times 2/5 { a16[ a a a] a8[a] bes[ a] }
-		g[ a] a4 \pespace \cesure
-		a8 g[ g]f[ e] d4
+		a a[ a] g4( \pecesure \pes
+		f8) g[ a] a[ a] bes16[ a a g] a8[( a] a4) \cesure
+		a8 a[ g] f[ e] d4
 		\endBar
 	}
 	\addlyrics {The time has come to re -- com -- pense your ser -- vants and the ho -- ly ones and those who fear your name.
@@ -62,13 +58,8 @@ His dis -- ci -- ples re -- called the words of scrip -- ture, “Zeal for your 
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
-		\times 2/3 { r8_\( f[ g]\) }
-		\times 2/3 { a8[ a a] }
-		\times 2/3 { bes8[\( a\) g] } a4 
-		\pespace r8 a8[ a]
-		\times 2/3 { a8[ g g] }
-		f[ e]
-		d4
+                 f8 g[ a] bes16[ a a g] a4( a8) \cesure 
+                 r8_( a[ a]) g[ f e] d4( d8[ d8]) 
 		\endBar
 	}
 	\addlyrics {
@@ -83,23 +74,17 @@ The shep -- herds said to one a -- no -- ther, “Let us go, then, to Be -- thle
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		
-		f8  
-		g16[ a a a] 
-		a16[a a a]
-		\times 2/3 a4 \espace \cesure \ifIndent 
-		\times 2/5 a16[ a a a a] bes8[ a g]
-		a8 \pespace \cesure \pespace
-		\times 2/3 {a g8[ f e] }
-		d4 \pespace \cesure \pespace
-		\times 2/3 { a'8[ g a] }
-		a4
-
+		\set Staff.instrumentName = \markup{ \left-column { Easter } }		
+                a8 a16[ a a a] a[ a a a] g4 \cesure \pespace
+                f8 g[ a] \ifIndent \pespace bes16[ a a a  g] a4( \pecesure \pespace a8) g[ f e] d4
+                a'8[ g] a4( a8)
 		\endBar
 	}
-	\addlyrics {At day -- break on the first day of the week they took the spi -- ces they had pre -- pared and went to the tomb. 
-Al -- le -- lu -- "ia !"
+	\addlyrics {
+	        At day -- break on the first day of the week 
+	        they took the spi -- ces they had pre -- pared 
+	        and went to the tomb. 
+Al -- le -- lu -- "ia!"
 		\markup { \citation #"Lk 24:1" }
 	}
 }
