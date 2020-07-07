@@ -9,11 +9,11 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
 		
-		r8 c8 b16[ c d d] f8[ e] e[ d] e4
+		r8 c8 b16[ c d d] f16[ e e d] e4
 		\pespace\cesure\pespace 
 		r8 d8 d[ d d] d[ e d ]
-		\times 2/3 { c[ c] }
-		\stemUp b4\( a8\)
+		\times 2/3 { c[ b] }
+		\stemUp a4\( a8\)
 		\endBar
 	}
 
@@ -32,7 +32,7 @@
 		g8 c[ b] c[ d d]d4\( d8\) f[ e\( d\)] e4 
 		\indentLine 
 		\times 2/3 { d8[ d e] }
-		d8[ c16 c] \stemUp b4\( a8\)\pespace \stemNeutral
+		d8[ c16 b] \stemUp a4\( a8\)\pespace \stemNeutral
 		\barre \pespace
 		\times 2/3 { r8\( c[ d\)] }
 		e[\( d\)] d4
@@ -51,17 +51,17 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
 		
-		d16[d d f] e8[ d] e4\( e8\)
+		d16[d d d] f8[(e) d] e4\( e8\)
 		\pespace
 		\times 2/3 { r d8 d[ d e]  }
-		d8[ c c]
-		b4\( \stemDown a8\)
+		d8[ c b]
+		a4\( a8\)
 		\endBar
 	}
 
 	\addlyrics {
 		%Bien -- heu -- reux les pau -- vres, le Ro -- yau -- me des cieux leur ap -- par -- tient.
-		Bless -- ed are the poor in spir -- it, for theirs is the king -- dom of hea -- ven.
+		Bless -- ed are the poor _ in spir -- it, for theirs is the king -- dom of hea -- ven.
 		\markup { \citation #"Mt 5:3" } }
 }
 
@@ -70,13 +70,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
-		r8 g8 c16[ b c d] f8[ e] e[ d] e4 
-		\cesure r8 \pespace d8 d16[ d d d] e8[ d c]  
-		\stemUp
-		c8[ b] a4
+		r8 g8 c16[ b c d] f16[ e e d] e4 
+		\cesure r8 \pespace d8 d16[ d d d] e16([ e) d c b] a4
 		\stemNeutral
-		
-		
 		\endBar
 	}
 
