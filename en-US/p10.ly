@@ -8,9 +8,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		\times 2/3 { r8 g a[ g c] c16[ c b c] d8[ c]}
+		g8 a[ c c] c16[ c c d] c4( c8) 
 		\cesure  \pespace
-		r8\( \pespace c[ c]\) b[ c] a[ g] g4
+		r8\( c[ c]\) c16[ b c a] g4
 		\endBar
 	}
 
@@ -25,7 +25,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {O.T. Adv.} }
 		
-		\times 2/3 { g16[ a c c] d8[ c] }
+		\times 2/3 { g16[ a c c] c8[ d] }
 		c4\( \pespace \cesurebasse \pespace c8\) b[ c a] g4
 
 		
@@ -43,7 +43,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {Chr. Easter} }
 		
-		r8 g a[ g c] c[ b c] d[ c] d( c4)
+		r8 g a[ c c] c[ c c] c[ d] c4( c8)
 		\pespace \cesure \pespace
 		\times 2/3 {c8[ b c]} a4 \pespace \cesure \pespace
 		\times 2/3 {g8[ a g]} g4
@@ -65,11 +65,11 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
-		g8[ a g] c4( c8) c[ b c] 
-		d[ d] c[ d] 
-		c4(\cesurebasse \pespace
-		\times 2/3 { c8) c[ b c] }
-		\times 2/3 { a[ g] } g4
+		g8[ a g] c4( c8) c[ c c] 
+		c[ d] c\tenuto[ c c] 
+		(\cesurebasse \pespace
+		\times 2/3 { c8) b[ c a] }
+		g(\tenuto[ g g])
 		\endBar
 	}
 
