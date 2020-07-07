@@ -9,20 +9,15 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		c8[d f] 
-		f4_\(  f8\) 
-		f8[ f e]
-		f16[ g f f]
-		f4 \pespace
-		\times 2/3 { r8 f f[ e c] }
-		\times 2/3 { d([\tenuto d d])}
-		
+		g8[ a c] c[ c] c[ d c] b[ a] c([\tenuto c c]) \cesure \pespace
+		r a c[ c b] a[(\tenuto a  a])
 		\endBar
 	}
 
 	\addlyrics {
 		%Bien -- heure -- ux ceux qui ont faim et soif de la jus -- ti -- ce, ils se -- ront ras -- sa -- siés.
-		Bles -- sed are they who hun -- ger and thirst for righ -- teous -- ness, for they will be sa -- tis -- fied.
+		Bles -- sed are they who hun -- ger and thirst for righ -- teous -- ness, 
+		for they will be sa -- tis -- fied.
 		\markup { \citation #"Mt 5:6" } }
 
 }
@@ -30,9 +25,9 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
-		c d[ f] f[ g] f4( \pecesure
-		f8[ c e] d4
-		\endBar
+                 g8 a[ c] c[ d] \slurDotted c4( \pecesure
+                 c8)[\tenuto c b] a4
+\endBar
 	}
 
 	\addlyrics {
@@ -45,9 +40,9 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
-		c8[ d c] f[ f] f4( f8) \pespace \cesure
-		\pespace r_( f[ f]) f[ f] f[ f e c] d4( d8)
-		\endBar
+                g8\tenuto a[ c] c[ d] c4( c8) \cesure \pespace
+                r([c c]) c[ c] c16\tenuto[ a c  b] a4( a8)
+                \endBar
 	}
 
 	\addlyrics {
@@ -62,8 +57,8 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
-		c8 d[ c] f[ f] e[ f g] f4( f8) \cesure
-		f f[ f] f16[ f c e] d4
+                g a[ c] c[ d] c[ b a] c4( c8) \cesure \pespace
+                c c[ c] c16\tenuto[ a c b] a4
 		\endBar
 	}
 
@@ -82,21 +77,18 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		f16[ f e f]
-		g8[ f] f4
-		f16[ f f f]
-		\times 2/3 { e8[ c d] } d4 \cesure\pespace
-		\times 2/3 {f8[ g a]} g4 
-		
-		
-		
-		
-		\endBar
+                g8[ a c] c[ d] c[ b a] c4( \pes \pecesure \pespace
+                c8) c[ c c] c16[ a c b] a4
+                r8_( g[ a]) c[ (b]) a4
+                \endBar
 	}
 
 	\addlyrics {
-		Il est é -- ta -- bli par Dieu ju -- ge des vi -- vants et des morts. " Al" -- le -- lu -- "ia !"
-		% He comm -- is -- sioned us to preach to the peop -- le and test -- if -- y that he is the one ap -- point -- ed by God as judge of the liv -- ing and the dead. " Al" -- le -- lu -- "ia !"
+		% Il est é -- ta -- bli par Dieu ju -- ge des vi -- vants et des morts. " Al" -- le -- lu -- "ia !"
+		% He comm -- is -- sioned us to preach to the peop -- le and 
+		%test -- if -- y that 
+		He is the one ap -- point -- ed by God 
+		as judge of the liv -- ing and the dead. Al -- le -- lu _ -- ia!
 		\markup { \citation #"Acts 10:42" } }
 	
 	
