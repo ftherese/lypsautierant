@@ -15,7 +15,7 @@
 		a4( a8)
 		\espace \espace		
 		r8 a8 a16[ a a a]
-		b8[ g e] e4 
+		a8[b g] e4 
 		\endBar
 	}
 
@@ -27,8 +27,8 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-	        e8[ g] a[  a] a[ a]   a[ \cesure a16 g]  a8[ b a]  a4( \cesure a8) a[ b]
-		g8[ e]
+	        e8[ g] a[  a] a[ a]   a[ \cesure a16 a]  g8[ a b]  a4( \cesure \pespace a8) a16[ a
+		b g]
 		e4
 		\endBar
 	}
@@ -59,15 +59,15 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		\times 2/3 e8[ g]  a8[ a] a4 
-		a8[ a] g[
-		a] b[ a] a4 \cesure \pespace
-\times 2/3 {a8[ b g]} e4 		
+		a8[ a] a16[
+		g a b] a4 \cesure \pespace
+                \times 2/3 {a8([ b) g]} e4(  e8) 		
 		\endBar
 	}
 
 	\addlyrics {
 		%Dieu a don -- né son Fils u -- ni -- que. " A" -- lle -- lu -- "ia !"
-		God so loved the world that he gave his on -- ly Son. " A" -- lle -- lu -- "ia !"
+		God so loved the world that he gave his on -- ly Son. "Al" - -- le -- lu -- "ia!"
 		\markup { \citation #"Jn 3:16" } 
 	}
 }
@@ -80,12 +80,10 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
-		e8 g8[ a a]
-		g[ b]
-		a4
-		\cesure \pespace
-		a8[ \pespace g] a[ \pespace b]
-		g4( \cesurebasse e8)
+                a a[ g a] b4( a8[ a])
+                \cesure \pespace
+		a8[ \pespace a] g[ \pespace a]
+		\stemUp b4( \cesurebasse g8)
 		e4
 		\endBar
 	}
@@ -101,13 +99,13 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		a8 g[ b]
+		a8[ g b]
 		a4
 		\cesure
-		a8 a16[ a a8]  a8[ b] g[ e]
+		a8 a16[ a a8]  a8[ a] b[ g]
 		e4
 		\cesureall
-		\times 2/3 { e8 g b }
+		\times 2/3 { e8[ g b] }
 		a[\( g]
 		a4\)
 		\endBar
@@ -115,7 +113,7 @@
 
 	\addlyrics {
 		%Dieu a res -- sus -- ci -- té Jé -- sus, il ne l'a pas a -- ban -- don -- né aux en -- fers. Al -- le -- lu -- "ia !" _ _
-		God raised him up, re -- leas -- ing him from the throes of death.  Al -- le -- lu -- "ia !" _ _
+		God raised him up, re -- leas -- ing him from the throes of death.  Al -- le -- lu -- "ia!" _ _
 		\markup { \citation #"Acts 2:24" } 
 	}
 }
