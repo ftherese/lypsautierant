@@ -4,3 +4,4 @@ psautier/seasons/easter/Easter
 psautier/seasons/ordinaryTime/ordinaryTime.tex
 *.ps
 en-US/tmp-lilypond-qLfxND
+*.log
