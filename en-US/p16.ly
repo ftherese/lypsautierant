@@ -7,7 +7,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		f8[ a] c4( d8) b[ b c] a4( a8)
+		f8[ a] c4( c8) d[ b c] a4( a8)
 		\endBar
 		
 	}
@@ -25,9 +25,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
 		
-		r8 f8[ a] c[ c c] 
-		c8[ c] c4  
-		c8[ c d] c4 
+		r8 f8[ a] c16[ c c 
+		c c] c[  
+		c c d] c4 
 		\cesure \espace \espace
 		c8[ c] \cesure c[ c d]  \cesure
 		b8[ c] a4
@@ -54,24 +54,18 @@
 		f8 a[ c c] 
 		 c8[ d] 
 		c4 
-		 r8 c[ c] d[ b] 
+		 r8 c[ c] c[ d] 
 		b[ c] a4 
 		\pespace
 		\barre
-		\times 2/3 { r8_\( a[ g\)] }
-		\stemUp
-		a[\( c\)] 
-		b4\( a8\) r
-		\stemNeutral
-
-		
-		
+		a( g8) a([ c b]) a4
 		\endBar
 	}
 
 	\addlyrics {
 		% Les ser -- vi -- teurs de Dieu l'a -- do -- re -- ront, ils ver -- ront sa fa -- ce. "(Al" -- le -- lu -- _ "ia !)" _ 
-		His ser -- vants will wor -- ship him. They will look up -- on his face.
+		His ser -- vants will wor -- ship him.
+		They will look up -- on his face. Al -- le -- lu - - -- ia
 		\markup { \citation #"Rv 22:3-4" } 
 	}
 	
@@ -82,8 +76,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
-		 r8 f a[ c] d[ d] 
-		 c4( \cesurebasse d8) b[ b c] a4
+		 r8 f a[ c] c[ d] 
+		 c4( \cesurebasse c8) d[ b c] a4
 		
 		
 		\endBar
