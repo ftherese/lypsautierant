@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 %\markup {  \hspace #-10 \fill-line { "Psalm 23" "Mode Peregrinus" \null \null } }
 \noPageBreak
@@ -23,7 +23,15 @@
 
 	\addlyrics {
 		De -- vant le Christ, s'ou -- vrent les por -- tes du ciel, en sa chair il mon -- te vers son Pè -- re.
- 		\markup { \citation #"St Irénée" } }
+ 		%He knows one and the same Jesus Christ, to whom the gates of heaven were opened because of His bodily assumption. He will also come in the same flesh in which He suffered, in order to reveal the glory of the Father
+                %Irenaeus of Lyons. (2012). St. Irenaeus of Lyons: Against the Heresies, Book 3. (I. M. C. Steenberg, Ed., D. J. Unger, Trans.) (Vol. 64, p. 83). New York; Mahwah, NJ: The Newman Press.
+ 		Jesus Christ, to whom the gates of heaven were opened 
+ 		because of His bodily assumption. 
+ 		He will also come in the same flesh in which He suffered, 
+ 		in order to reveal the glory of the Father
+                %But, when our Christ arose from the dead and ascended into Heaven, the heavenly princes chosen by God were ordered to open the gates of Heaven that the King of Glory might enter and sit at the right hand of the Father until He makes His enemies His footstool
+                %Falls, T. B. with Justin Martyr. (1948). The First Apology, The Second Apology, Dialogue with Trypho, Exhortation to the Greeks, Discourse to the Greeks, The Monarchy or The Rule of God (Vol. 6, p. 203). Washington, DC: The Catholic University of America Press.
+                \markup { \citation #"St Irénée" } }
 	
 	
 }
