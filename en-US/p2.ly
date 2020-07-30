@@ -9,7 +9,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
-		 r8_\( c[ d]\)  f[ e] f[ g8]   f4 r8 f f[  e8 c] d d4
+		 c8[ d] f[ f] f[ g] f4( f8) f[ f] c[ e] d4
 		
 		\endBar
 	}
@@ -23,13 +23,14 @@ This is my be -- lo -- ved Son, with whom I am well pleased.
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Easter } }
-		{r8_\( c[ d]\)} c8[ c] \pespace r8  c8[ f] f[ f8] f[ f f] f[ e f] g[ f] \ifIndent r8 f[ f8] f[ f] f[ e] c[ d] d4  \pespace
-		\barre \pespace r8 f8[ g] a g4
+		{r8_\( c[ d]\)} c8[ c] \pespace r8  c8[ f] f[ f8] f[ f f] e[ f g] f[ f] \ifIndent r8_( f[ f8]) f[ f f f] c[ e] d4  \pespace
+		\ifIndent \pespace r8 f8 g[( a)] g4( g8)
 		\endBar
 	}
 
 	\addlyrics {
-		To the vic -- tor, I will give au -- tho -- ri -- ty o -- ver the na -- tions. He will rule them with an i -- ron rod. " (Al" -- le -- lu -- "ia!)"
+		To the vic -- tor, I will give au -- tho -- ri -- ty o -- ver the na -- tions. 
+		He will rule them with an i -- ron rod. " (Al" -- le __ - -- lu -- "ia!)"
 		\markup { \citation #"Rv 2:26-27" } 
 	}
 }
@@ -38,7 +39,7 @@ This is my be -- lo -- ved Son, with whom I am well pleased.
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
-		f8[ f  f8] f8[ e] f8[ g] f4\(  f8\) f8[e8] c8 d4
+		c8[ d  f8] f8[ e] f8[ g] f4\(  f8[\) e8 c8] d4( d8)
 		\endBar
 	}
 	\addlyrics {

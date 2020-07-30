@@ -9,7 +9,7 @@ ifIndent = {
 	\bar " "
 	\overrideProperty 
      		 	Score.NonMusicalPaperColumn.line-break-system-details
-     		 	#'((X-offset . 25.0)) 
+     		 	#'((X-offset . 0.0)) 
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
         \once \override Staff.Clef#'break-visibility = #all-invisible
         \once \override Staff.KeySignature#'break-visibility = #all-invisible 
@@ -21,7 +21,7 @@ barre = {
 	\bar "|"
 	\overrideProperty 
      		 	Score.NonMusicalPaperColumn.line-break-system-details
-     		 	#'((X-offset . 25.0))
+     		 	#'((X-offset . 0.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
         \once \override Staff.Clef#'break-visibility = #all-invisible
         \once \override Staff.KeySignature#'break-visibility = #all-invisible 
@@ -37,7 +37,7 @@ pecesure = {
 	\bar "|"
 	\overrideProperty 
      		 	Score.NonMusicalPaperColumn.line-break-system-details
-     		 	#'((X-offset . 25.0))
+     		 	#'((X-offset . 0.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
         \once \override Staff.Clef#'break-visibility = #all-invisible
         \once \override Staff.KeySignature#'break-visibility = #all-invisible 
@@ -54,7 +54,7 @@ cesure = {
 	\bar "|"
 	\overrideProperty 
      		 	Score.NonMusicalPaperColumn.line-break-system-details
-     		 	#'((X-offset . 25.0))
+     		 	#'((X-offset . 0.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
         \once \override Staff.Clef#'break-visibility = #all-invisible
         \once \override Staff.KeySignature#'break-visibility = #all-invisible 
@@ -70,7 +70,7 @@ cesurebasse = {
 	\bar "|"
 	\overrideProperty 
      		 	Score.NonMusicalPaperColumn.line-break-system-details
-     		 	#'((X-offset . 25.0))
+     		 	#'((X-offset . 0.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
         \once \override Staff.Clef#'break-visibility = #all-invisible
         \once \override Staff.KeySignature#'break-visibility = #all-invisible 
@@ -86,7 +86,7 @@ cesuretresbasse = {
 	\bar "|"
 	\overrideProperty 
      		 	Score.NonMusicalPaperColumn.line-break-system-details
-     		 	#'((X-offset . 25.0))
+     		 	#'((X-offset . 0.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
         \once \override Staff.Clef#'break-visibility = #all-invisible
         \once \override Staff.KeySignature#'break-visibility = #all-invisible 
@@ -102,7 +102,7 @@ cesureall = {
 	\bar "|"
 	\overrideProperty 
      		 	Score.NonMusicalPaperColumn.line-break-system-details
-     		 	#'((X-offset . 25.0))
+     		 	#'((X-offset . 0.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
         \once \override Staff.Clef#'break-visibility = #all-invisible
         \once \override Staff.KeySignature#'break-visibility = #all-invisible 
@@ -115,7 +115,7 @@ espall = {
 	\bar ""
 	\overrideProperty 
      		 	Score.NonMusicalPaperColumn.line-break-system-details
-     		 	#'((X-offset . 25.0))
+     		 	#'((X-offset . 0.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
         \once \override Staff.Clef#'break-visibility = #all-invisible
         \once \override Staff.KeySignature#'break-visibility = #all-invisible 
@@ -133,7 +133,7 @@ cesurelongue = {
 	s8
 	\overrideProperty 
      		 	Score.NonMusicalPaperColumn.line-break-system-details
-     		 	#'((X-offset . 25.0))
+     		 	#'((X-offset . 0.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
         \once \override Staff.Clef#'break-visibility = #all-invisible
         \once \override Staff.KeySignature#'break-visibility = #all-invisible 
@@ -146,7 +146,7 @@ espace = {
 	\bar ""
 	\overrideProperty 
     		 	Score.NonMusicalPaperColumn.line-break-system-details
-     		 	#'((X-offset . 25.0))
+     		 	#'((X-offset . 0.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
         \once \override Staff.Clef#'break-visibility = #all-invisible
         \once \override Staff.KeySignature#'break-visibility = #all-invisible 
@@ -160,7 +160,7 @@ pespace = {
 	\bar ""
 	\overrideProperty 
      		 	Score.NonMusicalPaperColumn.line-break-system-details
-     		 	#'((X-offset . 25.0))
+     		 	#'((X-offset . 0.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
         \once \override Staff.Clef#'break-visibility = #all-invisible
         \once \override Staff.KeySignature#'break-visibility = #all-invisible 
@@ -172,7 +172,7 @@ indentLine = {
 	s4 \bar " " \break
 	\overrideProperty 
      		 	Score.NonMusicalPaperColumn.line-break-system-details
-     		 	#'((X-offset . 25.0))
+     		 	#'((X-offset . 0.0))
 %	ces deux lignes enlèvent ce qui arrive normalement au debut d'un ligne
         \once \override Staff.Clef#'break-visibility = #all-invisible
         \once \override Staff.KeySignature#'break-visibility = #all-invisible 

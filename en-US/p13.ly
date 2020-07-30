@@ -31,7 +31,7 @@
 		e[ f g] f4(\cesure\pespace
 		\times 2/3 {f8) f[ f f] }
 		f[ f]
-		\times 2/3 { e8[ c d] }
+		\times 2/3 { f8[ c e] }
 		d4
 		\endBar
 	}
@@ -46,7 +46,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
-		f8[  g] \slurDashed f4( e8[) c]
+		f8[  f] \slurDashed f4( e8[) c]
 		d4_\( d8\)
 		\endBar
 	}
@@ -62,23 +62,22 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		\times 2/3 { r8_\( c d\) }
-		\times 2/3 { c[ c f] }
-		\times 2/3 { e f g }
-		f4
-		r8 f
-		f[\( f\)]
-		f16[\( f\) f f] 
-		\times 2/3 { f8 e c }
-		\times 2/3 { d4\( d8\) }
+		c8 d[ c f] f4 \pecesure 
+		f8[ f f] f[ f] e[ f g] f4( f8[ \cesure
+		f f]) c[ e] d4
 		\cesureall\pespace
-		\times 2/3 {c8[ d f]}
-		g4
+		\times 2/3 {c8([ d) f]}
+		g4( g8)
 		\endBar
 	}
 
 	\addlyrics {
-		Le pé -- ché a ré -- gné dans la mort, la grâ -- ce rè -- gne pour la vie é -- ter -- nel -- le. Al -- le -- lu -- "ia !"
+		%Le pé -- ché a ré -- gné dans la mort, la grâ -- ce rè -- gne pour la vie é -- ter -- nel -- le. Al -- le -- lu -- "ia !"
+	        As sin reigned in death, 
+	        grace al -- so reigns through jus -- ti -- fi -- ca -- tion 
+	        for e -- ter -- nal life. 
+	        Al - -- le -- lu -- "ia!"
+
 		% so that, as sin reigned in death, grace al -- so might reign through jus -- ti -- fi -- ca -- tion for e -- ter -- nal life through Je -- sus Christ our Lord. Al -- le -- lu -- "ia !"
 		\markup { \citation #"Rom 5:21" } 
 	}

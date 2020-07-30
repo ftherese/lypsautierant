@@ -7,7 +7,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		 r8 g a[ c c]  b[ c] d[ c] \cesure\pespace b8[ c a] g[ g]
+		 r8 g a[ c b]  c[ d] c4( c8) \cesure\pespace b8[ c a] g4( g8)
 		
 		\endBar
 	}
@@ -47,7 +47,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {Adv.} }
-		g8 a[ c] d[ c] c4 b8[ c a] g4
+		g8 a[ c] c[ d] \stemUp c4_( \cesure  a8) g([ g] g4)
 		
 		\endBar
 	}
@@ -63,16 +63,12 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {Lent} }
-		
 		g8[ a g]
-		c4 c8 
+		c4( c8) 
 		b[ c d]  
 		c4 \cesure \pespace \ifIndent
 		c16[ c c c] c[ c] c8[ b] c[ a] 
-		g[ g]
-
-		
-		
+		g4( g8)
 		\endBar
 	}
 
@@ -87,15 +83,14 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		
-		 r8 g a[ 
+		r8 g a[ 
 		g] c[ 
-		b] c[ d] \cesure \pespace
-		d8[ c d] 
-		c4 \cesure \pespace \indentLine
-		c8[ c]
-		c[ c] c[ c]
-		b[ c] a[ g] g4
+		b( c)] d4( d8) \cesure \pespace
+		d8[ c( d)] 
+		c4( c8) \cesure \pespace \indentLine
+		r8[ c8 c]
+		c[ c c] c4
+		c8[ b] c[ a] g4
 
 		
 		
@@ -104,7 +99,7 @@
 
 	\addlyrics {
 		%Ton É -- poux est ton Cré -- a -- teur, Al -- le -- lu -- "ia !" Ton Ré -- demp -- teur, c'est le Dieu de tou -- te la ter -- re.
-		Your hus -- band is your Mak -- er, Al -- le -- lu -- "ia !" Your re -- deem -- er is called God of all the earth.
+		Your hus -- band is your _ Mak -- er, Al -- le _ -- lu -- "ia !" Your re -- deem -- er is called God of all the earth.
  		\markup { \citation #"Is 54:5" } }
 	
 	

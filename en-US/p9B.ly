@@ -8,11 +8,11 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {O.T. Chr.} }
-		\times 2/3 { r8\( c8[ b]\) c[ d d] f16[d d c]}e4 
+		\times 2/3 { r8\( c8[ b]\) c[ d d] f16[e e d]}e4 
 		\cesure \pespace 
-		d8[ e d] c[ c]
+		d8 e16[ d c b]
 		\stemUp
-		b4\( a4\)
+		a4\( a8\)
 
 		
 		
@@ -32,12 +32,12 @@
 		\set Staff.instrumentName = \markup{ \left-column {O.T. Lent} }
 		
 		\times 2/3 {g8[ c b]}  
-		\times 2/5 { c8[ d16 d] d8[ d] }
+		\times 2/5 { c8[ d d] d8[ d] }
 		\times 2/3 { f8[ e d] }e4 
 		\cesure 
 		\ifIndent 
 		\times 2/3 {r16 d16[ d d]} 
-		e8[ d] d8[ c] c[ b] a4 
+		e16[ d c b] a8\tenuto[ a a] 
 		
 		
 		
@@ -56,9 +56,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {Adv.} }
 		
-		\times 2/3 {d8[ d f] e[ d] e4\( e8\) \espace r8 ] }
- \cesure \espace  d8[ c] c[ b] a4
-
+		d8 d[ f] e[ d] e4\( e8\) \espace r8 ]
+                \cesure \espace  e8[ d] c[ b] a4
 		
 		
 		\endBar
@@ -80,13 +79,15 @@
 		d8[ d d] f[ e d] e4
 		\pespace\cesure\pespace r16 d[ d d]
 		e16[ d d c] 
-		\stemDown c8[ b] a4\pespace \pespace
-		\times 2/3 {r8 c8[ d e]} d4 \endBar
+		c8[ b] a4\pespace \pespace
+		\times 2/3 {r8 c8 d[( e)]} d4( d8) \endBar
 	}
 
 	\addlyrics {
 		%Dé -- plo -- yant la for -- ce de son bras, il dis -- per -- se les su -- per -- bes. " Al" -- le -- lui -- "a !" 
-		He has shown might with his arm, dis -- persed the ar -- ro -- gant of mind and heart. " Al" -- le -- lui -- "a !"
+		He has shown might with his arm, 
+		dis -- persed the ar -- ro -- gant of mind and heart. 
+		"Al" -- le _ -- lu -- "ia!"
 		\markup { \citation #"Lk 1:51" } }
 	
 	
