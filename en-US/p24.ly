@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 24" "Mode 6" \null \null } }
@@ -9,20 +9,19 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		r8 f16[ g]
-		a[\( a\) a bes]
-		a8[ g]
-		a4
-		\times 2/3 { a8 a a }
-		a[\( a\)] 
-		\times 2/3 { g a f }
-		f4
+		f8[ g a] bes[( a) g] a4 \cesure
+		r8_( a[ a]) a16[ a a a] g8[ a] f4( f8)
 		\endBar
 	}
 	\addlyrics {
-		 L'es -- pé -- ran -- ce su -- ra -- bond -- "e en" vous par la puis -- san -- ce de l'Es -- prit Saint.
-		%so that you may a -- bound in hope by the po -- wer of the ho -- ly Spi -- rit.
-		\markup { \citation #"Rm 15:13" }
+		 %L'es -- pé -- ran -- ce su -- ra -- bond -- "e en" vous par la puis -- san -- ce de l'Es -- prit Saint.
+                 %May the God of hope fill you with all joy and peace in believing, so that you may abound in hope by the power of the holy Spirit.
+                 May 
+                 %the God of hope fill you with all joy and peace in believing, so that 
+                 you 
+                 %may 
+                 a -- bound _ in hope by the po -- wer of the ho -- ly Spi -- rit.
+        \markup { \citation #"Rm 15:13" }
 	}
 }
 
