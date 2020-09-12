@@ -40,9 +40,11 @@
 	}
 
 	\addlyrics {
-		Dieu nous a é -- lus dans le Christ pour ê -- tre saints et im -- ma -- cu -- lés.
+		%Dieu nous a é -- lus dans le Christ pour ê -- tre saints et im -- ma -- cu -- lés.
 		%Bles -- sed be the God and Fa -- ther of our Lord Je -- sus Christ, who has blessed us in Christ with ev -- er -- y spi -- rit -- ual bless -- ing in the heav -- ens, as he chose us in him, be -- fore the foun -- da -- tion of the world, to be ho -- ly and with -- out blem -- ish be -- fore him. 
-		\markup { \citation #"Eph 1:3-4" } }
+		%[God] chose us in [Christ], be -- fore the foun -- da -- tion of the world, to be ho -- ly and with -- out blem -- ish be -- fore him.
+		God chose us in Christ to be ho -- ly and with -- out blem -- ish be -- fore him.
+		\markup { \citation #"Eph 1:4" } }
 	
 	
 }
@@ -62,8 +64,8 @@
 	}
 
 	\addlyrics {
-		Mar -- chez tant que vous av -- ez la lu -- miè -- re.
-		% Walk while you have the light, so that dark -- ness may not o -- ver -- come you. 
+		%Mar -- chez tant que vous av -- ez la lu -- miè -- re.
+		Walk while you have the light, so that dark -- ness may not o -- ver -- come you.
 		\markup { \citation #"Jn 12:35" } }
 	
 	
@@ -80,8 +82,8 @@
 	}
 
 	\addlyrics {
-		March -- "e en" ma pré -- senc -- "e et" sois par -- fait. " Al" -- le -- lu -- "ia !"
-		%Walk in my pre -- sence and be blame -- less. " Al" -- le -- lu -- "ia !"
+		%March -- "e en" ma pré -- senc -- "e et" sois par -- fait. " Al" -- le -- lu -- "ia !"
+		Walk in my pre -- sence and be blame -- less. " Al" -- le -- lu -- "ia !"
 		\markup { \citation #"Gn 17:1" } }
 	
 	
@@ -100,8 +102,8 @@
 	}
 
 	\addlyrics {
-		Sei -- gneur, tu sais tout, tu sais bien que je t'ai -- me. " Al" -- le -- lu -- "ia !"
-		%“Lord, you know ev -- er -- y -- thing; you know that I love you.” 
+		%Sei -- gneur, tu sais tout, tu sais bien que je t'ai -- me. " Al" -- le -- lu -- "ia !"
+		“Lord, you know ever -- y -- thing; you know that I love you.” Al -- le -- lu -- ia ! 
 		\markup { \citation #"Jn 21:17" } }
 	
 	
