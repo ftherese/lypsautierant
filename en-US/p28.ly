@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 
 %\markup {  \hspace #-10 \fill-line { "Psalm 28" "Mode 8" \null \null } }
@@ -16,8 +16,11 @@
 	}
 
 	\addlyrics {
-		A la voix de l'ar -- chan -- ge, à l'ap -- pel de Dieu, le Sei -- gneur lui- -- mê -- me des -- cen -- dra du ciel.
+		%A la voix de l'ar -- chan -- ge, à l'ap -- pel de Dieu, le Sei -- gneur lui- -- mê -- me des -- cen -- dra du ciel.
  		%For the Lord him -- self, with a word of com -- mand, with the voice of an arch -- an -- gel and with the trum -- pet of God, will come down from heav -- en, and the dead in Christ will rise first.
+ 		The Lord him -- self, with a word of com -- mand, with the voice of an arch -- an -- gel 
+ 		%and with the trum -- pet of God, will come down from heav -- en,
+ 		will come down from heav -- en
  		\markup { \citation #"1 Thes 4:16" } }
 	
 	
