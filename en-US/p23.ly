@@ -9,29 +9,31 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		r16 a[ bes a] a4 
-		\times 2/3 { a8[\( g\) bes] }
-		\times 2/3 { a[\( g\) f] }
-		f4
-		\pespace \indentLine
-		r8 g16[ g] g8.[ g16] g[\( d\) f f] e4\( d8\) r
-
-		
+		a8 a[ bes] a[ a a] a[ g bes] a[ g] f4 \cesure \pespace 
+		g8[ g g] g[ g g] g[ g g] g[ d] f16[ f f e] d4( d8)
+	
 		
 		\endBar
 	}
 
 	\addlyrics {
-		De -- vant le Christ, s'ou -- vrent les por -- tes du ciel, en sa chair il mon -- te vers son Pè -- re.
+		%De -- vant le Christ, s'ou -- vrent les por -- tes du ciel, en sa chair il mon -- te vers son Pè -- re.
  		%He knows one and the same Jesus Christ, to whom the gates of heaven were opened because of His bodily assumption. He will also come in the same flesh in which He suffered, in order to reveal the glory of the Father
                 %Irenaeus of Lyons. (2012). St. Irenaeus of Lyons: Against the Heresies, Book 3. (I. M. C. Steenberg, Ed., D. J. Unger, Trans.) (Vol. 64, p. 83). New York; Mahwah, NJ: The Newman Press.
- 		Jesus Christ, to whom the gates of heaven were opened 
- 		because of His bodily assumption. 
- 		He will also come in the same flesh in which He suffered, 
- 		in order to reveal the glory of the Father
+ 		%Jesus Christ, to whom 
+ 		The gates of hea -- ven were o -- pened to Je -- sus Christ.
+ 		%because of His bodily assumption. 
+ 		He will 
+ 		%also come 
+ 		re -- turn in the 
+ 		%same 
+ 		flesh 
+ 		%in which He suffered, 
+ 		%in order 
+ 		to re -- veal the glo -- ry of the Fa -- ther.
                 %But, when our Christ arose from the dead and ascended into Heaven, the heavenly princes chosen by God were ordered to open the gates of Heaven that the King of Glory might enter and sit at the right hand of the Father until He makes His enemies His footstool
                 %Falls, T. B. with Justin Martyr. (1948). The First Apology, The Second Apology, Dialogue with Trypho, Exhortation to the Greeks, Discourse to the Greeks, The Monarchy or The Rule of God (Vol. 6, p. 203). Washington, DC: The Catholic University of America Press.
-                \markup { \citation #"St Irénée" } }
+                \markup { \citation #"St Ireneaus" } }
 	
 	
 }
@@ -41,19 +43,17 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		a8[ bes] a4
-		\cesure \pespace
-		\times 2/3 { a8[ a g] } \times 2/3 { bes8[ a g] } \times 2/3 { f[\( f\)\cesurebasse  g] } 
-		g16[\( g\) g g] \times 2/3 { g8[ d f] } f[ e] d4
-
+                a8 a[ a bes] a4 \pecesure r8_( a8[ a]) a8[ a] g16[ bes a g]  f4\cesure \pespace
+                g8 g[ d] f[ f e] d4
 		
 		
 		\endBar
 	}
 
 	\addlyrics {
-		Je suis Roi, je suis ve -- nu dans le mon -- de pour ren -- dre té -- moi -- gna -- "ge à" la vé -- ri -- té.
- 		%“You say I am a king. For this I was born and for this I came in -- to the world, to tes -- ti -- fy to the truth.
+		%Je suis Roi, je suis ve -- nu dans le mon -- de pour ren -- dre té -- moi -- gna -- "ge à" la vé -- ri -- té.
+ 		%“You say I am a king. 
+ 		For this I was born and for this I came in -- to the world, to tes -- ti -- fy to the truth.
  		\markup { \citation #"Jn 18:27" } }
 	
 	
