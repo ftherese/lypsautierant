@@ -63,20 +63,19 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Adv. Chr. } }
-		
-		a8 bes[ a] g16[ bes a g] f8[\( f\)]
-		\cesure \pespace
-		\times 2/3 { g[ g d] }
-		f[ f] \times 2/3 { e4\(   d8\) }
-		
-		
-		
+		 a8 g[ bes] a[ g] f4( f8) \cesure
+		 r8_( g[ g]) g[ d] f[ f e] d4( d8)
 		\endBar
 	}
 
 	\addlyrics {
-		Voi -- ci ve -- nir le roi de gloi -- re, il vient sau -- ver son peu -- ple.
+		%Voi -- ci ve -- nir le roi de gloi -- re, il vient sau -- ver son peu -- ple.
  		%Who is this king of glory? The Lord, strong and mighty, the Lord, mighty in war. Lift up your heads, O gates; rise up, you ancient portals, that the king of glory may enter. Who is this king of glory? The Lord of hosts, he is the king of glory.
+  		%Who is this king of glory? The Lord, strong and mighty, the Lord, mighty in war. Lift up your heads, O gates; 
+  		Rise up, you an -- cient por -- tals, 
+  		that the king of glo -- ry may en -- ter.
+  		%Who is this king of glory? The Lord of hosts, he is the king of glory.
+
  		\markup { \citation #"Cf. Ps 23:8-10" } }
 	
 	
@@ -88,16 +87,17 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
-		a8 \times 2/3 { a[\cesure \pespace a16 a] } \times 2/3 { a8[ a g] } \times 2/3 { bes[ a\( g]\) } \times 2/3 { f[\( f\)\cesurebasse \pespace g] } d16[ f f e] d4
-		
+		\stemUp bes8 a[ a16 a] a8[ a] g16[ bes a g] f4( f8) \cesure
+		d f[ f e] d4
 		
 		
 		\endBar
 	}
 
 	\addlyrics {
-		Voi -- "ci," "j'ai" ou -- vert de -- vant toi un -- e por -- te que nul ne peut fer -- mer.
- 		%I know your works (be -- hold, I have left an o -- pen door be -- fore you, which no one can close).
+		%Voi -- "ci," "j'ai" ou -- vert de -- vant toi un -- e por -- te que nul ne peut fer -- mer.
+ 		%I know your works (
+ 		Be -- hold, I have left an o -- pen door be -- fore you, which no one can close. %).
  		\markup { \citation #"Rv 3:8" } }
 }
 
@@ -106,19 +106,20 @@
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		a8[\cesure\pespace bes] a[ g] f[\( f\)]\cesure \pespace
-\times 2/3 { g8[ g g] } \times 2/3 { g[\( g\) g] } \times 2/3 { g[\pespace\cesurebasse\pespace d f] } f[ e] d4
-		\cesureall  \pespace
-		\times 2/3 { a'8[ g a] }
-		a4
+		bes8[ a g] f4 \cesure
+		g8 g[ g] g[ g d] f[ f e] d4
+		f8[ g( a)] g4( g8)
 		
 		
 		\endBar
 	}
 
 	\addlyrics {
-		"Moi," je suis la Por -- te. Si quel -- qu'un en -- tre par "moi," il se -- ra sau -- vé. Al -- le -- lu -- "ia !"
- 		%I am the gate. Who -- ev -- er en -- ters through me will be saved, and will come in and go out and find pas -- ture.
+		%"Moi," je suis la Por -- te. Si quel -- qu'un en -- tre par "moi," il se -- ra sau -- vé. Al -- le -- lu -- "ia !"
+ 		I am the gate. 
+ 		Who -- ev -- er en -- ters through me will be saved, 
+ 		Al -- le _ -- lu -- ia!
+ 		%and will come in and go out and find pas -- ture.
  		\markup { \citation #"Jn 10:9" } }
 	
 	
