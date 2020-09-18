@@ -30,19 +30,14 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
-		a8
-		\times 2/3 { a[ \cesure\pespace g bes] }
-		a[ g]
-		a4
-		\cesure\pespace
-		\times 2/3 { a8 a a }
-		a16[ a g a]
-		f4\( f8\) r
+		a8[( bes) a] \pecesure \stemUp g a[ a] a4 \cesure (r8
+		a8[ a]) a16[ a g a] f4( f8)
+		
 		\endBar
 	}
 	\addlyrics {
 		 %Jé -- sus, sou -- viens- -- toi de moi quand tu vien -- dras dans ton Roy -- au -- me.
-		“Je -- sus, re -- mem -- ber me when you come in -- to your king -- dom.”
+		“Je _ -- sus, re -- mem -- ber me when you come in -- to your king -- dom.”
 		\markup { \citation #"Lk 23:42" }
 	}
 }
@@ -52,12 +47,9 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
-		\times 2/3 { r8_\( f[ g]\) } 
-		\times 2/3 { a[ a a] } 
-		\times 2/5 {a16[a a a bes ]}
-		\times 2/3 { a8[ g a] } a4 \pespace
-		\times 2/3 { a8[ a a] } 
-		a[ g] a[ f] f4
+		f16[ g a a a] a8[ a a] a8[ a] bes8[ a g] a4( a8[ a]) \cesure
+		r8_( a[ a]) a[ a] a16[ a g a] f4( f8) 
+		
 		\endBar
 	}
 	\addlyrics {
@@ -78,17 +70,9 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Chr. Easter } }
-		\times 2/3 { r8_\( f g\) }
-		a[\( a\)]
-		\times 2/3 { a g bes }
-		a4 \cesure \pespace \times 2/3 {a8[ g a]} a4 
-		\cesure \indentLine 
-		\times 2/3 { r8_\( a a\) }
-		a[ a]
-		\times 2/3 { a a a }
-		\times 2/3 { a[ a a] }
-		\times 2/3 { g a f }
-		f4
+		a4( a8) a[ a a] g4 \cesure
+		a8 a[ a] a[ a] a[ a a] bes[ a a] g[ g] a4( \pecesure \pespace
+		a8[ a]) g[ a] f4( f8)
 		\endBar
 	}
 	\addlyrics {
@@ -96,7 +80,8 @@
 		%hope does not dis -- a -- ppoint, al -- le -- lu -- "ia !" be -- cause the love of God has been poured out in -- to our hearts through the ho -- ly Spir -- it that has been gi -- ven to us.
 		% alleluia
 		%that has been given to us
-		Hope does not dis -- a -- ppoint, be -- cause the love of God has been poured out in -- to our hearts through the ho -- ly Spir -- it
+		Hope does not dis -- a -- ppoint,
+		be -- cause the love of God has been poured out in -- to our hearts through the ho -- ly Spir -- it
 		\markup { \citation #"Rom 5:5" }
 	}
 }
