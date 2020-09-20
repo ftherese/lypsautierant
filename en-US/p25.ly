@@ -81,10 +81,8 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		f8 \times 2/3 { a[\cesure\pespace c d] }
-		c8[\cesure\pespace c16 d] \times 2/3 { b8[ b c] }
-		\times 2/3 { a4\( a8\) }
-		\cesure \pespace
+		f8 a c c c c \cesure
+		c c c c c c \cesure \pespace
 		\times 2/3 { c[ d e] } d4
 		\endBar
 	}
