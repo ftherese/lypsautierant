@@ -9,7 +9,7 @@
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
 		
 		c8 d[\( c\)] \cesure\pespace
-		\times 2/3 { c8[ f f] }
+		\times 2/3 { c8[ f f f] }
 		f16[ f e f] \times 2/3 { g8[\( f\)\cesurebasse\pespace g] }  f4 
 		\ifIndent r8 f8 f[ \cesurebasse f] f[ f]  f16[ e c\( d\)] d4
 		
@@ -38,17 +38,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Easter } }
 		
-		c8[\( c\)] \cesure\pespace
-		\times 2/3 { d[ c f] }
-		f16[\( f\) e f] 
-		\times 2/3 { g8[ f g] }
-		f4 
-		
-		\indentLine  r8 f8
-		f16[ f f f] 
-		\times 2/3 { e8[\( c\) d] }
-		d4 \pespace
-		 \barre \pespace
+		f8 f f f f f f f f \cesure
+		f f f f f f f f \cesure
+
 		\times 2/3 { r8_\( f[ g\)] }
 		a[\( g\)] g4 
 		
@@ -59,7 +51,7 @@
 
 	\addlyrics {
 		%Pè -- re, je te rends grâ -- ce de m'a -- voir é -- cou -- té, je sais que tu m'e -- xau -- ces tou -- jours. "(Al" -- le -- lu -- - -- "ia !)"
-		“Fa -- ther, I thank you for hear -- ing me. I know that you al -- ways hear me (Al -- le -- lu -- ia!)
+		“Fa -- ther, I thank you for hear -- ing me. I know that you al -- ways hear me. (Al -- le -- lu -- - -- ia !)
 		\markup { \citation #"Jn 11:41-42" } }
 	
 	
@@ -70,9 +62,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
 		
-		\times 2/3 { f8[ e f] } g[ f]
-		\times 2/3 { f[ f f] }
-		\times 2/3 { e[ c d] } d4
+		c8 c c c c c c c c c c c c
 		
 		
 		\endBar
@@ -90,16 +80,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
-		\times 2/3 { c8[ d c] }
-		c16[ f f f] 
-		\times 2/3 { f8[ f f] }
-		\slurDashed
-		f4( 
-		\times 2/3 { e8)[ f g] } 
-		
-		f[\( f\)]
-		\cesure \pespace
-		f16[ e c d] d4
+		c8 c c c c c c c c c \cesure
+		c c c c
 		
 		
 		
