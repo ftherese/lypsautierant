@@ -10,7 +10,7 @@
 		\times 2/3 { r8_\( g[ a]\) }
 		g16[ c c\( c\)]
 		\times 2/3 { b8[ c d] } c[\( c\)] \cesure \pespace
-		\times 2/3 { c[ c b] } c[ a]
+		\times 2/3 { c[ c c c c b] } c[ a]
 		g4\( g8\) r8
 		\endBar
 	}
@@ -31,14 +31,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent} }
 		
-		g8 
-		\times 2/3 { a[ g c] }
-		c4
-		\cesure\pespace c8[ b] 
-		\times 2/3 { c[ a\( g\)] }
-		g4
-		
-		
+		c8 c c c c \cesure
+		c c c c c c
+
 		
 		\endBar
 	}
@@ -55,10 +50,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv.} }
 		
-		\times 2/3 { c8[ b c] }
-		a8[ g]
-		g4
-		
+		c8 c c c c c c 
 		
 		
 		\endBar
@@ -79,15 +71,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		
-		g8 
-		\times 2/3 { a[ g c] }
-		\times 2/3 { c[\( b\) c] }
-		d[\( c\)] c4
-		\pespace
-		\times 2/3 { r8\( c[ c\)] }
-		\times 2/3 { c4\(  c8\) }
-		\times 2/3 { c[ c c] }
-		b16[\( c\) a g] g4
+		c8 c c c c c c \cesure
+		c c c c c c c c c c c c 
 				
 		\endBar
 	}
@@ -111,13 +96,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter} }
 		
-		\times 2/3 { r8_\( g[ a\)] }
-		\times 2/3 { g[ g c] }
-		\times 2/3 { b[ c d] }
-		c4\pespace \indentLine
-		\pespace
-		\times 2/3 { r8\( c[ c\)] }
-		c[ c] c[\( c16\) c] b8[ c] a[ g] g4
+		c8 c c c c \cesure
+		c c c c c c c \cesure
+		c c c c c c c c c c \cesure
 		\times 2/3 {r8\(a[ c]\)} d[\( c\)] c4
 		
 		\endBar
