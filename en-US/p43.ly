@@ -30,8 +30,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		a8 a a a \cesure
-		a a a a a a a a \cesure
+		a8 a a a a a a a \cesure
 		a a a a a
 		
 		\endBar
@@ -39,7 +38,8 @@
 
 	\addlyrics {
 		%Nous som -- mes les grands vainq -- ueurs par ce -- lui qui nous a ai -- més.
- 		In all these things we con -- quer o -- ver -- whel -- ming -- ly through him who loved us.
+ 		%In all these things we con -- quer o -- ver -- whel -- ming -- ly through him who loved us.
+ 		We con -- quer o -- ver -- whel -- ming -- ly through him who loved us.
  		\markup { \citation #"Rom 8:37" } }
 	
 	
@@ -89,15 +89,17 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
-		a8 a a a a a a a a \cesure
-		a a a a a
+		a8 a a a a a a a a a \cesure
+		a a a
 		
 		\endBar
 	}
 
 	\addlyrics {
 		%Pro -- ste -- rnée de -- vant lui, la fem -- me di -- "sait :" Sei -- gneur, viens à mon sec -- ours.
- 		But the woman came and did him ho -- mage, sa -- ying, “Lord, help me.”
+ 		%But the woman came and did him ho -- mage, sa -- ying, “Lord, help me.”
+ 		The woman came and did him ho -- mage, sa -- ying, “Lord, help me.”
+ 		
  		\markup { \citation #"Mt 15:25" } }
 	
 	
