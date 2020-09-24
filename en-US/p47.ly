@@ -20,8 +20,9 @@
 	}
 
 	\addlyrics {
-		D'u -- ne hau -- te mon -- ta -- gne, l'an -- ge me mon -- tra la ci -- té sain -- te.
-		% He took me in spi -- rit to a great, high moun -- tain and showed me the ho -- ly ci -- ty.
+		%D'u -- ne hau -- te mon -- ta -- gne, l'an -- ge me mon -- tra la ci -- té sain -- te.
+		%He took me in spi -- rit to a great, high moun -- tain and showed me the ho -- ly ci -- ty.
+		The Angel took me in spi -- rit to a great, high moun -- tain and showed me the ho -- ly ci -- ty.
 		\markup { \citation #"Rev 21:10" }
 	}
 }
@@ -29,20 +30,15 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
-		r8 c
-		d[ f]
-		f[ \cesurebasse \pespace g]
-		f4
-		\cesure \pespace
-		\times 2/3 { f8 f f }
-		f16[\( e\) c d]
-		d4
+		
+		f8 f f f f f f f f f f f f f
+		
 		\endBar
 	}
 
 	\addlyrics {
-		Voi -- ci l'A -- gneau, de -- bout sur la mon -- ta -- gne de Si -- on.
-		%Then I looked and there was the Lamb stan -- ding on Mount Zi -- on.
+		%Voi -- ci l'A -- gneau, de -- bout sur la mon -- ta -- gne de Si -- on.
+		Then I looked and there was the Lamb stan -- ding on Mount Zi -- on.
 		\markup { \citation #"Rev 14:1" }
 	}
 }
@@ -50,35 +46,34 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
-		\times 2/3 { c8 d c }
-		\times 2/3 { f[ e f] }
-		\times 2/3 { g4\( f8\) }
-		e[ c]
-		d4
+		
+		f8 f f f f f f f f f f f \cesure
+		f f f f f f f f f 
+		
 		\endBar
 	}
 
 	\addlyrics {
-		Nous at -- ten -- dons la ci -- té que Dieu bâ -- tit. 
+		%Nous at -- ten -- dons la ci -- té que Dieu bâ -- tit. 
 		%He was look -- ing for -- ward to the ci -- ty with foun -- da -- tions, whose architect and ma -- ker is God.
-		\markup { \citation #"Heb 11:1o" }
+		A -- bra -- ham was look -- ing for -- ward to the ci -- ty whose ar -- chi -- tect and ma -- ker is God.
+		\markup { \citation #"Heb 11:10" }
 	}
 }
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
-		\times 2/3 { c8[ d c] }  f[ e] 
-		\times 2/3 { f8[ g f] }   f4 \cesure \pespace
-		\times 2/3 { f8[ f f] }  f[ f]  f[\( f\)] \cesure \pespace\indentLine
-		\times 2/3 { f[ f f] } f16[ f e\( c\)]
-		d4\( d8\) r8  
+		
+		f8 f f f f f f f \cesure
+		f f f f f f f \cesure
+		f f f f f f f
 		\endBar
 	}
 
 	\addlyrics {
-		Elle en -- fan -- ta son fils pre -- mier -- -né, l'en -- ve -- lo -- ppa de lan -- ges et le cou -- cha dans un -- e crè -- che. 
-		%She gave birth to her first -- born son. She wrapped him in swad -- dling clothes and laid him in a man -- ger.
+		%Elle en -- fan -- ta son fils pre -- mier -- -né, l'en -- ve -- lo -- ppa de lan -- ges et le cou -- cha dans un -- e crè -- che. 
+		She gave birth to her first -- born son. She wrapped him in swad -- dling clothes and laid him in a man -- ger.
 		\markup { \citation #"Lk 2:7" }
 	}
 }
@@ -90,16 +85,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
 		\times 2/3 { c8 d c }
-		c16[ f f f]
-		f8[\( f\)] 
-		\cesure \pespace
-		\times 2/3 { e f g }
-		f4
-		\pespace
-		r16 f[ f f]
-		\times 2/3 { f8\( f\) f }
-		\times 2/3 { e[\( c\) d] }
-		d4
+		c8 c c c c c c c c c c \cesure
+		c c c c c c c c
 		\cesureall
 		\times 2/3 { f8 g a }
 		g4
@@ -107,8 +94,9 @@
 	}
 
 	\addlyrics {
-		Il me mon -- tra la Ci -- té sain -- te, Jé -- ru -- sa -- lem, a -- vec en el -- le la gloi -- re de Dieu. Al -- le -- lu -- "ia !"
+		%Il me mon -- tra la Ci -- té sain -- te, Jé -- ru -- sa -- lem, a -- vec en el -- le la gloi -- re de Dieu. Al -- le -- lu -- "ia !"
 		%He... showed me the ho -- ly ci -- ty Je -- ru -- sa -- lem co -- ming down out of hea -- ven from God. It gleamed with the splen -- dor of God. Al -- le -- lu -- "ia !"
+		The An -- gel showed me the ho -- ly ci -- ty Je -- ru -- sa -- lem. It gleamed with the splen -- dor of God. Al -- le -- lu -- "ia !"
 		\markup { \citation #"Rev 21:10-11" }
 	}
 }
