@@ -36,6 +36,7 @@
 		\endBar
 	}	\addlyrics {
 		%Je vous don --  ne -- rai un cœur de chair, je met -- trai en vous mon es -- prit.
+		%I will give you a new heart, and a new spirit I will put within you. I will remove the heart of stone from your flesh and give you a heart of flesh. I will put my spirit within you so that you walk in my statutes, observe my ordinances, and keep them
 		I will give you a heart of flesh, I will put my spir -- it with -- in you.
 		\markup { \citation #"Ez 36:26-27"}
 	}
