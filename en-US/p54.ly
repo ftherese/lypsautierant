@@ -20,8 +20,8 @@
 		\endBar
 	}
 	\addlyrics {
-		Dé -- char -- gez- -- vous sur Dieu de vos far -- deaux et lui vous sou -- tien -- dra.
-		% Cast all your worr -- ies up -- on him be -- cause he cares for you.
+		%Dé -- char -- gez- -- vous sur Dieu de vos far -- deaux et lui vous sou -- tien -- dra.
+		Cast all your worr -- ies up -- on him be -- cause he cares for you.
 		\markup { \citation #"1 Pt 5:7" }
 	}
 }
@@ -30,18 +30,16 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Adv. } }
-		f8
-		g16[\( a\) a a]
-		\times 2/3 { a8[ g bes] }
-		a8.[ a16]
-		\times 2/5 {a16[a a a a]}
-		\times 2/3 { a8[ g a] }
-		f4\( f8\) r8		
+		
+		f8 g a a a a a a a a a \cesure
+		a a a a a a a 
+		
 		\endBar
 	}
 	\addlyrics {
-		La Fem -- me s'en -- fuy -- ait au dés -- ert où Dieu lui a pré -- pa -- ré un re -- fu -- ge. 
+		%La Fem -- me s'en -- fuy -- ait au dés -- ert où Dieu lui a pré -- pa -- ré un re -- fu -- ge. 
 		%The wo -- man her -- self fled in -- to the de -- sert where she had a place pre -- pared by God.
+		The wo -- man fled in -- to the de -- sert where she had a place pre -- pared by God.
 		\markup { \citation #"Rv 12:6" }
 	}
 }
@@ -49,16 +47,14 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
-		\times 2/3 { r8_\( f[ g]\) }
-		a16[ a a a]  a8[ a]		
-		a16[ a a a]  g8[ bes]
-		a8[\cesure a16 a]
-		a16[ g a f]  f4
+		
+		f8 g a a a a a a a a a a a a a a a
+		
 		\endBar
 	}
 	\addlyrics {
-		Cet en -- fant pro -- vo -- que -- ra la chute et le re -- lè -- ve -- ment de beau -- coup en Is -- ra -- ël.
-		%This child is des -- tined for the fall and rise of ma -- ny in Is -- ra -- el.
+		%Cet en -- fant pro -- vo -- que -- ra la chute et le re -- lè -- ve -- ment de beau -- coup en Is -- ra -- ël.
+		This child is des -- tined for the fall and rise of ma -- ny in Is -- ra -- el.
 		\markup { \citation #"Lk 2:34" }
 	}
 }
@@ -67,17 +63,14 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
-		f8		
-		\times 2/3 { g8[ a bes] }
-		\times 2/3 { a8[ g a] }
-		\times 2/3 { a8[ a a] }
-		\times 2/3 { g8[ a f] }
-		f4
+		
+		f8 g a a a a a a a a a a a
+		
 		\endBar
 	}
 	\addlyrics {
-		Jé -- sus fût con -- duit par l'Es -- prit à tra -- vers le dés -- ert.
-		%Je -- sus was led by the Spir -- it in -- to the de -- sert
+		%Jé -- sus fût con -- duit par l'Es -- prit à tra -- vers le dés -- ert.
+		Je -- sus was led by the Spir -- it in -- to the de -- sert
 		\markup { \citation #"Mt 4:1" }
 	}
 }
@@ -87,18 +80,18 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		\times 2/3 { r8_\( f[ g]\) }
-		\times 2/3 { a8[ a a] }  a8[ a]
-		\times 2/3 { a8[ g bes] }
-		\times 2/3 { a8[\( a\)\cesure a] }
-		\times 2/5 {a16[a a a g]}
-		a8[ f] f4
+		
+		f8 g a a a a a a a a \cesure
+		a a a a a a a
+		
 		\times 2/3 {r8_\(f[ g]\)} a[\( g\)] g4
 		\endBar
 	}
 	\addlyrics {
-		Vous av -- ez re -- je -- té le Saint et le Jus -- te, mais Dieu l'a ress -- usc -- i -- té des morts. " A" -- lle -- lu -- - -- "ia !"
+		%Vous av -- ez re -- je -- té le Saint et le Jus -- te, mais Dieu l'a ress -- usc -- i -- té des morts. " A" -- lle -- lu -- - -- "ia !"
 		%You de -- nied the Ho -- ly and Right -- eous One and asked that a murderer be released to you. The author of life you put to death, but God raised him from the dead; of this we are witnesses.
+		You de -- nied the Ho -- ly and Right -- eous One, but God raised him from the dead. " A" -- lle -- lu -- - -- "ia !"
+		
 		\markup { \citation #"Acts 3:14-15" }
 	}
 }
