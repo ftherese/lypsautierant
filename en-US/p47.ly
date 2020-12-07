@@ -9,20 +9,17 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		\times 2/3 { r8_\( f f\) }
-		\times 2/3 { e[\( f\) g] }
-		f[\( f\)]
-		\cesure \pespace
-		f16[\( f\) f f]
-		f[ f e c]
-		d4\( d8\) r
+		
+		c8 d f f f f f f \cesure f f g f f \cesure f f f f e c d d
+		
+		
 		\endBar
 	}
 
 	\addlyrics {
 		%D'u -- ne hau -- te mon -- ta -- gne, l'an -- ge me mon -- tra la ci -- té sain -- te.
 		%He took me in spi -- rit to a great, high moun -- tain and showed me the ho -- ly ci -- ty.
-		The Angel took me in spi -- rit to a great, high moun -- tain and showed me the ho -- ly ci -- ty.
+		The An -- gel took me in spi -- rit to a high moun -- tain and showed me the ho -- ly ci -- ty.
 		\markup { \citation #"Rev 21:10" }
 	}
 }
@@ -31,7 +28,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
 		
-		f8 f f f f f f f f f f f f f
+		c8 d f \cesure f f f g f \cesure f f e c d d
 		
 		\endBar
 	}
@@ -47,8 +44,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
 		
-		f8 f f f f f f f f f f f \cesure
-		f f f f f f f f f 
+		c16[ d f f] f8[ f] f16[ f f g] f4( f8) \cesure \pespace
+		f f16[ f f f] f8[ c e] d4 
 		
 		\endBar
 	}
@@ -65,9 +62,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		
-		f8 f f f f f f f \cesure
+		c8 d f f f f g f \cesure
 		f f f f f f f \cesure
-		f f f f f f f
+		f f f e c d d
 		\endBar
 	}
 
@@ -84,9 +81,9 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		\times 2/3 { c8 d c }
-		c8 c c c c c c c c c c \cesure
-		c c c c c c c c
+		
+		c8 d f f f f f f f f g f f f \cesure
+		f f f f f c e d
 		\cesureall
 		\times 2/3 { f8 g a }
 		g4
