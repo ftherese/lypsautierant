@@ -10,8 +10,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		c8 d[ c] c16[ f e f] g8[ f] \times 2/3 { f4\( \pespace \cesure \pespace f8\) } f16[ f e c d] d4
-		
+		c8 d f f f f g f\cesure
+		f e c d d
 		
 		
 		\endBar
@@ -29,8 +29,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Adv. } }
 		
-		f8 f f f f f f f f \cesure
-		f f f f f f f f f f 
+		c8 d f f f f g f f \cesure
+		f f f f f f f c e d 
 		
 		
 		
@@ -50,8 +50,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr. Easter } }
 		
-		f8 f f f f \cesure 
-		f f f f f f f
+		c8 d f f f \cesure 
+		f f f f f g f
 		
 		\pespace
 		\times 2/3 {  r_\( f  e\)] } c[\( d\)] d4
@@ -73,9 +73,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
-		f8 f f f \cesure
-		f f f f f f f f f \cesure
-		f f f f 
+		c8 d f f \cesure
+		f f f f f g f f f \cesure
+		f c e d 
 		
 		\endBar
 		
