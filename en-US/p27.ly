@@ -76,7 +76,7 @@
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
 		c8 d f f f f f f g f\cesure
-		f e c d
+		f c e d
 		
 		
 		
