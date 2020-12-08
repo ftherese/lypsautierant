@@ -9,16 +9,15 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		c8 d f f f \cesure
-		f f f f g f \cesure
-		c e d
+		f16[ f f f] f8[f f] f[ f g] f4 \cesure 
+		f8 c[( e)] d4
 		
 		\endBar
 	}
 
 	\addlyrics {
 		%Tout hom -- me qui aime est né de Dieu et il con -- naît Dieu.
-		Ev -- ery  -- one who loves is be -- got -- ten by God and knows God.
+		Ev -- ery  -- one who loves is be -- got -- ten by God and kno -- ws God.
 		\markup { \citation #"1 Jn 4:7" } 
 	}
 }
@@ -28,8 +27,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		c8 d f f f f f g f \cesure
-		f f e c d d
+		r8_( c8[ d]) f16 [f f f] f8 [g] f4 \cesure
+		f8 f [e c] d4( d8)
 		
 		\endBar
 	}
@@ -46,7 +45,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. Lent } }
 		
-		c8 d f f f f f g f f 
+		f8 f f f16 [f f e c] d4 (d8) 
 		
 		\endBar
 	}
@@ -63,8 +62,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		
-		c8 d f f f f g f f \cesure
-		f f f e c d d d
+		f8 e [f f] f [f f] f [f] \cesure
+		f f16 [f e c] d8[d d]
 		
 		\endBar
 	}
@@ -83,9 +82,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
 		
-		c8 d f f f \cesure
-		f f g f \cesure \pespace
-		f f f f f f c e d
+		r8 c8 ([d]) f [f] f [f] \cesure
+		f [f g] f4 \cesure \pespace
+		f8 f [f f] f16 [f c e] d4
 		
 		\cesureall
 		\times 2/3 { c8 d f }
@@ -98,7 +97,7 @@
 	\addlyrics {
 		%Le vain -- queur, je gra -- ve -- rai sur lui le nom de la ci -- té de mon Dieu. Al -- le -- lu -- "ia !" _ _
 		%The victor... On him I will in -- scribe the name of my God and the name of the ci -- ty of my God. Al -- le -- lu -- "ia !" _ _
-		On the one who conquers, I will in -- scribe the name of the ci -- ty of my God. Al -- le -- lu -- ia 
+		On the one who con -- quers, I will in -- scribe the name of the ci -- ty of my God. Al -- le -- lu -- ia 
 		\markup { \citation #"Rev 3:12" } 
 	}
 }

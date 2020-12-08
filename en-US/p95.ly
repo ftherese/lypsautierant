@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
  \markup { \hspace #-10 \fill-line { "Psalm 95" "Mode 2" \null \null } }
 \noPageBreak
@@ -25,8 +25,8 @@
 	}
 
 	\addlyrics {
-		Au com -- men -- cem -- ent, Seig -- neur, tu fon -- das la ter -- re, et les cieux sont l'ou -- vra -- ge de tes mains. 
-		%At the be -- ginn -- ing, O Lord, you e -- stab -- lished the earth, and the heav -- ens are the works of your hands.
+		%Au com -- men -- cem -- ent, Seig -- neur, tu fon -- das la ter -- re, et les cieux sont l'ou -- vra -- ge de tes mains. 
+		At the be -- ginn -- ing, O Lord, you e -- stab -- lished the earth, and the heav -- ens are the works of your hands.
 		\markup { \citation #"Heb 10" } 
 	}
 }
@@ -46,8 +46,8 @@
 	}
 
 	\addlyrics {
-		Par l'ob -- la -- tion du corps de Jé -- sus, nous som -- mes sanc -- ti -- fiés.
-		%By this “will,” we have been con -- se -- crat -- ed through the off -- er -- ing of the bo -- dy of Je -- sus Christ once for all.
+		%Par l'ob -- la -- tion du corps de Jé -- sus, nous som -- mes sanc -- ti -- fiés.
+		By this “will,” we have been con -- se -- crat -- ed through the off -- er -- ing of the bo -- dy of Je -- sus Christ once for all.
 		\markup { \citation #"Heb 10:10" } 
 	}
 }
@@ -66,8 +66,8 @@
 	}
 
 	\addlyrics {
-		Oui, mon re -- tour est pro -- "che !" Am -- "en !" Viens, Sei -- gneur Jé -- sus.
-		%Yes, I am com -- ing soon.” A -- men! Come, Lord Je -- sus!
+		%Oui, mon re -- tour est pro -- "che !" Am -- "en !" Viens, Sei -- gneur Jé -- sus.
+		Yes, I am com -- ing soon.” A -- men! Come, Lord Je -- sus!
 		\markup { \citation #"Cf. Rv 22:20" } 
 	}
 }
@@ -85,8 +85,8 @@
 	}
 
 	\addlyrics {
-		Gloi -- - -- "re à D" -- ieu au plus haut des cieux.
-		%Glor -- y to God in the high -- est.
+		%Gloi -- - -- "re à D" -- ieu au plus haut des cieux.
+		Glor -- y to God in the high -- est.
 		\markup { \citation #"Lk 2:14" } 
 	}
 }
