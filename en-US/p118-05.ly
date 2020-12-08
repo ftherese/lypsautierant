@@ -7,17 +7,15 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Adv. } }
-		\times 2/3 { c8[ d f] }
-		f8[\( f\)] \cesure \pespace
-		\times 2/3 { f8[ g f] }
-		\times 2/3 { f8[ e c] }
-		d4\( d8\) r8
+		
+		f8 f [f] f f e c d d4
+		
 		\endBar
 	}
 
 	\addlyrics {
-		Si quel -- qu'un m'ai -- me, il gar -- de -- ra ma pa -- ro -- le.
-		%Who -- e -- ver loves me will keep my word.
+		%Si quel -- qu'un m'ai -- me, il gar -- de -- ra ma pa -- ro -- le.
+		Who -- e -- ver loves me will keep my word.
 		\markup { \citation #"Jn 14:23" } 
 	}
 }
@@ -27,22 +25,16 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
-		f8
-		g[ f]
-		f[\( f\)]
-		\pespace
-		r8. f16
-		\times 2/5 { f[ f f f f] }
-		\slurDashed 
-		f4( \pespace \pespace
-		\times 2/3 { f8) e c }
-		\times 2/3 { d4\( d8\) } r8
+		
+		c8 [d] f [f] f f f [f] f [f] f f f f c e d4
+		
 		\endBar
 	}
 
 	\addlyrics {
-		So -- yez sans crain -- te, l'Es -- prit vous en -- sei -- gner -- a ce qu'il faut di -- re.
+		%So -- yez sans crain -- te, l'Es -- prit vous en -- sei -- gner -- a ce qu'il faut di -- re.
 		%Do not wor -- ry about how or what your defense will be or about what you are to say. For the ho -- ly Spi -- rit will teach you at that moment what you should say.
+		Do not wor -- ry, for the Ho -- ly Spi -- rit will teach you what you should say.
 		\markup { \citation #"Lk 12:11-12" } 
 	}
 }
@@ -51,16 +43,16 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
-		\times 2/3 { c8 d c }
-		f[ f]
-		e[ c]
-		\times 2/3 { d4\( d8\) } r8
+		
+		f8 f16 [f f c e] d4
+		
 		\endBar
 	}
 
 	\addlyrics {
-		Mon té -- moi -- gnage est vé -- ri -- di -- que.
-		%My tes -- ti -- mo -- ny can be ve -- ri -- fied.
+		%Mon té -- moi -- gnage est vé -- ri -- di -- que.
+		%My tes -- ti -- mo -- ny can be verified.
+		My tes -- ti -- mo -- ny is true.
 		\markup { \citation #"Jn 8:14" } 
 	}
 }
