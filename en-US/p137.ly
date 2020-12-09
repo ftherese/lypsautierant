@@ -25,7 +25,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
-		c8 d f f f f f f e c d d
+		c8 [d] f [f f] f [f] f [e c] d [d]
 		\endBar
 	}
 
@@ -41,15 +41,14 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
-		c8
-		\times 2/5 {d16[f f f f]}
-		f8[ e] c8[ d] d4
+		
+		f8 [f f] f4 c8 [e] d4
 		\endBar
 	}
 
 	\addlyrics {
-		Voi -- ci ce que le Sei -- gneur a fait pour "moi !"
-		%So has the Lord done for me.
+		%Voi -- ci ce que le Sei -- gneur a fait pour "moi !"
+		So has the Lord done for me.
 		\markup { \citation #"Lk 1:25" } 
 	}
 }
@@ -59,17 +58,15 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
-		\times 2/3 { e8[ f g] }
-		f[\( f\)] \pespace
-		r f16[ f]
-		f[ e c d]
-		d4
+		
+		f8 [f f] f4 f8 [c e] d4
+		
 		\endBar
 	}
 
 	\addlyrics {
-		Quand je suis fai -- ble, c'est a -- lors que je suis fort.
-		%When I am weak, then I am strong.
+		%Quand je suis fai -- ble, c'est a -- lors que je suis fort.
+		When I am weak, then I am strong.
 		\markup { \citation #"2 Cor 12:10" } 
 	}
 }
@@ -78,13 +75,9 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		c8[\( d\)]
-		c[ f]
-		f4
-		\cesure \pespace
-		f16[ f f e]
-		c8[\( d\)]
-		d4
+		
+		c8 [d c] f4 f16 [f f f] e8 [c] d d 
+		
 		\cesureall \pespace
 		\times 2/3 { f8[ g a] }
 		g4
@@ -92,8 +85,9 @@
 	}
 
 	\addlyrics {
-		Grâ -- ce soit à Dieu pour son in -- ef -- fab -- le "don !" Al -- le -- lu -- "ia !"
+		%Grâ -- ce soit à Dieu pour son in -- ef -- fab -- le "don !" Al -- le -- lu -- "ia !"
 		%Thanks be to God for his in -- de -- scri -- ba -- ble gift! Al -- le -- lu -- "ia !"
+		Thanks be to God for his in -- ex -- press -- i -- ble gift! Al -- le -- lu -- "ia !"
 		\markup { \citation #"2 Cor 9:15" } 
 	}
 }
