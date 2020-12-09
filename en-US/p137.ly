@@ -8,18 +8,15 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		\times 2/3 { r8_\( c[ d]\) }
-		f16[ e f g]
-		\times 2/3 { f8[\( f\)\cesurebasse \pespace f] }
-		f16[ f f f]
-		f16[\( f\) e c]
-		d4\( d8\) r8
+		
+		f8 f [f f] f [f f] f f f f f f f [c e] d4 
+		
 		\endBar
 	}
 
 	\addlyrics {
-		Les Anc -- iens se pros -- ter -- nè -- rent dev -- ant ce -- lui qui siè -- ge sur le trô -- ne.
-		%The twenty-four el -- ders fall down be -- fore the one who sits on the throne.
+		%Les Anc -- iens se pros -- ter -- nè -- rent dev -- ant ce -- lui qui siè -- ge sur le trô -- ne.
+		The twen -- ty -- -four el -- ders fall down be -- fore the one who sits on the throne.
 		\markup { \citation #"Rev 4:10" } 
 	}
 }
@@ -28,18 +25,13 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Chr. } }
-		c16[\( d\) c f]
-		f4
-		\cesure \pespace
-		f16[ f f f]
-		\times 2/3 { e8[ c d] }
-		d4
+		c8 d f f f f f f e c d d
 		\endBar
 	}
 
 	\addlyrics {
-		Tou -- tes les na -- tions se pros -- ter -- ne -- ront de -- vant toi.
-		%All the na -- tions will come and wor -- ship be -- fore you.
+		%Tou -- tes les na -- tions se pros -- ter -- ne -- ront de -- vant toi.
+		All the na -- tions will come and wor -- ship be -- fore you.
 		\markup { \citation #"Rev 15:4" } 
 	}
 }
