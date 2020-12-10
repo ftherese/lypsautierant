@@ -7,33 +7,33 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column {T.O.  } }
-\times 2/3 { c8[ d f] }
-\slurDashed f4(
-f16)[\( f\) f f]
-\times 2/3 { e8[ f g] }
-f[\( f\)]
-\times 2/3 { e[ c d] }
-d4
+
+                c8 d f [f f] f16 [f f f f f] f8 [f] e [c] d [d] 
+
 		\endBar
 	}
 	\addlyrics {
-Que le Seign -- eur dai -- gne vous ar -- mer de puis -- san -- ce par son Es -- prit.		
-		\markup { \citation #"Ep 3" } 
+                %Que le Seign -- eur dai -- gne vous ar -- mer de puis -- san -- ce par son Es -- prit.		
+		%that he may grant you in accord with the riches of his glory to be strengthened with power through his Spirit in the inner self
+		May the Lord grant you to be streng -- then -- ed with po -- wer through His Spir -- it.
+		
+		\markup { \citation #"Ep 3:16" } 
 	}
 }
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
-		\times 2/3 { r8_\( c[ d]\) }
-		\times 2/3 { f8[ f f] }
-		\times 2/3 { f8[ f f] }
-		\times 2/3 { e8[\( f\) g] } f4
+		
+		c8 [d] f [f] f [f] c [e] d4
+		
 		\endBar
 	}
 	\addlyrics {
-		Vous se -- rez re -- vê -- tus de la for -- ce d'en haut.		
-		\markup { \citation #"Lc 24" } 
+		%Vous se -- rez re -- vê -- tus de la for -- ce d'en haut.		
+		You are clothed with po -- wer from on high.
+		
+		\markup { \citation #"Lc 24:49" } 
 	}
 }
 
@@ -41,16 +41,16 @@ Que le Seign -- eur dai -- gne vous ar -- mer de puis -- san -- ce par son Es --
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column {Av. Car.  } }
-f16[ e f g]
-\times 2/3 { f8[\( f\) \cesurebasse \pespace  f] }
-f16[\( f\) f f]
-e8[ c]
-d4\( d8\) r
+
+                f8 [f f] f [f f] f [f f f] f [f f] c [e] d4
+
 		\endBar
 	}
 	\addlyrics {
-Re -- le -- vez la tê -- te car vo -- tre ré -- demp -- tion ap -- pro -- che.		
-		\markup { \citation #"Lc 21" } 
+                %Re -- le -- vez la tê -- te car vo -- tre ré -- demp -- tion ap -- pro -- che.		
+		%Stand erect and raise your heads because your redemption is at hand
+		Stand up and raise your heads be -- cause your re -- demp -- tion is draw -- ing near.
+		\markup { \citation #"Lc 21:28" } 
 	}
 }
 
@@ -58,22 +58,19 @@ Re -- le -- vez la tê -- te car vo -- tre ré -- demp -- tion ap -- pro -- che.
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Noël T.P. } }
-\times 2/3 { f8[ f f] }
-f[\( f\)]
-\cesure\pespace 
-\times 2/3 { e[ f g] }
-f4
-\pespace\pespace 
-\times 2/3 { r8_\( f[ f]\) }
-\times 2/3 { e[ c d] }
-d4
+
+                c8 d ([f) f f] f [f g] f \cesure
+                f f16 [f f f e c] d8 [d]
+
 \cesureall\pespace 
 \times 2/3 { f8[ g a] }
 g4
 		\endBar
 	}
 	\addlyrics {
-Il est ma for -- ce, il est mon chant, je lui dois le sa -- lut. Al -- le -- lui -- "a !"		
-		\markup { \citation #"Ex 15" } 
+                %Il est ma for -- ce, il est mon chant, je lui dois le sa -- lut. Al -- le -- lui -- "a !"		
+		The LO -- RD is my strength and my song and He has be -- come my sal -- va -- tion. "Al" -- le -- lui -- "a !"
+		
+		\markup { \citation #"Ex 15:2" } 
 	}
 }
