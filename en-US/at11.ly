@@ -8,24 +8,18 @@
 		\cadenzaOn
 		
 		\set Staff.instrumentName = \markup{ \center-column { } }
-		\times 2/3 { r8_\( c[ d\)] } 
-\times 2/3 { c[ f f] }
- 
-\times 2/3 { e[ f g] }
- 
-\times 2/3 { f4\(  f8\) }
- 
-\times 2/3 { e[ c d] }
- d4  
- \barre \times 2/3 {f8[ g a]} g4 
+		
+		f8 [f f] f16 [f f f] f8 [e c] d [d]
+
+                 \barre \times 2/3 {f8[ g a]} g4 
 		
 		
 		\endBar
 	}
 
 	\addlyrics {
-		La Sa -- gesse a é -- té jus -- ti -- fiée par tous ses en -- fants. "(Al" -- le -- lu -- "ia !)"
-		%Wis -- dom is vin -- di -- ca -- ted by all her child -- ren. "(Al" -- le -- lu -- "ia !)"
+		%La Sa -- gesse a é -- té jus -- ti -- fiée par tous ses en -- fants. "(Al" -- le -- lu -- "ia !)"
+		Wis -- dom is vin -- di -- ca -- ted by all her child -- ren. (Al -- le -- lu -- "ia !)"
 		\markup { \citation #"Lk 7:35" } }
 	
 	
