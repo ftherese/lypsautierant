@@ -7,11 +7,10 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		\times 2/3 { r8_\( g[ a]\) }
-		g16[ c c\( c\)]
-		\times 2/3 { b8[ c d] } c[\( c\)] \cesure \pespace
-		\times 2/3 { c[ c c c c b] } c[ a]
-		g4\( g8\) r8
+		
+		g8 a c c \cesure
+		c c b c a g
+		
 		\endBar
 	}
 
@@ -19,7 +18,8 @@
 		%Nous met -- tons tout no -- tre cœur à te sui -- vre et à cher -- cher ta fa -- ce.
  		%Yet when you seek the Lord, your God, from there, you shall in -- deed find him if you search af -- ter him with all your heart and soul.
  		%[the Lord, your God] = him
- 		You shall in -- deed find the Lord, your God, if you search af -- ter him with all your heart and soul.
+ 		%You shall in -- deed find the Lord, your God, if you search af -- ter him with all your heart and soul.
+ 		Search af -- ter God with all your heart and soul.
  		\markup { \citation #"Dt 4:29" } }
 	
 	
