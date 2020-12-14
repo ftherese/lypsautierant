@@ -50,7 +50,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv.} }
 		
-		c8 c c c c c c 
+		c8 c b c a g4 (g8)
 		
 		
 		\endBar
@@ -71,8 +71,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		
-		c8 c c c c c c \cesure
-		c c c c c c c c c c c c 
+		g8 [a c] c [c d] c4 \cesure \pespace
+		c8 [c c] c [c c] c [c b] c [a] g4 
 				
 		\endBar
 	}
@@ -96,9 +96,9 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter} }
 		
-		c8 c c c c \cesure
-		c c c c c c c \cesure
-		c c c c c c c c c c \cesure
+		g8 [a] c [c c] \cesure
+		c c [c] c [d] c [c] \cesure\pespace
+		c c [c c c] c [b] c [a] g4 \cesure
 		\times 2/3 {r8\(a[ c]\)} d[\( c\)] c4
 		
 		\endBar
