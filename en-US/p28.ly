@@ -7,11 +7,9 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {O.T.  }}
-		r8_\( g[ a]\)
-		\times 2/3 { g[ c c c] }
-		c16[\( c\)\cesure \pespace b c] d8[ c] c4 
-		\indentLine \times 2/3 { r8\( c[ c]\) }
-		c[ c] c16[\( c\) b c] a8[ g] g4
+		g8 [a c] c4 c8 [c c] [c c] c4 \cesure \pespace 
+		c8 c c [c d] c [c c] \cesure\pespace
+		c [b] c [a] g4 (g8)
 		\endBar
 	}
 
@@ -31,8 +29,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {O.T. Chr.} }
 		
-		 g c c c c c c c c \cesure
-		 c c c c c c c
+		 g8 a c [c c] c [d] c c \cesure
+		 c [c] c[ b] c [a ] g4
 		
 		
 		
@@ -52,8 +50,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {Adv.} }
 		
-		g8 c c c c c c c c c c c c \cesure
-		c c c c c c c c c c
+		g8 a c c c c c c c c c c d c \cesure\pespace
+		c c c c c b c a g4 
 		
 		
 		\endBar
@@ -74,7 +72,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
-		g c c c c c c c c c c c c
+		g8 a c c c c c c c b c a g4
 		
 		\endBar
 	}
@@ -96,8 +94,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {Easter} }
 		
-		g c c c c c c \cesure
-		c c c c c c c c c c c c c c c
+		g8 a c c d c c \cesure\pespace
+		c8 c c c c c c c c c c b c a g4
 		
 		\cesure \pespace\times 2/3 {c8[ d c]} c4		
 		
