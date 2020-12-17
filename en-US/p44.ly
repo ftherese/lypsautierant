@@ -7,8 +7,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {O.T. }}
 		
-		r8 c16[ c] c[\( c\) c c] \times 2/3 { b8[ c  a] } g4\( g8\) r 
-		
+		r8 c8[ c b] c [a] g4\( g8\) r 
 		
 		
 		\endBar
@@ -28,16 +27,16 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		g8 a c c \cesure
-		c c c c c c c c c \cesure
-		c c c c c
+		g8 [a c] c4 \cesure
+		c8 c [c] c [c] c [c c] c4 \cesure
+		c8 b [c a] g4
 		
 		\endBar
 	}
 
 	\addlyrics {
 		%Le Christ a ai -- mé l'Ég -- li -- se et s'est li -- vré pour el -- le, a -- fin de la sanc -- ti -- fier.
- 		Christ loved the church and han -- ded him -- self o -- ver for her to sanc -- ti -- fy her.
+ 		Christ loved the Church and han -- ded him -- self o -- ver for her to sanc -- ti -- fy her.
  		\markup { \citation #"Eph 5:25-26" } }
 	
 	
@@ -47,8 +46,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {Adv. Chr.} }
 		
-		c8 c c c c \cesure
-		c c c c c
+		8 c [d] c [c] \cesure\pespace
+		c b [c ] a4 (g4)
 		
                 \barre 
                 \times 2/3 { g8[ a  c] } d[\( e] d4\)
@@ -72,8 +71,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
-		c8 c c c c c c c c \cesure
-		c c c c c c c c c c c
+		g8 a c c c c [c d] c4 \cesure\pespace
+		c8 c [c c] c [b] c [a] g [g g]
 		
 		\endBar
 	}
@@ -90,8 +89,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
 		
-		c8 c c c c c c c c \cesure
-		c c c c c c c c
+		g8 a c c c c c d c4 \cesure\pespace
+		c8 c [c] b [c a] g4 (g8)
 		
                 \barre 
 		\times 2/3 {g8[ a c]} 
