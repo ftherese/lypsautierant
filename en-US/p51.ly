@@ -8,9 +8,10 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		g8 a[ g] g[ c] \times 2/3 { c[ b c] } 
-		d[ c]  	\times 2/3 { c4\(\cesure c8\) } 	
-		c16[ c c c]  b16[ c a g]  g4
+		
+		g8 a[ c] c c c c c d c4 \cesure\pespace
+		c8 c c c c c c c c b c a g4
+		
 		\endBar
 	}	\addlyrics {
 		%Ce -- lui qui fait le bien ap -- par -- tient à "Dieu ;" ce -- lui qui fait le mal n'a pas vu Dieu.
@@ -24,7 +25,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Easter } }
 		
-		c8 c c c c c c c c 
+		g8 a c c4 \cesure
+		c8 b [c a] g4 
 		
 		\pespace
 		\barre\pespace
@@ -41,8 +43,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
 		
-		c8 c c c c c c c c c \cesure
-		c c c c c c
+		g8 a c c c c c c d c4 \cesure
+		c8 c b [c a] g4
 		
 		\endBar
 	}	\addlyrics {
@@ -57,14 +59,14 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		
-		c8 c c c c c c c \cesure
-		c c c c c c c c
+		g8 a c c c c d c4 \cesure\pespace
+		c8 c c c b c [a] g4
 		
 		\endBar
 	}	\addlyrics {
 		%Dieu a en -- vo -- yé son Fils dans le mon -- de, pour que le mon -- de soit sau -- vé.
 		%For God did not send his Son in -- to the world to con -- demn the world, but that the world might be saved through him.
-		God sent his Son in -- to the world that the world might be saved through him.
+		God sent His Son in -- to the world that the world might be saved through him.
 		
 		\markup { \citation #"Jn 3:17"}
 	}
@@ -74,8 +76,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
-		c8 c c c c c c c c c \cesure
-		c c c c c c c c c c c
+		g8 a c c c c c c d c4 \cesure\pespace
+		c8 c c c c c c b c a c4
 		
 		\endBar
 	}	\addlyrics {
