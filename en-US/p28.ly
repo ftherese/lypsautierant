@@ -7,9 +7,11 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {O.T.  }}
-		g8 [a c] c4 c8 [c c] [c c] c4 \cesure \pespace 
-		c8 c c [c d] c [c c] \cesure\pespace
-		c [b] c [a] g4 (g8)
+		
+		g8 [a c] c4 c8 [c c] [c c] c4 \cesure\pespace 
+		c8 c c c d c c c4 \cesure\pespace
+		c8 b c a g4 (g8)
+		
 		\endBar
 	}
 
