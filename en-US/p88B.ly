@@ -9,7 +9,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T.  }}
 		
-		g8 a[ g] c[ d] \times 2/3 { c4\( \cesure  c8\) } c16[ c c b] \times 2/3 { c8[ a  g] } g4
+		g8 a c c c c d c4 \cesure
+		c8 c16 [b c a] g8 [g] (g4)
 
 		
 		
@@ -17,8 +18,10 @@
 	}
 
 	\addlyrics {
-		Il est Sei -- gneur et Christ, ce -- lui que vous a -- vez cru -- ci -- fié.
-		%God has made him both Lord and Mes -- si -- ah, this Je -- sus whom you cru -- ci -- fied.
+		%Il est Sei -- gneur et Christ, ce -- lui que vous a -- vez cru -- ci -- fié.
+		%God has made Him both Lord and Mes -- si -- ah, this Je -- sus whom you cru -- ci -- fied.
+		God has made Him both Lord and Christ, this Je -- sus whom you cru -- ci -- fied.
+		
 		\markup { \citation #"Acts 2:36" } }
 	
 	
@@ -27,17 +30,16 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {Adv.} }
-		\times 2/3 { g8[ a g] }
-		\times 2/3 { c8[ b c] }
-		d8[ c] c8.[\cesure \pespace c16]
-		b16[ c a g] g4
+		
+		g8 a c [c c] c [d] c4 \cesure
+		c8 c [c] b [c a] g4
 		
 		\endBar
 	}
 
 	\addlyrics {
-		Nul ne con -- naît ce qui est en Dieu, si -- non l'Es -- prit de Dieu.
-		%No one knows what per -- tains to God ex -- cept the Spi -- rit of God.
+		%Nul ne con -- naît ce qui est en Dieu, si -- non l'Es -- prit de Dieu.
+		No one knows what per -- tains to God ex -- cept the Spi -- rit of God.
 		\markup { \citation #"1 Cor 2:11" } }
 	
 	
