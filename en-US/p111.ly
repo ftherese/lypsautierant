@@ -7,19 +7,17 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		g16[\( c\) b c]
-		\times 2/3 { d8[ c d] }
-		c8[\( c\)] \cesure \pespace
-		\times 2/3 { b8[ c a] }
-		g4\( g8\) r8
+		
+		g8 a c c c c d c b c a g4
 		
 		
 		\endBar
 	}
 
 	\addlyrics {
-		Com -- me s'il voy -- ait l'in -- vi -- si -- ble, il ten -- ait fe -- rme.
+		%Com -- me s'il voy -- ait l'in -- vi -- si -- ble, il ten -- ait fe -- rme.
 		%By faith he left E -- gypt, not fear -- ing the king’s fur -- y, for he per -- sev -- ered as if see -- ing the one who is in -- vis -- ible.
+ 		He en -- dured as see -- ing Him who is in -- vis -- ible.
  		\markup { \citation #"Heb 11:27" } }
 }
 \relative a' { 
