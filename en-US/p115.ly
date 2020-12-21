@@ -9,17 +9,15 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		 c8 \times 2/3 { c b c } d[\( c\)]
-		\pespace r c \times 2/3 { c[ b c] } a[\( g\)] g4
-		
-		
+		c8 c c b c a g g
 		
 		\endBar
 	}
 
 	\addlyrics {
-		Pre -- nant u -- ne cou -- pe, Jé -- sus ren -- dit grâ -- - -- ce.
+		%Pre -- nant u -- ne cou -- pe, Jé -- sus ren -- dit grâ -- - -- ce.
 		%Then he took a cup, gave thanks, and gave it to them, and they all drank from it.
+ 		Je -- sus took a cup, and gave thanks.
  		\markup { \citation #"Mk 14:23" } }
 	
 	
@@ -28,21 +26,15 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Adv. } }
-		g8
-		\times 2/3 { a[ g c] }
-		c[\( c\)]
-		\pespace
-		r c
-		\times 2/3 { c[ c c] }
-		a[\( c\)]
-		d[ c]
-		c4
+		
+		g8 a c c c c c c c b c a g4
+		
 		\endBar
 	}
 
 	\addlyrics {
-		Ma -- rie dit à l'an -- "ge :" Voi -- ci la ser -- van -- te du Seig -- neur.
-		%Mar -- y said, “Be -- hold, I am the hand -- maid of the Lord."
+	        %Ma -- rie dit à l'an -- "ge :" Voi -- ci la ser -- van -- te du Seig -- neur.
+		Mar -- y said, “Be -- hold, I am the hand -- maid of the Lord.
 		\markup { \citation #"Lk 1:38" } 
 	}
 }
@@ -51,16 +43,14 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		
-		 c8 b[ c] d[ c] c4
-		\times 2/3 { b8 c a } g4
-
+		g8 a c8 c c b c a g4 (g8)
 		
 		
 		\endBar
 	}
 	\addlyrics {
-		Voi -- ci mon ser -- vi -- teur que j'ai choi -- si.
-		%Be -- hold, my ser -- vant whom I have chos -- en.
+		%Voi -- ci mon ser -- vi -- teur que j'ai choi -- si.
+		Be -- hold, my ser -- vant whom I have chos -- en.
  		\markup { \citation #"Mt 12:18" } }
 	
 	
