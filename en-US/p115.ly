@@ -43,7 +43,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		
-		g8 a c8 c c b c a g4 (g8)
+		c8 [c d] c [c ]\cesure
+		b8 c a g4 (g8)
 		
 		
 		\endBar
@@ -60,14 +61,14 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
-		 g8 \times 2/3 { c[\cesure \pespace b c] } d16[\( d\)\pespace \cesure \pespace c b] \times 2/3 { c8 d c } c4
-
+		g8 a c c c4 c8 b c a g4
+		 
 		\endBar
 	}
 
 	\addlyrics {
-		Le Christ, no -- tre Pâ -- que, a é -- té im -- mo -- lé.
-		%Our pa -- schal lamb, Christ, has been sa -- cri -- ficed.
+		%Le Christ, no -- tre Pâ -- que, a é -- té im -- mo -- lé.
+		Our pa -- schal lamb, Christ, has been sa -- cri -- ficed.
  		\markup { \citation #"1 Cor 5:7" } }
 	
 	
@@ -77,18 +78,19 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
 		
-		 g8 \times 2/3 { c[ b c] } d[ d] c[ d] c4
-		\cesure  \pespace \times 2/3 { c8 b c } a[ g] g4
+		g8 a c c c c c c d c \cesure
+		b8 c a g4 (g8) 
+		 
 		\cesureall\pespace \times 2/3 { g8 a c } d[\( e] d4\)
 
-		
 		
 		\endBar
 	}
 
 	\addlyrics {
-		Le Dieu de nos pères a glo -- ri -- fié son ser -- vi -- teur Jé -- sus. Al -- le -- lu -- "ia !" _ _
+		%Le Dieu de nos pères a glo -- ri -- fié son ser -- vi -- teur Jé -- sus. Al -- le -- lu -- "ia !" _ _
 		%The God of our an -- ces -- tors, has glor -- i -- fied his ser -- vant Je -- sus. Al -- le -- lu -- "ia !" _ _
+ 		The God of our fa -- thers has glor -- i -- fied his ser -- vant, Je -- sus. Al -- le -- lu -- ia ! _ _
  		\markup { \citation #"Acts 3:13" } }
 	
 	
