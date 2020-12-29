@@ -10,13 +10,13 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		g8[ a] c[ c] c4( b8[ c d]) c4 \cesure
-		c8[ c] c4 b8[ c a] g4
+		
+		g8 a c c c c c c c c c c b c a g4
+		
 		\endBar
 	}	\addlyrics {
 		%Nous l'a -- vons re -- con -- nu, nous l'a -- vons "cru :" Dieu est A -- mour.
-		We have come to know and to be -- lieve 
-		in the love God has for us.
+		We have come to know and to be -- lieve in the love God has for us.
 		\markup { \citation #"1 Jn 4:16"}
 	}
 }
@@ -24,13 +24,14 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
-		g8[ a] c[ \pecesure d] c[ c] c4 \cesure
-		c8 b[ c a] g4
+		
+		g8 a c c c d c4 \cesure
+		c8 b c b g4
+		
 		\endBar
 	}	\addlyrics {
 		%Tu es jus -- te, Sei -- gneur, toi qui es, toi qui é -- tais.
-		You are just, O Ho -- ly One, 
-		who are and who were.
+		You are just, O Ho -- ly One, who is and who was.
 		\markup { \citation #"Rv 16:5"}
 	}
 }
@@ -39,7 +40,9 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. Chr. } }
-		g8[ a] c[ b] c[ a] g4
+		
+		g8 a c b c a g4
+		
 		\endBar
 	}	\addlyrics {
 		%Je leur ai fait con -- naî -- tre ton Nom.
@@ -51,16 +54,14 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		\times 2/3 { g8[ a g] }
-		g8[ c]
-		\slurDashed c4( c8[) b]
-		c8[ d]
-		c8[\( c\)] \pespace
+		
+		g8 a c c c c c c c c c d c \pespace
+		
 		\times 2/3 {r8\(b[ c]\)} a[\( g\)] g4
 		\endBar
 	}	\addlyrics {
-		Ce qui est né "de Di" -- eu est vain -- queur du mon -- de. Al -- le -- lu -- - -- "ia !"
-		%Whoever is begotten by God conquers the world. Al -- le -- lu -- - -- "ia !"
+		%Ce qui est né "de Di" -- eu est vain -- queur du mon -- de. Al -- le -- lu -- - -- "ia !"
+		Who -- ev -- er is be -- got -- ten by God con -- quers the world. Al -- le -- lu -- - -- "ia !"
 		\markup { \citation #"1 Jn 5:4"}
 	}
 }
