@@ -8,13 +8,8 @@
 		
 		\set Staff.instrumentName = \markup{ \center-column {  } }
 		
-		r8 g16[ a]
-		\slurDashed
-		c4( \espace \pespace 
- c16)[\( c\) d c] c4 \cesure\pespace \pespace \times 2/3 {c8[ b c]} a[ g] g4 
-		\barre \pespace 
-		\times 2/3 { r8\( a[ c\)] }
-		d[\( c\)] c4
+		g8 a c c c c c c \cesure
+		c8 c c b c a g4 (g8)
 
 		
 		
@@ -22,9 +17,10 @@
 	}
 
 	\addlyrics {
-		Comme "un l" -- is en -- tre les char -- dons, telle est ma bien- -- ai -- mée. "(Al" -- le -- lu -- - -- "ia !)"
+		%Comme "un l" -- is en -- tre les char -- dons, telle est ma bien- -- ai -- mée. "(Al" -- le -- lu -- - -- "ia !)"
  		%Like a li -- ly among thorns, so is my friend a -- mong wo -- men. "(Al" -- le -- lu -- - -- "ia !)"
- 		\markup { \citation #"Sg 2:2" } }
+ 		As a li -- ly a -- mong bram -- bles, so is my love a -- mong mai -- dens.
+                \markup { \citation #"Sg 2:2" } }
 	
 	
 }
