@@ -1,4 +1,4 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
 \markup {NT  10}
 
@@ -8,18 +8,15 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
-		g16[ a c c]
 		
-		\times 2/3 { c8[ \cesure\pespace c16 d]\) }
-		\times 2/3 { e8[ d e] }
-		c8[\( c\)] \cesure  \pespace
-		a16[\( a\) c a]
-		g16[\( g\) f g]
-		 a8[\( a\)] a8[ g] g4
+		g8 a c c c c c d c \cesure \pespace
+		c8 c c c c c b c a g4 (g8)
+		
 		\endBar
 	}
 	\addlyrics {
-		Ré -- jou -- is -- sez -- -vous, tre -- ssai -- llez d'al -- lég -- res -- "se !" Vo -- tre réc -- omp -- en -- ce se -- ra gra -- nde dans le ciel.
+		%Ré -- jou -- is -- sez -- -vous, tre -- ssai -- llez d'al -- lég -- res -- "se !" Vo -- tre réc -- omp -- en -- ce se -- ra gra -- nde dans le ciel.
+		Re -- joice in that day, and leap for joy, for be -- hold, your re -- ward is great in hea -- ven.
 		\markup { \citation #"Lc 6"}
  }
 }
@@ -30,17 +27,15 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.O. Av.  } }
-		\times 2/3 { r8_\( g[ a]\) }
-		\times 2/3 { c8[ c c] }
-		d8[\( e\)]
-		\times 2/3 { d8[\cesure\pespace c c] }
-		c16[\( c\) b c]
-		\times 2/3 { a8[\( a\)\cesure \pespace b] }
-		\times 2/3 { c8[ a  g] } g4
+		
+		g8 a c c c c c c c c c d c4 \cesure
+		b8 c a g4
+		
 		\endBar
 	}
 	\addlyrics {
-		Le sal -- ut est à no -- tre Dieu, lui qui siè -- ge sur le trô -- ne, ain -- si qu'à l'Ag -- neau.
+		%Le sal -- ut est à no -- tre Dieu, lui qui siè -- ge sur le trô -- ne, ain -- si qu'à l'Ag -- neau.
+		Sal -- va -- tion be -- longs to our God who sits on the throne, and to the Lamb!
 		\markup { \citation #"Ap 7"}
  }
 }
@@ -50,14 +45,15 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Noël } }
-		c16[ c b c]
-		a8[\( a\)] \cesure \pespace
-		\times 2/3 { g8[ a\( b]\) }
-		a4
+		
+		g8 a c c c4 \cesure
+		b8 c a g4 (g8) 
+		
 		\endBar
 	}
 	\addlyrics {
-		Nous te ren -- dons grâ -- ce, ô not -- re Dieu.
+		%Nous te ren -- dons grâ -- ce, ô not -- re Dieu.
+		We give thanks to you, Lord God Al -- mi -- ghty.
 		\markup { \citation #"Ap 11"}
  }
 }
@@ -67,17 +63,16 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Car. } }
-		\times 2/3 { r8\( c[ c]\) }
-		c16[ c\( c\) c]
-		c16[\( c\) c b]
-		\times 2/3 { g4\(\cesure g8\) }
-		\times 2/3 { d'8[ d c] }
-		d16[\( d\) d c]
-		b16[\( a\) g a] c4
+		
+		g8 a c c c4 (c8) \cesure
+		c8 c c c c c c b c a g4 (g8)
+		
 		\endBar
 	}
 	\addlyrics {
-		Il y eut un -- e ba -- tai -- lle dans le "ciel :" Mic -- hel et ses an -- ges com -- bat -- tir -- ent le dra -- gon.
+		%Il y eut un -- e ba -- tai -- lle dans le "ciel :" Mic -- hel et ses an -- ges com -- bat -- tir -- ent le dra -- gon.
+		%Now war a -- rose in hea -- ven, Mich -- ael and his angels fighting against the dragon.
+		War a -- rose in hea -- ven, Mich -- ael and his an -- gels fought a -- gainst the dra -- gon.
 		\markup { \citation #"Ap 12"}
  }
 }
@@ -87,17 +82,17 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
-		\times 2/3 { r8_\( a[ b]\) }
-		\times 2/3 { c8[ c d] }
-		\times 2/3 { c8[ b a] }
-		c8[\( c\)] \cesure\pespace
-		\times 2/3 { b8[ c b] } a4 \cesure\pespace
-		\times 2/3 { g8[\( a\) b] } a4 \cesure   \pespace
+		
+		g8 a c c c c c b c a g
+		
+		\cesure   \pespace
 		\times 2/3 { c8[ d e] } d4
 		\endBar
 	}
 	\addlyrics {
-		Il a pris po -- sse -- ssion de son rè -- gne, le Seig -- neur Dieu, " Maî" -- tre de tout.  Al -- le -- lu --  "ia !"
+		%Il a pris po -- sse -- ssion de son rè -- gne, le Seig -- neur Dieu, " Maî" -- tre de tout.  Al -- le -- lu --  "ia !"
+		%You have taken your great po -- wer and be -- gun to reign.
+		The Lord God Al -- migh -- ty has be -- gun to reign.  Al -- le -- lu --  "ia !"
 		\markup { \citation #"Ap 11"}
  }
 }
