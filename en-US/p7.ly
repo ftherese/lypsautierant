@@ -77,7 +77,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-                g8[ a c] c[ d] c[ b a] c4( \pes \pecesure \pespace
+                g8[ a c] c[ d] c[ b a] c4( \pespace \pecesure \pespace
                 c8) c[ c c] c16[ a c b] a4
                 r8_( g[ a]) c[ (b]) a4
                 \endBar
