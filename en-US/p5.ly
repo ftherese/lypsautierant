@@ -27,7 +27,7 @@ His dis -- ci -- ples re -- called the words of scrip -- ture, “Zeal for your 
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
-		f8[ g a] a[ a] bes16[ a a g] a4( a8) \pespace \cesure \pes r_( g[ f]) d4( d8)
+		f8[ g a] a[ a] bes16[ a a g] a4( a8) \pespace \cesure \pespace r_( g[ f]) d4( d8)
 		\endBar
 	}
 	\addlyrics {
@@ -40,7 +40,7 @@ His dis -- ci -- ples re -- called the words of scrip -- ture, “Zeal for your 
 		\cadenzaOn
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
-		a a[ a] g4( \pecesure \pes
+		a a[ a] g4( \pecesure \pespace
 		f8) g[ a] a[ a] bes16[ a a g] a8[( a] a4) \cesure
 		a8 a[ g] f[ e] d4
 		\endBar

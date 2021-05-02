@@ -47,7 +47,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
-		g8 a16[ c c c] c8[ c c] c16[ c c b c d] c4( c8) \pes \cesure \pespace
+		g8 a16[ c c c] c8[ c c] c16[ c c b c d] c4( c8) \pespace \cesure \pespace
 		r8( c[ c]) c[ c c] c4 c16[ c c c] c[ b c a] g4( g8)
 		\endBar
 	}
