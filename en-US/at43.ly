@@ -1,12 +1,12 @@
 \version "2.14.0"
  \include "definitions.ly"
-\markup {AT 43 }
+\markup {OT 43 }
 
 
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {T.O.  } }
+		\set Staff.instrumentName = \markup{ \center-column {O.T.  } }
 
                 c8 d f [f f] f16 [f f f f f] f8 [f] e [c] d [d] 
 
@@ -23,7 +23,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-column { O.T. } }
 		
 		c8 [d] f [f] f [f] c [e] d4
 		
@@ -33,14 +33,14 @@
 		%Vous se -- rez re -- vê -- tus de la for -- ce d'en haut.		
 		You are clothed with po -- wer from on high.
 		
-		\markup { \citation #"Lc 24:49" } 
+		\markup { \citation #"Lk 24:49" } 
 	}
 }
 
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column {Av. Car.  } }
+		\set Staff.instrumentName = \markup{ \center-column {Adv. Lent  } }
 
                 f8 [f f] f [f f] f [f f f] f [f f] c [e] d4
 
@@ -50,14 +50,14 @@
                 %Re -- le -- vez la tê -- te car vo -- tre ré -- demp -- tion ap -- pro -- che.		
 		%Stand erect and raise your heads because your redemption is at hand
 		Stand up and raise your heads be -- cause your re -- demp -- tion is draw -- ing near.
-		\markup { \citation #"Lc 21:28" } 
+		\markup { \citation #"Lk 21:28" } 
 	}
 }
 
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Noël T.P. } }
+		\set Staff.instrumentName = \markup{ \center-column { Chr. Easter } }
 
                 c8 d ([f) f f] f [f g] f \cesure
                 f f16 [f f f e c] d8 [d]
