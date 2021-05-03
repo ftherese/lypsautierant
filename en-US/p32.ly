@@ -8,17 +8,15 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {  O.T. } }
 		
-		\times 2/3 { f8[ a c] }  
-		c[ d]
-		c[\( c\)] \cesure \pespace
-		\times 2/3 { c[ c c] }
-		\times 2/3 { c[\( c\) d] }
-		\times 2/3 { b[ b c] }  a4
+		f8 a c [c] \cesure
+		c8 c c d b b c a4
+		
 		\endBar
 	}
 	\addlyrics {
 		%Dieu de mi -- sé -- ri -- cor -- de, par ta pa -- ro -- le tu fis l'u -- ni -- vers.
-		Lord of mer -- cy,you who have made all things by your word.
+		%Lord of mer -- cy, you who have made all things by your word.
+		Lord of mer -- cy, you have made all things by your word.
 		\markup { \citation #"Wis 9:1" } 
 	}
 }
@@ -28,8 +26,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
 		
-		f8 a c c c c c c c c c c
-		
+		f8 a c c d c \cesure
+		c8 d b c a [a]		
 		
 		\endBar
 	}
@@ -45,9 +43,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
 		
-		f8 a c c c c c \cesure
-		c c c c c c c c \cesure
-		c c c c c c c
+		f8 a c c c d c \cesure
+		c c c c c c c c c d b b b c a
 		
 		\endBar
 	}
@@ -65,14 +62,14 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr.} }
 		
-		f8 a c c c \cesure
-		c c c c c c c c 		
+		f8 a c d c4 \cesure
+		c8 c c c d b c a 		
 		
 		\endBar
 	}
 	\addlyrics {
 		%Le Verbe ét -- ait dans le mon -- de et le mon -- de fut par lui.
-		He was in the world, and the world came to be through him.
+		He was in the world, and the world came to be through Him.
 		\markup { \citation #"Jn 1:10" } 
 	}
 }
@@ -82,7 +79,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Easter} }
 		
-		f8 a c c c c c c c c c c a
+		f8 a c c c c c c \cesure
+		d8 b b c a
 		
                 \cesure \pespace \times 2/3 {f8[ a c]} c4
 		
@@ -91,7 +89,7 @@
 	\addlyrics {
 		%Tout est de lui, et par lui, et pour lui. A -- "men !"  "Al" -- le -- lu -- "ia !"
 		%For from him and through him and for him are all things. To him be glo -- ry for -- ev -- er. A -- "men !"  "Al" -- le -- lu -- "ia !"
-		From him and through him and for him are all things. A -- "men !"  "Al" -- le -- lu -- "ia !"
+		From Him and through Him and for Him are all things. A -- "men !"  "Al" -- le -- lu -- "ia !"
 		\markup { \citation #"Rom 11:36" } 
 	}
 }
