@@ -5,7 +5,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-column { O.T. } }
 		f8 a c c c d c c \cesure
 		c c d b c a
 		\barre
@@ -23,7 +23,7 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Car. } }
+		\set Staff.instrumentName = \markup{ \center-column { O.T. Lent } }
 		f8 a c c d c c \cesure
 		c c d b c a
 		\endBar
@@ -39,7 +39,7 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-column { Adv. } }
 		f8 a c c c c c c d c \cesure
 		c d b c a
 		\endBar
@@ -58,7 +58,7 @@
 	\new Staff {
 		\cadenzaOn
 		\key f \major
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \center-column { Chr. } }
 		f8 a c c c c c c c c c c c c d c \cesure
 		c d b c a
 		\endBar
@@ -79,7 +79,7 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-column { Easter } }
 		f8 a c c c c d c \cesure
 		c c c c c c c d b b b c a
 		
