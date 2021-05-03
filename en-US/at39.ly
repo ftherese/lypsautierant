@@ -4,7 +4,7 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { O.T. Chr } }
+		\set Staff.instrumentName = \markup{ \center-column { O.T. Chr. } }
 		
 		 f8 [a] c [d] c [c] \cesure
 		 c8 c c c c c d b b c a 
