@@ -1,11 +1,11 @@
 \version "2.14.0"
  \include "definitions.ly"
-\markup {AT 30 }
+\markup {OT 30 }
 
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-column { O.T. } }
 		
 		f8 a c d c4 \cesure
 		c8 c c c c c c d b c a4
@@ -22,7 +22,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-column { O.T. } }
 		
 		f8 a c c c c d c4 \cesure
 		c8 c c d b c a4
@@ -40,7 +40,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. Noël } }
+		\set Staff.instrumentName = \markup{ \center-column { Adv. Chr. } }
 		
 		f8 a c c d b b c a4
 		
@@ -60,7 +60,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-column { Lent } }
 		
 		f8 a c c c c c d c c \cesure
 		c8 c d b b c a a4
@@ -77,7 +77,7 @@
 \relative a' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-column { Easter } }
 		
 		f8 a c c c c c c d b b c a4
 		
