@@ -1,11 +1,11 @@
 \version "2.14.0"
  \include "definitions.ly"
-\markup {AT 27 }
+\markup {OT 27 }
 
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-column { O.T. } }
 		
 		f4 f8 f [c e] d4
 		
@@ -23,7 +23,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-column { Adv. } }
 		
 		f8 [f f] f [f f] f [c e] d
 		
@@ -40,7 +40,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \center-column { Chr } }
 		
 		f8 f [f f f] f [f f] f [f c e] d4
 		
@@ -55,7 +55,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-column { Lent } }
 		
 		c8 d f [f] f [f f] c [e] d4
 		
@@ -70,7 +70,7 @@
 \relative d' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-column { Easter } }
 		
 		f8 [f f] f [f] f [f] c [e] d4]
 		
