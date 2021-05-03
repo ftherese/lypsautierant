@@ -1,11 +1,11 @@
 \version "2.14.0"
  \include "definitions.ly"
-\markup {AT 41-8 }
+\markup {OT 41-8 }
 
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. Av. } }
+		\set Staff.instrumentName = \markup{ \center-column { O.T. Adv. } }
 		
 		g8 a c c c b c a g4
 		
@@ -22,7 +22,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. T.P. } }
+		\set Staff.instrumentName = \markup{ \center-column { O.T. Easter } }
 
 
                 g8 a c c c d c4 \pespace \cesure
@@ -35,7 +35,7 @@
 	}	\addlyrics {
                 %Voi -- ci que je fais tou -- tes cho -- ses nou -- vel -- les. Al -- le -- lu -- - -- "ia !"
                 Be -- hold, I make all things new.  Al -- le -- lu -- - -- "ia!"
-		\markup { \citation #"Ap 21"}
+		\markup { \citation #"Rev. 21"}
 	}
 }
 
@@ -43,7 +43,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \center-column { Chr. } }
 		
 	        c8 c d c c \cesure
 		c8 c b c a g4 (g8)
@@ -63,7 +63,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-column { Lent } }
 		
 		g8 a c c c c c c d c4 (c8) \cesure
 		c8 b c a g4
