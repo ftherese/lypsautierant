@@ -1,10 +1,10 @@
 \version "2.14.0"
  \include "definitions.ly"
-\markup {AT 40 }
+\markup {OT 40 }
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-column { O.T. } }
 		
 		g8 a c c c c c c c c c c b c a g4
 		
@@ -18,7 +18,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-column { O.T. } }
 		
 		g8 a c c c c c c c c c d c c \cesure\pespace
 		c8 c c c c c c c c b c a g g 
@@ -34,7 +34,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Av. } }
+		\set Staff.instrumentName = \markup{ \center-column { Adv. } }
 		
 		g8 a c c c b c a g4 (g8)
 		
@@ -52,7 +52,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Noël } }
+		\set Staff.instrumentName = \markup{ \center-column { Chr. } }
 		
 		g8 a c c c c c c c c c c d c4
 		
@@ -72,7 +72,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { Car. } }
+		\set Staff.instrumentName = \markup{ \center-column { Lent } }
 		
 		g8 a c c c c c c b c a g g g
 		
@@ -87,7 +87,7 @@
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
-		\set Staff.instrumentName = \markup{ \center-column { T.P. } }
+		\set Staff.instrumentName = \markup{ \center-column { Easter } }
 		
 		g8 a c c c c c c4 \cesure c8 c c [c d] c4 \pespace\cesure
 		
