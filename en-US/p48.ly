@@ -9,18 +9,16 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		\times 2/3 { a8 c d }
-		c[\( c\)]
-		\pespace
-		\times 2/3 { r\( c d\) }
-		\times 2/3 { b[ c a] }
-		a4
+		
+		f8 a c c c d c4 \cesure
+		c8 d b b c a4
+		
 		\endBar
 	}
 	\addlyrics {
 		%Que sert à l'hom -- me de ga -- gner l'u -- ni -- "vers ?"
 		%What pro -- fit is there for one to gain the whole world yet lose or for -- feit him -- self?
-		What pro -- fit is there for one to gain the whole world?
+		What does it pro -- fit a man if he gains the whole world?
 		\markup { \citation #"Lk 9:25" } 
 	}
 }
@@ -29,8 +27,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		f8 a c c c c c \cesure
-		c c c c c c c c
+		f8 a c c c d c4 \cesure
+		c8 c c c d b c a4
 
 		
 		\endBar
@@ -47,8 +45,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. Easter } }
 		
-		f8 a c c c c c c c c c \cesure
-		c c c c c c c c c c c
+		f8 a c c c c d c4 \cesure\pespace
+		c8 d b b c a [a] 
 		
 		\barre
 		\times 2/3 { c[ d c] }
@@ -57,8 +55,8 @@
 	}
 	\addlyrics {
 		%Dieu n'a-t -- -il pas choi -- si les pau -- vres pour les faire hé -- ri -- tiers du Ro -- yau -- "me ?" "(Al" -- le -- lu -- "ia !)"
-		Did not God choose those who are poor in the world to be rich in faith and heirs of the king -- dom? "(Al" -- le -- lu -- "ia !)"
-		
+		%Did not God choose those who are poor in the world to be rich in faith and heirs of the king -- dom? "(Al" -- le -- lu -- "ia !)"
+		Did not God choose those who are poor to be heirs of the king -- dom? "(Al" -- le -- lu -- "ia !)"
 		
 		\markup { \citation #"Jas 2:5" } 
 	}
@@ -70,14 +68,14 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		
-		f8 a c c c c \cesure
-		c c c c c c
+		f8 a c c d c4 \cesure
+		c8 c d b b c a4
 		
 		\endBar
 	}
 	\addlyrics {
 		%Où est ton tré -- sor, là aus -- si se -- ra ton cœur. 
-		For where your trea -- sure is, there also will your heart be.
+		For where your trea -- sure is, there al -- so will your heart be.
 		\markup { \citation #"Mt 6:21" } 
 	}
 }
@@ -86,8 +84,8 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
-		f8 a c c c c c c c \cesure
-		c c c c c c c c c 
+		f8 a c c c c c d c \cesure
+		c c c d b b c a [a] 
 		
 		\endBar
 	}
