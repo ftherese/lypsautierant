@@ -11,18 +11,16 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		\times 2/3 { r8_\( f[ a]\) }
-		\times 2/3 { c[\( c\)\cesure \pespace c] } 
-		d[ d] c4 \cesure \pespace
-		\times 2/3 { c8[ c\( c]\) } 
-		c16[ c c c] c16[ c c d]
-		\times 2/3 { b8[ b c] } 
-		a4\( a8\) r8
+		
+		f8 a c c c c d c4 \cesure\pespace
+		c8 c c c c c d b b c a [a]
+		
 		\endBar
 	}
 	\addlyrics {
 		%Sois sans crain -- te, pe -- tit trou -- peau, car vo -- tre Père a tro -- uvé bon de vous don -- ner le Ro -- yau -- me.
-		Do not be af -- raid a -- ny lon -- ger, lit -- tle flock, for your Fa -- ther is pleased to give you the king -- dom.
+		%Do not be af -- raid a -- ny lon -- ger, lit -- tle flock, for your Fa -- ther is pleased to give you the king -- dom.
+		Do not be af -- raid, lit -- tle flock, for your Fa -- ther is pleased to give you the king -- dom.
 		\markup { \citation #"Lk 12:32" } 
 	}
 }
@@ -31,7 +29,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Easter } }
 		
-		f8 a c c c c c a
+		f8 a c c d b c a4
 		
 		\barre
 		\times 2/3 { f8[ a c] }
@@ -49,7 +47,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
 		
-		f8 a c c c c c 
+		c8 d b b d c [c] 
 		
 		\endBar
 	}
@@ -63,14 +61,16 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
-		f8 a c c c c c \cesure\pespace
-		\times 2/3 { c a g }
+		
+		f8 a c c d b c a4 \cesure\pespace
+		
+		\times 2/3 { c8 [a g] }
 		a4
 		\endBar
 	}
 	\addlyrics {
 		 %De -- bout, res -- plen -- dis, car voi -- ci ta lu -- miè -- re. " Al" -- le -- lu -- "ia !"
-		Arise! Shine, for your light has come." Al" -- le -- lu -- "ia !"
+		A -- rise! Shine, for your light has come." Al" -- le -- lu -- "ia !"
 		\markup { \citation #"Is 60:1" } 
 	}
 }
@@ -79,15 +79,15 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
-		f8 a c c c c c c c c c c c c \cesure
-		c c c c c c c c c c c 
+		f8 a c c c c c c d c4 \cesure \pespace
+		c8 c c c c c d b b c a4 
 		
 		\endBar
 	}
 	\addlyrics {
 		%Ils vien -- nent de la grande é -- pre -- uve, ils ont la -- vé leurs ro -- bes dans le sang de l'A -- gneau.
 		%These are the ones who have sur -- vived the time of great dis -- tress; they have washed their robes and made them white in the blood of the Lamb.
-		These are the ones who have sur -- vived the time of great dis -- tress; they have washed their robes in the blood of the Lamb.
+		They have sur -- vived the time of great dis -- tress; they have washed their robes in the blood of the Lamb.
 		\markup { \citation #"Rev 7:14" } 
 	}
 }
