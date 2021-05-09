@@ -60,7 +60,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
 		
-		f8 a c c c d c4 \cesure
+		c8 [c] c c c d c4 \cesure
 		c8 c d b b c a [a]
 		
 		\endBar
