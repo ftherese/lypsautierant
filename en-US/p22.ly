@@ -42,7 +42,7 @@
 		will shep -- herd them
 		and lead them to springs of life- -- gi -- ving wa -- ter.
 		%, and God will wipe a -- way ev -- er -- y tear from their eyes.
-		\markup { \citation #"Rv 7:17" } }
+		\markup { \citation #"Rv 7" } }
 }
 
 \relative a' { 
