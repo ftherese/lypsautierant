@@ -8,10 +8,10 @@
 	\new Staff {
 		\cadenzaOn	\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		f8 \times 2/3 { g[\( a\) a] } 
-		\times 2/3 { a[  g bes] }  \times 2/3 { a[ a a] } 
-		\times 2/3 { a8 g a }
-		f4\( f8\) r
+		
+		f8 g a a a4 \cesure
+		a8 a a g a f4\( f8\) r
+		
 		\endBar
 	}
 	\addlyrics {
@@ -28,16 +28,16 @@
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
 		
-		f8 g a a a a a a \cesure
-		a a a a a a a \cesure
-		a a a a a a a
+		f8 g a a a a a \cesure
+		a b a g a a \cesure \pespace
+		a a a a g a f
 		
 		\endBar
 	}
 	\addlyrics {
 		 %Votre ad -- ver -- sai -- re rô -- de comme un lion ru -- gis -- "sant ;" ré -- sis -- tez- -- lui, fer -- mes dans la foi.
 		 %Be sober and vigilant. Your op -- pon -- ent the de -- vil is prow -- ling a -- round like a roar -- ing li -- on looking for some -- one to devour. Re -- sist him, stead -- fast in faith, knowing that your fellow believers throughout the world undergo the same sufferings.
-		 Your op -- pon -- ent is prow -- ling a -- round like a roar -- ing li -- on. Re -- sist him, stead -- fast in faith.
+		 Your op -- pon -- ent prowls a -- round like a roar -- ing li -- on. Re -- sist him, firm in your faith.
 		 \markup { \citation #"1 Pt 5:8-9" }
 	}
 }
@@ -49,14 +49,14 @@
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
 		
-		f8 g a a a a a a a a \cesure
-		a a a a a a a a a a a a a a
+		f8 g a a a b a g a a \cesure\pespace
+		a a a a a a a a a g a f f f 
 		
 		\endBar
 	}
 	\addlyrics {
 		 %L'Es -- prit Saint vien -- dra sur toi, la puis -- san -- ce du Très- -- Haut te pren -- dra sous son om -- bre.
-		 The ho -- ly Spir -- it will come up -- on you, and the pow -- er of the Most High will ov -- er -- sha -- dow you.
+		 The Ho -- ly Spir -- it will come up -- on you, and the pow -- er of the Most High will ov -- er -- sha -- dow you.
 		\markup { \citation #"Lk 1:35" }
 	}
 }
