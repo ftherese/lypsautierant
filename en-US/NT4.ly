@@ -4,7 +4,6 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { O.T. } }
 		f8 a c c c d c c \cesure
 		c c d b c a
@@ -57,16 +56,15 @@
 \relative c' { 
 	\new Staff {
 		\cadenzaOn
-		\key f \major
 		\set Staff.instrumentName = \markup{ \center-column { Chr. } }
-		f8 a c c c c c c c c c c c c d c \cesure
+		f8 a c c c c c c c c c c c c d c \cesure\pespace
 		c d b c a
 		\endBar
 	}
 	\addlyrics {
 		%Nous av -- ons con -- tem -- plé la glo -- ire qu'il tient de son Pè -- re com -- me Fils u -- ni -- que, plein de grâce et de vé -- ri -- té. 
 		%And the Word be -- came flesh and made his dwell -- ing a -- mong us, and we saw his glor -- y, the glor -- y as of the Fa -- ther’s on -- ly Son, full of grace and truth.
-		We saw his glor -- y, the glor -- y as of the Fa -- ther’s on -- ly Son, full of grace and truth.
+		We saw His glor -- y, the glor -- y as of the Fa -- ther’s on -- ly Son, full of grace and truth.
 		\markup { \citation #"Jn 1:14"}
  }
 }
@@ -80,7 +78,7 @@
 	\new Staff {
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \center-column { Easter } }
-		f8 a c c c c d c \cesure
+		f8 a c c c c d c \cesure\pespace
 		c c c c c c c d b b b c a
 		
 		\times 2/3 { c8[ a g] } a4
