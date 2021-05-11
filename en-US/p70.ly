@@ -10,18 +10,15 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Adv. } }
-		f16
-		g[ a g bes]
-		a4
-		\espace
-		\times 2/3 { r8_\( a a\) }
-		\times 2/3 { g[ a f] }
-		f4
+		
+		a8 a bes a g a4 \cesure
+		a8 a g a f [f f]
+		
 		\endBar
 	}
 	\addlyrics {
-		 Heu -- reux les af -- fli -- gés, ils se -- ront con -- so -- lés.
-		 %Bless -- ed are they who mourn, for they will be com -- for -- ted.
+		 %Heu -- reux les af -- fli -- gés, ils se -- ront con -- so -- lés.
+		 Bless -- ed are they who mourn, for they will be com -- for -- ted.
 		\markup { \citation #"Mt 5:4" }
 	}
 }
@@ -29,20 +26,14 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
-		\times 2/3 { f8 g a }
-		a[\( g\)]
-		\times 2/3 { bes a g }
-		a4
-		\cesure \pespace
-		a16[ a a a]
-		\times 2/3 { a8 a a }
-		\times 2/3 { g[\( a\) f] }
-		f4
+		
+		f8 g a a g bes a4 \cesure
+		a8 a a a a a g a f4
 		\endBar
 	}
 	\addlyrics {
-		 Res -- te fi -- dè -- le jus -- qu'à la mort, je te don -- ne -- rai la cou -- ron -- ne de vie.
-		 %Re -- main faith -- ful un -- til death, and I will give you the crown of life.
+		 %Res -- te fi -- dè -- le jus -- qu'à la mort, je te don -- ne -- rai la cou -- ron -- ne de vie.
+		 Re -- main faith -- ful un -- til death, and I will give you the crown of life.
 		\markup { \citation #"Rv 2:10" }
 	}
 }
@@ -50,19 +41,16 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
-		\times 2/3 { f8 g a }
-		a[ \cesure \pespace a]
-		bes4 \cesure \pespace		
-		\times 2/3 { a8 g a }
-		\times 2/3 { a[ \cesure\pespace a g] }
-		a[ f]
-		f4
+		
+		a8 a a a g a f4
+		
 		\endBar
 	}
 	\addlyrics {
-		 Tu peux lais -- ser, Sei -- gneur, ton ser -- vi -- teur s'en al -- ler en paix.
+		 %Tu peux lais -- ser, Sei -- gneur, ton ser -- vi -- teur s'en al -- ler en paix.
 		 %Now, Mas -- ter, you may let your ser -- vant go in peace.
-		\markup { \citation #"Lk 2:29" }
+		 Lord you may let your ser -- vant de -- part in peace.
+		 \markup { \citation #"Lk 2:29" }
 	}
 }
 \relative a' { 
