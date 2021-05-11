@@ -29,7 +29,7 @@
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
 		
 		f8 g a a a a a \cesure
-		a bes a g a a \cesure \pespace
+		a a bes g a a \cesure \pespace
 		a a a a g a f
 		
 		\endBar
@@ -49,7 +49,7 @@
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Adv. } }
 		
-		f8 g a a a bes a g a a \cesure\pespace
+		f8 g a a a a bes g a a \cesure\pespace
 		a a a a a a a a a g a f f f 
 		
 		\endBar
@@ -68,7 +68,7 @@
 		\cadenzaOn	\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		
-		f8 g a a a a a a bes a g [a] \cesure\pespace
+		f8 g a a a a a bes a g a [a] \cesure\pespace
 		a a a a a a a g a f [f]
 		
 		\endBar
@@ -88,7 +88,7 @@
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
 		
-		f8 g a a a \cesure
+		a8 bes g a a \cesure
 		a8 a a g a f4 
 		
 		\cesureall
