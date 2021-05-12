@@ -10,7 +10,7 @@
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
 		f8 g a a a a \cesure
-		a8 a a a a \cesure
+		a8 bes g a a \cesure
 		a g a f [f]
 		
 		\endBar
@@ -26,8 +26,8 @@
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
 		
-		f8 g a a a a \cesure
-		a8 a a a a \cesure
+		f8 g a [a a a] \cesure
+		bes8 [a a] g [a] \cesure
 		a8 a g a f [f f]
 		
 		\endBar
@@ -42,19 +42,16 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Adv. Easter } }
-		f16[ g a a]
-		a16[\( a\) a a]
-		bes16[\( a\) a g]
-		\times 2/3 { a8[\( a\) \cesure \pespace a] }
-		\times 2/3 { a8[ g a] }
-		f4\( f8\) r8
+		
+		f8 g a bes a a g a [a] \cesure
+		a g a f4 
 		\barre
 		\times 2/3 {f8[ g a]} g4
 		\endBar
 	}	\addlyrics {
 		%Telle est la pro -- mes -- se que lui- -- mê -- me vous a fai -- "te :" la vie é -- ter -- nel -- le. "(Al" -- le -- lui -- "a !)"
 		%This is the pro -- mise that he made us: e -- ter -- nal life. "(Al" -- le -- lui -- "a !)"
-		This is the pro -- mise that he made us: e -- ter -- nal life. "(Al" -- le -- lui -- "a !)"
+		This is the pro -- mise that He made us: e -- ter -- nal life. (Al -- le -- lui -- a!)
 		\markup { \citation #"1 Jn 2:25"}
 	}
 }
@@ -62,15 +59,15 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
-		\times 2/3 {f8[ g a]} g[ bes] a4 \cesure \pespace
-		a16[ a a a]
-		a16[ a a a]
-		\times 2/3 { g8[ a f] }
-		f4
+		
+		f8 [g] a [a] bes [a a g] a [a] \cesure
+		a8 [a g a] f [f]
+		
 		\endBar
 	}	\addlyrics {
-		Comme il l'a -- vait pro -- mis, Dieu a sus -- ci -- té pour Is -- ra -- ël un Sau -- veur.
-		%God, ac -- cor -- ding to his pro -- mise, has brought to Is -- ra -- el a sa -- vior, Jesus.
+		%Comme il l'a -- vait pro -- mis, Dieu a sus -- ci -- té pour Is -- ra -- ël un Sau -- veur.
+		%God, ac -- cor -- ding to his pro -- mise, has brought to Is -- ra -- el a sa -- vior, Jesus. (use RSVCE)
+		God has brought to Is -- ra -- el a Sa -- vior, Je -- sus, as He pro -- mised.
 		\markup { \citation #"Acts 13:23"}
 	}
 }
@@ -79,18 +76,16 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Lent } }
-		f8
-		\times 2/3 { g[ a a] }
-		\times 2/3 { a4\( \pespace a8\) }
-		g16[bes a g]
-		\times 2/3 { a4\( \pespace a8\) }
-		a[\( a\)]
-		a16[ a g a]
-		f4\( f8\) r
+		
+		a8 a a bes g a4 \cesure
+		a8 a a a a a a g a f4
+		
 		\endBar
 	}	\addlyrics {
-		Le Christ s'est li -- vré a -- fin de pu -- ri -- fier un peu -- ple qui lui ap -- par -- tien -- ne.
+		%Le Christ s'est li -- vré a -- fin de pu -- ri -- fier un peu -- ple qui lui ap -- par -- tien -- ne.
 		%Jesus Christ, who gave him -- self for us to deliver us from all lawlessness and to cleanse for him -- self a peo -- ple as his own.
+		%Jesus Christ, who gave him -- self for us to cleanse for him -- self a peo -- ple as his own.
+		Christ gave Him -- self for us to pur -- i -- fy a pe -- ople of His own.
 		\markup { \citation #"Ti 2:14"}
 	}
 }
