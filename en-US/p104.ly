@@ -1,6 +1,6 @@
 \version "2.14.0"
  \include "definitions.ly"
- \markup { \hspace #-10 \fill-line { "Psalm 104" "Mode 6" \null \null }  }
+ \markup { \hspace #-10 \fill-line { "Psalm 104" "Mode 6" \null \null }  } %Attn: change from Mode 5
 \noPageBreak
 
 
@@ -8,20 +8,16 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		f8
-		\times 2/3 { g[ a\( a\)] }
-		\times 2/3 { a\( g\) bes }
-		a4
-		\cesure \pespace
-		\times 2/3 { a8[ a a] }
-		\times 2/3 { a8[\( a\) g] }
-		a4\cesure	\pespace 
-		a16[\( a\) g a]
-		f4\( f8\) r
+		
+		f8 g a a a a \cesure
+		a8 a a a a \cesure
+		a g a f [f]
+		
 		\endBar
 	}	\addlyrics {
-		Vous êtes u -- ne ra -- ce choi -- sie, un sa -- cer -- do -- ce ro -- yal, u -- ne na -- tion sain -- te.
+		%Vous êtes u -- ne ra -- ce choi -- sie, un sa -- cer -- do -- ce ro -- yal, u -- ne na -- tion sain -- te.
 		%You are a cho -- sen race, a ro -- yal priest -- hood, a ho -- ly na -- tion, a peo -- ple of his own.
+		You are a cho -- sen race, a ro -- yal priest -- hood, a ho -- ly na -- tion.
 		\markup { \citation #"1 Pt 2:9"}
 	}
 }
@@ -29,17 +25,15 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. } }
-		\times 2/3 { f8[ g a] }
-		\times 2/3 { a8[ g bes] }
-		a4 \cesure \pespace a8[ a a]
-		\times 2/3 { a8[ a a] }
-		a8[\cesure \pespace a]
-		a16[ a g a]
-		f4\( f8\) r8		
+		
+		f8 g a a a a \cesure
+		a8 a a a a \cesure
+		a8 a g a f [f f]
+		
 		\endBar
 	}	\addlyrics {
-		Ils sont les fils d'Is -- ra -- ël, ay -- ant pour eux l'a -- dop -- tion, la gloire et les al -- lian -- ces.
-		%They are Is -- ra -- e -- lites; theirs the a -- dop -- tion, the glo -- ry, the co -- ve -- nants.
+		%Ils sont les fils d'Is -- ra -- ël, ay -- ant pour eux l'a -- dop -- tion, la gloire et les al -- lian -- ces.
+		They are Is -- ra -- e -- lites; theirs the a -- dop -- tion, the glo -- ry, the co -- ve -- nants.
 		\markup { \citation #"Rom 9:4"}
 	}
 }
@@ -58,8 +52,9 @@
 		\times 2/3 {f8[ g a]} g4
 		\endBar
 	}	\addlyrics {
-		Telle est la pro -- mes -- se que lui- -- mê -- me vous a fai -- "te :" la vie é -- ter -- nel -- le. "(Al" -- le -- lui -- "a !)"
+		%Telle est la pro -- mes -- se que lui- -- mê -- me vous a fai -- "te :" la vie é -- ter -- nel -- le. "(Al" -- le -- lui -- "a !)"
 		%This is the pro -- mise that he made us: e -- ter -- nal life. "(Al" -- le -- lui -- "a !)"
+		This is the pro -- mise that he made us: e -- ter -- nal life. "(Al" -- le -- lui -- "a !)"
 		\markup { \citation #"1 Jn 2:25"}
 	}
 }
