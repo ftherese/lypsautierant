@@ -11,7 +11,7 @@
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Adv. } }
 		
-		a8 a bes a g a4 \cesure
+		a8 a a bes g a4 \cesure
 		a8 a g a f [f f]
 		
 		\endBar
@@ -42,14 +42,14 @@
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Chr. } }
 		
-		a8 a a a g a f4
+		f8 g a a a a a a a g a f4
 		
 		\endBar
 	}
 	\addlyrics {
 		 %Tu peux lais -- ser, Sei -- gneur, ton ser -- vi -- teur s'en al -- ler en paix.
-		 %Now, Mas -- ter, you may let your ser -- vant go in peace.
-		 Lord you may let your ser -- vant de -- part in peace.
+		 Now, Mas -- ter, you may let your ser -- vant go in peace.
+		 %Lord you may let your ser -- vant de -- part in peace.
 		 \markup { \citation #"Lk 2:29" }
 	}
 }
@@ -57,24 +57,16 @@
 	\new Staff {
 		\cadenzaOn 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
-		f8[ g]
-		a4
-		\cesure
-		g8[ bes]
-		a4
-		\pespace
-		\times 2/3 { r8_\( a a\) }
-		a16[ a a a]
-		\times 2/3 { a8 a g }
-		a[ f]
-		f4 
+		
+		a8 a bes g a a a a a a a a g a f4
 		\times 2/3 { r8_\( f g\) }  bes[\( g\)]  a4
 		\endBar
 	}
 	\addlyrics {
-		 Ni la mort, ni la vie ne pour -- ront nous sé -- pa -- rer de l'a -- mour de Dieu.  Al -- le -- lu -- - -- "ia !"
+		 %Ni la mort, ni la vie ne pour -- ront nous sé -- pa -- rer de l'a -- mour de Dieu.  Al -- le -- lu -- - -- "ia !"
 		 %For I am convinced that nei -- ther death, nor life, nor angels, nor principalities, nor present things, nor future things, nor powers, nor height, nor depth, nor any other creature will be ab -- le to sep -- ar -- ate us from the love of God in Christ Jesus our Lord. Al -- le -- lu -- - -- "ia !"
-		\markup { \citation #"Rom 8:38-39" }
+		 Nei -- ther death, nor life can sep -- ar -- ate us from the love of God. Al -- le -- lu -- - -- ia!
+		 \markup { \citation #"Rom 8" }
 	}
 }
 
