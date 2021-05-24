@@ -32,7 +32,7 @@
 
 	\addlyrics {
 		%Par sa bles -- su -- re nous som -- mes gué -- ris.
-		By his wounds
+		By His wounds
 		you have been healed.
  		\markup { \citation #"1 Pt 2:24" } }
 }
@@ -73,7 +73,7 @@
 	\addlyrics {
 		%Sa grâ -- ce dé -- bor -- de jus -- qu'à  nous en toute in -- tel -- li -- gence et sa -- ges -- se. Al -- le -- lu -- "ia !"
 		%In all wisdom and insight, 9 he has made known to us the mystery of his will in accord with his favor that he set forth in him. Al -- le -- lu -- "ia !"
-		In all wis -- dom and in -- sight, he has made known to us the my -- stery of his will in ac -- cord with his fa -- vor. Al -- le -- lu -- ia!
+		In all wis -- dom and in -- sight, He has made known to us the my -- stery of His will in ac -- cord with His fa -- vor. Al -- le -- lu -- ia!
  		\markup { \citation #"Eph 1:8-9" } }
 	
 	
