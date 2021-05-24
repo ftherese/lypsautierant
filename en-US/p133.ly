@@ -94,7 +94,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { Easter } }
 		
-		f8 g a a a bes a a g a4 \cesure
+		f8 g a a a bes a g g a4 \cesure
 		a8 a a a a g a f4
 		
 		\cesure 
