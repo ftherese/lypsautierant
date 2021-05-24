@@ -25,7 +25,7 @@
 		\key f \major
 		\set Staff.instrumentName = \markup{ \left-column { O.T. Lent } }
 		
-		f8 g a a bes a g a a4 \cesure
+		f8 g a a bes a g g a4 \cesure
 		a8 a a a a a g a f4
 		
 		\endBar
