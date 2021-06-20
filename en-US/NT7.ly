@@ -1,6 +1,6 @@
-﻿\version "2.14.0"
+\version "2.14.0"
 \include "definitions.ly"
-\markup {NT 7 }
+\markup {NT 7 mode 4 }
 
 \relative a' { 
 	\new Staff {
@@ -17,6 +17,8 @@
 	}
 	\addlyrics {
 		Le Christ par -- "mi vo" -- us est l'es -- pé -- ran -- ce de la gloi -- re. "(Al" -- le -- lu -- - -- "ia !)"
+		%To them God chose to make known how great among the Gentiles are the riches of the glory of this mystery, which is Christ in you, the hope of glory.
+		%God chose to make known this mys -- tery: Christ in you, the hope of glo -- ry. (Al -- le -- lu -- - -- ia!)
 		\markup { \citation #"Col 1"}
  }
 }
