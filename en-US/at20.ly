@@ -1,24 +1,25 @@
-﻿\version "2.14.0"
+\version "2.14.0"
  \include "definitions.ly"
-\markup {AT 20 }
+\markup {OT 20 }
 
 \relative c'' { 
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { T.O. } }
+		\set Staff.instrumentName = \markup{ \center-column { O.T } }
 		
 	
-	c16
-	\times 2/5 {d[ c\( c\) c b]}
-	a8[\( c\)] \cesure
-	\pespace
-	\times 2/3 { c8[ c a] }
-	\times 2/3 { c8[\( c\) b] } a4
+	        c8 c c c c c c c
+	        c8 c c c c c c c 
+	
+	
+	
 	\endBar}
 	\addlyrics {
-		Vous êtes u -- ne na -- tion sain -- te, un sa -- cer -- do -- ce ro -- yal.
-		%But you are “a cho -- sen race, a roy -- al priest -- hood, a ho -- ly na -- tion.
+		%Vous êtes u -- ne na -- tion sain -- te, un sa -- cer -- do -- ce ro -- yal.
+		%But you are a cho -- sen race, a roy -- al priest -- hood, a ho -- ly na -- tion.
+		You are a cho -- sen race, a roy -- al priest -- hood, a ho -- ly na -- tion.
+		
 		\markup { \citation #"1 Pet 2:9" } }
 }
 
@@ -27,7 +28,7 @@
 	\new Staff {
 		\cadenzaOn
 		
-		\set Staff.instrumentName = \markup{ \center-column { Av. Car. } }
+		\set Staff.instrumentName = \markup{ \center-column { Adv. Lent } }
 		\times 2/3 { r8_\( g a\) }
 		\time 2/3 { c[ c c] }
 		\slurDashed d4( \pespace 
@@ -91,7 +92,7 @@
 	}
 
 	\addlyrics {
-		Le pre -- mier jour de la se -- mai -- ne, dès l'au -- ro -- re, el -- les vin -- rent à  la tom -- be. Al -- le -- lu -- "ia !" _ _
+		Le pre -- mier jour de la se -- mai -- ne, dès l'au -- ro -- re, el -- les vin -- rent à  la tom -- be. Al -- le -- lu -- "ia !" _ _
 		%But at day -- break on the first day of the week they took the spi -- ces they had pre -- pared and went to the tomb. Al -- le -- lu -- "ia !"
 		\markup { \citation #"Lk 24:1" } }
 }
