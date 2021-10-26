@@ -46,7 +46,7 @@
 		\cadenzaOn
 		\set Staff.instrumentName = \markup{ \left-column {Adv. Chr.} }
 		
-		8 c [d] c [c] \cesure\pespace
+		c8 c [d] c [c] \cesure\pespace
 		c b [c ] a4 (g4)
 		
                 \barre 
