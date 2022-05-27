@@ -1,0 +1,29 @@
+function! ToggleAccent()
+   " Vowels
+   let withAccent   = [ "á", "é", "í", "ó", "ú", "ý", "Á", "É", "Í", "Ó", "Ú", "Ý" ]
+   let withNoAccent = [ "a", "e", "i", "o", "u", "y", "A", "E", "I", "O", "U", "Y" ]
+
+   " A better way of getting the character under the cursor
+   " From: https://stackoverflow.com/a/23323958/1121933
+   let character = matchstr( getline('.'), '\%' . col('.') . 'c.' )
+
+   " If it's a vowel without an acute accent over it, 'position' will contain
+   " the index of the matching element in the 'withNoAccent' list or -1 otherwise.
+   let position = match( withNoAccent , character )
+   if position != -1
+      " Replace it with an accented vowel
+      execute ":normal! r" . withAccent[position]
+   else
+      " Check if it's a vowel with an acute accent over it
+      let position = match( withAccent , character )
+      if position != -1
+         " Replace it with a vowel with no accent
+         execute ":normal! r" . withNoAccent[position]
+     endif
+   endif
+
+   " Do nothing if it isn't a vowel
+endfunction
+
+" Map the '-' key
+nnoremap <silent> - :call ToggleAccent()<CR>
